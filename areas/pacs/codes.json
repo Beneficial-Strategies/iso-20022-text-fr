@@ -1,0 +1,5 @@
+{
+ "SettlementMethod2Code/CLRG": "Le règlement s'effectue via un système de compensation de paiements.",
+ "SettlementMethod2Code/INDA": "Le règlement est effectué par l'agent chargé d'exécuter une instruction de paiement.",
+ "SettlementMethod2Code/INGA": "Le règlement est effectué par l'agent qui donne l'instruction et transmet le paiement à la partie suivante dans la chaîne de paiement."
+}

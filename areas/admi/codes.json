@@ -1,0 +1,21 @@
+{
+ "ExternalNotificationSubType1Code/CRED": "La notification est destinée au service du crédit.",
+ "ExternalNotificationSubType1Code/LIQI": "La notification est destinée au service de la liquidité.",
+ "ExternalNotificationSubType1Code/LOAN": "La notification est destinée au service des prêts.",
+ "ExternalNotificationSubType1Code/PAOP": "La notification est destinée au service des opérations de paiement.",
+ "ExternalNotificationSubType1Code/SALE": "La notification est destinée au service commercial.",
+ "ExternalNotificationSubType1Code/SERV": "La notification est destinée au service de gestion de la relation client.",
+ "ExternalNotificationType1Code/ADDR": "Notification d'un changement d'adresse.",
+ "ExternalNotificationType1Code/ATAC": "Notification de conditions générales nouvelles ou modifiées pour un compte.",
+ "ExternalNotificationType1Code/COUP": "Notification de coordonnées nouvelles ou modifiées.",
+ "ExternalNotificationType1Code/CUHO": "Notification d'un jour férié de la devise.",
+ "ExternalNotificationType1Code/INCH": "Notification de tout changement pertinent du secteur ou du marché.",
+ "ExternalNotificationType1Code/INFO": "Partage d'informations.",
+ "ExternalNotificationType1Code/MERG": "Notification d'une fusion et des changements associés.",
+ "ExternalNotificationType1Code/OPEN": "Notification d'une modification des heures d'ouverture.",
+ "ExternalNotificationType1Code/OTHR": "Autre type de notification.",
+ "ExternalNotificationType1Code/SSIS": "Notification d'une modification des instructions de règlement permanentes (SSI).",
+ "ExternalNotificationType1Code/SUSP": "Notification de suspension d'un traitement en raison d'un incident.",
+ "ExternalNotificationType1Code/SYST": "Demande d'accès à un système.",
+ "ExternalNotificationType1Code/TERM": "Notification de la résiliation d'un service, par exemple la clôture d'un compte."
+}

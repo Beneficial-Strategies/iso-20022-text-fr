@@ -1,0 +1,4 @@
+{
+ "ExternalNotificationSubType1Code": "Précise le sous-type de notification, tel que publié dans une liste de codes externe de sous-types de notification.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+ "ExternalNotificationType1Code": "Précise le type de notification, tel que publié dans une liste de codes externe de types de notification.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org."
+}

@@ -1,0 +1,10 @@
+{
+ "AmountType3Choice": "Précise le montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise ordonnée par la partie initiatrice.",
+ "GroupHeader122": "Ensemble de caractéristiques communes à toutes les opérations individuelles incluses dans le message.",
+ "OriginalPaymentInformation10": "Fournit des informations sur l'opération de paiement initiale à laquelle s'applique le message de remise.",
+ "RemittanceAdviceV07": "Le message RemittanceAdvice permet à l'initiateur de fournir des détails de remise pouvant être associés à un paiement.",
+ "RemittanceInformation27": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients.",
+ "RemittanceLocation10": "Fournit des informations sur l'avis de remise.",
+ "RemittanceLocationAdviceV03": "Le message RemittanceLocationAdvice permet à l'initiateur du message d'identifier où se trouve l'avis de remise pour un paiement associé.",
+ "TransactionReferences8": "Identifie l'opération sous-jacente."
+}

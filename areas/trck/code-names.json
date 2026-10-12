@@ -1,0 +1,7 @@
+{
+ "AmountConsistencyType1Code/CONS": "Montant cohérent",
+ "AmountConsistencyType1Code/ICFA": "Montant confirmé incohérent",
+ "AmountConsistencyType1Code/ICGA": "Montant des frais incohérent",
+ "AmountConsistencyType1Code/ICNS": "Montant incohérent",
+ "AmountConsistencyType1Code/IISA": "Montant de règlement interbancaire incohérent"
+}

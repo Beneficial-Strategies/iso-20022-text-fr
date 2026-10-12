@@ -1,0 +1,518 @@
+{
+ "AccountOwnerTransactionIdentification": {
+  "chosen": "Identification de l'opération par le titulaire du compte",
+  "candidates": {
+   "Identification de l'opération par le titulaire du compte": 55,
+   "Identification de l'opération du titulaire du compte": 8
+  }
+ },
+ "AccountServicerTransactionIdentification": {
+  "chosen": "Identification de l'opération par le teneur de compte",
+  "candidates": {
+   "Identification de l'opération par le teneur de compte": 62,
+   "Identification de l'opération du teneur de compte": 10
+  }
+ },
+ "AdditionalCancellationReasonInformation": {
+  "chosen": "Informations complémentaires sur le motif d'annulation",
+  "candidates": {
+   "Informations complémentaires sur le motif d'annulation": 1,
+   "Informations supplémentaires sur le motif d'annulation": 1
+  }
+ },
+ "AdditionalReasonInformation": {
+  "chosen": "Informations complémentaires sur le motif",
+  "candidates": {
+   "Informations complémentaires sur le motif": 148,
+   "Informations de motif complémentaires": 1
+  }
+ },
+ "AdditionalRemittanceInformation": {
+  "chosen": "Informations de remise complémentaires",
+  "candidates": {
+   "Informations de remise complémentaires": 2,
+   "Informations de remise supplémentaires": 2
+  }
+ },
+ "Agent": {
+  "chosen": "Agent",
+  "candidates": {
+   "Agent": 11,
+   "Banque": 1
+  }
+ },
+ "AnyBIC": {
+  "chosen": "Tout BIC",
+  "candidates": {
+   "Tout BIC": 37,
+   "BIC quelconque": 2
+  }
+ },
+ "ApprovalNumber": {
+  "chosen": "Numéro d'approbation",
+  "candidates": {
+   "Numéro d'approbation": 1,
+   "Numéro d'agrément": 1
+  }
+ },
+ "BalanceTo": {
+  "chosen": "Solde vers",
+  "candidates": {
+   "Solde vers": 17,
+   "Solde à": 1
+  }
+ },
+ "CancellationReason": {
+  "chosen": "Motif de l'annulation",
+  "candidates": {
+   "Motif de l'annulation": 13,
+   "Motif d'annulation": 5
+  }
+ },
+ "CashAccount": {
+  "chosen": "Compte espèces",
+  "candidates": {
+   "Compte espèces": 51,
+   "Compte de trésorerie": 6
+  }
+ },
+ "ChargesAccount": {
+  "chosen": "Compte de frais",
+  "candidates": {
+   "Compte de frais": 10,
+   "Compte des frais": 6
+  }
+ },
+ "ChargesAccountAgent": {
+  "chosen": "Banque du compte des frais",
+  "candidates": {
+   "Banque du compte des frais": 6,
+   "Banque du compte de frais": 3
+  }
+ },
+ "Compensation": {
+  "chosen": "Compensation",
+  "candidates": {
+   "Compensation": 2,
+   "Compensation financière": 1
+  }
+ },
+ "CopyDuplicate": {
+  "chosen": "Copie duplicata",
+  "candidates": {
+   "Copie duplicata": 3,
+   "Copie/duplicata": 1
+  }
+ },
+ "CorporateActionEventIdentification": {
+  "chosen": "Identification de l'événement sur titres",
+  "candidates": {
+   "Identification de l'événement sur titres": 70,
+   "Identification de l'événement d'opération sur titres": 1
+  }
+ },
+ "CreditorSchemeIdentification": {
+  "chosen": "Identification du schéma du créancier",
+  "candidates": {
+   "Identification du schéma du créancier": 10,
+   "Identification du créancier dans le schéma": 1
+  }
+ },
+ "CurrencyExchange": {
+  "chosen": "Change de devises",
+  "candidates": {
+   "Change de devises": 2,
+   "Opération de change": 2
+  }
+ },
+ "CurrentReservation": {
+  "chosen": "Réservation courante",
+  "candidates": {
+   "Réservation courante": 1,
+   "Réservation actuelle": 1
+  }
+ },
+ "DeliveryMethod": {
+  "chosen": "Mode de livraison",
+  "candidates": {
+   "Mode de livraison": 3,
+   "Mode de remise": 1
+  }
+ },
+ "Department": {
+  "chosen": "Service",
+  "candidates": {
+   "Service": 3,
+   "Département": 2
+  }
+ },
+ "DetailedNumberOfTransactions": {
+  "chosen": "Nombre d'opérations détaillé",
+  "candidates": {
+   "Nombre d'opérations détaillé": 2,
+   "Nombre détaillé d'opérations": 1
+  }
+ },
+ "DistrictName": {
+  "chosen": "Nom du district",
+  "candidates": {
+   "Nom du district": 3,
+   "Nom du quartier": 1
+  }
+ },
+ "EmailAddress": {
+  "chosen": "Adresse électronique",
+  "candidates": {
+   "Adresse électronique": 18,
+   "Adresse e-mail": 2
+  }
+ },
+ "EmailPurpose": {
+  "chosen": "Motif de l'e-mail",
+  "candidates": {
+   "Motif de l'e-mail": 1,
+   "Motif du courriel": 1
+  }
+ },
+ "EntryDate": {
+  "chosen": "Date de l'écriture",
+  "candidates": {
+   "Date de l'écriture": 1,
+   "Date d'écriture": 1
+  }
+ },
+ "ExpectedValueDate": {
+  "chosen": "Date de valeur attendue",
+  "candidates": {
+   "Date de valeur attendue": 8,
+   "Date de valeur prévue": 7
+  }
+ },
+ "FromDate": {
+  "chosen": "À partir de la date",
+  "candidates": {
+   "À partir de la date": 6,
+   "Date de début": 2
+  }
+ },
+ "FromDateTime": {
+  "chosen": "À partir de la date et heure",
+  "candidates": {
+   "À partir de la date et heure": 3,
+   "Date et heure de début": 1
+  }
+ },
+ "FromToDate": {
+  "chosen": "Date de début à fin",
+  "candidates": {
+   "Date de début à fin": 5,
+   "De la date à la date": 4,
+   "Date de début et de fin": 2
+  }
+ },
+ "GroupHeader": {
+  "chosen": "En-tête de groupe",
+  "candidates": {
+   "En-tête de groupe": 40,
+   "En-tête du groupe": 3
+  }
+ },
+ "InstructedAgent": {
+  "chosen": "Banque instruite",
+  "candidates": {
+   "Banque instruite": 20,
+   "Banque destinataire de l'instruction": 2
+  }
+ },
+ "InstructedAmount": {
+  "chosen": "Montant instruit",
+  "candidates": {
+   "Montant instruit": 10,
+   "Montant ordonné": 2,
+   "Montant de l'instruction": 1
+  }
+ },
+ "InstructedReimbursementAgent": {
+  "chosen": "Banque de remboursement destinataire de l'instruction",
+  "candidates": {
+   "Banque de remboursement destinataire de l'instruction": 2,
+   "Banque de remboursement destinataire de l'ordre": 2,
+   "Banque de remboursement instruite": 1
+  }
+ },
+ "InstructedReimbursementAgentAccount": {
+  "chosen": "Compte de la banque de remboursement destinataire de l'ordre",
+  "candidates": {
+   "Compte de la banque de remboursement destinataire de l'ordre": 2,
+   "Compte de la banque de remboursement instruite": 1,
+   "Compte de la banque de remboursement destinataire de l'instruction": 1
+  }
+ },
+ "InstructionForAssignee": {
+  "chosen": "Instruction pour le bénéficiaire de l'affectation",
+  "candidates": {
+   "Instruction pour le bénéficiaire de l'affectation": 1,
+   "Instruction pour le cessionnaire": 1
+  }
+ },
+ "InstructionProcessingAdditionalDetails": {
+  "chosen": "Détails supplémentaires du traitement de l'instruction",
+  "candidates": {
+   "Détails supplémentaires du traitement de l'instruction": 14,
+   "Détails complémentaires du traitement de l'instruction": 1
+  }
+ },
+ "InterbankSettlementAmount": {
+  "chosen": "Montant du règlement interbancaire",
+  "candidates": {
+   "Montant du règlement interbancaire": 11,
+   "Montant de règlement interbancaire": 7
+  }
+ },
+ "InterbankSettlementDate": {
+  "chosen": "Date du règlement interbancaire",
+  "candidates": {
+   "Date du règlement interbancaire": 18,
+   "Date de règlement interbancaire": 8
+  }
+ },
+ "Location": {
+  "chosen": "Emplacement",
+  "candidates": {
+   "Emplacement": 10,
+   "Lieu": 1
+  }
+ },
+ "MandateRelatedInformation": {
+  "chosen": "Informations relatives au mandat",
+  "candidates": {
+   "Informations relatives au mandat": 8,
+   "Informations liées au mandat": 1
+  }
+ },
+ "MarketInfrastructureTransactionIdentification": {
+  "chosen": "Identification de l'opération par l'infrastructure de marché",
+  "candidates": {
+   "Identification de l'opération par l'infrastructure de marché": 61,
+   "Identification de l'opération de l'infrastructure de marché": 11
+  }
+ },
+ "NoSpecifiedReason": {
+  "chosen": "Aucun motif spécifié",
+  "candidates": {
+   "Aucun motif spécifié": 148,
+   "Aucun motif précisé": 7
+  }
+ },
+ "NoteDenomination": {
+  "chosen": "Valeur faciale du billet",
+  "candidates": {
+   "Valeur faciale du billet": 1,
+   "Valeur faciale des billets": 1
+  }
+ },
+ "Number": {
+  "chosen": "Nombre",
+  "candidates": {
+   "Nombre": 14,
+   "Numéro": 4
+  }
+ },
+ "OriginalClearingSystemReference": {
+  "chosen": "Référence du système de compensation d'origine",
+  "candidates": {
+   "Référence du système de compensation d'origine": 2,
+   "Référence d'origine du système de compensation": 2
+  }
+ },
+ "OriginalGroupInformation": {
+  "chosen": "Informations du groupe d'origine",
+  "candidates": {
+   "Informations du groupe d'origine": 11,
+   "Informations sur le groupe d'origine": 9
+  }
+ },
+ "OriginalInstructedAmount": {
+  "chosen": "Montant ordonné d'origine",
+  "candidates": {
+   "Montant ordonné d'origine": 3,
+   "Montant de l'instruction d'origine": 1,
+   "Montant instruit d'origine": 1
+  }
+ },
+ "OriginalInterbankSettlementAmount": {
+  "chosen": "Montant du règlement interbancaire d'origine",
+  "candidates": {
+   "Montant du règlement interbancaire d'origine": 4,
+   "Montant de règlement interbancaire d'origine": 2
+  }
+ },
+ "OriginalInterbankSettlementDate": {
+  "chosen": "Date du règlement interbancaire d'origine",
+  "candidates": {
+   "Date du règlement interbancaire d'origine": 3,
+   "Date de règlement interbancaire d'origine": 2
+  }
+ },
+ "OriginalPaymentInformationAndStatus": {
+  "chosen": "Informations de paiement d'origine et statut",
+  "candidates": {
+   "Informations de paiement d'origine et statut": 2,
+   "Informations de paiement et statut d'origine": 1
+  }
+ },
+ "PaymentFrom": {
+  "chosen": "Paiement de",
+  "candidates": {
+   "Paiement de": 2,
+   "Paiement en provenance de": 1
+  }
+ },
+ "PaymentTo": {
+  "chosen": "Paiement à",
+  "candidates": {
+   "Paiement à": 2,
+   "Paiement à destination de": 1
+  }
+ },
+ "PrivateIdentification": {
+  "chosen": "Identification de personne physique",
+  "candidates": {
+   "Identification de personne physique": 2,
+   "Identification d'un particulier": 1
+  }
+ },
+ "ProcessingValidityTime": {
+  "chosen": "Délai de validité du traitement",
+  "candidates": {
+   "Délai de validité du traitement": 2,
+   "Heure limite de validité du traitement": 1
+  }
+ },
+ "ProcessorTransactionIdentification": {
+  "chosen": "Identification de l'opération du processeur",
+  "candidates": {
+   "Identification de l'opération du processeur": 60,
+   "Identification de l'opération par le processeur": 1
+  }
+ },
+ "Proxy": {
+  "chosen": "Procuration",
+  "candidates": {
+   "Procuration": 4,
+   "Alias": 4
+  }
+ },
+ "ReceivingAgent": {
+  "chosen": "Banque réceptrice",
+  "candidates": {
+   "Banque réceptrice": 1,
+   "Agent récepteur": 1
+  }
+ },
+ "RemittanceLocationDetails": {
+  "chosen": "Détails de l'emplacement de la remise",
+  "candidates": {
+   "Détails de l'emplacement de la remise": 2,
+   "Détails du lieu de remise": 1
+  }
+ },
+ "ReportingSequence": {
+  "chosen": "Séquence de rapport",
+  "candidates": {
+   "Séquence de rapport": 3,
+   "Séquence de reporting": 1
+  }
+ },
+ "ReportOrError": {
+  "chosen": "Relevé ou erreur",
+  "candidates": {
+   "Relevé ou erreur": 12,
+   "Rapport ou erreur": 1
+  }
+ },
+ "Servicer": {
+  "chosen": "Teneur de compte",
+  "candidates": {
+   "Teneur de compte": 6,
+   "Teneur": 1
+  }
+ },
+ "StatementEntry": {
+  "chosen": "Écriture de relevé",
+  "candidates": {
+   "Écriture de relevé": 1,
+   "Écriture du relevé": 1
+  }
+ },
+ "StreetName": {
+  "chosen": "Nom de la rue",
+  "candidates": {
+   "Nom de la rue": 7,
+   "Nom de rue": 2
+  }
+ },
+ "SubDepartment": {
+  "chosen": "Sous-service",
+  "candidates": {
+   "Sous-service": 2,
+   "Sous-département": 1
+  }
+ },
+ "TaxableBaseAmount": {
+  "chosen": "Base imposable",
+  "candidates": {
+   "Base imposable": 1,
+   "Montant de l'assiette fiscale": 1
+  }
+ },
+ "TaxRemittance": {
+  "chosen": "Remise de taxe",
+  "candidates": {
+   "Remise de taxe": 3,
+   "Remise fiscale": 1
+  }
+ },
+ "ToDate": {
+  "chosen": "Jusqu'à la date",
+  "candidates": {
+   "Jusqu'à la date": 6,
+   "Date de fin": 2
+  }
+ },
+ "ToDateTime": {
+  "chosen": "Jusqu'à la date et heure",
+  "candidates": {
+   "Jusqu'à la date et heure": 3,
+   "Date et heure de fin": 1
+  }
+ },
+ "TotalTaxableBaseAmount": {
+  "chosen": "Montant total de l'assiette fiscale",
+  "candidates": {
+   "Montant total de l'assiette fiscale": 2,
+   "Base imposable totale": 1
+  }
+ },
+ "UnderlyingAllocation": {
+  "chosen": "Affectation sous-jacente",
+  "candidates": {
+   "Affectation sous-jacente": 4,
+   "Allocation sous-jacente": 1
+  }
+ },
+ "UnderlyingIntraBalance": {
+  "chosen": "Solde intra sous-jacent",
+  "candidates": {
+   "Solde intra sous-jacent": 6,
+   "Solde intrajournalier sous-jacent": 1
+  }
+ },
+ "UnitCurrency": {
+  "chosen": "Devise unitaire",
+  "candidates": {
+   "Devise unitaire": 21,
+   "Devise de la part": 3
+  }
+ }
+}
