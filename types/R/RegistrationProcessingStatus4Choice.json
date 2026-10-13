@@ -1,0 +1,12 @@
+{
+  "isoType": "RegistrationProcessingStatus4Choice",
+  "definition": "Choix de format pour le statut de traitement de l'enregistrement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fournit le statut du traitement de l'enregistrement."
+    },
+    "Proprietary": {
+      "definition": "Fournit le statut du traitement de l'enregistrement."
+    }
+  }
+}

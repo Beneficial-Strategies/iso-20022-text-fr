@@ -1,0 +1,65 @@
+{
+  "isoType": "ExternalOrganisationIdentification1Code",
+  "isoCodes": {
+    "BANK": {
+      "name": "Identification de la partie bancaire",
+      "definition": "Attribution unique et non ambiguë, effectuée par une banque ou un établissement financier similaire, pour identifier une relation telle que définie entre la banque et son client."
+    },
+    "CBID": {
+      "name": "Numéro d'identification de la banque centrale",
+      "definition": "Numéro d'identification unique attribué par une banque centrale pour identifier une organisation."
+    },
+    "CHID": {
+      "name": "Numéro d'identification de compensation",
+      "definition": "Numéro d'identification unique attribué par une chambre de compensation pour identifier une organisation"
+    },
+    "CINC": {
+      "name": "Numéro du certificat de constitution",
+      "definition": "Numéro d'identification unique attribué par une autorité désignée à un certificat de constitution et utilisé pour identifier une organisation."
+    },
+    "COID": {
+      "name": "Code d'identification du pays",
+      "definition": "Identification d'organisation attribuée par l'autorité d'un pays (par exemple, numéro d'immatriculation de l'entreprise)"
+    },
+    "CUST": {
+      "name": "Numéro de client",
+      "definition": "Numéro attribué par un émetteur pour identifier un client.|Numéro attribué par une partie pour identifier une relation de créancier ou de débiteur."
+    },
+    "DUNS": {
+      "name": "Système universel de numérotation des données (DUNS)",
+      "definition": "Numéro d'identification unique fourni par Dun & Bradstreet pour identifier une organisation."
+    },
+    "EMPL": {
+      "name": "Numéro d'identification de l'employeur",
+      "definition": "Numéro attribué par une autorité d'enregistrement à un employeur."
+    },
+    "GS1G": {
+      "name": "Identifiant GS1 GLN",
+      "definition": "Global Location Number. Numéro de référence non significatif utilisé pour identifier des entités juridiques, fonctionnelles ou physiques selon les règles de numérotation de GS1. Le numéro sert à retrouver les informations détaillées qui lui sont associées."
+    },
+    "SREN": {
+      "name": "SIREN",
+      "definition": "Le numéro SIREN est un code à 9 chiffres attribué par l'INSEE, l'Institut national de la statistique et des études économiques français, pour identifier une organisation en France."
+    },
+    "SRET": {
+      "name": "SIRET",
+      "definition": "Le numéro SIRET est un code à 14 chiffres attribué par l'INSEE, l'Institut national de la statistique et des études économiques français, pour identifier une unité d'organisation en France. Il se compose du numéro SIREN, suivi d'un numéro de classement à cinq chiffres, pour identifier l'unité géographique locale de cette entité"
+    },
+    "TXID": {
+      "name": "Numéro d'identification fiscale",
+      "definition": "Numéro attribué par une autorité fiscale pour identifier une organisation."
+    },
+    "BDID": {
+      "name": "Identifiant de domaine d'activité",
+      "definition": "Identifiant du domaine d'activité dans lequel l'organisation est active."
+    },
+    "BOID": {
+      "name": "Autre identification d'entreprise",
+      "definition": "Autre identification de l'organisation."
+    },
+    "USID": {
+      "name": "Identifiant unique de retraite par capitalisation",
+      "definition": "Identifiant unique attribué à un fonds de pension/de retraite, à un produit ou à un régime auquel est destiné un paiement de cotisation de retraite."
+    }
+  }
+}

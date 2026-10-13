@@ -1,0 +1,12 @@
+{
+  "isoType": "EventSequenceTypeFormat1Choice",
+  "definition": "Choix entre un code standard et un code propriétaire pour préciser le type d'événement dans une série d'événements prédéfinis ou planifiés.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de séquence d'événements, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Type de séquence d'événements, sous forme propriétaire."
+    }
+  }
+}

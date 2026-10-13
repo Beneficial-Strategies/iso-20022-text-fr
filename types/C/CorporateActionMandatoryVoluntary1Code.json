@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionMandatoryVoluntary1Code",
+  "definition": "Précise si l'événement est obligatoire, obligatoire avec options ou volontaire.",
+  "isoCodes": {
+    "MAND": {
+      "name": "Obligatoire",
+      "definition": "La participation à l'événement d'opération sur titres est obligatoire. Aucune autre instruction du titulaire du compte n'est requise (CA)."
+    },
+    "CHOS": {
+      "name": "Obligatoire avec options",
+      "definition": "La participation à l'opération sur titres est obligatoire et des instructions supplémentaires du titulaire du compte sont requises, sauf si une option par défaut a été spécifiée."
+    },
+    "VOLU": {
+      "name": "Volontaire",
+      "definition": "La participation à l'opération sur titres est volontaire. Si le titulaire souhaite participer à l'événement, des instructions du titulaire du compte sont requises."
+    }
+  }
+}

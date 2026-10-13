@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateTypeInformation2",
+  "definition": "Ensemble d'éléments servant à détailler davantage les informations relatives au type de paiement.",
+  "isoElements": {
+    "ServiceLevel": {
+      "definition": "Accord ou règles dont relève le mandat."
+    },
+    "LocalInstrument": {
+      "definition": "Instrument propre à la communauté d'utilisateurs.|Utilisation : cet élément sert à préciser un instrument local, une option de compensation locale et/ou à qualifier davantage le service ou le niveau de service."
+    },
+    "CategoryPurpose": {
+      "definition": "Précise la finalité de haut niveau du mandat, selon un ensemble de catégories prédéfinies."
+    },
+    "Classification": {
+      "definition": "Type d'instruction de prélèvement."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchRequestRedirectionV04",
+  "definition": "Le message AccountSwitchRequestRedirection est envoyé par la nouvelle banque tenant le compte à un prestataire central de changement de compte pour mettre en place la redirection des opérations de paiement et d'encaissement traitées après l'achèvement du changement de compte.  Il est acheminé vers l'ancienne banque tenant le compte pour lui signaler qu'elle doit programmer l'annulation de tous les accords de paiement sur l'ancien compte. Ce message peut également être utilisé par la nouvelle banque pour modifier les détails du nouveau compte si les détails fournis précédemment étaient incorrects."
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationToReceiveV09",
+  "definition": "Champ d'application|Le message NotificationToReceive est envoyé par un titulaire de compte, ou par une partie agissant pour son compte, à l'un des établissements teneurs de ses comptes. Il constitue un préavis indiquant que l'établissement teneur de compte recevra des fonds à porter au crédit du compte du titulaire.|Utilisation|Le message NotificationToReceive est utilisé pour aviser l'établissement teneur de compte des fonds que le titulaire du compte s'attend à voir crédités sur son compte. Le message peut être utilisé dans un scénario direct ou dans un scénario avec relais."
+}

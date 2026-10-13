@@ -1,0 +1,12 @@
+{
+  "isoType": "GarnishmentType1Choice",
+  "definition": "Précise le type de saisie-arrêt.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de saisie-arrêt sous forme codée. Il est suggéré qu'il s'agisse d'une liste de codes externe contenant : GNCS    Saisie-arrêt par un tiers payeur pour pension alimentaire GNDP    Saisie-arrêt par un payeur direct pour pension alimentaire GTPP     Saisie-arrêt par un tiers payeur au profit de l'administration fiscale."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de saisie-arrêt."
+    }
+  }
+}

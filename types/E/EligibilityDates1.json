@@ -1,0 +1,9 @@
+{
+  "isoType": "EligibilityDates1",
+  "definition": "Dates déterminant le droit.",
+  "isoElements": {
+    "EntitlementFixingDate": {
+      "definition": "Date à laquelle les positions sont arrêtées pour établir quelles parties recevront le droit, par exemple date d'enregistrement, date de clôture des registres."
+    }
+  }
+}

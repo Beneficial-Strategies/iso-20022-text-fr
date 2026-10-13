@@ -1,0 +1,12 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance1Choice",
+  "definition": "Choix entre un indicateur d'avoirs et la position agrégée des avoirs.",
+  "isoElements": {
+    "HoldingsIndicator": {
+      "definition": "Indique si des avoirs sont présents."
+    },
+    "HoldingBalance": {
+      "definition": "Solde des avoirs."
+    }
+  }
+}

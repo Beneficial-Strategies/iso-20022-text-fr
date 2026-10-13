@@ -1,0 +1,14 @@
+{
+  "isoType": "SettlementSystemMethod1Code",
+  "definition": "Indique si l'instruction de règlement doit être réglée par l'intermédiaire du système de règlement par défaut ou du système de règlement alternatif.",
+  "isoCodes": {
+    "NSET": {
+      "name": "Par défaut",
+      "definition": "Régler par l'intermédiaire du système/de la méthode de règlement par défaut. Si une instruction permanente de règlement par l'intermédiaire du système/de la méthode de règlement alternatif est en place, cette instruction permanente doit être ignorée."
+    },
+    "YSET": {
+      "name": "Alternative",
+      "definition": "Régler par l'intermédiaire du système/de la méthode de règlement alternatif. Si une instruction permanente de règlement par l'intermédiaire du système/de la méthode de règlement par défaut est en place, cette instruction permanente doit être ignorée."
+    }
+  }
+}

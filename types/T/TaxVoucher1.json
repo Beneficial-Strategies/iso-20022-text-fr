@@ -1,0 +1,77 @@
+{
+  "isoType": "TaxVoucher1",
+  "definition": "Fournit des informations sur le bordereau fiscal.",
+  "isoElements": {
+    "TaxVoucherRate": {
+      "definition": "Taux de distribution par action."
+    },
+    "TaxCredit": {
+      "definition": "Montant d'impôt qui a été précédemment payé."
+    },
+    "TaxDeduction": {
+      "definition": "Montant d'impôt qui a été précédemment déduit."
+    },
+    "GrossAmount": {
+      "definition": "Montant en espèces avant toute déduction et tout abattement."
+    },
+    "NetAmount": {
+      "definition": "Montant en espèces après déduction et abattement."
+    },
+    "RecordDateHolding": {
+      "definition": "Position en titres à la date d'enregistrement."
+    },
+    "TaxCreditRate": {
+      "definition": "Taux d'imposition applicable au montant du crédit d'impôt."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Montant en espèces qui sera retenu par une autorité fiscale."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Taux d'une distribution en espèces qui sera retenu par une autorité fiscale."
+    },
+    "ScripDividendReinvestmentPricePerShare": {
+      "definition": "Coût par action des nouvelles actions attribuées."
+    },
+    "CashAmountBroughtForward": {
+      "definition": "Montant en espèces conservé d'un précédent paiement de dividende ou d'intérêts."
+    },
+    "AllotedSharesCost": {
+      "definition": "Montant total en espèces requis pour acquérir les actions attribuées."
+    },
+    "CashAmountCarriedForward": {
+      "definition": "Montant en espèces reporté au prochain paiement de dividende ou d'intérêts."
+    },
+    "NotionalTax": {
+      "definition": "Lorsque de nouveaux titres sont émis en remplacement d'un dividende en espèces, l'impôt notionnel est l'impôt sur le montant en espèces qui aurait été versé. Pour les dividendes en actions uniquement."
+    },
+    "NotionalDividendPayable": {
+      "definition": "Montant en espèces qui aurait été payable si le dividende avait été perçu en espèces plutôt qu'en actions. Pour les dividendes en actions uniquement."
+    },
+    "BargainDate": {
+      "definition": "Date à laquelle l'achat DRIP a été finalisé."
+    },
+    "BargainSettlementDate": {
+      "definition": "Date de règlement de l'opération d'achat DRIP."
+    },
+    "StampDutyAmount": {
+      "definition": "Montant du droit de timbre."
+    },
+    "ChargeAmount": {
+      "definition": "Montant des frais/commissions facturés au client."
+    },
+    "CommissionAmount": {
+      "definition": "Montant dû à l'agent payeur."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Fournit des informations sur l'opération de change."
+    }
+  },
+  "isoRules": {
+    "TaxCreditOrTaxDeductionRule": {
+      "definition": "TaxCredit ou TaxDeduction doit être présent."
+    },
+    "TaxCreditOrTaxDeductionRuleNotBoth": {
+      "definition": "TaxCredit ou TaxDeduction doit être présent."
+    }
+  }
+}

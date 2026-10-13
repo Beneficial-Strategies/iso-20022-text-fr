@@ -1,0 +1,54 @@
+{
+  "isoType": "ChargesRecord11",
+  "definition": "Fournit des détails supplémentaires sur chaque enregistrement de frais lié à l'opération de paiement.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Identification unique et sans ambiguïté des informations de frais à des fins de rapprochement."
+    },
+    "RecordIdentification": {
+      "definition": "Identification unique et sans ambiguïté de l'enregistrement de frais à des fins de rapprochement."
+    },
+    "ChargesRequestor": {
+      "definition": "Agent qui demande les frais, s'il est différent de l'expéditeur."
+    },
+    "UnderlyingTransaction": {
+      "definition": "Identifie la ou les opérations sous-jacentes auxquelles les frais s'appliquent."
+    },
+    "Amount": {
+      "definition": "Montant des frais d'opération à payer par le débiteur des frais."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le montant des frais est un montant au crédit ou au débit. |Utilisation : un montant nul est considéré comme un crédit."
+    },
+    "ValueDate": {
+      "definition": "Date et heure à laquelle les frais sont ou seront disponibles."
+    },
+    "Debtor": {
+      "definition": "Précise le débiteur de l'opération de paiement initiale."
+    },
+    "DebtorAccount": {
+      "definition": "Précise le compte du débiteur de l'opération de paiement initiale."
+    },
+    "DebtorAgent": {
+      "definition": "Précise la banque du débiteur de l'opération de paiement initiale, si elle est différente du titulaire du compte de frais."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Précise le compte de la banque du débiteur de l'opération de paiement initiale, lorsque l'agent instructeur est différent du titulaire du compte de frais."
+    },
+    "ChargesAccount": {
+      "definition": "Identifie le compte qui a été débité ou crédité pour les frais, les intérêts ou d'autres|ajustements."
+    },
+    "ChargesAccountOwner": {
+      "definition": "Agent titulaire du compte de frais."
+    },
+    "Type": {
+      "definition": "Précise le type de frais."
+    },
+    "InstructionForInstructedAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction d'ajustement de paiement, auxquelles l'agent suivant peut devoir donner suite."
+    },
+    "AdditionalInformation": {
+      "definition": "Précisions complémentaires sur le motif des frais."
+    }
+  }
+}

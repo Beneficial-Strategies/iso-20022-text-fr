@@ -1,0 +1,62 @@
+{
+  "isoType": "Drawdown04",
+  "definition": "Détails d’une tranche de retrait échelonné.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification du retrait échelonné."
+    },
+    "TrancheType": {
+      "definition": "Type de tranche de retrait échelonné."
+    },
+    "ApplicableRules": {
+      "definition": "Indique les règles applicables au retrait échelonné. Par exemple, sur le marché britannique (UK), la règle antérieure au jour A introduite le 6 avril 2006.)"
+    },
+    "InvestorTaxReference": {
+      "definition": "Identification de l’investisseur attribuée par une autorité fiscale."
+    },
+    "PercentageOfTotalTransferValue": {
+      "definition": "Pourcentage de la valeur totale du transfert couvert par le retrait échelonné."
+    },
+    "TotalAmountNetDrawdown": {
+      "definition": "Montant initialement désigné pour le retrait échelonné."
+    },
+    "AdditionalFundsDesignated": {
+      "definition": "Indique si des fonds supplémentaires ont été désignés depuis l’arrangement initial."
+    },
+    "PensionCommencementLumpSumRemaining": {
+      "definition": "Montant restant du capital forfaitaire de départ à la retraite (PCLS)."
+    },
+    "PensionCommencementLumpSumDate": {
+      "definition": "Date limite d’utilisation du capital forfaitaire de départ à la retraite (PCLS)."
+    },
+    "MultiplePensionCommencementLumpSums": {
+      "definition": "Indique qu’il y a eu plusieurs versements du capital forfaitaire de départ à la retraite (PCLS)."
+    },
+    "LifetimeAllowance": {
+      "definition": "Pourcentage de l’allocation viagère (LTA) utilisé."
+    },
+    "RecipientOfDrawdownIndicator": {
+      "definition": "Indique qu’une personne autre que le titulaire initial de la pension est le bénéficiaire du paiement du retrait échelonné."
+    },
+    "BeneficiaryDetails": {
+      "definition": "Informations sur le destinataire du retrait échelonné, lorsqu’il ne s’agit pas du titulaire initial de la pension."
+    },
+    "CappedLimits": {
+      "definition": "Limites du retrait échelonné plafonné."
+    },
+    "FlexibleDrawdownTriggeredDate": {
+      "definition": "Date à laquelle le retrait échelonné a été déclenché lorsque son type est flexible."
+    },
+    "TrancheDate": {
+      "definition": "Date à laquelle la tranche est exécutée"
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le retrait échelonné."
+    }
+  },
+  "isoRules": {
+    "BeneficiaryDetailsRule": {
+      "definition": "Si RecipientOfDrawdownIndicator est « false » ou « 0 » (Non), BeneficiaryDetails n’est pas autorisé.|Si RecipientOfDrawdownIndicator est « true » ou « 1 » (Oui), BeneficiaryDetails peut être présent."
+    }
+  }
+}

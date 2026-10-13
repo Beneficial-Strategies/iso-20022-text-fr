@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionMovementPreliminaryAdviceFunction1Code",
+  "definition": "Indique si le message est un message de solde éligible et de droits définitifs ou un message d'avis préliminaire de paiement.",
+  "isoCodes": {
+    "ENTL": {
+      "name": "Droit",
+      "definition": "Le message est un droit."
+    },
+    "CAPA": {
+      "name": "Préavis de mouvement",
+      "definition": "Le message est un préavis de mouvement."
+    }
+  }
+}

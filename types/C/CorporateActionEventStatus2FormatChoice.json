@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStatus2FormatChoice",
+  "definition": "Choix de formats pour exprimer le statut de l'option CA.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard pour préciser le statut de l'option CA."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire pour exprimer le statut de l'option CA."
+    }
+  }
+}

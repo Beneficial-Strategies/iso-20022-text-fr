@@ -1,0 +1,74 @@
+{
+  "isoType": "DeliverInformation23",
+  "definition": "Paramètres appliqués au règlement d'un transfert de titres.",
+  "isoElements": {
+    "Transferor": {
+      "definition": "Partie qui livre (cédant) les titres à l'agent récepteur (cessionnaire)."
+    },
+    "TransferorRegisteredAccount": {
+      "definition": "Compte à partir duquel les titres doivent être livrés."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identification d'une partie liée ou d'un intermédiaire."
+    },
+    "SecuritiesForm": {
+      "definition": "Forme, c'est-à-dire propriété, du titre, c'est-à-dire nominatif ou au porteur."
+    },
+    "DematerialisedIndicator": {
+      "definition": "Indique si un titre existe uniquement sous forme d'enregistrement électronique, c'est-à-dire qu'aucun document physique ne représente le titre."
+    },
+    "IncomePreference": {
+      "definition": "Option de dividende choisie par le propriétaire du compte parmi les options offertes dans le prospectus."
+    },
+    "BeneficiaryCertificationCompletion": {
+      "definition": "Le bénéficiaire effectif ou son agent désigné certifie qu'il respecte toutes les restrictions ou exigences de détention ou d'investissement du fonds."
+    },
+    "RequestedTradeDate": {
+      "definition": "Date utilisée comme date de négociation lorsque les titres sont réglés par l'intermédiaire d'un dépositaire central international de titres (ICSD) ou d'un dépositaire central de titres (CSD)."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être échangés auprès du dépositaire central international de titres (ICSD) ou du dépositaire central de titres (CSD)."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Date et heure auxquelles les titres ont été échangés auprès du dépositaire central international de titres (ICSD) ou du dépositaire central de titres (CSD)."
+    },
+    "SettlementAmount": {
+      "definition": "Montant total payé/à payer ou reçu en échange de l'instrument financier."
+    },
+    "StampDuty": {
+      "definition": "Indique si le montant de règlement inclut le montant du droit de timbre."
+    },
+    "NetAmount": {
+      "definition": "Montant de l'opération."
+    },
+    "Fees": {
+      "definition": "Frais liés au transfert de l'instrument financier."
+    },
+    "IndividualTax": {
+      "definition": "Taxe liée au transfert d'un instrument financier."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Informations nécessaires pour traiter un change ou une conversion de devises.|La manière dont le taux de change est exprimé détermine quelle devise est la devise unitaire (Unit Currency) et quelle devise est la devise cotée (Quoted Currency). Si les montants concernés sont EUR 1000 et USD 1300, le taux de change peut être exprimé selon l'un ou l'autre des exemples suivants :|EXEMPLE 1 |UnitCurrency EUR|QuotedCurrency USD|ExchangeRate 1.300|EXEMPLE 2|UnitCurrency USD|QuotedCurrency EUR|ExchangeRate 0.769 (EXAMPLE)."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Chaîne de parties impliquées dans le règlement de la transaction."
+    },
+    "PhysicalTransfer": {
+      "definition": "Indique si l'instrument financier doit être livré physiquement."
+    },
+    "PhysicalTransferDetails": {
+      "definition": "Paramètres d'une livraison physique."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert par l'investisseur. Cette référence peut généralement être utilisée dans un scénario de plateforme centrale (hub) pour fournir la référence du transfert telle qu'attribuée par le client sous-jacent."
+    }
+  },
+  "isoRules": {
+    "PhysicalTransferDetails1Rule": {
+      "definition": "Si PhysicalTransfer est PHYS (physique), alors PhysicalTransferDetails doit être présent."
+    },
+    "PhysicalTransferDetails2Rule": {
+      "definition": "Si PhysicalTransfer est DEMT (dématérialisé), alors PhysicalTransferDetails n'est pas autorisé."
+    }
+  }
+}

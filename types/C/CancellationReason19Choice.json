@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason19Choice",
+  "definition": "Choix du format du motif d'annulation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction liée est annulée ou la demande d'annulation liée est exécutée."
+    },
+    "Proprietary": {
+      "definition": "Précise le motif pour lequel l'instruction liée est annulée ou la demande d'annulation liée est exécutée."
+    }
+  }
+}

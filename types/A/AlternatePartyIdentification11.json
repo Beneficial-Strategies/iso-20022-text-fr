@@ -1,0 +1,15 @@
+{
+  "isoType": "AlternatePartyIdentification11",
+  "definition": "Identification alternative d'une partie à l'aide d'un type d'identification, d'un code pays et d'un champ de texte.",
+  "isoElements": {
+    "IdentificationType": {
+      "definition": "Précise le type d'identification alternative de la partie identifiée."
+    },
+    "Country": {
+      "definition": "Pays dans lequel une personne réside (le lieu de son domicile). Dans le cas d'une société, pays depuis lequel les affaires de cette société sont dirigées."
+    },
+    "AlternateIdentification": {
+      "definition": "Identification alternative d'une partie."
+    }
+  }
+}

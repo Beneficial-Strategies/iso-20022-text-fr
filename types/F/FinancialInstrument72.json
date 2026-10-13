@@ -1,0 +1,21 @@
+{
+  "isoType": "FinancialInstrument72",
+  "definition": "Caractéristiques identifiantes d'un instrument financier qui est un sous-ensemble d'un fonds de placement.",
+  "isoElements": {
+    "SupplementaryIdentification": {
+      "definition": "Informations complémentaires sur un instrument financier destinées à aider à l'identifier."
+    },
+    "SecuritiesForm": {
+      "definition": "Précise la forme, c'est-à-dire la propriété, du titre."
+    },
+    "ClassType": {
+      "definition": "Caractéristiques des parts offertes par un fonds. Par exemple, une part peut avoir une structure de frais spécifique, par exemple à l'entrée ou à la sortie, une politique de revenus, par exemple distribution ou capitalisation, ou une politique de commissions de suivi, par exemple avec ou sans. Les catégories de fonds sont généralement désignées par un seul caractère, par exemple « Catégorie A », « Catégorie 2 »."
+    },
+    "DistributionPolicy": {
+      "definition": "Politique de revenus relative à un type de catégorie, c'est-à-dire si les revenus sont distribués ou conservés dans le fonds."
+    },
+    "ClassificationType": {
+      "definition": "Type de classification de l'instrument financier, selon la codification de la classification des instruments financiers ISO (CFI), par exemple action ordinaire avec droit de vote, entièrement libérée ou nominative."
+    }
+  }
+}

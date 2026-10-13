@@ -1,0 +1,42 @@
+{
+  "isoType": "CorporateActionDate110",
+  "definition": "Précise les dates d'une opération sur titres.",
+  "isoElements": {
+    "EarlyResponseDeadline": {
+      "definition": "Date/heure fixée par le teneur de compte comme échéance pour répondre, avec des instructions, à un événement en cours, donnant au porteur droit à des incitations."
+    },
+    "CoverExpirationDeadline": {
+      "definition": "Dernier jour où un porteur peut livrer les titres pour lesquels il a fait un choix et/ou qu'il a précédemment protégés."
+    },
+    "ProtectDeadline": {
+      "definition": "Dernière date/heure à laquelle un porteur peut demander de différer la livraison de titres en vertu d'un avis de livraison garantie ou d'une autre documentation requise."
+    },
+    "MarketDeadline": {
+      "definition": "Échéance de l'émetteur ou de son agent pour répondre par une instruction à une offre ou un privilège en cours."
+    },
+    "ResponseDeadline": {
+      "definition": "Date/heure fixée par le teneur de compte comme échéance pour répondre, avec des instructions, à un événement en cours."
+    },
+    "ExpiryDate": {
+      "definition": "Date/heure à laquelle un ordre expire ou à laquelle un privilège ou une offre prend fin."
+    },
+    "SubscriptionCostDebitDate": {
+      "definition": "Date/heure avant laquelle les espèces doivent être en place pour participer à l'événement."
+    },
+    "DepositoryCoverExpirationDate": {
+      "definition": "Dernier jour où un participant du dépositaire peut livrer les titres pour lesquels il a fait un choix et/ou qu'il a précédemment protégés."
+    },
+    "StockLendingDeadline": {
+      "definition": "Date/heure fixée comme échéance pour répondre, avec des instructions, à un événement en cours, pour lequel le titre sous-jacent est prêté."
+    },
+    "BorrowerStockLendingDeadline": {
+      "definition": "Précise la partie qui emprunte des titres et l'échéance de prêt de titres associée attribuée à l'emprunteur."
+    },
+    "EndOfSecuritiesBlockingPeriod": {
+      "definition": "Date jusqu'à laquelle le blocage des titres peut avoir lieu lors de l'instruction de cette option."
+    },
+    "DocumentationDeadline": {
+      "definition": "Date/heure avant laquelle la documentation doit être fournie."
+    }
+  }
+}

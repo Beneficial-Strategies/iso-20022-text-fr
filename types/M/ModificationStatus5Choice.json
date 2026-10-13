@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationStatus5Choice",
+  "definition": "Choix du statut de modification.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    },
+    "Reason": {
+      "definition": "Précise le motif du statut de modification."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionOrRepairReason34",
+  "definition": "Motif du statut de rejet ou de réparation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction/la demande a un statut rejeté ou en réparation."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur le motif qui ne peuvent pas être fournies dans un champ structuré."
+    }
+  }
+}

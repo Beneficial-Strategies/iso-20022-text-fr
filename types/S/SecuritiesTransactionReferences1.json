@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesTransactionReferences1",
+  "definition": "Identifie l'opération sur titres sous-jacente.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification non ambiguë de l'opération sur titres telle que la connaît le titulaire du compte-titres (ou la partie donneuse d'ordre gérant le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification non ambiguë de l'opération sur titres telle que la connaît le teneur de compte-titres."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération sur titres attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identification de l'opération sur titres attribuée par le responsable du traitement de l'instruction, autre que le titulaire du compte-titres, le teneur de compte-titres et l'infrastructure de marché."
+    }
+  }
+}

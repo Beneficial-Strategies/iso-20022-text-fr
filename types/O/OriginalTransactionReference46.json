@@ -1,0 +1,63 @@
+{
+  "isoType": "OriginalTransactionReference46",
+  "definition": "Éléments clés servant à référencer l'opération d'origine.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise demandée par la partie initiatrice."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Date à laquelle la partie initiatrice demande à la banque de compensation de traiter le paiement. |Utilisation : il s'agit de la date à laquelle le compte du débiteur doit être débité. En cas de paiement par chèque, il s'agit de la date à laquelle le chèque doit être émis par la banque."
+    },
+    "ExpiryDate": {
+      "definition": "Date avant laquelle le débiteur doit avoir accepté ou rejeté la demande.||Utilisation : |passé cette date, la demande devient caduque et ne peut plus être traitée."
+    },
+    "PaymentCondition": {
+      "definition": "Conditions d'exécution du paiement."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments servant à préciser davantage le type d'opération."
+    },
+    "PaymentMethod": {
+      "definition": "Précise le moyen de paiement qui sera utilisé pour transférer le montant."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Fournit des précisions supplémentaires sur le mandat signé entre le créancier et le débiteur."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le virement est destiné à régler, tels que des factures commerciales dans un système de comptes clients."
+    },
+    "EnclosedFile": {
+      "definition": "Document ou modèle joint à la notification.||Utilisation : l'utilisation de l'élément EnclosedFile doit faire l'objet d'un accord bilatéral."
+    },
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit un montant au créancier (final)."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit un montant au créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture au débit sera passée à la suite de l'opération."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du débiteur auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du créancier auprès de son agent teneur de compte, sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant est dû."
+    }
+  }
+}

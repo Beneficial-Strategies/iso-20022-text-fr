@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionFrequencyType5Code",
+  "definition": "Réinvestissement automatique des espèces distribuées par des fonds de capitalisation.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Paiement d'un dividende, déduction faite des montants déjà versés au titre d'acomptes sur dividende."
+    },
+    "INTE": {
+      "name": "Intermédiaire",
+      "definition": "Dividende déclaré et versé avant la détermination des résultats annuels."
+    },
+    "REIN": {
+      "name": "Réinvestissement",
+      "definition": "Réinvestissement des espèces distribuées."
+    },
+    "REGR": {
+      "name": "Ordinaire",
+      "definition": "Dividende versé à intervalle régulier, par exemple, trimestriellement."
+    },
+    "SPEC": {
+      "name": "Spécial",
+      "definition": "Dividende venant s'ajouter au dividende régulier versé par la société."
+    },
+    "SPRE": {
+      "name": "Dividende spécial avec réinvestissement",
+      "definition": "Dividende spécial avec composante de réinvestissement."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification123Choice",
+  "definition": "Choix entre différents formats d'identification d'une partie.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Identification de la partie exprimée sous forme de BIC."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identifiant unique et non ambigu, attribué à la partie à l'aide d'un schéma d'identification propriétaire."
+    },
+    "NameAndAddress": {
+      "definition": "Nom et adresse de la partie."
+    }
+  }
+}

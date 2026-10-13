@@ -1,0 +1,22 @@
+{
+  "isoType": "RepurchaseType8Code",
+  "definition": "Indique le type d'opération de mise en pension.",
+  "isoCodes": {
+    "PADJ": {
+      "name": "Ajustement de l'exposition du principal",
+      "definition": "Se rapporte à un ajustement de principal."
+    },
+    "ROLP": {
+      "name": "Reconduction du contrat de pension",
+      "definition": "Se rapporte à la reconduction (rollover) d'un contrat de repo prolongeant la date de clôture ou d'échéance sans incidence sur les garanties sous-jacentes."
+    },
+    "RATE": {
+      "name": "Taux de pension",
+      "definition": "Fait partie d'un pair-off."
+    },
+    "CALL": {
+      "name": "Rappel de pension",
+      "definition": "Se rapporte à la clôture anticipée/date d'échéance d'un repo à terme ou à la date de résiliation d'un repo ouvert avec les garanties sous-jacentes."
+    }
+  }
+}

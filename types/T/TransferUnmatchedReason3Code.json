@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferUnmatchedReason3Code",
+  "definition": "Précise le motif pour lequel l'opération, le transfert ou l'instruction de règlement n'est pas apparié.",
+  "isoCodes": {
+    "CMIS": {
+      "name": "Aucune correspondance",
+      "definition": "Aucune correspondance potentielle n’a été trouvée."
+    },
+    "CPCA": {
+      "name": "Annulé par la contrepartie",
+      "definition": "La contrepartie a annulé l'opération ou l'instruction."
+    },
+    "DELN": {
+      "name": "Sens de l'opération",
+      "definition": "Le sens de l’opération ne correspond pas : livraison au lieu de réception ou inversement."
+    },
+    "DSEC": {
+      "name": "Instrument financier",
+      "definition": "L’identification de l’instrument financier ne correspond pas ou un attribut de l’instrument financier diffère."
+    },
+    "PHYS": {
+      "name": "Règlement physique",
+      "definition": "Le règlement ne correspond pas : l’instruction de la contrepartie prévoit un règlement physique, la vôtre non, ou inversement."
+    },
+    "PODU": {
+      "name": "Duplicata",
+      "definition": "L’instruction n’a pas été appariée : il s’agit d’une éventuelle instruction en double."
+    },
+    "DEPT": {
+      "name": "Lieu de règlement",
+      "definition": "Le lieu de règlement ne correspond pas."
+    },
+    "DDAT": {
+      "name": "Date de règlement",
+      "definition": "La date de règlement ou la date de transfert ne correspond pas."
+    },
+    "DQUA": {
+      "name": "Quantité d'instruments financiers",
+      "definition": "La quantité d’instruments financiers ne correspond pas."
+    },
+    "ICUS": {
+      "name": "Conservateur receveur ou livreur",
+      "definition": "Le conservateur livreur ou receveur ne correspond pas."
+    },
+    "SAFE": {
+      "name": "Compte de conservation",
+      "definition": "Le compte de conservation utilisé comme critère d'appariement sur le marché concerné ne correspond pas."
+    }
+  }
+}

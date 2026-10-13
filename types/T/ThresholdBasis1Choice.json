@@ -1,0 +1,12 @@
+{
+  "isoType": "ThresholdBasis1Choice",
+  "definition": "Choix entre une base de seuil définie par un code prédéfini ou par une valeur propriétaire.",
+  "isoElements": {
+    "Code": {
+      "definition": "Nature de la quantité utilisée comme base pour fixer un seuil de vote sur les résolutions des assemblées générales, fournie sous forme de valeur de code."
+    },
+    "Proprietary": {
+      "definition": "Nature de la quantité utilisée comme base pour fixer un seuil de vote sur les résolutions des assemblées générales, définie sous forme de valeur propriétaire."
+    }
+  }
+}

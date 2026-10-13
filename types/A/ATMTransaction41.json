@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMTransaction41",
+  "definition": "Accusé de réception de l'avis d'exception.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par le ATM."
+    },
+    "Response": {
+      "definition": "Réponse à l'avis."
+    },
+    "Command": {
+      "definition": "Commande de maintenance à exécuter sur l'ATM."
+    }
+  }
+}

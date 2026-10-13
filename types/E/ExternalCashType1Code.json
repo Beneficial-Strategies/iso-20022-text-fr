@@ -1,0 +1,42 @@
+{
+  "isoType": "ExternalCashType1Code",
+  "definition": "Indique le code externe de type d'espèces, sous la forme d'une chaîne de caractères d'une longueur maximale de 4 caractères.|La liste des codes valides est une liste de codes externe publiée séparément.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "MUTI": {
+      "name": "Mutilé",
+      "definition": "Les espèces sont mutilées."
+    },
+    "STAD": {
+      "name": "Taché",
+      "definition": "Les espèces sont tachées."
+    },
+    "CONT": {
+      "name": "Contaminé",
+      "definition": "Les espèces sont contaminées."
+    },
+    "FITC": {
+      "name": "Apte à la circulation",
+      "definition": "Les espèces sont aptes à la circulation."
+    },
+    "COUN": {
+      "name": "Contrefait",
+      "definition": "Les espèces sont contrefaites."
+    },
+    "SOIL": {
+      "name": "Souillé",
+      "definition": "Les espèces sont souillées."
+    },
+    "NEWC": {
+      "name": "Nouveau",
+      "definition": "Les espèces sont neuves."
+    },
+    "OBSO": {
+      "name": "Obsolète",
+      "definition": "Les espèces sont obsolètes."
+    },
+    "SURP": {
+      "name": "Excédentaire",
+      "definition": "Les espèces sont excédentaires."
+    }
+  }
+}

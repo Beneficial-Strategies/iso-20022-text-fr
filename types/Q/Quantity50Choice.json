@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity50Choice",
+  "definition": "Choix entre différents formats de quantité de titres.",
+  "isoElements": {
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Montant nominal signé et valeur amortie du titre."
+    },
+    "SignedQuantity": {
+      "definition": "Quantité signée de titres."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "isoType": "PendingReason41Code",
+  "definition": "Précise un motif pour lequel l'instruction est en attente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du teneur de compte. Elle sera traitée conformément à l'accord de service bilatéral entre le teneur de compte et le titulaire du compte."
+    },
+    "ADDM": {
+      "name": "Documentation complémentaire manquante",
+      "definition": "Documents supplémentaires demandés manquants."
+    },
+    "DREM": {
+      "name": "Date limite d'inscription dépassée",
+      "definition": "La date limite d'enregistrement est dépassée."
+    },
+    "IPED": {
+      "name": "Instruction antérieure à la date de détermination des droits",
+      "definition": "L'instruction a été reçue avant la date de droit."
+    },
+    "IPOS": {
+      "name": "Position insuffisante par rapport au seuil",
+      "definition": "La position est inférieure au seuil requis."
+    },
+    "LACK": {
+      "name": "Défaut de titres",
+      "definition": "Instruments financiers insuffisants sur votre compte."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du marché."
+    },
+    "IPOA": {
+      "name": "Procuration manquante ou invalide",
+      "definition": "Procuration manquante ou invalide."
+    },
+    "NPOS": {
+      "name": "Aucune position inscrite",
+      "definition": "Position enregistrée insuffisante ou inexistante."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "FULL": {
+      "name": "Détails du bénéficiaire effectif en attente",
+      "definition": "En attente de réception des détails du propriétaire bénéficiaire."
+    },
+    "PENR": {
+      "name": "Réception en attente",
+      "definition": "L'instruction est en attente de réception de titres, par exemple à la suite d'un achat ou d'un prêt."
+    },
+    "PRXY": {
+      "name": "Écart sur la carte de procuration",
+      "definition": "Informations de mandataire invalides."
+    },
+    "DQUA": {
+      "name": "Désaccord sur la quantité",
+      "definition": "La quantité d'instruments financiers ne correspond pas."
+    },
+    "IREG": {
+      "name": "Écart d'inscription",
+      "definition": "Écart d'enregistrement invalide."
+    }
+  }
+}

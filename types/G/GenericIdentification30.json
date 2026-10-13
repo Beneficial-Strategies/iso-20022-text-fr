@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification30",
+  "definition": "Informations relatives à une identification, par exemple, l'identification d'une partie ou d'un compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Information propriétaire, souvent un code, émise par l'émetteur du schéma de la source de données."
+    },
+    "Issuer": {
+      "definition": "Entité qui attribue l'identification."
+    },
+    "SchemeName": {
+      "definition": "Brève description textuelle du schéma."
+    }
+  }
+}

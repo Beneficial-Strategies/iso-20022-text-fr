@@ -1,0 +1,42 @@
+{
+  "isoType": "SettlementTransactionCondition18Code",
+  "definition": "Indique les conditions dans lesquelles l'ordre/la transaction doit être réglé(e).",
+  "isoCodes": {
+    "CLEN": {
+      "name": "Net",
+      "definition": "Les instruments financiers exonérés d'impôt doivent être réglés."
+    },
+    "DLWM": {
+      "name": "Livraison sans appariement",
+      "definition": "Instruction de réception correspondante non requise (uniquement pour les dépositaires centraux de titres internationaux ou nationaux concernés)."
+    },
+    "DIRT": {
+      "name": "Brut",
+      "definition": "Les instruments financiers imposables doivent être réglés."
+    },
+    "GATE": {
+      "name": "Participation à un événement de plafonnement",
+      "definition": "Participation à un événement à seuil (gating). Maintenir jusqu'à l'heure de début de l'événement."
+    },
+    "NOMC": {
+      "name": "Pas de réclamation de marché automatique",
+      "definition": "Aucune réclamation de marché ne doit être générée automatiquement."
+    },
+    "BPSS": {
+      "name": "Rachat d'office partiellement réussi",
+      "definition": "Identification des instructions de règlement créées à la suite d'un rachat d'office partiellement réussi."
+    },
+    "PHYS": {
+      "name": "Physique",
+      "definition": "Les titres doivent être réglés physiquement."
+    },
+    "SPDL": {
+      "name": "Livraison spéciale",
+      "definition": "Opérations de règlement à régler avec livraison spéciale."
+    },
+    "SPST": {
+      "name": "Règlement fractionné",
+      "definition": "L'argent et les instruments financiers sont réglés à des endroits différents."
+    }
+  }
+}

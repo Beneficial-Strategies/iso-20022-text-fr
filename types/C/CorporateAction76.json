@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateAction76",
+  "definition": "Fournit des informations sur l'événement sur titres.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates relatives à un événement sur titres."
+    },
+    "EventStage": {
+      "definition": "Étape du cycle de vie de l'événement d'opération sur titres."
+    },
+    "LotteryType": {
+      "definition": "Précise le type de tirage au sort annoncé."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "SolicitationFeeRateFormat12Choice",
+  "definition": "Choix entre un taux ou un taux non spécifié.",
+  "isoElements": {
+    "Rate": {
+      "definition": "La valeur est exprimée sous forme de taux."
+    },
+    "AmountToQuantity": {
+      "definition": "Ratio exprimé sous forme de rapport montant/quantité."
+    },
+    "Amount": {
+      "definition": "Montant en espèces."
+    }
+  }
+}

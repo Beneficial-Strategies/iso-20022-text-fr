@@ -1,0 +1,102 @@
+{
+  "isoType": "ATMServiceType11Code",
+  "definition": "Décrit le type de service sélectionné par le client.",
+  "isoCodes": {
+    "TRFC": {
+      "name": "Virement client",
+      "definition": "Virement entre comptes appartenant au client dans la même banque."
+    },
+    "TRFI": {
+      "name": "Virement entre clients",
+      "definition": "Virement vers un autre client."
+    },
+    "TRFP": {
+      "name": "Paiement",
+      "definition": "Virement pour payer une tierce partie."
+    },
+    "ASTS": {
+      "name": "Relevés de compte",
+      "definition": "Demander un relevé complet (c'est-à-dire un relevé légal) relatif à un compte du client."
+    },
+    "BLCQ": {
+      "name": "Consultation de solde",
+      "definition": "Consultation de solde."
+    },
+    "CDVF": {
+      "name": "Vérification de carte",
+      "definition": "Vérification de la carte."
+    },
+    "CHSN": {
+      "name": "Retrait choisi",
+      "definition": "Le montant et les valeurs des billets sont choisis par le client."
+    },
+    "CMPF": {
+      "name": "Profil client",
+      "definition": "Demander le profil du client avec, le cas échéant, les informations de compte associées."
+    },
+    "DCCS": {
+      "name": "Conversion dynamique de devise",
+      "definition": "Demander à un prestataire de service DCC de qualifier la conversion de devise pour la carte."
+    },
+    "XRTD": {
+      "name": "Taux de change du dépôt",
+      "definition": "Demander le taux de change pour l'opération de dépôt en cours."
+    },
+    "XRTW": {
+      "name": "Taux de change du retrait",
+      "definition": "Demander le taux de change pour l'opération de retrait en cours."
+    },
+    "MCHG": {
+      "name": "Rendu de monnaie",
+      "definition": "Échange de monnaie entre types de supports."
+    },
+    "DPSN": {
+      "name": "Dépôt non vérifié",
+      "definition": "Dépôt de supports non vérifiés par le ATM, par exemple dans une enveloppe."
+    },
+    "PINC": {
+      "name": "Changement de PIN",
+      "definition": "Modification du code PIN de la carte."
+    },
+    "PINR": {
+      "name": "Récupération du PIN",
+      "definition": "Réinitialisation d'un code PIN."
+    },
+    "PINU": {
+      "name": "Déblocage du PIN",
+      "definition": "Déblocage du code PIN."
+    },
+    "PATH": {
+      "name": "Retrait préautorisé",
+      "definition": "L'opération de retrait a été préautorisée par un autre canal, par exemple un mobile. Le montant peut être absent du message de demande de retrait."
+    },
+    "PRFL": {
+      "name": "Retrait selon profil",
+      "definition": "Le montant et les valeurs des billets sont prédéfinis par le profil du client."
+    },
+    "EMVS": {
+      "name": "Sélection de l'application EMV",
+      "definition": "Sélectionner les applications EMV autorisées par l'acquéreur."
+    },
+    "STDR": {
+      "name": "Retrait standard",
+      "definition": "Retrait standard d'éléments."
+    },
+    "SPRV": {
+      "name": "Retrait supervisé",
+      "definition": "Retrait autorisé par un superviseur."
+    },
+    "DPSV": {
+      "name": "Dépôt vérifié",
+      "definition": "Dépôt de supports vérifiés par le ATM."
+    },
+    "ACCD": {
+      "name": "Téléchargement de compte",
+      "definition": "Télécharger les comptes associés à la carte du client."
+    },
+    "MINI": {
+      "name": "Mini-relevé",
+      "definition": "Demander un mini-relevé (c'est-à-dire un relevé partiel) relatif à un compte du client."
+    }
+  }
+}

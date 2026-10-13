@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMSecurityConfiguration4",
+  "definition": "Configuration des signatures numériques si le module de sécurité est capable d'effectuer des signatures numériques avec une clé asymétrique.",
+  "isoElements": {
+    "MaximumCertificates": {
+      "definition": "Nombre maximal de certificats dans un chemin de certification que le module de sécurité est capable de gérer."
+    },
+    "MaximumSignatures": {
+      "definition": "Nombre maximal de cosignataires que le module de sécurité est capable de gérer dans une signature numérique."
+    },
+    "DigitalSignatureAlgorithm": {
+      "definition": "Algorithme de signature numérique que le module de sécurité est capable de gérer."
+    }
+  }
+}

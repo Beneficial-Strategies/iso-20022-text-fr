@@ -1,0 +1,9 @@
+{
+  "isoType": "AccountIdentification4",
+  "definition": "Identifiant unique d'un compte, tel qu'attribué par le teneur de compte.",
+  "isoElements": {
+    "Proprietary": {
+      "definition": "Identifiant unique d'un compte. Il est attribué par le teneur de compte selon un schéma d'identification propriétaire."
+    }
+  }
+}

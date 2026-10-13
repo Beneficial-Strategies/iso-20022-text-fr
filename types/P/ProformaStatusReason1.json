@@ -1,0 +1,12 @@
+{
+  "isoType": "ProformaStatusReason1",
+  "definition": "Motif d'un statut pro forma.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut pro forma du compte."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le motif du statut pro forma du compte."
+    }
+  }
+}

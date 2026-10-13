@@ -1,0 +1,32 @@
+{
+  "isoType": "UnderlyingStatementEntry11",
+  "definition": "Fournit des détails complémentaires sur l'écriture de relevé sous-jacente à laquelle se rapporte le message d'enquête.",
+  "isoElements": {
+    "OriginalAccount": {
+      "definition": "Fournit les détails du compte pour lequel le relevé d'origine a été généré."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Fournit des informations sur le message d'origine."
+    },
+    "OriginalStatementIdentification": {
+      "definition": "Identification unique, attribuée par le teneur de compte, permettant d'identifier sans ambiguïté le relevé d'origine."
+    },
+    "OriginalEntryReference": {
+      "definition": "Référence unique d'origine, attribuée par le teneur de compte, permettant d'identifier sans ambiguïté l'écriture d'origine."
+    },
+    "OriginalUETR": {
+      "definition": "Identifiant unique universel fournissant la référence de bout en bout d'origine d'une opération de paiement."
+    },
+    "OriginalEntryAmount": {
+      "definition": "Montant d'argent de l'écriture de trésorerie."
+    },
+    "OriginalEntryValueDate": {
+      "definition": "Date et heure à laquelle les fonds deviennent disponibles pour le titulaire du compte dans le cas d'une écriture au crédit, ou cessent d'être disponibles pour le titulaire du compte dans le cas d'une écriture au débit.|Utilisation : si le statut de l'écriture est en attente et qu'une date de valeur est présente, la date de valeur correspond à une date de valeur attendue/demandée.|Pour les écritures soumises à disponibilité/flottement et pour lesquelles des informations de disponibilité sont fournies, la date de valeur ne doit pas être utilisée. Dans ce cas, le composant de disponibilité identifie le nombre de jours de disponibilité."
+    }
+  },
+  "isoRules": {
+    "OriginalStatementIdentificationOrEntryReferencePresenceRule": {
+      "definition": "OriginalStatementIdentification ou OriginalEntryReference doit être présent ; les deux peuvent l'être."
+    }
+  }
+}

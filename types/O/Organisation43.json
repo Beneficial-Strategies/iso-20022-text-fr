@@ -1,0 +1,60 @@
+{
+  "isoType": "Organisation43",
+  "definition": "Structure organisée mise en place dans un but particulier. Par exemple, une entreprise, un organisme public, un service, un organisme de bienfaisance ou un établissement financier.",
+  "isoElements": {
+    "FullLegalName": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "TradingName": {
+      "definition": "Nom utilisé par une entreprise à des fins commerciales, bien que sa dénomination légale enregistrée, utilisée pour les contrats et autres situations formelles, puisse être différente."
+    },
+    "OrganisationLegalStatus": {
+      "definition": "Statut d'une entité juridique."
+    },
+    "EstablishedDate": {
+      "definition": "La date de création ou de fondation d'une institution est la date que cette institution choisit de revendiquer comme point de départ."
+    },
+    "RegistrationNumber": {
+      "definition": "Numéro d'enregistrement de l'organisation."
+    },
+    "RegistrationCountry": {
+      "definition": "Pays dans lequel l'organisation est immatriculée."
+    },
+    "RegistrationDate": {
+      "definition": "Date à laquelle une organisation donnée a été officiellement enregistrée."
+    },
+    "TaxationIdentificationNumber": {
+      "definition": "Numéro de référence fiscal unique."
+    },
+    "TaxationCountry": {
+      "definition": "Pays d'imposition d'une personne physique ou d'une organisation."
+    },
+    "CountryOfOperation": {
+      "definition": "Pays dans lequel l'organisation exerce son activité."
+    },
+    "BoardResolutionIndicator": {
+      "definition": "Indique que la nouvelle banque détient une copie de la résolution du conseil d'administration d'une société immatriculée relative au changement de compte."
+    },
+    "BusinessAddress": {
+      "definition": "Adresse où s'exerce l'activité commerciale."
+    },
+    "OperationalAddress": {
+      "definition": "Adresse, par exemple, d'un centre de services partagés."
+    },
+    "LegalAddress": {
+      "definition": "Adresse où l'entité réside et est immatriculée. Plus généralement, il s'agit de l'adresse du domicile (adresse de résidence)."
+    },
+    "RepresentativeOfficer": {
+      "definition": "Personne de l'organisation du client pouvant être contactée par la banque tenant le compte."
+    },
+    "TreasuryManager": {
+      "definition": "Personne responsable du service de trésorerie au sein d'une organisation."
+    },
+    "MainMandateHolder": {
+      "definition": "Personne qui déléguera certains pouvoirs à d'autres personnes (titulaires de mandat) afin d'effectuer certaines opérations bancaires précises sur le compte."
+    },
+    "Sender": {
+      "definition": "Expéditeur d'un message relatif au cycle de vie d'un compte."
+    }
+  }
+}

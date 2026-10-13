@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyRole6Choice",
+  "definition": "Choix entre un code et/ou un schéma de source de données pour déterminer le rôle de la partie.",
+  "isoElements": {
+    "Code": {
+      "definition": "Rôle exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Rôle exprimé sous forme de code propriétaire."
+    }
+  }
+}

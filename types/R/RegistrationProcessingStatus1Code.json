@@ -1,0 +1,14 @@
+{
+  "isoType": "RegistrationProcessingStatus1Code",
+  "definition": "Précise le statut du traitement de l'enregistrement.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Accusé de réception et accepté",
+      "definition": "L'enregistrement a été reconnu/accepté par l'émetteur/le teneur de registre."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "L'enregistrement a été rejeté par l'émetteur/le teneur de registre."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "SecurityDate23",
+  "definition": "Précise les détails de dates du titre.",
+  "isoElements": {
+    "PaymentDate": {
+      "definition": "Date/heure à laquelle le mouvement doit avoir lieu (espèces et/ou titres)."
+    },
+    "AvailableDate": {
+      "definition": "Date/heure à laquelle les titres deviennent disponibles à la négociation, par exemple la première date de négociation."
+    },
+    "DividendRankingDate": {
+      "definition": "Date/heure à laquelle un titre aura droit à un dividende."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Date/heure à laquelle un paiement peut être effectué, par exemple si la date de paiement est un jour non ouvré ou pour indiquer la première date de paiement d'une offre."
+    },
+    "PariPassuDate": {
+      "definition": "Date/heure à laquelle le titre sera assimilé, deviendra fongible ou aura les mêmes droits aux dividendes que l'émission d'origine."
+    },
+    "LastTradingDate": {
+      "definition": "Date/heure à laquelle les titres à réorganiser cesseront d'être négociables."
+    }
+  }
+}

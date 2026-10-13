@@ -1,0 +1,62 @@
+{
+  "isoType": "CashOption111",
+  "definition": "Fournit des informations sur l'option en espèces.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indique si la valeur est un débit ou un crédit."
+    },
+    "ContractualPaymentIndicator": {
+      "definition": "Indique si le paiement en espèces a lieu ou aura lieu avant la réception du produit de l'émetteur, sur la base d'un accord contractuel établi avec le teneur de compte, ou à la réception du produit de l'émetteur."
+    },
+    "NonEligibleProceedsIndicator": {
+      "definition": "Précise les informations relatives aux ressources de sortie qui ne peuvent pas être traitées par le dépositaire central de titres (CSD). Une instruction de livraison spéciale du titulaire du compte est requise pour que le résultat de l'événement sur titres soit crédité."
+    },
+    "IssuerOfferorTaxabilityIndicator": {
+      "definition": "Le produit est imposable selon les informations fournies par l'émetteur / offrant."
+    },
+    "IncomeType": {
+      "definition": "Précise le type de revenu.|Les listes des codes de type de revenu à utiliser sont disponibles sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "OtherIncomeType": {
+      "definition": "Type de revenu à utiliser dans le cadre d'un autre régime fiscal."
+    },
+    "ExemptionType": {
+      "definition": "Précise la base du taux réduit de retenue à la source."
+    },
+    "CountryOfIncomeSource": {
+      "definition": "Indique le pays d'où provient le revenu."
+    },
+    "CashAccountIdentification": {
+      "definition": "Identification du compte dans lequel les espèces sont détenues."
+    },
+    "AmountDetails": {
+      "definition": "Fournit des informations sur les montants relatifs à un mouvement d'espèces."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates relatives à un mouvement d'espèces."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Taux de change entre le montant et le montant résultant."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fournit des informations sur l'option de l'événement sur titres."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix relatifs à une option d'événement sur titres."
+    }
+  },
+  "isoRules": {
+    "IssuerOfferorTaxabilityIndicatorUsageRule": {
+      "definition": "L'IssuerOfferorTaxabilityIndicator ne peut être utilisé que lorsqu'aucun taux d'imposition n'est fourni dans le message et ne doit pas être utilisé dans des événements tels que le dividende ou l'intérêt.|La liste des codes propriétaires IssuerOfferorTaxabilityIndicator pouvant être utilisés figure dans le document \" TXAP Taxability Codes\" disponible sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "Les listes des codes de type d'exemption à utiliser dans ExemptionType sont fournies dans le document « ETYP-ITYP Exemption & Income Type Codes » disponible sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "Les listes des codes de type de revenu à utiliser dans IncomeType sont fournies dans le document « ETYP-ITYP Exemption & Income Type Codes » disponible sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "IncomeType2Rule": {
+      "definition": "Si au moins une occurrence de OtherIncomeType est présente, alors IncomeType doit être présent."
+    }
+  }
+}

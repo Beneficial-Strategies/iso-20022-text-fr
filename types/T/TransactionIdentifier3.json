@@ -1,0 +1,15 @@
+{
+  "isoType": "TransactionIdentifier3",
+  "definition": "Identification univoque de l'opération.",
+  "isoElements": {
+    "TransactionDateTime": {
+      "definition": "Date et heure locales de l'opération attribuées par le POI (point d'interaction)."
+    },
+    "HostTransactionDateTime": {
+      "definition": "Date et heure locales de l'opération attribuées par l'hôte."
+    },
+    "TransactionReference": {
+      "definition": "Identification de l'opération devant être unique sur une période donnée."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "UnmatchedReason27Choice",
+  "definition": "Choix du format pour le motif de non-appariement de l'opération de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction a le statut non apparié."
+    },
+    "Proprietary": {
+      "definition": "Précise le motif pour lequel l'instruction a le statut non apparié."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchCancelExistingPaymentV06",
+  "definition": "Le message AccountSwitchCancelExistingPayment est envoyé par la nouvelle banque tenant le compte à l'ancienne banque tenant le compte pour identifier les accords de paiement à annuler sur le compte du titulaire et le moment de leur annulation. Ce message est utilisé lors d'un changement partiel de compte et peut être envoyé plusieurs fois afin de permettre aux parties au compte de transférer différents accords de paiement à différents moments du changement."
+}

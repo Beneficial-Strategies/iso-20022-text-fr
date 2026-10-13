@@ -1,0 +1,21 @@
+{
+  "isoType": "MandateOccurrences5",
+  "definition": "Fournit des précisions supplémentaires sur la durée du mandat et la survenance des opérations sous-jacentes.",
+  "isoElements": {
+    "SequenceType": {
+      "definition": "Identifie la séquence d'opérations sous-jacente comme récurrente ou ponctuelle."
+    },
+    "Frequency": {
+      "definition": "Régularité avec laquelle les instructions doivent être créées et traitées."
+    },
+    "Duration": {
+      "definition": "Durée pendant laquelle le mandat reste valide."
+    },
+    "FirstCollectionDate": {
+      "definition": "Date du premier prélèvement conformément au mandat."
+    },
+    "FinalCollectionDate": {
+      "definition": "Date du dernier prélèvement conformément au mandat."
+    }
+  }
+}

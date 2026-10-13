@@ -1,0 +1,18 @@
+{
+  "isoType": "CancellationStatus6Code",
+  "definition": "Précise le statut d'annulation.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Accepté",
+      "definition": "L'instruction / demande d'annulation a été reçue et accusée réception / acceptée pour la suite du traitement."
+    },
+    "CAND": {
+      "name": "Complet",
+      "definition": "L'instruction / demande d'annulation a été acceptée et traitée, l'annulation est terminée."
+    },
+    "RCIS": {
+      "name": "Reçu par l'émetteur ou le teneur de registre",
+      "definition": "L'instruction / demande d'annulation a été reçue par l'émetteur ou le teneur de registre."
+    }
+  }
+}

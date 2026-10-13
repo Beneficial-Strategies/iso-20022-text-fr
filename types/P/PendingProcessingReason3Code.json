@@ -1,0 +1,38 @@
+{
+  "isoType": "PendingProcessingReason3Code",
+  "definition": "Précise le motif pour lequel l'opération/l'instruction est en défaut de règlement. Le règlement à la date de règlement instruite n'est plus possible.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite de l'établissement teneur de compte. Traitée au mieux."
+    },
+    "BLOC": {
+      "name": "Compte bloqué",
+      "definition": "Votre compte est bloqué ; aucune instruction ne peut être réglée sur le compte."
+    },
+    "MUNO": {
+      "name": "Montant de règlement multiple",
+      "definition": "La quantité instruite n'est pas un multiple d'un lot de règlement existant pour l'instrument financier."
+    },
+    "NEXT": {
+      "name": "Traitement suivant",
+      "definition": "Le traitement suivant est lancé. Aucun problème de traitement en attente à signaler."
+    },
+    "MINO": {
+      "name": "Montant de règlement minimal",
+      "definition": "La quantité instruite est inférieure à la quantité de règlement minimale existante pour l'instrument financier."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "DENO": {
+      "name": "Quantité livrable libellée indisponible",
+      "definition": "La quantité instruite ne correspond pas à la coupure disponible/livrable. Les titres physiques doivent être obtenus en quantités de coupures livrables."
+    },
+    "CERT": {
+      "name": "Numéros de certificats erronés",
+      "definition": "Erreur de numéro de certificat."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedReason14Choice",
+  "definition": "Choix de format pour le motif de refus.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel la demande a été refusée."
+    },
+    "Proprietary": {
+      "definition": "Précise le motif pour lequel la demande a été refusée."
+    }
+  }
+}

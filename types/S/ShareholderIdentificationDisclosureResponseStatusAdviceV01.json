@@ -1,0 +1,9 @@
+{
+  "isoType": "ShareholderIdentificationDisclosureResponseStatusAdviceV01",
+  "definition": "Le message ShareholdersIdentificationDisclosureResponseStatusAdvice est envoyé par un émetteur ou par un tiers désigné par l'émetteur (tel que l'agent de l'émetteur) à l'intermédiaire d'une chaîne de conservation en réponse à un message ShareholderIdentificationDisclosureResponse ou à un relevé de réponse en plusieurs parties (envoyé avec pagination sur plusieurs messages), afin de communiquer le statut d'acceptation du message ou relevé ShareholderIdentificationDisclosureResponse reçu.|Utilisation : lorsque la réponse de divulgation de l'identité des actionnaires est envoyée dans un relevé de réponse en plusieurs parties (comprenant plusieurs messages), un seul avis de statut de réponse peut être envoyé pour le statut d'acceptation de l'ensemble du relevé.",
+  "isoElements": {
+    "DisclosureResponseIdentification": {
+      "definition": "Identification unique de la réponse de divulgation pour laquelle l'avis de statut est envoyé."
+    }
+  }
+}

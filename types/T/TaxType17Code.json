@@ -1,0 +1,78 @@
+{
+  "isoType": "TaxType17Code",
+  "definition": "Précise le type d'impôt.",
+  "isoCodes": {
+    "PROV": {
+      "name": "Provincial",
+      "definition": "L'impôt est un impôt provincial."
+    },
+    "NATI": {
+      "name": "Impôt national",
+      "definition": "L'impôt est un impôt national."
+    },
+    "STAT": {
+      "name": "Impôt d'État",
+      "definition": "L'impôt est un impôt d'État."
+    },
+    "WITH": {
+      "name": "Retenue à la source",
+      "definition": "L'impôt porte sur des revenus prélevés à la source, que l'agent payeur est légalement tenu de déduire de ses paiements d'intérêts sur dépôts et autres produits d'un instrument financier."
+    },
+    "KAPA": {
+      "name": "Impôt sur les plus-values",
+      "definition": "L'impôt porte sur une plus-value (réalisée et latente), c'est-à-dire le profit réalisé lors de la vente d'un instrument financier."
+    },
+    "NKAP": {
+      "name": "Crédit de moins-values",
+      "definition": "La récupération d'impôt est due à une moins-value."
+    },
+    "INPO": {
+      "name": "Impôt sur le bénéfice intermédiaire",
+      "definition": "L'impôt porte sur la somme de tous les gains/revenus courus depuis la dernière distribution de dividende."
+    },
+    "STAM": {
+      "name": "Droit de timbre",
+      "definition": "L'impôt porte sur certains documents et opérations."
+    },
+    "WTAX": {
+      "name": "Impôt sur la fortune",
+      "definition": "L'impôt est un impôt spécial, applicable uniquement lorsque la valeur des actifs ou de catégories d'actifs détenus par une entité dépasse un plafond défini par l'administration fiscale. L'impôt sur la fortune n'est pas lié au revenu."
+    },
+    "INHT": {
+      "name": "Droits de succession",
+      "definition": "Impôt exigible au décès sur tout bien (argent ou autre), lorsque la propriété change au décès ou dans un nombre d'années légalement défini avant le décès."
+    },
+    "SOSU": {
+      "name": "Contribution de solidarité",
+      "definition": "Impôt prélevé par les autorités légales à des fins de solidarité."
+    },
+    "CTAX": {
+      "name": "Crédit d'impôt",
+      "definition": "Réduction directe de la charge fiscale d'une personne."
+    },
+    "GIFT": {
+      "name": "Droits de donation",
+      "definition": "Impôt prélevé sur les actifs donnés à des personnes avant le décès du donateur. L'impôt sur les donations est conçu pour garantir l'intégrité de l'impôt sur les successions, en empêchant le transfert de patrimoine avant le décès."
+    },
+    "COAX": {
+      "name": "Taxe à la consommation",
+      "definition": "Impôt prélevé sur les biens et services achetés par les clients et ajouté au prix de détail."
+    },
+    "EUTR": {
+      "name": "Retenue fiscale EU",
+      "definition": "Impôt retenu à la source dans le cadre de la directive européenne relative à la fiscalité de l'épargne sous forme de paiements d'intérêts."
+    },
+    "AKT1": {
+      "name": "Aktiengewinn1",
+      "definition": "Share-related profit (bénéfice lié aux actions). Il s'agit d'un impôt propre au marché allemand. Le share-related-profit permet au fonds de transmettre à l'investisseur institutionnel qui rachète des parts du fonds certains revenus d'actions exonérés d'impôt. La méthode de calcul repose sur l'ancienne loi sur l'imposition des investissements (Investmentsteuergesetz)."
+    },
+    "AKT2": {
+      "name": "Aktiengewinn2",
+      "definition": "Share-related profit (bénéfice lié aux actions). Il s'agit d'un impôt propre au marché allemand. Le share-related-profit permet au fonds de transmettre à l'investisseur institutionnel qui rachète des parts du fonds certains revenus d'actions exonérés d'impôt. La méthode de calcul repose sur la nouvelle loi sur l'imposition des investissements (Investmentsteuergesetz)."
+    },
+    "ZWIS": {
+      "name": "Zwischengewinn",
+      "definition": "Zwischengewinn."
+    }
+  }
+}

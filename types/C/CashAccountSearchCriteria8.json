@@ -1,0 +1,29 @@
+{
+  "isoType": "CashAccountSearchCriteria8",
+  "definition": "Définit les critères utilisés pour rechercher un compte.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique et non ambiguë du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "Type": {
+      "definition": "Spécifie la nature, ou l'utilisation, du compte de trésorerie."
+    },
+    "Currency": {
+      "definition": "Spécifie la devise du compte de trésorerie."
+    },
+    "Balance": {
+      "definition": "Solde du compte faisant l'objet de la requête."
+    },
+    "AccountOwner": {
+      "definition": "Titulaire du compte faisant l'objet de la requête."
+    },
+    "AccountServicer": {
+      "definition": "Teneur du compte faisant l'objet de la requête."
+    }
+  },
+  "isoRules": {
+    "CashAccountIdentificationGuideline": {
+      "definition": "Si l'identification du compte désigne un groupe de comptes de types différents ou dans des devises différentes, la devise et/ou le type de compte peuvent être utilisés comme critères de recherche supplémentaires."
+    }
+  }
+}

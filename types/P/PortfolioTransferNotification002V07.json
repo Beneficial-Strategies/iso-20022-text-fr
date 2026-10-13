@@ -1,0 +1,18 @@
+{
+  "isoType": "PortfolioTransferNotification002V07",
+  "definition": "Périmètre|Le PortfolioTransferNotification est envoyé par un teneur de compte à un autre teneur de compte pour échanger les informations de détail de règlement du transfert lors d'un transfert de portefeuille d'un client particulier ou institutionnel.|Le teneur de compte est généralement un agent local ou un conservateur global agissant pour le compte d'un établissement de gestion d'investissements, d'un courtier/opérateur ou d'un client particulier.||Utilisation|L'échange des détails de règlement du transfert consiste, pour le teneur de compte livreur, à fournir au teneur de compte receveur les données de règlement (telles que la date de négociation, la date de règlement, la chaîne de règlement du livreur, les quantités) des transferts individuels qui auront lieu lors d'un transfert de portefeuille total ou partiel. Ce message du teneur de compte livreur peut aussi inclure, pour validation, la chaîne de règlement du receveur telle que fournie par le client. Si la chaîne de règlement du receveur n'est pas disponible pour le teneur de compte livreur, le teneur de compte receveur peut en retour la lui fournir en utilisant le même message.||Le message peut aussi servir à :|- renvoyer un message envoyé précédemment,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information|en utilisant les éléments pertinents de l'en-tête applicatif métier (Business Application Header).",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur l'utilisation de ce message.|Ces pratiques de marché sont disponibles sur www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

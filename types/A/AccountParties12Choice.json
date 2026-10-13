@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountParties12Choice",
+  "definition": "Informations sur le compte d'une partie.",
+  "isoElements": {
+    "PrimaryOwner": {
+      "definition": "Propriétaire unique du compte ou, lorsque la propriété est répartie entre plusieurs propriétaires, le propriétaire principal est celui qui fournit son adresse et les détails du compte pour l'enregistrement."
+    },
+    "Trustee": {
+      "definition": "Propriétaires légaux du bien. Toutefois, le bénéficiaire détient la propriété en equity ou la propriété effective."
+    },
+    "Nominee": {
+      "definition": "Entité désignée par le bénéficiaire effectif pour agir en son nom, souvent pour faciliter les opérations ou pour dissimuler l'identité du bénéficiaire."
+    },
+    "JointOwner": {
+      "definition": "Copropriétaire du compte d'investissement lorsque la propriété est attribuée à plus d'une partie."
+    }
+  }
+}

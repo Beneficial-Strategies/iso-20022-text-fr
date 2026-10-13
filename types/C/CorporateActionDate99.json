@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionDate99",
+  "definition": "Précise les dates d'une opération sur titres.",
+  "isoElements": {
+    "PostingDate": {
+      "definition": "Date/heure de la comptabilisation (crédit ou débit) sur le compte."
+    },
+    "ValueDate": {
+      "definition": "Date et heure du calcul du bénéfice économique pour un montant en espèces."
+    },
+    "ForeignExchangeRateFixingDate": {
+      "definition": "Date et heure auxquelles un taux de change sera déterminé."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Date/heure à laquelle un paiement peut être effectué, par exemple si la date de paiement est un jour non ouvrable ou pour indiquer la première date de paiement d'une offre."
+    },
+    "PaymentDate": {
+      "definition": "Date à laquelle la distribution (espèces et/ou titres) doit avoir lieu."
+    }
+  }
+}

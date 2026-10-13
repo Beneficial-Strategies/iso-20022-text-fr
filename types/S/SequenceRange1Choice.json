@@ -1,0 +1,21 @@
+{
+  "isoType": "SequenceRange1Choice",
+  "definition": "Précise un choix de séquences.",
+  "isoElements": {
+    "FromSequence": {
+      "definition": "Séquence de début de la plage."
+    },
+    "ToSequence": {
+      "definition": "Séquence de fin de la plage."
+    },
+    "FromToSequence": {
+      "definition": "Plage de séquences particulière spécifiée entre une séquence de début et une séquence de fin."
+    },
+    "EqualSequence": {
+      "definition": "Séquence spécifiée devant correspondre."
+    },
+    "NotEqualSequence": {
+      "definition": "Séquence spécifiée à exclure."
+    }
+  }
+}

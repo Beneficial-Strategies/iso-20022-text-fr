@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionElection1",
+  "definition": "Fournit des informations sur une instruction d'option modifiée.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OriginalInstructedQuantity": {
+      "definition": "Quantité de titres qui avait été instruite dans l'avis d'option choisie initial."
+    },
+    "RemainingQuantity": {
+      "definition": "Quantité de titres instruite restante après la modification de l'option choisie."
+    }
+  }
+}

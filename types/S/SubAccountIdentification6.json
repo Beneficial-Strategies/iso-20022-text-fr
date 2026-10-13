@@ -1,0 +1,20 @@
+{
+  "isoType": "SubAccountIdentification6",
+  "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique si une activité est déclarée dans le relevé."
+    },
+    "TransactionOnSubAccount": {
+      "definition": "Création/annulation de parts d'investissement dans les livres du fonds ou de son agent désigné, à la suite de l'exécution d'un ordre sur fonds d'investissement."
+    }
+  },
+  "isoRules": {
+    "TransactionOnSubAccountRule": {
+      "definition": "Si ActivityIndicator est \"true\" ou \"1\" (Oui), alors TransactionOnSubAccount doit être présent. Si ActivityIndicator est \"false\" ou \"0\" (Non), alors TransactionOnSubAccount n'est pas autorisé."
+    }
+  }
+}

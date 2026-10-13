@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceTransfer7",
+  "definition": "Informations permettant à la banque tenant le compte concernée de rapprocher de la demande associée tout paiement effectué dans le cadre de l'exécution d'un changement de compte.",
+  "isoElements": {
+    "BalanceTransferReference": {
+      "definition": "Référence permettant au créancier de rapprocher de la demande de paiement un paiement reçu par un autre canal de paiement."
+    },
+    "BalanceTransferMethod": {
+      "definition": "Contient les détails de la méthode de compensation et de règlement choisie pour effectuer le paiement approprié d'une banque tenant le compte à l'autre, afin de transférer le solde de clôture, positif ou négatif, de l'ancien compte vers le nouveau compte."
+    },
+    "BalanceTransferFundingLimit": {
+      "definition": "Valeur maximale que la nouvelle banque tenant le compte paiera à l'ancienne banque tenant le compte lorsque le solde de clôture de l'ancien compte est négatif."
+    }
+  }
+}

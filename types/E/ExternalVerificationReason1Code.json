@@ -1,0 +1,70 @@
+{
+  "isoType": "ExternalVerificationReason1Code",
+  "definition": "Précise le code de motif de vérification externe, tel que publié dans une liste de codes de vérification externe.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "AC01": {
+      "name": "Numéro de compte incorrect",
+      "definition": "Le numéro de compte fourni dans la demande est invalide ou manquant."
+    },
+    "AGNT": {
+      "name": "Agent incorrect",
+      "definition": "L'identification de la banque fournie dans la demande est incorrecte"
+    },
+    "DUPL": {
+      "name": "Demande en double",
+      "definition": "La demande est un doublon d'une autre demande"
+    },
+    "AG01": {
+      "name": "Opération interdite sur ce compte",
+      "definition": "Opération interdite sur ce type de compte (le paiement ne peut pas être effectué sur ce compte, par exemple compte non ouvert aux dépôts, bloqué ou clôturé)."
+    },
+    "BNOR": {
+      "name": "Banque teneur de compte non enregistrée",
+      "definition": "Le PSP n'est pas enregistré dans le cadre de ce schéma."
+    },
+    "DS28": {
+      "name": "Retour pour raison technique",
+      "definition": "Retour consécutif à des problèmes techniques ayant entraîné une opération erronée."
+    },
+    "FF01": {
+      "name": "Format de fichier non valide",
+      "definition": "Format de fichier incomplet ou invalide."
+    },
+    "MS03": {
+      "name": "Motif non précisé, généré par la banque",
+      "definition": "Le motif n'a pas été précisé par la banque."
+    },
+    "NORR": {
+      "name": "Aucun rapport reçu",
+      "definition": "Aucune réponse à la demande dans le délai imparti."
+    },
+    "NR01": {
+      "name": "Aucun motif possible",
+      "definition": "Le PSP ne peut pas confirmer les détails et aucun motif n'est indiqué."
+    },
+    "RC03": {
+      "name": "Identifiant de la banque du débiteur non valide",
+      "definition": "L'identifiant de la banque du débiteur est invalide ou manquant."
+    },
+    "RC04": {
+      "name": "Identifiant de la banque du créancier non valide",
+      "definition": "L'identifiant de la banque du créancier est invalide ou manquant."
+    },
+    "TM01": {
+      "name": "Heure limite non valide",
+      "definition": "Le message associé a été reçu après l'heure limite de traitement convenue."
+    },
+    "PN01": {
+      "name": "Le nom du titulaire du compte ne correspond pas",
+      "definition": "Le nom du titulaire du compte et le numéro du compte de paiement ne correspondent pas."
+    },
+    "PN02": {
+      "name": "Le nom du titulaire du compte correspond approximativement",
+      "definition": "Le nom du titulaire du compte et le numéro du compte de paiement correspondent de manière approchante."
+    },
+    "PI01": {
+      "name": "L'identification du titulaire du compte ne correspond pas",
+      "definition": "L'identification du titulaire du compte et le numéro du compte de paiement ne correspondent pas."
+    }
+  }
+}

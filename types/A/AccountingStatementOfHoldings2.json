@@ -1,0 +1,29 @@
+{
+  "isoType": "AccountingStatementOfHoldings2",
+  "definition": "Informations sur un relevé comptable des avoirs.",
+  "isoElements": {
+    "StatementGeneralDetails": {
+      "definition": "Informations générales relatives au relevé de conservation des avoirs qui est annulé."
+    },
+    "AccountDetails": {
+      "definition": "Le compte de conservation ou d'investissement du relevé qui est annulé."
+    },
+    "BalanceForAccount": {
+      "definition": "Position nette d'un avoir ségrégué, dans un seul titre, au sein de la position globale détenue sur un compte-titres."
+    },
+    "SubAccountDetails": {
+      "definition": "Le sous-compte du compte de conservation ou d'investissement."
+    },
+    "TotalValues": {
+      "definition": "Valeur de l'ensemble des avoirs déclarés."
+    },
+    "Extension": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountDetailsRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator est « true » ou « 1 » (Oui), BalanceForAccount ou SubAccountDetails est obligatoire. Si StatementGeneralDetails/ActivityIndicator est « false » ou « 0 » (Non), BalanceForAccount et SubAccountDetails peuvent être présents."
+    }
+  }
+}

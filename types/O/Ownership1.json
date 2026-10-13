@@ -1,0 +1,15 @@
+{
+  "isoType": "Ownership1",
+  "definition": "Fournit les détails de la propriété d'une personne sur un actif.",
+  "isoElements": {
+    "OwnershipType": {
+      "definition": "Précise le type de propriété."
+    },
+    "OwnershipPercentage": {
+      "definition": "Pourcentage de propriété qu'une personne détient sur un actif."
+    },
+    "UsufructPercentage": {
+      "definition": "Pourcentage d'usufruit qu'une personne détient sur un actif."
+    }
+  }
+}

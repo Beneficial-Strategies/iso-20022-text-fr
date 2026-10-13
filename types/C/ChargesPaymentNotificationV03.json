@@ -1,0 +1,24 @@
+{
+  "isoType": "ChargesPaymentNotificationV03",
+  "definition": "Le message ChargesPaymentNotification est envoyé par l'établissement teneur de compte au titulaire du compte pour l'informer de frais, d'intérêts ou d'autres ajustements portés sur son compte. Il fournit le détail de frais précédemment inconnus du destinataire.",
+  "isoRules": {
+    "ChargesAccountHeaderOrSingle2Rule": {
+      "definition": "Lorsque Charges/Single/ChargesAccount est présent ou que Charges/Single/ChargesAccountOwner est présent, GroupHeader/ChargesAccount doit être absent et GroupHeader/ChargesAccountOwner doit être absent."
+    },
+    "ChargesAccountHeaderOrSingle1Rule": {
+      "definition": "Lorsque GroupHeader/ChargesAccount est présent ou que GroupHeader/ChargesAccountOwner est présent, Charges/Single/ChargesAccount doit être absent et Charges/Single/ChargesAccountOwner doit être absent."
+    },
+    "ChargesAccountHeaderOrTransaction2Rule": {
+      "definition": "Lorsque Charges/PerTransaction/ChargesAccount est présent ou que Charges/PerTransaction/ChargesAccountOwner est présent ou que Charges/PerTransaction/Record/ChargesAccount est présent ou que Charges/PerTransaction/Record/ChargesAccountOwner est présent, GroupHeader/ChargesAccount doit être absent et GroupHeader/ChargesAccountOwner doit être absent."
+    },
+    "ChargesAccountHeaderOrTransaction1Rule": {
+      "definition": "Lorsque GroupHeader/ChargesAccount est présent ou que GroupHeader/ChargesAccountOwner est présent, Charges/PerTransaction/ChargesAccount doit être absent, Charges/PerTransaction/ChargesAccountOwner doit être absent, Charges/PerTransaction/Record/ChargesAccount doit être absent et Charges/PerTransaction/Record/ChargesAccountOwner doit être absent."
+    },
+    "ChargesAccountHeaderOrType2Rule": {
+      "definition": "Lorsque Charges/PerType/ChargesAccount est présent ou que Charges/PerType/ChargesAccountOwner est présent ou que Charges/PerType/Record/ChargesAccount est présent ou que Charges/PerType/Record/ChargesAccountOwner est présent, GroupHeader/ChargesAccount doit être absent et GroupHeader/ChargesAccountOwner doit être absent."
+    },
+    "ChargesAccountHeaderOrType1Rule": {
+      "definition": "Lorsque GroupHeader/ChargesAccount est présent ou que GroupHeader/ChargesAccountOwner est présent, Charges/PerType/ChargesAccount doit être absent, Charges/PerType/ChargesAccountOwner doit être absent, Charges/PerType/Record/ChargesAccount doit être absent et Charges/PerType/Record/ChargesAccountOwner doit être absent."
+    }
+  }
+}

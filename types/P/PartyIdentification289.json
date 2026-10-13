@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification289",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "PartyIdentification": {
+      "definition": "Fournit des informations sur le bénéficiaire effectif des titres."
+    },
+    "ContactPerson": {
+      "definition": "Coordonnées détaillées du client."
+    },
+    "ContactPersonAddress": {
+      "definition": "Adresse du client."
+    }
+  }
+}

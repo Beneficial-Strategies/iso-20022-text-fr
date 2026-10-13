@@ -1,0 +1,15 @@
+{
+  "isoType": "GeneralBusinessInformation1",
+  "definition": "Détails des informations métier relatives à un système.",
+  "isoElements": {
+    "Qualifier": {
+      "definition": "Informations complémentaires sur la criticité ou l'importance d'un système d'informations métier générales."
+    },
+    "Subject": {
+      "definition": "Objet d'un élément d'informations métier générales, résumant le sujet et le destinataire prévu de l'information."
+    },
+    "SubjectDetails": {
+      "definition": "Informations métier générales, sous forme non structurée."
+    }
+  }
+}

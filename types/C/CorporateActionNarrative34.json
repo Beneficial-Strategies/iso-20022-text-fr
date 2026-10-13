@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionNarrative34",
+  "definition": "Fournit des informations complémentaires, telles que les détails d'enregistrement.",
+  "isoElements": {
+    "RegistrationDetails": {
+      "definition": "Fournit les informations requises pour l'inscription."
+    },
+    "PartyContactNarrative": {
+      "definition": "Fournit des informations supplémentaires concernant la partie, par exemple l'unité de contact ou la personne responsable de l'opération identifiée dans le message."
+    },
+    "CertificationBreakdown": {
+      "definition": "Fournit les informations requises pour la certification/ventilation."
+    }
+  }
+}

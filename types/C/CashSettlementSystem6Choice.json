@@ -1,0 +1,12 @@
+{
+  "isoType": "CashSettlementSystem6Choice",
+  "definition": "Choix de format pour le système de règlement en numéraire.",
+  "isoElements": {
+    "Code": {
+      "definition": "Système de règlement en numéraire exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Système de règlement en numéraire exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

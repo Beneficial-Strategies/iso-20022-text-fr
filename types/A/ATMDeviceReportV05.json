@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMDeviceReportV05",
+  "definition": "Le message ATMDeviceReport est envoyé à un acquéreur par un ATM, ou transmis par un intermédiaire, pour signaler :|- Le résultat des commandes de maintenance exécutées par l'ATM,|- Les composants de l'ATM,|- Le statut des composants de l'ATM."
+}

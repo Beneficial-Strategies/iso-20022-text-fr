@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason25Choice",
+  "definition": "Choix de format pour le motif d'accusé de réception.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise des informations complémentaires sur l'instruction traitée."
+    },
+    "Proprietary": {
+      "definition": "Précise des informations complémentaires sur l'instruction traitée."
+    }
+  }
+}

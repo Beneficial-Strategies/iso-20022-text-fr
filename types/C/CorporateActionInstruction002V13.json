@@ -1,0 +1,29 @@
+{
+  "isoType": "CorporateActionInstruction002V13",
+  "definition": "Portée|Le message CorporateActionInstruction est envoyé par un titulaire de compte à un teneur de compte pour donner instruction de son choix sur un événement sur titres.||Ce message sert à fournir au conservateur des instructions sur la manière dont le titulaire du compte souhaite procéder pour un événement sur titres. Les instructions comprennent les décisions d'investissement relatives à l'exercice des droits d'une émission de droits, le choix entre titres ou espèces lorsque l'option est disponible, et les décisions relatives à la conversion ou à l'apport de titres.|Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé (la sous-fonction du message est Duplicate),|- fournir à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy),|- renvoyer à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy Duplicate), en utilisant les éléments pertinents de l'en-tête applicatif métier (BAH).",
+  "isoElements": {
+    "ChangeInstructionIndicator": {
+      "definition": "Indique que l'instruction actuelle remplace une instruction précédente qui a été annulée antérieurement."
+    }
+  },
+  "isoRules": {
+    "InstructionCancellationRequestIdentificationRule": {
+      "definition": "Si ChangeInstructionIndicator est « true » ou « 1 » (Oui), InstructionCancellationRequestIdentification doit être présent."
+    },
+    "CorporateActionEventIdentificationRule": {
+      "definition": "Si le message CorporateActionInstruction est non sollicité (c'est-à-dire que cette instruction n'a pas été précédée d'une CorporateActionNotification), CorporateActionGeneralInformation/CorporateActionEventIdentification doit être NONREF."
+    },
+    "ChangeInstructionIndicatorGuideline": {
+      "definition": "ChangeInstructionIndicator ne peut être utilisé que si CorporateActionOptionDetails/WithdrawalAllowedIndicator était défini à « false » ou « 0 » (Non) dans le message CorporateActionNotification précédemment reçu et si CorporateActionOptionDetails/ChangeAllowedIndicator était défini à « true » ou « 1 » (Oui) dans le message CorporateActionNotification précédemment reçu."
+    },
+    "AdditionalInformationRule": {
+      "definition": "Les éléments de AdditionalInformation et de CorporateActionInstruction/AdditionalInformation ne doivent pas contenir d'informations pouvant être fournies dans un champ structuré, sauf accord bilatéral ou indication contraire dans la définition de l'élément."
+    },
+    "OptionTypeRule": {
+      "definition": "Si la valeur de CorporateActionInstruction/OptionType/Code est TAXI (Tax Instruction), au moins une occurrence de BeneficialOwnerDetails doit être présente."
+    },
+    "BeneficialOwnerBreakdownRequestRule": {
+      "definition": "Si la valeur de CorporateActionInstruction/OptionType/Code est BOBD (BeneficialOwnerBreakdownRequest), la valeur de CorporateActionGeneralInformation/EventType/Code doit être WTRC (Withholding Tax Relief Certification).|(MT565 NVR C8)"
+    }
+  }
+}

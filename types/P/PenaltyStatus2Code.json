@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyStatus2Code",
+  "definition": "Indique le statut de la pénalité.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Actif",
+      "definition": "La pénalité est active pour la partie."
+    },
+    "NCOM": {
+      "name": "Non calculé",
+      "definition": "La pénalité n'a pas pu être calculée."
+    },
+    "REMO": {
+      "name": "Supprimé",
+      "definition": "Suppression d'une pénalité en espèces lorsque le règlement ne peut pas être effectué pour des raisons indépendantes de tout participant du CSD ou du CSD."
+    }
+  }
+}

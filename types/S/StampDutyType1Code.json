@@ -1,0 +1,22 @@
+{
+  "isoType": "StampDutyType1Code",
+  "definition": "Précise si le droit de timbre est applicable.",
+  "isoCodes": {
+    "SDRU": {
+      "name": "Hors CSD",
+      "definition": "SDRT payée en dehors du CSD sur l'opération sur titres."
+    },
+    "SDRT": {
+      "name": "Payé",
+      "definition": "SDRT payée sur une autre opération."
+    },
+    "SDRN": {
+      "name": "Sans objet",
+      "definition": "Droit de timbre non applicable."
+    },
+    "SDRQ": {
+      "name": "Exonération",
+      "definition": "Exonéré, pour toute autre raison."
+    }
+  }
+}

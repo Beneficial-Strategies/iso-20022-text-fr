@@ -1,0 +1,59 @@
+{
+  "isoType": "NotificationItem10",
+  "definition": "Fournit des moyens supplémentaires de référencer une opération de paiement.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique, attribuée par le titulaire du compte, pour identifier sans ambiguïté l'écriture de crédit attendue."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identification unique, attribuée par le débiteur, pour identifier sans ambiguïté l'opération sous-jacente auprès du créancier. |Utilisation : l'identification de bout en bout peut être utilisée pour le rapprochement ou pour relier des tâches relatives à l'opération."
+    },
+    "UETR": {
+      "definition": "Identifiant unique universel fournissant une référence de bout en bout d'une opération de paiement."
+    },
+    "Account": {
+      "definition": "Identifie le compte à créditer du montant entrant."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "RelatedAccount": {
+      "definition": "Relation commerciale entre deux entités ; l'une des entités est le titulaire du compte, l'autre est le teneur de compte."
+    },
+    "Amount": {
+      "definition": "Montant d'argent dont le crédit sur le compte est attendu."
+    },
+    "ExpectedValueDate": {
+      "definition": "Date de valeur à laquelle le compte est censé être crédité."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit un montant au créancier (final)."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "IntermediaryAgent": {
+      "definition": "Banque située entre la banque du débiteur et le teneur de compte.|Utilisation : il s'agit de la banque auprès de laquelle le teneur de compte obtiendra le montant d'argent. S'il y a plus d'une banque intermédiaire, IntermediaryAgent identifie la banque la plus proche du teneur de compte.|IntermediaryAgent ne doit être indiqué que s'il est différent de la banque du débiteur."
+    },
+    "Purpose": {
+      "definition": "Raison sous-jacente de l'opération de paiement."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fournit des informations relatives au traitement des informations de remise par l'une des banques de la chaîne de traitement de l'opération."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations structurées permettant le rapprochement d'un paiement avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptes clients."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Fournit des informations sur les allocations sous-jacentes qui composent l'écriture de crédit attendue.||Utilisation : utilisé uniquement par le secteur des titres."
+    }
+  },
+  "isoRules": {
+    "IntermediaryAgentAndDebtorAgentRule": {
+      "definition": "Si IntermediaryAgent est présent, alors DebtorAgent doit être présent."
+    }
+  }
+}

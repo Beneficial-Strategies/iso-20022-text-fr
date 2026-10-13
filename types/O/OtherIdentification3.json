@@ -1,0 +1,15 @@
+{
+  "isoType": "OtherIdentification3",
+  "definition": "Autre identification acceptée d'un instrument financier que l'ISIN.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification d'un titre."
+    },
+    "Suffix": {
+      "definition": "Identifie le suffixe de l'identification du titre."
+    },
+    "Type": {
+      "definition": "Type de l'identification."
+    }
+  }
+}

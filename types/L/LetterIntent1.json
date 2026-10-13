@@ -1,0 +1,18 @@
+{
+  "isoType": "LetterIntent1",
+  "definition": "Précise les informations relatives à la lettre d'intention.",
+  "isoElements": {
+    "LetterIntentReference": {
+      "definition": "Référence d'un programme de lettre d'intention, dans lequel les commissions de vente sont réduites en fonction du cumul des achats effectifs et prévus d'un client, sur une période donnée, comme convenu par le client."
+    },
+    "Amount": {
+      "definition": "Montant indiqué dans la lettre d'intention."
+    },
+    "StartDate": {
+      "definition": "Date de début indiquée dans la lettre d'intention."
+    },
+    "EndDate": {
+      "definition": "Date de fin indiquée dans la lettre d'intention."
+    }
+  }
+}

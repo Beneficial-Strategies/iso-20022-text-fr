@@ -1,0 +1,17 @@
+{
+  "isoType": "RateStatus4Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser un statut de taux.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le statut du taux."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du statut du taux."
+    }
+  },
+  "isoRules": {
+    "RateStatusGuideline": {
+      "definition": "La valeur de code ACTU est la valeur par défaut d'un statut de taux."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "NettingEligibility5Choice",
+  "definition": "Choix de format pour les informations sur l'éligibilité à la compensation (netting).",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indique si l'opération de règlement est éligible à la compensation (netting)."
+    },
+    "Proprietary": {
+      "definition": "Éligibilité à la compensation (netting) exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

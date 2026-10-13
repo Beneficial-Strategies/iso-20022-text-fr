@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyStatus2",
+  "definition": "Précise le statut de la pénalité.",
+  "isoElements": {
+    "Status": {
+      "definition": "Statut d'une pénalité."
+    },
+    "Reason": {
+      "definition": "Motif du statut de la pénalité."
+    }
+  }
+}

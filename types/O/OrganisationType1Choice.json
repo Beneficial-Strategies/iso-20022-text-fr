@@ -1,0 +1,12 @@
+{
+  "isoType": "OrganisationType1Choice",
+  "definition": "Choix de formats pour le type d'organisation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'organisation exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type d'organisation exprimé sous forme de code propriétaire."
+    }
+  }
+}

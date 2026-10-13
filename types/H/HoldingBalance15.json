@@ -1,0 +1,15 @@
+{
+  "isoType": "HoldingBalance15",
+  "definition": "Position nette d'une détention ségréguée d'un seul titre au sein de la position globale détenue sur le compte-titres, par exemple sous-solde par statut.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Quantité totale d'instruments financiers pour l'avoir référencé."
+    },
+    "BalanceType": {
+      "definition": "Raison pour laquelle un titre n'est pas disponible, ou informations complémentaires sur l'instrument financier pour lequel le solde est donné, par exemple non enregistré, enregistré au nom d'un prête-nom."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lieu où les titres sont conservés, physiquement ou de manière notionnelle. Ce lieu peut être, par exemple, un dépositaire local, un dépositaire central de titres (CSD) ou un dépositaire central de titres international (ICSD)."
+    }
+  }
+}

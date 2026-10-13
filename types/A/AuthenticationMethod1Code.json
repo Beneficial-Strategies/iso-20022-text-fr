@@ -1,0 +1,50 @@
+{
+  "isoType": "AuthenticationMethod1Code",
+  "definition": "Méthode utilisée pour authentifier un porteur de carte.",
+  "isoCodes": {
+    "UKNW": {
+      "name": "Méthode inconnue",
+      "definition": "La méthode d'authentification mise en œuvre est inconnue."
+    },
+    "BYPS": {
+      "name": "Contournement",
+      "definition": "Authentification contournée par le commerçant."
+    },
+    "NPIN": {
+      "name": "Code PIN en ligne",
+      "definition": "Authentification par code PIN en ligne (Personal Identification Number)."
+    },
+    "FPIN": {
+      "name": "Code PIN hors ligne",
+      "definition": "Authentification par code PIN hors ligne (Personal Identification Number)."
+    },
+    "CPSG": {
+      "name": "Capture de la signature",
+      "definition": "Capture de signature électronique (signature manuscrite)."
+    },
+    "PPSG": {
+      "name": "Signature papier",
+      "definition": "Signature manuscrite sur papier."
+    },
+    "MANU": {
+      "name": "Vérification manuelle",
+      "definition": "Vérification manuelle, par exemple passeport ou permis de conduire."
+    },
+    "MERC": {
+      "name": "Authentification du commerçant",
+      "definition": "Authentification liée au commerçant."
+    },
+    "SCRT": {
+      "name": "Certificat sécurisé",
+      "definition": "Opération de commerce électronique sécurisée par le certificat X.509 d'un client."
+    },
+    "SNCT": {
+      "name": "Sécurisé sans certificat",
+      "definition": "Opération électronique sécurisée sans certificat du porteur de la carte."
+    },
+    "SCNL": {
+      "name": "Canal sécurisé",
+      "definition": "Opération chiffrée au niveau du canal."
+    }
+  }
+}

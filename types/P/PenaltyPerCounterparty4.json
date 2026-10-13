@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyPerCounterparty4",
+  "definition": "Précise les pénalités pour une partie donnée.",
+  "isoElements": {
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte de sous-niveau pour le compte du titulaire du compte, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "PartyIdentification": {
+      "definition": "Identification unique de la partie au sein du système."
+    },
+    "AggregatedNetAmount": {
+      "definition": "Montant net bilatéral par partie et contrepartie."
+    },
+    "PenaltyDetails": {
+      "definition": "Précisions supplémentaires sur la pénalité."
+    }
+  }
+}

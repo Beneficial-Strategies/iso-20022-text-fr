@@ -1,0 +1,12 @@
+{
+  "isoType": "ContactPerson1",
+  "definition": "Contient des informations sur le contact responsable de l'opération identifiée dans le message.",
+  "isoElements": {
+    "ContactPerson": {
+      "definition": "Fournit des informations supplémentaires concernant la partie, par exemple l'unité de contact ou la personne responsable de l'opération identifiée dans le message."
+    },
+    "InstitutionIdentification": {
+      "definition": "Identification de l'établissement que représente la personne de contact."
+    }
+  }
+}

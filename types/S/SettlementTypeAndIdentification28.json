@@ -1,0 +1,41 @@
+{
+  "isoType": "SettlementTypeAndIdentification28",
+  "definition": "Fournit le type d'opération et des informations d'identification.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue du titulaire du compte (ou de la partie donneuse d'ordre gérant le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la banque teneur de compte."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération de contrepartie attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par l'entité de traitement de l'instruction autre que le titulaire du compte, le teneur de compte et l'infrastructure de marché."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Précise si le mouvement sur un compte-titres résulte d'une instruction de livraison ou de réception."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    },
+    "CommonIdentification": {
+      "definition": "Référence unique convenue entre les deux contreparties de la transaction commerciale pour identifier celle-ci."
+    },
+    "PoolIdentification": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identification attribuée par la banque teneur de compte permettant d'identifier sans ambiguïté un événement sur titres."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Si aucune référence n'est disponible pour AccountOwnerTransactionIdentification, par exemple parce que l'opération a été envoyée par télécopie, AccountOwnerTransactionIdentification doit être NONREF."
+    }
+  }
+}

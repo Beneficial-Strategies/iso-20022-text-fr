@@ -1,0 +1,51 @@
+{
+  "isoType": "IntraBalanceQueryCriteria11",
+  "definition": "Définit les critères selon lesquels les informations sont incluses.",
+  "isoElements": {
+    "References": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    },
+    "Status": {
+      "definition": "Indique le statut de règlement d'une opération."
+    },
+    "CashAccount": {
+      "definition": "Compte sur lequel la trésorerie est détenue."
+    },
+    "CashAccountOwner": {
+      "definition": "Partie titulaire du compte."
+    },
+    "CashAccountServicer": {
+      "definition": "Partie qui gère le compte de trésorerie pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "BalanceType": {
+      "definition": "Solde vers lequel le montant est déplacé."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Numéro identifiant un lot constituant le sous-solde."
+    },
+    "SettlementAmount": {
+      "definition": "Montant total à régler."
+    },
+    "SettledAmount": {
+      "definition": "Montant effectivement réglé, qui sera crédité sur le compte espèces du titulaire du compte ou débité de celui-ci. Il peut différer du montant de règlement instruit en fonction du niveau de tolérance du marché."
+    },
+    "SettlementCurrency": {
+      "definition": "Devise dans laquelle le montant ordonné est exprimé."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Date et heure auxquelles le montant doit être déplacé."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Date et heure auxquelles le montant est déplacé."
+    },
+    "Priority": {
+      "definition": "Précise si l'opération doit être exécutée avec une priorité élevée."
+    },
+    "MessageOriginator": {
+      "definition": "Partie à l'origine du message, si elle est différente de l'expéditeur."
+    },
+    "CreationDateTime": {
+      "definition": "Indique la date et l'heure de création du mouvement intra-solde."
+    }
+  }
+}

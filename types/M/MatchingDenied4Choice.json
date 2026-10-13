@@ -1,0 +1,12 @@
+{
+  "isoType": "MatchingDenied4Choice",
+  "definition": "Précise la modification demandée du traitement d'appariement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise l'exécution d'un processus de refus d'appariement."
+    },
+    "Proprietary": {
+      "definition": "Précise l'exécution d'un processus de refus d'appariement."
+    }
+  }
+}

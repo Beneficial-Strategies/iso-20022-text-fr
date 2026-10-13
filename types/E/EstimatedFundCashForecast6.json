@@ -1,0 +1,65 @@
+{
+  "isoType": "EstimatedFundCashForecast6",
+  "definition": "Mouvements de trésorerie à partir d'un fonds ou vers un fonds à la suite d'opérations sur fonds d'investissement, par exemple des souscriptions ou des rachats.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiant technique unique d'une occurrence de prévision de trésorerie d'un fonds au sein d'un rapport de prévision de trésorerie de fonds, attribué par l'émetteur du rapport."
+    },
+    "TradeDateTime": {
+      "definition": "Date et, si nécessaire, heure à laquelle le prix sera appliqué."
+    },
+    "PreviousTradeDateTime": {
+      "definition": "Date et heure précédentes auxquelles le prix a été appliqué."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Catégorie de parts du fonds d'investissement à laquelle le flux de trésorerie se rapporte."
+    },
+    "EstimatedTotalNAV": {
+      "definition": "Valeur totale estimée de l'ensemble des avoirs, déduction faite des engagements du fonds, attribuable à une catégorie de parts donnée du fonds d'investissement."
+    },
+    "PreviousTotalNAV": {
+      "definition": "Valeur précédente de l'ensemble des avoirs, déduction faite des engagements du fonds, attribuable à une catégorie de parts donnée du fonds d'investissement."
+    },
+    "EstimatedTotalUnitsNumber": {
+      "definition": "Nombre total estimé de parts de la catégorie du fonds d'investissement qui ont été émises."
+    },
+    "PreviousTotalUnitsNumber": {
+      "definition": "Valeur précédente de l'ensemble des avoirs, déduction faite des engagements du fonds, attribuable à une catégorie de parts donnée du fonds d'investissement."
+    },
+    "EstimatedTotalNAVChangeRate": {
+      "definition": "Taux de variation de la valeur liquidative."
+    },
+    "InvestmentCurrency": {
+      "definition": "Devise de la catégorie du fonds d'investissement."
+    },
+    "CurrencyStatus": {
+      "definition": "Informations sur la désignation de la devise de la catégorie de parts, c'est-à-dire si elle est destinée à un usage onshore ou offshore, ainsi que d'autres informations pouvant être requises. Elles ne sont généralement requises que pour les fonds en CNY."
+    },
+    "ExceptionalNetCashFlowIndicator": {
+      "definition": "Indique si le flux de trésorerie net estimé est exceptionnel."
+    },
+    "Price": {
+      "definition": "Prix par part de la date de négociation précédente."
+    },
+    "ForeignExchangeRate": {
+      "definition": "Taux de change."
+    },
+    "EstimatedPercentageOfShareClassTotalNAV": {
+      "definition": "Flux de trésorerie net estimé exprimé en pourcentage de la valeur liquidative (NAV) totale précédente de la catégorie de parts."
+    },
+    "EstimatedCashInForecastDetails": {
+      "definition": "Mouvements de trésorerie estimés entrant dans le fonds à la suite d'opérations sur des parts d'un fonds d'investissement, par exemple des souscriptions ou des arbitrages entrants."
+    },
+    "EstimatedCashOutForecastDetails": {
+      "definition": "Mouvements de trésorerie estimés sortant du fonds à la suite d'opérations sur des parts d'un fonds d'investissement, par exemple des rachats ou des arbitrages sortants."
+    },
+    "EstimatedNetCashForecastDetails": {
+      "definition": "Trésorerie nette résultant des flux entrants et sortants."
+    }
+  },
+  "isoRules": {
+    "ExceptionalCashFlowIndicatorRule": {
+      "definition": "Si Exceptional NetCashFlowIndicator est « true » ou « 1 » (Oui), alors EstimatedCashInForecastDetails/ExceptionalCashFlowIndicator ou EstimatedCashOutForecastDetails/ExceptionalCashFlowIndicator doit être présent. Les deux peuvent être présents."
+    }
+  }
+}

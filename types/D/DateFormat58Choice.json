@@ -1,0 +1,12 @@
+{
+  "isoType": "DateFormat58Choice",
+  "definition": "Choix entre un format ISODate ou ISODateTime ou un code de date.",
+  "isoElements": {
+    "DateOrDateTime": {
+      "definition": "Date exprimée sous forme de date calendaire."
+    },
+    "DateCode": {
+      "definition": "Type de date."
+    }
+  }
+}

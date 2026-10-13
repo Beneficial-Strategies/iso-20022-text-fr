@@ -1,0 +1,41 @@
+{
+  "isoType": "Fee11",
+  "definition": "Montant d'argent associé à un service.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de frais (charges/commissions)."
+    },
+    "Basis": {
+      "definition": "Méthode utilisée pour calculer les frais (charges/commissions)."
+    },
+    "StandardAmount": {
+      "definition": "Montant standard des frais (charges/commissions) tel que précisé dans le prospectus du fonds ou convenu pour le compte."
+    },
+    "StandardRate": {
+      "definition": "Taux standard des frais (charges/commissions) utilisé pour calculer le montant des charges ou des frais, tel que précisé dans le prospectus du fonds ou convenu pour le compte."
+    },
+    "DiscountDetails": {
+      "definition": "Remise ou dispense appliquée aux frais (charges/commissions)."
+    },
+    "AppliedAmount": {
+      "definition": "Montant des frais (charges/commissions) appliqué à la transaction."
+    },
+    "AppliedRate": {
+      "definition": "Taux final utilisé pour calculer le montant des frais (charges/commissions)."
+    },
+    "NonStandardSLAReference": {
+      "definition": "Référence à un accord commercial qui déroge au traitement normal ou à l'accord de niveau de service (SLA), tel que des frais (charges/commissions)."
+    },
+    "RecipientIdentification": {
+      "definition": "Partie ayant droit au montant résultant de frais (charges/commissions)."
+    },
+    "InformativeIndicator": {
+      "definition": "Indique que l'information est fournie à titre informatif uniquement. Lorsque la valeur est « false » ou « 0 », le montant fourni est pris en compte dans les frais généraux de la transaction. Lorsque la valeur est « true » ou « 1 », le montant fourni n'est pas pris en compte dans les frais généraux de la transaction."
+    }
+  },
+  "isoRules": {
+    "AppliedAmountRule": {
+      "definition": "Si InformativeIndicator est \"false\" ou \"0\" (Non), alors AppliedAmount doit être présent."
+    }
+  }
+}

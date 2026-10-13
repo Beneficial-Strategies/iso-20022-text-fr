@@ -1,0 +1,26 @@
+{
+  "isoType": "PaginationBalance1",
+  "definition": "Solde d'un instrument financier pour une page de relevé donnée.",
+  "isoElements": {
+    "FirstOpeningBalance": {
+      "definition": "Solde d'ouverture de l'instrument financier dans le relevé."
+    },
+    "IntermediaryOpeningBalance": {
+      "definition": "Solde d'ouverture de cette page uniquement. Il doit correspondre au solde de clôture intermédiaire de la page précédente (faisant partie du même relevé)."
+    },
+    "FinalClosingBalance": {
+      "definition": "Solde de clôture de l'instrument financier dans le relevé."
+    },
+    "IntermediaryClosingBalance": {
+      "definition": "Solde de clôture de cette page uniquement. Il doit correspondre au solde d'ouverture intermédiaire de la page suivante (faisant partie du même relevé)."
+    }
+  },
+  "isoRules": {
+    "FirstOpeningBalanceOrIntermediaryOpeningBalanceRule": {
+      "definition": "FirstOpeningBalance ou IntermediaryOpeningBalance peut être présent, mais pas les deux."
+    },
+    "FinalClosingBalanceOrIntermediaryClosingBalanceRule": {
+      "definition": "FinalClosingBalance ou IntermediaryClosingBalance peut être présent, mais pas les deux."
+    }
+  }
+}

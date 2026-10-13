@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndForeignExchange1",
+  "definition": "Fournit des informations sur le montant de la facture et sur les conditions de l'opération de change.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant d'argent de l'écriture de trésorerie."
+    },
+    "ForeignExchange": {
+      "definition": "Informations nécessaires pour traiter un change ou une conversion de devises."
+    }
+  }
+}

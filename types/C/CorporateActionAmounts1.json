@@ -1,0 +1,156 @@
+{
+  "isoType": "CorporateActionAmounts1",
+  "definition": "Précise les montants dans le cadre d'un événement d'opération sur titres.",
+  "isoElements": {
+    "GrossCashAmount": {
+      "definition": "Montant d'argent avant que des déductions et abattements aient été appliqués."
+    },
+    "NetCashAmount": {
+      "definition": "Montant d'argent après que des déductions et abattements ont été appliqués, le cas échéant, c'est-à-dire le montant total +/- frais/commissions."
+    },
+    "IssueDiscountAmount": {
+      "definition": "Montant d'argent défini comme une décote sur une nouvelle émission ou sur une tranche d'une émission existante."
+    },
+    "SolicitationFees": {
+      "definition": "Montant de la prime en espèces mise à disposition afin d'encourager la participation à l'offre. Le paiement est effectué à un tiers qui a sollicité une entité pour participer à l'offre."
+    },
+    "CashInLieuOfShare": {
+      "definition": "Versement en espèces en remplacement d'une quantité fractionnaire de, par exemple, actions."
+    },
+    "OriginalAmount": {
+      "definition": "Montant dans sa devise d'origine lorsqu'une conversion depuis/vers une autre devise a eu lieu."
+    },
+    "CapitalGain": {
+      "definition": "Montant d'argent distribué à la suite d'une plus-value."
+    },
+    "InterestAmount": {
+      "definition": "Montant d'argent représentant le paiement d'un coupon."
+    },
+    "IndemnityAmount": {
+      "definition": "(Spécifique à la France) Montant dû à un acheteur de titres négociés avant la date ex, qui peut être soumis à un taux d'imposition différent."
+    },
+    "RedemptionPremiumAmount": {
+      "definition": "Montant d'argent (hors intérêts) s'ajoutant au principal lors du remboursement d'une obligation."
+    },
+    "ManufacturedDividendAmount": {
+      "definition": "Montant d'argent que l'emprunteur verse au prêteur à titre de compensation. Il ne donne pas droit au prêteur de réclamer un crédit d'impôt et est parfois traité différemment par les autorités fiscales locales du prêteur."
+    },
+    "PrincipalOrCorpus": {
+      "definition": "Montant d'argent représentant une distribution du principal d'une obligation, par exemple le remboursement de la dette en cours."
+    },
+    "ReinvestmentAmount": {
+      "definition": "Montant d'argent réinvesti dans des titres supplémentaires."
+    },
+    "MarketClaimAmount": {
+      "definition": "Montant d'argent résultant d'une réclamation de marché."
+    },
+    "FullyFrankedAmount": {
+      "definition": "Montant résultant d'un dividende entièrement imputé versé par une société ; le montant comprend un crédit d'impôt pour les sociétés qui ont effectué des paiements d'impôt suffisants au cours de la période fiscale."
+    },
+    "UnfrankedAmount": {
+      "definition": "Montant résultant d'un dividende non imputé versé par une société ; le montant ne comprend pas de crédit d'impôt et est soumis à la retenue à la source."
+    },
+    "SundryOrOtherAmount": {
+      "definition": "Montant d'argent lié à un revenu imposable qui ne peut pas être catégorisé."
+    },
+    "SpecialConcessionAmount": {
+      "definition": "Montant de tirage ou autre réduction ou majoration par rapport au prix de l'opération."
+    },
+    "EntitledAmount": {
+      "definition": "Montant en espèces fondé sur les conditions de l'opération sur titres et le solde des titres sous-jacents, auquel le titulaire du compte a droit ou qu'il doit (pouvant être positif ou négatif)."
+    },
+    "CashIncentive": {
+      "definition": "Taux de la prime en espèces mise à disposition si le détenteur de titres consent ou participe à un événement, par exemple les frais de consentement."
+    },
+    "AdditionalSubscriptionCost": {
+      "definition": "Coûts supplémentaires - venant s'ajouter aux coûts de souscription - que le souscripteur doit payer conformément au processus de souscription. Ne doit pas être utilisé pour le coût de souscription lui-même."
+    },
+    "TaxFreeAmount": {
+      "definition": "Montant d'argent qui n'a pas été soumis à l'impôt."
+    },
+    "TaxDeferredAmount": {
+      "definition": "Montant de revenu éligible à une imposition différée."
+    },
+    "GermanLocalTax1Amount": {
+      "definition": "Impôt local (ZAS Anrechnungsbetrag) soumis à l'impôt sur acomptes d'intérêts (proportion des intérêts soumis à l'impôt sur acomptes d'intérêts/bénéfice intermédiaire qui n'est pas couverte par le montant exonéré d'impôt)."
+    },
+    "GermanLocalTax2Amount": {
+      "definition": "Impôt local (ZAS Pflichtige Zinsen) intérêts soumis à l'impôt sur acomptes d'intérêts (proportion des intérêts bruts par part/bénéfices intermédiaires qui n'est pas couverte par le crédit dans le pool d'intérêts)."
+    },
+    "GermanLocalTax3Amount": {
+      "definition": "Impôt local (Zinstopf) compensation des intérêts par part avec le montant exonéré d'impôt (variation de la compensation des intérêts par part par rapport au montant exonéré d'impôt)."
+    },
+    "GermanLocalTax4Amount": {
+      "definition": "Impôt local (Ertrag Besitzanteilig) rendement soumis à l'impôt sur acomptes d'intérêts."
+    },
+    "StockExchangeTaxAmount": {
+      "definition": "Montant de la taxe de bourse."
+    },
+    "TransferTaxAmount": {
+      "definition": "Impôt prélevé sur un transfert de propriété d'instrument financier."
+    },
+    "TransactionTaxAmount": {
+      "definition": "Montant de la taxe sur les transactions."
+    },
+    "ValueAddedTaxAmount": {
+      "definition": "Taxe sur la valeur ajoutée."
+    },
+    "EURetentionTaxAmount": {
+      "definition": "Montant total de l'impôt retenu à la source conformément à la directive EU sur l'épargne."
+    },
+    "LocalTaxAmount": {
+      "definition": "Montant de l'impôt prélevé par la juridiction dans laquelle l'instrument financier est réglé."
+    },
+    "PaymentLevyTaxAmount": {
+      "definition": "Taxe sur les paiements."
+    },
+    "CountryNationalFederalTaxAmount": {
+      "definition": "Montant de l'impôt national, fédéral ou du pays prélevé par la juridiction dans laquelle se trouve l'agent teneur de compte."
+    },
+    "StampDutyAmount": {
+      "definition": "Montant du droit de timbre."
+    },
+    "TaxReclaimAmount": {
+      "definition": "Montant qui a été payé en excédent de l'obligation fiscale réelle et qui a été récupéré."
+    },
+    "TaxCreditAmount": {
+      "definition": "Montant des impôts déjà payés en lien avec le fait générateur de l'impôt."
+    },
+    "WithholdingOfForeignTaxAmount": {
+      "definition": "Montant d'argent retenu par la juridiction dans laquelle le revenu a été initialement versé, pour lequel un allègement à la source et/ou une réclamation peut être possible."
+    },
+    "WithholdingOfLocalTaxAmount": {
+      "definition": "Montant d'argent retenu par la juridiction dans laquelle le titulaire du compte est situé, pour lequel un allègement à la source et/ou une réclamation peut être possible."
+    },
+    "AdditionalTaxAmount": {
+      "definition": "Montant des impôts supplémentaires qui ne peuvent pas être catégorisés."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Montant d'une distribution en espèces qui sera retenu par une autorité fiscale."
+    },
+    "FiscalStampAmount": {
+      "definition": "Montant de l'impôt fiscal à appliquer."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Montant versé à un courtier d'exécution à titre de commission."
+    },
+    "PayingAgentCommissionAmount": {
+      "definition": "Montant de la commission de l'agent payeur ou de l'agent sous-payeur."
+    },
+    "LocalBrokerCommissionAmount": {
+      "definition": "Commission du courtier local."
+    },
+    "PostageFeeAmount": {
+      "definition": "Montant d'argent payé pour une livraison par courrier postal ordinaire."
+    },
+    "RegulatoryFeesAmount": {
+      "definition": "Montant d'argent prélevé par une autorité de régulation, par exemple les frais de la Securities and Exchange."
+    },
+    "ShippingFeesAmount": {
+      "definition": "Montant d'argent (assurance comprise) payé pour une livraison par transporteur."
+    },
+    "ChargesAmount": {
+      "definition": "Montant payé pour la prestation de services financiers qui ne peut être classé sous un autre qualificatif."
+    }
+  }
+}

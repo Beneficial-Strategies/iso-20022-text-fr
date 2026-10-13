@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAStandingInstructionRequestV01",
+  "definition": "Portée|Ce message est envoyé par un CSD à l'émetteur (ou à son agent) afin de lui communiquer les détails du client du CSD pour la distribution du produit d'un événement sur titres :|- Paiements bruts ou nets.|- Détails de livraison des titres devant être livrés en dehors du CSD.|- Détails de livraison des montants en espèces devant être livrés en dehors du CSD.|Utilisation|Ce message est utilisé pour demander à l'émetteur (ou à son agent) de mettre en place une instruction permanente pour le produit.|La modification d'une instruction permanente s'effectue par un mécanisme d'annulation et de remplacement. Une demande d'annulation d'instruction permanente est d'abord envoyée, suivie d'une nouvelle demande d'instruction permanente."
+}

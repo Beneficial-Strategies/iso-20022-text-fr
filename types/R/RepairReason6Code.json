@@ -1,0 +1,190 @@
+{
+  "isoType": "RepairReason6Code",
+  "definition": "Précise la raison pour laquelle l'instruction de financement sur titres a un statut en réparation.",
+  "isoCodes": {
+    "BATC": {
+      "name": "Lot en cours de traitement",
+      "definition": "Lot de traitement non reconnu ou invalide, c'est-à-dire en journée/temps réel alors que le règlement n'est possible que par lot de nuit."
+    },
+    "CAEV": {
+      "name": "Opération sur titres",
+      "definition": "Opération sur titres en cours sur l'instrument financier faisant l'objet de l'instruction."
+    },
+    "CASH": {
+      "name": "Compte espèces",
+      "definition": "Compte espèces non reconnu ou invalide."
+    },
+    "CASY": {
+      "name": "Système de règlement en espèces impossible",
+      "definition": "Des dispositions permanentes impossibles prévalent sur l'instruction pour le système de règlement espèces."
+    },
+    "DDAT": {
+      "name": "Date de règlement",
+      "definition": "Date de règlement non reconnue ou invalide."
+    },
+    "DDEA": {
+      "name": "Prix de la transaction",
+      "definition": "Prix de la transaction non reconnu ou invalide."
+    },
+    "DMON": {
+      "name": "Montant de règlement",
+      "definition": "Montant de règlement non reconnu ou invalide."
+    },
+    "DQUA": {
+      "name": "Quantité",
+      "definition": "Quantité de règlement non reconnue ou invalide."
+    },
+    "DSEC": {
+      "name": "Titre",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    },
+    "DTRD": {
+      "name": "Date de négociation",
+      "definition": "Date de négociation non reconnue ou invalide."
+    },
+    "IIND": {
+      "name": "Référence commune",
+      "definition": "Référence commune non reconnue, invalide ou manquante."
+    },
+    "MINO": {
+      "name": "Quantité de règlement minimale",
+      "definition": "La quantité instruite est inférieure à la quantité de règlement minimale existante pour l'instrument financier."
+    },
+    "MUNO": {
+      "name": "Quantité de règlement multiple",
+      "definition": "La quantité instruite n'est pas un multiple d'un lot de règlement existant pour l'instrument financier."
+    },
+    "NCRR": {
+      "name": "Devise du montant de règlement",
+      "definition": "Devise du montant de règlement non reconnue ou invalide."
+    },
+    "PHYS": {
+      "name": "Règlement physique impossible",
+      "definition": "Le règlement physique est impossible pour l'instrument financier instruit."
+    },
+    "PLCE": {
+      "name": "Lieu de négociation",
+      "definition": "Lieu de négociation non reconnu ou invalide."
+    },
+    "REFE": {
+      "name": "Référence",
+      "definition": "L'instruction porte une référence identique à celle d'une autre instruction reçue précédemment."
+    },
+    "RTGS": {
+      "name": "Impossible d'utiliser le système RTGS indiqué",
+      "definition": "Impossible d'utiliser le système RTGS instruit (NRTG ou YRTG)."
+    },
+    "SAFE": {
+      "name": "Compte de conservation",
+      "definition": "Compte de conservation de l'émetteur du message non reconnu ou invalide."
+    },
+    "SETR": {
+      "name": "Opération de règlement",
+      "definition": "Type d'opération de règlement non reconnu ou invalide."
+    },
+    "SETS": {
+      "name": "Méthode du système de règlement",
+      "definition": "Système/mode de règlement instruit non reconnu ou invalide."
+    },
+    "TXST": {
+      "name": "Statut fiscal",
+      "definition": "Statut fiscal des titres instruits non reconnu ou invalide."
+    },
+    "INPS": {
+      "name": "Lieu de conservation",
+      "definition": "Lieu de conservation non reconnu, invalide ou manquant."
+    },
+    "SDUT": {
+      "name": "Droit de timbre",
+      "definition": "Les informations requises sur le droit de timbre sont manquantes."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "IEXE": {
+      "name": "Partie réceptrice ou livreuse 3",
+      "definition": "Non-concordance du client de la partie livreuse ou réceptrice 2."
+    },
+    "ICAG": {
+      "name": "Partie réceptrice ou livreuse 1",
+      "definition": "Non-concordance du participant du dépositaire livreur ou récepteur."
+    },
+    "DEPT": {
+      "name": "Dépositaire récepteur ou livreur",
+      "definition": "Non-concordance du dépositaire."
+    },
+    "ICUS": {
+      "name": "Partie réceptrice ou livreuse 2",
+      "definition": "Non-concordance du client de la partie livreuse ou réceptrice 1."
+    },
+    "REPA": {
+      "name": "Montant de l'opération de résiliation",
+      "definition": "Montant de l'opération de résiliation non reconnu ou invalide."
+    },
+    "CADE": {
+      "name": "Délai d'appel de l'opération",
+      "definition": "Délai d'appel de l'opération non reconnu ou invalide."
+    },
+    "RERT": {
+      "name": "Type de taux de rachat",
+      "definition": "Type de taux de rachat non reconnu ou invalide."
+    },
+    "RSPR": {
+      "name": "Taux de marge",
+      "definition": "Taux de marge non reconnu ou invalide."
+    },
+    "VASU": {
+      "name": "Support du taux variable",
+      "definition": "Support de taux variable non reconnu ou invalide (pension livrée)."
+    },
+    "REPO": {
+      "name": "Taux de rachat",
+      "definition": "Taux de rachat non reconnu ou invalide."
+    },
+    "REPP": {
+      "name": "Montant de la prime",
+      "definition": "Montant de la prime non reconnu ou invalide."
+    },
+    "TERM": {
+      "name": "Date et heure de clôture",
+      "definition": "Date/heure de clôture non reconnue ou invalide."
+    },
+    "FORF": {
+      "name": "Montant de la déchéance",
+      "definition": "Montant de la pénalité non reconnu ou invalide."
+    },
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Reçue après l'heure limite de l'établissement teneur de compte. Traitée au mieux."
+    },
+    "BUSE": {
+      "name": "Correction du type d'ordre",
+      "definition": "Type d'ordre non reconnu ou invalide."
+    },
+    "COMC": {
+      "name": "Correction du contrat de commercialisation",
+      "definition": "Contrat de commercialisation non reconnu ou invalide."
+    },
+    "FEEE": {
+      "name": "Correction des frais et commissions",
+      "definition": "Frais ou commission non reconnus ou invalides."
+    },
+    "INNA": {
+      "name": "Correction des informations en texte libre",
+      "definition": "Information narrative préconvenue de l'accord de niveau de service non reconnue ou invalide."
+    },
+    "NRGM": {
+      "name": "Aucune correspondance",
+      "definition": "La demande d'annulation est en réparation car plusieurs instructions correspondent aux critères d'annulation."
+    },
+    "NRGN": {
+      "name": "Introuvable",
+      "definition": "La demande d'annulation est en réparation car l'instruction n'a pas pu être trouvée."
+    },
+    "ULNK": {
+      "name": "Inconnu",
+      "definition": "Le message n'a pas été reconnu. Référence liée inconnue."
+    }
+  }
+}

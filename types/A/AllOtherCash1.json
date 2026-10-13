@@ -1,0 +1,12 @@
+{
+  "isoType": "AllOtherCash1",
+  "definition": "Indique si tous les actifs restants d’un portefeuille non listés pour le transfert doivent être liquidés et transférés en espèces",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indique si tous les actifs restants d’un portefeuille non listés pour le transfert doivent être liquidés et transférés en espèces."
+    },
+    "Currency": {
+      "definition": "Devise des espèces."
+    }
+  }
+}

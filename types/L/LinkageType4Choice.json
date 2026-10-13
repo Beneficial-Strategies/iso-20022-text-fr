@@ -1,0 +1,12 @@
+{
+  "isoType": "LinkageType4Choice",
+  "definition": "Choix du format du type de lien.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de lien exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Type de lien exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

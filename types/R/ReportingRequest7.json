@@ -1,0 +1,33 @@
+{
+  "isoType": "ReportingRequest7",
+  "definition": "Fournit des précisions complémentaires sur la demande de relevé.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique, attribuée par le titulaire du compte, permettant d'identifier sans ambiguïté la demande de relevé de compte."
+    },
+    "RequestedMessageNameIdentification": {
+      "definition": "Précise le type du message de relevé demandé."
+    },
+    "Account": {
+      "definition": "Identification non ambiguë du compte auquel se rapporte la demande de relevé."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "ReportingPeriod": {
+      "definition": "Précise la période de reporting demandée."
+    },
+    "ReportingSequence": {
+      "definition": "Précise la plage de numéros de séquence d'identification demandée."
+    },
+    "RequestedTransactionType": {
+      "definition": "Identifie les opérations à inclure dans le relevé."
+    },
+    "RequestedBalanceType": {
+      "definition": "Fournit des précisions sur le relevé de soldes demandé."
+    }
+  }
+}

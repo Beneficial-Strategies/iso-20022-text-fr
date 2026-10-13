@@ -1,0 +1,9 @@
+{
+  "isoType": "AlgorithmIdentification16",
+  "definition": "Algorithme cryptographique et paramètres des condensés.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Identification de l'algorithme de condensé."
+    }
+  }
+}

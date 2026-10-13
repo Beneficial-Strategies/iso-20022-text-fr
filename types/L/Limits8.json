@@ -1,0 +1,12 @@
+{
+  "isoType": "Limits8",
+  "definition": "Rend compte des limites.",
+  "isoElements": {
+    "CurrentLimit": {
+      "definition": "Le rapport porte sur une limite courante de type gestion des risques."
+    },
+    "DefaultLimit": {
+      "definition": "Le rapport porte sur une limite par défaut de type gestion des risques."
+    }
+  }
+}

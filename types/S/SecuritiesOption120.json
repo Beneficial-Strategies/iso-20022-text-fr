@@ -1,0 +1,83 @@
+{
+  "isoType": "SecuritiesOption120",
+  "definition": "Fournit des informations sur l'option sur titres de l'événement sur titres.",
+  "isoElements": {
+    "SecurityDetails": {
+      "definition": "Fournit la description de l'instrument financier lié au mouvement de titres."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si la valeur est un débit ou un crédit."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "definition": "Précise que le titre identifié est une identification de titre temporaire utilisée pour des raisons de traitement, par exemple un titre de contrepartie utilisé aux US."
+    },
+    "NonEligibleProceedsIndicator": {
+      "definition": "Précise les informations relatives aux ressources de sortie qui ne peuvent pas être traitées par le dépositaire central de titres (CSD). Une instruction de livraison spéciale du titulaire du compte est requise pour que le résultat de l'événement sur titres soit crédité."
+    },
+    "NewSecuritiesIssuanceIndicator": {
+      "definition": "Précise la nature de l'émission de titres."
+    },
+    "IncomeType": {
+      "definition": "Précise le type de revenu.|Les listes des codes de type de revenu à utiliser sont disponibles sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "OtherIncomeType": {
+      "definition": "Type de revenu à utiliser dans le cadre d'un autre régime fiscal."
+    },
+    "ExemptionType": {
+      "definition": "Précise la base du taux réduit de retenue à la source."
+    },
+    "EntitledQuantity": {
+      "definition": "Quantité de titres fondée sur les conditions de l'événement sur titres et sur le solde de titres sous-jacents auquel le titulaire du compte a droit. (Cette quantité peut être positive ou négative)."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lieu où les instruments financiers sont/seront conservés."
+    },
+    "CountryOfIncomeSource": {
+      "definition": "Indique le pays d'où provient le revenu."
+    },
+    "FractionDisposition": {
+      "definition": "Précise comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    },
+    "CurrencyOption": {
+      "definition": "Devise dans laquelle le produit en espèces doit être crédité/débité."
+    },
+    "TradingPeriod": {
+      "definition": "Période pendant laquelle les titres intermédiaires ou de sortie sont négociables sur un marché secondaire."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates relatives au mouvement de titres."
+    },
+    "RateDetails": {
+      "definition": "Fournit des informations sur les taux relatifs au mouvement de titres."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix relatifs au mouvement de titres."
+    },
+    "PriceBasis": {
+      "definition": "Le prix est fondé soit sur le titre de base, soit sur le titre décaissé."
+    },
+    "EstimatedPriceIndicator": {
+      "definition": "Indique si le prix de l'offrant est estimé ou définitif."
+    },
+    "RoundingFactor": {
+      "definition": "Décimale au-dessus de laquelle les nombres sont arrondis. Par exemple, si le facteur d'arrondi est de 0,6, cela signifie que les unités fractionnaires supérieures ou égales à 6 seront arrondies à l'unité supérieure et celles inférieures à 6 à l'unité inférieure (0.6)."
+    },
+    "ChargeIndicator": {
+      "definition": "Indique si un participant de DTC (The Depository Trust Corporation), utilisant une ou plusieurs obligations de paiement dans le cadre de l'exercice d'un bon de souscription, se verra facturer (par règlement à la date d'exercice) la valeur du prochain paiement d'intérêts sur la ou les obligations."
+    },
+    "ReinvestmentIncomeClassification": {
+      "definition": "Classification du revenu du produit en espèces pour le réinvestissement du dividende."
+    }
+  },
+  "isoRules": {
+    "IncomeTypeUsageRule": {
+      "definition": "Les listes des codes de type de revenu à utiliser dans IncomeType sont fournies dans le document « ETYP-ITYP Exemption & Income Type Codes » disponible sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "Les listes des codes de type d'exemption à utiliser dans ExemptionType sont fournies dans le document « ETYP-ITYP Exemption & Income Type Codes » disponible sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "IncomeType1Rule": {
+      "definition": "Si au moins une occurrence de OtherIncomeType est présente, alors IncomeType doit être présent."
+    }
+  }
+}

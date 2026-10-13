@@ -1,0 +1,12 @@
+{
+  "isoType": "CentralCounterPartyEligibility4Choice",
+  "definition": "Choix de format pour les informations sur l'éligibilité à la CCP.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indique si l'opération de règlement est éligible à une CCP (contrepartie centrale)."
+    },
+    "Proprietary": {
+      "definition": "Informations sur l'éligibilité à la contrepartie centrale exprimées sous la forme d'un code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "TransferInInstructionV10",
+  "definition": "Le message TransferInInstruction est envoyé par une partie donneuse d'ordre, par exemple un gestionnaire de placements ou son représentant autorisé, à la partie exécutante, par exemple un agent de transfert, afin de donner instruction de recevoir un instrument financier, franco de paiement, à une date donnée, de la part d'une partie spécifiée.|Ce message peut également être utilisé pour donner instruction de recevoir un instrument financier, franco de paiement, en provenance d'un autre compte propre de la partie donneuse d'ordre ou d'un tiers.|Utilisation|Le message TransferInInstruction est utilisé pour donner instruction de recevoir un instrument financier en provenance d'un autre compte, détenu soit par la partie donneuse d'ordre, soit par un tiers.",
+  "isoElements": {
+    "Function": {
+      "definition": "Fonction du transfert entrant, c'est-à-dire si le message de transfert entrant est utilisé comme instruction ou comme avis et demande d'informations. L'absence de Function indique que le message est une instruction."
+    },
+    "MasterReference": {
+      "definition": "Identifiant unique et non ambigu d'un groupe de transferts individuels, attribué par la partie donneuse d'ordre. Cet identifiant relie les transferts individuels entre eux."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Soit TransferDetails/RequestedSettlementDate peut être présent dans une ou plusieurs occurrences de TransferDetails, soit SettlementDetails/RequestedSettlementDate peut être présent, mais pas les deux."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementFrequencyAndFormModification1",
+  "definition": "Précise le type de modification de la fréquence et de la forme des relevés.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Précise le type de modification."
+    },
+    "StatementFrequencyAndForm": {
+      "definition": "Précise la fréquence, le format et l'adresse de livraison des relevés."
+    }
+  }
+}

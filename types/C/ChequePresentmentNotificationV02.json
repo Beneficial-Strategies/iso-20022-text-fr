@@ -1,0 +1,4 @@
+{
+  "isoType": "ChequePresentmentNotificationV02",
+  "definition": "Le message ChequePresentmentNotification est envoyé par une banque du tireur, ou une banque agissant pour son compte, à la banque sur laquelle un ou plusieurs chèques ont été tirés (la banque tirée).|Il sert à informer la banque tirée, ou à confirmer à une banque requérante, les détails concernant le ou les chèques visés dans le message."
+}

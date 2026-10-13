@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitStructure3Choice",
+  "definition": "Détail d'une ou de plusieurs limites fixées par le membre et gérées par l'administrateur des opérations.",
+  "isoElements": {
+    "CurrentLimitIdentification": {
+      "definition": "Identification de la limite courante."
+    },
+    "AllCurrentLimits": {
+      "definition": "Identification de la limite courante."
+    }
+  }
+}

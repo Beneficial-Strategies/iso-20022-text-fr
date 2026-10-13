@@ -1,0 +1,27 @@
+{
+  "isoType": "ProcessingStatus105Choice",
+  "definition": "Choix du format du statut de traitement.",
+  "isoElements": {
+    "PendingCancellation": {
+      "definition": "L'annulation est en attente de traitement."
+    },
+    "Rejected": {
+      "definition": "L'instruction/demande a été rejetée pour tout traitement ultérieur."
+    },
+    "Repair": {
+      "definition": "L'instruction/demande est acceptée mais en cours de réparation."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "L'instruction a été acquittée par la banque teneur de compte."
+    },
+    "Proprietary": {
+      "definition": "Statut qui ne peut pas être rapporté à l'aide de l'un des statuts standard disponibles."
+    },
+    "Denied": {
+      "definition": "L'instruction ou la demande ne sera pas exécutée."
+    },
+    "Cancelled": {
+      "definition": "L'annulation demandée a été exécutée."
+    }
+  }
+}

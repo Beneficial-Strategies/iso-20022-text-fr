@@ -1,0 +1,47 @@
+{
+  "isoType": "SettlementDetails224",
+  "definition": "Détails du règlement d'une opération.",
+  "isoElements": {
+    "HoldIndicator": {
+      "definition": "Indique si l'opération est en attente, bloquée ou gelée."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifie le type d'opération sur titres."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Conditions dans lesquelles l'ordre/la transaction doit être réglé(e)."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Précise si le règlement partiel est autorisé."
+    },
+    "BeneficialOwnership": {
+      "definition": "Indique s'il y a un changement de bénéficiaire effectif."
+    },
+    "CashClearingSystem": {
+      "definition": "Indique la catégorie de système de compensation en numéraire, par exemple la compensation de chèques."
+    },
+    "MarketClientSide": {
+      "definition": "Indique si une instruction concerne une opération côté marché ou côté client."
+    },
+    "Registration": {
+      "definition": "Indique si l'inscription doit avoir lieu à la réception."
+    },
+    "RepurchaseType": {
+      "definition": "Indique si le taux est fixe, variable ou forfaitaire."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Indique si l'opération de règlement doit être réglée par l'intermédiaire d'un système RTGS ou non RTGS."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Indique le type de droit de timbre ou le motif d'exonération applicable à l'opération de règlement."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Si des éléments SettlementDetails sont utilisés, leurs conditions d'utilisation doivent être convenues au préalable entre le titulaire du compte et le teneur de compte."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Les codes CashClearingSystem ne doivent être utilisés que par les agents directement impliqués dans le processus de règlement, tels que les agents de règlement locaux, les dépositaires centraux de titres (CSD) et les banques centrales."
+    }
+  }
+}

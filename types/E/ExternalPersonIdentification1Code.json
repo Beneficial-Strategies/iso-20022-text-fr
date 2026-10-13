@@ -1,0 +1,49 @@
+{
+  "isoType": "ExternalPersonIdentification1Code",
+  "isoCodes": {
+    "ARNU": {
+      "name": "Numéro d'enregistrement d'étranger",
+      "definition": "Numéro attribué par un organisme de sécurité sociale pour identifier une personne non résidente."
+    },
+    "CCPT": {
+      "name": "Numéro de passeport",
+      "definition": "Numéro attribué par une autorité pour identifier le numéro de passeport d'une personne."
+    },
+    "CUST": {
+      "name": "Numéro d'identification du client",
+      "definition": "Numéro attribué par un émetteur pour identifier un client."
+    },
+    "DRLC": {
+      "name": "Numéro de permis de conduire",
+      "definition": "Numéro attribué par une autorité pour identifier un permis de conduire."
+    },
+    "EMPL": {
+      "name": "Numéro d'identification de l'employé",
+      "definition": "Numéro attribué par une autorité d'enregistrement à un employé."
+    },
+    "NIDN": {
+      "name": "Numéro d'identité national",
+      "definition": "Numéro attribué par une autorité pour identifier le numéro d'identité nationale d'une personne."
+    },
+    "SOSE": {
+      "name": "Numéro de sécurité sociale",
+      "definition": "Numéro attribué par une autorité pour identifier le numéro de sécurité sociale d'une personne."
+    },
+    "TELE": {
+      "name": "Numéro de téléphone",
+      "definition": "Numéro attribué par un opérateur de téléphonie fixe ou mobile pour identifier une personne. Une personne peut avoir plusieurs numéros de téléphone."
+    },
+    "TXID": {
+      "name": "Numéro d'identification fiscale",
+      "definition": "Numéro attribué par une autorité fiscale pour identifier une personne."
+    },
+    "POID": {
+      "name": "Identification commerciale de la personne",
+      "definition": "Identification commerciale de la personne."
+    },
+    "BANK": {
+      "name": "Identification de la partie bancaire",
+      "definition": "Attribution unique et non ambiguë, effectuée par une banque ou un établissement financier similaire, pour identifier une relation telle que définie entre la banque et son client."
+    }
+  }
+}

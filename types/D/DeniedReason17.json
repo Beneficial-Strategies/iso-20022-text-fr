@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedReason17",
+  "definition": "Le statut d'une instruction, d'un avis ou d'une demande.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel la demande a le statut refusé."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur le motif qui ne peuvent pas figurer dans un champ structuré."
+    }
+  }
+}

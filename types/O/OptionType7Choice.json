@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionType7Choice",
+  "definition": "Choix du format du type d'option.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'option exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Type d'option exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

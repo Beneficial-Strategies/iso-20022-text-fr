@@ -1,0 +1,23 @@
+{
+  "isoType": "TransactionCriteria11",
+  "definition": "Définit les critères utilisés pour rechercher une opération et pour établir un rapport sur l'opération. Un nom peut être attribué à la nouvelle requête.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nom de la requête définie par les critères de recherche et les critères de retour."
+    },
+    "SearchCriteria": {
+      "definition": "Définit les critères selon lesquels les informations sont extraites."
+    },
+    "StatementReport": {
+      "definition": "Indique le format du rapport demandé."
+    },
+    "ReturnCriteria": {
+      "definition": "Définit le rapport attendu sur les opérations de paiement."
+    }
+  },
+  "isoRules": {
+    "SearchAndReturnCriteriaAndStatementReportRule": {
+      "definition": "Les combinaisons suivantes sont autorisées : uniquement des critères de recherche, ou uniquement des critères de retour, ou uniquement un rapport de type relevé, ou une combinaison de critères de recherche et de retour, ou une combinaison de critères de recherche et d'un rapport de type relevé.|Justification de la règle : |- Si ReturnCriteria sont présents, ils définissent le rapport attendu.|- Si StatementReport est présent, cela indique qu'un rapport de type relevé doit être renvoyé. Dans ce cas, le message de retour contiendra des informations équivalentes à celles du champ 61 (ligne de relevé) des normes FIN, par exemple la date de valeur, la date d'écriture, l'indicateur de débit/crédit, le montant, le code d'identification du type d'opération, la référence du titulaire du compte, la référence de l'établissement teneur de compte et les détails complémentaires.|- Si StatementReportIndicator est égal à « false » ou « 0 » (Non), cela signifie que le type de rapport est prédéfini entre l'administrateur des opérations et le membre."
+    }
+  }
+}

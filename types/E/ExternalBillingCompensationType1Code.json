@@ -1,0 +1,94 @@
+{
+  "isoType": "ExternalBillingCompensationType1Code",
+  "definition": "Précise le type de compensation de facturation à appliquer, tel que publié dans une liste de codes externe de types de compensation de facturation.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "BACS": {
+      "name": "Services compensables par le solde",
+      "definition": "Montant total des frais de service pouvant être compensés par un crédit de bonification. Ces services portent un code de mode de paiement « Balance Compensable ».  Ce montant est inclus dans SettleChargeTtl-Current Period (code AFP 00 03 00). Cette valeur doit être envoyée si la banque accorde un crédit de bonification fondé sur les soldes de dépôt. Code AFP=00 03 31"
+    },
+    "CTND": {
+      "name": "Frais et taxes nets dus pour ce relevé",
+      "definition": "Montant dû à la banque pour la période de règlement, après tous les ajustements et déductions. Comprend les frais de service et les taxes. Si rien n'est dû, cette valeur doit être envoyée à zéro. Code AFP=00 03 14"
+    },
+    "DEAD": {
+      "name": "Déficit de bonification dû pour ce relevé",
+      "definition": "Montant dû à la banque pour les frais de service compensables par le solde qui excèdent la bonification de la période de règlement. Ce montant doit être égal à la valeur absolue de ExcessDeficitEarningsAllowance-Adjusted (code AFP 00 02 44). Cette valeur doit être envoyée si la banque accorde un crédit de bonification fondé sur les soldes de dépôt. Code AFP=00 02 47"
+    },
+    "EALL": {
+      "name": "Bonification",
+      "definition": "Valeur des soldes maintenus pendant la période de relevé pouvant servir à compenser les frais de service compensables par le solde. Cette valeur doit être envoyée si la banque accorde un crédit de bonification fondé sur les soldes de dépôt. Code AFP=00 02 40"
+    },
+    "EANA": {
+      "name": "Ajustement net de la bonification",
+      "definition": "Valeur nette des ajustements de solde et/ou de taux pour des périodes antérieures, à appliquer à la provision (excédent/(déficit)) en cours. Code AFP=00 02 43"
+    },
+    "EDAA": {
+      "name": "Excédent ou déficit de bonification ajusté",
+      "definition": "Provision de rémunération excédentaire/(déficitaire) pour la période d'analyse, majorée ou minorée de toute provision de rémunération nette et/ou des ajustements de frais de service compensables par le solde. Notez qu'en l'absence de EarningsAllowance-NetAdjust (code AFP 00 02 43), ce solde est préféré à ExcessDeficitEarningsAllowance (code AFP 00 02 41). Cette valeur doit être envoyée si la banque accorde un crédit de rémunération fondé sur les soldes de dépôt. Code AFP=00 02 44"
+    },
+    "EDAL": {
+      "name": "Excédent ou déficit de bonification",
+      "definition": "Différence entre la provision de rémunération et les frais de service compensables par le solde. Il y a excédent lorsque la provision de rémunération dépasse le total des frais de service compensables par le solde. Il y a déficit lorsque le total des frais de service compensables par le solde dépasse la provision de rémunération. Les excédents peuvent être reportés sur les périodes de relevé futures à la discrétion de la banque. Les déficits se traduisent généralement par des frais dus à la banque sous la forme de DeficitEarningsAllowanceDueThisStmt (code AFP 00 02 47). Cette valeur doit être envoyée si la banque accorde un crédit de rémunération fondé sur les soldes de dépôt. Code AFP=00 02 41"
+    },
+    "FESS": {
+      "name": "Frais payés",
+      "definition": "Frais d'une période de facturation antérieure qui ont été payés. Code AFP=00 03 22"
+    },
+    "FREE": {
+      "name": "Services gratuits",
+      "definition": "Montant total des frais de service, tels qu'énumérés dans les Service Sections, fournis gratuitement. Ces services portent un code de mode de paiement « FREE » (Free). Ce montant est inclus dans SettleChargetTL-Current Period (code AFP 00 03 00). À envoyer s'il existe des frais de service « Free » dans les Service Sections. Il est supposé que les services « waived » et « free » ne sont pas taxés. Code AFP=00 03 36"
+    },
+    "NBCS": {
+      "name": "Services non compensables par le solde",
+      "definition": "Montant total des frais de service dus à la date de ce relevé qui ne peuvent pas être compensés par un crédit de provision de rémunération. Ces services portent un code de mode de paiement « FLAT » (HardCharge). Ce montant est inclus dans SettleChargeTtl-CurrentPeriod (code AFP 00 03 00). Code AFP=00 03 00"
+    },
+    "PVCS": {
+      "name": "Services précédemment facturés",
+      "definition": "Montant total des frais de service énumérés dans les Service Sections mais imputés précédemment et donc non dus. Ces services portent un code de mode de paiement « PVCH » (PreviouslyCharged). Ce montant est inclus dans SettleChargetTL-CurrentPeriod (code AFP 00 03 00). À envoyer s'il existe des services « Previously Charged » dans les Service Sections. Code AFP=00 03 35"
+    },
+    "SCAB": {
+      "name": "Ajustement net des frais de service compensable par le solde",
+      "definition": "Valeur nette des ajustements des frais de service compensables par le solde pour une ou plusieurs périodes antérieures, à appliquer à la provision (excédent/(déficit)) en cours. Code AFP=00 03 32"
+    },
+    "SCAN": {
+      "name": "Ajustement net des frais de service non compensable par le solde",
+      "definition": "Total de tous les ajustements de frais de service qui ne peuvent pas être compensés par un crédit de provision de rémunération. Il peut s'agir d'un nombre positif ou négatif. Code AFP=00 03 33"
+    },
+    "SCBT": {
+      "name": "Frais de service dus avant taxes",
+      "definition": "Montant total des frais de service dus, hors taxes dues. Code AFP=00 03 11"
+    },
+    "SCCP": {
+      "name": "Total des frais à régler pour la période en cours",
+      "definition": "Total des frais avant crédit pour les services fournis pendant la période de relevé en cours. Ce total est la somme arithmétique de tous les frais énumérés dans l'élément Settlement Amount des Service Sections du relevé, quel que soit le code de mode de paiement. Il comprend tous les frais compensables par le solde, les frais fermes (Hard), les frais déjà imputés (Previously Charged), les frais exonérés (Waived) et les frais gratuits (Free). Il n'inclut aucune taxe relative aux services. Code AFP=00 03 00"
+    },
+    "SCDB": {
+      "name": "Frais de service débités",
+      "definition": "Montant de ChargesAndTaxes-NetDueThisStmt (code AFP 00 03 14) directement débité du compte du client. Code AFP=00 03 50"
+    },
+    "SCDI": {
+      "name": "Remise sur les frais de service",
+      "definition": "Montant total de toute remise sur les frais de service. Code AFP=00 03 41"
+    },
+    "SCIN": {
+      "name": "Frais de service facturés",
+      "definition": "Montant de ChargesAndTaxes-NetDueThisStmt (code AFP 00 03 14) qui est facturé. Code AFP=00 03 A0"
+    },
+    "TICD": {
+      "name": "Total des intérêts crédités",
+      "definition": "Montant total des intérêts fermes (hard interest) crédités sur un compte désigné. Le montant des intérêts fermes crédités, le cas échéant, est calculé en appliquant le taux d'intérêts créditeurs à un solde négatif tel que déclaré dans la Balance Section avec un identifiant de solde ExcessDeficitCollectedBal (code AFP 00 04 12). Code AFP=00 00 76"
+    },
+    "TXSC": {
+      "name": "Frais de service imposables",
+      "definition": "Montant total des frais de service qui étaient soumis à des taxes. Code AFP=00 03 13"
+    },
+    "TXTS": {
+      "name": "Somme totale des taxes",
+      "definition": "Somme de toutes les taxes individuelles contenues dans les Service Sections individuelles ou les Tax Sections. Code AFP=00 03 60"
+    },
+    "WAIV": {
+      "name": "Services exonérés",
+      "definition": "Montant des frais de service autrement dus qui sont exonérés sur ce relevé. Ces services portent un code de mode de paiement « WVED » (Waived). Notez que ce montant n'inclut pas les services gratuits au niveau de la ligne (code AFP 00 03 36). Ce montant est inclus dans SettleChargetTL-Current Period (code AFP 00 03 00). Aucune de ces exonérations ou gratuités au niveau de la ligne n'est reportée dans les calculs de compensation. Il est supposé que les services « waived » et « free » ne sont pas taxés. Code AFP=00 03 40 (CODE)"
+    }
+  }
+}

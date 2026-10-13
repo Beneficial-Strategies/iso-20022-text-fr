@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditLineType1Choice",
+  "definition": "Précise le type de ligne de crédit accordée.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de ligne de crédit, tel que publié dans une liste externe de codes de motif."
+    },
+    "Proprietary": {
+      "definition": "Type de ligne de crédit, sous forme propriétaire."
+    }
+  }
+}

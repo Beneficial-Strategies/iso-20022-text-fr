@@ -1,0 +1,14 @@
+{
+  "isoType": "PenaltyAmountType1Code",
+  "definition": "Précise le type du montant de la pénalité.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Espèces",
+      "definition": "La pénalité est fondée sur le montant d'espèces non livré et le taux de pénalité est le taux d'escompte de la devise concernée."
+    },
+    "SECU": {
+      "name": "Titres",
+      "definition": "La pénalité est fondée sur la quantité de titres non livrés et le taux de pénalité des titres."
+    }
+  }
+}

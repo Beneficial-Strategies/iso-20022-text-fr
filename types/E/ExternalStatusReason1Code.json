@@ -1,0 +1,1266 @@
+{
+  "isoType": "ExternalStatusReason1Code",
+  "definition": "Précise le motif du statut, tel que publié dans une liste externe de codes de motifs de statut.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "AB01": {
+      "name": "Compensation abandonnée : délai dépassé",
+      "definition": "Processus de compensation interrompu en raison d'un dépassement de délai."
+    },
+    "AB02": {
+      "name": "Compensation abandonnée : erreur fatale",
+      "definition": "Processus de compensation interrompu en raison d'une erreur fatale."
+    },
+    "AB03": {
+      "name": "Règlement abandonné : délai dépassé",
+      "definition": "Règlement interrompu en raison d'un dépassement de délai."
+    },
+    "AB04": {
+      "name": "Règlement abandonné : erreur fatale",
+      "definition": "Processus de règlement interrompu en raison d'une erreur fatale."
+    },
+    "AB05": {
+      "name": "Délai dépassé de la banque du créancier",
+      "definition": "Opération arrêtée en raison d'un dépassement de délai auprès de la banque du créancier."
+    },
+    "AB06": {
+      "name": "Délai dépassé de la banque instruite",
+      "definition": "Opération arrêtée en raison d'un dépassement de délai auprès de la banque instruite."
+    },
+    "AB07": {
+      "name": "Banque hors ligne",
+      "definition": "La banque du message n'est pas en ligne.|Utilisation générique s'il est impossible de déterminer précisément quelle banque n'est pas en ligne."
+    },
+    "AB08": {
+      "name": "Banque du créancier hors ligne",
+      "definition": "La banque du créancier n'est pas en ligne."
+    },
+    "AB09": {
+      "name": "Erreur de la banque du créancier",
+      "definition": "Opération arrêtée en raison d'une erreur auprès de la banque du créancier."
+    },
+    "AB10": {
+      "name": "Erreur de la banque instruite",
+      "definition": "Opération arrêtée en raison d'une erreur auprès de la banque instruite."
+    },
+    "AB11": {
+      "name": "Délai dépassé de la banque du débiteur",
+      "definition": "Opération arrêtée en raison d'un dépassement de délai auprès de la banque du débiteur."
+    },
+    "AC01": {
+      "name": "Numéro de compte incorrect",
+      "definition": "Le numéro de compte est invalide ou manquant."
+    },
+    "AC02": {
+      "name": "Numéro de compte du débiteur non valide",
+      "definition": "Numéro de compte du débiteur invalide ou manquant"
+    },
+    "AC03": {
+      "name": "Numéro de compte du créancier non valide",
+      "definition": "Numéro de compte du créancier invalide ou manquant"
+    },
+    "AC04": {
+      "name": "Numéro de compte clôturé",
+      "definition": "Le numéro de compte indiqué a été clôturé dans les livres de la banque teneuse de compte."
+    },
+    "AC05": {
+      "name": "Numéro de compte du débiteur clôturé",
+      "definition": "Numéro de compte du débiteur clôturé."
+    },
+    "AC06": {
+      "name": "Compte bloqué",
+      "definition": "Le compte indiqué est bloqué, ce qui interdit d'y imputer des opérations."
+    },
+    "AC07": {
+      "name": "Numéro de compte du créancier clôturé",
+      "definition": "Numéro de compte du créancier clôturé"
+    },
+    "AC08": {
+      "name": "Code d'agence non valide",
+      "definition": "Code guichet invalide ou manquant"
+    },
+    "AC09": {
+      "name": "Devise de compte non valide",
+      "definition": "Devise du compte invalide ou manquante"
+    },
+    "AC10": {
+      "name": "Devise du compte du débiteur non valide",
+      "definition": "Devise du compte du débiteur invalide ou manquante"
+    },
+    "AC11": {
+      "name": "Devise du compte du créancier non valide",
+      "definition": "Devise du compte du créancier invalide ou manquante"
+    },
+    "AC12": {
+      "name": "Type de compte non valide",
+      "definition": "Type de compte manquant ou invalide.|Utilisation générique s'il est impossible de distinguer entre le niveau du groupe et celui des informations de paiement"
+    },
+    "AC13": {
+      "name": "Type de compte du débiteur non valide",
+      "definition": "Type de compte du débiteur manquant ou invalide"
+    },
+    "AC14": {
+      "name": "Type de compte du créancier non valide",
+      "definition": "Type de compte du créancier manquant ou invalide"
+    },
+    "AC15": {
+      "name": "Détails du compte modifiés",
+      "definition": "Les coordonnées du compte de la contrepartie ont changé."
+    },
+    "AC16": {
+      "name": "Numéro de carte non valide",
+      "definition": "Le numéro de carte de crédit ou de débit est invalide."
+    },
+    "AG01": {
+      "name": "Opération interdite",
+      "definition": "Opération interdite sur ce type de compte (anciennement NoAgreement)"
+    },
+    "AG02": {
+      "name": "Code d'opération bancaire non valide",
+      "definition": "Le code d'opération bancaire indiqué dans le message n'est pas valide pour le destinataire"
+    },
+    "AG03": {
+      "name": "Opération non prise en charge",
+      "definition": "Type d'opération non pris en charge/autorisé sur ce compte."
+    },
+    "AG04": {
+      "name": "Pays de la banque non valide",
+      "definition": "Code pays de la banque manquant ou invalide.|Utilisation générique s'il est impossible de distinguer entre le niveau du groupe et celui des informations de paiement."
+    },
+    "AG05": {
+      "name": "Pays de la banque du débiteur non valide",
+      "definition": "Code pays de la banque du débiteur manquant ou invalide"
+    },
+    "AG06": {
+      "name": "Pays de la banque du créancier non valide",
+      "definition": "Code pays de la banque du créancier manquant ou invalide"
+    },
+    "AG07": {
+      "name": "Prélèvement infructueux",
+      "definition": "Le compte du débiteur ne peut pas être débité pour un motif générique.|Cette valeur de code peut être utilisée à des fins générales et en remplacement de AM04 si la banque du débiteur ne révèle pas l'insuffisance de provision de son client pour des raisons de confidentialité"
+    },
+    "AG08": {
+      "name": "Droits d'accès non valides",
+      "definition": "Échec de l'opération en raison d'un utilisateur ou d'un droit d'accès invalide ou manquant"
+    },
+    "AG09": {
+      "name": "Paiement non reçu",
+      "definition": "Le paiement initial n'a jamais été reçu."
+    },
+    "AG10": {
+      "name": "Banque suspendue",
+      "definition": "La banque du message est suspendue du système de paiement en temps réel.|Utilisation générique s'il est impossible de déterminer précisément quelle banque est suspendue."
+    },
+    "AG11": {
+      "name": "Banque du créancier suspendue",
+      "definition": "La banque du créancier du message est suspendue du système de paiement en temps réel."
+    },
+    "AG12": {
+      "name": "Virement interne non autorisé",
+      "definition": "Les ordres de paiement effectués par transfert de fonds d'un compte à un autre au sein du même établissement financier (banque ou établissement de paiement) ne sont pas autorisés."
+    },
+    "AG13": {
+      "name": "Retour de paiement interdit",
+      "definition": "Les paiements retournés issus d'opérations précédemment retournées ne sont pas autorisés."
+    },
+    "AGNT": {
+      "name": "Agent incorrect",
+      "definition": "La banque intervenant dans le flux de paiement est incorrecte"
+    },
+    "AM01": {
+      "name": "Montant nul",
+      "definition": "Le montant du message indiqué est égal à zéro"
+    },
+    "AM02": {
+      "name": "Montant non autorisé",
+      "definition": "Le montant de l'opération/du message spécifique est supérieur au maximum autorisé"
+    },
+    "AM03": {
+      "name": "Devise non autorisée",
+      "definition": "Le montant du message indiqué est dans une devise non traitable, en dehors de l'accord existant"
+    },
+    "AM04": {
+      "name": "Provision insuffisante",
+      "definition": "Le montant des fonds disponibles pour couvrir le montant du message indiqué est insuffisant."
+    },
+    "AM05": {
+      "name": "Doublon",
+      "definition": "Doublon"
+    },
+    "AM06": {
+      "name": "Montant trop faible",
+      "definition": "Le montant de l'opération indiqué est inférieur au minimum convenu."
+    },
+    "AM07": {
+      "name": "Montant bloqué",
+      "definition": "Le montant indiqué dans le message a été bloqué par les autorités de réglementation."
+    },
+    "AM09": {
+      "name": "Montant erroné",
+      "definition": "Le montant reçu n'est pas celui convenu ou attendu"
+    },
+    "AM10": {
+      "name": "Somme de contrôle non valide",
+      "definition": "La somme des montants instruits n'est pas égale à la somme de contrôle."
+    },
+    "AM11": {
+      "name": "Devise d'opération non valide",
+      "definition": "Devise de l'opération invalide ou manquante"
+    },
+    "AM12": {
+      "name": "Montant non valide",
+      "definition": "Montant invalide ou manquant"
+    },
+    "AM13": {
+      "name": "Montant dépassant la limite du système de compensation",
+      "definition": "Le montant de l'opération dépasse les limites fixées par le système de compensation"
+    },
+    "AM14": {
+      "name": "Montant dépassant la limite convenue",
+      "definition": "Le montant de l'opération dépasse les limites convenues entre la banque et le client"
+    },
+    "AM15": {
+      "name": "Montant inférieur au minimum du système de compensation",
+      "definition": "Le montant de l'opération est inférieur au minimum fixé par le système de compensation"
+    },
+    "AM16": {
+      "name": "Somme de contrôle du groupe non valide",
+      "definition": "La somme de contrôle au niveau du groupe est invalide"
+    },
+    "AM17": {
+      "name": "Somme de contrôle des informations de paiement non valide",
+      "definition": "La somme de contrôle au niveau des informations de paiement est invalide"
+    },
+    "AM18": {
+      "name": "Nombre d'opérations non valide",
+      "definition": "Nombre d'opérations invalide ou manquant.|Utilisation générique s'il est impossible de distinguer entre le niveau du groupe et celui des informations de paiement."
+    },
+    "AM19": {
+      "name": "Nombre d'opérations du groupe non valide",
+      "definition": "Nombre d'opérations au niveau du groupe invalide ou manquant"
+    },
+    "AM20": {
+      "name": "Nombre d'opérations des informations de paiement non valide",
+      "definition": "Nombre d'opérations au niveau des informations de paiement invalide"
+    },
+    "AM21": {
+      "name": "Limite dépassée",
+      "definition": "Le montant de l'opération dépasse les limites convenues entre la banque et le client."
+    },
+    "AM22": {
+      "name": "Montant nul non appliqué",
+      "definition": "Impossible d'appliquer un montant nul au compte désigné. Par exemple, lorsque les règles d'un service autorisent les paiements d'un montant nul, mais que le système de back-office ne peut pas imputer les fonds au compte. Si les règles d'un service interdisent les paiements d'un montant nul, le code AM01 est utilisé pour signaler la condition d'erreur."
+    },
+    "AM23": {
+      "name": "Montant dépassant la limite de règlement",
+      "definition": "Le montant de l'opération dépasse la limite de règlement."
+    },
+    "BE01": {
+      "name": "Incohérent avec le client final",
+      "definition": "L'identification du client final n'est pas cohérente avec le numéro de compte associé. (anciennement CreditorConsistency)."
+    },
+    "BE04": {
+      "name": "Adresse du créancier manquante",
+      "definition": "La désignation de l'adresse du créancier, requise pour le paiement, est manquante/incorrecte (anciennement IncorrectCreditorAddress)."
+    },
+    "BE05": {
+      "name": "Partie initiatrice non reconnue",
+      "definition": "La partie ayant initié le message n'est pas reconnue par le client final"
+    },
+    "BE06": {
+      "name": "Client final inconnu",
+      "definition": "Le client final indiqué n'est pas connu du code guichet/code de banque national associé ou n'existe plus dans les livres"
+    },
+    "BE07": {
+      "name": "Adresse du débiteur manquante",
+      "definition": "La désignation de l'adresse du débiteur, requise pour le paiement, est manquante/incorrecte."
+    },
+    "BE08": {
+      "name": "Nom du débiteur manquant",
+      "definition": "Nom du débiteur manquant"
+    },
+    "BE09": {
+      "name": "Pays non valide",
+      "definition": "Code pays manquant ou invalide.|Utilisation générique s'il est impossible d'identifier précisément le débiteur ou le créancier"
+    },
+    "BE10": {
+      "name": "Pays du débiteur non valide",
+      "definition": "Code pays du débiteur manquant ou invalide"
+    },
+    "BE11": {
+      "name": "Pays du créancier non valide",
+      "definition": "Code pays du créancier manquant ou invalide"
+    },
+    "BE12": {
+      "name": "Pays de résidence non valide",
+      "definition": "Code pays de résidence manquant ou invalide.|Utilisation générique s'il est impossible d'identifier précisément le débiteur ou le créancier"
+    },
+    "BE13": {
+      "name": "Pays de résidence du débiteur non valide",
+      "definition": "Code pays de résidence du débiteur manquant ou invalide"
+    },
+    "BE14": {
+      "name": "Pays de résidence du créancier non valide",
+      "definition": "Code pays de résidence du créancier manquant ou invalide"
+    },
+    "BE15": {
+      "name": "Code d'identification non valide",
+      "definition": "Code d'identification manquant ou invalide.|Utilisation générique s'il est impossible d'identifier précisément le débiteur ou le créancier."
+    },
+    "BE16": {
+      "name": "Code d'identification du débiteur non valide",
+      "definition": "Code d'identification du débiteur ou du débiteur final manquant ou invalide"
+    },
+    "BE17": {
+      "name": "Code d'identification du créancier non valide",
+      "definition": "Code d'identification du créancier ou du créancier final manquant ou invalide"
+    },
+    "BE18": {
+      "name": "Coordonnées de contact non valides",
+      "definition": "Coordonnées manquantes ou invalides"
+    },
+    "BE19": {
+      "name": "Code de frais non valide",
+      "definition": "Le code de frais pour le type d'opération est invalide"
+    },
+    "BE20": {
+      "name": "Longueur du nom non valide",
+      "definition": "La longueur du nom dépasse les règles locales applicables au type de paiement."
+    },
+    "BE21": {
+      "name": "Nom manquant",
+      "definition": "Nom manquant ou invalide. Utilisation générique s'il est impossible d'identifier précisément le débiteur ou le créancier."
+    },
+    "BE22": {
+      "name": "Nom du créancier manquant",
+      "definition": "Nom du créancier manquant"
+    },
+    "BE23": {
+      "name": "Alias de compte non valide",
+      "definition": "Le numéro de téléphone, l'adresse e-mail ou tout autre proxy utilisé comme proxy du compte est inconnu ou invalide."
+    },
+    "CERI": {
+      "name": "Vérifier l'ERI",
+      "definition": "Le virement n'est pas marqué comme opération d'informations de remise étendues (ERI) mais contient des ERI."
+    },
+    "CH03": {
+      "name": "Date d'exécution demandée ou date de recouvrement demandée trop éloignée dans le futur",
+      "definition": "La valeur de la date d'exécution demandée ou de la date d'encaissement demandée est trop éloignée dans le futur"
+    },
+    "CH04": {
+      "name": "Date d'exécution demandée ou date de recouvrement demandée trop éloignée dans le passé",
+      "definition": "La valeur de la date d'exécution demandée ou de la date d'encaissement demandée est trop éloignée dans le passé"
+    },
+    "CH07": {
+      "name": "Élément à ne pas utiliser aux niveaux B et C",
+      "definition": "L'élément ne doit pas être utilisé aux niveaux B et C"
+    },
+    "CH09": {
+      "name": "Modifications du mandat non autorisées",
+      "definition": "Les modifications de mandat ne sont pas autorisées"
+    },
+    "CH10": {
+      "name": "Informations sur les modifications du mandat manquantes",
+      "definition": "Les informations sur les modifications de mandat sont manquantes"
+    },
+    "CH11": {
+      "name": "Identifiant du créancier incorrect",
+      "definition": "La valeur de l'identifiant du créancier est incorrecte"
+    },
+    "CH12": {
+      "name": "Identifiant du créancier non univoque au niveau de l'opération",
+      "definition": "L'identifiant du créancier est ambigu au niveau de l'opération"
+    },
+    "CH13": {
+      "name": "Compte du débiteur initial à ne pas utiliser",
+      "definition": "Le compte initial du débiteur ne doit pas être utilisé"
+    },
+    "CH14": {
+      "name": "Banque du débiteur initial à ne pas utiliser",
+      "definition": "La banque initiale du débiteur ne doit pas être utilisée"
+    },
+    "CH15": {
+      "name": "Le contenu de l'élément dépasse 140 caractères",
+      "definition": "Le contenu des informations de remise structurées comprend plus de 140 caractères"
+    },
+    "CH16": {
+      "name": "Contenu de l'élément formellement incorrect",
+      "definition": "Le contenu est incorrect"
+    },
+    "CH17": {
+      "name": "Élément non admis",
+      "definition": "L'élément n'est pas autorisé"
+    },
+    "CH19": {
+      "name": "Les valeurs seront fixées au prochain jour TARGET",
+      "definition": "Les valeurs de la date de règlement interbancaire ou de la date d'encaissement demandée seront fixées au prochain jour TARGET"
+    },
+    "CH20": {
+      "name": "Décimales incompatibles avec la devise",
+      "definition": "Nombre de décimales incompatible avec la devise"
+    },
+    "CH21": {
+      "name": "Élément obligatoire requis manquant",
+      "definition": "Élément obligatoire manquant."
+    },
+    "CH22": {
+      "name": "CORE et B2B dans un même message",
+      "definition": "SDD CORE et B2B non autorisés au sein d'un même message."
+    },
+    "CHQC": {
+      "name": "Chèque réglé sur le compte du créancier",
+      "definition": "Le chèque a été présenté à la compensation des chèques et réglé sur le compte du créancier."
+    },
+    "CNOR": {
+      "name": "Banque du créancier non enregistrée",
+      "definition": "La banque du créancier n'est pas enregistrée sous ce BIC dans le CSM"
+    },
+    "CURR": {
+      "name": "Devise incorrecte",
+      "definition": "La devise du paiement est incorrecte"
+    },
+    "CUST": {
+      "name": "Demandé par le client",
+      "definition": "Annulation demandée par le débiteur"
+    },
+    "DNOR": {
+      "name": "Banque du débiteur non enregistrée",
+      "definition": "La banque du débiteur n'est pas enregistrée sous ce BIC dans le CSM"
+    },
+    "DS01": {
+      "name": "Signatures électroniques correctes",
+      "definition": "La ou les signatures électroniques sont correctes"
+    },
+    "DS02": {
+      "name": "Ordre annulé",
+      "definition": "Un utilisateur autorisé a annulé l'ordre"
+    },
+    "DS03": {
+      "name": "Ordre non annulé",
+      "definition": "La tentative d'annulation de l'ordre par l'utilisateur n'a pas abouti."
+    },
+    "DS04": {
+      "name": "Ordre rejeté",
+      "definition": "L'ordre a été rejeté par la banque (pour des motifs liés au contenu)"
+    },
+    "DS05": {
+      "name": "Ordre transmis pour traitement ultérieur",
+      "definition": "L'ordre était correct et a pu être transmis pour traitement ultérieur"
+    },
+    "DS06": {
+      "name": "Ordre de virement",
+      "definition": "L'ordre a été transféré à la VEU"
+    },
+    "DS07": {
+      "name": "Traitement OK",
+      "definition": "Toutes les actions concernant l'ordre ont pu être effectuées par le serveur bancaire EBICS"
+    },
+    "DS08": {
+      "name": "Erreur de décompression",
+      "definition": "La décompression du fichier n'a pas abouti"
+    },
+    "DS09": {
+      "name": "Erreur de déchiffrement",
+      "definition": "Le déchiffrement du fichier n'a pas abouti"
+    },
+    "DS0A": {
+      "name": "Signature des données demandée",
+      "definition": "La signature des données est requise."
+    },
+    "DS0B": {
+      "name": "Format de signature des données inconnu",
+      "definition": "La signature des données pour le format n'est pas disponible ou est invalide."
+    },
+    "DS0C": {
+      "name": "Certificat du signataire révoqué",
+      "definition": "Le certificat du signataire est révoqué."
+    },
+    "DS0D": {
+      "name": "Certificat du signataire non valide",
+      "definition": "Le certificat du signataire n'est pas valide (révoqué ou inactif)."
+    },
+    "DS0E": {
+      "name": "Certificat du signataire incorrect",
+      "definition": "Le certificat du signataire est absent."
+    },
+    "DS0F": {
+      "name": "Autorité de certification du signataire non valide",
+      "definition": "L'autorité de certification du signataire ayant émis le certificat est inconnue."
+    },
+    "DS0G": {
+      "name": "Paiement non autorisé",
+      "definition": "Le signataire n'est pas autorisé à signer ce type d'opération."
+    },
+    "DS0H": {
+      "name": "Compte non autorisé",
+      "definition": "Le signataire n'est pas autorisé à signer pour ce compte."
+    },
+    "DS0K": {
+      "name": "Nombre d'opérations non autorisé",
+      "definition": "Le nombre d'opérations dépasse le nombre autorisé pour ce signataire."
+    },
+    "DS10": {
+      "name": "Certificat du signataire 1 révoqué",
+      "definition": "Le certificat est révoqué pour le premier signataire."
+    },
+    "DS11": {
+      "name": "Certificat du signataire 1 non valide",
+      "definition": "Le certificat n'est pas valide (révoqué ou inactif) pour le premier signataire."
+    },
+    "DS12": {
+      "name": "Certificat du signataire 1 incorrect",
+      "definition": "Le certificat est absent pour le premier signataire."
+    },
+    "DS13": {
+      "name": "Autorité de certification du signataire 1 non valide",
+      "definition": "L'autorité de certification du signataire ayant émis le certificat est inconnue pour le premier signataire."
+    },
+    "DS14": {
+      "name": "Utilisateur inexistant",
+      "definition": "L'utilisateur est inconnu sur le serveur"
+    },
+    "DS15": {
+      "name": "Signature identique trouvée",
+      "definition": "La même signature a déjà été envoyée à la banque"
+    },
+    "DS16": {
+      "name": "Version de la clé publique incorrecte",
+      "definition": "La version de la clé publique n'est pas correcte. Ce code est renvoyé lorsqu'un client envoie des fichiers de signature à l'établissement financier après une conversion d'une ancienne version de programme (ancien format ES) vers une nouvelle version (nouveau format ES) sans avoir effectué de réinitialisation suite à un changement de clé publique."
+    },
+    "DS17": {
+      "name": "Données d'ordre différentes dans les signatures",
+      "definition": "Les données de l'ordre et les signatures ne correspondent pas"
+    },
+    "DS18": {
+      "name": "Ordre répété",
+      "definition": "Le fichier ne peut pas être testé, l'ordre complet doit être répété. Ce code est renvoyé en cas de dysfonctionnement lors de la vérification de la signature, par exemple en cas d'espace de stockage insuffisant."
+    },
+    "DS19": {
+      "name": "Droits de signature électronique insuffisants",
+      "definition": "Les droits de l'utilisateur (concernant sa signature) sont insuffisants pour exécuter l'ordre"
+    },
+    "DS20": {
+      "name": "Certificat du signataire 2 révoqué",
+      "definition": "Le certificat est révoqué pour le deuxième signataire."
+    },
+    "DS21": {
+      "name": "Certificat du signataire 2 non valide",
+      "definition": "Le certificat n'est pas valide (révoqué ou inactif) pour le second signataire."
+    },
+    "DS22": {
+      "name": "Certificat du signataire 2 incorrect",
+      "definition": "Le certificat est absent pour le second signataire."
+    },
+    "DS23": {
+      "name": "Autorité de certification du signataire 2 non valide",
+      "definition": "L'autorité de certification du signataire ayant émis le certificat est inconnue pour le second signataire."
+    },
+    "DS24": {
+      "name": "Délai d'attente expiré",
+      "definition": "Délai d'attente expiré en raison d'un ordre incomplet"
+    },
+    "DS25": {
+      "name": "Fichier d'ordre supprimé",
+      "definition": "Le fichier d'ordre a été supprimé par le serveur de la banque |(pour plusieurs motifs)"
+    },
+    "DS26": {
+      "name": "Utilisateur ayant signé plusieurs fois",
+      "definition": "Le même utilisateur a signé plusieurs fois"
+    },
+    "DS27": {
+      "name": "Utilisateur pas encore activé",
+      "definition": "L'utilisateur n'est pas encore activé (techniquement)"
+    },
+    "DT01": {
+      "name": "Date non valide",
+      "definition": "Date non valide (par ex. date de règlement erronée ou manquante)"
+    },
+    "DT02": {
+      "name": "Date de création non valide",
+      "definition": "Date et heure de création non valides dans le Group Header (par ex. date passée)"
+    },
+    "DT03": {
+      "name": "Date de non-traitement non valide",
+      "definition": "Date de traitement non bancaire non valide (par ex. week-end ou jour férié local)"
+    },
+    "DT04": {
+      "name": "Date future non prise en charge",
+      "definition": "Date future non prise en charge"
+    },
+    "DT05": {
+      "name": "Date limite non valide",
+      "definition": "Le message associé, le bloc d'informations de paiement ou l'opération a été reçu après la date limite de traitement convenue, c'est-à-dire une date passée."
+    },
+    "DT06": {
+      "name": "Date d'exécution modifiée",
+      "definition": "La date d'exécution a été modifiée afin que l'opération puisse être traitée"
+    },
+    "DU01": {
+      "name": "Identifiant de message en double",
+      "definition": "L'identification du message n'est pas unique."
+    },
+    "DU02": {
+      "name": "Identifiant des informations de paiement en double",
+      "definition": "Le bloc d'informations de paiement n'est pas unique."
+    },
+    "DU03": {
+      "name": "Opération en double",
+      "definition": "L'opération n'est pas unique."
+    },
+    "DU04": {
+      "name": "Identifiant de bout en bout en double",
+      "definition": "L'identifiant de bout en bout n'est pas unique (ID)."
+    },
+    "DU05": {
+      "name": "Identifiant d'instruction en double",
+      "definition": "L'identifiant de l'instruction n'est pas unique (ID)."
+    },
+    "DUPL": {
+      "name": "Paiement ou frais en double",
+      "definition": "Le paiement ou les frais sont un doublon d'un autre paiement ou d'autres frais."
+    },
+    "ED01": {
+      "name": "Banque correspondante impossible",
+      "definition": "Banque correspondante impossible."
+    },
+    "ED03": {
+      "name": "Demande d'information sur le solde",
+      "definition": "Des informations complémentaires sur la balance des paiements sont demandées"
+    },
+    "ED05": {
+      "name": "Échec du règlement",
+      "definition": "Le règlement de l'opération a échoué."
+    },
+    "ED06": {
+      "name": "Système de règlement indisponible",
+      "definition": "Système de règlement interbancaire non disponible."
+    },
+    "ERIN": {
+      "name": "Option ERI non prise en charge",
+      "definition": "L'option Extended Remittance Information (ERI) n'est pas prise en charge."
+    },
+    "FF01": {
+      "name": "Format de fichier non valide",
+      "definition": "Format de fichier incomplet ou non valide"
+    },
+    "FF02": {
+      "name": "Erreur de syntaxe",
+      "definition": "Le motif de l'erreur de syntaxe est fourni sous forme d'information narrative dans les informations complémentaires sur le motif."
+    },
+    "FF03": {
+      "name": "Informations sur le type de paiement non valides",
+      "definition": "Les informations sur le type de paiement sont manquantes ou non valides.|Usage générique si le code de niveau de service ou d'instrument local ne peut pas être précisé"
+    },
+    "FF04": {
+      "name": "Code de niveau de service non valide",
+      "definition": "Le code de niveau de service est manquant ou non valide"
+    },
+    "FF05": {
+      "name": "Code d'instrument local non valide",
+      "definition": "Le code d'instrument local est manquant ou non valide"
+    },
+    "FF06": {
+      "name": "Code de catégorie de motif non valide",
+      "definition": "Le code de motif de catégorie est manquant ou non valide"
+    },
+    "FF07": {
+      "name": "Motif non valide",
+      "definition": "Le motif est manquant ou non valide"
+    },
+    "FF08": {
+      "name": "Identifiant de bout en bout non valide",
+      "definition": "Identifiant de bout en bout manquant ou non valide"
+    },
+    "FF09": {
+      "name": "Numéro de chèque non valide",
+      "definition": "Numéro de chèque manquant ou non valide"
+    },
+    "FF10": {
+      "name": "Erreur de traitement du système bancaire",
+      "definition": "Le fichier ou l'opération ne peut pas être traité en raison de problèmes techniques du côté de la banque"
+    },
+    "FF11": {
+      "name": "Demande de compensation interrompue",
+      "definition": "Demande de compensation rejetée car elle fait l'objet d'une opération d'abandon."
+    },
+    "G000": {
+      "name": "Paiement transféré et suivi",
+      "definition": "Dans un virement client FI To FI : l'émetteur du statut a transféré le paiement à la banque suivante ou à une infrastructure de marché. Le transfert du paiement est suivi. Aucune autre mise à jour ne sera fournie par l'émetteur du statut.||Dans un virement entre établissements financiers avec couverture : l'émetteur du statut a effectué l'écriture comptable et transféré l'opération de couverture à la banque de remboursement suivante ou à une infrastructure de marché. Le transfert du paiement est suivi. Aucune autre mise à jour ne sera fournie par l'émetteur du statut."
+    },
+    "G001": {
+      "name": "Paiement transféré et non suivi",
+      "definition": "Dans un virement client FI To FI : l'émetteur du statut a transféré le paiement à la banque suivante ou à une infrastructure de marché. Le transfert du paiement n'est pas suivi. Aucune autre mise à jour ne sera fournie par l'émetteur du statut.||Dans un virement entre établissements financiers avec couverture : l'émetteur du statut a effectué l'écriture comptable et transféré l'opération de couverture à la banque de remboursement suivante ou à une infrastructure de marché. Le transfert du paiement n'est pas suivi. Aucune autre mise à jour ne sera fournie par l'émetteur du statut."
+    },
+    "G002": {
+      "name": "Crédit ou débit non confirmé",
+      "definition": "Dans un virement client FIToFI : le crédit du compte du créancier peut ne pas être confirmé le jour même. Une mise à jour sera fournie par l'émetteur du statut.|Dans un virement entre établissements financiers avec couverture : le débit/crédit du compte nostro peut ne pas être confirmé le jour même, ou le virement entre établissements financiers peut ne pas être transféré le jour même. Une mise à jour sera fournie par l'émetteur du statut."
+    },
+    "G003": {
+      "name": "Crédit en attente de documents",
+      "definition": "Dans un virement client FIToFI : le crédit du compte du créancier est en attente de réception des documents requis. L'émetteur du statut a demandé au créancier de fournir des justificatifs supplémentaires. Une mise à jour sera fournie par l'émetteur du statut. |Dans un virement entre établissements financiers avec couverture : l'émetteur du statut a demandé à une banque précédente de fournir des informations supplémentaires ou corrigées. Une mise à jour sera fournie par l'émetteur du statut."
+    },
+    "G004": {
+      "name": "Crédit en attente de fonds",
+      "definition": "Dans un virement client FIToFI : le crédit du compte du créancier est en attente, l'émetteur du statut attend les fonds fournis par une couverture. Une mise à jour sera fournie par l'émetteur du statut."
+    },
+    "G005": {
+      "name": "Livré avec niveau de service",
+      "definition": "Le paiement a été remis à la banque du créancier avec niveau de service."
+    },
+    "G006": {
+      "name": "Livré sans niveau de service",
+      "definition": "Le paiement a été remis à la banque du créancier sans niveau de service."
+    },
+    "ID01": {
+      "name": "Fichier d'origine correspondant toujours pas envoyé",
+      "definition": "Le fichier de signature a été envoyé à la banque mais le fichier original correspondant n'a pas encore été envoyé."
+    },
+    "MD01": {
+      "name": "Aucun mandat",
+      "definition": "Aucun mandat"
+    },
+    "MD02": {
+      "name": "Informations obligatoires manquantes dans le mandat",
+      "definition": "Les données d'information relatives au mandat requises par le schéma sont manquantes."
+    },
+    "MD05": {
+      "name": "Recouvrement non échu",
+      "definition": "Le créancier ou la banque du créancier n'aurait pas dû encaisser le prélèvement"
+    },
+    "MD06": {
+      "name": "Demande de remboursement par le client final",
+      "definition": "Retour de fonds demandé par le client final"
+    },
+    "MD07": {
+      "name": "Client final décédé",
+      "definition": "Le client final est décédé."
+    },
+    "MS02": {
+      "name": "Motif non spécifié, généré par le client",
+      "definition": "Le motif n'a pas été précisé par le client final"
+    },
+    "MS03": {
+      "name": "Motif non précisé, généré par la banque",
+      "definition": "Le motif n'a pas été précisé par la banque."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Le motif est fourni sous forme d'information narrative dans les informations complémentaires sur le motif."
+    },
+    "NERI": {
+      "name": "Aucun ERI",
+      "definition": "Le virement est marqué comme une opération Extended Remittance Information (ERI) mais ne contient pas d'ERI."
+    },
+    "RC01": {
+      "name": "Identifiant bancaire incorrect",
+      "definition": "Le code d'identification bancaire indiqué dans le message a un format incorrect (anciennement IncorrectFormatForRoutingCode)."
+    },
+    "RC02": {
+      "name": "Identifiant bancaire non valide",
+      "definition": "L'identifiant bancaire est non valide ou manquant.|Usage générique si l'on ne peut pas distinguer entre compte débité ou crédité"
+    },
+    "RC03": {
+      "name": "Identifiant de la banque du débiteur non valide",
+      "definition": "L'identifiant de la banque du débiteur est non valide ou manquant"
+    },
+    "RC04": {
+      "name": "Identifiant de la banque du créancier non valide",
+      "definition": "L'identifiant de la banque du créancier est non valide ou manquant"
+    },
+    "RC05": {
+      "name": "Identifiant BIC non valide",
+      "definition": "L'identifiant BIC est non valide ou manquant.|Usage générique si l'on ne peut pas distinguer entre compte débité ou crédité."
+    },
+    "RC06": {
+      "name": "Identifiant BIC du débiteur non valide",
+      "definition": "L'identifiant BIC du débiteur est non valide ou manquant"
+    },
+    "RC07": {
+      "name": "Identifiant BIC du créancier non valide",
+      "definition": "L'identifiant BIC du créancier est non valide ou manquant"
+    },
+    "RC08": {
+      "name": "Identifiant de membre du système de compensation non valide",
+      "definition": "L'identifiant ClearingSystemMember est non valide ou manquant.|Usage générique si l'on ne peut pas distinguer entre compte débité ou crédité (ClearingSystemMemberidentifier)"
+    },
+    "RC09": {
+      "name": "Identifiant de membre du système de compensation du débiteur non valide",
+      "definition": "L'identifiant ClearingSystemMember du débiteur est non valide ou manquant"
+    },
+    "RC10": {
+      "name": "Identifiant de membre du système de compensation du créancier non valide",
+      "definition": "L'identifiant ClearingSystemMember du créancier est non valide ou manquant"
+    },
+    "RC11": {
+      "name": "Banque intermédiaire non valide",
+      "definition": "La banque intermédiaire est non valide ou manquante"
+    },
+    "RC12": {
+      "name": "Identifiant de schéma du créancier manquant",
+      "definition": "L'identifiant de schéma du créancier est non valide ou  manquant"
+    },
+    "RCON": {
+      "name": "Conflit de message R",
+      "definition": "Conflit avec le R-Message"
+    },
+    "RECI": {
+      "name": "Informations sur le client destinataire",
+      "definition": "Informations complémentaires concernant le destinataire prévu."
+    },
+    "RF01": {
+      "name": "Référence d'opération non unique",
+      "definition": "La référence de l'opération n'est pas unique au sein du message."
+    },
+    "RR01": {
+      "name": "Compte ou identification du débiteur manquant",
+      "definition": "La spécification du compte du débiteur ou de l'identification unique requise pour des raisons réglementaires est insuffisante ou manquante"
+    },
+    "RR02": {
+      "name": "Nom ou adresse du débiteur manquant",
+      "definition": "La spécification du nom et/ou de l'adresse du débiteur requise pour des raisons réglementaires est insuffisante ou manquante."
+    },
+    "RR03": {
+      "name": "Nom ou adresse du créancier manquant",
+      "definition": "La spécification du nom et/ou de l'adresse du créancier requise pour des raisons réglementaires est insuffisante ou manquante."
+    },
+    "RR04": {
+      "name": "Motif réglementaire",
+      "definition": "Motif réglementaire"
+    },
+    "RR05": {
+      "name": "Informations réglementaires non valides",
+      "definition": "Les informations de déclaration réglementaire ou à la banque centrale sont manquantes, incomplètes ou non valides."
+    },
+    "RR06": {
+      "name": "Informations fiscales non valides",
+      "definition": "Les informations fiscales sont manquantes, incomplètes ou non valides."
+    },
+    "RR07": {
+      "name": "Informations de remise non valides",
+      "definition": "La structure des informations de remise n'est pas conforme aux règles du type de paiement."
+    },
+    "RR08": {
+      "name": "Informations de remise tronquées",
+      "definition": "Les informations de remise ont été tronquées pour respecter les règles du type de paiement."
+    },
+    "RR09": {
+      "name": "Référence structurée du créancier non valide",
+      "definition": "La référence structurée du créancier est non valide ou manquante."
+    },
+    "RR10": {
+      "name": "Jeu de caractères non valide",
+      "definition": "Le jeu de caractères fourni n'est pas valide pour le pays et le type de paiement."
+    },
+    "RR11": {
+      "name": "Identifiant de service de la banque du débiteur non valide",
+      "definition": "Identification d'un service propriétaire de la banque non valide ou manquante."
+    },
+    "RR12": {
+      "name": "Identifiant de partie non valide",
+      "definition": "Identification requise dans un pays ou pour un type de paiement particulier non valide ou manquante."
+    },
+    "S000": {
+      "name": "Demande d'annulation valide accusée réception",
+      "definition": "La demande d'annulation est accusée réception après validation."
+    },
+    "S001": {
+      "name": "UETR signalé pour annulation",
+      "definition": "L'Unique End-to-end Transaction Reference (UETR) relatif à un paiement a été identifié comme associé à une demande d'annulation."
+    },
+    "S002": {
+      "name": "Arrêt réseau de l'UETR",
+      "definition": "L'Unique End-to-end Transaction Reference (UETR) relatif à un paiement a été empêché de circuler sur un réseau de messagerie."
+    },
+    "S003": {
+      "name": "Demande d'annulation transmise",
+      "definition": "La demande d'annulation a été transmise à la banque de traitement du paiement / de dernier traitement du paiement."
+    },
+    "S004": {
+      "name": "Accusé de réception de la remise de la demande d'annulation",
+      "definition": "La demande d'annulation a été accusée comme remise à la banque de traitement du paiement / de dernier traitement du paiement."
+    },
+    "SL01": {
+      "name": "Service spécifique proposé par la banque du débiteur",
+      "definition": "En raison d'un service spécifique proposé par la banque du débiteur."
+    },
+    "SL02": {
+      "name": "Service spécifique proposé par la banque du créancier",
+      "definition": "En raison d'un service spécifique proposé par la banque du créancier."
+    },
+    "SL03": {
+      "name": "Service du système de compensation",
+      "definition": "En raison d'un service spécifique proposé par le système de compensation."
+    },
+    "SL11": {
+      "name": "Créancier absent de la liste blanche du débiteur",
+      "definition": "Service de liste blanche proposé par la banque du débiteur ; le débiteur n'a pas (encore) inscrit le créancier sur sa « liste blanche ». Dans la liste blanche, le débiteur peut recenser tous les créanciers autorisés à débiter son compte bancaire."
+    },
+    "SL12": {
+      "name": "Créancier sur la liste noire du débiteur",
+      "definition": "Service de liste noire proposé par la banque du débiteur ; le débiteur a inscrit le créancier sur sa « liste noire ». Dans la liste noire, le débiteur peut recenser tous les créanciers non autorisés à débiter son compte bancaire."
+    },
+    "SL13": {
+      "name": "Nombre maximal d'opérations de prélèvement dépassé",
+      "definition": "En raison du service de nombre maximal d'opérations de prélèvement autorisées par période proposé par la banque du débiteur."
+    },
+    "SL14": {
+      "name": "Montant maximal d'opération de prélèvement dépassé",
+      "definition": "En raison du service de montant maximal d'opération de prélèvement autorisé proposé par la banque du débiteur."
+    },
+    "TA01": {
+      "name": "Transmission interrompue",
+      "definition": "La transmission du fichier a échoué – elle a dû être interrompue (pour des raisons techniques)"
+    },
+    "TD01": {
+      "name": "Aucune donnée disponible",
+      "definition": "Aucune donnée n'est disponible (au téléchargement)"
+    },
+    "TD02": {
+      "name": "Fichier illisible",
+      "definition": "Le fichier est illisible (par ex. format inconnu)"
+    },
+    "TD03": {
+      "name": "Structure de fichier incorrecte",
+      "definition": "Le format du fichier est incomplet ou non valide"
+    },
+    "TK01": {
+      "name": "Jeton non valide",
+      "definition": "Le jeton n'est pas valide."
+    },
+    "TK02": {
+      "name": "Jeton de l'émetteur introuvable",
+      "definition": "Le jeton utilisé pour l'expéditeur n'existe pas."
+    },
+    "TK03": {
+      "name": "Jeton du destinataire introuvable",
+      "definition": "Le jeton utilisé pour le destinataire n'existe pas."
+    },
+    "TK09": {
+      "name": "Jeton manquant",
+      "definition": "Le jeton requis pour la demande est manquant."
+    },
+    "TKCM": {
+      "name": "Jeton : contrepartie non concordante",
+      "definition": "Jeton trouvé avec une contrepartie non concordante."
+    },
+    "TKSG": {
+      "name": "Jeton à usage unique",
+      "definition": "Jeton à usage unique déjà utilisé."
+    },
+    "TKSP": {
+      "name": "Jeton suspendu",
+      "definition": "Jeton trouvé avec le statut suspendu."
+    },
+    "TKVE": {
+      "name": "Limite de valeur du jeton dépassée",
+      "definition": "Jeton trouvé en violation d'une règle de limite de valeur."
+    },
+    "TKXP": {
+      "name": "Jeton expiré",
+      "definition": "Jeton expiré."
+    },
+    "TM01": {
+      "name": "Heure limite non valide",
+      "definition": "Le message associé, le bloc d'informations de paiement ou l'opération a été reçu après l'heure limite de traitement convenue."
+    },
+    "TS01": {
+      "name": "Transmission réussie",
+      "definition": "La transmission (technique) du fichier a réussi."
+    },
+    "TS04": {
+      "name": "Transfert à signer manuellement",
+      "definition": "L'ordre a été transmis par bordereau d'accompagnement signé à la main"
+    },
+    "CN01": {
+      "name": "Autorisation annulée",
+      "definition": "L'autorisation est annulée."
+    },
+    "FOCR": {
+      "name": "Suite à une demande d'annulation",
+      "definition": "Retour faisant suite à une demande d'annulation."
+    },
+    "FR01": {
+      "name": "Fraude",
+      "definition": "Retourné à la suite d'une fraude."
+    },
+    "NOAS": {
+      "name": "Aucune réponse du client",
+      "definition": "Aucune réponse du bénéficiaire."
+    },
+    "NOCM": {
+      "name": "Non conforme (générique)",
+      "definition": "Le compte du client n'est pas conforme aux exigences réglementaires, par exemple FICA (en Afrique du Sud) ou toute autre exigence réglementaire rendant un compte inactif pour certains traitements."
+    },
+    "RUTA": {
+      "name": "Retour en cas d'impossibilité d'imputation",
+      "definition": "Retour faisant suite à une demande d'enquête et aucune remédiation possible."
+    },
+    "UPAY": {
+      "name": "Paiement indu",
+      "definition": "Le paiement n'est pas justifié."
+    },
+    "AEXR": {
+      "name": "RTP déjà expirée",
+      "definition": "La date et l'heure d'expiration de la demande de paiement sont déjà dépassées."
+    },
+    "ALAC": {
+      "name": "RTP déjà acceptée",
+      "definition": "La demande de paiement a déjà été acceptée par le débiteur."
+    },
+    "ARFR": {
+      "name": "RTP déjà refusée",
+      "definition": "La demande de paiement a déjà été refusée par le débiteur."
+    },
+    "ARJR": {
+      "name": "RTP déjà rejetée",
+      "definition": "La demande de paiement a déjà été rejetée."
+    },
+    "ATNS": {
+      "name": "Pièces jointes non prises en charge",
+      "definition": "Les pièces jointes à la demande de paiement ne sont pas prises en charge."
+    },
+    "EDTL": {
+      "name": "Date d'expiration trop lointaine",
+      "definition": "La date et l'heure d'expiration de la demande de paiement sont trop éloignées dans le futur."
+    },
+    "EDTR": {
+      "name": "Date et heure d'expiration atteintes",
+      "definition": "La date et l'heure d'expiration de la demande de paiement sont déjà atteintes."
+    },
+    "FRAD": {
+      "name": "Origine frauduleuse",
+      "definition": "Annulation demandée à la suite d'une opération initiée de manière frauduleuse. L'utilisation du code FraudulentOrigin doit être encadrée par les juridictions."
+    },
+    "IEDT": {
+      "name": "Date et heure d'expiration incorrectes",
+      "definition": "La date et l'heure d'expiration de la demande de paiement sont incorrectes."
+    },
+    "IRNR": {
+      "name": "RTP initiale jamais reçue",
+      "definition": "Aucune demande de paiement initiale n'a été reçue."
+    },
+    "NOAR": {
+      "name": "RTP non convenue",
+      "definition": "Aucun accord existant pour la réception de messages de demande de paiement."
+    },
+    "NOPG": {
+      "name": "Aucune garantie de paiement",
+      "definition": "La garantie de paiement demandée (par le créancier) en lien avec une demande de paiement ne peut pas être fournie."
+    },
+    "NRCH": {
+      "name": "Payeur ou RTPSP du payeur injoignable",
+      "definition": "Le côté destinataire de la demande de paiement (le payeur ou son prestataire de services de demande de paiement) est injoignable."
+    },
+    "PINS": {
+      "name": "Type d'instrument de paiement non pris en charge",
+      "definition": "Le type de paiement demandé dans la demande de paiement n'est pas pris en charge par le payeur."
+    },
+    "REPR": {
+      "name": "RTP reçue pouvant être traitée",
+      "definition": "La demande de paiement a été reçue et peut être traitée."
+    },
+    "RTNS": {
+      "name": "RTP non prise en charge pour le débiteur",
+      "definition": "Le débiteur ne prend pas en charge les opérations de demande de paiement."
+    },
+    "SPII": {
+      "name": "Identifiant du prestataire de services RTP incorrect",
+      "definition": "L'identifiant du prestataire de services de demande de paiement est incorrect."
+    },
+    "UCRD": {
+      "name": "Créancier inconnu",
+      "definition": "Créancier inconnu."
+    },
+    "FF12": {
+      "name": "Opération initiale non éligible au retour demandé",
+      "definition": "Le paiement initial ne peut pas être retourné compte tenu de son statut actuel."
+    },
+    "FF13": {
+      "name": "Demande d'annulation introuvable",
+      "definition": "Aucune trace de demande d'annulation trouvée."
+    },
+    "DC02": {
+      "name": "Règlement non reçu",
+      "definition": "Rejet d'un paiement car le règlement de l'établissement financier de couverture n'a pas été reçu (FI)."
+    },
+    "APAR": {
+      "name": "RTP déjà payée",
+      "definition": "La demande de paiement a déjà été payée par le débiteur."
+    },
+    "AB26": {
+      "name": "Instruction de règlement de lot non valide",
+      "definition": "L'instruction de règlement n'existe pas."
+    },
+    "AB12": {
+      "name": "Lot concurrent non valide",
+      "definition": "Numéro de séquence de lot concurrent en double – pour les instructions de règlement."
+    },
+    "AB13": {
+      "name": "Code d'acheminement utilisé non valide",
+      "definition": "Type d'acheminement de message erroné pour le retour de fonds."
+    },
+    "AB15": {
+      "name": "Numéro de compte non valide pour le type de règlement",
+      "definition": "L'instruction ne peut pas être placée sur le processeur de règlement Continuous Processing Line."
+    },
+    "AB21": {
+      "name": "Numéro d'accord de règlement spécifié non valide",
+      "definition": "Numéro d'accord non valide (bénéficiaire)."
+    },
+    "BDAY": {
+      "name": "Jour non ouvrable",
+      "definition": "Le jour du cycle de règlement et le jour calendaire doivent être identiques."
+    },
+    "DS28": {
+      "name": "Retour pour raison technique",
+      "definition": "Message acheminé vers un mauvais environnement."
+    },
+    "INDT": {
+      "name": "Détails invalides",
+      "definition": "Détails non valides pour ce champ."
+    },
+    "ISWS": {
+      "name": "Fenêtre de règlement non valide",
+      "definition": "Impossible de planifier l'instruction pour la fenêtre de nuit."
+    },
+    "MINF": {
+      "name": "Informations manquantes",
+      "definition": "Informations manquantes pour le champ ou le champ ne peut pas être vide."
+    },
+    "NOFR": {
+      "name": "Financement en suspens pour le règlement",
+      "definition": "Instruction de mise en attente de la Continuous Processing Line."
+    },
+    "RC13": {
+      "name": "Participant non membre actif du RTGS",
+      "definition": "Initiateur plus actif."
+    },
+    "RC15": {
+      "name": "Participant non membre actif du type de règlement",
+      "definition": "Accord de règlement requis."
+    },
+    "RC16": {
+      "name": "Participant non membre actif du SADC-RTGS",
+      "definition": "Participant bloqué de SADC-RTGS."
+    },
+    "SBRN": {
+      "name": "Notification de retrait du lot de règlement",
+      "definition": "Supprimer l'instruction de mise en attente de la ligne de traitement par lots concurrents."
+    },
+    "RQNR": {
+      "name": "Demande non reconnue",
+      "definition": "Le payeur n'a pas reconnu la demande du participant bénéficiaire,"
+    },
+    "SNRD": {
+      "name": "Service non rendu",
+      "definition": "Les services n'ont pas encore été rendus par le participant bénéficiaire (créancier)."
+    },
+    "OSNS": {
+      "name": "Service optionnel non pris en charge",
+      "definition": "Le service optionnel demandé (par exemple paiements échelonnés) n'est pas pris en charge."
+    },
+    "AMSE": {
+      "name": "Taille maximale de la pièce jointe",
+      "definition": "La taille de la pièce jointe dépasse le maximum autorisé."
+    },
+    "INAR": {
+      "name": "Référence d'activation non valide",
+      "definition": "La référence d'activation du payeur est non valide."
+    },
+    "EDNA": {
+      "name": "Date d'exécution non acceptée",
+      "definition": "La date d'exécution demandée du paiement n'est pas acceptée."
+    },
+    "SL15": {
+      "name": "Nombre maximal d'opérations de crédit dépassé",
+      "definition": "Nombre maximal d'opérations de crédit autorisé par le teneur de compte par période de service dépassé."
+    },
+    "SL16": {
+      "name": "Montant maximal des opérations de crédit dépassé",
+      "definition": "Montant total maximal de crédit autorisé par le teneur de compte par période de service dépassé."
+    },
+    "SL17": {
+      "name": "Débiteur absent de la liste blanche côté créancier",
+      "definition": "Service de liste blanche proposé par l'opérateur du système de paiement ou l'établissement financier. Le débiteur n'est pas inscrit sur la liste blanche du côté du créancier."
+    },
+    "SL18": {
+      "name": "Débiteur sur la liste noire côté créancier",
+      "definition": "Service de liste noire proposé par l'opérateur du système de paiement ou l'établissement financier. Le débiteur est inscrit sur la liste noire du côté du créancier."
+    },
+    "CHRG": {
+      "name": "Les frais sous-jacents n'étaient pas DEBT",
+      "definition": "Se rapporte à un message de frais pour indiquer que le code de frais utilisé dans le message de paiement correspondant n'était pas debt."
+    },
+    "CHCO": {
+      "name": "Type de code de frais non accepté",
+      "definition": "Se rapporte à un message de frais pour indiquer que le code figurant dans Charge Breakdown / Type / Code n'est pas accepté par la partie destinataire."
+    },
+    "IPNS": {
+      "name": "Paiements échelonnés non pris en charge",
+      "definition": "Les paiements échelonnés ne sont pas pris en charge."
+    },
+    "CNNS": {
+      "name": "Avoirs non pris en charge",
+      "definition": "Les avoirs ne sont pas pris en charge."
+    },
+    "EOL1": {
+      "name": "Fin de vie",
+      "definition": "Expiration de l'autorisation de paiement faute d'utilisation pendant trop longtemps."
+    },
+    "PNRT": {
+      "name": "Paiement non conforme à la demande RTP",
+      "definition": "Code d'erreur utilisé pour un virement initié par RTP lorsque les détails du pacs.008 ne sont pas alignés avec la demande pain.013 (CTR)."
+    },
+    "OBO1": {
+      "name": "Règlement terminé, déclaré pour le compte de la banque du créancier, avec montant",
+      "definition": "Le règlement de l'opération est terminé et est déclaré par une banque intermédiaire ou une infrastructure de marché des paiements pour le compte de la banque du créancier. Le montant crédité est connu."
+    },
+    "OBO2": {
+      "name": "Règlement terminé, déclaré pour le compte de la banque du créancier, sans montant",
+      "definition": "Le règlement de l'opération est terminé et est déclaré par une banque intermédiaire ou une infrastructure de marché des paiements pour le compte de la banque du créancier. Le montant crédité n'est pas connu."
+    },
+    "G007": {
+      "name": "Paiement transmis par l'infrastructure de marché des paiements",
+      "definition": "Le paiement a été transmis par l'infrastructure de marché des paiements à la banque suivante de la chaîne de paiement ; la réception n'a pas encore été confirmée."
+    },
+    "G008": {
+      "name": "Paiement reçu par la banque suivante via l'infrastructure de marché des paiements",
+      "definition": "Le paiement a été reçu par la banque suivante via l'infrastructure de marché des paiements."
+    },
+    "IMCC": {
+      "name": "Code de catégorie de commerçant non valide",
+      "definition": "Code de catégorie de commerçant non valide"
+    },
+    "IUCT": {
+      "name": "Type de cas d'usage non valide",
+      "definition": "Type de cas d'usage non valide"
+    },
+    "INCT": {
+      "name": "Type de canal non valide",
+      "definition": "Type de canal non valide"
+    },
+    "AEML": {
+      "name": "Montant supérieur à la limite maximale",
+      "definition": "Le montant demandé dépasse la limite fixée par le débiteur (la banque du débiteur)"
+    },
+    "WGDA": {
+      "name": "Banque du débiteur erronée",
+      "definition": "Banque du débiteur erronée dans le message de demande de frais"
+    },
+    "WGDB": {
+      "name": "Débiteur erroné",
+      "definition": "Débiteur erroné dans le message de demande de frais"
+    },
+    "UTNV": {
+      "name": "Opération sous-jacente non valide",
+      "definition": "Opération référencée introuvable"
+    },
+    "MICT": {
+      "name": "Plusieurs types de frais identiques",
+      "definition": "Plusieurs types de frais identiques dans Charge Breakdown"
+    },
+    "GUAG": {
+      "name": "Accord garanti non respecté",
+      "definition": "Accord garanti avec le correspondant, le correspondant est donc la partie responsable"
+    }
+  }
+}

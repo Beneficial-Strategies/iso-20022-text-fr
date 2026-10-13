@@ -1,0 +1,26 @@
+{
+  "isoType": "Frequency10Code",
+  "definition": "Précise la régularité d'un événement.",
+  "isoCodes": {
+    "NEVR": {
+      "name": "Jamais",
+      "definition": "L'événement n'a jamais lieu."
+    },
+    "YEAR": {
+      "name": "Annuelle",
+      "definition": "L'événement a lieu tous les ans ou une fois par an."
+    },
+    "RATE": {
+      "name": "Taux",
+      "definition": "L'événement a lieu en fonction d'une variation de taux."
+    },
+    "MIAN": {
+      "name": "Semestrielle",
+      "definition": "L'événement a lieu tous les six mois ou deux fois par an."
+    },
+    "QURT": {
+      "name": "Trimestrielle",
+      "definition": "L'événement a lieu tous les trois mois ou quatre fois par an."
+    }
+  }
+}

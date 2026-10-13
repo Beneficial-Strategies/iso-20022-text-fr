@@ -1,0 +1,26 @@
+{
+  "isoType": "PreferredContactMethod1Code",
+  "definition": "Méthode privilégiée pour joindre la personne de contact au sein d'une organisation.",
+  "isoCodes": {
+    "LETT": {
+      "name": "Courrier",
+      "definition": "La méthode privilégiée pour joindre le contact est le courrier postal."
+    },
+    "MAIL": {
+      "name": "Courriel",
+      "definition": "La méthode privilégiée pour joindre le contact est le courrier électronique."
+    },
+    "PHON": {
+      "name": "Téléphone",
+      "definition": "La méthode privilégiée pour joindre le contact est le téléphone."
+    },
+    "FAXX": {
+      "name": "Télécopie",
+      "definition": "La méthode privilégiée pour joindre le contact est le télécopieur."
+    },
+    "CELL": {
+      "name": "Téléphone mobile",
+      "definition": "La méthode privilégiée pour joindre le contact est le téléphone mobile."
+    }
+  }
+}

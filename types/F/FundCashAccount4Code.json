@@ -1,0 +1,50 @@
+{
+  "isoType": "FundCashAccount4Code",
+  "definition": "Précise le type de compte.",
+  "isoCodes": {
+    "HEDG": {
+      "name": "Fonds spéculatif",
+      "definition": "Compte de fonds spéculatif."
+    },
+    "CPFO": {
+      "name": "Fonds de pension ordinaire",
+      "definition": "Compte ordinaire du Central Provident Fund (CPF)."
+    },
+    "CPFS": {
+      "name": "Fonds de pension spécial",
+      "definition": "Compte spécial du Central Provident Fund (CPF)."
+    },
+    "SRSA": {
+      "name": "Régime de retraite",
+      "definition": "Compte du Supplementary Retirement Scheme (SRS)."
+    },
+    "CSDO": {
+      "name": "Compte omnibus CSD",
+      "definition": "Compte géré par un CSD dans un contexte de règlement entre CSD."
+    },
+    "TOFF": {
+      "name": "Compte technique de compensation",
+      "definition": "Compte géré par un CSD dans un contexte de marché de détention directe."
+    },
+    "ICSA": {
+      "name": "Compte inter-CSD",
+      "definition": "Compte géré par un CSD pour le règlement des volets titres des instructions impliquant des CSD internes."
+    },
+    "CSDM": {
+      "name": "Compte miroir CSD",
+      "definition": "Compte géré par un CSD pour la reproduction miroir des positions."
+    },
+    "CSDP": {
+      "name": "Compte participant CSD",
+      "definition": "Compte détenu par un participant d'un CSD."
+    },
+    "PPEN": {
+      "name": "Régime de retraite privé",
+      "definition": "Compte de retraite privé."
+    },
+    "CPEN": {
+      "name": "Régime de retraite d'entreprise",
+      "definition": "Compte de retraite d'entreprise ou professionnelle."
+    }
+  }
+}

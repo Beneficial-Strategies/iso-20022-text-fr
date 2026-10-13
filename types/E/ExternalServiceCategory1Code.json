@@ -1,0 +1,78 @@
+{
+  "isoType": "ExternalServiceCategory1Code",
+  "definition": "Précise la catégorie de service, telle que publiée dans une liste de codes de motifs de statut externe.|Les listes de codes externes peuvent être téléchargées depuis www.iso20022.org.",
+  "isoCodes": {
+    "ACMS": {
+      "name": "Services de gestion de comptes",
+      "definition": "Accord ou règles selon lesquels l'opération doit être traitée, exprimés sous forme de code.|Cette catégorie couvre la déclaration des frais liés aux services de gestion de compte, y compris notamment les frais d'adhésion et les frais minimums (c'est-à-dire les frais ajoutés aux petites factures afin d'atteindre les frais minimums convenus pour chaque participant)."
+    },
+    "BICM": {
+      "name": "Gestion bilatérale des garanties",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais liés à la gestion des garanties soumises à des accords bilatéraux (couvrant le financement par la banque centrale pour les actifs négociables et non négociables, les dérivés OTC non compensés et les opérations de financement sur titres)."
+    },
+    "CALM": {
+      "name": "Services de gestion de trésorerie et de liquidité",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais liés aux services de gestion de trésorerie et de liquidité."
+    },
+    "CLEA": {
+      "name": "Services de compensation",
+      "definition": "Cette catégorie couvre la déclaration des frais liés à la fourniture de services de compensation."
+    },
+    "CUST": {
+      "name": "Services de conservation",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais facturés par opération, tels que les instructions de choix. La catégorie est également utilisée pour déclarer les frais des services fiscaux relatifs aux actifs en conservation ainsi que le traitement des opérations sur titres et des événements d'assemblées."
+    },
+    "INSV": {
+      "name": "Services d'information",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais liés à la fourniture d'informations par tout moyen et à la fourniture d'outils de connectivité. Cela comprend la messagerie ISO (entrante ou sortante), l'accès à l'interface utilisateur graphique (GUI), la connectivité, le rechargement des jetons de sécurité, les abonnements aux rapports et la fourniture de données par tout autre moyen (par exemple, formats papier)."
+    },
+    "INVS": {
+      "name": "Services de fonds d'investissement",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais liés aux services spécifiques fournis pour les fonds d'investissement, tels que l'acheminement des ordres ou la déclaration des détenteurs.  La conservation et le règlement des fonds d'investissement et des fonds négociés en bourse doivent être déclarés respectivement sous les catégories Services de conservation et Services de règlement."
+    },
+    "ISSU": {
+      "name": "Services aux émetteurs",
+      "definition": "Cette catégorie couvre la déclaration des frais liés à la fourniture de services aux émetteurs par un CSD. Cela comprend des frais tels que l'émission et le remboursement de titres et la gestion des opérations sur titres."
+    },
+    "OTHR": {
+      "name": "Autres services",
+      "definition": "Cette catégorie couvre la déclaration des frais liés à d'autres services fournis qui ne sont pas nécessairement fixés dans un tarif général applicable à tous les clients, mais convenus bilatéralement avec chaque client. Cela comprend la fourniture de demandes de service personnalisées et d'autres formes d'assistance aux clients, telles que la formation et l'accès aux tests, ainsi que les débours."
+    },
+    "PENM": {
+      "name": "Mécanisme de pénalités",
+      "definition": "Cette catégorie couvre la déclaration des frais liés au recouvrement des coûts associés au développement et à la maintenance du mécanisme de pénalités. Remarque : cette catégorie ne doit pas être utilisée pour déclarer la pénalité elle-même."
+    },
+    "REGI": {
+      "name": "Services d'enregistrement",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais liés à l'enregistrement des titres."
+    },
+    "SAFE": {
+      "name": "Services de garde",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais calculés en points de base appliqués aux actifs en conservation. Cela comprend les frais de notariat, de tenue centrale des comptes et de service des actifs."
+    },
+    "SECL": {
+      "name": "Services de prêt de titres",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais liés aux services de prêt de titres."
+    },
+    "PENA": {
+      "name": "Pénalités de règlement",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais liés au recouvrement des coûts des pénalités de règlement appliquées par des systèmes de règlement hors EU (hors du champ de la discipline de règlement du CSDR)."
+    },
+    "SETT": {
+      "name": "Services de règlement",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais liés au règlement de titres et/ou d'espèces. Cela comprend les frais liés au règlement des réclamations de marché et des transformations. Les taxes appliquées aux opérations réglées (telles que les taxes sur les transactions financières) et les services de règlement accessoires sont également déclarés sous cette catégorie."
+    },
+    "SHDT": {
+      "name": "Services de transmission des données des actionnaires",
+      "definition": "Cette catégorie couvre la déclaration des frais liés à la fourniture de services permettant aux intermédiaires de transmettre les données des actionnaires aux émetteurs. Cela comprend les coûts liés à la fourniture du service de calcul et de règlement des frais appliqués par les intermédiaires aux émetteurs pour la notification des données des actionnaires."
+    },
+    "STEX": {
+      "name": "Services de bourse",
+      "definition": "Cette catégorie couvre la déclaration des frais liés à la fourniture de services de bourse. Cela comprend les frais de transaction."
+    },
+    "TPCM": {
+      "name": "Services de gestion tripartite des garanties",
+      "definition": "Cette catégorie couvre la déclaration de tous les frais liés à la fourniture de services aux donneurs et/ou preneurs de garanties impliqués dans une opération de gestion de garanties tripartite."
+    }
+  }
+}

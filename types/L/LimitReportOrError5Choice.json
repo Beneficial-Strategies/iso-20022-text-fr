@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitReportOrError5Choice",
+  "definition": "Choix entre les détails d'une ou plusieurs limites fixées par le membre (ou pour son compte) et gérées par l'administrateur des opérations, ou une erreur opérationnelle lorsque les données demandées ne peuvent pas être récupérées.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Rend compte des limites."
+    },
+    "OperationalError": {
+      "definition": "Indique qu'une erreur opérationnelle a été émise lors du traitement de la demande associée."
+    }
+  }
+}

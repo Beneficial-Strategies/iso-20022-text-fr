@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification218",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "Role": {
+      "definition": "Rôle joué par le tiers."
+    },
+    "Identification": {
+      "definition": "Identification du tiers."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "MeetingResultDisseminationV10",
+  "definition": "Portée|Le message MeetingResultDissemination est envoyé par un émetteur, son agent ou un intermédiaire à un autre intermédiaire, à une partie détenant le droit de vote, à un détenteur de titres inscrit ou à un détenteur final afin de fournir des informations sur les résultats du vote d'une assemblée d'actionnaires.|Utilisation|Le message MeetingResultDissemination est utilisé pour fournir les résultats du vote par résolution. Il peut également fournir des informations sur le niveau de participation.|Ce message est également utilisé pour notifier une mise à jour ou une modification d'un message MeetingResultDissemination envoyé précédemment.|Cette définition de message est destinée à être utilisée avec le Business Application Header (BAH).",
+  "isoElements": {
+    "MeetingResultDisseminationIdentification": {
+      "definition": "Identification unique du groupe de messages de diffusion des résultats lorsque la diffusion des résultats est répartie en plusieurs messages (paginés)."
+    },
+    "MeetingResultsDisseminationType": {
+      "definition": "Type de rapport de diffusion, c'est-à-dire s'il s'agit d'un nouveau rapport ou d'un rapport de remplacement."
+    },
+    "PreviousMeetingResultsDisseminationIdentification": {
+      "definition": "Identification du message de diffusion des résultats de réunion envoyé précédemment."
+    }
+  },
+  "isoRules": {
+    "PreviousMeetingResultsDisseminationIdentificationRule": {
+      "definition": "Si MeetingResultsDisseminationType est REPL (Remplacement), alors PreviousMeetingResultsDisseminationIdentification doit être présent."
+    },
+    "PaginationRule": {
+      "definition": "Si la pagination est présente, alors MeetingResultDisseminationIdentification doit être présent."
+    }
+  }
+}

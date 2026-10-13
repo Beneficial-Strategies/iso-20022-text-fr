@@ -1,0 +1,30 @@
+{
+  "isoType": "ModificationProcessingStatus1Code",
+  "definition": "Indique le statut d'une demande d'annulation.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Accepté",
+      "definition": "La demande de modification a été reconnue pour traitement ultérieur par la banque tenant le compte."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "La modification a été rejetée pour traitement ultérieur."
+    },
+    "MODC": {
+      "name": "Terminé",
+      "definition": "La modification a été effectuée."
+    },
+    "DEND": {
+      "name": "Refusé",
+      "definition": "La modification ne sera pas exécutée."
+    },
+    "MODP": {
+      "name": "En attente",
+      "definition": "La modification est en attente. On ne sait pas encore si elle pourra être exécutée."
+    },
+    "REPR": {
+      "name": "En réparation",
+      "definition": "La demande de modification est en réparation."
+    }
+  }
+}

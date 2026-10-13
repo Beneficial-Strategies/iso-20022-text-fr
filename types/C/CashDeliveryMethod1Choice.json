@@ -1,0 +1,12 @@
+{
+  "isoType": "CashDeliveryMethod1Choice",
+  "definition": "Indique le mode de livraison du dépôt d'espèces.",
+  "isoElements": {
+    "Code": {
+      "definition": "Mode de livraison des espèces tel que publié dans un jeu de codes externe de modes de livraison."
+    },
+    "Proprietary": {
+      "definition": "Mode de livraison des espèces, sous forme propriétaire."
+    }
+  }
+}

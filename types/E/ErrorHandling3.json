@@ -1,0 +1,12 @@
+{
+  "isoType": "ErrorHandling3",
+  "definition": "Précise l'erreur résultant du traitement d'une demande.",
+  "isoElements": {
+    "Error": {
+      "definition": "Spécification de l'erreur, sous forme codée ou propriétaire."
+    },
+    "Description": {
+      "definition": "Spécification de l'erreur, en format libre."
+    }
+  }
+}

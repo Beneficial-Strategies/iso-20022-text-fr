@@ -1,0 +1,33 @@
+{
+  "isoType": "FinancialInstitutionCreditTransferV13",
+  "definition": "Portée|Le message FinancialInstitutionCreditTransfer est envoyé par un établissement financier débiteur à un établissement financier créancier, directement ou par l'intermédiaire d'autres agents et/ou d'un système de compensation et de règlement des paiements.|Il est utilisé pour transférer des fonds d'un compte de débiteur à un créancier, le débiteur et le créancier étant tous deux des établissements financiers.|Utilisation|Le message FinancialInstitutionCreditTransfer est échangé entre agents et peut contenir une ou plusieurs instructions de virement dans lesquelles le débiteur et le créancier sont tous deux des établissements financiers.|Le message FinancialInstitutionCreditTransfer n'autorise pas le regroupement : un bloc CreditTransferTransactionInformation doit être présent pour chaque opération de virement.|Le message FinancialInstitutionCreditTransfer peut être utilisé dans des scénarios nationaux et transfrontaliers.",
+  "isoRules": {
+    "InstructedAgentRule": {
+      "definition": "Si GroupHeader/InstructedAgent est présent, CreditTransferTransactionInformation/InstructedAgent n'est pas autorisé."
+    },
+    "InstructingAgentRule": {
+      "definition": "Si GroupHeader/InstructingAgent est présent, CreditTransferTransactionInformation/InstructingAgent n'est pas autorisé."
+    },
+    "TotalInterbankSettlementAmountRule": {
+      "definition": "Si GroupHeader/TotalInterbankSettlementAmount est présent, toutes les occurrences de CreditTransferTransactionInformation/InterbankSettlementAmount doivent avoir la même devise que GroupHeader/TotalInterbankSettlementAmount."
+    },
+    "TotalInterbankSettlementAmountAndSumRule": {
+      "definition": "Si GroupHeader/TotalInterbankSettlementAmount est présent, il doit être égal à la somme de toutes les occurrences de CreditTransferTransactionInformation/InterbankSettlementAmount."
+    },
+    "GroupHeaderInterbankSettlementDateRule": {
+      "definition": "Si GroupHeader/InterbankSettlementDate est présent, CreditTransferTransactionInformation/InterbankSettlementDate n'est pas autorisé."
+    },
+    "TransactionInterbankSettlementDateRule": {
+      "definition": "Si GroupHeader/InterbankSettlementDate n'est pas présent, CreditTransferTransactionInformation/InterbankSettlementDate doit être présent."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "Si GroupHeader/PaymentTypeInformation est présent, CreditTransferTransactionInformation/PaymentTypeInformation n'est pas autorisé."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    },
+    "GroupHeaderExpiryDateTimeRule": {
+      "definition": "Si GroupHeader/ExpiryDateTime est présent, CreditTransferTransactionInformation/ExpiryDateTime n'est pas autorisé."
+    }
+  }
+}

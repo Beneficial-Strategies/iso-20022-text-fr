@@ -1,0 +1,21 @@
+{
+  "isoType": "DisplayCapabilities5",
+  "definition": "Capacités des composants d'affichage effectuant l'opération.",
+  "isoElements": {
+    "Destination": {
+      "definition": "Destination du message à présenter."
+    },
+    "AvailableFormat": {
+      "definition": "Format de message disponible."
+    },
+    "NumberOfLines": {
+      "definition": "Nombre de lignes de l'affichage."
+    },
+    "LineWidth": {
+      "definition": "Nombre de colonnes de l'affichage ou de l'imprimante."
+    },
+    "AvailableLanguage": {
+      "definition": "Langue disponible pour le message. Référence ISO 639-1 (alpha-2) et ISO 639-2 (alpha-3)."
+    }
+  }
+}

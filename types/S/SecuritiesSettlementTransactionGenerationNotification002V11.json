@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesSettlementTransactionGenerationNotification002V11",
+  "definition": "Portée|Un teneur de compte envoie un SecuritiesSettlementTransactionGenerationNotification à un titulaire de compte afin de l'informer d'une opération de règlement de titres qui a été générée/créée par le teneur de compte pour le titulaire de compte. Le motif de la création peut aller de la transformation automatique d'instructions de règlement en attente à la suite d'un événement sur titres, jusqu'à la reconstitution de la base de données des opérations d'un titulaire de compte à l'initiative de son teneur de compte.|La relation teneur de compte/titulaire peut être :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement agissant pour le compte de ses participants|- un agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou|- un conservateur agissant pour le compte d'un établissement de gestion d'investissements ou d'un courtier/négociateur||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments pertinents du Business Application Header.",
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "Si l'instruction est contre paiement, SettlementAmount doit être présent."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Si l'instruction est une livraison et qu'aucune instruction de règlement permanente ne s'applique, alors ReceivingDepository et Party1 doivent être présents.|."
+    },
+    "AdditionalPhysicalOrRegistrationDetailsRule": {
+      "definition": "Si AdditionalPhysicalOrRegistrationDetails est utilisé, l'instruction doit être franco de paiement."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Si l'instruction est une réception et qu'aucune instruction permanente de règlement ne s'applique, DeliveringDepository et Party1 doivent être présents."
+    },
+    "CurrencyToSellRule": {
+      "definition": "Si CurrencytoSell est utilisé, l'instruction doit être une réception."
+    },
+    "CurrencyToBuyRule": {
+      "definition": "Si CurrencytoBuy est utilisé, l'instruction doit être une livraison."
+    }
+  }
+}

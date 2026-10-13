@@ -1,0 +1,30 @@
+{
+  "isoType": "CompensationResponse1",
+  "definition": "Précise si la demande d'indemnisation est acceptée ou non.",
+  "isoElements": {
+    "Granted": {
+      "definition": "Code exprimant la décision prise concernant la demande d'indemnisation."
+    },
+    "InitialAmount": {
+      "definition": "Indemnisation calculée pour la demande avant déduction des frais."
+    },
+    "PaidCharges": {
+      "definition": "Frais déduits du montant initial."
+    },
+    "AmountDue": {
+      "definition": "Indemnisation due pour la demande après déduction des frais."
+    },
+    "ExpectedValueDate": {
+      "definition": "Date de valeur à laquelle l'indemnisation doit être payée."
+    },
+    "Period": {
+      "definition": "Période à laquelle s'applique l'indemnisation."
+    },
+    "InterestRate": {
+      "definition": "Taux d'intérêt d'un instrument financier utilisé pour calculer l'indemnisation."
+    },
+    "Reason": {
+      "definition": "Précise le motif de la réponse à la demande d'indemnisation."
+    }
+  }
+}

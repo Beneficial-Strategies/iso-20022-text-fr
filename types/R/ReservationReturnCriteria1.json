@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationReturnCriteria1",
+  "definition": "Définit les critères utilisés pour établir un rapport sur une réservation.",
+  "isoElements": {
+    "StartDateTimeIndicator": {
+      "definition": "Indique si la date et l'heure de début de la réservation sont demandées."
+    },
+    "StatusIndicator": {
+      "definition": "Indique si le statut de la réservation est demandé."
+    }
+  }
+}

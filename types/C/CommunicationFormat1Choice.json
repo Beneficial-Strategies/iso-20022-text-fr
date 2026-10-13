@@ -1,0 +1,12 @@
+{
+  "isoType": "CommunicationFormat1Choice",
+  "definition": "Précise un choix de format pour les relevés.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identification unique et univoque du format de communication à l'aide d'une liste de codes."
+    },
+    "Proprietary": {
+      "definition": "Identification unique et univoque du format de communication à l'aide d'un schéma d'identification propriétaire."
+    }
+  }
+}

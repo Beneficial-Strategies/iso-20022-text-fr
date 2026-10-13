@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionStandingInstructionGeneralInformation1",
+  "definition": "Fournit des informations sur l'instruction permanente.",
+  "isoElements": {
+    "StandingInstructionType": {
+      "definition": "Type d'instruction permanente."
+    },
+    "EventType": {
+      "definition": "Type d'événement sur titres."
+    },
+    "InstructingPartyIdentification": {
+      "definition": "Identification de la partie donneuse d'ordre, c'est-à-dire le client du CSD."
+    },
+    "ClientStandingInstructionIdentification": {
+      "definition": "Référence de l'instruction permanente attribuée par le client."
+    },
+    "AccountDetails": {
+      "definition": "Fournit des informations sur le compte auquel l'instruction permanente peut s'appliquer."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Identification de l'instrument financier sous-jacent, c'est-à-dire l'instrument financier concerné par l'événement sur titres."
+    }
+  }
+}

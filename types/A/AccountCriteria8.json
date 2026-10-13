@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountCriteria8",
+  "definition": "Définit les critères utilisés pour rechercher un compte et établir le relevé de ce compte. Un nom peut être attribué à la nouvelle requête.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nom de la requête définie par les critères de recherche et les critères de retour."
+    },
+    "SearchCriteria": {
+      "definition": "Définit les critères à utiliser pour extraire les informations du compte."
+    },
+    "ReturnCriteria": {
+      "definition": "Définit le relevé de compte attendu."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Si ReturnCriteria n'est pas présent, au moins une occurrence de SearchCriteria doit être présente. Si ReturnCriteria est présent, toute occurrence de SearchCriteria est facultative."
+    }
+  }
+}

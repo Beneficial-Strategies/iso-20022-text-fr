@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsentOrRejectionReason4Choice",
+  "definition": "Choix du format du motif de rejet.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel la réponse de la contrepartie a le statut rejeté."
+    },
+    "Proprietary": {
+      "definition": "Précise le motif pour lequel la réponse de la contrepartie a le statut rejeté."
+    }
+  }
+}

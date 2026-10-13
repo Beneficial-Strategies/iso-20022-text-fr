@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxAmountType1Choice",
+  "definition": "Précise le type de montant.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le type de montant, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Précise le type de montant, sous forme de texte libre."
+    }
+  }
+}

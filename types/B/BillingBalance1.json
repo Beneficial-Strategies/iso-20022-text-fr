@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingBalance1",
+  "definition": "Fournit le solde des services de facturation.",
+  "isoElements": {
+    "Type": {
+      "definition": "Définit le type de solde."
+    },
+    "Value": {
+      "definition": "Valeur du solde."
+    },
+    "CurrencyType": {
+      "definition": "Identifie le type de devise utilisé pour déclarer le solde. Il ne s'agit pas du code ISO."
+    }
+  }
+}

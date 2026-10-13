@@ -1,0 +1,118 @@
+{
+  "isoType": "MessageFunction7Code",
+  "definition": "Identifie le type de traitement lié à un message de l'ATM.",
+  "isoCodes": {
+    "BALN": {
+      "name": "Solde du DAB",
+      "definition": "Fournir les compteurs de l'ATM en réinitialisant ceux qui sont applicables."
+    },
+    "CMPA": {
+      "name": "Accusé de réception de fin d'opération du DAB",
+      "definition": "Accusé de réception d'un avis d'achèvement."
+    },
+    "CMPD": {
+      "name": "Avis de fin d'opération du DAB",
+      "definition": "Avis d'achèvement d'une opération de l'ATM."
+    },
+    "ACMD": {
+      "name": "Contrôle du DAB",
+      "definition": "Commandes globales de l'ATM."
+    },
+    "DVCC": {
+      "name": "Contrôle des dispositifs du DAB",
+      "definition": "Commandes de maintenance à exécuter."
+    },
+    "DIAQ": {
+      "name": "Demande de diagnostic du DAB",
+      "definition": "Demande de diagnostic."
+    },
+    "DIAP": {
+      "name": "Réponse de diagnostic du DAB",
+      "definition": "Réponse à une demande de diagnostic."
+    },
+    "GSTS": {
+      "name": "Statut global du DAB",
+      "definition": "Statut global de l'ATM."
+    },
+    "INQQ": {
+      "name": "Demande de consultation du DAB",
+      "definition": "Demande de renseignements."
+    },
+    "INQP": {
+      "name": "Réponse de consultation du DAB",
+      "definition": "Réponse à une demande de renseignements."
+    },
+    "KYAQ": {
+      "name": "Demande de téléchargement de clé du DAB",
+      "definition": "Demande de téléchargement de clés."
+    },
+    "KYAP": {
+      "name": "Réponse de téléchargement de clé du DAB",
+      "definition": "Réponse à un téléchargement de clés."
+    },
+    "PINQ": {
+      "name": "Demande de gestion du PIN du DAB",
+      "definition": "Demande de gestion du PIN du titulaire de la carte."
+    },
+    "PINP": {
+      "name": "Réponse de gestion du PIN du DAB",
+      "definition": "Réponse à une demande de gestion du PIN du titulaire de la carte."
+    },
+    "RJAQ": {
+      "name": "Rejet de demande du DAB",
+      "definition": "Message de demande rejeté."
+    },
+    "RJAP": {
+      "name": "Rejet de réponse du DAB",
+      "definition": "Message de réponse rejeté."
+    },
+    "WITV": {
+      "name": "Avis de retrait du DAB",
+      "definition": "Réponse d'une opération de retrait."
+    },
+    "WITK": {
+      "name": "Accusé de réception de retrait du DAB",
+      "definition": "Accusé de réception d'un avis d'opération de retrait."
+    },
+    "WITQ": {
+      "name": "Demande de retrait du DAB",
+      "definition": "Demande d'opération de retrait."
+    },
+    "WITP": {
+      "name": "Réponse de retrait du DAB",
+      "definition": "Réponse à une demande d'opération de retrait."
+    },
+    "INQC": {
+      "name": "Consultation des compteurs",
+      "definition": "Demander la valeur des compteurs de l'ATM."
+    },
+    "H2AP": {
+      "name": "Accusé de réception de l'hôte vers le DAB",
+      "definition": "Accusé de réception d'une demande de prise de contact d'un hôte vers un ATM."
+    },
+    "H2AQ": {
+      "name": "Demande de l'hôte vers le DAB",
+      "definition": "Demande d'un hôte à un ATM d'être contacté par cet ATM."
+    },
+    "TMOP": {
+      "name": "Opération du DAB",
+      "definition": "Opération logique ou physique sur l'ATM."
+    },
+    "CSEC": {
+      "name": "Contrôle de sécurité",
+      "definition": "Commandes de sécurité."
+    },
+    "DSEC": {
+      "name": "Détails de sécurité",
+      "definition": "Rapport détaillé de sécurité."
+    },
+    "SKSC": {
+      "name": "Finalisation de clé de sécurité",
+      "definition": "Résultat du téléchargement de clés avec le statut des clés téléchargées, y compris les valeurs de contrôle des clés."
+    },
+    "SSTS": {
+      "name": "Statut de clé de sécurité",
+      "definition": "Statut des clés cryptographiques."
+    }
+  }
+}

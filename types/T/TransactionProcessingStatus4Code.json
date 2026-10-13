@@ -1,0 +1,38 @@
+{
+  "isoType": "TransactionProcessingStatus4Code",
+  "definition": "Précise le statut d'une instruction.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Accusé de réception et accepté",
+      "definition": "L'instruction a été reconnue/acceptée pour traitement ultérieur par la banque tenant le compte."
+    },
+    "PPRC": {
+      "name": "Traitement en attente",
+      "definition": "Le traitement de l'instruction est en attente."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "L'instruction a été rejetée pour traitement ultérieur."
+    },
+    "REPR": {
+      "name": "En réparation",
+      "definition": "L'instruction est acceptée mais en réparation."
+    },
+    "CAND": {
+      "name": "Annulé",
+      "definition": "L'instruction a été annulée."
+    },
+    "CANP": {
+      "name": "Annulation en attente",
+      "definition": "Votre demande d'annulation de cette instruction est en attente de traitement ultérieur."
+    },
+    "CPRC": {
+      "name": "Annulation demandée",
+      "definition": "La demande d'annulation de la contrepartie est en attente de votre demande d'annulation ou de votre consentement."
+    },
+    "MPRC": {
+      "name": "Modification demandée",
+      "definition": "La demande de modification de la contrepartie est en attente de votre demande de modification ou de votre consentement."
+    }
+  }
+}

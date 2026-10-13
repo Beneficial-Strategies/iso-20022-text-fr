@@ -1,0 +1,35 @@
+{
+  "isoType": "FinancialInstrument9",
+  "definition": "Titre qui est un sous-ensemble d'un fonds d'investissement et qui est régi par la même politique de placement du fonds, par exemple option de dividende ou devise de valorisation.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification d'un titre par un ISIN."
+    },
+    "Name": {
+      "definition": "Nom de l'instrument financier en texte libre."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Informations complémentaires sur un instrument financier destinées à aider à l'identifier."
+    },
+    "RequestedNAVCurrency": {
+      "definition": "Devise à utiliser pour la valorisation du fonds. Cette devise doit figurer parmi l'ensemble des devises dans lesquelles le prix peut être exprimé, comme indiqué dans le prospectus."
+    },
+    "ClassType": {
+      "definition": "Caractéristiques des parts offertes par un fonds. Par exemple, une part peut avoir une structure de commissions particulière, par exemple à l'entrée ou à la sortie, une politique de revenus, par exemple distribution ou capitalisation, ou une politique de rétrocession, par exemple avec ou sans. Les catégories de fonds sont généralement désignées par un seul caractère, par exemple « Classe A », « Classe 2 »."
+    },
+    "SecuritiesForm": {
+      "definition": "Forme, c'est-à-dire propriété, du titre, par exemple nominatif ou au porteur."
+    },
+    "DistributionPolicy": {
+      "definition": "Politique de revenus relative à un type de catégorie, c'est-à-dire si les revenus sont distribués ou conservés dans le fonds."
+    },
+    "DualFundIndicator": {
+      "definition": "Indique si le fonds a deux prix."
+    }
+  },
+  "isoRules": {
+    "FinancialInstrumentIdentificationGuideline": {
+      "definition": "Il est recommandé d'utiliser l'ISIN dans Identification\\SecurityIdentification3Choice."
+    }
+  }
+}

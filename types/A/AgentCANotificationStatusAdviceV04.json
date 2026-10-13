@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCANotificationStatusAdviceV04",
+  "definition": "Périmètre|Ce message est envoyé par un CSD à un émetteur (ou son agent) pour rendre compte du statut, ou du changement de statut, d'un avis de notification ou d'une demande d'annulation de notification.|Utilisation|Lorsque ce message est utilisé pour rendre compte du statut d'un avis de notification, le bloc de construction Agent Corporate Action Notification Advice Identification doit être présent.|Lorsque ce message est utilisé pour fournir le statut d'une demande d'annulation de notification, le bloc de construction Notification Cancellation Request Identification doit être présent."
+}

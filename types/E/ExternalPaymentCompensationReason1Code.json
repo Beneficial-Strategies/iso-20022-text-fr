@@ -1,0 +1,10 @@
+{
+  "isoType": "ExternalPaymentCompensationReason1Code",
+  "definition": "Précise le motif de la compensation pour le traitement d'un paiement, tel que publié dans une liste de codes externe.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "VADA": {
+      "name": "Ajustement de date de valeur",
+      "definition": "Compensation demandée pour la correction de la date de valeur."
+    }
+  }
+}

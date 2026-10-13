@@ -1,0 +1,121 @@
+{
+  "isoType": "ExternalServiceLevel1Code",
+  "isoCodes": {
+    "BKTR": {
+      "name": "Opération interne",
+      "definition": "Paiement par virement interne."
+    },
+    "G001": {
+      "name": "Virement client suivi",
+      "definition": "Virement client suivi."
+    },
+    "G002": {
+      "name": "Arrêt et rappel suivis",
+      "definition": "Arrêt et rappel suivis."
+    },
+    "G003": {
+      "name": "Virement entreprise sortant suivi",
+      "definition": "Virement d'entreprise sortant suivi."
+    },
+    "G004": {
+      "name": "Virement entre établissements financiers suivi",
+      "definition": "Virement entre établissements financiers suivi."
+    },
+    "NPCA": {
+      "name": "Virement dans la zone du Nordic Payments Council",
+      "definition": "Le paiement doit être exécuté selon le schéma de paiement NPC Area."
+    },
+    "NUGP": {
+      "name": "Paiement prioritaire non urgent",
+      "definition": "Le paiement doit être exécuté comme une opération non urgente avec règlement prioritaire."
+    },
+    "NURG": {
+      "name": "Paiement non urgent",
+      "definition": "Le paiement doit être exécuté comme une opération non urgente, généralement identifiée comme une opération ACH ou de faible valeur."
+    },
+    "PRPT": {
+      "name": "Service prioritaire EBA",
+      "definition": "L'opération doit être traitée selon l'EBA Priority Service."
+    },
+    "SDVA": {
+      "name": "Valeur le jour même",
+      "definition": "Le paiement doit être exécuté avec une date de valeur le jour même pour le créancier."
+    },
+    "SEPA": {
+      "name": "Espace unique de paiements en euros",
+      "definition": "Le paiement doit être exécuté selon le schéma de l'Espace unique de paiements en euros."
+    },
+    "SVDE": {
+      "name": "Compensation et règlement nationaux de chèques",
+      "definition": "Exécution du paiement selon l'accord sur les chèques et les chèques de voyage du German Banking Industry Committee (Die Deutsche Kreditwirtschaft - DK) et de la Deutsche Bundesbank – Scheck Verrechnung Deutschland"
+    },
+    "URGP": {
+      "name": "Paiement urgent",
+      "definition": "Le paiement doit être exécuté comme une opération urgente compensée par un système de règlement brut en temps réel, généralement identifiée comme un virement télégraphique ou une opération de valeur élevée."
+    },
+    "URNS": {
+      "name": "Règlement net de paiement urgent",
+      "definition": "Le paiement doit être exécuté comme une opération urgente compensée par un système de règlement net en temps réel, généralement identifiée comme un virement télégraphique ou une opération de valeur élevée."
+    },
+    "INST": {
+      "name": "Virement instantané ou prélèvement instantané",
+      "definition": "Utilisé pour l'initiation de paiement afin d'indiquer qu'une initiation de paiement ou de prélèvement doit être exécutée comme instrument de paiement instantané ou en temps réel."
+    },
+    "SRTP": {
+      "name": "Demande de paiement de service",
+      "definition": "Une opération de demande de paiement (Request to Pay, RTP) renvoie à un schéma RTP (tel que, par exemple, le schéma SEPA Request to Pay (SRTP))."
+    },
+    "SVAT": {
+      "name": "Scheck-Verarbeitung Austria",
+      "definition": "Scheck Verarbeitung Austria (traitement des chèques)."
+    },
+    "G006": {
+      "name": "Gestion de dossier suivie",
+      "definition": "Précise les conditions de service applicables à un dossier suivi d'exceptions et d'enquêtes."
+    },
+    "G007": {
+      "name": "Virement client entrant suivi",
+      "definition": "Précise le niveau de service d'un virement client entrant suivi."
+    },
+    "G005": {
+      "name": "Virement client instantané suivi",
+      "definition": "Virement instantané client suivi."
+    },
+    "G009": {
+      "name": "Virement client transfrontalier de faible montant suivi",
+      "definition": "Précise le niveau de service d'un virement client transfrontalier de faible valeur suivi."
+    },
+    "WFSM": {
+      "name": "Attente du règlement",
+      "definition": "L'opération doit être traitée comme un avis et n'être imputée au compte du créancier ou de la banque suivante qu'après confirmation du règlement de la couverture."
+    },
+    "EOLO": {
+      "name": "Euro, une jambe hors zone",
+      "definition": "Le paiement est exécuté selon un schéma Euro One-Leg Out."
+    },
+    "SPLI": {
+      "name": "Paiement fractionné",
+      "definition": "Un paiement fractionné est un paiement divisé en plusieurs paiements de moindre valeur, notamment afin de respecter les seuils de montant maximal applicables à certaines infrastructures de marché de paiement nationales ou de réduire le risque de liquidité de la contrepartie."
+    },
+    "IRCA": {
+      "name": "Zone du Icelandic Rulebook Council",
+      "definition": "Le paiement doit être exécuté selon le schéma de l'Icelandic Rulebook Council Area (IRCA)."
+    },
+    "EAPS": {
+      "name": "Système de paiement d'Afrique de l'Est",
+      "definition": "Identifie les paiements exécutés dans le cadre de l'East African Payment System (EAPS), le schéma de règlement transfrontalier régional exploité par les banques centrales de l'EAC."
+    },
+    "SPSC": {
+      "name": "Schéma Swift",
+      "definition": "L'opération doit être traitée selon le règlement du schéma Swift."
+    },
+    "SD01": {
+      "name": "Service numérique Swift (Swift Ledger)",
+      "definition": "Les opérations sur actifs numériques doivent être traitées selon les règles du Swift Ledger."
+    },
+    "NOLO": {
+      "name": "NPC, une jambe hors zone",
+      "definition": "Le paiement est exécuté selon le schéma NPC One-Leg Out."
+    }
+  }
+}

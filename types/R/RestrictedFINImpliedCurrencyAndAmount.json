@@ -1,0 +1,4 @@
+{
+  "isoType": "RestrictedFINImpliedCurrencyAndAmount",
+  "definition": "Nombre d'unités monétaires exprimées dans une devise où l'unité monétaire est implicite d'après le contexte et conforme à la norme ISO 4217. Le séparateur décimal est le point.|Remarque : un montant nul est considéré comme un montant positif."
+}

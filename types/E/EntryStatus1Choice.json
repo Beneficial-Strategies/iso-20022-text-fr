@@ -1,0 +1,12 @@
+{
+  "isoType": "EntryStatus1Choice",
+  "definition": "Précise le statut d'une écriture dans les livres du teneur de compte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut de l'écriture, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Statut de l'écriture, sous forme propriétaire."
+    }
+  }
+}

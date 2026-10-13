@@ -1,0 +1,9 @@
+{
+  "isoType": "FinancialInstitutionDirectDebitV06",
+  "definition": "Portée :|Le message FinancialInstitutionDirectDebit est envoyé par une bourse, une chambre de compensation ou un établissement financier, directement ou par l'intermédiaire d'un autre agent, à DebtorAgent. Il est utilisé pour instruire DebtorAgent de transférer des fonds d'un ou de plusieurs comptes de débiteur(s) vers un ou plusieurs créanciers, le débiteur et le créancier étant tous deux des établissements financiers.||Utilisation :|Le message FinancialInstitutionDirectDebit est échangé entre agents et peut contenir une ou plusieurs instructions de prélèvement entre établissements financiers pour un ou plusieurs créanciers. Le message FinancialInstitutionDirectDebit peut être utilisé dans des scénarios nationaux et transfrontaliers.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    }
+  }
+}

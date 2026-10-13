@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionReversalReason10",
+  "definition": "Indique la raison pour laquelle l'annulation de l'opération sur titres a lieu.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Précise le motif de l'annulation."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur l'instruction traitée."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "L'élément AdditionalReasonInformation ne doit pas contenir d'informations pouvant être fournies dans un champ structuré, sauf accord bilatéral."
+    }
+  }
+}

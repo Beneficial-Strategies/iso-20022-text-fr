@@ -1,0 +1,41 @@
+{
+  "isoType": "OriginalPaymentInstruction53",
+  "definition": "Fournit des informations détaillées sur l'opération d'origine à laquelle se réfère le message de rapport de statut.",
+  "isoElements": {
+    "ReversalPaymentInformationIdentification": {
+      "definition": "Identification unique, attribuée par une partie donneuse d'ordre à une partie destinataire de l'instruction, permettant d'identifier sans ambiguïté le groupe d'informations de paiement annulé.|Utilisation : la partie donneuse d'ordre est la partie qui envoie le message d'annulation et non celle qui a envoyé l'instruction d'origine faisant l'objet de l'annulation."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Identification unique, attribuée par la partie émettrice d'origine, permettant d'identifier sans ambiguïté le groupe d'informations de paiement d'origine."
+    },
+    "OriginalNumberOfTransactions": {
+      "definition": "Nombre d'opérations individuelles contenues dans le groupe d'informations de paiement d'origine."
+    },
+    "OriginalControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le groupe d'informations de paiement d'origine, quelles que soient les devises."
+    },
+    "BatchBooking": {
+      "definition": "Indique si une écriture unique par opération individuelle ou une écriture groupée pour la somme des montants de toutes les opérations du groupe d'un message est demandée.|Utilisation : la remise groupée sert à demander, et non à ordonner, une éventuelle remise groupée."
+    },
+    "PaymentInformationReversal": {
+      "definition": "Indique si l'annulation s'applique ou non à l'ensemble du groupe d'informations de paiement d'origine ou à des opérations individuelles de ce groupe."
+    },
+    "ReversalReasonInformation": {
+      "definition": "Fournit des informations détaillées sur le motif de l'annulation."
+    },
+    "TransactionInformation": {
+      "definition": "Fournit des informations sur les opérations d'origine auxquelles se réfère le message d'annulation."
+    }
+  },
+  "isoRules": {
+    "PaymentInformationReversalAndTransactionInformationNotPresentRule": {
+      "definition": "Si PaymentInformationReversal est vrai, alors TransactionInformation n'est pas autorisé."
+    },
+    "PaymentInformationReversalAndTransactionInformationPresentRule": {
+      "definition": "Si PaymentInformationReversal est faux, alors au moins une occurrence de TransactionInformation doit être présente."
+    },
+    "PaymentInformationReversalAndReasonRule": {
+      "definition": "Si PaymentInformationReversal est vrai, alors ReversalReasonInformation/ReversalReason doit être présent."
+    }
+  }
+}

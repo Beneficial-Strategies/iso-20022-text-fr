@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope41",
+  "definition": "Portée de la modification à appliquer à un ensemble d'informations identifié.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Type de modification à appliquer."
+    },
+    "InvestmentPlan": {
+      "definition": "Plan permettant aux investisseurs de programmer des investissements ou désinvestissements périodiques, selon des critères prédéfinis."
+    }
+  }
+}

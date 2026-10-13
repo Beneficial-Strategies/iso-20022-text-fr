@@ -1,0 +1,26 @@
+{
+  "isoType": "DeliveryPlace3Code",
+  "definition": "Précise le lieu de remise.",
+  "isoCodes": {
+    "EMAL": {
+      "name": "Courriel",
+      "definition": "La carte doit être envoyée par courriel."
+    },
+    "EMPL": {
+      "name": "Employeur",
+      "definition": "La carte doit être envoyée par courrier à l'adresse de l'employeur."
+    },
+    "INDI": {
+      "name": "Individuel",
+      "definition": "La carte doit être envoyée par courrier à la personne indiquée dans PersonDetail."
+    },
+    "ENTR": {
+      "name": "Entrée de l'assemblée",
+      "definition": "La carte doit être disponible à l'entrée de l'assemblée."
+    },
+    "OADR": {
+      "name": "Autre adresse",
+      "definition": "Les cartes doivent être envoyées à une autre adresse indiquée."
+    }
+  }
+}

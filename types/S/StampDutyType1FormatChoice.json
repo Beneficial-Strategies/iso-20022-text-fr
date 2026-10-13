@@ -1,0 +1,12 @@
+{
+  "isoType": "StampDutyType1FormatChoice",
+  "definition": "Choix de formats pour exprimer les informations relatives au droit de timbre.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant les informations relatives au droit de timbre."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire exprimant les informations relatives au droit de timbre."
+    }
+  }
+}

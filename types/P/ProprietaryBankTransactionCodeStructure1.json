@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryBankTransactionCodeStructure1",
+  "definition": "Ensemble d'éléments permettant d'identifier complètement un code de transaction bancaire propriétaire.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code de transaction bancaire propriétaire servant à identifier l'opération sous-jacente."
+    },
+    "Issuer": {
+      "definition": "Identification de l'émetteur du code de transaction bancaire propriétaire."
+    }
+  }
+}

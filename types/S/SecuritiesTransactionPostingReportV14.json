@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesTransactionPostingReportV14",
+  "definition": "Scope|SecuritiesTransactionPostingReport est envoyé par un teneur de compte à un titulaire de compte pour fournir le détail des augmentations et diminutions de positions survenues au cours d'une période déterminée, pour tout ou partie des titres du compte de conservation ou du sous-compte de conservation spécifié que le teneur de compte détient pour le titulaire du compte. |La relation teneur de compte/titulaire de compte peut être la suivante :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement agissant pour le compte de ses participants|- un agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou |- un conservateur agissant pour le compte d'un établissement de gestion de placements ou d'un courtier/négociateur.||Usage|Ce message peut être utilisé comme relevé basé sur la date de négociation ou sur la date de règlement.|Le message peut également servir à : |- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments correspondants de l'en-tête applicatif métier (Business Application Header).",
+  "isoRules": {
+    "FinancialInstrumentDetailsReportingRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator est TRUE (Oui) et SubAccountIndicator est FALSE (Non), alors FinancialInstrumentDetails doit être présent et Sub Account Details doit être absent."
+    },
+    "SubAccountDetailsFinancialInstrumentPresenceRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator est TRUE (Oui) et SubAccountIndicator est TRUE (OUI), alors SubAccountDetails doit être présent et FinancialInstrumentDetails doit être absent (YES)."
+    },
+    "FinancialInstrumentDetailsOrSubAccountDetailsRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator est FALSE (Non), alors FinancialInstrumentDetails et SubAccountDetails doivent être absents."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur l'utilisation de ce message.|Ces pratiques de marché sont disponibles sur www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

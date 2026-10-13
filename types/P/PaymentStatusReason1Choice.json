@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentStatusReason1Choice",
+  "definition": "Motif du statut de l'opération de paiement.",
+  "isoElements": {
+    "Unmatched": {
+      "definition": "Motif pour lequel le statut du paiement est non rapproché."
+    },
+    "Cancelled": {
+      "definition": "Motif pour lequel le statut du paiement est annulé."
+    },
+    "Suspended": {
+      "definition": "Motif pour lequel le statut du paiement est suspendu."
+    },
+    "PendingFailingSettlement": {
+      "definition": "Motif pour lequel le statut du paiement est en attente (défaut de règlement)."
+    },
+    "PendingSettlement": {
+      "definition": "Motif pour lequel le statut du paiement est en attente (règlement)."
+    },
+    "ProprietaryRejection": {
+      "definition": "Définit le motif utilisé par le système pour rejeter l'opération."
+    },
+    "Proprietary": {
+      "definition": "Définit un motif propriétaire en texte libre."
+    }
+  }
+}

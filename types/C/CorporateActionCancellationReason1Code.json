@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionCancellationReason1Code",
+  "definition": "Indique les raisons de l'annulation d'un événement d'opération sur titres.",
+  "isoCodes": {
+    "WITH": {
+      "name": "Retrait",
+      "definition": "Annulation due au fait que l'événement d'opération sur titres a été annulé par l'émetteur."
+    },
+    "PROC": {
+      "name": "Traitement",
+      "definition": "Annulation en raison d'une erreur de traitement."
+    }
+  }
+}

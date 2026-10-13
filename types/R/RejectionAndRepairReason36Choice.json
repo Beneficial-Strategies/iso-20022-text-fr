@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionAndRepairReason36Choice",
+  "definition": "Choix de format pour le motif de rejet ou de réparation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction ou la demande a le statut réparation ou rejet."
+    },
+    "Proprietary": {
+      "definition": "Précise le motif pour lequel l'instruction ou la demande a le statut réparation ou rejet."
+    }
+  }
+}

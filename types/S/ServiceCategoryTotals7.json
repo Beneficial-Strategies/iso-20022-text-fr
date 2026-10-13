@@ -1,0 +1,24 @@
+{
+  "isoType": "ServiceCategoryTotals7",
+  "definition": "Précise les totaux relatifs à la facture.",
+  "isoElements": {
+    "BilledCustomerIdentification": {
+      "definition": "Identification du client facturé."
+    },
+    "Tax": {
+      "definition": "Informations détaillées sur la taxe appliquée."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Montant total de la facture, égal à la somme des montants totaux des lignes de facture, du montant total des ajustements de la facture (remises, déductions et frais) et des montants totaux de taxes."
+    },
+    "ServiceCategory": {
+      "definition": "Accord ou règles selon lesquels l'opération doit être traitée."
+    },
+    "ServiceItemTotals": {
+      "definition": "Totaux relatifs à la facture."
+    },
+    "ServiceItemCorrection": {
+      "definition": "Correction appliquée à la facture."
+    }
+  }
+}

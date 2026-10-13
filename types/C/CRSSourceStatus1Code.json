@@ -1,0 +1,14 @@
+{
+  "isoType": "CRSSourceStatus1Code",
+  "definition": "Précise la source du statut au regard de la norme commune de déclaration (CRS).",
+  "isoCodes": {
+    "CALC": {
+      "name": "Calculé",
+      "definition": "La source du statut au regard de la norme commune de déclaration (CRS) est calculée."
+    },
+    "DECL": {
+      "name": "Déclaré",
+      "definition": "La source du statut au regard de la norme commune de déclaration (CRS) est la déclaration de l'investisseur."
+    }
+  }
+}

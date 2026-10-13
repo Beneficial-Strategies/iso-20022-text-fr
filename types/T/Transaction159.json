@@ -1,0 +1,32 @@
+{
+  "isoType": "Transaction159",
+  "definition": "Informations relatives à l'opération de paiement.",
+  "isoElements": {
+    "PaymentTo": {
+      "definition": "Destination du paiement (membre, système ou les deux)."
+    },
+    "PaymentFrom": {
+      "definition": "Origine du paiement (membre, système ou les deux)."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si l'opération de paiement est une opération de débit ou de crédit. |."
+    },
+    "Payment": {
+      "definition": "Instruction de payer un montant d'argent à un bénéficiaire final, pour le compte d'un donneur d'ordre. Cette instruction peut devoir être transmise plusieurs fois pour réaliser la chaîne de règlement."
+    },
+    "AccountEntry": {
+      "definition": "Imputation d'un élément sur un compte de trésorerie, dans le contexte d'une opération de trésorerie, entraînant une augmentation ou une diminution du solde du compte."
+    },
+    "SecuritiesTransactionReferences": {
+      "definition": "Fournit les références de l'opération sur titres sous-jacente."
+    }
+  },
+  "isoRules": {
+    "CreditDebitIndicatorGuideline": {
+      "definition": "CreditDebitIndicator peut être omis par souci d'optimisation si CreditDebitIndicator est utilisé dans les critères de recherche de la requête associée."
+    },
+    "TransactionCreditDebitIndicatorRule": {
+      "definition": "Si CreditDebitIndicator est présent, AccountEntry/Entry/Amount, Payment/InstructedAmount ou Payment/InterbankSettlementAmount doit être présent.|Si CreditDebitIndicator n'est pas présent, tout élément de message de la liste (AccountEntry/Entry/Amount, Payment/InstructedAmount, Payment/InterbankSettlementAmount) est facultatif."
+    }
+  }
+}

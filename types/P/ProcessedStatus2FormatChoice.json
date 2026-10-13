@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessedStatus2FormatChoice",
+  "definition": "Choix de formats pour exprimer le statut de traitement d'une demande d'annulation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard permettant de préciser le statut de traitement d'une demande d'annulation."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire permettant d'exprimer le statut de traitement d'une demande d'annulation."
+    }
+  }
+}

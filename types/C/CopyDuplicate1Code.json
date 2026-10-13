@@ -1,0 +1,18 @@
+{
+  "isoType": "CopyDuplicate1Code",
+  "definition": "Précise s'il s'agit d'une copie, d'un duplicata ou d'un duplicata de copie.",
+  "isoCodes": {
+    "CODU": {
+      "name": "Copie duplicata",
+      "definition": "Le message est envoyé en copie à une partie autre que le titulaire du compte, à titre d'information, et il constitue un duplicata d'un message précédemment envoyé."
+    },
+    "COPY": {
+      "name": "Copie",
+      "definition": "Le message est envoyé en copie à une partie autre que le titulaire du compte, à titre d'information."
+    },
+    "DUPL": {
+      "name": "Duplicata",
+      "definition": "Le message est destiné à l'information ou à la confirmation. Il s'agit d'un duplicata d'un message précédemment envoyé."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "RemittanceLocationAdviceV03",
+  "definition": "Le message RemittanceLocationAdvice permet à l'initiateur du message d'identifier où se trouve l'avis de remise pour un paiement associé."
+}

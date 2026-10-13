@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesSettlementStatus2Code",
+  "definition": "Indique le statut de règlement d'une instruction.",
+  "isoCodes": {
+    "PEND": {
+      "name": "En attente",
+      "definition": "L'instruction est en attente. Le règlement à la date de règlement instruite est encore possible."
+    },
+    "PENF": {
+      "name": "En défaut de règlement",
+      "definition": "L'instruction est en défaut. Le règlement à la date de règlement instruite n'est plus possible."
+    },
+    "USET": {
+      "name": "Non réglé",
+      "definition": "L'instruction est non réglée."
+    },
+    "SETT": {
+      "name": "Réglé",
+      "definition": "Règlement complet."
+    },
+    "PAIN": {
+      "name": "Règlement partiel",
+      "definition": "Une partie de l'instruction reste non réglée."
+    }
+  }
+}

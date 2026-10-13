@@ -1,0 +1,12 @@
+{
+  "isoType": "UnitOrFaceAmount1Choice",
+  "definition": "Choix entre une quantité en nombre décimal ou un montant nominal exprimé en devise et montant.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Quantité exprimée sous forme de nombre, par exemple un nombre d'actions."
+    },
+    "FaceAmount": {
+      "definition": "Quantité exprimée sous la forme d'un montant représentant la valeur nominale, c'est-à-dire le principal, d'un instrument de dette."
+    }
+  }
+}

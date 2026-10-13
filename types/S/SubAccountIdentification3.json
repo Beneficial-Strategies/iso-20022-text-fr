@@ -1,0 +1,18 @@
+{
+  "isoType": "SubAccountIdentification3",
+  "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "FungibleIndicator": {
+      "definition": "Indique si les titres du compte sont fongibles, c'est-à-dire interchangeables."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique si une activité est déclarée dans le relevé."
+    },
+    "BalanceForSubAccount": {
+      "definition": "Position nette d'un avoir ségrégué, dans un seul titre, au sein de la position globale détenue sur un compte-titres."
+    }
+  }
+}

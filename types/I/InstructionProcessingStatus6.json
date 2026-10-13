@@ -1,0 +1,20 @@
+{
+  "isoType": "InstructionProcessingStatus6",
+  "definition": "Statut informant du traitement de l'instruction.",
+  "isoElements": {
+    "Status": {
+      "definition": "Code de statut."
+    },
+    "AttendanceCardNumber": {
+      "definition": "Numéro du billet d'admission accordé par le conservateur ou l'émetteur."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  },
+  "isoRules": {
+    "AttendanceCardNumber1Rule": {
+      "definition": "Si AttendanceCardNumber est présent, alors Status doit être ATTC (AttendanceConfirmed)."
+    }
+  }
+}

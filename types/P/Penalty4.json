@@ -1,0 +1,44 @@
+{
+  "isoType": "Penalty4",
+  "definition": "Précise les pénalités pour une partie donnée.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Devise des pénalités déclarées."
+    },
+    "Date": {
+      "definition": "Date à laquelle les pénalités déclarées dans ce bloc ont été initialement calculées.|."
+    },
+    "PartyIdentification": {
+      "definition": "Identification unique de la partie au sein du système."
+    },
+    "CounterpartyCSD": {
+      "definition": "Identification unique et non ambiguë de la partie à laquelle se rapportent les montants agrégés."
+    },
+    "CSDDepository": {
+      "definition": "Dépositaire/intermédiaire utilisé par un ICSD pour accéder au CSD d'une contrepartie donnée, c'est-à-dire la partie qui assure la tenue du compte."
+    },
+    "AggregatedAmount": {
+      "definition": "Montant agrégé de la pénalité."
+    },
+    "CashAccount": {
+      "definition": "Compte à débiter/créditer pour le règlement de la pénalité."
+    },
+    "CashSettlementDate": {
+      "definition": "Date d'échéance du paiement de la pénalité."
+    },
+    "CashPenaltyIdentification": {
+      "definition": "Référence du paiement de la pénalité."
+    },
+    "NumberOfCounterparties": {
+      "definition": "Nombre de contreparties concernées par la pénalité."
+    },
+    "PenaltyPerCounterparty": {
+      "definition": "Créances (pénalités) dans une devise et à une date déclarées pour une partie donnée.|S'il n'y a aucune pénalité dans une devise donnée pour une partie, ce bloc ne sera pas renseigné."
+    }
+  },
+  "isoRules": {
+    "CounterpartyCSDPresenceRule": {
+      "definition": "Soit CounterpartyCSD, soit PenaltyPerCounterparty/AccountServicer est renseigné, mais pas les deux."
+    }
+  }
+}

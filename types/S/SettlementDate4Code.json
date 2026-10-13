@@ -1,0 +1,10 @@
+{
+  "isoType": "SettlementDate4Code",
+  "definition": "Indique la date de règlement, sous forme codée.",
+  "isoCodes": {
+    "WISS": {
+      "name": "Quand émis",
+      "definition": "Le règlement doit avoir lieu lorsque le titre est émis."
+    }
+  }
+}

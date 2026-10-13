@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalInvestigationSubType1Code",
+  "definition": "Précise le sous-type d'enquête, tel que publié dans un ensemble externe de codes de sous-types d'enquête.|Les ensembles de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "AMLI": {
+      "name": "Lutte contre le blanchiment d'argent",
+      "definition": "L'enquête concerne la lutte contre le blanchiment de capitaux."
+    },
+    "SANC": {
+      "name": "Sanctions",
+      "definition": "L'enquête concerne les sanctions."
+    },
+    "FRAD": {
+      "name": "Fraude",
+      "definition": "L'enquête concerne une fraude."
+    },
+    "UTEX": {
+      "name": "Exécution impossible",
+      "definition": "L'enquête concerne une opération qui ne peut pas être exécutée."
+    },
+    "FCCI": {
+      "name": "Conformité en matière de criminalité financière",
+      "definition": "L'enquête concerne la conformité en matière de criminalité financière."
+    },
+    "FWTR": {
+      "name": "Réglementation relative aux transferts de fonds",
+      "definition": "L'enquête concerne la réglementation relative aux transferts de fonds/virements."
+    },
+    "RQUF": {
+      "name": "Demande d'utilisation des fonds",
+      "definition": "L'utilisation des fonds d'une écriture est demandée."
+    },
+    "RQDA": {
+      "name": "Demande d'autorisation de débit",
+      "definition": "L'autorisation de débit d'une écriture est demandée."
+    },
+    "RQVA": {
+      "name": "Demande d'ajustement de la date de valeur",
+      "definition": "Une réévaluation d'une écriture est demandée."
+    },
+    "RQCH": {
+      "name": "Demande relative aux frais",
+      "definition": "Enquête relative à des frais prélevés ou demandés."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre"
+    }
+  }
+}

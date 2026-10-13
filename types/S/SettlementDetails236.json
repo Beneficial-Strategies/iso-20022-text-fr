@@ -1,0 +1,32 @@
+{
+  "isoType": "SettlementDetails236",
+  "definition": "Détails du règlement d'une opération.",
+  "isoElements": {
+    "SettlementTransactionCondition": {
+      "definition": "Conditions dans lesquelles l'ordre/la transaction doit être réglé(e)."
+    },
+    "Registration": {
+      "definition": "Indique si l'inscription doit avoir lieu à la réception."
+    },
+    "LegalRestrictions": {
+      "definition": "Restrictions réglementaires applicables à un titre."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Indique si l'opération de règlement doit être réglée par l'intermédiaire d'un système RTGS ou non RTGS."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Indique si l'instruction de règlement doit être réglée par l'intermédiaire du système de règlement par défaut ou du système de règlement alternatif."
+    },
+    "TaxCapacity": {
+      "definition": "Rôle fiscal de la partie donneuse d'ordre."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Indique le type de droit de timbre ou le motif d'exonération applicable à l'opération de règlement."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Si des éléments SettlementDetails sont utilisés, leurs conditions d'utilisation doivent être convenues au préalable entre le titulaire du compte et le teneur de compte."
+    }
+  }
+}

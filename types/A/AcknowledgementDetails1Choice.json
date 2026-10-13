@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementDetails1Choice",
+  "definition": "Référence du PayInSchedule ou du PayInCall faisant l'objet de l'accusé de réception. Il s'agit de l'élément Message Identification de la séquence Report Data du message Pay In Schedule ou du message Pay In Call.",
+  "isoElements": {
+    "PayInScheduleReference": {
+      "definition": "Référence de l'échéancier de versement faisant l'objet de l'accusé de réception."
+    },
+    "PayInCallReference": {
+      "definition": "Référence de l'appel de fonds faisant l'objet de l'accusé de réception."
+    }
+  }
+}

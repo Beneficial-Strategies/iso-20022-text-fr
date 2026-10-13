@@ -1,4 +1,0 @@
-{
- "AmountConsistencyType1Code": "Précise un type d'incohérences de montant, c'est-à-dire si le type de montant fourni correspond ou non au montant de référence.",
- "ExternalPaymentScenario1Code": "Précise le scénario de paiement, tel que publié dans une liste de codes externe de scénarios de paiement.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org."
-}

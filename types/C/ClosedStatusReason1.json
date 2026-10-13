@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosedStatusReason1",
+  "definition": "Motif d'un statut clos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut clos du compte."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le motif du statut clos du compte."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateCopyRequestV04",
+  "definition": "Portée|Le message MandateCopyRequest est envoyé par l'initiateur de la demande à sa banque. L'initiateur peut être soit le débiteur, soit le créancier.|Le message MandateCopyRequest est transmis par la banque de l'initiateur à la banque de la contrepartie.|Un message MandateCopyRequest sert à demander une copie d'un mandat existant. S'il est accepté, la copie du mandat peut être envoyée à l'aide du message MandateAcceptanceReport.|Utilisation|Le message MandateCopyRequest peut contenir une ou plusieurs demandes de copie.|Les messages peuvent être échangés entre le créancier et la banque du créancier, ou entre le débiteur et la banque du débiteur, ainsi qu'entre la banque du créancier et la banque du débiteur.|Le message peut également être utilisé par une partie initiatrice habilitée à envoyer le message pour le compte du créancier ou du débiteur.|Le message MandateCopyRequest peut être utilisé dans des scénarios nationaux et transfrontaliers.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    }
+  }
+}

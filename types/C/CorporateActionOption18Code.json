@@ -1,0 +1,74 @@
+{
+  "isoType": "CorporateActionOption18Code",
+  "definition": "Précise le type d'options de l'opération sur titres.",
+  "isoCodes": {
+    "ABST": {
+      "name": "Abstention",
+      "definition": "Vote exprimé sous forme d'abstention. Dans ce cas, la société émettrice ajoutera le nombre d'actions au quorum de l'assemblée.|Si le droit de vote n'est pas exercé, il ne sera pas ajouté au quorum. Dans ce cas, le code NOAC doit être utilisé."
+    },
+    "BSPL": {
+      "name": "Plan d'actions gratuites",
+      "definition": "Recevoir des actions provenant de la réserve de prime d'émission de la société, considérées comme une distribution de capital plutôt que comme un versement de revenu, avec des incidences fiscales différentes (typiquement en Australie)."
+    },
+    "CASE": {
+      "name": "Espèces et titres",
+      "definition": "Option permettant de choisir entre différentes options en titres et en espèces."
+    },
+    "CASH": {
+      "name": "Espèces",
+      "definition": "Option de choisir un paiement en espèces."
+    },
+    "CEXC": {
+      "name": "Consentement et échange",
+      "definition": "Vote consistant à consentir à la modification des termes de la convention relative aux titres et à échanger des titres."
+    },
+    "CONN": {
+      "name": "Consentement refusé",
+      "definition": "Vote consistant à ne pas approuver l'événement ou la proposition."
+    },
+    "CONY": {
+      "name": "Consentement accordé",
+      "definition": "Vote consistant à approuver l'événement ou la proposition."
+    },
+    "CTEN": {
+      "name": "Consentement et apport à l'offre",
+      "definition": "Vote consistant à consentir à la modification des termes de la convention relative aux titres et à apporter des titres contre des espèces."
+    },
+    "EXER": {
+      "name": "Exercice",
+      "definition": "Exercer des titres intermédiaires ou des bons de souscription."
+    },
+    "LAPS": {
+      "name": "Caducité",
+      "definition": "Laisser l'événement ou le titre ouvrant droit arriver à expiration."
+    },
+    "MPUT": {
+      "name": "Conserver",
+      "definition": "Option permettant à un porteur de choisir de conserver sa position, par exemple une obligation avec option de vente."
+    },
+    "NOAC": {
+      "name": "Aucune action",
+      "definition": "Option permettant au titulaire du compte de ne pas participer à l'événement. Cela inclut le refus de participation aux actions collectives et le dépôt des droits des actionnaires dissidents."
+    },
+    "OFFR": {
+      "name": "Taux proposé",
+      "definition": "Dans le cadre d'une remise en marché de titres à taux variable, marge que les actionnaires peuvent proposer pour la période d'intérêts suivante."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Option générique d'opération sur titres à utiliser lorsqu'aucun autre code spécifique n'est approprié."
+    },
+    "OVER": {
+      "name": "Sursouscription",
+      "definition": "Souscrire à davantage d'actions que ne le permet la position en titres sous-jacents."
+    },
+    "SECU": {
+      "name": "Sécurité",
+      "definition": "Distribution de titres aux porteurs."
+    },
+    "PRUN": {
+      "name": "Produits inconnus",
+      "definition": "Produit inconnu pendant la période d'option. L'option peut donner lieu à des espèces et/ou à des titres."
+    }
+  }
+}

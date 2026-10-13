@@ -1,0 +1,27 @@
+{
+  "isoType": "TrackerData8",
+  "definition": "Précise les informations détaillées fournies par un système de suivi des paiements.",
+  "isoElements": {
+    "ConfirmedDate": {
+      "definition": "Moment auquel le compte du créancier a été crédité des fonds d'un paiement."
+    },
+    "ConfirmedAmount": {
+      "definition": "Montant effectivement crédité au créancier et confirmé au système de suivi par la banque."
+    },
+    "ReturnedConfirmedDate": {
+      "definition": "Moment auquel le compte du créancier a été crédité des fonds d'un retour de paiement."
+    },
+    "ReturnedConfirmedAmount": {
+      "definition": "Montant effectivement crédité au créancier pour un retour de paiement et confirmé au système de suivi par la banque."
+    },
+    "RemainingToBeConfirmedAmount": {
+      "definition": "Montant restant à confirmer."
+    },
+    "PreviouslyConfirmedAmount": {
+      "definition": "Montant précédemment crédité au créancier et confirmé au système de suivi par la banque."
+    },
+    "PreviouslyConfirmedDate": {
+      "definition": "Moment auquel le montant précédent a été confirmé.||Utilisation :|Cette date indique le moment auquel le dernier montant précédemment confirmé a été fourni au système de suivi, en cas de confirmation partielle."
+    }
+  }
+}

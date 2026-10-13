@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountManagementStatus1Code",
+  "definition": "Précise le statut d'une instruction de gestion de compte.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Reçu",
+      "definition": "L'instruction de gestion de compte a été reçue et son accusé de réception a été émis."
+    },
+    "ACCP": {
+      "name": "Accepté",
+      "definition": "L'instruction de gestion de compte a été validée et acceptée."
+    },
+    "EXEC": {
+      "name": "Traitement en cours",
+      "definition": "L'instruction de gestion de compte est en cours de traitement et la confirmation suivra."
+    },
+    "STNP": {
+      "name": "Envoyé à la partie suivante",
+      "definition": "L'instruction de gestion de compte a été envoyée à la partie suivante, par exemple l'intermédiaire suivant."
+    }
+  }
+}

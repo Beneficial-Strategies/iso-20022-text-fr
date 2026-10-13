@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForDebtorAgent1",
+  "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement qui peuvent nécessiter une action de la banque du débiteur. L'instruction peut concerner un niveau de service, être une instruction que la banque du débiteur doit exécuter, ou être une information requise par la banque du débiteur.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informations codées relatives au traitement de l'instruction de paiement, fournies par la partie initiatrice et destinées à la banque du créancier."
+    },
+    "InstructionInformation": {
+      "definition": "Informations complémentaires au code d'instruction ou à l'instruction destinée à la banque du créancier, convenues bilatéralement ou propres à une communauté d'utilisateurs."
+    }
+  }
+}

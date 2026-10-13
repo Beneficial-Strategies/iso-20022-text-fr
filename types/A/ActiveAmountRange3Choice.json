@@ -1,0 +1,12 @@
+{
+  "isoType": "ActiveAmountRange3Choice",
+  "definition": "Choix entre une plage de valeurs de montant avec ou sans la devise.",
+  "isoElements": {
+    "ImpliedCurrencyAndAmountRange": {
+      "definition": "Exprime un montant ou une plage de montants avec un indicateur débit/crédit explicite et dont la devise est implicite."
+    },
+    "CurrencyAndAmountRange": {
+      "definition": "Exprime un montant ou une plage de montants avec la devise et dont l'indicateur crédit/débit est explicite."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "RateType5Code",
+  "definition": "Précise le type de taux.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "Le taux est inconnu de l'expéditeur ou n'a pas été établi."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason14FormatChoice",
+  "definition": "Choix de formats pour exprimer le motif de rejet d'une demande d'annulation de mouvement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le motif de rejet d'une demande d'annulation de mouvement."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire exprimant le motif de rejet d'une demande d'annulation de mouvement."
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "isoType": "IndividualPerson37",
+  "definition": "Entité humaine, par opposition à une entité juridique (parfois qualifiée de « personne morale »).",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Terme utilisé pour s'adresser à la personne."
+    },
+    "GivenName": {
+      "definition": "Prénom de la personne."
+    },
+    "MiddleName": {
+      "definition": "Deuxième prénom de la personne."
+    },
+    "Name": {
+      "definition": "Nom sous lequel la partie est connue et qui est habituellement utilisé pour identifier cette personne."
+    },
+    "NameSuffix": {
+      "definition": "Informations complémentaires sur la personne qui suivent son nom, par exemple une qualification telle que docteur en philosophie (PhD)."
+    },
+    "Gender": {
+      "definition": "Sexe de la personne."
+    },
+    "BirthDate": {
+      "definition": "Date de naissance de la personne."
+    },
+    "CountryOfBirth": {
+      "definition": "Pays de naissance de la personne."
+    },
+    "ProvinceOfBirth": {
+      "definition": "Province de naissance de la personne."
+    },
+    "CityOfBirth": {
+      "definition": "Ville de naissance de la personne."
+    },
+    "Profession": {
+      "definition": "Nom de la profession ou de l'emploi de la personne."
+    },
+    "PostalAddress": {
+      "definition": "Adresse de la personne."
+    },
+    "Citizenship": {
+      "definition": "Nationalité et statut juridique (mineur ou majeur)."
+    },
+    "EmployingCompany": {
+      "definition": "Organisation représentée par une personne, ou pour laquelle une personne travaille."
+    },
+    "BusinessFunction": {
+      "definition": "Intitulé de la fonction."
+    },
+    "PoliticallyExposedPerson": {
+      "definition": "Vérifications relatives aux personnes politiquement exposées."
+    },
+    "DeathDate": {
+      "definition": "Date du décès."
+    },
+    "CivilStatus": {
+      "definition": "État civil de la personne physique."
+    },
+    "EducationLevel": {
+      "definition": "Niveau d'études le plus élevé atteint par la personne physique."
+    },
+    "FamilyInformation": {
+      "definition": "Informations relatives à la personne."
+    },
+    "GDPRData": {
+      "definition": "Informations sur le consentement de la personne à l'utilisation de ses données personnelles en vertu du Règlement général sur la protection des données (GDPR) 2016/679."
+    }
+  }
+}

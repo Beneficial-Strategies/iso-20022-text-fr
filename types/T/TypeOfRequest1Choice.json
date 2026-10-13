@@ -1,0 +1,12 @@
+{
+  "isoType": "TypeOfRequest1Choice",
+  "definition": "Choix entre des formats pour un type de demande.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de demande exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de demande exprimé sous forme de code propriétaire."
+    }
+  }
+}

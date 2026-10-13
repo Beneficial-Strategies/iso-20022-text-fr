@@ -1,0 +1,21 @@
+{
+  "isoType": "BuyerProtectionInstructionDetails1",
+  "definition": "Informations reçues pour une instruction de protection de l'acheteur donnée.",
+  "isoElements": {
+    "BuyerProtectionInstructionIdentification": {
+      "definition": "Identification du document d'instruction de protection de l'acheteur associé pour lequel l'annulation est demandée."
+    },
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Ensemble d'éléments utilisés pour identifier l'instruction de règlement protégée de l'acheteur."
+    },
+    "CounterpartyDepository": {
+      "definition": "Première partie réceptrice de la chaîne de règlement. Dans un règlement standard, il s'agit du dépositaire central de titres auprès duquel la partie réceptrice de l'opération demande à recevoir l'instrument financier."
+    },
+    "AccountIdentification": {
+      "definition": "Liste des comptes-titres sélectionnés auxquels l'événement d'opération sur titres s'applique."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Informations sur le statut de traitement de l'instruction."
+    }
+  }
+}

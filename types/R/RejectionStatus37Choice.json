@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionStatus37Choice",
+  "definition": "Précise si le statut est fourni avec ou sans motif.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    },
+    "Reason": {
+      "definition": "Précise le motif du statut de rejet."
+    }
+  }
+}

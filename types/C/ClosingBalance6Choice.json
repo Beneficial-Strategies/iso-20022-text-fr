@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosingBalance6Choice",
+  "definition": "Choix du solde de clôture.",
+  "isoElements": {
+    "Final": {
+      "definition": "Somme du solde d'ouverture et de toutes les écritures comptabilisées sur le compte à la clôture de la période du relevé."
+    },
+    "Intermediary": {
+      "definition": "Solde de clôture de cette page uniquement. Ce solde doit être le solde d'ouverture intermédiaire de la page suivante du même relevé."
+    }
+  }
+}

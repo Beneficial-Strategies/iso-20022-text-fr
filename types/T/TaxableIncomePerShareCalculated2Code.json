@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxableIncomePerShareCalculated2Code",
+  "definition": "Précise si le fonds calcule un intérêt imposable par part (TIS).",
+  "isoCodes": {
+    "TSIY": {
+      "name": "Le fonds calcule",
+      "definition": "Le fonds calcule l'intérêt imposable par action avec la VNI (NAV)."
+    },
+    "TSIN": {
+      "name": "Le fonds ne calcule pas",
+      "definition": "Le fonds ne calcule pas l'intérêt imposable par action avec la VNI (NAV)."
+    },
+    "UKWN": {
+      "name": "Calcul par le fonds inconnu",
+      "definition": "On ignore si le fonds calcule l'intérêt imposable par action avec la VNI (NAV)."
+    }
+  }
+}

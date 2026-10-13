@@ -1,0 +1,14 @@
+{
+  "isoType": "DTCBaseDisbursed1Code",
+  "definition": "Code précisant si la base de calcul porte sur le titre de base (d'origine) ou sur le titre décaissé (distribué).",
+  "isoCodes": {
+    "BASE": {
+      "name": "Base",
+      "definition": "Fondé sur le titre de base."
+    },
+    "DISB": {
+      "name": "Décaissé",
+      "definition": "Fondé sur le titre décaissé."
+    }
+  }
+}

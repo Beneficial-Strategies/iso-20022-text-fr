@@ -1,0 +1,26 @@
+{
+  "isoType": "InvestmentAccountModification4",
+  "definition": "Informations sur la modification d'un compte.",
+  "isoElements": {
+    "ModificationReason": {
+      "definition": "Motif de la modification des informations du compte d'investissement."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Identifiant unique et non ambigu de la demande de modification de compte."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë d'un transfert par l'investisseur."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë de l'opération, par exemple un transfert, telle qu'attribuée par la contrepartie."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Compte auquel se rapporte l'ouverture de compte."
+    }
+  },
+  "isoRules": {
+    "InstructionDetailsElementRule": {
+      "definition": "L'un des éléments (ModificationReason, AccountApplicationIdentification, ClientReference, CounterpartyReference, ExistingAccountIdentification) doit être présent."
+    }
+  }
+}

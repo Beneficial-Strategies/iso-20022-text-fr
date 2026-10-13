@@ -1,0 +1,36 @@
+{
+  "isoType": "FinancialInstrument111",
+  "definition": "Identification d’un titre ou d’un autre actif.",
+  "isoElements": {
+    "LineIdentification": {
+      "definition": "Identification de la ligne de position du portefeuille."
+    },
+    "Instrument": {
+      "definition": "Identification de l'actif."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert par l'investisseur. Cette référence peut généralement être utilisée dans un scénario de plateforme centrale (hub) pour fournir la référence du transfert telle qu'attribuée par le client sous-jacent."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë du transfert attribuée par la contrepartie."
+    },
+    "TransfereeAccount": {
+      "definition": "Compte détenu au nom de la partie qui n’est pas le nom du propriétaire effectif des actions.|(Partie et compte sur lesquels le cessionnaire reçoit l’instrument financier du cédant.)"
+    },
+    "Transferor": {
+      "definition": "Partie et compte à partir desquels le cédant livre l’instrument financier au cessionnaire."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Chaîne de parties impliquées dans le règlement d'une transaction."
+    },
+    "AssetsHeldInOwnName": {
+      "definition": "Indique si les actifs sont détenus au nom propre d’une personne physique."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "definition": "Indique si le transfert entraîne un changement de bénéficiaire effectif."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur l'instrument financier."
+    }
+  }
+}

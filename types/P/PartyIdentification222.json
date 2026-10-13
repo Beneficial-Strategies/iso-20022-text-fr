@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification222",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nom et adresse de la partie."
+    },
+    "EmailAddress": {
+      "definition": "Adresse de courrier électronique (e-mail)."
+    },
+    "Identification": {
+      "definition": "Identification locale et type de la personne physique."
+    }
+  }
+}

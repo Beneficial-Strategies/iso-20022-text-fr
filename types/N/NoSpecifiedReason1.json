@@ -1,0 +1,9 @@
+{
+  "isoType": "NoSpecifiedReason1",
+  "definition": "Aucun motif spécifié n'est disponible pour le statut.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    }
+  }
+}

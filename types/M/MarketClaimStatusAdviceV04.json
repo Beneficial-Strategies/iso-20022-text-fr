@@ -1,0 +1,4 @@
+{
+  "isoType": "MarketClaimStatusAdviceV04",
+  "definition": "Portée et utilisation|Le message MarketClaimStatusAdvice est envoyé par un teneur de compte à un titulaire de compte pour communiquer le statut d'une opération de réclamation de marché.|Cette définition de message est destinée à être utilisée avec l'en-tête applicatif métier (BAH)."
+}

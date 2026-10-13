@@ -1,0 +1,65 @@
+{
+  "isoType": "References69Choice",
+  "definition": "Choix de référence.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionConfirmationIdentification": {
+      "definition": "Identification non ambiguë de la confirmation à annuler."
+    },
+    "IntraPositionMovementConfirmationIdentification": {
+      "definition": "Identification non ambiguë, par le teneur de compte, de la confirmation de mouvement intra-position à annuler."
+    },
+    "SecuritiesBalanceAccountingReportIdentification": {
+      "definition": "Identification non ambiguë du message de relevé à annuler."
+    },
+    "SecuritiesBalanceCustodyReportIdentification": {
+      "definition": "Identification non ambiguë du message de relevé à annuler."
+    },
+    "IntraPositionMovementPostingReportIdentification": {
+      "definition": "Identification du relevé de comptabilisation de mouvement intra-position à annuler."
+    },
+    "SecuritiesFinancingConfirmationIdentification": {
+      "definition": "Identification non ambiguë de la confirmation à annuler."
+    },
+    "SecuritiesTransactionPendingReportIdentification": {
+      "definition": "Identification non ambiguë du message de relevé à annuler."
+    },
+    "SecuritiesTransactionPostingReportIdentification": {
+      "definition": "Identification non ambiguë du message de relevé à annuler."
+    },
+    "SecuritiesSettlementTransactionAllegementReportIdentification": {
+      "definition": "Identification non ambiguë du relevé à annuler."
+    },
+    "SecuritiesSettlementTransactionAllegementNotificationTransactionIdentification": {
+      "definition": "Identification non ambiguë de la notification d'allégation à annuler, telle que connue du teneur de compte."
+    },
+    "PortfolioTransferNotificationIdentification": {
+      "definition": "Identification du transfert de portefeuille."
+    },
+    "SecuritiesSettlementTransactionGenerationNotificationIdentification": {
+      "definition": "Identification non ambiguë du message de notification à annuler."
+    },
+    "OtherMessageIdentification": {
+      "definition": "Identification non ambiguë du message à annuler."
+    },
+    "TotalPortfolioValuationReportIdentification": {
+      "definition": "Identification unique du relevé."
+    },
+    "TripartyCollateralTransactionInstructionProcessingStatusAdviceIdentification": {
+      "definition": "Identification non ambiguë de l'avis de statut d'instruction d'opération de garantie tripartite à annuler."
+    },
+    "TripartyCollateralStatusAdviceIdentification": {
+      "definition": "Identification non ambiguë de l'avis de statut de garantie tripartite à annuler."
+    },
+    "TripartyCollateralAndExposureReportIdentification": {
+      "definition": "Identification non ambiguë du relevé de garantie et d'exposition tripartite à annuler."
+    }
+  },
+  "isoRules": {
+    "SecuritiesSettlementTransactionAllegementNotificationRule": {
+      "definition": "Le SecuritiesMessageCancellationAdvice peut être utilisé pour annuler un SecuritiesSettlementTransactionAllegementNotification pour deux raisons : |- Le message a été envoyé par erreur|- La contrepartie a annulé son instruction."
+    },
+    "OtherMessageIdentificationUsageRule": {
+      "definition": "Si OtherMessageIdentification est utilisé, le message à annuler ne doit pas être un message pouvant être identifié à l'aide de l'identification de message disponible dans la liste de choix."
+    }
+  }
+}

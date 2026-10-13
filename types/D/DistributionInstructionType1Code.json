@@ -1,0 +1,26 @@
+{
+  "isoType": "DistributionInstructionType1Code",
+  "definition": "Précise le type d'instruction de distribution.",
+  "isoCodes": {
+    "GDEB": {
+      "name": "Ordre de débit global",
+      "definition": "Instruction de débiter les positions détenues sur tous les comptes des clients dans les ressources sous-jacentes de l'événement et de l'option donnés. Cet ordre s'applique à tous les clients éligibles pour participer à l'événement CA."
+    },
+    "IDEB": {
+      "name": "Ordre individuel",
+      "definition": "Instruction, client par client, de débiter la position détenue dans les ressources sous-jacentes (titres et/ou espèces) et/ou de créditer le produit (titres et/ou espèces)."
+    },
+    "GRET": {
+      "name": "Ordre de retour global",
+      "definition": "Instruction de transférer des titres des soldes séquestrés des clients vers leurs soldes disponibles respectifs."
+    },
+    "CHAN": {
+      "name": "Ordre de changement d'option",
+      "definition": "Instruction de transférer la position d'un solde séquestré (lié à une option CA) vers un autre solde séquestré (lié à une autre option CA)."
+    },
+    "IRET": {
+      "name": "Ordre de retour individuel",
+      "definition": "Instruction de transférer des titres du solde séquestré d'un client vers son solde disponible."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxReference1",
+  "definition": "Référence fiscale du régime de retraite.",
+  "isoElements": {
+    "TaxType": {
+      "definition": "Type de référence fiscale."
+    },
+    "Reference": {
+      "definition": "Référence fiscale."
+    },
+    "HolderType": {
+      "definition": "Type de titulaire de référence. Par exemple, la référence fiscale du cessionnaire. Le cessionnaire peut aussi être appelé partie acquéreuse."
+    }
+  }
+}

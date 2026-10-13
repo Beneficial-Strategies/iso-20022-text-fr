@@ -1,0 +1,12 @@
+{
+  "isoType": "ErrorHandling1Choice",
+  "definition": "Précise le choix entre les codes d'erreur répertoriés et les codes d'erreur propriétaires.",
+  "isoElements": {
+    "Code": {
+      "definition": "Spécification de l'erreur, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Spécification de l'erreur, en format libre."
+    }
+  }
+}

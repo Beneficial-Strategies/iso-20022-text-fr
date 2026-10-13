@@ -1,0 +1,18 @@
+{
+  "isoType": "StatementFrequencyAndForm1",
+  "definition": "Précise une fréquence, un format et une adresse de livraison pour les relevés.",
+  "isoElements": {
+    "Frequency": {
+      "definition": "Précise la fréquence d'envoi des relevés."
+    },
+    "CommunicationMethod": {
+      "definition": "Précise le mode de communication des relevés."
+    },
+    "DeliveryAddress": {
+      "definition": "Précise l'adresse de livraison des relevés."
+    },
+    "Format": {
+      "definition": "Précise le format des relevés."
+    }
+  }
+}

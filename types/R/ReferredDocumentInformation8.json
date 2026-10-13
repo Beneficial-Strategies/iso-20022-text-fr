@@ -1,0 +1,18 @@
+{
+  "isoType": "ReferredDocumentInformation8",
+  "definition": "Ensemble d'éléments servant à identifier les documents visés dans les informations de remise.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type du document visé."
+    },
+    "Number": {
+      "definition": "Identification unique et non ambiguë du document visé."
+    },
+    "RelatedDate": {
+      "definition": "Date et type de date associés au document visé."
+    },
+    "LineDetails": {
+      "definition": "Ensemble d'éléments servant à fournir le contenu de la ligne du document visé."
+    }
+  }
+}

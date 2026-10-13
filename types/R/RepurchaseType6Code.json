@@ -1,0 +1,18 @@
+{
+  "isoType": "RepurchaseType6Code",
+  "definition": "Indique le type d'opération de mise en pension.",
+  "isoCodes": {
+    "CADJ": {
+      "name": "Échange",
+      "definition": "Se rapporte à un Swap/une Substitution."
+    },
+    "TOPU": {
+      "name": "Complément",
+      "definition": "Se rapporte à la reconduction (rollover) d'une position de repo prolongeant la date de clôture ou d'échéance."
+    },
+    "WTHD": {
+      "name": "Retrait",
+      "definition": "Se rapporte à la reconduction (rollover) d'une position de repo prolongeant la date de clôture ou d'échéance."
+    }
+  }
+}

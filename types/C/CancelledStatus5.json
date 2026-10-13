@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledStatus5",
+  "definition": "Choix entre un motif ou l'absence de motif pour le statut annulé/annulation effectuée de l'instruction sur événement sur titres ou de l'annulation d'instruction.",
+  "isoElements": {
+    "CancelledQuantity": {
+      "definition": "Quantité de titres instruits pour laquelle l'instruction est annulée."
+    },
+    "CancellationReason": {
+      "definition": "Motif du statut annulé."
+    }
+  }
+}

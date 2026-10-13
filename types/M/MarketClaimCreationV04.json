@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketClaimCreationV04",
+  "definition": "Portée et utilisation|Le message MarketClaimCreation est envoyé par un teneur de compte à un titulaire de compte pour l'informer de la création d'une opération de réclamation de marché sur un compte-titres, générée automatiquement (par exemple par un CSD) sur un événement d'opération sur titres de type distribution obligatoire. |Cette définition de message est destinée à être utilisée avec l'en-tête applicatif métier (BAH).",
+  "isoElements": {
+    "MarketClaimType": {
+      "definition": "Type de création de réclamation de marché demandé."
+    },
+    "MarketClaimSettlementIndicator": {
+      "definition": "Indique si une réclamation de marché ne sera pas réglée et est créée à des fins de détection uniquement."
+    }
+  }
+}

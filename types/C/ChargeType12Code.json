@@ -1,0 +1,38 @@
+{
+  "isoType": "ChargeType12Code",
+  "definition": "Type de service pour lequel des frais sont demandés ou payés.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Commission de sortie",
+      "definition": "Frais de vente payés par l'investisseur lors du rachat d'un investissement, tel qu'un fonds d'investissement."
+    },
+    "DISC": {
+      "name": "Décote",
+      "definition": "Frais ayant été réduits par rapport aux frais d'entrée standard prélevés par un fonds, par exemple pendant une période de lancement ou tels que négociés par une plateforme de fonds ou un courtier à prix réduit."
+    },
+    "FEND": {
+      "name": "Commission d'entrée",
+      "definition": "Frais de vente payés immédiatement par l'investisseur lors de la souscription d'un investissement, tel qu'un fonds d'investissement."
+    },
+    "POST": {
+      "name": "Frais postaux",
+      "definition": "Frais payés pour l'affranchissement postal."
+    },
+    "REGF": {
+      "name": "Frais réglementaires",
+      "definition": "Frais prélevés par une autorité de réglementation, par exemple les frais de la Securities and Exchange Commission."
+    },
+    "SHIP": {
+      "name": "Frais d'expédition",
+      "definition": "Frais d'expédition, y compris l'assurance des titres."
+    },
+    "SPCN": {
+      "name": "Concessions spéciales",
+      "definition": "Frais, prélèvements ou autres réductions ou majorations par rapport au prix de l'opération."
+    },
+    "TRAN": {
+      "name": "Frais de transfert",
+      "definition": "Pour les fonds d'investissement, frais prélevés pour le transfert de propriété d'un fonds d'investissement."
+    }
+  }
+}

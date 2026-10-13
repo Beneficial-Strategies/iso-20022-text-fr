@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementDateCode11Choice",
+  "definition": "Choix de format pour le code de la date de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Date de règlement exprimée sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Date de règlement exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

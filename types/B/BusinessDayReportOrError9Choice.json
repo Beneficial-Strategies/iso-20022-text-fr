@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessDayReportOrError9Choice",
+  "definition": "Choix entre les détails des informations de jour ouvrable ou une erreur opérationnelle lorsque les données demandées ne peuvent pas être récupérées.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Rapporte soit des informations de jour ouvrable, soit une erreur métier."
+    },
+    "OperationalError": {
+      "definition": "Indique qu'une erreur opérationnelle a été émise lors du traitement de la demande associée."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CardSequenceNumberRange1",
+  "definition": "Plage de numéros de séquence relatifs aux opérations par carte.",
+  "isoElements": {
+    "FirstTransaction": {
+      "definition": "CardSequenceNumberRange1 : FirstTransactionSequenceNumberMessage, élément de message à finaliser une fois les retours du Card SEG reçus."
+    },
+    "LastTransaction": {
+      "definition": "CardSequenceNumberRange1 : LastTransactionSequenceNumberMessage, élément de message à finaliser une fois les retours du Card SEG reçus."
+    }
+  }
+}

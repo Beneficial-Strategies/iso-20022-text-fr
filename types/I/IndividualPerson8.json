@@ -1,0 +1,35 @@
+{
+  "isoType": "IndividualPerson8",
+  "definition": "Entité humaine, par opposition à une entité d'entreprise (parfois appelée « personne morale »).",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "GivenName": {
+      "definition": "Prénom d'une personne."
+    },
+    "NamePrefix": {
+      "definition": "Précise les termes utilisés pour s'adresser formellement à une personne."
+    },
+    "NameSuffix": {
+      "definition": "Informations supplémentaires sur une personne qui suivent son nom, par exemple une qualification telle que Docteur en philosophie (PhD)."
+    },
+    "Gender": {
+      "definition": "Précise le sexe de la personne."
+    },
+    "BirthDate": {
+      "definition": "Date de naissance d'une personne."
+    },
+    "SocialSecurityNumber": {
+      "definition": "Numéro attribué par un organisme de sécurité sociale."
+    },
+    "IndividualInvestorAddress": {
+      "definition": "Adresse postale d'une partie."
+    }
+  },
+  "isoRules": {
+    "SocialSecurityNumberGuideline": {
+      "definition": "Le numéro d’assurance du Royaume-Uni (UK) doit être indiqué sans espaces."
+    }
+  }
+}

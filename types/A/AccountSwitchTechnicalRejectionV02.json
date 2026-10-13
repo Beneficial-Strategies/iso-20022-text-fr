@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchTechnicalRejectionV02",
+  "definition": "Le message AccountSwitchTechnicalRejection est envoyé par le prestataire de changement de compte à la nouvelle banque tenant le compte lorsqu'il n'a pas pu valider un message envoyé précédemment."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMCommand9",
+  "definition": "Partie ayant demandé le rapprochement.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de commande à exécuter par l'ATM."
+    },
+    "CommandIdentification": {
+      "definition": "Identification de l'entité émettant la commande."
+    }
+  }
+}

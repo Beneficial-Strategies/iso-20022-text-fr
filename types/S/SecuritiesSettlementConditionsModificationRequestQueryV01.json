@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesSettlementConditionsModificationRequestQueryV01",
+  "definition": "Le message SecuritiesSettlementConditionsModificationRequestQuery est envoyé par un titulaire de compte/demandeur à une infrastructure de règlement pour interroger le statut d'instructions de modification de règlement ou de mouvement intra-position selon un ensemble de critères de recherche ou d'attributs métier.|Le message peut également servir à : |- renvoyer un message envoyé par le titulaire de compte au teneur de compte (la sous-fonction du message est « Duplicate ») |- fournir à un tiers une copie d'un message envoyé par le titulaire de compte, à titre d'information (la sous-fonction du message est « Copy ») |- renvoyer à un tiers une copie d'un message envoyé par le titulaire de compte, à titre d'information (la sous-fonction du message est « Copy Duplicate »)."
+}

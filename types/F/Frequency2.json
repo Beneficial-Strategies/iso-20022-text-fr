@@ -1,0 +1,21 @@
+{
+  "isoType": "Frequency2",
+  "definition": "Détails précisant la fréquence, le schéma et d'autres éléments permettant la communication d'une série de paiements à effectuer au même bénéficiaire sur une période donnée.",
+  "isoElements": {
+    "Sequence": {
+      "definition": "Identifiant technique d'un virement faisant partie d'une série de virements au sein d'une même instruction de paiement. Facilite le transfert d'échéanciers de paiements futurs variables et complexes, associés à un acte unique de consentement du client, au sein d'une même instruction de paiement."
+    },
+    "StartDate": {
+      "definition": "Date du premier paiement à effectuer pour cet échéancier de paiement."
+    },
+    "EndPointChoice": {
+      "definition": "Informations sur la date de fin de l'accord de paiement."
+    },
+    "RequestedFrequencyPattern": {
+      "definition": "Schéma de fréquence de l'échéancier de paiement indiquant la fréquence à laquelle un paiement est effectué."
+    },
+    "NonWorkingDayAdjustment": {
+      "definition": "Indicateur d'ajustement pour un jour non ouvrable permettant d'effectuer le paiement le jour ouvrable suivant."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "ReportData4",
+  "definition": "Représentation numérique des augmentations et diminutions nettes d'un compte à un instant donné. Un solde de trésorerie est calculé à partir de la somme des crédits en espèces moins la somme des débits en espèces.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identification du rapport attribuée par l'expéditeur."
+    },
+    "ValueDate": {
+      "definition": "Date de valeur pour laquelle l'échéancier de versement est généré."
+    },
+    "DateAndTimeStamp": {
+      "definition": "Date et heure de génération du rapport. Le décalage par rapport à l'UTC peut également être précisé."
+    },
+    "Type": {
+      "definition": "Type d'échéancier de versement."
+    },
+    "ScheduleType": {
+      "definition": "Définit le calendrier de l'échéancier, c'est-à-dire s'il s'agit d'un échéancier initial ou révisé."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Indique la session de règlement CLS demandée à laquelle appartient la transaction concernée."
+    }
+  }
+}

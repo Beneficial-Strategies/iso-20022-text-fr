@@ -1,0 +1,12 @@
+{
+  "isoType": "BranchAndFinancialInstitutionIdentification8",
+  "definition": "Identification unique et sans ambiguïté d'un établissement financier ou d'une agence d'un établissement financier.",
+  "isoElements": {
+    "FinancialInstitutionIdentification": {
+      "definition": "Identification unique et sans ambiguïté d'un établissement financier, attribuée dans le cadre d'un schéma d'identification reconnu internationalement ou propriétaire."
+    },
+    "BranchIdentification": {
+      "definition": "Identifie une agence précise d'un établissement financier.||Utilisation : ce composant doit être utilisé lorsque les informations d'identification du composant établissement financier ne permettent pas d'identifier jusqu'au niveau de l'agence."
+    }
+  }
+}

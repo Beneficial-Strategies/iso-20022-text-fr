@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryCertificationCompletion1Code",
+  "definition": "Précise le type d'achèvement de certification requis pour un bénéficiaire.",
+  "isoCodes": {
+    "NCER": {
+      "name": "Certification non requise",
+      "definition": "La certification n'est pas requise pour ce fonds."
+    },
+    "ELEC": {
+      "name": "Certification électronique",
+      "definition": "Une certification électronique est acceptable."
+    },
+    "PHYS": {
+      "name": "Certification physique",
+      "definition": "Une certification électronique n'est pas acceptable et est requise sous forme physique."
+    }
+  }
+}

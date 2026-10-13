@@ -1,0 +1,18 @@
+{
+  "isoType": "RemittanceInformation27",
+  "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "definition": "Identification unique, attribuée par l'initiateur, permettant d'identifier sans ambiguïté les informations de remise au sein du message."
+    },
+    "Unstructured": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients, sous forme non structurée."
+    },
+    "Structured": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients, sous forme structurée."
+    },
+    "OriginalPaymentInformation": {
+      "definition": "Ensemble d'éléments utilisés pour fournir des informations sur les opérations initiales auxquelles se rapporte le message de remise."
+    }
+  }
+}

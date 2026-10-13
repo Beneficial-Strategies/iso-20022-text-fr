@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalNotificationSubType1Code",
+  "definition": "Précise le sous-type de notification, tel que publié dans une liste de codes externe de sous-types de notification.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "SALE": {
+      "name": "Ventes",
+      "definition": "La notification est destinée au service commercial."
+    },
+    "SERV": {
+      "name": "Gestion courante",
+      "definition": "La notification est destinée au service de gestion de la relation client."
+    },
+    "LIQI": {
+      "name": "Liquidité",
+      "definition": "La notification est destinée au service de la liquidité."
+    },
+    "PAOP": {
+      "name": "Opérations de paiement",
+      "definition": "La notification est destinée au service des opérations de paiement."
+    },
+    "CRED": {
+      "name": "Crédit",
+      "definition": "La notification est destinée au service du crédit."
+    },
+    "LOAN": {
+      "name": "Prêts",
+      "definition": "La notification est destinée au service des prêts."
+    }
+  }
+}

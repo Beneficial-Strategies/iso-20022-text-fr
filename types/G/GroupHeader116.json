@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader116",
+  "definition": "Fournit des précisions complémentaires sur le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par l'établissement teneur de compte et envoyée au titulaire du compte ou à la partie autorisée à recevoir le message, permettant d'identifier sans ambiguïté le message.|Utilisation : l'établissement teneur de compte doit veiller à ce que MessageIdentification soit unique par titulaire de compte pendant une période convenue à l'avance."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure de création du message."
+    },
+    "MessageRecipient": {
+      "definition": "Partie autorisée par le titulaire du compte à recevoir des informations sur les mouvements du compte.|Utilisation : MessageRecipient ne doit être identifié que s'il diffère du titulaire du compte."
+    },
+    "MessagePagination": {
+      "definition": "Fournit des détails sur le numéro de page du message.||Utilisation : la pagination du message n'est autorisée que si les parties en sont convenues."
+    },
+    "OriginalBusinessQuery": {
+      "definition": "Identification unique, attribuée par le demandeur d'origine, permettant d'identifier sans ambiguïté le message de requête métier."
+    },
+    "AdditionalInformation": {
+      "definition": "Précisions complémentaires sur le message."
+    }
+  }
+}

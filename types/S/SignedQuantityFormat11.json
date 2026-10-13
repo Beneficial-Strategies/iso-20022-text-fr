@@ -1,0 +1,12 @@
+{
+  "isoType": "SignedQuantityFormat11",
+  "definition": "Formats de quantité signée de titres.",
+  "isoElements": {
+    "ShortLongPosition": {
+      "definition": "Signe de la quantité de titres."
+    },
+    "QuantityChoice": {
+      "definition": "Choix entre différents formats de quantité de titres."
+    }
+  }
+}

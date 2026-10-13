@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitReport8",
+  "definition": "Rend compte soit de la limite de gestion des risques, soit d'une erreur métier.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identification de la limite pour laquelle des informations sont demandées."
+    },
+    "LimitOrError": {
+      "definition": "Informations demandées sur la limite ou rapport d'erreur métier lorsque les informations n'ont pas été trouvées."
+    }
+  }
+}

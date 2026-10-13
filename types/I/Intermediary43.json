@@ -1,0 +1,18 @@
+{
+  "isoType": "Intermediary43",
+  "definition": "Partie qui fournit aux investisseurs des services relatifs aux produits financiers.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiant unique et non ambigu de l'intermédiaire."
+    },
+    "Account": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "Role": {
+      "definition": "Fonction exercée par l'intermédiaire."
+    },
+    "ContactPerson": {
+      "definition": "Personne à contacter et coordonnées."
+    }
+  }
+}

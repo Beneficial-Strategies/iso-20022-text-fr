@@ -1,0 +1,12 @@
+{
+  "isoType": "VoteTypeAndQuantity1",
+  "definition": "Type de vote pouvant être fourni pour une résolution lors d'une assemblée générale.",
+  "isoElements": {
+    "VoteInstructionType": {
+      "definition": "Types d'instruction de vote autorisés pour les résolutions soumises au vote lors d'une assemblée générale."
+    },
+    "VoteQuantity": {
+      "definition": "Quantité de votes exprimée pour le type d'instruction de vote indiqué."
+    }
+  }
+}

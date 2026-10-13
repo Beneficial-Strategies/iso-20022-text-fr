@@ -1,0 +1,15 @@
+{
+  "isoType": "IdentificationInformation5",
+  "definition": "Fournit le détail des informations d'identification.",
+  "isoElements": {
+    "Party": {
+      "definition": "Titulaire de compte qui doit un montant d'argent ou à qui un montant d'argent est dû."
+    },
+    "Account": {
+      "definition": "Identification univoque du compte d'une partie."
+    },
+    "Agent": {
+      "definition": "Établissement financier teneur du compte d'une partie."
+    }
+  }
+}

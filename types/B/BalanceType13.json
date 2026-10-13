@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceType13",
+  "definition": "Ensemble d'éléments servant à définir le type et le sous-type de solde.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Type de solde sous forme codée ou propriétaire."
+    },
+    "SubType": {
+      "definition": "Précise le sous-type de solde."
+    }
+  }
+}

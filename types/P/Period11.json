@@ -1,0 +1,12 @@
+{
+  "isoType": "Period11",
+  "definition": "Période définie par une date et une heure de début, et une date et une heure de fin.",
+  "isoElements": {
+    "StartDate": {
+      "definition": "Date et heure de début de la plage."
+    },
+    "EndDate": {
+      "definition": "Date et heure de fin de la plage."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "SettlementMethod1Code",
+  "definition": "Précise la méthode utilisée pour régler l'instruction de virement.",
+  "isoCodes": {
+    "INDA": {
+      "name": "Banque instruite",
+      "definition": "Le règlement est effectué par l'agent chargé d'exécuter une instruction de paiement."
+    },
+    "INGA": {
+      "name": "Banque donneuse d'ordre",
+      "definition": "Le règlement est effectué par l'agent qui donne l'instruction et transmet le paiement à la partie suivante dans la chaîne de paiement."
+    },
+    "COVE": {
+      "name": "Méthode de couverture",
+      "definition": "Le règlement s'effectue par un paiement de couverture."
+    },
+    "CLRG": {
+      "name": "Système de compensation",
+      "definition": "Le règlement s'effectue via un système de compensation de paiements."
+    }
+  }
+}

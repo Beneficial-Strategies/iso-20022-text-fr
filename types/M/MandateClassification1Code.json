@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateClassification1Code",
+  "definition": "Précise le type de montant du prélèvement, par exemple fixe ou variable.",
+  "isoCodes": {
+    "FIXE": {
+      "name": "Fixe",
+      "definition": "Le montant du prélèvement est fixe."
+    },
+    "USGB": {
+      "name": "Selon l'usage",
+      "definition": "Le montant du prélèvement dépend de la consommation."
+    },
+    "VARI": {
+      "name": "Variable",
+      "definition": "Le montant du prélèvement est variable."
+    }
+  }
+}

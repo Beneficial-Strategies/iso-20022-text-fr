@@ -1,0 +1,22 @@
+{
+  "isoType": "LotteryFeatureType1Code",
+  "definition": "Précise la fonctionnalité de tirage au sort.",
+  "isoCodes": {
+    "XTRA": {
+      "name": "Extraordinaire",
+      "definition": "Remboursement extraordinaire. Le remboursement extraordinaire permet à l'émetteur de rappeler ses obligations avant l'échéance si certains événements spécifiés se produisent, par exemple si le projet que l'obligation a été émise pour financer a été endommagé ou détruit. Cette caractéristique doit être précisée dans le prospectus d'émission de l'obligation."
+    },
+    "OPTL": {
+      "name": "Facultatif",
+      "definition": "L'émetteur a le droit de rembourser tout ou partie des obligations avant leur date d'échéance."
+    },
+    "SINK": {
+      "name": "Fonds d'amortissement",
+      "definition": "Fonds d'amortissement obligataire. Le fonds d'amortissement obligataire est un mécanisme financier utilisé par les émetteurs d'obligations pour mettre de l'argent de côté afin de rembourser les porteurs d'obligations à l'échéance ou par des remboursements périodiques."
+    },
+    "SPCL": {
+      "name": "Spécial",
+      "definition": "Obligation à remboursement spécial. Obligation pouvant être remboursée avant l'échéance en raison d'un événement inhabituel, tel qu'une catastrophe affectant la source de revenus de l'obligation. Cette caractéristique doit être précisée dans le prospectus d'émission de l'obligation. Le remboursement spécial peut être effectué conformément aux dispositions de l'acte de fiducie."
+    }
+  }
+}

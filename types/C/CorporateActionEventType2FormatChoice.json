@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventType2FormatChoice",
+  "definition": "Choix entre des formats pour exprimer le type d'événement sur titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Types d'événement exprimés sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Types d'événement exprimés sous forme de code propriétaire."
+    }
+  }
+}

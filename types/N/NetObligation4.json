@@ -1,0 +1,59 @@
+{
+  "isoType": "NetObligation4",
+  "definition": "Décrit le montant, le sens et les parties concernées par une obligation de paiement entre deux participants (et leur groupe de compensation ou partie négociatrice) d'un service de compensation multilatérale.",
+  "isoElements": {
+    "ObligationIdentification": {
+      "definition": "Identification unique de l'obligation."
+    },
+    "PreviousSplitIndicator": {
+      "definition": "Indique si l'obligation nette résulte d'une obligation précédemment scindée.||Utilisation : en l'absence de valeur, la valeur par défaut est false."
+    },
+    "Amount": {
+      "definition": "Montant de l'obligation."
+    },
+    "ParticipantNettingIdentification": {
+      "definition": "Décrit la partie ou le groupe de compensation (du participant destinataire du relevé) intervenant dans le calcul de l'obligation."
+    },
+    "ObligationDirection": {
+      "definition": "Précise le sens de l'obligation."
+    },
+    "CounterpartyNettingIdentification": {
+      "definition": "Décrit la partie ou le groupe de compensation (de la contrepartie dans l'obligation) intervenant dans le calcul de l'obligation."
+    },
+    "NetServiceCounterpartyIdentification": {
+      "definition": "Décrit le participant contrepartie intervenant dans l'obligation."
+    },
+    "CounterpartySettlementInstructions": {
+      "definition": "Précise les instructions de règlement standard utilisées pour émettre un paiement à la contrepartie afin de régler l'obligation."
+    },
+    "PaymentClearingCentre": {
+      "definition": "Précise le lieu de compensation pour les opérations en devises offshore.||Utilisation : sert à désigner le centre de compensation des opérations en devises offshore. Ne doit pas être utilisé pour les opérations réglées onshore."
+    },
+    "SettlementMethod": {
+      "definition": "Précise le mode de règlement de l'obligation nette."
+    },
+    "TransactionsNumber": {
+      "definition": "Nombre d'opérations utilisées pour calculer l'obligation. Il sert au rapprochement entre l'obligation du relevé de positions nettes et les mises à jour de statut d'opération fournies précédemment."
+    },
+    "SplitIndicator": {
+      "definition": "Indique si l'obligation nette est scindée en plusieurs obligations filles.||Utilisation : en l'absence de valeur, la valeur par défaut est false."
+    },
+    "TotalNumberOfSplits": {
+      "definition": "Nombre de scissions de l'obligation nette."
+    },
+    "SplitObligationData": {
+      "definition": "Détail de la scission."
+    }
+  },
+  "isoRules": {
+    "CounterpartySettlementInstructionRule": {
+      "definition": "CounterpartySettlementInstructions ne doit pas être présent lorsque le sens de l'obligation a pour valeur DBIT."
+    },
+    "CounterpartyIdentificationRule": {
+      "definition": "NetServiceCounterpartyIdentification doit être présent à ce niveau dans toutes les obligations si une ou plusieurs contreparties interviennent dans le calcul du relevé de positions nettes, c'est-à-dire si NetServiceCounterpartyIdentification n'est pas utilisé au niveau NetReport."
+    },
+    "SplitIndicatorRule": {
+      "definition": "Si SplitIndicator est true, TotalNumberOfSplits et SplitObligationData doivent être présents."
+    }
+  }
+}

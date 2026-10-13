@@ -1,0 +1,10 @@
+{
+  "isoType": "AccountStatusUpdateRequestReason1Code",
+  "definition": "Précise le motif d'une demande de modification du statut d'un compte.",
+  "isoCodes": {
+    "CLOE": {
+      "name": "Erreur d'instruction de clôture de compte",
+      "definition": "L'instruction antérieure de clôture du compte a été envoyée par erreur."
+    }
+  }
+}

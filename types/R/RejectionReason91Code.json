@@ -1,0 +1,134 @@
+{
+  "isoType": "RejectionReason91Code",
+  "definition": "Précise un motif pour lequel l'instruction a un statut rejeté.",
+  "isoCodes": {
+    "ULNK": {
+      "name": "Référence non valide",
+      "definition": "La référence liée est inconnue."
+    },
+    "SAFE": {
+      "name": "Rejet du compte de conservation",
+      "definition": "Compte de conservation de l'émetteur du message non reconnu ou invalide."
+    },
+    "IPOS": {
+      "name": "Position insuffisante par rapport au seuil",
+      "definition": "La position est inférieure au seuil requis."
+    },
+    "DQUA": {
+      "name": "Rejet de la quantité",
+      "definition": "Quantité instruite non reconnue ou invalide."
+    },
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Opération ou instruction reçue après l'heure limite précisée par l'établissement teneur de compte."
+    },
+    "SPLT": {
+      "name": "Vote fractionné non autorisé",
+      "definition": "Le vote fractionné n'est pas autorisé."
+    },
+    "PART": {
+      "name": "Vote partiel non autorisé",
+      "definition": "Le vote partiel n'est pas autorisé."
+    },
+    "IPOA": {
+      "name": "Procuration manquante ou invalide",
+      "definition": "Procuration manquante ou invalide."
+    },
+    "PRXY": {
+      "name": "Écart sur la carte de procuration",
+      "definition": "Informations de mandataire invalides."
+    },
+    "IREG": {
+      "name": "Écart d'inscription",
+      "definition": "Informations d'enregistrement invalides."
+    },
+    "RBIS": {
+      "name": "Rejeté par l'émetteur ou le teneur de registre",
+      "definition": "L'émetteur ou le teneur de registre a rejeté l'instruction."
+    },
+    "LACK": {
+      "name": "Manque de titres",
+      "definition": "La position instruite dépasse le solde éligible."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "OPTY": {
+      "name": "Type d'option non valide",
+      "definition": "Type d'option invalide."
+    },
+    "EVNM": {
+      "name": "Identification non reconnue",
+      "definition": "Numéro d'événement non reconnu."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "FULL": {
+      "name": "Détails du bénéficiaire propriétaire manquants",
+      "definition": "Rejeté en raison de l'absence des détails du bénéficiaire effectif."
+    },
+    "ADDM": {
+      "name": "Documentation complémentaire manquante",
+      "definition": "La documentation complémentaire demandée est manquante."
+    },
+    "MCAN": {
+      "name": "Événement annulé",
+      "definition": "L'événement a été annulé."
+    },
+    "DREM": {
+      "name": "Date limite d'inscription dépassée",
+      "definition": "La date limite d'enregistrement est dépassée."
+    },
+    "NPOS": {
+      "name": "Aucune position inscrite",
+      "definition": "Position enregistrée insuffisante ou inexistante."
+    },
+    "RESN": {
+      "name": "Écart sur le numéro de résolution",
+      "definition": "Écart sur le numéro de résolution fourni."
+    },
+    "DUPL": {
+      "name": "Instruction en double",
+      "definition": "L'instruction est rejetée en raison d'un identifiant de message métier en double."
+    },
+    "LIST": {
+      "name": "Vote en faveur invalide dans la liste de groupe",
+      "definition": "L'instruction est invalide car plusieurs résolutions instruites comme vote \"For” appartiennent au même numéro de libellé de résolution de groupe de cotation."
+    },
+    "NOSL": {
+      "name": "Non inscrit au registre des titres",
+      "definition": "Instruction invalide car l'actionnaire ou son délégué n'est pas inscrit dans le registre des actions de la société."
+    },
+    "PMNS": {
+      "name": "Mode de participation non pris en charge",
+      "definition": "Instruction rejetée car la méthode de participation n'est pas prise en charge par le teneur de compte."
+    },
+    "IPED": {
+      "name": "Instruction antérieure à la date de détermination des droits",
+      "definition": "L'instruction a été reçue avant la date de droit."
+    },
+    "NACD": {
+      "name": "Non accepté, adresse électronique manquante",
+      "definition": "L'instruction d'assister virtuellement à l'assemblée est rejetée en raison de l'absence d'adresse électronique du participant."
+    },
+    "EFDM": {
+      "name": "Date de détermination des droits manquante ou incorrecte",
+      "definition": "La date de détermination des droits est manquante ou incorrecte."
+    },
+    "ADIM": {
+      "name": "Informations de divulgation supplémentaires manquantes",
+      "definition": "Le (I)CSD n'a pas reçu (du sous-jacent) ou n'a pas fourni (à l'agent de l'émetteur) les informations de divulgation requises."
+    },
+    "MINC": {
+      "name": "Détails de classification de l'investisseur manquants",
+      "definition": "La classification soumise dans l'instruction ne correspond pas à la classification de l'investisseur dans la notification."
+    },
+    "DSEC": {
+      "name": "Titre non valide",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    }
+  }
+}

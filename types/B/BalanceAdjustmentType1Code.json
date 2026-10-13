@@ -1,0 +1,18 @@
+{
+  "isoType": "BalanceAdjustmentType1Code",
+  "definition": "Définit le type d'ajustement de solde autorisé.",
+  "isoCodes": {
+    "LDGR": {
+      "name": "Grand livre",
+      "definition": "L'ajustement s'applique au solde comptable moyen (livre)."
+    },
+    "FLOT": {
+      "name": "Float",
+      "definition": "L'ajustement s'applique au solde moyen en cours d'encaissement (non disponible)."
+    },
+    "CLLD": {
+      "name": "Encaissé",
+      "definition": "L'ajustement s'applique au solde moyen encaissé (solde comptable moins cours d'encaissement)."
+    }
+  }
+}

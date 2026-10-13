@@ -1,0 +1,24 @@
+{
+  "isoType": "PenaltyCalculationRecord1",
+  "definition": "Précise les détails du calcul de la pénalité.",
+  "isoElements": {
+    "Date": {
+      "definition": "Date à laquelle la pénalité s'applique."
+    },
+    "MissingReferenceData": {
+      "definition": "Information fournie pour les pénalités lorsque des données de référence sont manquantes ce jour ouvré.||Utilisation : lorsqu'elle est absente, aucune donnée de référence n'est manquante."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Précisions supplémentaires sur l'instrument financier déclaré."
+    },
+    "DiscountRate": {
+      "definition": "Taux d'escompte de la devise de la pénalité, fourni si le titre est soumis à des pénalités et si le code de la méthode de calcul est espèces, mixte ou les deux."
+    },
+    "ForeignExchangeData": {
+      "definition": "Précisions supplémentaires sur le taux de change."
+    },
+    "SubAmountPenaltyBreakdown": {
+      "definition": "Ventilation en sous-montants qui composent le montant total de la pénalité."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchTerminationSwitchV01",
+  "definition": "Le message AccountSwitchTerminationSwitch est envoyé par la nouvelle banque tenant le compte au prestataire de changement de compte pour signaler que le changement de compte doit être arrêté. Le message AccountSwitchTerminationSwitch n'est utilisé qu'à titre exceptionnel, après que la nouvelle banque tenant le compte a reçu un message AccountSwitchInformationResponse."
+}

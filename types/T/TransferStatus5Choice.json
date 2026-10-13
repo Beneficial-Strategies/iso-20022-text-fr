@@ -1,0 +1,33 @@
+{
+  "isoType": "TransferStatus5Choice",
+  "definition": "Choix de statuts pour le statut d’un transfert.",
+  "isoElements": {
+    "Status": {
+      "definition": "Le statut du transfert est reçu, accepté, envoyé à la partie suivante, apparié, déjà exécuté ou réglé."
+    },
+    "PendingSettlement": {
+      "definition": "Le statut du transfert est en attente de règlement."
+    },
+    "Unmatched": {
+      "definition": "Le statut du transfert est non apparié."
+    },
+    "InRepair": {
+      "definition": "Le statut du transfert est en réparation."
+    },
+    "Rejected": {
+      "definition": "Le statut du transfert est rejeté."
+    },
+    "FailedSettlement": {
+      "definition": "Le statut du transfert est échec de règlement, c’est-à-dire que le règlement auprès du dépositaire central international de titres (ICSD) ou du dépositaire central de titres (CSD) a échoué."
+    },
+    "Cancelled": {
+      "definition": "Le statut du transfert est annulé."
+    },
+    "Reversed": {
+      "definition": "Le statut du transfert est contrepassé."
+    },
+    "CancellationPending": {
+      "definition": "Le statut du transfert est annulation en attente."
+    }
+  }
+}

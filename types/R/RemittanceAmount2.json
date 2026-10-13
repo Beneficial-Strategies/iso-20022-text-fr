@@ -1,0 +1,24 @@
+{
+  "isoType": "RemittanceAmount2",
+  "definition": "Nature du montant et de la devise figurant sur un document mentionné dans la section remise, qui est généralement soit le montant d'origine dû/payable, soit le montant effectivement remis pour le document référencé.",
+  "isoElements": {
+    "DuePayableAmount": {
+      "definition": "Le montant indiqué est le montant exact dû et payable au créancier."
+    },
+    "DiscountAppliedAmount": {
+      "definition": "Le montant indiqué pour le document référencé est le montant de l'escompte à appliquer au montant dû et payable au créancier."
+    },
+    "CreditNoteAmount": {
+      "definition": "Le montant indiqué pour le document référencé est le montant d'un avoir."
+    },
+    "TaxAmount": {
+      "definition": "Montant en espèces résultant du calcul de la taxe."
+    },
+    "AdjustmentAmountAndReason": {
+      "definition": "Précise des informations détaillées sur le montant et le motif de l'ajustement du document."
+    },
+    "RemittedAmount": {
+      "definition": "Montant d'argent remis pour le document référencé."
+    }
+  }
+}

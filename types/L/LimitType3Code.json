@@ -1,0 +1,66 @@
+{
+  "isoType": "LimitType3Code",
+  "definition": "Précise le type de limite de gestion des risques.",
+  "isoCodes": {
+    "MULT": {
+      "name": "Multilatéral",
+      "definition": "La limite est une valeur maximale appliquée à un participant, ou par celui-ci, à un ensemble de contreparties. La limite multilatérale est prise en compte par l'administrateur des opérations pour contenir le risque dans le système. Grâce à la limite multilatérale, le participant direct restreint l'utilisation de la liquidité lors de la compensation des paiements avec tous les autres participants directs pour lesquels aucune limite bilatérale n'est fixée."
+    },
+    "BILI": {
+      "name": "Bilatéral",
+      "definition": "La limite est appliquée par une partie à une contrepartie donnée et correspond au montant maximal de flux que la partie fixant la limite peut envoyer à cette contrepartie. La limite peut être exprimée sous forme de limite de débit ou de crédit. Grâce à une limite bilatérale, le participant direct restreint l'utilisation de la liquidité lors de la compensation des paiements avec un autre participant direct."
+    },
+    "MAND": {
+      "name": "Bilatéral obligatoire",
+      "definition": "Partie obligatoire de la limite bilatérale appliquée par une partie à une contrepartie donnée, correspondant au montant maximal de flux que la partie fixant la limite peut envoyer à cette contrepartie. La limite peut être exprimée sous forme de limite de débit ou de crédit. Grâce à une limite bilatérale, le participant direct restreint l'utilisation de la liquidité lors de la compensation des paiements avec un autre participant direct."
+    },
+    "DISC": {
+      "name": "Bilatéral discrétionnaire",
+      "definition": "Partie discrétionnaire de la limite bilatérale appliquée par une partie à une contrepartie donnée, correspondant au montant maximal de flux que la partie fixant la limite peut envoyer à cette contrepartie. La limite peut être exprimée sous forme de limite de débit ou de crédit. Grâce à une limite bilatérale, le participant direct restreint l'utilisation de la liquidité lors de la compensation des paiements avec un autre participant direct."
+    },
+    "NELI": {
+      "name": "Bilatéral net",
+      "definition": "La limite est appliquée par une partie à une contrepartie donnée et correspond au solde net maximal acceptable pour la partie qui fixe la limite. La limite est calculée comme la somme arithmétique en valeur des flux bilatéraux échangés entre les deux parties. La limite nette bilatérale peut être exprimée sous forme de solde débiteur ou créditeur."
+    },
+    "INBI": {
+      "name": "Bilatéral indirect",
+      "definition": "La limite est une valeur maximale fixée par un participant direct à l'égard de son participant indirect. La limite représente le montant maximal que le participant indirect peut utiliser pour régler ses opérations."
+    },
+    "GLBL": {
+      "name": "Global",
+      "definition": "Valeur maximale fixée soit par l'administrateur des opérations, soit par un membre pour la participation d'un membre au système. La limite globale peut être exprimée sous forme de valeur maximale de crédit ou de débit et est prise en compte par l'administrateur des opérations lors du traitement des opérations au sein du système. Grâce à la limite globale, le participant direct peut limiter l'utilisation de la liquidité lors de la compensation de types de paiements spécifiques."
+    },
+    "DIDB": {
+      "name": "Prélèvement",
+      "definition": "Limite à ne pas dépasser pour les opérations de prélèvement."
+    },
+    "SPLC": {
+      "name": "Prélèvement client unique",
+      "definition": "Limite de paiement par prélèvement unitaire à ne pas dépasser pour toute opération de prélèvement unitaire d'un client."
+    },
+    "SPLF": {
+      "name": "Prélèvement unique d'établissement financier",
+      "definition": "Limite de paiement par prélèvement unitaire à ne pas dépasser pour toute opération de prélèvement unitaire initiée par un établissement financier."
+    },
+    "TDLC": {
+      "name": "Total journalier des prélèvements clients",
+      "definition": "Limite quotidienne totale de paiements pour les prélèvements de clients, à ne pas dépasser par le total de toutes les opérations de prélèvement initiées par des clients."
+    },
+    "TDLF": {
+      "name": "Total journalier des prélèvements d'établissements financiers",
+      "definition": "Limite quotidienne totale de paiements pour les prélèvements d'établissements financiers, à ne pas dépasser par le total de toutes les opérations de prélèvement initiées par des établissements financiers."
+    },
+    "UCDT": {
+      "name": "Crédit non garanti",
+      "definition": "La limite est liée à un plafond accordé par une banque centrale nationale ou une banque de règlement, mais généralement non garanti en dehors de l'infrastructure de marché."
+    },
+    "ACOL": {
+      "name": "Auto-collatéralisation",
+      "definition": "La limite est liée à une opération de crédit qui est ou peut être déclenchée lorsqu'un acheteur ne dispose pas d'un montant suffisant pour régler une opération sur titres, afin d'améliorer sa position de trésorerie pour le cycle de règlement suivant. Le crédit accordé peut être garanti par des titres déjà détenus par l'acheteur (« stocks de garanties ») ou par les titres en cours d'achat (« flux de garanties »)."
+    },
+    "EXGT": {
+      "name": "Garantie externe",
+      "definition": "La limite est liée à un plafond accordé par une banque centrale nationale ou une banque de règlement."
+    }
+  }
+}

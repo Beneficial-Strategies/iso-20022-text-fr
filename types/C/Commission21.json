@@ -1,0 +1,12 @@
+{
+  "isoType": "Commission21",
+  "definition": "Montant d'argent dû à une partie en rémunération d'un service.",
+  "isoElements": {
+    "CommissionType": {
+      "definition": "Type de commission."
+    },
+    "CommissionApplied": {
+      "definition": "Montant ou taux de la commission appliqué."
+    }
+  }
+}

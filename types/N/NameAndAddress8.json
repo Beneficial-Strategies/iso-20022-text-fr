@@ -1,0 +1,15 @@
+{
+  "isoType": "NameAndAddress8",
+  "definition": "Informations permettant de localiser et d'identifier une partie.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "Address": {
+      "definition": "Adresse postale d'une partie."
+    },
+    "AlternativeIdentifier": {
+      "definition": "Identifiant unique et non ambigu attribué à un établissement financier selon un schéma d'identification propriétaire."
+    }
+  }
+}

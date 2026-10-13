@@ -1,0 +1,15 @@
+{
+  "isoType": "AgreedRate2",
+  "definition": "Informations nécessaires pour traiter un change ou une conversion de devise.",
+  "isoElements": {
+    "ExchangeRate": {
+      "definition": "Valeur d'une devise exprimée par rapport à une autre devise. ExchangeRate exprime le rapport entre UnitCurrency et QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "UnitCurrency": {
+      "definition": "Devise dans laquelle le taux de change est exprimé dans un change de devises. Dans l'exemple 1 GBP = xxx CUR, la devise unitaire est GBP."
+    },
+    "QuotedCurrency": {
+      "definition": "Devise dans laquelle la devise de base est convertie, dans un change."
+    }
+  }
+}

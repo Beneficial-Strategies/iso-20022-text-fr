@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason29Code",
+  "definition": "Code standard précisant le motif pour lequel l'instruction/l'événement a le statut en attente.",
+  "isoCodes": {
+    "NPAY": {
+      "name": "Aucun paiement",
+      "definition": "Le paiement n'a pas été effectué par l'émetteur."
+    },
+    "NSEC": {
+      "name": "Non livré",
+      "definition": "Les instruments financiers n'ont pas été livrés par l'émetteur."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "AUTH": {
+      "name": "Envoyé aux autorités fiscales",
+      "definition": "L'instruction/l'événement est en attente parce que la demande de remboursement est envoyée aux autorités fiscales."
+    }
+  }
+}

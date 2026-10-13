@@ -1,0 +1,24 @@
+{
+  "isoType": "Quantity53",
+  "definition": "Quantité d’actifs.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Quantité de titres à transférer."
+    },
+    "PercentageRate": {
+      "definition": "Taux en pourcentage des actifs à transférer."
+    },
+    "FaceAmount": {
+      "definition": "Quantité exprimée sous forme de montant représentant la valeur nominale, c'est-à-dire le principal, d'un instrument de dette."
+    },
+    "AmortisedValue": {
+      "definition": "Quantité exprimée sous forme de montant représentant la valeur nominale amortie courante d'une obligation, par exemple une réduction ou augmentation périodique du principal d'une obligation."
+    },
+    "CashAmount": {
+      "definition": "Montant en espèces à transférer."
+    },
+    "OtherAsset": {
+      "definition": "Quantité d’actifs à transférer."
+    }
+  }
+}

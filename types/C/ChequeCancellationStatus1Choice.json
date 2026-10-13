@@ -1,0 +1,12 @@
+{
+  "isoType": "ChequeCancellationStatus1Choice",
+  "definition": "Indique le statut de la demande d'annulation de la présentation d'un chèque.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut, sous forme codée, tel que publié dans un jeu de codes externe."
+    },
+    "Proprietary": {
+      "definition": "Statut, sous forme propriétaire."
+    }
+  }
+}

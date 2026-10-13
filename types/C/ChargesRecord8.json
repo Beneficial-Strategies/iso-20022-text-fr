@@ -1,0 +1,30 @@
+{
+  "isoType": "ChargesRecord8",
+  "definition": "Fournit des détails complémentaires sur chaque enregistrement de frais lié à l'opération de paiement.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Frais d'opération à payer par la partie qui supporte les frais."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le montant des frais est un montant au crédit ou au débit.|Utilisation : un montant nul est considéré comme un crédit."
+    },
+    "ChargeIncludedIndicator": {
+      "definition": "Indique si les frais doivent être inclus dans le montant ou ajoutés à titre de préavis."
+    },
+    "Type": {
+      "definition": "Précise le type de frais."
+    },
+    "Rate": {
+      "definition": "Taux utilisé pour calculer le montant des frais ou de la commission."
+    },
+    "Bearer": {
+      "definition": "Précise la ou les parties qui supporteront les frais associés au traitement de l'opération de paiement."
+    },
+    "Agent": {
+      "definition": "Banque qui perçoit les frais de l'opération ou à laquelle ces frais sont dus."
+    },
+    "Tax": {
+      "definition": "Fournit des détails sur la taxe appliquée aux frais."
+    }
+  }
+}

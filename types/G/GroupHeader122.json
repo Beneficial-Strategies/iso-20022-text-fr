@@ -1,0 +1,27 @@
+{
+  "isoType": "GroupHeader122",
+  "definition": "Ensemble de caractéristiques communes à toutes les opérations individuelles incluses dans le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de bout en bout, attribuée par la partie donneuse d'ordre et envoyée à la partie suivante de la chaîne, permettant d'identifier sans ambiguïté le message.|Utilisation : la partie donneuse d'ordre doit s'assurer que MessageIdentification est unique par partie destinataire de l'ordre pendant une période convenue au préalable."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "Authorisation": {
+      "definition": "Identification de l'utilisateur ou toute clé d'utilisateur à utiliser pour vérifier si la partie initiatrice est autorisée à initier des opérations à partir du compte indiqué dans le message.||Utilisation : le contenu n'est pas de nature technique, mais reflète l'organisation de la partie initiatrice.|L'élément d'autorisation peut généralement être utilisé dans des scénarios de relais, d'initiations de paiement, de retours de paiement ou d'annulations de paiement initiés pour le compte d'une partie différente de la partie initiatrice."
+    },
+    "CopyIndicator": {
+      "definition": "Précise si ce document est une copie, un duplicata ou un duplicata d'une copie."
+    },
+    "InitiatingParty": {
+      "definition": "Partie qui initie le paiement.||Utilisation : il peut s'agir soit du débiteur, soit de la partie qui initie le virement pour le compte du débiteur."
+    },
+    "MessageRecipient": {
+      "definition": "Partie autorisée par le titulaire du compte à recevoir des informations sur les mouvements du compte."
+    },
+    "ForwardingAgent": {
+      "definition": "Établissement financier qui reçoit l'instruction de la partie initiatrice et la transmet à la banque suivante de la chaîne de paiement pour exécution."
+    }
+  }
+}

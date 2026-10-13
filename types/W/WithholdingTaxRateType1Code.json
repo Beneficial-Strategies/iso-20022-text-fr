@@ -1,0 +1,18 @@
+{
+  "isoType": "WithholdingTaxRateType1Code",
+  "definition": "Précise le type de taux de retenue à la source.",
+  "isoCodes": {
+    "BWIT": {
+      "name": "Retenue de précaution (back-up)",
+      "definition": "Retenue à la source relative aux paiements soumis à la retenue de précaution (back up withholding)."
+    },
+    "FTCA": {
+      "name": "Impôt FATCA",
+      "definition": "Retenue à la source relative aux revenus soumis à FATCA (Foreign Account Tax Compliance Act)."
+    },
+    "NRAT": {
+      "name": "Impôt NRA",
+      "definition": "Retenue à la source relative aux revenus soumis à NRA (Non Resident Alien)."
+    }
+  }
+}

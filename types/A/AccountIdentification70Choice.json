@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification70Choice",
+  "definition": "Choix entre tous les comptes (GENR - General dans ISO 15022) ou un ou plusieurs comptes sélectionnés.",
+  "isoElements": {
+    "ForAllAccounts": {
+      "definition": "Tous les comptes-titres qui détiennent un instrument financier sous-jacent."
+    },
+    "AccountsListAndBalanceDetails": {
+      "definition": "Liste des comptes-titres sélectionnés (et éventuellement informations sur le solde) auxquels s'applique l'événement sur titres."
+    }
+  }
+}

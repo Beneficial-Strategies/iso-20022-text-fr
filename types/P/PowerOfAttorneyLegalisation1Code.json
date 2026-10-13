@@ -1,0 +1,22 @@
+{
+  "isoType": "PowerOfAttorneyLegalisation1Code",
+  "definition": "Indique la contrainte juridique applicable à la procuration.",
+  "isoCodes": {
+    "NOTA": {
+      "name": "Notaire",
+      "definition": "Indique que la procuration doit être légalisée par un notaire."
+    },
+    "LOCA": {
+      "name": "Autorité locale",
+      "definition": "Indique que la procuration doit être légalisée par une autorité locale."
+    },
+    "APOS": {
+      "name": "Apostillé",
+      "definition": "Indique que la procuration doit être légalisée par un officier public."
+    },
+    "COUN": {
+      "name": "Légalisé par le consulat",
+      "definition": "Indique que la procuration doit être légalisée par un agent consulaire."
+    }
+  }
+}

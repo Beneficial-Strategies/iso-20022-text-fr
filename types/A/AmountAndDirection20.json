@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection20",
+  "definition": "Montant d'argent débité ou crédité dans les livres d'un établissement gestionnaire de compte.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant total à régler."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si une écriture est un crédit ou un débit."
+    }
+  }
+}

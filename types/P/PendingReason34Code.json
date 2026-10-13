@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason34Code",
+  "definition": "Précise le motif pour lequel une demande d'annulation envoyée pour l'instruction associée est en attente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du teneur de compte. Elle sera traitée conformément à l'accord de service bilatéral entre le teneur de compte et le titulaire du compte."
+    },
+    "CONF": {
+      "name": "En attente de confirmation",
+      "definition": "En attente de confirmation de la contrepartie."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "DQUA": {
+      "name": "Désaccord sur la quantité",
+      "definition": "La quantité d'instruments financiers ne correspond pas."
+    }
+  }
+}

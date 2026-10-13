@@ -1,0 +1,14 @@
+{
+  "isoType": "CashPaymentStatus2Code",
+  "definition": "Spécifie l'état d'une instruction de paiement à un moment déterminé.",
+  "isoCodes": {
+    "PDNG": {
+      "name": "En attente",
+      "definition": "Le paiement est en attente de règlement."
+    },
+    "FINL": {
+      "name": "Final",
+      "definition": "Le paiement a été réglé ou arrêté."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosedStatusReason1Choice",
+  "definition": "Choix de formats pour un motif de statut clos.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Aucun motif n'est disponible ou à signaler pour le statut de compte clôturé."
+    },
+    "Reason": {
+      "definition": "Motif du statut clos du compte."
+    }
+  }
+}

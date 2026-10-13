@@ -1,0 +1,62 @@
+{
+  "isoType": "CRSStatus1Code",
+  "definition": "Précise le statut au regard de la norme commune de déclaration (CRS).",
+  "isoCodes": {
+    "C101": {
+      "name": "CRS101",
+      "definition": "Le type de titulaire du compte est une entité non financière passive avec une ou plusieurs personnes détenant le contrôle qui sont des personnes étrangères."
+    },
+    "C102": {
+      "name": "CRS102",
+      "definition": "Le type de titulaire du compte est une personne étrangère."
+    },
+    "C103": {
+      "name": "CRS103",
+      "definition": "Le type de titulaire du compte est une entité étrangère non financière passive sans personnes détenant le contrôle qui soient des personnes étrangères."
+    },
+    "C104": {
+      "name": "CRS104",
+      "definition": "Le type de titulaire du compte est un établissement financier tel qu'un dépositaire, un établissement de conservation ou une compagnie d'assurance déterminée."
+    },
+    "C105": {
+      "name": "CRS105",
+      "definition": "Le type de titulaire du compte est un établissement financier tel qu'une entité d'investissement d'une juridiction non participante et gérée par un autre établissement financier, sans personnes détenant le contrôle qui soient des personnes étrangères."
+    },
+    "C106": {
+      "name": "CRS106",
+      "definition": "Le type de titulaire du compte est un établissement financier tel qu'une entité d'investissement d'une juridiction non participante et gérée par un autre établissement financier, avec une ou plusieurs personnes détenant le contrôle qui sont des personnes étrangères."
+    },
+    "C107": {
+      "name": "CRS107",
+      "definition": "Le type de titulaire du compte est un établissement financier tel qu'une autre entité d'investissement."
+    },
+    "C108": {
+      "name": "CRS108",
+      "definition": "Le type de titulaire du compte est une entité non financière active telle qu'une société dont les actions sont régulièrement négociées sur un marché de valeurs mobilières réglementé."
+    },
+    "C109": {
+      "name": "CRS109",
+      "definition": "Le type de titulaire du compte est une entité non financière active telle qu'une société liée à une société dont les actions sont régulièrement négociées sur un marché de valeurs mobilières réglementé."
+    },
+    "C110": {
+      "name": "CRS110",
+      "definition": "Le type de titulaire du compte est une entité non financière active telle qu'une entité publique."
+    },
+    "C111": {
+      "name": "CRS111",
+      "definition": "Le type de titulaire du compte est une entité non financière active telle qu'une banque centrale."
+    },
+    "C112": {
+      "name": "CRS112",
+      "definition": "Le type de titulaire du compte est une entité non financière active telle qu'une organisation internationale."
+    },
+    "C113": {
+      "name": "CRS113",
+      "definition": "Le type de titulaire du compte n'est pas une personne étrangère."
+    },
+    "C114": {
+      "name": "CRS114",
+      "definition": "Le type de titulaire du compte est un établissement financier tel qu'une entité d'investissement d'une juridiction participante et gérée par un autre établissement financier."
+    }
+  }
+}

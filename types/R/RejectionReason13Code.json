@@ -1,0 +1,26 @@
+{
+  "isoType": "RejectionReason13Code",
+  "definition": "Précise le motif de rejet d'un mouvement.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "La validation de l'avis/de l'instruction/de la demande a échoué."
+    },
+    "SAID": {
+      "name": "Même identification",
+      "definition": "Plusieurs messages portent la même identification."
+    },
+    "INID": {
+      "name": "Identification non valide",
+      "definition": "L'instruction contient un identifiant de message invalide ; l'identification est inconnue."
+    },
+    "REFI": {
+      "name": "Identification CA non valide",
+      "definition": "Identification d'opération sur titres fournie non valide."
+    },
+    "MICA": {
+      "name": "Identification CA non concordante",
+      "definition": "L'Issuer CA Identification ne correspond pas à la Corporate Action Identification fournie."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "ReferredAgent3",
+  "definition": "Fournit l'identification de l'agent de placement d'un fonds spéculatif si l'investisseur a été recommandé par un tel agent.",
+  "isoElements": {
+    "Referred": {
+      "definition": "Indique si l'investisseur a été recommandé par un agent de placement."
+    },
+    "ReferredPlacementAgent": {
+      "definition": "Agent de placement qui a recommandé l'investisseur."
+    }
+  },
+  "isoRules": {
+    "ReferredPlacementAgentRule": {
+      "definition": "ReferredPlacementAgent ne peut être présent que si Referred vaut REFR (Referred)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ReversalReason4Choice",
+  "definition": "Précise le motif de l'annulation de l'opération.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif de l'annulation, tel que publié dans une liste externe de codes de motifs."
+    },
+    "Proprietary": {
+      "definition": "Motif de l'annulation, sous forme propriétaire."
+    }
+  }
+}

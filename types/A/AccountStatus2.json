@@ -1,0 +1,59 @@
+{
+  "isoType": "AccountStatus2",
+  "definition": "Statut d'un compte.",
+  "isoElements": {
+    "Enabled": {
+      "definition": "Le compte peut être utilisé pour l'usage prévu."
+    },
+    "Disabled": {
+      "definition": "Le compte ne peut temporairement pas être utilisé pour l'usage prévu."
+    },
+    "Pending": {
+      "definition": "La modification du compte est en attente d'approbation."
+    },
+    "PendingOpening": {
+      "definition": "L'ouverture du compte est en attente."
+    },
+    "Proforma": {
+      "definition": "Le compte est temporaire et peut être partiellement utilisé pour l'usage prévu. Le compte sera pleinement disponible lorsque le teneur de compte aura reçu tous les documents pertinents."
+    },
+    "Closed": {
+      "definition": "Le compte est clos."
+    },
+    "ClosurePending": {
+      "definition": "La clôture du compte est en attente."
+    },
+    "Other": {
+      "definition": "Le statut est un statut convenu bilatéralement."
+    }
+  },
+  "isoRules": {
+    "ClosedStatus1Rule": {
+      "definition": "Si Closed est présent, alors Enabled n'est pas autorisé."
+    },
+    "EnabledDisabledStatus1Rule": {
+      "definition": "Si Enabled est présent, alors Disabled n'est pas autorisé."
+    },
+    "EnabledDisabledStatus2Rule": {
+      "definition": "Si Disabled est présent, alors Enabled n'est pas autorisé."
+    },
+    "ClosedStatus3Rule": {
+      "definition": "Si Closed est présent, alors Pending n'est pas autorisé."
+    },
+    "ClosedStatus2Rule": {
+      "definition": "Si Closed est présent, alors Disabled n'est pas autorisé."
+    },
+    "ClosedStatus4Rule": {
+      "definition": "Si Closed est présent, alors PendingOpening n'est pas autorisé."
+    },
+    "ClosedStatus5Rule": {
+      "definition": "Si Closed est présent, alors Proforma n'est pas autorisé."
+    },
+    "ClosedStatus6Rule": {
+      "definition": "Si Closed est présent, alors ClosurePending n'est pas autorisé."
+    },
+    "StatusElementRule": {
+      "definition": "L'un des éléments (Enabled, Disabled, Pending, PendingOpening, Proforma, Closed, ClosurePending, Other) doit être présent."
+    }
+  }
+}

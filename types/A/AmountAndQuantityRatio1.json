@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndQuantityRatio1",
+  "definition": "Ratio exprimé sous forme de montant par quantité.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant en espèces."
+    },
+    "Quantity": {
+      "definition": "Quantité exprimée sous forme de nombre."
+    }
+  }
+}

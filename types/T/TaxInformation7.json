@@ -1,0 +1,39 @@
+{
+  "isoType": "TaxInformation7",
+  "definition": "Détails sur la taxe payée, ou à payer, à l'État conformément à la loi, y compris des paramètres prédéfinis tels que les seuils et le type de compte.",
+  "isoElements": {
+    "Creditor": {
+      "definition": "Partie côté crédit de l'opération à laquelle la taxe s'applique."
+    },
+    "Debtor": {
+      "definition": "Identifie la partie côté débit de l'opération à laquelle la taxe s'applique."
+    },
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit une somme d'argent au créancier (final), en l'occurrence à l'administration fiscale."
+    },
+    "AdministrationZone": {
+      "definition": "Subdivision territoriale d'un pays à laquelle le paiement de la taxe est lié."
+    },
+    "ReferenceNumber": {
+      "definition": "Information de référence fiscale propre à une administration fiscale."
+    },
+    "Method": {
+      "definition": "Méthode utilisée pour indiquer l'activité sous-jacente ou le mode de paiement de la taxe."
+    },
+    "TotalTaxableBaseAmount": {
+      "definition": "Montant total sur lequel la taxe est assise."
+    },
+    "TotalTaxAmount": {
+      "definition": "Montant total résultant du calcul de la taxe."
+    },
+    "Date": {
+      "definition": "Date d'échéance de la taxe."
+    },
+    "SequenceNumber": {
+      "definition": "Numéro séquentiel de la déclaration fiscale."
+    },
+    "Record": {
+      "definition": "Enregistrement des détails fiscaux."
+    }
+  }
+}

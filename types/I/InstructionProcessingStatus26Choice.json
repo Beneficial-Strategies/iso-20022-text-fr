@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionProcessingStatus26Choice",
+  "definition": "Choix de format pour le statut de traitement de l'instruction.",
+  "isoElements": {
+    "Code": {
+      "definition": "Indique le statut d'une instruction."
+    },
+    "Proprietary": {
+      "definition": "Indique le statut d'une instruction."
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "isoType": "SecuritiesBalanceType1Code",
+  "definition": "Précise la nature du solde de titres ou de parts de fonds de placement.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqué",
+      "definition": "Solde de titres bloqués ou gelés. Un instrument financier peut être indisponible en raison de circonstances extérieures telles qu'une décision de justice, le décès du bénéficiaire ou du titulaire du compte, ou une faillite."
+    },
+    "BORR": {
+      "name": "Emprunté",
+      "definition": "Solde de titres empruntés auprès d'une autre partie."
+    },
+    "COLI": {
+      "name": "Garantie reçue",
+      "definition": "Solde de titres appartenant à un tiers et détenus à des fins de garantie."
+    },
+    "COLO": {
+      "name": "Garantie remise",
+      "definition": "Solde de titres appartenant au compte-titres indiqué dans ce message et déposés auprès d'un tiers à des fins de garantie."
+    },
+    "LOAN": {
+      "name": "En prêt",
+      "definition": "Solde de titres prêtés à un tiers."
+    },
+    "MARG": {
+      "name": "Marge sur dérivés",
+      "definition": "Solde de titres utilisés en garantie de produits dérivés."
+    },
+    "PDMT": {
+      "name": "Solde apparié de livraison en attente",
+      "definition": "Solde de titres en attente de livraison qui ont été appariés. Applicable uniquement dans la communication entre un CSD et un participant."
+    },
+    "PRMT": {
+      "name": "Solde apparié de réception en attente",
+      "definition": "Solde de titres en attente de réception qui ont été appariés. Applicable uniquement dans la communication entre un CSD et un participant."
+    },
+    "PRUM": {
+      "name": "Solde non apparié de réception en attente",
+      "definition": "Solde de titres en attente de réception qui ne sont pas appariés. Applicable uniquement dans la communication entre un CSD et un participant."
+    },
+    "PECA": {
+      "name": "Opération sur titres en attente",
+      "definition": "Solde de titres, avant la date ex, concernés par une opération sur titres (CA). Les titres bloqués en raison d'une CA, par exemple, procuration, séquestre, doivent être identifiés dans le sous-solde BLOK."
+    },
+    "PEND": {
+      "name": "Livraison en attente",
+      "definition": "Solde de titres en attente de livraison."
+    },
+    "PENR": {
+      "name": "Réception en attente",
+      "definition": "Solde de titres en attente de réception."
+    },
+    "PLED": {
+      "name": "Nanti",
+      "definition": "Solde de titres nantis, par exemple un instrument financier indisponible parce qu'il a été utilisé ou donné en garantie."
+    },
+    "PDUM": {
+      "name": "Solde non apparié de livraison en attente",
+      "definition": "Solde de titres en attente de livraison qui ne sont pas appariés. Applicable uniquement dans la communication entre un CSD et un participant."
+    },
+    "REGO": {
+      "name": "En cours d'enregistrement",
+      "definition": "Solde de titres en cours de traitement par l'établissement chargé d'enregistrer le nouveau bénéficiaire effectif (ou prête-nom) des titres après le dénouement d'une opération."
+    },
+    "RSTR": {
+      "name": "Restreint",
+      "definition": "Solde de titres qui ne peuvent être vendus que sous certaines conditions ou qui nécessitent des documents juridiques."
+    },
+    "OTHR": {
+      "name": "Non classé",
+      "definition": "Solde de titres non classé, c'est-à-dire non identifié par l'un des types de sous-solde existants."
+    },
+    "TRAN": {
+      "name": "En transbordement",
+      "definition": "Solde de titres physiques en transit, p. ex. en cours de transfert d'un dépositaire ou agent à un autre."
+    },
+    "DRAW": {
+      "name": "Tiré",
+      "definition": "Solde de titres tirés au sort en vue du remboursement."
+    },
+    "WDOC": {
+      "name": "En attente de documentation",
+      "definition": "L'instrument financier est indisponible en raison d'une documentation manquante ou incomplète relative au compte, ou d'un ordre manquant ou incomplet."
+    },
+    "BTRA": {
+      "name": "En cours de transfert",
+      "definition": "L'instrument financier est indisponible à la suite d'un ordre de transfert, dans l'attente d'un mouvement dans le registre des actionnaires."
+    }
+  }
+}

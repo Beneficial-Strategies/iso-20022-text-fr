@@ -1,0 +1,42 @@
+{
+  "isoType": "ReplacementProcessingStatus1Code",
+  "definition": "Précise le statut de traitement de la demande de remplacement.",
+  "isoCodes": {
+    "DEND": {
+      "name": "Refusé",
+      "definition": "La demande de remplacement ne peut pas être exécutée."
+    },
+    "EXCH": {
+      "name": "Reçu à la bourse",
+      "definition": "La demande de remplacement précédemment reçue de votre part a été reçue à la bourse."
+    },
+    "INTE": {
+      "name": "Reçu chez l'intermédiaire",
+      "definition": "La demande de remplacement précédemment reçue de votre part a été reçue chez l'intermédiaire (s'il ne s'agit pas de la bourse)."
+    },
+    "PACK": {
+      "name": "Accepté",
+      "definition": "La demande de remplacement a été acceptée pour traitement ultérieur par le teneur de compte (accusé de réception technique)."
+    },
+    "PART": {
+      "name": "Remplacement partiel accepté",
+      "definition": "L'ordre est partiellement exécuté, le traitement du remplacement est accepté pour le solde."
+    },
+    "PEND": {
+      "name": "En attente",
+      "definition": "La demande de remplacement est en attente."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "La demande de remplacement a été rejetée pour traitement ultérieur."
+    },
+    "REPL": {
+      "name": "Terminé",
+      "definition": "La demande de remplacement a été exécutée."
+    },
+    "REPR": {
+      "name": "En réparation",
+      "definition": "La demande de remplacement précédemment reçue de votre part est en réparation."
+    }
+  }
+}

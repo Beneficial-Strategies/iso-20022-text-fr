@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionStandingInstructionProcessingStatus1",
+  "definition": "Fournit les informations sur le statut de traitement d'une demande d'instruction permanente.",
+  "isoElements": {
+    "Status": {
+      "definition": "Le statut de traitement."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

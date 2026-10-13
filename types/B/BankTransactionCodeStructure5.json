@@ -1,0 +1,12 @@
+{
+  "isoType": "BankTransactionCodeStructure5",
+  "definition": "Ensemble d'éléments servant à identifier le type ou le code d'opération d'une écriture d'opération.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le domaine d'activité de l'opération sous-jacente."
+    },
+    "Family": {
+      "definition": "Précise la famille et la sous-famille du code de transaction bancaire, au sein d'un domaine donné, sous une forme structurée et hiérarchique."
+    }
+  }
+}

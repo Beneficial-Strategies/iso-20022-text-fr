@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraPositionPending11",
+  "definition": "Fournit les opérations du relevé.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Statut et motif du statut de l'opération."
+    },
+    "Movement": {
+      "definition": "Identifie l'opération individuelle."
+    }
+  },
+  "isoRules": {
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason doit être présent ou Movement(*)/StatusAndReason doit être présent, mais pas les deux."
+    }
+  }
+}

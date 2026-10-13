@@ -1,0 +1,30 @@
+{
+  "isoType": "PostalAddress1",
+  "definition": "Informations qui localisent et identifient une adresse précise, telles que définies par les services postaux.",
+  "isoElements": {
+    "AddressType": {
+      "definition": "Identifie la nature de l'adresse postale."
+    },
+    "AddressLine": {
+      "definition": "Informations qui localisent et identifient une adresse précise, telles que définies par les services postaux, présentées sous forme de texte libre."
+    },
+    "StreetName": {
+      "definition": "Nom d'une rue ou d'une voie."
+    },
+    "BuildingNumber": {
+      "definition": "Numéro qui identifie la position d'un bâtiment dans une rue."
+    },
+    "PostCode": {
+      "definition": "Identifiant constitué d'un groupe de lettres et/ou de chiffres qui est ajouté à une adresse postale pour faciliter le tri du courrier."
+    },
+    "TownName": {
+      "definition": "Nom d'une zone urbanisée, aux limites définies, dotée d'une administration locale."
+    },
+    "CountrySubDivision": {
+      "definition": "Identifie une subdivision d'un pays, par exemple un État, une région ou un comté."
+    },
+    "Country": {
+      "definition": "Nation dotée de son propre gouvernement."
+    }
+  }
+}

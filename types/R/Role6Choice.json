@@ -1,0 +1,15 @@
+{
+  "isoType": "Role6Choice",
+  "definition": "Choix du format du rôle d'une partie.",
+  "isoElements": {
+    "Code": {
+      "definition": "Rôle de la partie dans l'activité, exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Rôle de la partie dans l'activité, exprimé sous la forme d'un code propriétaire."
+    },
+    "Text": {
+      "definition": "Rôle de la partie dans l'activité."
+    }
+  }
+}

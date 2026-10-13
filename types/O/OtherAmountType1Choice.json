@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherAmountType1Choice",
+  "definition": "Choix entre les formats d'un type de montant.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de montant exprimé sous la forme d'un code."
+    },
+    "ProprietaryCode": {
+      "definition": "Type de montant exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

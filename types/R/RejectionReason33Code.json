@@ -1,0 +1,78 @@
+{
+  "isoType": "RejectionReason33Code",
+  "definition": "Précise le motif pour lequel l'instruction/la demande d'annulation a un statut rejeté.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Compte espèces",
+      "definition": "Compte espèces non reconnu ou invalide."
+    },
+    "ADEA": {
+      "name": "Échéance du teneur de compte manquée",
+      "definition": "Opération/instruction reçue après l'heure limite spécifiée par la banque teneur de compte."
+    },
+    "DMON": {
+      "name": "Rejet du montant de règlement",
+      "definition": "Montant de règlement non reconnu ou invalide."
+    },
+    "NCRR": {
+      "name": "Rejet de la devise du montant de règlement",
+      "definition": "Devise du montant de règlement non reconnue ou invalide."
+    },
+    "LATE": {
+      "name": "Échéance du marché manquée",
+      "definition": "Reçu après l'heure limite du marché."
+    },
+    "INVL": {
+      "name": "Lien non valide",
+      "definition": "Lien invalide ou non reconnu."
+    },
+    "INVB": {
+      "name": "Solde non valide",
+      "definition": "L'instruction vise à utiliser un solde invalide."
+    },
+    "INVN": {
+      "name": "Numéro de lot non valide",
+      "definition": "Numéro de lot invalide ou non reconnu."
+    },
+    "VALR": {
+      "name": "Règle non valide",
+      "definition": "Rejet par une règle de validation de la banque teneur de compte."
+    },
+    "MONY": {
+      "name": "Fonds insuffisants",
+      "definition": "Fonds insuffisants sur votre compte."
+    },
+    "CAEV": {
+      "name": "Rejet d'opération sur titres",
+      "definition": "Opération sur titres en cours sur l'instrument financier faisant l'objet de l'instruction."
+    },
+    "DDAT": {
+      "name": "Rejet de la date de règlement",
+      "definition": "Date de règlement non reconnue ou invalide."
+    },
+    "REFE": {
+      "name": "Rejet de la référence",
+      "definition": "L'instruction a une référence identique à celle d'une autre instruction reçue précédemment."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir le champ Narrative."
+    },
+    "DQUA": {
+      "name": "Rejet de la quantité",
+      "definition": "Quantité instruite non reconnue ou invalide."
+    },
+    "DSEC": {
+      "name": "Titre non valide",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    },
+    "MINO": {
+      "name": "Quantité de règlement minimale",
+      "definition": "La quantité instruite est inférieure à la quantité de règlement minimale existante pour l'instrument financier."
+    },
+    "MUNO": {
+      "name": "Quantité de règlement multiple",
+      "definition": "La quantité instruite n'est pas un multiple d'un lot de règlement existant pour l'instrument financier."
+    }
+  }
+}

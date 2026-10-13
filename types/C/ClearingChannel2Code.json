@@ -1,0 +1,22 @@
+{
+  "isoType": "ClearingChannel2Code",
+  "definition": "Précise le canal de compensation pour l'acheminement de l'opération, dans le cadre de l'identification du type de paiement.",
+  "isoCodes": {
+    "RTGS": {
+      "name": "Système de règlement brut en temps réel",
+      "definition": "Le canal de compensation est un système de règlement brut en temps réel."
+    },
+    "RTNS": {
+      "name": "Système de règlement net en temps réel",
+      "definition": "Le canal de compensation est un système de règlement net en temps réel."
+    },
+    "MPNS": {
+      "name": "Système net de paiements de masse",
+      "definition": "Le canal de compensation est un système de règlement net de paiements de masse."
+    },
+    "BOOK": {
+      "name": "Virement interne",
+      "definition": "Paiement par virement interne."
+    }
+  }
+}

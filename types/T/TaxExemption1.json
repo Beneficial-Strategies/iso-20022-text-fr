@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxExemption1",
+  "definition": "Fournit des précisions sur l'exonération de taxe.",
+  "isoElements": {
+    "ExemptedAmount": {
+      "definition": "Montant exonéré de taxe."
+    },
+    "Reason": {
+      "definition": "Motif de l'exonération de taxe."
+    }
+  }
+}

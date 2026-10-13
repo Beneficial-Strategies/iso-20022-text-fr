@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementStatus26Choice",
+  "definition": "Choix du format du statut de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Indique le statut de règlement d'une instruction/d'un mouvement d'instrument financier."
+    },
+    "Proprietary": {
+      "definition": "Indique le statut de règlement d'une instruction/d'un mouvement d'instrument financier."
+    }
+  }
+}

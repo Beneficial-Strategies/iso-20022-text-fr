@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateSuspensionReason1Choice",
+  "definition": "Précise le motif de la demande de suspension d'un mandat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif, tel que publié dans une liste externe de codes de motif."
+    },
+    "Proprietary": {
+      "definition": "Motif, sous une forme propriétaire."
+    }
+  }
+}

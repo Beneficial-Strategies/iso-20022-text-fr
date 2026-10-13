@@ -1,0 +1,12 @@
+{
+  "isoType": "MessageIdentification2",
+  "definition": "Ensemble d'éléments fournissant l'identification d'un message.",
+  "isoElements": {
+    "MessageNameIdentification": {
+      "definition": "Précise l'identifiant du nom du message qui sera utilisé pour fournir des informations complémentaires."
+    },
+    "MessageIdentification": {
+      "definition": "Précise l'identification du message qui sera utilisé pour fournir des informations complémentaires."
+    }
+  }
+}

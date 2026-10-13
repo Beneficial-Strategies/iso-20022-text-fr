@@ -1,0 +1,22 @@
+{
+  "isoType": "SafekeepingPlace1Code",
+  "definition": "Précise le type de lieu de conservation.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Titres détenus auprès du conservateur local",
+      "definition": "Instruments financiers détenus auprès d'un dépositaire local."
+    },
+    "ICSD": {
+      "name": "Titres détenus auprès d'un ICSD",
+      "definition": "Instruments financiers détenus auprès d'un dépositaire central de titres international."
+    },
+    "NCSD": {
+      "name": "Titres détenus auprès d'un NCSD",
+      "definition": "Instruments financiers détenus auprès d'un dépositaire central de titres national."
+    },
+    "SHHE": {
+      "name": "Titres détenus ailleurs",
+      "definition": "Utilisé pour certains instruments financiers, par exemple les fonds communs de placement US, dont le règlement est uniquement interne, c'est-à-dire sans mouvement externe de titres."
+    }
+  }
+}

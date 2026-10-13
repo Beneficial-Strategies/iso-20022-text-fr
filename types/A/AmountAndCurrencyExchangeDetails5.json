@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndCurrencyExchangeDetails5",
+  "definition": "Ensemble d'éléments fournissant des informations sur le montant d'origine et le change.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise ordonnée par la partie initiatrice."
+    },
+    "CurrencyExchange": {
+      "definition": "Ensemble d'éléments fournissant des détails sur le change."
+    }
+  }
+}

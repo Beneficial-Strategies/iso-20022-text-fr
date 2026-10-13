@@ -1,0 +1,24 @@
+{
+  "isoType": "AgentCAStandingInstructionStatusAdviceV01",
+  "definition": "Portée|Ce message est envoyé par un émetteur (ou son agent) au CSD afin de communiquer le statut, ou un changement de statut, d'une demande d'instruction permanente ou le statut d'une demande d'annulation d'instruction permanente.|Utilisation|Lorsque ce message est utilisé pour communiquer le statut d'une demande d'instruction permanente, le bloc fonctionnel d'identification de la demande d'instruction permanente (Standing Instruction Request Identification) doit être présent.|Lorsque ce message est utilisé pour communiquer le statut d'une demande d'annulation d'instruction permanente, le bloc fonctionnel d'identification de la demande d'annulation d'instruction permanente (Standing Instruction Cancellation Request Identification) doit être présent.",
+  "isoRules": {
+    "StandingInstructionRequestIdentificationOrStandingInstructionCancellationIdentificationRule": {
+      "definition": "AgentCAStandingInstructionRequestIdentification ou AgentCAStandingInstructionCancellationRequestIdentification doit être présent, mais pas les deux."
+    },
+    "StandingInstructionRequestIdentificationOrStandingInstructionCancellationIdentificationRuleNotBoth": {
+      "definition": "AgentCAStandingInstructionRequestIdentification ou AgentCAStandingInstructionCancellationRequestIdentification doit être présent, mais pas les deux."
+    },
+    "StandingInstructionRequestStatusOrStandingInstructionCancellationRequestStatusRule": {
+      "definition": "StandingInstructionRequestStatus ou StandingInstructionCancellationRequestStatus doit être présent, mais pas les deux."
+    },
+    "StandingInstructionRequestStatusOrStandingInstructionCancellationRequestStatusRuleNotBoth": {
+      "definition": "StandingInstructionRequestStatus ou StandingInstructionCancellationRequestStatus doit être présent, mais pas les deux."
+    },
+    "StandingInstructionCancellationRequestStatusRule": {
+      "definition": "Si AgentCAStandingInstructionCancellationRequestIdentification est présent, StandingInstructionCancellationRequestStatus doit être présent."
+    },
+    "StandingInstructionRequestStatusRule": {
+      "definition": "Si AgentCAStandingInstructionRequestIdentification est présent, StandingInstructionRequestStatus doit être présent."
+    }
+  }
+}

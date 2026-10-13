@@ -1,0 +1,27 @@
+{
+  "isoType": "FinancialInstrumentDetails49",
+  "definition": "Déclaration par instrument financier.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrument financier représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "InvestmentFundsFinancialInstrumentAttributes": {
+      "definition": "Éléments caractérisant un instrument financier de type fonds d'investissement."
+    },
+    "PriceDetails": {
+      "definition": "Informations relatives au prix de l'instrument."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lieu où les titres sont conservés, physiquement ou de manière notionnelle. Ce lieu peut être, par exemple, un dépositaire local, un dépositaire central de titres (CSD) ou un dépositaire central de titres international (ICSD)."
+    },
+    "OpeningBalance": {
+      "definition": "Solde d'ouverture de la période du relevé (premier solde d'ouverture) ou de cette page (solde d'ouverture intermédiaire)."
+    },
+    "ClosingBalance": {
+      "definition": "Solde de clôture de la période du relevé (solde de clôture final) ou de cette page (solde de clôture intermédiaire)."
+    },
+    "Transaction": {
+      "definition": "Détails de l'opération."
+    }
+  }
+}

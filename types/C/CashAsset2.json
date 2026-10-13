@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAsset2",
+  "definition": "Identification d'un actif de trésorerie.",
+  "isoElements": {
+    "CashAssetType": {
+      "definition": "Type d'actif de trésorerie."
+    },
+    "HoldingCurrency": {
+      "definition": "Devise de l'actif dans la position détenue."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations supplémentaires sur l'actif de trésorerie."
+    }
+  }
+}

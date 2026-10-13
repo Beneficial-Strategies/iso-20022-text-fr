@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsentTypeFormat4Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le format du type de consentement requis.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type de consentement requis."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de consentement."
+    }
+  }
+}

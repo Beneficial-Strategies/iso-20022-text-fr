@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationReason5",
+  "definition": "Motifs de modification.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'opération est modifiée."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur le motif qui ne peuvent pas figurer dans un champ structuré."
+    }
+  }
+}

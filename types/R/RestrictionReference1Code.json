@@ -1,0 +1,22 @@
+{
+  "isoType": "RestrictionReference1Code",
+  "definition": "Précise les références de restriction à appliquer à une opération.",
+  "isoCodes": {
+    "ADDC": {
+      "name": "Ajout d'une référence de restriction d'espèces",
+      "definition": "Ajout d'une référence de restriction d'espèces représentant un sous-solde d'espèces à utiliser dans l'instruction de règlement pour le débit ou le crédit d'espèces."
+    },
+    "ADDS": {
+      "name": "Ajout d'une référence de restriction de titres",
+      "definition": "Ajout d'une référence de restriction de titres représentant une sous-position de titres à utiliser dans l'instruction de règlement pour la livraison ou la réception de titres."
+    },
+    "REMC": {
+      "name": "Suppression d'une référence de restriction d'espèces",
+      "definition": "Suppression d'une référence de restriction d'espèces, déjà présente dans l'instruction de règlement, représentant un sous-solde d'espèces à utiliser dans l'instruction de règlement pour le débit ou le crédit d'espèces."
+    },
+    "REMS": {
+      "name": "Suppression d'une référence de restriction de titres",
+      "definition": "Suppression d'une référence de restriction de titres, déjà présente dans l'instruction de règlement, représentant une sous-position de titres à utiliser dans l'instruction de règlement pour la livraison ou la réception de titres."
+    }
+  }
+}

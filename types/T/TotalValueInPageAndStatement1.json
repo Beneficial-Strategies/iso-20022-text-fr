@@ -1,0 +1,23 @@
+{
+  "isoType": "TotalValueInPageAndStatement1",
+  "definition": "Totaux de la valeur des avoirs déclarés dans le relevé ou la page.",
+  "isoElements": {
+    "TotalHoldingsValueOfPage": {
+      "definition": "Valeur totale des positions déclarées dans ce message."
+    },
+    "TotalHoldingsValueOfStatement": {
+      "definition": "Valeur totale des positions déclarées dans ce relevé (un relevé peut comprendre un ou plusieurs messages)."
+    },
+    "TotalBookValueOfStatement": {
+      "definition": "Valeur comptable totale des positions déclarées dans ce relevé (un relevé peut comprendre un ou plusieurs messages)."
+    },
+    "TotalEligibleCollateralValue": {
+      "definition": "Valeur totale des avoirs éligibles à des fins de garantie déclarés dans ce relevé (un relevé peut comprendre un ou plusieurs messages)."
+    }
+  },
+  "isoRules": {
+    "TotalEligibleCollateralValueRule": {
+      "definition": "La valeur totale des garanties éligibles ne doit être utilisée que dans la communication entre (I)CSD et participant, ou si l'expéditeur et le destinataire en sont convenus bilatéralement."
+    }
+  }
+}

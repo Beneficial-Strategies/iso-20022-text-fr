@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionElection2",
+  "definition": "Fournit des informations sur une demande de modification d'option choisie dans le cadre d'une opération sur titres.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "NewInstructedQuantity": {
+      "definition": "Nouvelle quantité de titres instruite après la modification."
+    },
+    "Reason": {
+      "definition": "Motif de la demande de modification."
+    }
+  }
+}

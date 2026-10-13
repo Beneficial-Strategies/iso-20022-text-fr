@@ -1,0 +1,18 @@
+{
+  "isoType": "BlockedStatusReason2",
+  "definition": "Motif d'un statut bloqué.",
+  "isoElements": {
+    "TransactionType": {
+      "definition": "Type d'opération pour laquelle le compte a un statut bloqué."
+    },
+    "Blocked": {
+      "definition": "Indique si le compte est bloqué."
+    },
+    "Reason": {
+      "definition": "Motif du statut bloqué."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut bloqué du compte."
+    }
+  }
+}

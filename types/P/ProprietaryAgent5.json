@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryAgent5",
+  "definition": "Identifie une partie propriétaire.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type de banque propriétaire."
+    },
+    "Agent": {
+      "definition": "Organisation établie principalement pour fournir des services financiers."
+    }
+  }
+}

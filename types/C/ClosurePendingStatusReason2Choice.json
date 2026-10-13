@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosurePendingStatusReason2Choice",
+  "definition": "Choix de formats pour un code de motif de clôture en attente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut de clôture en attente exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif du statut de clôture en attente exprimé sous forme de code propriétaire."
+    }
+  }
+}

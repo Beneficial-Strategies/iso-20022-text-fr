@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventProcessingStatus1Code",
+  "definition": "Précise l'étape du cycle de vie de l'événement sur titres.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Complet",
+      "definition": "Précise que le traitement d'un événement sur titres est terminé."
+    },
+    "PEND": {
+      "name": "En attente",
+      "definition": "Précise que le traitement d'un événement sur titres n'est pas terminé."
+    },
+    "RECD": {
+      "name": "Rapproché",
+      "definition": "Traitement de l'événement sur titres précisant que les fonds payés ont été rapprochés des fonds reçus de l'agent (ce qui signifie qu'il n'y a plus de risque d'annulation du paiement)."
+    }
+  }
+}

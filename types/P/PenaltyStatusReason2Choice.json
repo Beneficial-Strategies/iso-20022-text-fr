@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyStatusReason2Choice",
+  "definition": "Précise le motif du statut des pénalités.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut de la pénalité, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Motif du statut de la pénalité, sous forme propriétaire."
+    }
+  }
+}

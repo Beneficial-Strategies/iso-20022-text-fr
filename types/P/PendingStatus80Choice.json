@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus80Choice",
+  "definition": "Choix entre un motif ou l'absence de motif pour le statut en attente du traitement de l'instruction sur événement sur titres.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motif non précisé."
+    },
+    "Reason": {
+      "definition": "Motif du statut en attente."
+    }
+  }
+}

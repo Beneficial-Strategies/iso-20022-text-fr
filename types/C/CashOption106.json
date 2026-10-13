@@ -1,0 +1,33 @@
+{
+  "isoType": "CashOption106",
+  "definition": "Fournit des informations sur l'option en espèces.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indique si la valeur est un débit ou un crédit."
+    },
+    "CashAccountIdentification": {
+      "definition": "Identification du compte dans lequel les espèces sont détenues."
+    },
+    "GrossCashAmount": {
+      "definition": "Montant d'argent avant que des déductions et abattements aient été appliqués."
+    },
+    "NetCashAmount": {
+      "definition": "Montant d'argent après déduction des retenues et abattements éventuels, c'est-à-dire le montant total +/- les frais et commissions."
+    },
+    "EntitledAmount": {
+      "definition": "Montant en espèces fondé sur les conditions de l'événement d'opération sur titres et sur le solde des titres sous-jacents, dû au titulaire du compte ou par celui-ci (pouvant être positif ou négatif)."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Pourcentage d'une distribution en espèces qui sera retenu par les autorités fiscales de la juridiction de l'émetteur, pour lequel un allègement à la source et/ou une demande de remboursement peut être possible."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Montant d'une distribution en espèces qui sera retenu par les autorités fiscales de la juridiction de l'émetteur, et pour lequel un allègement à la source et/ou une demande de remboursement peut être possible."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Date/heure à laquelle un paiement peut être effectué, par exemple si la date de paiement est un jour non ouvrable ou pour indiquer la première date de paiement d'une offre."
+    },
+    "PaymentDate": {
+      "definition": "Date et heure auxquelles le mouvement doit avoir lieu (espèces et/ou titres)."
+    }
+  }
+}

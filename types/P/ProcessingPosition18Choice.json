@@ -1,0 +1,17 @@
+{
+  "isoType": "ProcessingPosition18Choice",
+  "definition": "Choix du format de la position de traitement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Position de traitement exprimée sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Position de traitement exprimée sous la forme d'un code propriétaire."
+    }
+  },
+  "isoRules": {
+    "WithLinkageRule": {
+      "definition": "Si le code WITH est utilisé, la ou les instructions liées deviennent solidaires et doivent être exécutées ensemble. Même si une seule opération/instruction/notification ne peut être exécutée, toutes les autres opérations/instructions/notifications doivent également être maintenues en attente. Par conséquent, l'utilisation du code WITH doit être limitée à la combinaison de 2 ou 3 opérations/instructions/notifications au maximum."
+    }
+  }
+}

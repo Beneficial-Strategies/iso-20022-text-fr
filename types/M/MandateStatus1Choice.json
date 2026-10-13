@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateStatus1Choice",
+  "definition": "Ensembles d'éléments servant à identifier le statut d'un mandat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut du mandat, sous forme codée, tel que publié dans une liste externe."
+    },
+    "Proprietary": {
+      "definition": "Nom du schéma d'identification, sous forme de texte libre."
+    }
+  }
+}

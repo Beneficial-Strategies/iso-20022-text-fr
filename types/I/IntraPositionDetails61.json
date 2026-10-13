@@ -1,0 +1,47 @@
+{
+  "isoType": "IntraPositionDetails61",
+  "definition": "Détails du mouvement intra-position.",
+  "isoElements": {
+    "SettledQuantity": {
+      "definition": "Quantité d'instruments financiers effectivement réglée."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Numéro identifiant un type de sous-solde de titres, par exemple une identification de restriction."
+    },
+    "CollateralMonitorAmount": {
+      "definition": "Valeur des garanties disponibles pour le processus de règlement-livraison au niveau du compte."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Quantité d'instruments financiers précédemment réglée."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Quantité d'instruments financiers restant à régler."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles les titres ont été déplacés."
+    },
+    "AvailableDate": {
+      "definition": "Date et heure auxquelles les titres deviennent disponibles à la vente (si les titres deviennent indisponibles, indique la date et l'heure auxquelles ils redeviendront disponibles)."
+    },
+    "CorporateActionEventType": {
+      "definition": "Indique le type d'événement sur titres."
+    },
+    "BalanceFrom": {
+      "definition": "Solde d'où les titres sont déplacés."
+    },
+    "BalanceTo": {
+      "definition": "Solde vers lequel les titres sont déplacés."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires sur le traitement du règlement qui ne peuvent pas être incluses dans les champs structurés du message."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Sauf accord bilatéral entre l'expéditeur et le destinataire, si InstructionProcessingAdditionalDetails est présent, il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    },
+    "BalanceFromToRule": {
+      "definition": "BalanceFrom/Type doit être différent de BalanceTo/Type."
+    }
+  }
+}

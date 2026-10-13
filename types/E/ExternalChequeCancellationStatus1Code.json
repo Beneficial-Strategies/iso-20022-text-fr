@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalChequeCancellationStatus1Code",
+  "definition": "Indique le code externe de statut d'annulation de chèque, sous la forme d'une chaîne de caractères d'une longueur maximale de 4 caractères.|La liste des codes valides est un jeu de codes externe publié séparément.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "RJCR": {
+      "name": "Demande d'annulation ou d'opposition au chèque rejetée",
+      "definition": "La demande d'annulation du chèque ou d'opposition au chèque est rejetée."
+    },
+    "ACCR": {
+      "name": "Demande d'annulation ou d'opposition au chèque acceptée",
+      "definition": "La demande d'annulation du chèque ou d'opposition au chèque est acceptée."
+    }
+  }
+}

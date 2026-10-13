@@ -1,0 +1,18 @@
+{
+  "isoType": "TrackerRecord5",
+  "definition": "Précise les informations de suivi propres à une banque pour une opération de paiement.",
+  "isoElements": {
+    "Agent": {
+      "definition": "Identification d'une banque dans le système de suivi."
+    },
+    "ChargeBearer": {
+      "definition": "Précise quelle(s) partie(s) supportera(ont) les frais associés au traitement de l'opération de paiement."
+    },
+    "ChargesAmount": {
+      "definition": "Frais d'opération à payer par le débiteur des frais."
+    },
+    "ExchangeRateData": {
+      "definition": "Fournit des précisions sur le taux et les devises utilisés dans le change."
+    }
+  }
+}

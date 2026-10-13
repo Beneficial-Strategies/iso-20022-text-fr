@@ -1,0 +1,15 @@
+{
+  "isoType": "TreasuryProfile1",
+  "definition": "Profil de négociation de titres du Trésor.",
+  "isoElements": {
+    "Date": {
+      "definition": "Date d'exécution de la transaction sur obligations du Trésor."
+    },
+    "TraderType": {
+      "definition": "Type de partie qui effectue des opérations de négociation, par exemple investisseur ou dépositaire."
+    },
+    "Rate": {
+      "definition": "Taux d'imposition."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMTransaction52",
+  "definition": "Informations sur la réponse de rapprochement.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "definition": "Type d'opération logique ou physique sur le ATM pour laquelle les compteurs sont calculés."
+    },
+    "TransactionIdentification": {
+      "definition": "Identification de l'opération de rapprochement."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identification de la période de rapprochement attribuée par le ATM."
+    },
+    "TransactionResponse": {
+      "definition": "Résultat du rapprochement."
+    },
+    "ATMTotals": {
+      "definition": "Totaux actuels de l'ATM."
+    },
+    "Cassette": {
+      "definition": "Informations sur les cassettes du ATM."
+    },
+    "Command": {
+      "definition": "Commande de maintenance à exécuter sur l'ATM."
+    }
+  }
+}

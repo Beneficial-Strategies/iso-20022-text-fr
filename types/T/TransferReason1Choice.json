@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferReason1Choice",
+  "definition": "Choix entre les formats d'un motif de transfert.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du transfert exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Motif du transfert exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

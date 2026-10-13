@@ -1,0 +1,30 @@
+{
+  "isoType": "QuantityBreakdown58",
+  "definition": "Détail de la ventilation d'une quantité.",
+  "isoElements": {
+    "LotNumber": {
+      "definition": "Identification, à des fins fiscales, d'un lot de titres identiques achetés à une certaine date et à un certain prix."
+    },
+    "LotQuantity": {
+      "definition": "Quantité d'instruments financiers faisant partie du lot décrit."
+    },
+    "LotDateTime": {
+      "definition": "Date et heure auxquelles le lot a été acheté."
+    },
+    "LotPrice": {
+      "definition": "Prix auquel le lot a été acheté."
+    },
+    "TypeOfPrice": {
+      "definition": "Précise le type de prix et les informations relatives au prix."
+    },
+    "AccountBaseCurrencyAmounts": {
+      "definition": "Montants de valorisation du lot fournis dans la devise de base du compte."
+    },
+    "InstrumentCurrencyAmounts": {
+      "definition": "Montants de valorisation du lot fournis dans la devise de l'instrument financier."
+    },
+    "AlternateReportingCurrencyAmounts": {
+      "definition": "Montants de valorisation du lot fournis dans une devise autre que la devise de base du compte."
+    }
+  }
+}

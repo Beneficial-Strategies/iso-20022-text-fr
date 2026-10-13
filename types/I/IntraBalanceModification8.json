@@ -1,0 +1,30 @@
+{
+  "isoType": "IntraBalanceModification8",
+  "definition": "Fournit le détail des demandes de modification.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Compte au débit ou au crédit duquel une écriture de trésorerie est passée."
+    },
+    "CashAccountOwner": {
+      "definition": "Partie titulaire du compte."
+    },
+    "CashAccountServicer": {
+      "definition": "Partie qui gère le compte de trésorerie pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "ProcessingStatus": {
+      "definition": "Statut et motif du statut de l'opération."
+    },
+    "RequestReference": {
+      "definition": "Identification sans ambiguïté de la demande de modification."
+    },
+    "StatusDate": {
+      "definition": "Date et heure auxquelles le statut a été attribué."
+    },
+    "RequestDetails": {
+      "definition": "Détail de la demande indiquant les changements et les références de l'instruction dont la modification est demandée."
+    },
+    "UnderlyingIntraBalance": {
+      "definition": "Identifie des détails supplémentaires de l'opération."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "MeetingCancellationV10",
+  "definition": "Portée|Le message MeetingCancellation est envoyé par la partie qui a envoyé le message MeetingNotification au destinataire initial. Il est envoyé pour annuler une assemblée précédemment annoncée ou pour signaler le retrait d'une assemblée.|Utilisation|Le message MeetingCancellation est utilisé pour signaler que l'assemblée a été annulée par le teneur de compte ou retirée par l'émetteur. |Cette définition de message est destinée à être utilisée avec le Business Application Header (BAH).",
+  "isoRules": {
+    "Cancellation1Guideline": {
+      "definition": "Il est recommandé d'annuler une assemblée en utilisant uniquement MeetingReference/MeetingIdentification, MeetingReference/Type, Security et Reason. Il est recommandé de ne pas utiliser les éléments facultatifs."
+    }
+  }
+}

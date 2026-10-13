@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementQueryType1Code",
+  "definition": "Précise le type de requête d'instructions de règlement à exécuter.",
+  "isoCodes": {
+    "INST": {
+      "name": "Instruction",
+      "definition": "Interroge les instructions de règlement selon des critères excluant les statuts."
+    },
+    "STTS": {
+      "name": "Statut",
+      "definition": "Interroge les instructions de règlement selon des critères incluant les statuts."
+    },
+    "STPD": {
+      "name": "Période de statut",
+      "definition": "Interroge les instructions de règlement selon des critères incluant les statuts pendant une période."
+    }
+  }
+}

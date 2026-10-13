@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationStatusReason1Choice",
+  "definition": "Précise le motif du statut de l'enquête.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut, tel que publié dans une liste de codes externe des motifs de statut d'enquête."
+    },
+    "Proprietary": {
+      "definition": "Motif du statut, sous forme propriétaire."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "SystemEventAcknowledgementV01",
+  "definition": "Le message SystemEventAcknowledgement est envoyé par un participant d'un système central au système central pour accuser réception de la notification de la survenue d'un événement dans un système central.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identifiant unique et non ambigu du message, attribué par l'expéditeur."
+    },
+    "OriginatorReference": {
+      "definition": "Représente la référence initiale de la notification d'événement système pour laquelle l'accusé est donné, telle qu'attribuée par le système central."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Indique la session de règlement CLS demandée à laquelle appartient la transaction concernée."
+    }
+  }
+}

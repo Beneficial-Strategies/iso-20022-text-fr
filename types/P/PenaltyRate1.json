@@ -1,0 +1,15 @@
+{
+  "isoType": "PenaltyRate1",
+  "definition": "Précise les données relatives au taux de pénalité si le titre est soumis à des pénalités.",
+  "isoElements": {
+    "MarketIdentification": {
+      "definition": "Lieu de négociation de la transaction concernée."
+    },
+    "SMEGrowthMarket": {
+      "definition": "Classification binaire indiquant si le titre a été négocié sur un marché de croissance des PME ou non.||Utilisation : si l'indicateur n'est pas fourni, il n'est pas pertinent pour le calcul de la pénalité (SME)."
+    },
+    "Rate": {
+      "definition": "Taux de pénalité applicable au type d'actif."
+    }
+  }
+}

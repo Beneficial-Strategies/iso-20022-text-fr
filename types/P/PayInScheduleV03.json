@@ -1,0 +1,4 @@
+{
+  "isoType": "PayInScheduleV03",
+  "definition": "Le message PayInSchedule est envoyé par un système central de règlement au participant pour notifier une série de paiements échelonnés prévus pour chaque devise à la date et à l'heure de génération de l'échéancier. Le système central de règlement peut envoyer des informations sur la manière dont les paiements échelonnés ont été calculés."
+}

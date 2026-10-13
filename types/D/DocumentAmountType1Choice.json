@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentAmountType1Choice",
+  "definition": "Précise le type de montant.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le type de montant, tel que publié dans un ensemble externe de codes de montants visés."
+    },
+    "Proprietary": {
+      "definition": "Précise le type de montant, sous forme de texte libre."
+    }
+  }
+}

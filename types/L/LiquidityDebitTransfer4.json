@@ -1,0 +1,32 @@
+{
+  "isoType": "LiquidityDebitTransfer4",
+  "definition": "Fournit des détails propres au prélèvement de liquidités, utilisé pour transférer un montant d'argent du débiteur au créancier, tous deux étant des établissements financiers.",
+  "isoElements": {
+    "LiquidityTransferIdentification": {
+      "definition": "Sert à identifier de manière unique le transfert de liquidités."
+    },
+    "Creditor": {
+      "definition": "Titulaire du compte à créditer."
+    },
+    "CreditorAccount": {
+      "definition": "Compte à créditer à la suite d'un transfert de liquidités."
+    },
+    "TransferredAmount": {
+      "definition": "Montant d'argent que l'administrateur des transactions transfère d'un compte à un autre."
+    },
+    "Debtor": {
+      "definition": "Titulaire du compte à débiter."
+    },
+    "DebtorAccount": {
+      "definition": "Compte à débiter à la suite d'un transfert de liquidités."
+    },
+    "SettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être à la disposition de l'agent qui le doit et devient disponible pour l'agent auquel il est dû."
+    }
+  },
+  "isoRules": {
+    "DebtorAccountRule": {
+      "definition": "Au moins DebitAccount ou Debtor doit être présent, ou les deux."
+    }
+  }
+}

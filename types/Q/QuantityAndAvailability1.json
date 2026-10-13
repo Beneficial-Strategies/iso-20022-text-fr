@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityAndAvailability1",
+  "definition": "Position nette d'une détention ségréguée d'un seul titre au sein de la position globale détenue sur le compte-titres, par exemple sous-solde par statut.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantité de titres dans le sous-solde."
+    },
+    "AvailabilityIndicator": {
+      "definition": "Indique si la quantité de titres du sous-solde est disponible."
+    }
+  }
+}

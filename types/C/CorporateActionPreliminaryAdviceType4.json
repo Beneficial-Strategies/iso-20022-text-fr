@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionPreliminaryAdviceType4",
+  "definition": "Type de document d'avis préliminaire de mouvement.",
+  "isoElements": {
+    "MovementPreliminaryAdviceIdentification": {
+      "definition": "Identification unique du groupe de messages d'avis préliminaire de mouvement d'opération sur titres lorsque l'avis préliminaire est réparti sur plusieurs messages (paginés)."
+    },
+    "Type": {
+      "definition": "Type d'avis préliminaire de mouvement, par exemple nouveau ou de remplacement."
+    },
+    "Function": {
+      "definition": "Indique si le message avise du solde éligible et des droits définitifs ou d'une comptabilisation ou annulation à venir d'écritures de titres et/ou d'espèces."
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "isoType": "OtherAmounts43",
+  "definition": "Identifie d'autres montants relatifs à l'opération.",
+  "isoElements": {
+    "AccruedInterestAmount": {
+      "definition": "Montant des intérêts courus entre les périodes de paiement des coupons."
+    },
+    "ChargesFees": {
+      "definition": "Montant payé pour la prestation de services financiers qui ne peut être classé sous un autre qualificatif."
+    },
+    "CountryNationalFederalTax": {
+      "definition": "Montant de l'impôt national, fédéral ou du pays prélevé par la juridiction dans laquelle se trouve l'agent teneur de compte."
+    },
+    "TradeAmount": {
+      "definition": "Montant principal d'une transaction (prix multiplié par la quantité)."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Montant versé à un courtier d'exécution à titre de commission."
+    },
+    "IssueDiscountAllowance": {
+      "definition": "Montant d'argent défini comme une décote sur une nouvelle émission ou sur une tranche d'une émission existante."
+    },
+    "PaymentLevyTax": {
+      "definition": "Montant de la taxe de prélèvement sur paiement."
+    },
+    "LocalTax": {
+      "definition": "Taxe prélevée par la juridiction dans laquelle l'instrument financier est réglé."
+    },
+    "LocalTaxCountrySpecific": {
+      "definition": "Taxe locale propre au pays."
+    },
+    "LocalBrokerCommission": {
+      "definition": "Montant de la commission versée à un courtier local."
+    },
+    "Margin": {
+      "definition": "Montant d'espèces déposé par la partie négociatrice sur un compte de marge."
+    },
+    "Other": {
+      "definition": "Montant qui n'est pas indiqué par une dénomination commerciale connue."
+    },
+    "RegulatoryAmount": {
+      "definition": "Montant prélevé par une autorité de réglementation, par exemple les frais de la Securities and Exchange."
+    },
+    "ShippingAmount": {
+      "definition": "Tous les coûts liés à la livraison physique de documents tels que timbres, affranchissement, frais de transporteur, assurances ou services de messagerie."
+    },
+    "SpecialConcession": {
+      "definition": "Montant de tirage ou autre réduction ou majoration par rapport au prix de l'opération."
+    },
+    "StampDuty": {
+      "definition": "Montant du droit de timbre."
+    },
+    "StockExchangeTax": {
+      "definition": "Montant de la taxe de bourse."
+    },
+    "TransferTax": {
+      "definition": "Montant de la taxe prélevée sur un transfert de propriété d'un instrument financier."
+    },
+    "TransactionTax": {
+      "definition": "Montant de la taxe sur les transactions."
+    },
+    "ValueAddedTax": {
+      "definition": "Montant de la taxe sur la valeur ajoutée."
+    },
+    "WithholdingTax": {
+      "definition": "Montant qui sera retenu par une autorité fiscale."
+    },
+    "NetGainLoss": {
+      "definition": "Montant représentant la différence entre le coût et le prix courant d'un titre. Dans le contexte du règlement de titres, il s'agit du montant payé ou reçu lorsque les instructions sont compensées ou appariées."
+    },
+    "ConsumptionTax": {
+      "definition": "Montant de la taxe à la consommation."
+    },
+    "AccruedCapitalisationAmount": {
+      "definition": "Montant des intérêts impayés (sur des obligations ayant fait défaut puis ayant été |restructurées), qui est capitalisé et ajouté au montant principal initial de l'obligation."
+    },
+    "ResearchFee": {
+      "definition": "Frais ou commission payés par l'investisseur à un distributeur/intermédiaire ou à un autre prestataire de services pour la fourniture de recherche financière."
+    }
+  }
+}

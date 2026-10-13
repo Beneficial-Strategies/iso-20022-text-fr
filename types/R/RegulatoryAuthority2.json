@@ -1,0 +1,12 @@
+{
+  "isoType": "RegulatoryAuthority2",
+  "definition": "Entité exigeant les informations de déclaration réglementaire.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom de l'entité exigeant les informations de déclaration réglementaire."
+    },
+    "Country": {
+      "definition": "Pays de l'entité exigeant les informations de déclaration réglementaire."
+    }
+  }
+}

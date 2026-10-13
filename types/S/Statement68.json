@@ -1,0 +1,24 @@
+{
+  "isoType": "Statement68",
+  "definition": "Caractéristiques du relevé.",
+  "isoElements": {
+    "CounterpartyPortfolioTransferNotificationReference": {
+      "definition": "Identification attribuée par la contrepartie du transfert de portefeuille pour identifier sans ambiguïté une notification de transfert de portefeuille."
+    },
+    "ReportNumber": {
+      "definition": "Numéro séquentiel du relevé."
+    },
+    "StatementIdentification": {
+      "definition": "Référence commune à toutes les pages d'un relevé."
+    },
+    "StatementDateTime": {
+      "definition": "Date et heure du relevé."
+    },
+    "UpdateType": {
+      "definition": "Indique si le relevé est complet ou ne contient que des modifications."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique si le relevé signale une activité ou une mise à jour d'informations."
+    }
+  }
+}

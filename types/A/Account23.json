@@ -1,0 +1,12 @@
+{
+  "isoType": "Account23",
+  "definition": "Relation commerciale entre deux entités ; l'une des entités est le titulaire du compte, l'autre est le teneur de compte.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification du compte."
+    },
+    "RelatedAccountDetails": {
+      "definition": "Informations sur le compte auquel le compte existant doit être lié."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Unit1Choice",
+  "definition": "Quantité de parts ou de jetons numériques.",
+  "isoElements": {
+    "UnitsNumber": {
+      "definition": "Quantité de parts."
+    },
+    "DigitalTokenUnit": {
+      "definition": "Quantité de jetons numériques exprimée sous forme de nombre, par exemple un nombre de jetons de blockchain."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "IntraPositionDetails63",
+  "definition": "Détails du mouvement intra-position.",
+  "isoElements": {
+    "SafekeepingPlace": {
+      "definition": "Lieu où les titres sont conservés, physiquement ou de manière notionnelle. Ce lieu peut être, par exemple, un dépositaire local, un dépositaire central de titres (CSD) ou un dépositaire central de titres international (ICSD)."
+    },
+    "BalanceFrom": {
+      "definition": "Solde à partir duquel les titres ont été déplacés."
+    },
+    "IntraPositionMovement": {
+      "definition": "Mouvement(s) intra-position ayant été effectué(s)."
+    }
+  },
+  "isoRules": {
+    "BalanceFromToRule2": {
+      "definition": "Le SecuritiesBalanceType de BalanceFrom doit être différent du SecuritiesBalanceType de BalanceTo."
+    }
+  }
+}

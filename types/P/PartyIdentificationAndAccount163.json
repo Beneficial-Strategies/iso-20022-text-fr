@@ -1,0 +1,23 @@
+{
+  "isoType": "PartyIdentificationAndAccount163",
+  "definition": "Fournit des informations sur l'identification et le compte de la partie.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification d'une partie."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel les instruments financiers sont conservés."
+    },
+    "ProcessingIdentification": {
+      "definition": "Référence significative pour la partie identifiée."
+    },
+    "AlternateIdentification": {
+      "definition": "Identification alternative d'une partie."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "Le champ AdditionalInformation de tous les éléments ne doit pas contenir d'informations pouvant être fournies dans un champ structuré, sauf accord bilatéral ou indication contraire dans la définition de l'élément, comme dans NarrativeVersion."
+    }
+  }
+}

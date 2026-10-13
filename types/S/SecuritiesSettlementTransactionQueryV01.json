@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesSettlementTransactionQueryV01",
+  "definition": "Le message SecuritiesSettlementInstructionQuery est envoyé par un titulaire de compte/demandeur à une infrastructure de règlement.|Le message sert à interroger les informations sur les instructions de règlement de titres qui satisfont aux critères de sélection définis."
+}

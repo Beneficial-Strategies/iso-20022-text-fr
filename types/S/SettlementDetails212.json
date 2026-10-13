@@ -1,0 +1,110 @@
+{
+  "isoType": "SettlementDetails212",
+  "definition": "Détails du règlement d'une opération.",
+  "isoElements": {
+    "HoldIndicator": {
+      "definition": "Précise si l'opération est suspendue/bloquée/gelée."
+    },
+    "Priority": {
+      "definition": "Précise si l'opération doit être exécutée avec une priorité élevée."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifie le type d'opération sur titres."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Conditions dans lesquelles l'ordre/la transaction doit être réglé(e)."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Précise si le règlement partiel est autorisé."
+    },
+    "BeneficialOwnership": {
+      "definition": "Indique s'il y a un changement de bénéficiaire effectif."
+    },
+    "BlockTrade": {
+      "definition": "Indique si l'instruction de règlement est un parent ou un enfant de bloc."
+    },
+    "CCPEligibility": {
+      "definition": "Indique si l'opération de règlement est éligible à une CCP (contrepartie centrale)."
+    },
+    "DeliveryReturnReason": {
+      "definition": "Motif d'un retour de livraison."
+    },
+    "CashClearingSystem": {
+      "definition": "Indique la catégorie de système de compensation en numéraire, par exemple la compensation de chèques."
+    },
+    "ExposureType": {
+      "definition": "Précise le domaine d'activité ou le type d'opération sous-jacent à l'origine du mouvement de garantie."
+    },
+    "FXStandingInstruction": {
+      "definition": "Précise si l'instruction permanente de change en place doit s'appliquer."
+    },
+    "MarketClientSide": {
+      "definition": "Indique si une instruction concerne une opération côté marché ou côté client."
+    },
+    "NettingEligibility": {
+      "definition": "Indique si l'opération de règlement est éligible à la compensation (netting)."
+    },
+    "Registration": {
+      "definition": "Indique si l'inscription doit avoir lieu à la réception."
+    },
+    "RepurchaseType": {
+      "definition": "Indique si le taux est fixe, variable ou forfaitaire."
+    },
+    "LegalRestrictions": {
+      "definition": "Restrictions réglementaires applicables à un titre."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Indique si l'opération de règlement doit être réglée par l'intermédiaire d'un système RTGS ou non RTGS."
+    },
+    "SettlingCapacity": {
+      "definition": "Rôle d'une partie dans le règlement de l'opération."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Indique si l'instruction de règlement doit être réglée par l'intermédiaire du système de règlement par défaut ou du système de règlement alternatif."
+    },
+    "TaxCapacity": {
+      "definition": "Rôle fiscal de la partie donneuse d'ordre."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Indique le type de droit de timbre ou le motif d'exonération applicable à l'opération de règlement."
+    },
+    "Tracking": {
+      "definition": "Précise si le prêt et/ou la garantie fait l'objet d'un suivi."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Condition d'emprunt automatique."
+    },
+    "LetterOfGuarantee": {
+      "definition": "Indique si le règlement physique peut être exécuté au moyen d'une lettre de garantie ou si les certificats physiques doivent être utilisés."
+    },
+    "ReturnLeg": {
+      "definition": "Indique si, pour une opération de règlement de prêt/emprunt de titres, le prêteur instruira la phase de retour comme convenu avec l'emprunteur."
+    },
+    "ModificationCancellationAllowed": {
+      "definition": "Précise si un tiers est autorisé à modifier ou à annuler l'opération."
+    },
+    "EligibleForCollateral": {
+      "definition": "Précise si les titres doivent être inclus dans le pool de titres éligibles à des fins de garantie."
+    },
+    "SecuritiesSubBalanceType": {
+      "definition": "Indique le type de sous-solde de titres (par exemple, type de restriction pour une infrastructure de marché)."
+    },
+    "CashSubBalanceType": {
+      "definition": "Précise l'indicateur de type de sous-solde espèces, par exemple le type de restriction pour une infrastructure de marché."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Si des éléments SettlementDetails sont utilisés, leurs conditions d'utilisation doivent être convenues au préalable entre le titulaire du compte et le teneur de compte."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Les codes CashSettlementSystem ne doivent être utilisés que par les agents directement impliqués dans le processus de règlement, tels que les agents de règlement locaux, les CSD et les banques centrales."
+    },
+    "FXStandingInstructionPresenceRule": {
+      "definition": "Si HoldIndicator est présent et a la valeur TRUE (Oui), alors FXStandingInstruction ne doit pas être présent. |Dans l'ISO 15022, et donc dans l'ISO 20022, l'indicateur FXStandingInstruction ne peut être utilisé que lorsque l'opération est instruite en mode libéré."
+    },
+    "SettlementParametersGuideline": {
+      "definition": "• Règlement physique :|En cas de réception physique au niveau de l'agent local, l'agent récepteur doit recevoir une instruction de réception franco|à des fins de rapprochement. Si le bénéficiaire final des titres utilise un conservateur global, l'instruction de réception franco|sera envoyée au conservateur global qui la transmettra à son agent récepteur sur le marché.|Pour le règlement physique, SettlementTransactionCondition/Physical doit être utilisé.|• Règlement partiel :|Cette pratique de marché ne s'applique qu'aux marchés où le règlement partiel est autorisé.|Si un titulaire de compte souhaite préciser dans son instruction d'origine que le règlement partiel est autorisé ou non, il|doit utiliser le PartialSettlementIndicator.|• Transfert interne :|L'utilisation des SecuritiesTransactionTypes OWNI, OWNE, INSP et PORT et des autres champs relatifs aux transferts internes|est régie par un document de pratique de marché.|• Transactions de bloc :|La transaction mère doit être identifiée à l'aide du champ BloclTrade avec le code BLPA. Les transactions|filles doivent être identifiées à l'aide du code BLCH.||Pour plus de détails, voir le document de pratique de marché correspondant sur www.smpg.info."
+    }
+  }
+}

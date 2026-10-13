@@ -1,0 +1,22 @@
+{
+  "isoType": "CardDataReading4Code",
+  "definition": "Capacités du terminal de ATM effectuant l'opération.",
+  "isoCodes": {
+    "ECTL": {
+      "name": "Lecteur sans contact EMV",
+      "definition": "Lecteur de proximité sans contact, avec application conforme à la norme EMV (norme initiée par Europay, Mastercard et Visa)."
+    },
+    "CICC": {
+      "name": "ICC",
+      "definition": "Carte à puce (ICC - Integrated Circuit Card) à contact contenant des applications logicielles conformes à la norme ISO 7816."
+    },
+    "MGST": {
+      "name": "Piste magnétique",
+      "definition": "Piste magnétique."
+    },
+    "CTLS": {
+      "name": "Lecteur sans contact",
+      "definition": "Lecteur de proximité sans contact."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "ChequePartyRole1Code",
+  "definition": "Indique les rôles des parties liées à un chèque.",
+  "isoCodes": {
+    "DWEA": {
+      "name": "Banque du tiré",
+      "definition": "Indique la banque sur laquelle un chèque est tiré, c'est-à-dire l'établissement financier qui tient le compte du bénéficiaire ayant émis le chèque."
+    },
+    "DWRA": {
+      "name": "Banque du tireur",
+      "definition": "Indique la banque qui tient le compte du payeur du chèque."
+    },
+    "PAYE": {
+      "name": "Bénéficiaire",
+      "definition": "Partie qui reçoit une somme d'argent conformément au chèque."
+    },
+    "PAYR": {
+      "name": "Payeur",
+      "definition": "Partie qui émet un chèque ordonnant à la banque tirée de payer un montant déterminé, à vue, au bénéficiaire."
+    }
+  }
+}

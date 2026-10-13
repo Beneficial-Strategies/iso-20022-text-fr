@@ -1,0 +1,27 @@
+{
+  "isoType": "MultilateralSettlementRequest3",
+  "definition": "Fournit des informations détaillées propres à la ou aux instructions de règlement individuelles incluses dans le message.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identification unique, attribuée par l'agent instructeur et envoyée à l'infrastructure de marché, pour identifier sans ambiguïté l'instruction.||Utilisation : l'identification de l'instruction est une référence de point à point pouvant être utilisée entre l'agent instructeur et l'infrastructure de marché pour faire référence à l'instruction individuelle. Elle peut figurer dans plusieurs messages relatifs à l'instruction."
+    },
+    "InstructionPriority": {
+      "definition": "Indicateur de l'urgence ou de l'ordre d'importance que l'agent instructeur souhaite voir appliquer par l'infrastructure de marché au traitement de l'instruction.||Utilisation : la pratique de marché ou un accord bilatéral doit préciser la manière d'utiliser cet élément. Si cet élément n'est pas renseigné et qu'il n'existe ni recommandation de marché ni accord bilatéral, la priorité sera considérée comme « Normale »."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Fournit des informations sur le ou les horaires de règlement demandés pour l'instruction."
+    },
+    "SettlementPriority": {
+      "definition": "Indicateur de l'urgence ou de l'ordre d'importance que l'agent instructeur souhaite voir appliquer par l'infrastructure de marché au traitement de l'instruction de règlement.||Utilisation : la pratique de marché ou un accord bilatéral doit préciser la manière d'utiliser cet élément. Si cet élément n'est pas renseigné et qu'il n'existe ni recommandation de marché ni accord bilatéral, la priorité sera considérée comme « Normale »."
+    },
+    "SettlementCycle": {
+      "definition": "Identification du cycle de règlement dans le service de règlement.||Utilisation : SettlementCycle sert à distinguer ce règlement multilatéral d'autres règlements multilatéraux lorsque plusieurs d'entre eux ont lieu au cours d'une même période."
+    },
+    "NumberOfMovementRecords": {
+      "definition": "Indicateur du nombre d'enregistrements de mouvement contenus dans une demande de règlement individuelle."
+    },
+    "MovementRecord": {
+      "definition": "Opération de crédit ou de débit contenue dans une demande de règlement individuelle.||Utilisation : la somme de tous les montants (enregistrements de débit et de crédit) devrait être nulle lorsque le règlement net est utilisé."
+    }
+  }
+}

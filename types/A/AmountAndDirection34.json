@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection34",
+  "definition": "Montant exprimé avec un code de devise et un indicateur débit/crédit facultatifs.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant entraînant une augmentation (signe positif) ou une diminution (signe négatif), avec indication de la devise."
+    },
+    "Sign": {
+      "definition": "Indique que la valeur du montant est positive ou négative."
+    }
+  }
+}

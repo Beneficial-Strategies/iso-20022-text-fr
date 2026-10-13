@@ -1,0 +1,12 @@
+{
+  "isoType": "ChequeCancellationReason1Choice",
+  "definition": "Indique le motif de la demande d'annulation de la présentation d'un chèque.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif, tel que publié dans un jeu de codes externe."
+    },
+    "Proprietary": {
+      "definition": "Motif, sous forme propriétaire."
+    }
+  }
+}

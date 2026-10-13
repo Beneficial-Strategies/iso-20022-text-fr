@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAMovementCancellationRequestV01",
+  "definition": "Portée|Ce message est envoyé par un émetteur (ou son agent) à un CSD pour demander l'annulation d'un ou de plusieurs mouvements précédemment envoyés par l'intermédiaire d'un Agent Corporate Action Movement Instruction.|Utilisation|Ce message peut être utilisé pour annuler dans son intégralité un message Agent Corporate Action Movement Instruction précédemment envoyé par l'émetteur (ou son agent) ou des mouvements spécifiques.|Ce message doit contenir l'identification de l'Agent Corporate Action Movement Instruction contenant le ou les mouvements à annuler, l'identification de l'agent et les références de l'opération sur titres. Ce message doit également contenir les détails du ou des mouvements à annuler."
+}

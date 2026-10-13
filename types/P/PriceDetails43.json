@@ -1,0 +1,20 @@
+{
+  "isoType": "PriceDetails43",
+  "definition": "Fournit des informations sur les prix relatifs à une option d'événement sur titres.",
+  "isoElements": {
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Prix générique en espèces payé par produit par le porteur du titre sous-jacent, sous forme de pourcentage, de montant ou de nombre de points au-dessus d'un indice, par exemple, prix de réinvestissement, prix d'exercice (strike) et prix de levée."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Prix générique en espèces reçu par produit par le porteur du titre sous-jacent, sous forme de pourcentage ou de montant, par exemple, prix de remboursement."
+    },
+    "CashInLieuOfSharePrice": {
+      "definition": "Versement en espèces en lieu et place d'actions ; généralement en lieu et place d'une quantité fractionnaire."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct et GenericCashPricePaidPerProduct sont des prix reçus ou payés au cours d'un événement. La signification précise (prix de remboursement, prix de souscription, prix de réinvestissement, ETC.) découle du type d'événement."
+    }
+  }
+}

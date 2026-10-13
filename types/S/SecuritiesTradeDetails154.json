@@ -1,0 +1,83 @@
+{
+  "isoType": "SecuritiesTradeDetails154",
+  "definition": "Détails de la transaction sur titres.",
+  "isoElements": {
+    "NotificationSenderTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue du destinataire de la notification."
+    },
+    "NotificationReceiverTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue du destinataire de la notification."
+    },
+    "CommonIdentification": {
+      "definition": "Référence unique convenue entre les deux contreparties de la transaction commerciale pour identifier celle-ci."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Précise si le mouvement sur un compte-titres résulte d'une instruction de livraison ou de réception."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    },
+    "Status": {
+      "definition": "Statut du transfert."
+    },
+    "TradeDate": {
+      "definition": "Précise la date/l'heure d'exécution de la transaction."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être livrés ou reçus."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Nombre de jours pendant lesquels le taux d'intérêt court (titre à intérêts courus quotidiens)."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instruments financiers représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Éléments caractérisant un instrument financier."
+    },
+    "Reporting": {
+      "definition": "Précise qu'une transaction doit être déclarée à un tiers."
+    },
+    "QuantityDetails": {
+      "definition": "Détails sur la quantité d'instrument financier concernée par le transfert."
+    },
+    "SettlementParameters": {
+      "definition": "Paramètres appliqués au règlement d'un transfert de titres."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifie la chaîne des parties livreuses au règlement."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifie la chaîne des parties réceptrices au règlement."
+    },
+    "SettlementAmount": {
+      "definition": "Montant total à payer ou à recevoir en échange des titres."
+    },
+    "OtherAmounts": {
+      "definition": "Montants autres que le montant de règlement."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Quantité totale d'actifs numériques à payer ou à recevoir en échange du jeton de titre ; ou frais de réseau."
+    },
+    "OtherBusinessParties": {
+      "definition": "Autres parties commerciales concernées par l'opération."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  },
+  "isoRules": {
+    "TradeDateRule": {
+      "definition": "Si Trade Date/Time est utilisé avec une heure ou une heure + indicateur UTC, il doit s'agir de l'heure locale du lieu de la transaction, par exemple de la bourse ou du courtier vendeur pour les opérations de gré à gré (OTC)."
+    },
+    "SettlementAmountRule": {
+      "definition": "Si l'instruction est contre paiement, SettlementAmount doit être présent."
+    },
+    "ReceivingParty1Rule": {
+      "definition": "Si l'instruction est une livraison, alors ReceivingParty 1 doit être présent."
+    },
+    "DeliveringParty1Rule": {
+      "definition": "Si l'instruction est une réception, alors DeliveringParty1 doit être présent."
+    }
+  }
+}

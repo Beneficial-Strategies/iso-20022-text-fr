@@ -1,0 +1,12 @@
+{
+  "isoType": "ForwardedStatus1",
+  "definition": "Informations de statut et de quantité relatives à une demande d'instruction transmise.",
+  "isoElements": {
+    "ForwardedQuantity": {
+      "definition": "La quantité de titres instruits précédemment acceptée a maintenant été transmise le long de la chaîne."
+    },
+    "ForwardedReason": {
+      "definition": "Motif du statut transmis."
+    }
+  }
+}

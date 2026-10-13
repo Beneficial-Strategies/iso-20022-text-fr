@@ -1,0 +1,18 @@
+{
+  "isoType": "KeyTransport4",
+  "definition": "Clé de chiffrement de clé (KEK), chiffrée avec une clé publique asymétrique préalablement distribuée.",
+  "isoElements": {
+    "Version": {
+      "definition": "Version de la structure de données."
+    },
+    "RecipientIdentification": {
+      "definition": "Identification d'une clé cryptographique asymétrique pour le destinataire."
+    },
+    "KeyEncryptionAlgorithm": {
+      "definition": "Algorithme de chiffrement de la clé de chiffrement de clé (KEK)."
+    },
+    "EncryptedKey": {
+      "definition": "Clé de chiffrement de clé (KEK) chiffrée."
+    }
+  }
+}

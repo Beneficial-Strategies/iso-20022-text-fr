@@ -1,0 +1,14 @@
+{
+  "isoType": "ClosedStatusReason1Code",
+  "definition": "Précise le motif du statut clos.",
+  "isoCodes": {
+    "ASIN": {
+      "name": "Instruction du teneur de compte",
+      "definition": "Le compte est clos, suite à une instruction du teneur de compte de clore le compte."
+    },
+    "CLIN": {
+      "name": "Instruction du client",
+      "definition": "Le compte est clos, suite à une instruction du client, ou d'une partie autorisée, de clore le compte."
+    }
+  }
+}

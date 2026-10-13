@@ -1,0 +1,12 @@
+{
+  "isoType": "OrganisationIdentification5",
+  "definition": "Identification officielle d'une organisation (personne morale) dans un registre donné.",
+  "isoElements": {
+    "RegistrationNumber": {
+      "definition": "Nom du registre des personnes morales."
+    },
+    "RegisterName": {
+      "definition": "Nom du registre géré par une autorité d'enregistrement."
+    }
+  }
+}

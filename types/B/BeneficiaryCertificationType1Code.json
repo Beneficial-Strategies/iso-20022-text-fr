@@ -1,0 +1,30 @@
+{
+  "isoType": "BeneficiaryCertificationType1Code",
+  "definition": "Indique le type de certification du bénéficiaire.",
+  "isoCodes": {
+    "ACCI": {
+      "name": "Investisseur accrédité",
+      "definition": "Le détenteur du titre doit certifier de manière irrévocable qu'il est un investisseur accrédité (Accredited Investor) au sens de la Regulation D de la Securities and Exchange Commission des US."
+    },
+    "DOMI": {
+      "name": "Pays de domicile",
+      "definition": "Le détenteur du titre doit certifier son domicile."
+    },
+    "FULL": {
+      "name": "Ventilation complète des bénéficiaires effectifs",
+      "definition": "Le détenteur du titre doit fournir les informations relatives à son bénéficiaire effectif à des fins de divulgation ou d'instruction."
+    },
+    "QIBB": {
+      "name": "Certification QIB",
+      "definition": "Le détenteur du titre doit certifier de manière irrévocable qu'il est un acheteur institutionnel qualifié (Qualified Institutional Buyer) au sens de la Rule 144A de la Securities and Exchange Commission des US."
+    },
+    "TRBD": {
+      "name": "Ventilation par taux d'imposition",
+      "definition": "Le détenteur du titre doit fournir des informations de base sur les montants nominaux et le taux d'imposition associé, à utiliser par le teneur de compte."
+    },
+    "NCOM": {
+      "name": "Non société",
+      "definition": "Le détenteur du titre doit certifier qu'il est une personne non liée à la société."
+    }
+  }
+}

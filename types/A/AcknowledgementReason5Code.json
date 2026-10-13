@@ -1,0 +1,42 @@
+{
+  "isoType": "AcknowledgementReason5Code",
+  "definition": "Précise des informations complémentaires sur l'instruction traitée.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte manquée",
+      "definition": "Reçu après l'heure limite de la banque teneur de compte. Traité au mieux."
+    },
+    "SMPG": {
+      "name": "Écart par rapport aux règles de pratique de marché",
+      "definition": "L'instruction est acceptée mais n'est pas conforme à la règle de pratique de marché publiée pour le marché ou le processus concerné."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir le champ Narrative."
+    },
+    "CDCY": {
+      "name": "Devise conditionnelle",
+      "definition": "L'exécution est subordonnée à l'exécution d'un processus lié à la devise de l'opération."
+    },
+    "CDRG": {
+      "name": "Teneur de registre conditionnel",
+      "definition": "L'exécution est subordonnée à l'exécution d'un processus auprès du teneur de registre."
+    },
+    "CDRE": {
+      "name": "Réalignement conditionnel",
+      "definition": "L'exécution est subordonnée à l'exécution d'un processus de réalignement auprès du CSD émetteur."
+    },
+    "NSTP": {
+      "name": "Traitement non automatisé",
+      "definition": "L'instruction n'a pas été traitée de bout en bout automatiquement et a dû être traitée manuellement."
+    },
+    "RQWV": {
+      "name": "Accepté sans droits de vote",
+      "definition": "L'enregistrement de l'instruction est accepté mais n'est pas intégral, c'est-à-dire sans droits de vote."
+    },
+    "LATE": {
+      "name": "Échéance du marché manquée",
+      "definition": "L'instruction a été reçue après l'heure limite du marché."
+    }
+  }
+}

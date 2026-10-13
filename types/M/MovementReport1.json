@@ -1,0 +1,23 @@
+{
+  "isoType": "MovementReport1",
+  "definition": "Caractéristiques du relevé.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identification du message d'interrogation envoyé pour demander ce relevé."
+    },
+    "ReportIdentification": {
+      "definition": "Référence commune à toutes les pages d'un relevé."
+    },
+    "QueryType": {
+      "definition": "Définit le type d'interrogation."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique si le relevé signale une activité ou une mise à jour d'informations."
+    }
+  },
+  "isoRules": {
+    "ReportIdentificationRule": {
+      "definition": "Si un nombre long (Exact5NumericText) est utilisé, le relevé doit être un relevé différentiel (UpdateType : DELT).|Si le relevé comporte plusieurs pages, la ReportIdentification doit rester identique sur toutes les pages. Il s'agit d'un numéro unique pour le relevé.|Deux relevés de même type envoyés l'un après l'autre au même destinataire pour le même compte-titres doivent avoir des identifications de relevé différentes. Par exemple, un relevé quotidien envoyé le jour 1 aurait la ReportIdentification 001, le jour 2, 002, etc."
+    }
+  }
+}

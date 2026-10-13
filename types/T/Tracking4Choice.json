@@ -1,0 +1,12 @@
+{
+  "isoType": "Tracking4Choice",
+  "definition": "Choix du format des informations de suivi.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Précise si le prêt et/ou la garantie fait l'objet d'un suivi."
+    },
+    "Proprietary": {
+      "definition": "Informations de suivi exprimées sous forme de code propriétaire."
+    }
+  }
+}

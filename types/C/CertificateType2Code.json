@@ -1,0 +1,46 @@
+{
+  "isoType": "CertificateType2Code",
+  "definition": "Indique le type de certificat.",
+  "isoCodes": {
+    "AMLC": {
+      "name": "Lutte contre le blanchiment d'argent",
+      "definition": "Formulaire de certification de lutte contre le blanchiment d'argent."
+    },
+    "DVLC": {
+      "name": "Permis de conduire",
+      "definition": "Pièce d'identité avec photo délivrée par l'État - permis de conduire."
+    },
+    "DFOR": {
+      "name": "Constitution et organisation en bonne et due forme",
+      "definition": "Certification de la constitution et de l'organisation en bonne et due forme."
+    },
+    "GOST": {
+      "name": "Bonne situation",
+      "definition": "Certificat de bonne situation."
+    },
+    "IDEN": {
+      "name": "Carte d'identité",
+      "definition": "Pièce d'identité avec photo délivrée par l'État - carte d'identité."
+    },
+    "INCU": {
+      "name": "Attestation de fonctions",
+      "definition": "Certification des fonctions en exercice."
+    },
+    "LREF": {
+      "name": "Lettre de référence",
+      "definition": "Lettre de référence."
+    },
+    "PASS": {
+      "name": "Passeport",
+      "definition": "Pièce d'identité avec photo délivrée par l'État - passeport."
+    },
+    "PRAD": {
+      "name": "Justificatif de domicile",
+      "definition": "Justificatif de domicile, tel qu'une facture de services publics."
+    },
+    "PKIC": {
+      "name": "Certificat d'infrastructure à clés publiques",
+      "definition": "Certificat d'infrastructure à clé publique."
+    }
+  }
+}

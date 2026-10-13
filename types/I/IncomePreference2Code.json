@@ -1,0 +1,14 @@
+{
+  "isoType": "IncomePreference2Code",
+  "definition": "Précise les options de distribution des revenus de dividendes.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Espèces",
+      "definition": "Distribution en espèces."
+    },
+    "SECU": {
+      "name": "Titres",
+      "definition": "Distribution en titres."
+    }
+  }
+}

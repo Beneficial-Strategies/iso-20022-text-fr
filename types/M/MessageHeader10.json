@@ -1,0 +1,15 @@
+{
+  "isoType": "MessageHeader10",
+  "definition": "Ensemble de caractéristiques, telles que l'identification ou la date et l'heure de création, propres au message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par l'expéditeur, permettant d'identifier le message de manière non ambiguë.|Utilisation : l'expéditeur doit s'assurer que MessageIdentification est unique pendant une période convenue au préalable."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "QueryName": {
+      "definition": "Rappelle les critères (critères de recherche et de retour) définis dans une requête précédente."
+    }
+  }
+}

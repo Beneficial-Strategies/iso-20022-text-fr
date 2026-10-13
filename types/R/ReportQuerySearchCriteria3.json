@@ -1,0 +1,33 @@
+{
+  "isoType": "ReportQuerySearchCriteria3",
+  "definition": "Définit les critères utilisés pour rechercher un rapport.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "Balance": {
+      "definition": "Représentation numérique des augmentations et diminutions nettes d'un compte à un moment donné. Un solde de trésorerie est calculé comme la somme des crédits en espèces moins la somme des débits en espèces."
+    },
+    "ReportName": {
+      "definition": "Valeurs des rapports possibles."
+    },
+    "MessageNameIdentification": {
+      "definition": "Précise l'identifiant du nom du message de requête auquel le message se rapporte."
+    },
+    "PartyIdentification": {
+      "definition": "Partie propriétaire du rapport."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Partie responsable de la partie propriétaire du rapport."
+    },
+    "DateSearch": {
+      "definition": "Date et heure de création du relevé."
+    },
+    "ScheduledTime": {
+      "definition": "Heure à laquelle l'événement (commercial) à l'origine du rapport était programmé."
+    },
+    "Event": {
+      "definition": "Le type d'exécution est déclenché par un événement."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "PensionPolicy1",
+  "definition": "Identification d’une police de retraite.",
+  "isoElements": {
+    "Identifier": {
+      "definition": "Numéro de référence de la police, du plan ou du régime de retraite."
+    },
+    "SubIdentifier": {
+      "definition": "Sous-identification de la police, du plan ou du régime de retraite, telle qu’une référence de membre."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur l’identification de la police, du plan ou du régime de retraite."
+    }
+  }
+}

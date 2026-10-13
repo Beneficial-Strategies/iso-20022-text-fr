@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingInstructionIdentification1",
+  "definition": "Identification du message et de la ou des instructions individuelles dont l'annulation a été demandée.",
+  "isoElements": {
+    "MeetingInstructionIdentification": {
+      "definition": "Identification du message d'instruction d'assemblée précédent contenant la ou les instructions individuelles dont l'annulation a été demandée."
+    },
+    "SingleInstructionIdentification": {
+      "definition": "Identification de l'instruction individuelle dont l'annulation a été demandée."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "PointOfInteraction1",
+  "definition": "Point d'interaction (POI) effectuant l'opération.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification du POI (Point Of Interaction) pour l'acquéreur ou son mandataire."
+    },
+    "SystemName": {
+      "definition": "Nom usuel attribué par l'acquéreur au système POI."
+    },
+    "GroupIdentification": {
+      "definition": "Identifiant attribué par le commerçant identifiant un ensemble de terminaux POI effectuant certaines catégories d'opérations."
+    },
+    "Capabilities": {
+      "definition": "Capacités du POI effectuant l'opération."
+    },
+    "Component": {
+      "definition": "Données relatives à un composant du POI effectuant l'opération."
+    }
+  }
+}

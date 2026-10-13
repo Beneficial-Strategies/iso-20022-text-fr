@@ -1,0 +1,14 @@
+{
+  "isoType": "CancelledStatusReason5Code",
+  "definition": "Précise le motif sous-jacent de l'annulation de l'opération associée.",
+  "isoCodes": {
+    "CANI": {
+      "name": "Annulé par vous-même",
+      "definition": "L'opération est annulée par vous-même."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    }
+  }
+}

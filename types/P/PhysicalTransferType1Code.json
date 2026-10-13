@@ -1,0 +1,14 @@
+{
+  "isoType": "PhysicalTransferType1Code",
+  "definition": "Indique si l'instrument financier doit être livré physiquement ou s'il s'agit d'un transfert dématérialisé.",
+  "isoCodes": {
+    "DEMT": {
+      "name": "Dématérialisé",
+      "definition": "Transfert dématérialisé."
+    },
+    "PHYS": {
+      "name": "Physique",
+      "definition": "Transfert physique."
+    }
+  }
+}

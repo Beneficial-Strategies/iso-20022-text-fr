@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionAmendmentProcessingStatus1",
+  "definition": "Fournit des informations sur le statut de traitement d'une demande de modification d'option choisie.",
+  "isoElements": {
+    "Status": {
+      "definition": "Le statut de traitement."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

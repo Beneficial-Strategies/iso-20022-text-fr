@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope21",
+  "definition": "Portée de la modification à appliquer à un ensemble d'informations identifié.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Précise le type de modification à appliquer à un ensemble d'informations."
+    },
+    "IssueAllocation": {
+      "definition": "Informations sur la propriété du compte d'investissement relatives à l'allocation de nouvelles émissions pour un fonds spéculatif."
+    }
+  }
+}

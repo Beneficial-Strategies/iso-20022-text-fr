@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestType4Choice",
+  "definition": "Définit le type d'action à exécuter dans la demande.",
+  "isoElements": {
+    "PaymentControl": {
+      "definition": "Le type de demande est une commande de contrôle portant sur un ensemble d'opérations."
+    },
+    "Enquiry": {
+      "definition": "Le type de demande est une consultation portant sur une position ou une opération."
+    },
+    "Proprietary": {
+      "definition": "Le type de demande est au format propriétaire."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionPrice84",
+  "definition": "Précise des prix.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Versement en espèces en lieu et place d'actions ; généralement en lieu et place d'une quantité fractionnaire."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Montant requis par action sursouscrite, tel que défini par l'émetteur."
+    }
+  },
+  "isoRules": {
+    "GenericCashPriceReceivedPerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct est le prix reçu au cours d'un événement. La signification précise (prix de remboursement, prix de souscription, prix de réinvestissement, ETC.) est déduite du type d'événement."
+    }
+  }
+}

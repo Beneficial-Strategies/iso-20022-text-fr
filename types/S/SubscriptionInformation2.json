@@ -1,0 +1,23 @@
+{
+  "isoType": "SubscriptionInformation2",
+  "definition": "Informations sur les souscriptions cumulées.",
+  "isoElements": {
+    "DateOfFirstSubscription": {
+      "definition": "Date de la première souscription de l’année en cours."
+    },
+    "EquityComponent": {
+      "definition": "Montant souscrit au cours de l’année fiscale en cours en actions (hors dividendes)."
+    },
+    "CashComponent": {
+      "definition": "Montant souscrit en espèces au cours de l’année fiscale en cours."
+    },
+    "TotalAmountYearToDate": {
+      "definition": "Montant total souscrit au cours de l’année fiscale en cours."
+    }
+  },
+  "isoRules": {
+    "TotalAmountYearToDateRule": {
+      "definition": "TotalAmountYearToDate doit être égal à la somme de EquityComponent et CashComponent, s’ils sont présents."
+    }
+  }
+}

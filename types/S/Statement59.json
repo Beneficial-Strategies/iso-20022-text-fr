@@ -1,0 +1,41 @@
+{
+  "isoType": "Statement59",
+  "definition": "Caractéristiques générales d'un relevé qui déclare des informations pour une date précise.",
+  "isoElements": {
+    "SenderBusinessRole": {
+      "definition": "Indique le rôle métier de l'expéditeur du message et, par conséquent, la relation commerciale entre l'expéditeur et le destinataire (ou les intérêts qu'ils représentent, dans les cas où une autre entité agit pour le compte de l'expéditeur ou du destinataire). Le message est échangé entre deux entités, l'une étant le teneur de compte et l'autre le titulaire du compte, et le message peut être utilisé indifféremment avec l'une ou l'autre comme expéditeur."
+    },
+    "StatementNumber": {
+      "definition": "Numéro séquentiel du relevé."
+    },
+    "QueryReference": {
+      "definition": "Identification du message d'interrogation envoyé pour demander ce relevé."
+    },
+    "StatementIdentification": {
+      "definition": "Référence commune à toutes les pages du relevé."
+    },
+    "StatementDateTime": {
+      "definition": "Date et heure de création du relevé."
+    },
+    "StatementPeriod": {
+      "definition": "Période de dates pour laquelle le relevé a été créé."
+    },
+    "Frequency": {
+      "definition": "Fréquence du relevé."
+    },
+    "FrequencyGranularity": {
+      "definition": "Granularité de la fréquence utilisée pour le reporting."
+    },
+    "UpdateType": {
+      "definition": "Indique si le relevé est complet ou ne contient que des modifications."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique s'il y a une activité ou des informations mises à jour dans le relevé."
+    }
+  },
+  "isoRules": {
+    "FrequencyGranularityGuideline": {
+      "definition": "FrequencyGranularity doit rester dans les limites de Frequency, par exemple Frequency égal à Monthly et FrequencyGranularity égal à Daily."
+    }
+  }
+}

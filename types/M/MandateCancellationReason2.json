@@ -1,0 +1,15 @@
+{
+  "isoType": "MandateCancellationReason2",
+  "definition": "Fournit des précisions supplémentaires sur le motif de la demande d'annulation du mandat.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partie qui émet la demande d'annulation."
+    },
+    "Reason": {
+      "definition": "Précise le motif de la demande d'annulation."
+    },
+    "AdditionalInformation": {
+      "definition": "Précisions supplémentaires sur le motif de la demande d'annulation."
+    }
+  }
+}

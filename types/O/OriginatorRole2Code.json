@@ -1,0 +1,30 @@
+{
+  "isoType": "OriginatorRole2Code",
+  "definition": "Précise le rôle de la partie négociatrice dans l’opération.",
+  "isoCodes": {
+    "SINT": {
+      "name": "Internalisateur systématique",
+      "definition": "Sociétés qui, de manière organisée, fréquente et systématique, négocient pour compte propre en exécutant des ordres de clients en dehors d’un marché réglementé ou d’un système multilatéral de négociation (MTF). Les SI auront l’obligation de fournir et de rendre publique une cotation ferme à l’achat et à la vente pour les titres liquides. Elles agissent comme des « mini » bourses."
+    },
+    "MLTF": {
+      "name": "Système multilatéral de négociation",
+      "definition": "Système multilatéral qui réunit de multiples intérêts acheteurs et vendeurs de tiers portant sur des instruments financiers, d’une manière qui aboutit à un contrat."
+    },
+    "RMKT": {
+      "name": "Marché réglementé",
+      "definition": "Marché sur lequel des instruments financiers peuvent être négociés selon les règles définies par la bourse."
+    },
+    "MKTM": {
+      "name": "Teneur de marché",
+      "definition": "Opérateur ou spécialiste qui négocie pour son propre compte sur le marché de gré à gré. Les teneurs de marché sont tenus de maintenir un marché ordonné en étant disponibles pour acheter ou vendre (OTC)."
+    },
+    "INVE": {
+      "name": "Investisseur",
+      "definition": "Partie, personne physique ou organisation, dont les actifs sont investis."
+    },
+    "TAGT": {
+      "name": "Agent de transfert",
+      "definition": "Partie nommée par la société de gestion du fonds. Elle met à jour les registres des comptes des investisseurs afin de refléter les souscriptions, rachats, échanges, transferts et réinscriptions quotidiens des investisseurs. Elle veille au règlement dans les délais des opérations et peut fournir des informations fiscales à l'investisseur et/ou à ses intermédiaires. Elle peut calculer, percevoir et rétrocéder des commissions. Elle prépare et distribue les confirmations reflétant les opérations, qui entraînent des mouvements de parts ou de compte espèces pour l'investisseur ou l'intermédiaire de l'investisseur. Elle répond aux demandes concernant la situation du compte et traite la distribution des revenus."
+    }
+  }
+}

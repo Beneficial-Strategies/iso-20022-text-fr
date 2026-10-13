@@ -1,0 +1,24 @@
+{
+  "isoType": "TrackerRecord8",
+  "definition": "Précise les informations de suivi propres à une banque pour une opération de paiement.",
+  "isoElements": {
+    "PartyOrAgentIdentification": {
+      "definition": "Identification d'une partie ou d'une banque dans le système de suivi."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montant transféré entre la banque donneuse d'ordre et la banque destinataire de l'ordre."
+    },
+    "ChargeBearer": {
+      "definition": "Précise quelle(s) partie(s) supportera(ont) les frais associés au traitement de l'opération de paiement."
+    },
+    "ChargesAmount": {
+      "definition": "Frais d'opération à payer par le débiteur des frais."
+    },
+    "ExchangeRateData": {
+      "definition": "Fournit des précisions sur le taux et les devises utilisés dans le change."
+    },
+    "ProcessingDateTime": {
+      "definition": "Date et heure auxquelles l'instruction a été traitée par la partie indiquée."
+    }
+  }
+}

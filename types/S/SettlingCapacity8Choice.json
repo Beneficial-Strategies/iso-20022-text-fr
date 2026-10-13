@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlingCapacity8Choice",
+  "definition": "Choix de format pour les informations sur la capacité de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Capacité de règlement exprimée sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Capacité de règlement exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

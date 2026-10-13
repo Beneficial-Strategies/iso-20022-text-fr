@@ -1,0 +1,15 @@
+{
+  "isoType": "ActiveOrHistoricCurrencyAndAmountRange2",
+  "definition": "Fourchette de valeurs de montant.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant ou fourchette de montants spécifiés."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le montant est un montant crédité ou débité."
+    },
+    "Currency": {
+      "definition": "Moyen d'échange de valeur, utilisé pour qualifier un montant."
+    }
+  }
+}

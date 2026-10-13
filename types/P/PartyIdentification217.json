@@ -1,0 +1,27 @@
+{
+  "isoType": "PartyIdentification217",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nom et adresse de la partie."
+    },
+    "EmailAddress": {
+      "definition": "Adresse de courrier électronique (e-mail)."
+    },
+    "Identification": {
+      "definition": "Données d'identification de la personne physique."
+    },
+    "Nationality": {
+      "definition": "Nationalité de la personne."
+    },
+    "DateAndPlaceOfBirth": {
+      "definition": "Date et lieu de naissance d'une personne."
+    },
+    "InvestorType": {
+      "definition": "Type d'investisseur."
+    },
+    "Ownership": {
+      "definition": "Fournit des informations sur la propriété d'un actif."
+    }
+  }
+}

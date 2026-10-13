@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericIdentification78",
+  "definition": "Identification exprimée sous la forme d'un type propriétaire et d'une description narrative.",
+  "isoElements": {
+    "Type": {
+      "definition": "Informations propriétaires, souvent un code, émises par l'émetteur du schéma de la source de données."
+    },
+    "Identification": {
+      "definition": "Nom ou numéro attribué par une entité pour permettre la reconnaissance de cette entité, par exemple un identifiant de compte."
+    }
+  }
+}

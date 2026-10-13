@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountSubLevel24",
+  "definition": "Fournit des informations détaillées sur la propriété concernant la quantité d'actions à divulguer, ou la quantité d'actions à ne pas divulguer et la quantité d'actions inférieure au seuil.",
+  "isoElements": {
+    "NonDisclosedShareholdingQuantity": {
+      "definition": "Quantité d'actions pour lesquelles le détail de la détention n'est pas divulgué."
+    },
+    "BelowThresholdShareholdingQuantity": {
+      "definition": "Quantité d'actions pour lesquelles le détail de la détention n'est pas communiqué, la quantité d'actions détenues par l'actionnaire étant inférieure au seuil."
+    },
+    "Disclosure": {
+      "definition": "Détail des sous-niveaux de compte et des positions."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "BalanceStatus2",
+  "definition": "Représentation numérique des augmentations et diminutions nettes d'un compte à un moment donné. Un solde de trésorerie est calculé comme la somme des crédits en espèces moins la somme des débits en espèces.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Solde dans chaque devise calculé à la date et à l'heure de valeur indiquées dans le rapport."
+    }
+  }
+}

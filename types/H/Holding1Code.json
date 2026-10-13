@@ -1,0 +1,18 @@
+{
+  "isoType": "Holding1Code",
+  "definition": "Précise comment la position est bloquée.",
+  "isoCodes": {
+    "CERT": {
+      "name": "Certificat",
+      "definition": "Certificat."
+    },
+    "NPRH": {
+      "name": "Détention non partielle",
+      "definition": "Position non partielle."
+    },
+    "PRTH": {
+      "name": "Détention partielle",
+      "definition": "Position partielle."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "Reporting2Code",
+  "definition": "Précise des informations relatives à la déclaration.",
+  "isoCodes": {
+    "STEX": {
+      "name": "Bourse",
+      "definition": "Les détails de l’opération doivent être déclarés à une bourse."
+    },
+    "REGU": {
+      "name": "Organisme de réglementation",
+      "definition": "Les détails de l’opération doivent être déclarés à un organisme de réglementation."
+    },
+    "DEFR": {
+      "name": "Rapport différé",
+      "definition": "La déclaration est différée, par exemple parce que l’ordre a été exécuté en plusieurs exécutions partielles."
+    }
+  }
+}

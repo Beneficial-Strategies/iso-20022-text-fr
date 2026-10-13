@@ -1,0 +1,24 @@
+{
+  "isoType": "PartyIdentification341",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nom et adresse de la partie."
+    },
+    "AccountIdentification": {
+      "definition": "Identification unique et non ambiguë du compte."
+    },
+    "EmailAddress": {
+      "definition": "Adresse de courrier électronique (e-mail)."
+    },
+    "Identification": {
+      "definition": "Identification de la partie."
+    },
+    "CompanyRegisterShareholderIdentification": {
+      "definition": "Identification de l'actionnaire dans le registre des actionnaires de la société."
+    },
+    "CountryOfIncorporation": {
+      "definition": "Pays dans lequel la société est constituée ou légalement enregistrée."
+    }
+  }
+}

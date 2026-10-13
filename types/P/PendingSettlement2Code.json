@@ -1,0 +1,162 @@
+{
+  "isoType": "PendingSettlement2Code",
+  "definition": "Indique le motif pour lequel l'opération ou l'instruction est en attente de règlement, c'est-à-dire en attente de livraison ou de réception de l'instrument financier. Le règlement à la date de règlement instruite reste possible.",
+  "isoCodes": {
+    "AWMO": {
+      "name": "En attente de fonds",
+      "definition": "Les titres ont été livrés, mais le montant du règlement n'a pas été reçu de la contrepartie."
+    },
+    "CAIS": {
+      "name": "En attente de titres",
+      "definition": "En attente de titres provenant d'une émission d'opération sur titres ou d'autres procédures, par exemple conversion, dématérialisation, échange, enregistrement, estampillage, fractionnement, etc."
+    },
+    "REFU": {
+      "name": "Instruction refusée ou non reconnue",
+      "definition": "Instruction refusée ou non reconnue, et représentée automatiquement."
+    },
+    "AWSH": {
+      "name": "En attente d'actions de la contrepartie",
+      "definition": "Les titres n'ont pas encore été reçus de la contrepartie."
+    },
+    "PHSE": {
+      "name": "Retard de livraison physique",
+      "definition": "Le règlement est physique et les titres sont en cours de livraison."
+    },
+    "TAMM": {
+      "name": "Transaction modifiée sur le marché",
+      "definition": "L'opération est en cours de modification sur le marché."
+    },
+    "DOCY": {
+      "name": "En attente de documents ou d'endossements de votre part",
+      "definition": "En attente de documents ou d'endossements de votre part."
+    },
+    "DOCC": {
+      "name": "En attente de documents ou d'endossements de la contrepartie",
+      "definition": "En attente de documents ou d'endossements de la contrepartie."
+    },
+    "BLOC": {
+      "name": "Compte bloqué",
+      "definition": "Votre compte est bloqué ; aucune instruction ne peut être réglée sur le compte."
+    },
+    "CHAS": {
+      "name": "Demande de renseignements envoyée",
+      "definition": "Relance ou demande de renseignements envoyée à l'agent ou au dépositaire."
+    },
+    "NEWI": {
+      "name": "Nouvelles émissions",
+      "definition": "Les titres sont de nouvelles émissions et ne sont pas encore disponibles ou négociables."
+    },
+    "CLAC": {
+      "name": "Titres insuffisants de la contrepartie",
+      "definition": "Titres livrables insuffisants sur le compte de la contrepartie, ou la contrepartie ne détient pas les titres."
+    },
+    "MUNO": {
+      "name": "Montant de règlement multiple",
+      "definition": "La quantité de titres n'est pas un multiple d'un lot de montant de règlement existant pour l'instrument financier instruit."
+    },
+    "GLOB": {
+      "name": "Titres sous forme globale",
+      "definition": "Le règlement ne peut pas être exécuté car les titres sont sous forme globale."
+    },
+    "PREA": {
+      "name": "Préavis instruit",
+      "definition": "Votre instruction est un préavis, c'est-à-dire un rapprochement uniquement."
+    },
+    "GUAD": {
+      "name": "Différence d'indicateur de livraison garantie",
+      "definition": "L'indicateur de livraison garantie diffère dans l'instruction de la contrepartie."
+    },
+    "PART": {
+      "name": "Transaction réglée en partie",
+      "definition": "L'opération sera réglée en plusieurs parties."
+    },
+    "NMAS": {
+      "name": "Aucun rapprochement requis",
+      "definition": "L'instruction n'a pas été rapprochée car le processus de rapprochement n'est pas requis."
+    },
+    "CMON": {
+      "name": "Fonds insuffisants de la contrepartie",
+      "definition": "Fonds insuffisants sur le compte de la contrepartie."
+    },
+    "YCOL": {
+      "name": "Insuffisance de garanties",
+      "definition": "Garantie insuffisante sur votre compte pour exécuter l'opération."
+    },
+    "COLL": {
+      "name": "Titres donnés en garantie",
+      "definition": "Les titres ne sont pas livrables car ils sont nantis en garantie."
+    },
+    "DEPO": {
+      "name": "Dépôt refusé pour l'émission de certificats de dépôt",
+      "definition": "Le dépôt d'actions en vue de l'émission de certificats de dépôt a été refusé. L'opération dépasse le quota de certificats de dépôt accordé par l'émetteur."
+    },
+    "FLIM": {
+      "name": "Limite maximale pour l'étranger atteinte",
+      "definition": "Titres livrables insuffisants sur votre compte car la limite maximale pour les étrangers est atteinte."
+    },
+    "NOFX": {
+      "name": "Aucune instruction de change",
+      "definition": "L'instruction de change est manquante."
+    },
+    "INCA": {
+      "name": "Ajustement du revenu requis",
+      "definition": "Les titres nécessitent un ajustement de revenu, par exemple un dividende ou des intérêts."
+    },
+    "LINK": {
+      "name": "Instruction liée en attente",
+      "definition": "Votre instruction est en attente de règlement car l'instruction qui lui est liée est en attente."
+    },
+    "FUTU": {
+      "name": "En attente de la date de règlement",
+      "definition": "L'instruction attend la date de règlement et aucun problème de règlement n'a été signalé."
+    },
+    "LACK": {
+      "name": "Défaut de titres",
+      "definition": "Titres livrables insuffisants sur votre compte."
+    },
+    "LALO": {
+      "name": "Titres prêtés",
+      "definition": "Titres livrables insuffisants sur votre compte car les titres sont prêtés."
+    },
+    "MONY": {
+      "name": "Fonds insuffisants",
+      "definition": "Fonds insuffisants sur votre compte."
+    },
+    "NCON": {
+      "name": "Confirmation non reçue",
+      "definition": "La confirmation de règlement n'a pas été reçue."
+    },
+    "REFS": {
+      "name": "Non conforme",
+      "definition": "La livraison ou la réception a été refusée car les titres physiques ne sont pas en bon état."
+    },
+    "SDUT": {
+      "name": "Information sur le droit de timbre manquante",
+      "definition": "L'instruction est en attente car les informations relatives au droit de timbre sont manquantes."
+    },
+    "BATC": {
+      "name": "Différence de lot de traitement",
+      "definition": "Le lot de traitement diffère dans l'instruction de la contrepartie, par exemple en journée ou en temps réel par rapport à la nuit."
+    },
+    "CYCL": {
+      "name": "En attente du prochain cycle de règlement",
+      "definition": "L'instruction est confirmée sur le marché local ou est prête à être réglée, dans l'attente du prochain cycle de règlement."
+    },
+    "SBLO": {
+      "name": "Titres bloqués",
+      "definition": "Le règlement est en attente. Les titres sont bloqués en raison, par exemple, d'un événement d'opération sur titres ou d'un réalignement."
+    },
+    "CPEC": {
+      "name": "Contrepartie sous administration judiciaire",
+      "definition": "La contrepartie est en redressement judiciaire, c'est-à-dire la forme de faillite dans laquelle une personne nommée par le tribunal, l'administrateur judiciaire, gère les affaires de l'entreprise."
+    },
+    "MINO": {
+      "name": "Montant de règlement minimal",
+      "definition": "Le montant de titres est inférieur au montant de règlement minimal existant pour l'instrument financier instruit."
+    },
+    "PCAP": {
+      "name": "CAP en attente",
+      "definition": "Le paiement est en attente et n'est pas réglé car l'utilisation effective de la limite de gestion des risques sur la contrepartie (limite bilatérale) empêche le règlement."
+    }
+  }
+}

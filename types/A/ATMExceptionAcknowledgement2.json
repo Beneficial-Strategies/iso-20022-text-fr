@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMExceptionAcknowledgement2",
+  "definition": "Informations relatives à l'accusé de réception d'une exception de ATM.",
+  "isoElements": {
+    "ATM": {
+      "definition": "Informations sur l'ATM."
+    },
+    "Context": {
+      "definition": "Contexte dans lequel l'opération est effectuée, le cas échéant."
+    },
+    "Transaction": {
+      "definition": "Accusé de réception de l'avis d'exception."
+    }
+  }
+}

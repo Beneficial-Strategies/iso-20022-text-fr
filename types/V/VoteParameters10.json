@@ -1,0 +1,63 @@
+{
+  "isoType": "VoteParameters10",
+  "definition": "Informations décrivant l'organisation du processus de vote.",
+  "isoElements": {
+    "SecuritiesQuantityRequiredToVote": {
+      "definition": "Nombre de positions requis pour un vote."
+    },
+    "PartialVoteAllowed": {
+      "definition": "Indique si un vote peut porter sur une partie de la position totale, c'est-à-dire qu'une partie de la position n'est pas votée."
+    },
+    "SplitVoteAllowed": {
+      "definition": "Indique si le vote peut être fractionné, c'est-à-dire qu'il peut y avoir des votes différents pour différentes parties de la position."
+    },
+    "VoteDeadline": {
+      "definition": "Date et heure limites de remise des instructions de vote à l'intermédiaire."
+    },
+    "VoteMarketDeadline": {
+      "definition": "Date et heure limites de remise des instructions de vote à l'émetteur."
+    },
+    "VoteMethods": {
+      "definition": "Précise les différentes méthodes pouvant être utilisées pour voter."
+    },
+    "VotingBallotElectronicAddress": {
+      "definition": "Adresse électronique, courriel ou URL, à laquelle le bulletin de vote peut être demandé."
+    },
+    "VotingBallotRequestAddress": {
+      "definition": "Adresse postale à laquelle le bulletin de vote peut être demandé."
+    },
+    "RevocabilityDeadline": {
+      "definition": "Date jusqu'à laquelle la partie donneuse d'instruction peut révoquer, modifier ou retirer son instruction de vote. Cette date limite est fixée par un intermédiaire."
+    },
+    "RevocabilityMarketDeadline": {
+      "definition": "Date jusqu'à laquelle la partie donneuse d'instruction peut révoquer, modifier ou retirer son instruction de vote. Cette date limite est fixée par l'émetteur."
+    },
+    "BeneficialOwnerDisclosure": {
+      "definition": "Indique si les informations relatives au bénéficiaire, par exemple le nom et l'adresse, doivent être fournies pour participer à une assemblée."
+    },
+    "EarlyIncentivePremium": {
+      "definition": "Prime en espèces versée au détenteur de titres qui vote plus tôt (avant la date limite de vote anticipé donnant droit à une prime)."
+    },
+    "IncentivePremium": {
+      "definition": "Prime en espèces versée au détenteur de titres lors du vote."
+    },
+    "EarlyVoteWithPremiumDeadline": {
+      "definition": "Date et heure limites de remise des instructions de vote à l'intermédiaire pour bénéficier de la prime incitative anticipée."
+    },
+    "VoteWithPremiumDeadline": {
+      "definition": "Date et heure limites de remise des instructions de vote à l'intermédiaire pour bénéficier de la prime."
+    },
+    "VoteWithPremiumMarketDeadline": {
+      "definition": "Date et heure limites de remise des instructions de vote à l'émetteur pour bénéficier de la prime."
+    },
+    "AdditionalVotingRequirements": {
+      "definition": "Informations complémentaires sur les exigences spécifiques permettant à une personne de voter."
+    },
+    "AdditionalDisclosureRequirements": {
+      "definition": "Informations exigées par l'émetteur pour être communiquées dans le cadre d'une instruction soumise, qui ne sont ni les informations relatives au détenteur bénéficiaire, ni au participant votant, ni au mandataire désigné par l'émetteur, ni au(x) participant(s) assistant à l'assemblée (sans voter)."
+    },
+    "PreviousInstructionInvalidityIndicator": {
+      "definition": "Indique si les instructions envoyées précédemment deviennent invalides après une prolongation de la date limite du marché."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "GrossDividendRateFormat41Choice",
+  "definition": "Choix entre un montant ou un taux non précisé.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Nombre d'unités monétaires exprimées dans une devise."
+    },
+    "AmountAndRateStatus": {
+      "definition": "Précise un montant et un statut de taux."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "Précise les différents formats du taux de dividende brut."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valeur du taux non spécifiée."
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "isoType": "PendingSettlementStatusReason2Code",
+  "definition": "Indique le motif du statut de règlement en attente d’une instruction de transfert ou de règlement.",
+  "isoCodes": {
+    "AWSH": {
+      "name": "En attente d'actions de la contrepartie",
+      "definition": "Les titres n'ont pas encore été reçus de la contrepartie."
+    },
+    "BLOC": {
+      "name": "Compte bloqué",
+      "definition": "Votre compte est bloqué ; aucune instruction ne peut être réglée sur le compte."
+    },
+    "CAIS": {
+      "name": "En attente de titres",
+      "definition": "En attente de titres provenant d'une émission d'opération sur titres ou d'autres procédures, par exemple conversion, dématérialisation, échange, enregistrement, estampillage, fractionnement, etc."
+    },
+    "CLAC": {
+      "name": "Titres insuffisants de la contrepartie",
+      "definition": "Titres livrables insuffisants sur le compte de la contrepartie, ou la contrepartie ne détient pas les titres."
+    },
+    "DOCC": {
+      "name": "En attente de documents ou d'endossements de la contrepartie",
+      "definition": "En attente de documents ou d'endossements de la contrepartie."
+    },
+    "DOCY": {
+      "name": "En attente de documents ou d'endossements de votre part",
+      "definition": "En attente de documents ou d'endossements de votre part."
+    },
+    "IAAD": {
+      "name": "Investigation du motif de statut",
+      "definition": "Le motif de la mise en attente fait l’objet d’une enquête."
+    },
+    "LACK": {
+      "name": "Défaut de titres",
+      "definition": "Titres livrables insuffisants sur votre compte."
+    },
+    "LINK": {
+      "name": "Instruction liée en attente",
+      "definition": "Votre instruction est en attente de règlement car l'instruction qui lui est liée est en attente."
+    },
+    "PHCK": {
+      "name": "Vérification des titres physiques",
+      "definition": "Les titres physiques ont été reçus et leur authenticité est en cours de vérification."
+    },
+    "PHSE": {
+      "name": "Retard de livraison physique",
+      "definition": "Le règlement est physique et les titres sont en cours de livraison."
+    },
+    "SBLO": {
+      "name": "Titres bloqués",
+      "definition": "Le règlement est en attente. Les titres sont bloqués en raison, par exemple, d'un événement d'opération sur titres ou d'un réalignement."
+    },
+    "MINF": {
+      "name": "Informations manquantes",
+      "definition": "Des informations, par exemple un numéro de téléphone ou une personne à contacter, sont manquantes."
+    },
+    "ACOP": {
+      "name": "Compte non ouvert",
+      "definition": "Le compte doit déjà être ouvert pour pouvoir traiter le transfert."
+    },
+    "IINV": {
+      "name": "En cours d'investigation",
+      "definition": "L’intermédiaire recherche la raison pour laquelle le transfert est en attente."
+    },
+    "CINV": {
+      "name": "En cours d'examen par le client",
+      "definition": "Le client a été informé d’un problème et mène une enquête."
+    },
+    "AINV": {
+      "name": "En cours d'examen par l'agent de transfert",
+      "definition": "L’agent de transfert mène une enquête."
+    },
+    "WTRF": {
+      "name": "En attente du statut de l'agent de transfert",
+      "definition": "Le transfert est en cours de traitement par l’agent de transfert, dans l’attente de son statut."
+    },
+    "USUA": {
+      "name": "Délai habituel de l'opération",
+      "definition": "Délai de traitement habituel de l’agent de transfert."
+    },
+    "ASTA": {
+      "name": "En attente du statut",
+      "definition": "À votre demande, l’intermédiaire vérifie auprès de l’agent de transfert le statut de votre instruction."
+    },
+    "AFST": {
+      "name": "Formulaire de demande envoyé",
+      "definition": "Le formulaire de demande a été envoyé à l’agent de transfert."
+    },
+    "STST": {
+      "name": "Formulaire de transfert de titres envoyé",
+      "definition": "Le formulaire de transfert de titres a été envoyé à la contrepartie pour signature et transmission à l’agent de transfert."
+    },
+    "LPRO": {
+      "name": "Traitement plus long",
+      "definition": "Délai de traitement plus long pour ce type de transfert, en raison des exigences documentaires."
+    },
+    "ADRQ": {
+      "name": "Documents supplémentaires demandés",
+      "definition": "Des documents supplémentaires ont été demandés par l’agent de transfert."
+    },
+    "ADS1": {
+      "name": "Documents supplémentaires envoyés 1",
+      "definition": "Des documents supplémentaires ont été envoyés."
+    },
+    "ADS2": {
+      "name": "Documents supplémentaires envoyés 2",
+      "definition": "À la demande de l’agent de transfert, l’intermédiaire a envoyé des documents supplémentaires. L’agent de transfert a confirmé que toutes les informations nécessaires sont désormais réunies."
+    },
+    "DRJC": {
+      "name": "Documents rejetés",
+      "definition": "Les documents sont rejetés par l’agent de transfert."
+    },
+    "CYIN": {
+      "name": "En attente de la réception par la contrepartie",
+      "definition": "La contrepartie n’a pas envoyé d’instruction de réception. Vérifiez auprès de la contrepartie."
+    },
+    "CYDV": {
+      "name": "En attente de la livraison par la contrepartie",
+      "definition": "La contrepartie n’a pas envoyé d’instruction de livraison ni livré les titres. Vérifiez auprès de la contrepartie."
+    },
+    "OVER": {
+      "name": "Délai normal de traitement écoulé",
+      "definition": "Le délai normal de traitement de l’instruction est écoulé. L’agent de transfert a été ou sera contacté."
+    },
+    "WCPA": {
+      "name": "Compte de contrepartie erroné",
+      "definition": "Coordonnées erronées du compte de la contrepartie."
+    },
+    "SDUT": {
+      "name": "Information sur le droit de timbre manquante",
+      "definition": "L'instruction est en attente car les informations relatives au droit de timbre sont manquantes."
+    },
+    "TAPR": {
+      "name": "Traitement par l'agent de transfert",
+      "definition": "Le transfert est en cours de traitement par l’agent de transfert."
+    },
+    "XCNF": {
+      "name": "Confirmation attendue",
+      "definition": "Une confirmation de l’agent de transfert est attendue."
+    },
+    "ESCA": {
+      "name": "Escalade",
+      "definition": "Un suivi spécial est en cours."
+    },
+    "NRCP": {
+      "name": "Non-réception par l'agent de transfert",
+      "definition": "L’agent de transfert prétend ne pas avoir reçu les titres physiques."
+    },
+    "FVER": {
+      "name": "Vérification finale",
+      "definition": "Confirmé, mais le caractère définitif reste à vérifier."
+    }
+  }
+}

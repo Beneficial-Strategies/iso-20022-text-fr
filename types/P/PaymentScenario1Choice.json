@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentScenario1Choice",
+  "definition": "Précise les scénarios commerciaux dans lesquels le paiement est exécuté, tels que le virement client ou le paiement de couverture.",
+  "isoElements": {
+    "Code": {
+      "definition": "Scénario de paiement, tel que publié dans une liste de codes externe de scénarios de paiement."
+    },
+    "Proprietary": {
+      "definition": "Scénario de paiement, sous forme propriétaire."
+    }
+  }
+}

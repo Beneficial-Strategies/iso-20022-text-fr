@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraBalanceModification7",
+  "definition": "Fournit les données des demandes de modification du relevé.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Compte au débit ou au crédit duquel une écriture de trésorerie est passée."
+    },
+    "CashAccountOwner": {
+      "definition": "Partie titulaire du compte."
+    },
+    "CashAccountServicer": {
+      "definition": "Partie qui gère le compte de trésorerie pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "ProcessingStatus": {
+      "definition": "Statut et motif du statut de l'opération."
+    },
+    "Modification": {
+      "definition": "Précisions sur la modification intra-solde individuelle."
+    }
+  },
+  "isoRules": {
+    "CashAccountRule": {
+      "definition": "CashAccount doit être présent ou Cancellation(*)/CashAccount doit être présent, mais pas les deux."
+    },
+    "CashAccountOwnerRule": {
+      "definition": "CashAccountOwner doit être présent ou Cancellation(*)/AccountOwner doit être présent, mais pas les deux."
+    },
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus doit être présent ou Cancellation(*)/ProcessingStatus doit être présent, mais pas les deux."
+    },
+    "CashAccountServicerRule": {
+      "definition": "CashAccountServicer doit être présent ou Cancellation(*)/AccountOwner doit être présent, mais pas les deux."
+    }
+  }
+}

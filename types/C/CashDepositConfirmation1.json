@@ -1,0 +1,15 @@
+{
+  "isoType": "CashDepositConfirmation1",
+  "definition": "Confirmation de la manière dont le destinataire des espèces réglera le dépôt d'espèces.",
+  "isoElements": {
+    "ValidCashDepositReceived": {
+      "definition": "Confirme les espèces reçues par le destinataire des espèces pour une demande de dépôt d'espèces qui seront créditées sur le compte."
+    },
+    "InvalidCashDepositReceived": {
+      "definition": "Confirme les espèces reçues par le destinataire des espèces pour une CashDepositRequest qui ne seront pas créditées sur un compte, par exemple parce que les espèces sont contrefaites."
+    },
+    "DiscrepancyIdentification": {
+      "definition": "Identification unique de l'écart."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "UnderlyingTransaction8Choice",
+  "definition": "Fournit des détails sur l'opération sous-jacente faisant l'objet de l'enquête.",
+  "isoElements": {
+    "Initiation": {
+      "definition": "Ensemble d'éléments utilisés pour référencer les détails de l'initiation de paiement d'origine."
+    },
+    "Interbank": {
+      "definition": "Ensemble d'éléments utilisés pour référencer les détails de l'opération de paiement interbancaire d'origine."
+    },
+    "StatementEntry": {
+      "definition": "Détails de référence sur l'écriture de trésorerie sous-jacente du relevé."
+    }
+  }
+}

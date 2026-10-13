@@ -1,0 +1,254 @@
+{
+  "isoType": "ExternalInvestigationReason1Code",
+  "definition": "Précise le motif de l'enquête, tel que publié dans un ensemble externe de codes de motifs d'enquête.|Les ensembles de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "RERE": {
+      "name": "Référence associée",
+      "definition": "La référence de l'opération associée est incorrecte, incomplète ou manquante."
+    },
+    "SVLV": {
+      "name": "Niveau de service du paiement",
+      "definition": "Le niveau de service du type de paiement est incorrect, incomplet ou manquant."
+    },
+    "CAPU": {
+      "name": "Catégorie de motif",
+      "definition": "Le motif de catégorie du type de paiement est incorrect, incomplet ou manquant."
+    },
+    "REDT": {
+      "name": "Date d'exécution demandée",
+      "definition": "La date d'exécution demandée est incorrecte ou manquante."
+    },
+    "ISDT": {
+      "name": "Date de règlement interbancaire",
+      "definition": "La date de règlement interbancaire est incorrecte."
+    },
+    "ISAM": {
+      "name": "Montant du règlement interbancaire",
+      "definition": "Le montant de règlement interbancaire est incorrect."
+    },
+    "AMNT": {
+      "name": "Montant",
+      "definition": "Un élément de montant a déclenché l'enquête."
+    },
+    "DTOR": {
+      "name": "Débiteur",
+      "definition": "Des informations complémentaires concernant le débiteur sont demandées."
+    },
+    "DTAG": {
+      "name": "Banque du débiteur",
+      "definition": "Des informations complémentaires concernant la banque du débiteur sont demandées."
+    },
+    "IGRA": {
+      "name": "Banque de remboursement donneuse d'ordre",
+      "definition": "Des informations complémentaires concernant la banque de remboursement donneuse d'ordre sont demandées."
+    },
+    "IDRA": {
+      "name": "Banque de remboursement instruite",
+      "definition": "Des informations complémentaires concernant la banque de remboursement destinataire de l'ordre sont demandées."
+    },
+    "TDRA": {
+      "name": "Troisième banque de remboursement",
+      "definition": "Des informations complémentaires concernant la troisième banque de remboursement sont demandées."
+    },
+    "INAG": {
+      "name": "Banque intermédiaire",
+      "definition": "Des informations complémentaires concernant une banque intermédiaire sont demandées."
+    },
+    "PYCC": {
+      "name": "Canal de compensation du paiement",
+      "definition": "Le canal de compensation du type de paiement est incorrect, incomplet ou manquant."
+    },
+    "CTAG": {
+      "name": "Banque du créancier",
+      "definition": "Des informations complémentaires concernant la banque du créancier sont demandées."
+    },
+    "CTOR": {
+      "name": "Créancier",
+      "definition": "Des informations complémentaires concernant le créancier sont demandées."
+    },
+    "REIN": {
+      "name": "Informations de remise",
+      "definition": "Les informations de remise sont incorrectes, incomplètes ou manquantes."
+    },
+    "PYPU": {
+      "name": "Motif du paiement",
+      "definition": "Le motif du paiement de l'opération est incorrect, incomplet ou manquant."
+    },
+    "CHBE": {
+      "name": "Frais",
+      "definition": "Des informations complémentaires concernant les frais sont demandées."
+    },
+    "INNA": {
+      "name": "Instruction pour la banque suivante",
+      "definition": "Des informations complémentaires concernant l'instruction pour la banque suivante sont demandées."
+    },
+    "INCA": {
+      "name": "Instruction pour la banque du créancier",
+      "definition": "Des informations complémentaires concernant l'instruction pour la banque du créancier sont demandées."
+    },
+    "STET": {
+      "name": "Écriture de relevé",
+      "definition": "Des informations complémentaires concernant une écriture de relevé sont demandées."
+    },
+    "SEAC": {
+      "name": "Compte de règlement",
+      "definition": "Des informations complémentaires concernant le compte de règlement sont demandées."
+    },
+    "CHIN": {
+      "name": "Informations sur les frais",
+      "definition": "Des informations complémentaires concernant les informations sur les frais sont demandées."
+    },
+    "ULTD": {
+      "name": "Débiteur final",
+      "definition": "Des informations complémentaires concernant le débiteur final sont demandées."
+    },
+    "ULTC": {
+      "name": "Créancier final",
+      "definition": "Des informations complémentaires concernant le créancier final sont demandées."
+    },
+    "PURP": {
+      "name": "Motif",
+      "definition": "Des informations complémentaires concernant le motif sont demandées."
+    },
+    "INPA": {
+      "name": "Partie initiatrice",
+      "definition": "Des informations complémentaires concernant la partie initiatrice sont demandées."
+    },
+    "REGR": {
+      "name": "Déclaration réglementaire",
+      "definition": "La déclaration réglementaire est incomplète ou manquante."
+    },
+    "TAXD": {
+      "name": "Impôt",
+      "definition": "Les données fiscales sont incomplètes ou manquantes."
+    },
+    "FRAD": {
+      "name": "Instrument frauduleux",
+      "definition": "L'instrument est confirmé comme frauduleux."
+    },
+    "FCCI": {
+      "name": "Conformité en matière de criminalité financière",
+      "definition": "L'enquête concerne la conformité en matière de criminalité financière."
+    },
+    "FWTR": {
+      "name": "Réglementation sur les transferts de fonds ou sur les virements télégraphiques",
+      "definition": "L'enquête concerne la réglementation relative aux transferts de fonds ou aux virements."
+    },
+    "CHCO": {
+      "name": "Demande de copie du chèque",
+      "definition": "Une copie du chèque est demandée."
+    },
+    "DRCO": {
+      "name": "Demande de copie de la traite",
+      "definition": "Une copie de la traite est demandée."
+    },
+    "AMLI": {
+      "name": "Lutte contre le blanchiment d'argent",
+      "definition": "Le message de demande concerne la lutte contre le blanchiment de capitaux."
+    },
+    "RQPR": {
+      "name": "Demande de relation entre les parties",
+      "definition": "Des précisions sur une relation entre parties sont demandées."
+    },
+    "RQVD": {
+      "name": "Demande de détails sur le navire ou l'aéronef",
+      "definition": "Des précisions sur un navire ou un aéronef sont demandées."
+    },
+    "RQLD": {
+      "name": "Demande de détails sur le lieu",
+      "definition": "Des précisions sur les informations de localisation sont demandées."
+    },
+    "RQSG": {
+      "name": "Demande de détails sur les services ou les biens",
+      "definition": "Des précisions sur les biens ou services concernés sont demandées."
+    },
+    "RQED": {
+      "name": "Demande de la date d'échange des services ou des biens",
+      "definition": "Des précisions sur la date d'échange des biens ou services sont demandées."
+    },
+    "RQDO": {
+      "name": "Demande de documentation",
+      "definition": "La documentation relative à l'opération est demandée."
+    },
+    "CHNP": {
+      "name": "Chèque pas encore payé",
+      "definition": "Chèque non encore payé bien qu'envoyé à la banque."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Voir l'élément AdditionalRequestData pour des informations complémentaires"
+    },
+    "RQCD": {
+      "name": "Demande de la date de clôture du compte",
+      "definition": "La date de clôture du compte est demandée."
+    },
+    "UTAP": {
+      "name": "Impossible à appliquer par le créancier",
+      "definition": "Une écriture comptabilisée ne peut pas être appliquée par le créancier."
+    },
+    "CCNR": {
+      "name": "Réclamation du créancier pour non-réception",
+      "definition": "Le créancier déclare ne pas avoir reçu le paiement."
+    },
+    "CONR": {
+      "name": "Réclamation de la banque du créancier pour non-réception de la couverture",
+      "definition": "La banque du créancier déclare ne pas avoir reçu la couverture ou le règlement."
+    },
+    "PINC": {
+      "name": "Initiation de paiement non confirmée",
+      "definition": "L'initiation du paiement n'a pas été réglée ou confirmée."
+    },
+    "RQVA": {
+      "name": "Demande d'ajustement de la date de valeur",
+      "definition": "Une réévaluation d'une écriture est demandée."
+    },
+    "RQUF": {
+      "name": "Demande d'utilisation des fonds",
+      "definition": "L'utilisation des fonds d'une écriture est demandée."
+    },
+    "RQDA": {
+      "name": "Demande d'autorisation de débit",
+      "definition": "L'autorisation de débit d'une écriture est demandée."
+    },
+    "ACCT": {
+      "name": "Enquête relative au compte",
+      "definition": "Enquête relative à un compte."
+    },
+    "RQCH": {
+      "name": "Demande relative aux frais",
+      "definition": "Enquête relative à des frais prélevés ou impayés."
+    },
+    "RIMF": {
+      "name": "Demande du FMI",
+      "definition": "Demande émanant du Fonds monétaire international."
+    },
+    "MCAT": {
+      "name": "Montant au crédit manquant",
+      "definition": "Montant créditeur manquant sur le relevé."
+    },
+    "MDAT": {
+      "name": "Montant au débit manquant",
+      "definition": "Montant débiteur manquant sur le relevé."
+    },
+    "IIRT": {
+      "name": "Type de taux d'intérêt non valide",
+      "definition": "Taux d'intérêt invalide."
+    },
+    "INCB": {
+      "name": "Solde de clôture incorrect",
+      "definition": "Solde de clôture incorrect."
+    },
+    "IAIB": {
+      "name": "Intérêts courus incorrects",
+      "definition": "Solde des intérêts courus incorrect."
+    },
+    "IDAI": {
+      "name": "Intérêts courus quotidiens incorrects",
+      "definition": "Montant quotidien des intérêts courus incorrect."
+    },
+    "INTA": {
+      "name": "Montant de l'opération incorrect",
+      "definition": "Montant de l'opération incorrect."
+    }
+  }
+}

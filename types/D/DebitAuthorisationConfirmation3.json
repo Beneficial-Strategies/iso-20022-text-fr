@@ -1,0 +1,24 @@
+{
+  "isoType": "DebitAuthorisationConfirmation3",
+  "definition": "Précise si l'autorisation de débit est accordée ou non.",
+  "isoElements": {
+    "DebitAuthorisation": {
+      "definition": "Code exprimant la décision prise par le titulaire du compte concernant la demande d'autorisation de débit."
+    },
+    "AmountToDebit": {
+      "definition": "Montant autorisé au débit. |Utilisation : la partie qui approuve le débit peut souhaiter autoriser le montant net des frais et n'être disposée à approuver le débit qu'avec une valeur du jour plutôt qu'avec la date de valeur initiale."
+    },
+    "Account": {
+      "definition": "Compte sur lequel le débit doit être comptabilisé."
+    },
+    "ValueDateToDebit": {
+      "definition": "Date de valeur du débit du compte."
+    },
+    "CommonTransactionIdentification": {
+      "definition": "Identification unique (UTI) convenue entre les deux contreparties à la transaction pour identifier celle-ci.||Utilisation : utilisé uniquement dans le secteur des titres."
+    },
+    "Reason": {
+      "definition": "Précise le motif de la réponse à la demande d'autorisation de débit."
+    }
+  }
+}

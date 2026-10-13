@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficialOwnership5Choice",
+  "definition": "Choix de format pour le bénéficiaire effectif.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indique s'il y a un changement de bénéficiaire effectif."
+    },
+    "Proprietary": {
+      "definition": "Informations sur le bénéficiaire effectif exprimées sous la forme d'un code propriétaire."
+    }
+  }
+}

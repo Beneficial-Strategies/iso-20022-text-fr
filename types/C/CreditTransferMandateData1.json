@@ -1,0 +1,33 @@
+{
+  "isoType": "CreditTransferMandateData1",
+  "definition": "Fournit des précisions supplémentaires relatives à un mandat de virement signé entre le créancier et le débiteur.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identification unique, attribuée par le créancier, permettant d'identifier sans ambiguïté le mandat."
+    },
+    "Type": {
+      "definition": "Précise le type de mandat, par exemple papier, électronique ou de schéma."
+    },
+    "DateOfSignature": {
+      "definition": "Date à laquelle le mandat de virement a été signé par le débiteur."
+    },
+    "DateOfVerification": {
+      "definition": "Date à laquelle le mandat de virement a été vérifié."
+    },
+    "ElectronicSignature": {
+      "definition": "Dispositions de sécurité supplémentaires, telles qu'une signature numérique, fournies par le débiteur."
+    },
+    "FirstPaymentDate": {
+      "definition": "Date du premier paiement d'un virement récurrent conformément au mandat."
+    },
+    "FinalPaymentDate": {
+      "definition": "Date du dernier paiement d'un virement récurrent conformément au mandat."
+    },
+    "Frequency": {
+      "definition": "Régularité avec laquelle les instructions de virement doivent être créées et traitées."
+    },
+    "Reason": {
+      "definition": "Motif de la mise en place du mandat de virement.||Utilisation : |Le motif permet à l'utilisateur de distinguer différents mandats d'un même créancier."
+    }
+  }
+}

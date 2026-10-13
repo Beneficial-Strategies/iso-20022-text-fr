@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingProcessingReason16Choice",
+  "definition": "Choix de format pour un motif de traitement en attente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction a le statut de traitement en attente."
+    },
+    "Proprietary": {
+      "definition": "Précise le motif pour lequel l'instruction a le statut de traitement en attente."
+    }
+  }
+}

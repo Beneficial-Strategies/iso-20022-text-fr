@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMTransaction40",
+  "definition": "Opération pour laquelle l'exception est envoyée.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identification de l'opération."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identification de la période de rapprochement."
+    },
+    "Exception": {
+      "definition": "Exception survenant en dehors du service."
+    },
+    "ExceptionDetail": {
+      "definition": "Explication de l'exception."
+    },
+    "ElectronicPurseBalance": {
+      "definition": "Solde de la carte capturée ou du porte-monnaie électronique, si disponible."
+    }
+  }
+}

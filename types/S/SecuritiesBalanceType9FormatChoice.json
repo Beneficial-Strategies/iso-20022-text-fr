@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesBalanceType9FormatChoice",
+  "definition": "Choix de formats pour exprimer le type de solde de titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard permettant de préciser le type de solde de titres."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire permettant d'exprimer le type de solde de titres."
+    }
+  }
+}

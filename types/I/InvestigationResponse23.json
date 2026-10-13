@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestigationResponse23",
+  "definition": "Fournit les détails de la réponse à l'enquête.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par le répondant et envoyée au demandeur pour identifier le message de manière non ambiguë.|Utilisation : le répondant doit s'assurer que MessageIdentification est unique par demandeur pendant une période convenue au préalable."
+    },
+    "ResponderInvestigationIdentification": {
+      "definition": "Identification unique, attribuée par le répondant, pour identifier sans ambiguïté la référence du répondant pour l'enquête."
+    },
+    "InvestigationStatus": {
+      "definition": "Statut de la demande d'enquête."
+    },
+    "NextResponder": {
+      "definition": "Identification de la partie ou de la banque dont le répondant attend une réponse.||Utilisation : lorsque le répondant a transmis l'enquête à une autre partie, il est recommandé de renseigner l'élément NextResponder."
+    },
+    "InvestigationData": {
+      "definition": "Fournit la réponse à la demande."
+    }
+  }
+}

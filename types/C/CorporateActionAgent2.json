@@ -1,0 +1,33 @@
+{
+  "isoType": "CorporateActionAgent2",
+  "definition": "Informations détaillées sur les agents impliqués dans un événement d'opération sur titres.",
+  "isoElements": {
+    "IssuerAgent": {
+      "definition": "Partie désignée pour administrer l'événement pour le compte de la société émettrice ou de l'offrant. La partie peut être contactée pour obtenir plus d'informations sur l'événement."
+    },
+    "PayingAgent": {
+      "definition": "Agent (agent payeur principal ou fiscal) désigné pour exécuter le paiement de l'événement d'opération sur titres pour le compte de la société émettrice ou de l'offrant."
+    },
+    "Registrar": {
+      "definition": "Partie ou agent chargé de tenir le registre du titre."
+    },
+    "RemarketingAgent": {
+      "definition": "Agent qui recommercialise le titre sans que l'encours soit réduit."
+    },
+    "SolicitationAgent": {
+      "definition": "Société fiduciaire, banque ou établissement financier similaire désigné par un émetteur pour tenir les registres des investisseurs, ainsi que les soldes de comptes et les opérations, aux fins du consentement à une modification importante."
+    },
+    "InformationAgent": {
+      "definition": "Société fiduciaire, banque ou établissement financier similaire désigné par un émetteur pour fournir des informations et des copies de la documentation de l'offre."
+    },
+    "Issuer": {
+      "definition": "Émetteur de l'instrument financier."
+    },
+    "TransferAgent": {
+      "definition": "Société fiduciaire, banque ou établissement financier similaire désigné par une société de gestion de fonds pour tenir les registres des investisseurs et les soldes de comptes. L'agent de transfert enregistre les opérations, y compris les souscriptions, les rachats, les arbitrages, les transferts et les ré-inscriptions."
+    },
+    "RedemptionAgent": {
+      "definition": "Dépositaire, ou toute banque ou société fiduciaire, désigné pour recevoir et envoyer le produit des remboursements."
+    }
+  }
+}

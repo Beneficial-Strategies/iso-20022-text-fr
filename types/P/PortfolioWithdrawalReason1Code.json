@@ -1,0 +1,10 @@
+{
+  "isoType": "PortfolioWithdrawalReason1Code",
+  "definition": "Précise un motif de retrait du produit d’investissement.",
+  "isoCodes": {
+    "FTRS": {
+      "name": "Premier bien résidentiel",
+      "definition": "Le retrait est destiné à un premier bien immobilier résidentiel."
+    }
+  }
+}

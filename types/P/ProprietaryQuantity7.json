@@ -1,0 +1,21 @@
+{
+  "isoType": "ProprietaryQuantity7",
+  "definition": "Format de quantité propriétaire.",
+  "isoElements": {
+    "ShortLongPosition": {
+      "definition": "Signe de la quantité de titres."
+    },
+    "Quantity": {
+      "definition": "Fournit la quantité propriétaire sous forme de nombre décimal."
+    },
+    "QuantityType": {
+      "definition": "Identifie le type de quantité propriétaire communiqué."
+    },
+    "Issuer": {
+      "definition": "Fournit des informations relatives à l'émetteur en format libre."
+    },
+    "SchemeName": {
+      "definition": "Nom du schéma d'identification."
+    }
+  }
+}

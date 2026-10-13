@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesModificationTransaction2",
+  "definition": "Identifie le détail de l'opération.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partie titulaire du compte."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "ProcessingStatus": {
+      "definition": "Statut et motif du statut de l'opération."
+    },
+    "RequestReference": {
+      "definition": "Identification sans ambiguïté de la demande de modification."
+    },
+    "StatusDate": {
+      "definition": "Date et heure auxquelles le statut a été attribué."
+    },
+    "RequestDetails": {
+      "definition": "Détail de la demande indiquant les changements et les références de l'instruction dont la modification est demandée."
+    },
+    "Underlying": {
+      "definition": "Identifie des détails complémentaires de l'opération."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "isoType": "FrequencyGranularityType1Code",
+  "definition": "Définit la granularité de la fréquence utilisée pour le reporting.",
+  "isoCodes": {
+    "EMON": {
+      "name": "Fin de mois",
+      "definition": "L'événement a lieu à la fin de chaque mois ou période d'un mois."
+    },
+    "EWEK": {
+      "name": "Fin de semaine",
+      "definition": "L'événement a lieu à la fin de chaque semaine."
+    },
+    "ESEM": {
+      "name": "Fin de semestre",
+      "definition": "L'événement a lieu à la fin de chaque période de six mois (ou deux fois par an)."
+    },
+    "EQRT": {
+      "name": "Fin de trimestre",
+      "definition": "L'événement a lieu à la fin de chaque période de trois mois (ou quatre fois par an)."
+    },
+    "EFRT": {
+      "name": "Fin de quinzaine",
+      "definition": "L'événement a lieu à la fin de chaque période de deux semaines."
+    },
+    "EDAY": {
+      "name": "Fin de journée",
+      "definition": "L'événement a lieu à la fin de chaque jour."
+    },
+    "ENDY": {
+      "name": "Fin d'année",
+      "definition": "L'événement a lieu à la fin de chaque année."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMDiagnosticRequest3",
+  "definition": "Informations relatives à la demande de diagnostic d'un ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Environnement de l'ATM."
+    },
+    "ATMGlobalStatus": {
+      "definition": "Statut global de l'ATM."
+    }
+  }
+}

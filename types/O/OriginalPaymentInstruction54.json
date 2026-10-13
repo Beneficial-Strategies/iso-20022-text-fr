@@ -1,0 +1,47 @@
+{
+  "isoType": "OriginalPaymentInstruction54",
+  "definition": "Fournit des détails sur la référence et le statut des opérations d'origine, incluses dans l'instruction d'origine, auxquelles s'applique le message de demande d'annulation.",
+  "isoElements": {
+    "OriginalPaymentInformationCancellationIdentification": {
+      "definition": "Identification unique, attribuée par l'attributeur d'origine, permettant d'identifier sans ambiguïté la demande d'annulation d'informations de paiement d'origine."
+    },
+    "ResolvedCase": {
+      "definition": "Identifie le dossier résolu."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Identification unique, attribuée par la partie émettrice d'origine, permettant d'identifier sans ambiguïté le groupe d'informations de paiement d'origine."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Fournit des informations sur le message d'origine."
+    },
+    "OriginalNumberOfTransactions": {
+      "definition": "Nombre d'opérations individuelles contenues dans le groupe d'informations de paiement d'origine."
+    },
+    "OriginalControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le groupe d'informations de paiement d'origine, quelles que soient les devises."
+    },
+    "PaymentInformationCancellationStatus": {
+      "definition": "Précise le statut d'une demande d'annulation relative à un groupe d'informations de paiement."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Fournit des informations détaillées sur le motif du statut d'annulation."
+    },
+    "NumberOfTransactionsPerCancellationStatus": {
+      "definition": "Informations détaillées sur le nombre d'opérations pour chaque statut d'annulation identique."
+    },
+    "TransactionInformationAndStatus": {
+      "definition": "Fournit des informations sur les opérations d'origine auxquelles se rapporte le message de demande d'annulation."
+    }
+  },
+  "isoRules": {
+    "CancellationStatusReasonInformationRule": {
+      "definition": "Si PaymentInformationCancellationStatus est présent et diffère de RJCR (RejectedCancellationRequest) ou de PNCR (PendingCancellationRequest), CancellationStatusReasonInformation/AdditionalInformation n'est pas autorisé."
+    },
+    "NumberOfTransactionsPerCancellationStatusGuideline": {
+      "definition": "OriginalGroupInformationAndStatus/NumberOfTransactionsPerStatus ne doit être présent que si GroupCancellationStatus est égal à PACR (PartialCancellationRequest)."
+    },
+    "PaymentInformationOrTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase peut être présent au niveau de ResolvedCase, de OriginalGroupInformationAndStatus, de OriginalPaymentInformationAndStatus ou de TransactionInformationAndStatus."
+    }
+  }
+}

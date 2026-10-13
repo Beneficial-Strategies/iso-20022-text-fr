@@ -1,0 +1,54 @@
+{
+  "isoType": "CardholderVerificationCapability1Code",
+  "definition": "Capacités de vérification du porteur de la carte du POI (code PIN, Personal Identification Number) effectuant l'opération.",
+  "isoCodes": {
+    "MNSG": {
+      "name": "Signature manuscrite",
+      "definition": "Vérification manuelle de la signature."
+    },
+    "NPIN": {
+      "name": "Code PIN en ligne",
+      "definition": "Code PIN en ligne (Personal Identification Number)."
+    },
+    "FCPN": {
+      "name": "Code PIN en clair hors ligne",
+      "definition": "Code PIN hors ligne en clair (Personal Identification Number)."
+    },
+    "FEPN": {
+      "name": "Code PIN chiffré hors ligne",
+      "definition": "Code PIN hors ligne chiffré (Personal Identification Number)."
+    },
+    "FDSG": {
+      "name": "Signature numérique hors ligne",
+      "definition": "Analyse de signature numérique hors ligne."
+    },
+    "FBIO": {
+      "name": "Données biométriques hors ligne",
+      "definition": "Données biométriques hors ligne."
+    },
+    "MNVR": {
+      "name": "Vérification manuelle",
+      "definition": "Autre vérification manuelle, par exemple passeport ou permis de conduire."
+    },
+    "FBIG": {
+      "name": "Données biographiques hors ligne",
+      "definition": "Données biographiques hors ligne."
+    },
+    "APKI": {
+      "name": "Signature numérique du compte",
+      "definition": "Signature numérique basée sur le compte."
+    },
+    "PKIS": {
+      "name": "Signature PKI",
+      "definition": "Signature numérique basée sur PKI (Public Key Infrastructure)."
+    },
+    "CHDT": {
+      "name": "Données du porteur de carte",
+      "definition": "Données d'authentification du porteur de la carte."
+    },
+    "SCEC": {
+      "name": "Commerce électronique sécurisé",
+      "definition": "Three domain secure (authentification du porteur de la carte par three domain secure)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MemberReportOrError7Choice",
+  "definition": "Sert à fournir des informations sur les opérations et les écritures comptabilisées détenues chez l'administrateur des transactions.",
+  "isoElements": {
+    "Report": {
+      "definition": "Fournit les détails du membre demandé."
+    },
+    "OperationalError": {
+      "definition": "Indique qu'une erreur opérationnelle a été émise lors du traitement de la demande associée."
+    }
+  }
+}

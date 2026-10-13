@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentification198Choice",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "NationalRegistrationNumber": {
+      "definition": "Numéro attribué à une entité par une autorité nationale d'enregistrement."
+    },
+    "LEI": {
+      "definition": "Identifiant d'entité juridique de la partie."
+    },
+    "AnyBIC": {
+      "definition": "Code attribué à un établissement financier ou non financier par l'autorité d'enregistrement ISO 9362, tel que décrit dans la norme ISO 9362 \"Banque - Messages de télécommunication bancaire - Code d'identification d'entreprise (BIC)\"."
+    },
+    "ClientIdentification": {
+      "definition": "Identification unique et non ambiguë de la contrepartie du client."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identifiant unique et non ambigu attribué à un établissement financier selon un schéma d'identification propriétaire."
+    }
+  }
+}

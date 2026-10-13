@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalRePresentmentReason1Code",
+  "definition": "Précise le code externe du motif de re-présentation, sous forme de chaîne de caractères d'une longueur maximale de 4 caractères. La liste des codes valides est une liste de codes externe publiée séparément.",
+  "isoCodes": {
+    "AMCR": {
+      "name": "Montant corrigé",
+      "definition": "Montant corrigé sur justificatif de l'opération."
+    },
+    "CLSD": {
+      "name": "Transfert de responsabilité d'authentification de carte refusé",
+      "definition": "Transfert de responsabilité à l'acquéreur en raison de l'absence de méthode d'authentification de la carte, refusé."
+    },
+    "CRPI": {
+      "name": "Crédit précédemment émis",
+      "definition": "Crédit précédemment émis."
+    },
+    "OTVA": {
+      "name": "Opération initiale valide",
+      "definition": "L'opération d'origine était valide."
+    },
+    "VLSD": {
+      "name": "Transfert de responsabilité de vérification refusé",
+      "definition": "Transfert de responsabilité à l'acquéreur en raison de l'absence de méthode de vérification du titulaire de la carte, refusé."
+    }
+  }
+}

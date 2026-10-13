@@ -1,0 +1,21 @@
+{
+  "isoType": "PortfolioTransferInstructionV12",
+  "definition": "Périmètre|Le message PortfolioTransferInstruction est envoyé par une partie instructrice, par exemple un (nouveau) gestionnaire de plan (cessionnaire), à la partie exécutante, par exemple un (ancien) gestionnaire de plan (cédant), pour le compte de la partie initiatrice, par exemple un investisseur (client), afin d’instruire le transfert d’instruments financiers du compte du client auprès de l’ancien gestionnaire de plan (cédant) vers le compte du client auprès du nouveau gestionnaire de plan (cessionnaire). |Utilisation|Le message PortfolioTransferInstruction est utilisé pour instruire un ou plusieurs transferts de portefeuille pour un client. Chaque transfert de portefeuille est destiné à une livraison sur le même compte. Le compte peut appartenir à un ou plusieurs investisseurs particuliers ou à un ou plusieurs investisseurs institutionnels.|Si la partie instructrice ne dispose pas d’informations suffisantes pour instruire le transfert de portefeuille, elle doit d’abord envoyer un message AccountHoldingInformationRequest à la partie exécutante afin de recevoir un message AccountHoldingInformation.",
+  "isoRules": {
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer doit être présent si et seulement s’il est différent de TransferorAccount/Servicer."
+    },
+    "Investor1Rule": {
+      "definition": "Si PrimaryIndividualInvestor n’est pas présent, alors SecondaryIndividualInvestor n’est pas autorisé.|Si PrimaryIndividualInvestor est présent, alors SecondaryIndividualInvestor peut être présent."
+    },
+    "Investor2Rule": {
+      "definition": "Si PrimaryIndividualInvestor n’est pas présent, alors OtherIndividualInvestor n’est pas autorisé. |Si PrimaryIndividualInvestor est présent, alors OtherIndividualInvestor peut être présent."
+    },
+    "Corporate2Rule": {
+      "definition": "Si PrimaryCorporateInvestor n’est pas présent, alors OtherCorporateInvestor n’est pas autorisé.|Si PrimaryCorporateInvestor est présent, alors OtherCorporateInvestor peut être présent."
+    },
+    "Corporate1Rule": {
+      "definition": "Si PrimaryCorporateInvestor n’est pas présent, alors SecondaryCorporateInvestor n’est pas autorisé.|Si PrimaryCorporateInvestor est présent, alors SecondaryCorporateInvestor peut être présent."
+    }
+  }
+}

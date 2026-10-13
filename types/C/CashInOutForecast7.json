@@ -1,0 +1,12 @@
+{
+  "isoType": "CashInOutForecast7",
+  "definition": "Mouvements de trésorerie entrant dans un fonds ou sortant d'un fonds à la suite d'opérations sur fonds d'investissement, par exemple des souscriptions, des rachats ou des échanges.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Date à laquelle la trésorerie est disponible."
+    },
+    "Amount": {
+      "definition": "Montant du flux de trésorerie."
+    }
+  }
+}

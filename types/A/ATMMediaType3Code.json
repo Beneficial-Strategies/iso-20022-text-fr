@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMMediaType3Code",
+  "definition": "Catégorie de supports.",
+  "isoCodes": {
+    "CNTR": {
+      "name": "Contrefait",
+      "definition": "Supports contrefaits détectés."
+    },
+    "FITN": {
+      "name": "Apte à la circulation",
+      "definition": "Supports aptes à la circulation."
+    },
+    "FITU": {
+      "name": "Apte et inapte à la circulation",
+      "definition": "Supports aptes ou inaptes à la circulation, si l'aptitude ne peut pas être déterminée."
+    },
+    "SPCT": {
+      "name": "Suspect",
+      "definition": "Supports suspects."
+    },
+    "UNFT": {
+      "name": "Inapte à la circulation",
+      "definition": "Supports inaptes à la circulation (qualité inacceptable)."
+    },
+    "UNRG": {
+      "name": "Non reconnu",
+      "definition": "Supports non reconnus."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "DocumentType3Code",
+  "definition": "Précise un type de document financier ou commercial.",
+  "isoCodes": {
+    "RADM": {
+      "name": "Message d'avis de remise",
+      "definition": "Le document est un avis de remise envoyé séparément de l'opération en cours."
+    },
+    "RPIN": {
+      "name": "Instruction de paiement associée",
+      "definition": "Le document est une instruction de paiement liée à laquelle l'instruction de paiement en cours se rapporte, par exemple dans un scénario de couverture."
+    },
+    "FXDR": {
+      "name": "Référence de l'opération de change",
+      "definition": "Le document est une opération de change convenue ou arrangée au préalable à laquelle l'opération de paiement se réfère."
+    },
+    "DISP": {
+      "name": "Avis d'expédition",
+      "definition": "Le document est un avis d'expédition."
+    },
+    "PUOR": {
+      "name": "Bon de commande",
+      "definition": "Le document est un bon de commande."
+    },
+    "SCOR": {
+      "name": "Référence de communication structurée",
+      "definition": "Le document est une référence de communication structurée fournie par le créancier pour identifier l'opération référencée."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketIdentification89",
+  "definition": "Contexte, ou environnement géographique, dans lequel les parties à une négociation peuvent se rencontrer afin de négocier et d'exécuter des transactions entre elles.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Code attribué aux lieux de négociation (bourses), aux marchés réglementés (par exemple les plateformes de négociation électroniques - ECN) et aux marchés non réglementés (par exemple les systèmes de négociation automatisés - ATS), en tant que sources de prix et d'informations connexes, afin de faciliter le traitement automatisé."
+    },
+    "Type": {
+      "definition": "Nature d'un marché sur lequel les transactions ont lieu."
+    }
+  }
+}

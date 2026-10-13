@@ -1,0 +1,322 @@
+{
+  "isoType": "RejectionReason76Code",
+  "definition": "Précise le motif pour lequel l'instruction ou la demande d'annulation a le statut rejeté.",
+  "isoCodes": {
+    "ULNK": {
+      "name": "Référence non valide",
+      "definition": "La référence liée est inconnue."
+    },
+    "SAFE": {
+      "name": "Rejet du compte de conservation",
+      "definition": "Compte de conservation de l'émetteur du message non reconnu ou invalide."
+    },
+    "DQUA": {
+      "name": "Rejet de la quantité",
+      "definition": "Quantité instruite non reconnue ou invalide."
+    },
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Opération ou instruction reçue après l'heure limite précisée par l'établissement teneur de compte."
+    },
+    "RTGS": {
+      "name": "Impossible d'utiliser le système RTGS indiqué",
+      "definition": "Impossible d'utiliser le système RTGS indiqué (NRTG ou YRTG)."
+    },
+    "NCRR": {
+      "name": "Rejet de la devise du montant de règlement",
+      "definition": "Devise du montant de règlement non reconnue ou invalide."
+    },
+    "DSEC": {
+      "name": "Titre non valide",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    },
+    "DADR": {
+      "name": "Rejet des détails de l'adresse",
+      "definition": "Les détails de l'adresse sont incorrects ou ne peuvent pas être reconnus."
+    },
+    "INIR": {
+      "name": "Instruction irrévocable",
+      "definition": "L'instruction est irrévocable."
+    },
+    "CANC": {
+      "name": "Option annulée",
+      "definition": "L'option n'est pas valide ; elle a été annulée par le marché ou le prestataire de services et ne peut plus recevoir de réponse. Toute réponse déjà traitée pour cette option est considérée comme nulle et de nouvelles réponses seront requises."
+    },
+    "INTV": {
+      "name": "Option inactive",
+      "definition": "L'option n'est pas active et ne peut plus recevoir de réponse. Toute réponse déjà traitée pour cette option reste valide, par exemple une option expirée."
+    },
+    "INVA": {
+      "name": "Non valide pour les autorités fiscales",
+      "definition": "Pour une réclamation fiscale, la réclamation n'est pas valide pour les autorités fiscales."
+    },
+    "REFT": {
+      "name": "Refusé par les autorités fiscales",
+      "definition": "La réclamation est refusée par les autorités fiscales."
+    },
+    "PHYS": {
+      "name": "Règlement physique impossible",
+      "definition": "Le règlement physique est impossible pour l'instrument financier instruit."
+    },
+    "REFE": {
+      "name": "Rejet de référence",
+      "definition": "L'instruction porte une référence identique à celle d'une autre instruction reçue précédemment."
+    },
+    "LACK": {
+      "name": "Manque de titres",
+      "definition": "La position instruite dépasse le solde éligible."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "NMTY": {
+      "name": "Non-concordance",
+      "definition": "Non-concordance entre le numéro d'option et le type d'option."
+    },
+    "OPNM": {
+      "name": "Rejet du numéro d'option",
+      "definition": "Numéro d'option non reconnu."
+    },
+    "DMON": {
+      "name": "Rejet du montant de règlement",
+      "definition": "Montant de règlement non reconnu ou invalide."
+    },
+    "OPTY": {
+      "name": "Type d'option non valide",
+      "definition": "Type d'option invalide."
+    },
+    "DCAN": {
+      "name": "Rejeté car déjà annulé",
+      "definition": "La demande d'annulation a été rejetée car l'instruction a déjà été annulée."
+    },
+    "DPRG": {
+      "name": "Rejeté car en cours",
+      "definition": "La demande d'annulation a été rejetée car le traitement de l'instruction est en cours ou a été effectué."
+    },
+    "EVNM": {
+      "name": "Identification non reconnue",
+      "definition": "Numéro d'événement non reconnu."
+    },
+    "STAT": {
+      "name": "Statuts manquants",
+      "definition": "Statuts, extrait du registre du commerce ou autres documents juridiques manquants."
+    },
+    "STAM": {
+      "name": "Non tamponné ou non signé",
+      "definition": "L'instrument financier n'a pas été timbré et/ou dûment signé."
+    },
+    "SIGN": {
+      "name": "Signature non valide",
+      "definition": "La demande d'enregistrement ne comporte pas de signature valide du propriétaire de l'instrument financier."
+    },
+    "SHAR": {
+      "name": "Rejet du numéro d'actionnaire",
+      "definition": "Numéro d'actionnaire non reconnu, manquant ou invalide."
+    },
+    "MINO": {
+      "name": "Quantité de règlement minimale",
+      "definition": "La quantité instruite est inférieure à la quantité de règlement minimale existante pour l'instrument financier."
+    },
+    "NRGM": {
+      "name": "Aucune correspondance",
+      "definition": "Plusieurs instructions correspondent aux critères."
+    },
+    "MLEG": {
+      "name": "Pouvoir légal manquant",
+      "definition": "Pouvoir juridique de transfert manquant."
+    },
+    "BATC": {
+      "name": "Rejet du lot de traitement",
+      "definition": "Lot de traitement non reconnu ou invalide, c'est-à-dire en journée/temps réel alors que le règlement n'est possible que par lot de nuit."
+    },
+    "CADE": {
+      "name": "Délai d'appel de l'opération",
+      "definition": "Délai d'appel de l'opération non reconnu ou invalide."
+    },
+    "CASH": {
+      "name": "Compte espèces",
+      "definition": "Compte espèces non reconnu ou invalide."
+    },
+    "DDEA": {
+      "name": "Prix de la transaction",
+      "definition": "Prix de la transaction non reconnu ou invalide."
+    },
+    "OWNT": {
+      "name": "Rejet du type de propriété",
+      "definition": "Le type de propriété indiqué n'est pas correct."
+    },
+    "NRGN": {
+      "name": "Rejet pour élément introuvable",
+      "definition": "L'instruction est introuvable."
+    },
+    "MUNO": {
+      "name": "Quantité de règlement multiple",
+      "definition": "La quantité instruite n'est pas un multiple d'un lot de règlement existant pour l'instrument financier."
+    },
+    "REQW": {
+      "name": "Demande d'enregistrement erronée",
+      "definition": "La demande d'enregistrement à compléter par l'acheteur et à transmettre à l'émetteur est erronée. Vous avez utilisé la demande d'enregistrement d'un autre émetteur/teneur de registre."
+    },
+    "TXST": {
+      "name": "Rejet du statut fiscal",
+      "definition": "Statut fiscal des titres instruits non reconnu ou invalide."
+    },
+    "REPA": {
+      "name": "Montant de l'opération de résiliation",
+      "definition": "Montant de l'opération de résiliation non reconnu ou invalide."
+    },
+    "REPO": {
+      "name": "Taux de rachat",
+      "definition": "Taux de rachat non reconnu ou invalide."
+    },
+    "REPP": {
+      "name": "Montant de la prime",
+      "definition": "Montant de la prime non reconnu ou invalide."
+    },
+    "RREA": {
+      "name": "Désaccord sur le motif d'enregistrement",
+      "definition": "Le motif d'enregistrement indiqué n'est pas correct."
+    },
+    "REQM": {
+      "name": "Demande d'enregistrement manquante",
+      "definition": "La demande d'enregistrement à compléter par l'acheteur et à transmettre à l'émetteur est manquante."
+    },
+    "RERT": {
+      "name": "Type de taux de rachat",
+      "definition": "Type de taux de rachat non reconnu ou invalide."
+    },
+    "RSPR": {
+      "name": "Taux de marge",
+      "definition": "Taux de marge non reconnu ou invalide."
+    },
+    "SETS": {
+      "name": "Rejet de la méthode du système de règlement",
+      "definition": "Système/mode de règlement instruit non reconnu ou invalide."
+    },
+    "DTRD": {
+      "name": "Date de négociation",
+      "definition": "Date de transaction, date de transaction demandée ou date de transaction future non reconnue ou invalide."
+    },
+    "IIND": {
+      "name": "Rejet de la référence commune",
+      "definition": "Référence commune non reconnue, invalide ou manquante."
+    },
+    "PLCE": {
+      "name": "Lieu de négociation",
+      "definition": "Lieu de négociation non reconnu ou invalide."
+    },
+    "INNA": {
+      "name": "Rejet des informations en texte libre",
+      "definition": "Information narrative préconvenue de l'accord de niveau de service non reconnue ou invalide."
+    },
+    "ICOL": {
+      "name": "Garantie insuffisante",
+      "definition": "Garantie proposée insuffisante."
+    },
+    "BPAR": {
+      "name": "Rejet du numéro de partenaire commercial",
+      "definition": "Numéro de partenaire commercial non reconnu ou invalide."
+    },
+    "BREF": {
+      "name": "Rejet du numéro de référence bancaire",
+      "definition": "Numéro de référence bancaire non reconnu ou invalide."
+    },
+    "BUSE": {
+      "name": "Rejet du type d'ordre",
+      "definition": "Type d'ordre non reconnu ou invalide."
+    },
+    "CAEV": {
+      "name": "Rejet d'opération sur titres",
+      "definition": "Opération sur titres en cours sur l'instrument financier faisant l'objet de l'instruction."
+    },
+    "CASY": {
+      "name": "Système de règlement en espèces impossible",
+      "definition": "Des dispositions permanentes impossibles prévalent sur l'instruction pour le système de règlement espèces."
+    },
+    "COMC": {
+      "name": "Rejet du contrat de commercialisation",
+      "definition": "Contrat de commercialisation non reconnu ou invalide."
+    },
+    "CONL": {
+      "name": "Limite de concentration dépassée",
+      "definition": "La limite de concentration a été dépassée."
+    },
+    "CPTY": {
+      "name": "Exposition de transaction inconnue",
+      "definition": "L'opération ou l'exposition est inconnue."
+    },
+    "DDAT": {
+      "name": "Rejet de la date de règlement",
+      "definition": "Date de règlement non reconnue ou invalide."
+    },
+    "DISC": {
+      "name": "Désaccord sur le montant de l'appel",
+      "definition": "La partie n'est pas d'accord avec le montant de l'appel."
+    },
+    "DISE": {
+      "name": "Désaccord sur le montant de l'exposition",
+      "definition": "La partie n'est pas d'accord avec le montant de l'exposition."
+    },
+    "DORD": {
+      "name": "Rejet des données de la demande d'enregistrement et de l'ordre",
+      "definition": "Désaccord entre les données de la demande d'enregistrement et l'ordre."
+    },
+    "FEEE": {
+      "name": "Rejet des frais et commissions",
+      "definition": "Frais ou commission non reconnus ou invalides."
+    },
+    "SETR": {
+      "name": "Rejet de l'opération de règlement",
+      "definition": "Type d'opération de règlement non reconnu ou invalide."
+    },
+    "TERM": {
+      "name": "Rejet de la date et heure de clôture",
+      "definition": "Date/heure de clôture non reconnue ou invalide."
+    },
+    "VASU": {
+      "name": "Rejet du support du taux variable",
+      "definition": "Support de taux variable non reconnu ou invalide (pension livrée)."
+    },
+    "INPS": {
+      "name": "Lieu de conservation",
+      "definition": "Lieu de conservation non reconnu, invalide ou manquant."
+    },
+    "SDUT": {
+      "name": "Absence de droit de timbre",
+      "definition": "Les informations requises sur le droit de timbre sont manquantes."
+    },
+    "FORF": {
+      "name": "Montant de la déchéance",
+      "definition": "Montant de la pénalité non reconnu ou invalide."
+    },
+    "ICUS": {
+      "name": "Partie réceptrice ou livreuse 2",
+      "definition": "Client de la partie 1 livreuse ou réceptrice non reconnu ou invalide."
+    },
+    "ICAG": {
+      "name": "Partie réceptrice ou livreuse 1",
+      "definition": "Participant du dépositaire livreur ou récepteur non reconnu ou invalide."
+    },
+    "DEPT": {
+      "name": "Dépositaire récepteur ou livreur",
+      "definition": "Dépositaire non reconnu ou invalide."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "IEXE": {
+      "name": "Partie réceptrice ou livreuse 3",
+      "definition": "Client de la partie 2 livreuse ou réceptrice non reconnu ou invalide."
+    },
+    "INVE": {
+      "name": "Partie investisseur non valide",
+      "definition": "Partie investisseur non reconnue ou invalide. Peut être utilisé par une partie exécutante pour rejeter une instruction concernant un investisseur (ou un portefeuille) pour lequel elle n'est pas autorisée à agir."
+    },
+    "PLIS": {
+      "name": "Lieu de cotation",
+      "definition": "Lieu de cotation non reconnu ou invalide. Utilisé lorsque le titre identifié n'est pas coté sur le marché fourni."
+    }
+  }
+}

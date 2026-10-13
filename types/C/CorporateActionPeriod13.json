@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionPeriod13",
+  "definition": "Précise des périodes.",
+  "isoElements": {
+    "PriceCalculationPeriod": {
+      "definition": "Période pendant laquelle le prix d'un titre est déterminé."
+    },
+    "ActionPeriod": {
+      "definition": "Période pendant laquelle l'option indiquée, ou toutes les options de l'événement, reste valide, par exemple, période d'offre."
+    },
+    "ParallelTradingPeriod": {
+      "definition": "Période pendant laquelle les anciennes et les nouvelles actions peuvent être négociées simultanément, par exemple, regroupement ou fractionnement d'actions."
+    }
+  }
+}

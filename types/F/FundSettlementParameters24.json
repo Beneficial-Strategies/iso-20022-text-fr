@@ -1,0 +1,24 @@
+{
+  "isoType": "FundSettlementParameters24",
+  "definition": "Paramètres appliqués au règlement d'un titre.",
+  "isoElements": {
+    "SafekeepingPlace": {
+      "definition": "Lieu où les titres sont conservés, physiquement ou notionnellement. Ce lieu peut être, par exemple, un conservateur local, un dépositaire central de titres ou un dépositaire central international de titres."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Condition dans laquelle l'ordre/la transaction doit être ou a été exécuté. Peut être requise pour un règlement via T2S."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Condition dans laquelle l'ordre/la transaction doit être réglé. Peut être requise pour un règlement via T2S."
+    },
+    "SecuritiesSettlementSystemIdentification": {
+      "definition": "Identification d'un système ou d'un ensemble de règles et/ou de processus spécifiques à appliquer au lieu de règlement."
+    },
+    "ReceivingSideDetails": {
+      "definition": "Chaîne de parties réceptrices au règlement."
+    },
+    "DeliveringSideDetails": {
+      "definition": "Chaîne de parties livreuses au règlement."
+    }
+  }
+}

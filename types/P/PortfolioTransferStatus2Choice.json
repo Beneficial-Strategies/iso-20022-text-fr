@@ -1,0 +1,18 @@
+{
+  "isoType": "PortfolioTransferStatus2Choice",
+  "definition": "Choix de format pour un statut de déclaration de contrepartie.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "L'instruction a été acquittée par la banque teneur de compte."
+    },
+    "PendingProcessing": {
+      "definition": "Le traitement de l'instruction/demande est en attente."
+    },
+    "Rejected": {
+      "definition": "L'instruction/demande a été rejetée pour la suite du traitement."
+    },
+    "Proprietary": {
+      "definition": "Statut qui ne peut pas être rapporté à l'aide de l'un des statuts standard disponibles."
+    }
+  }
+}

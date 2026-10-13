@@ -1,0 +1,15 @@
+{
+  "isoType": "MeetingContactPerson3",
+  "definition": "Informations sur une personne de contact.",
+  "isoElements": {
+    "ContactPerson": {
+      "definition": "Identification de la personne de contact par son nom, son prénom et son adresse."
+    },
+    "EmployingParty": {
+      "definition": "Identification de l'organisation représentée par la personne ou pour laquelle la personne travaille."
+    },
+    "PlaceOfListing": {
+      "definition": "Identification du marché financier, telle que stipulée dans la norme ISO 10383 « Codes pour les bourses et l'identification des marchés »."
+    }
+  }
+}

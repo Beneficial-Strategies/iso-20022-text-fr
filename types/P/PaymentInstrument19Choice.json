@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstrument19Choice",
+  "definition": "Choix d'instruments de paiement.",
+  "isoElements": {
+    "ChequeDetails": {
+      "definition": "Instructions de règlement pour un paiement par chèque."
+    },
+    "BankersDraftDetails": {
+      "definition": "Instructions de règlement pour un paiement par traite."
+    }
+  }
+}

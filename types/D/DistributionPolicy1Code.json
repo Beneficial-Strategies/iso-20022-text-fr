@@ -1,0 +1,14 @@
+{
+  "isoType": "DistributionPolicy1Code",
+  "definition": "Précise si les revenus doivent être versés (distribués) ou conservés (capitalisés).",
+  "isoCodes": {
+    "DIST": {
+      "name": "Distribution",
+      "definition": "Les revenus sont distribués aux investisseurs du fonds."
+    },
+    "ACCU": {
+      "name": "Capitalisation",
+      "definition": "Les revenus sont ajoutés au capital du fonds."
+    }
+  }
+}

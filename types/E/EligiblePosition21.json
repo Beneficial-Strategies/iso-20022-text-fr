@@ -1,0 +1,38 @@
+{
+  "isoType": "EligiblePosition21",
+  "definition": "Informations sur une position en titres et les détenteurs de droits.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification du compte-titres."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Adresse blockchain ou portefeuille dans lequel sont conservés les actifs numériques. Il s'agit de l'équivalent du compte de conservation pour les actifs numériques."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "HoldingBalance": {
+      "definition": "Position nette d'une détention ségréguée d'un titre unique au sein de la position globale détenue sur un compte-titres, par exemple le sous-solde par statut."
+    },
+    "RightsHolder": {
+      "definition": "Propriétaire des droits de vote."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "Il est recommandé que RightsHolder ne soit présent plus d'une fois qu'en cas de copropriété."
+    },
+    "HoldingBalanceTypeRule": {
+      "definition": "Dans toutes les occurrences de HoldingBalance, un et un seul BalanceType peut être ELIG (Eligible)."
+    },
+    "AccountIdentificationOrBlockChainAddress1Rule": {
+      "definition": "Soit AccountIdentification, soit BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    },
+    "AccountIdentificationOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, alors AccountIdentification doit être absent."
+    },
+    "AccountIdentificationOrBlockChainAddress3Rule": {
+      "definition": "Si AccountIdentification est présent, alors BlockChainAddressOrWallet doit être absent."
+    }
+  }
+}

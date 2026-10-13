@@ -1,0 +1,116 @@
+{
+  "isoType": "CorporateActionDate96",
+  "definition": "Précise les dates d'une opération sur titres.",
+  "isoElements": {
+    "AnnouncementDate": {
+      "definition": "Date/heure à laquelle l'émetteur a annoncé qu'un événement d'opération sur titres aura lieu."
+    },
+    "CertificationDeadline": {
+      "definition": "Date limite à laquelle la certification doit être envoyée."
+    },
+    "CourtApprovalDate": {
+      "definition": "Date à laquelle le tribunal a donné son approbation."
+    },
+    "EarlyClosingDate": {
+      "definition": "Première date possible de clôture anticipée d'une offre si elle diffère de la date d'expiration."
+    },
+    "EffectiveDate": {
+      "definition": "Date/heure à laquelle un événement entre officiellement en vigueur du point de vue de l'émetteur."
+    },
+    "EqualisationDate": {
+      "definition": "Date/heure à laquelle tout ou partie d'une participation achetée dans un fonds commun de placement est susceptible d'être traitée comme du capital plutôt que comme un revenu. Il s'agit normalement du jour suivant la date ex de la distribution précédente."
+    },
+    "FurtherDetailedAnnouncementDate": {
+      "definition": "Date/heure à laquelle des informations supplémentaires sur l'événement seront annoncées, par exemple, la date d'annonce du ratio d'échange."
+    },
+    "FixingDate": {
+      "definition": "Date/heure à laquelle un indice / taux / prix / valeur sera déterminé."
+    },
+    "LotteryDate": {
+      "definition": "Date/heure à laquelle le tirage au sort est effectué et appliqué aux positions du détenteur. Ceci s'applique également aux rappels partiels."
+    },
+    "NewMaturityDate": {
+      "definition": "Date/heure à laquelle la date d'échéance d'un titre portant intérêt est prorogée."
+    },
+    "MeetingDate": {
+      "definition": "Date/heure à laquelle l'assemblée des obligataires ou des actionnaires aura lieu."
+    },
+    "MarginFixingDate": {
+      "definition": "Date/heure à laquelle le taux de marge sera déterminé."
+    },
+    "ProrationDate": {
+      "definition": "Date/heure (et heure) à laquelle un émetteur déterminera le montant/la quantité de répartition proportionnelle d'une offre."
+    },
+    "RecordDate": {
+      "definition": "Date/heure à laquelle les positions sont arrêtées en fin de journée afin de déterminer quelles parties recevront le montant de droits correspondant, à distribuer à la date de paiement."
+    },
+    "RegistrationDeadline": {
+      "definition": "Date/heure à laquelle les instructions d'enregistrement ou les détails d'enregistrement seront acceptés."
+    },
+    "ResultsPublicationDate": {
+      "definition": "Date/heure à laquelle les résultats sont publiés, par exemple, les résultats d'une offre."
+    },
+    "DeadlineToSplit": {
+      "definition": "Date limite à laquelle les instructions doivent être reçues pour fractionner des titres, par exemple, des certificats physiques."
+    },
+    "DeadlineForTaxBreakdownInstruction": {
+      "definition": "Date/heure jusqu'à laquelle les instructions de ventilation fiscale seront acceptées."
+    },
+    "TradingSuspendedDate": {
+      "definition": "Date/heure à laquelle la négociation d'un titre est suspendue à la suite d'un événement."
+    },
+    "UnconditionalDate": {
+      "definition": "Date/heure à laquelle les conditions de l'offre publique d'acquisition deviennent inconditionnelles quant aux acceptations."
+    },
+    "WhollyUnconditionalDate": {
+      "definition": "Date/heure à laquelle toutes les conditions, y compris réglementaires, juridiques, etc., relatives à l'offre publique d'acquisition ont été remplies."
+    },
+    "ExDividendDate": {
+      "definition": "Date/heure à partir de laquelle la négociation (y compris la négociation en bourse et OTC) du titre sous-jacent a lieu sans l'avantage."
+    },
+    "OfficialAnnouncementPublicationDate": {
+      "definition": "Date/heure à laquelle l'opération sur titres est légalement annoncée par un organisme officiel, par exemple, par publication d'une administration gouvernementale."
+    },
+    "SpecialExDate": {
+      "definition": "Date/heure à partir de laquelle le « traitement spécial » peut être utilisé par les participants pour cet événement. Le traitement spécial est un moyen de marquer une opération, qui serait normalement négociée ex ou cum, comme négociée respectivement cum ou ex, par exemple, une opération conclue « spécial » après la date ex permettrait à l'acheteur de bénéficier du droit. Ceci est typiquement utilisé sur les marchés du UK et irlandais."
+    },
+    "GuaranteedParticipationDate": {
+      "definition": "Dernière date/heure à laquelle une contrepartie acheteuse d'une opération peut être certaine d'avoir le droit de participer à un événement."
+    },
+    "ElectionToCounterpartyMarketDeadline": {
+      "definition": "Date limite à laquelle un détenteur ayant droit doit informer sa contrepartie à une opération de son choix pour un événement d'opération sur titres, également appelée Buyer Protection Deadline."
+    },
+    "ElectionToCounterpartyResponseDeadline": {
+      "definition": "Date/heure fixée par l'intermédiaire de compte comme date limite pour répondre, avec instructions, avant la date limite de marché pour le choix de la contrepartie."
+    },
+    "LapsedDate": {
+      "definition": "Date/heure à laquelle un événement/une offre prend fin ou devient caduc."
+    },
+    "PaymentDate": {
+      "definition": "Date/heure à laquelle le mouvement doit avoir lieu (espèces et/ou titres)."
+    },
+    "ThirdPartyDeadline": {
+      "definition": "Date/heure avant laquelle le titulaire du compte doit instruire directement une autre partie, par exemple, pour fournir des documents à un agent de l'émetteur."
+    },
+    "EarlyThirdPartyDeadline": {
+      "definition": "Date/heure fixée par l'agent de l'émetteur comme première date limite anticipée avant laquelle le titulaire du compte doit instruire directement une autre partie, pouvant donner au détenteur l'éligibilité à des incitations. Par exemple, pour fournir des documents à un agent de l'émetteur."
+    },
+    "MarketClaimTrackingEndDate": {
+      "definition": "Date à laquelle le dépositaire cesse de surveiller les activités de l'événement, par exemple, les activités de comptabilisation et de suivi des due bills prennent fin."
+    },
+    "LeadPlaintiffDeadline": {
+      "definition": "Dernier jour où un investisseur peut devenir demandeur principal."
+    },
+    "FilingDate": {
+      "definition": "Date à laquelle l'action a été déposée auprès du tribunal compétent."
+    },
+    "HearingDate": {
+      "definition": "Date de l'audience entre le demandeur et le défendeur, fixée par le tribunal."
+    }
+  },
+  "isoRules": {
+    "EffectiveDateRule": {
+      "definition": "La date d'effet doit être utilisée dans les événements où il n'existe pas de notion de droit, par exemple Name Change (CHAN) ou Place of Incorporation (PLAC), et dans les événements où il existe une notion d'éligibilité mais avec une obligation légale, par exemple Merger (MRGR)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketIdentification1Choice",
+  "definition": "Choix d'identification du marché.",
+  "isoElements": {
+    "MarketIdentifierCode": {
+      "definition": "Code d'identification de marché (Market Identification Code) ISO 10383."
+    },
+    "Description": {
+      "definition": "Description du marché lorsqu'aucun Market Identifier Code n'est disponible."
+    }
+  }
+}

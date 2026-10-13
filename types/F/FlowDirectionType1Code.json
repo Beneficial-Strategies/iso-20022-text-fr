@@ -1,0 +1,14 @@
+{
+  "isoType": "FlowDirectionType1Code",
+  "definition": "Précise le sens d'un flux de trésorerie.",
+  "isoCodes": {
+    "INCG": {
+      "name": "Entrant",
+      "definition": "Montant reçu."
+    },
+    "OUTG": {
+      "name": "Sortant",
+      "definition": "Montant payé."
+    }
+  }
+}

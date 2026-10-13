@@ -1,0 +1,50 @@
+{
+  "isoType": "CorporateActionChangeType1Code",
+  "definition": "Précise le type de modifications.",
+  "isoCodes": {
+    "BERE": {
+      "name": "Du porteur au nominatif",
+      "definition": "Passage de la forme au porteur à la forme nominative."
+    },
+    "CERT": {
+      "name": "Certificats",
+      "definition": "Conversion de tous les instruments en certificats."
+    },
+    "DEPH": {
+      "name": "De dématérialisé à physique",
+      "definition": "Passage de la forme dématérialisée à la forme physique."
+    },
+    "GPPH": {
+      "name": "De global permanent à physique",
+      "definition": "Passage de la forme globale permanente à la forme physique."
+    },
+    "GTGP": {
+      "name": "De global temporaire à global permanent",
+      "definition": "Passage de la forme globale temporaire à la forme globale permanente."
+    },
+    "GTPH": {
+      "name": "De global temporaire à physique",
+      "definition": "Passage de la forme globale temporaire à la forme physique."
+    },
+    "NAME": {
+      "name": "Nom",
+      "definition": "La société émettrice change de dénomination. L'événement d'opération sur titres indique le passage de l'ancien nom au nouveau nom et peut impliquer la remise au teneur de registre des actions physiques portant l'ancien nom (CA)."
+    },
+    "PHDE": {
+      "name": "De physique à dématérialisé",
+      "definition": "Passage de la forme physique à la forme dématérialisée."
+    },
+    "REBE": {
+      "name": "Du nominatif au porteur",
+      "definition": "Passage de la forme nominative à la forme au porteur."
+    },
+    "TERM": {
+      "name": "Conditions",
+      "definition": "Modification des conditions du titre."
+    },
+    "DECI": {
+      "name": "Décimalisation",
+      "definition": "Processus de modification de la méthode de comptabilisation d'un titre, par exemple un fonds commun de placement, de parts entières à une quantité avec décimales."
+    }
+  }
+}

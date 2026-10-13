@@ -1,0 +1,18 @@
+{
+  "isoType": "ResolutionStatus2Code",
+  "definition": "Précise le statut d'une résolution dans l'ordre du jour d'une réunion.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Accepté",
+      "definition": "La résolution de la réunion a été acceptée."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "La résolution de la réunion a été rejetée."
+    },
+    "WDRA": {
+      "name": "Retiré",
+      "definition": "La résolution de l'assemblée a été retirée."
+    }
+  }
+}

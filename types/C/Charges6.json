@@ -1,0 +1,12 @@
+{
+  "isoType": "Charges6",
+  "definition": "Fournit des détails complémentaires sur les frais liés à l'opération de paiement.",
+  "isoElements": {
+    "TotalChargesAndTaxAmount": {
+      "definition": "Total de tous les frais et taxes appliqués à l'écriture."
+    },
+    "Record": {
+      "definition": "Fournit les détails de chaque enregistrement de frais."
+    }
+  }
+}

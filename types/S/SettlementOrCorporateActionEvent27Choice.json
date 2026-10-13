@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementOrCorporateActionEvent27Choice",
+  "definition": "Choix entre type d'opération, événement sur titres et opération de règlement.",
+  "isoElements": {
+    "SecuritiesTransactionType": {
+      "definition": "Identifie le type d'opération sur titres."
+    },
+    "CorporateActionEventType": {
+      "definition": "Indique le type d'événement sur titres."
+    }
+  }
+}

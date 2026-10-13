@@ -1,0 +1,15 @@
+{
+  "isoType": "ItemDescription2",
+  "definition": "Langue, titre et description textuelle d'un élément dans la langue indiquée.",
+  "isoElements": {
+    "Language": {
+      "definition": "Langue utilisée pour fournir une description de l'élément, indiquée selon la norme de code de langue ISO 639-1."
+    },
+    "Title": {
+      "definition": "Description abrégée de l'élément."
+    },
+    "Description": {
+      "definition": "Description textuelle libre de l'élément dans la langue indiquée."
+    }
+  }
+}

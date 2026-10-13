@@ -1,0 +1,10 @@
+{
+  "isoType": "DateType3Code",
+  "definition": "Indique un type de date.",
+  "isoCodes": {
+    "VARI": {
+      "name": "Divers",
+      "definition": "Des négociations partielles ont eu lieu sur une période de deux jours ou plus."
+    }
+  }
+}

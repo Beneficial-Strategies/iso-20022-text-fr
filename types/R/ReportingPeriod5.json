@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportingPeriod5",
+  "definition": "Précise la période de reporting demandée.",
+  "isoElements": {
+    "FromToDate": {
+      "definition": "Précise une plage de dates."
+    },
+    "FromToTime": {
+      "definition": "Précise une plage horaire."
+    },
+    "Type": {
+      "definition": "Précise si tous les éléments correspondants doivent être communiqués ou seulement ceux qui sont nouveaux ou ont changé depuis la dernière demande similaire."
+    }
+  }
+}

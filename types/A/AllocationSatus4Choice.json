@@ -1,0 +1,12 @@
+{
+  "isoType": "AllocationSatus4Choice",
+  "definition": "Choix de format pour le motif du statut d'allocation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fournit le statut d'allocation de la garantie couvrant l'instruction."
+    },
+    "Proprietary": {
+      "definition": "Fournit le statut d'allocation de la garantie couvrant l'instruction."
+    }
+  }
+}

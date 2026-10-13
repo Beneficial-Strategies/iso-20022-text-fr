@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentInstrument24Choice",
+  "definition": "Choix d'instruments de paiement.",
+  "isoElements": {
+    "PaymentCardDetails": {
+      "definition": "Instructions de règlement pour un paiement par carte."
+    },
+    "DirectDebitDetails": {
+      "definition": "Instructions de règlement pour un paiement par prélèvement."
+    },
+    "Cheque": {
+      "definition": "Indique si le paiement est effectué par chèque."
+    },
+    "BankersDraft": {
+      "definition": "Indique si le paiement est effectué par traite."
+    }
+  }
+}

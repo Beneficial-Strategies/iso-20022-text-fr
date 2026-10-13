@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesSubBalanceTypeAndQuantityBreakdown6",
+  "definition": "Informations de ventilation de la quantité pour un solde de titres donné.",
+  "isoElements": {
+    "Type": {
+      "definition": "Indique le type de sous-solde de titres (par exemple, type de restriction pour une infrastructure de marché)."
+    },
+    "QuantityBreakdown": {
+      "definition": "Ventilation d'une quantité en lots, tels que lots fiscaux ou séries d'instruments."
+    }
+  }
+}

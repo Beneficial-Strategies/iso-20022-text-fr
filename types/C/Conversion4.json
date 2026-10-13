@@ -1,0 +1,18 @@
+{
+  "isoType": "Conversion4",
+  "definition": "Identification d’un instrument financier.",
+  "isoElements": {
+    "SourceSecurity": {
+      "definition": "Identification du titre source."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Nombre de parts du titre source."
+    },
+    "UnitsDetails": {
+      "definition": "Ventilation des parts du titre source."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur la conversion."
+    }
+  }
+}

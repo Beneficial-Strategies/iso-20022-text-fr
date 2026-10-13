@@ -1,0 +1,41 @@
+{
+  "isoType": "BusinessApplicationHeaderV04",
+  "definition": "La couche métier traite les messages métier. Le comportement des messages métier est entièrement décrit par la transaction métier, et leur structure par les définitions de messages et les règles de message, règles et pratiques de marché associées, le tout enregistré dans le référentiel ISO 20022.|Pour chaque événement métier, c'est-à-dire chaque interaction d'une transaction métier, le MessagingEndpoint émetteur crée un seul nouveau message métier (avec son en-tête d'application métier). Un message métier obéit aux principes suivants :|\" Un message métier (et son en-tête d'application métier) ne doit pas contenir d'informations sur le système de transport des messages ni sur la mécanique ou le mécanisme d'envoi, de transport ou de réception des messages. |\" Un message métier doit être compréhensible en dehors du contexte du message de transport. Autrement dit, il ne doit pas nécessiter la connaissance du message de transport pour être compris.|\" Un message métier peut contenir des en-têtes, des pieds de page et des enveloppes ayant un sens métier. Lorsqu'ils sont présents, ils sont traités comme tout autre contenu du message, ce qui signifie qu'ils sont considérés comme faisant partie de la définition du message métier et, à ce titre, feront partie du référentiel ISO 20022.|\" Un message métier désigne les acteurs métier par leur nom. Chaque instance d'un acteur métier a un nom. L'acteur métier ne doit pas être désigné dans la couche de transport.|L'usage spécifique de cette BusinessMessageHeader peut être défini par le SEG concerné.",
+  "isoElements": {
+    "CharacterSet": {
+      "definition": "Contient le jeu de caractères des éléments textuels utilisés dans le message métier."
+    },
+    "BusinessMessageIdentifier": {
+      "definition": "Identifie sans ambiguïté le message métier auprès du MessagingEndpoint qui l'a créé."
+    },
+    "MessageDefinitionIdentifier": {
+      "definition": "L'identifiant de définition de message de l'instance de message métier à laquelle cette instance d'en-tête d'application métier est associée."
+    },
+    "BusinessService": {
+      "definition": "Précise le service métier convenu entre les deux MessagingEndpoints, selon les règles duquel ce message métier est échangé.|À utiliser lorsqu'il existe un choix entre des services de traitement ou des niveaux de service de traitement.||Exemple : |« marketx.hvps.01 » et « marketx.xbdr.01 » pourraient être utilisés pour indiquer que les messages associés sont soumis à des niveaux de traitement différents pour les paiements nationaux de montant élevé et pour les paiements transfrontaliers au sein de la même pratique de marché."
+    },
+    "CreationDate": {
+      "definition": "Date et heure de création de ce message métier (en-tête)."
+    },
+    "BusinessProcessingDate": {
+      "definition": "Date et heure de traitement indiquées par l'expéditeur pour le destinataire du message métier. Cette date peut différer de la date et de l'heure fournies dans CreationDate.||Utilisation : la pratique de marché ou un accord bilatéral doit préciser comment cet élément doit être utilisé."
+    },
+    "CopyDuplicate": {
+      "definition": "Indique si le message est une copie, un doublon ou une copie d'un doublon d'un message ISO 20022 envoyé précédemment."
+    },
+    "PossibleDuplicate": {
+      "definition": "Indicateur précisant si le message métier échangé entre les MessagingEndpoints est possiblement un doublon. |Si le MessagingEndpoint destinataire n'a pas reçu l'original, ce message métier doit être traité comme s'il s'agissait de l'original. ||Si le MessagingEndpoint destinataire a bien reçu l'original, il doit effectuer les actions nécessaires pour éviter de traiter à nouveau ce message métier.||Cela garantit un comportement idempotent au niveau métier.||NOTE : cela s'appelle « PossResend » dans FIX ; il s'agit d'un renvoi au niveau applicatif et non d'une retransmission au niveau réseau."
+    },
+    "Priority": {
+      "definition": "Indication relative de la priorité de traitement du message par rapport à un (ensemble de) messages métier auxquels des priorités sont attribuées."
+    },
+    "Signature": {
+      "definition": "Contient la signature numérique de l'entité métier autorisée à signer ce message métier."
+    }
+  },
+  "isoRules": {
+    "RelatedPresentWhenCopyDupl": {
+      "definition": "Related DOIT (MUST) contenir les éléments BusinessMessageHeader pertinents du BusinessMessage auquel ce BusinessMessage se rapporte.||Si CopyDuplicate est présent, Related DOIT (MUST) être présent."
+    }
+  }
+}

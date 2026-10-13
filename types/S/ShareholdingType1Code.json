@@ -1,0 +1,22 @@
+{
+  "isoType": "ShareholdingType1Code",
+  "definition": "Précise le type de détention d'actions.",
+  "isoCodes": {
+    "BENE": {
+      "name": "Détention effective",
+      "definition": "Les actions sont détenues pour le compte du bénéficiaire effectif. |Utilisation : ce type doit être utilisé pour déclarer les actifs que l'intermédiaire détient pour le compte d'un bénéficiaire effectif final."
+    },
+    "NOMI": {
+      "name": "Détention par prête-nom",
+      "definition": "Les actions sont détenues pour le compte d'un intermédiaire.|Utilisation : ce type doit être utilisé pour déclarer les actifs que l'intermédiaire détient pour le compte d'un autre intermédiaire."
+    },
+    "OOAC": {
+      "name": "Pour compte propre",
+      "definition": "Les actions sont détenues par l'intermédiaire répondant pour son propre compte.|Utilisation : ce type ne doit être utilisé pour déclarer les actifs propres de l'intermédiaire que si et lorsque l'intermédiaire les mélange avec ceux de ses clients.  Dans les juridictions où le mélange n'est pas autorisé, ce type ne doit pas être utilisé."
+    },
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "Le type de détention d'actions est inconnu.|Utilisation : ce type doit être utilisé lorsque le client de l'intermédiaire n'a pas été classifié."
+    }
+  }
+}

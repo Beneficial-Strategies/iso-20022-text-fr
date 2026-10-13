@@ -1,0 +1,22 @@
+{
+  "isoType": "RoundingDirection1Code",
+  "definition": "Précise le sens d'arrondi.",
+  "isoCodes": {
+    "RDUP": {
+      "name": "Arrondi supérieur",
+      "definition": "Arrondi à l'entier supérieur le plus proche."
+    },
+    "RDWN": {
+      "name": "Arrondi inférieur",
+      "definition": "Arrondi à l'entier inférieur le plus proche."
+    },
+    "STAN": {
+      "name": "Arrondi au plus proche",
+      "definition": "Arrondi à l'entier supérieur ou inférieur le plus proche."
+    },
+    "DIST": {
+      "name": "Émission de fraction",
+      "definition": "Ne pas arrondir."
+    }
+  }
+}

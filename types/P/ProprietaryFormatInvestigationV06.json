@@ -1,0 +1,4 @@
+{
+  "isoType": "ProprietaryFormatInvestigationV06",
+  "definition": "Champ d'application|Le type de message ProprietaryFormatInvestigation est utilisé par les établissements financiers, avec leurs propres agences et/ou avec d'autres établissements financiers avec lesquels ils ont conclu des accords bilatéraux.|Utilisation|L'utilisateur doit s'assurer qu'aucun message standard existant ne peut être utilisé avant de recourir au message propriétaire.|Comme défini dans le champ d'application, ce message ProprietaryFormatInvestigation ne peut être utilisé que sur accord bilatéral.|Il sert d'enveloppe à un message non standard et permet de gérer une exception ou une investigation qui sort du champ d'application ou des capacités de tout autre message formaté.|L'élément ProprietaryData doit contenir un document XML bien formé. Cela signifie que les caractères spéciaux XML tels que '<' doivent être utilisés conformément aux critères de bonne formation XML."
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMCommandParameters1",
+  "definition": "Paramètres à utiliser pour mettre à jour la configuration ou le statut du dispositif de sécurité.",
+  "isoElements": {
+    "SerialNumber": {
+      "definition": "Numéro de série du dispositif."
+    },
+    "RequiredConfiguration": {
+      "definition": "Mise à jour de la configuration de sécurité à appliquer au module de sécurité de l'ATM."
+    },
+    "RequiredStatus": {
+      "definition": "Nouveau statut à appliquer au module de sécurité de l'ATM."
+    }
+  }
+}

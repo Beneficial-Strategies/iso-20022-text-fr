@@ -1,0 +1,12 @@
+{
+  "isoType": "GrossDividendRateType1FormatChoice",
+  "definition": "Choix de formats pour exprimer le type de taux de dividende brut.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type de taux de dividende brut."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire permettant d'exprimer le type de taux de dividende brut."
+    }
+  }
+}

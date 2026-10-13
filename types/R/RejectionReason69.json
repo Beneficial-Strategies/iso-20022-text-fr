@@ -1,0 +1,15 @@
+{
+  "isoType": "RejectionReason69",
+  "definition": "Motif du rejet du message.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motif du rejet du message."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le motif du rejet."
+    },
+    "LinkedMessage": {
+      "definition": "Identification de la référence invalide ou non reconnue."
+    }
+  }
+}

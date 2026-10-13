@@ -1,0 +1,29 @@
+{
+  "isoType": "SubAccountIdentification75",
+  "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique si le relevé signale une activité ou une mise à jour d'informations."
+    },
+    "BalanceForSubAccount": {
+      "definition": "Position nette d'un avoir ségrégué, dans un seul titre, au sein de la position globale détenue sur un sous-compte-titres."
+    }
+  },
+  "isoRules": {
+    "SubSafekeepingReportingRule": {
+      "definition": "L'utilisation de relevés consolidés sur un compte de sous-conservation doit faire l'objet d'un accord bilatéral entre l'expéditeur et le destinataire."
+    },
+    "ActivityAndBalanceForSubAccount1Rule": {
+      "definition": "Si ActivityIndicator est « true » (Yes), alors au moins une occurrence de BalanceForSubAccount doit être présente."
+    },
+    "ActivityAndBalanceForSubAccount2Rule": {
+      "definition": "Si ActivityIndicator est « false » (No), alors BalanceForSubAccount doit être absent."
+    }
+  }
+}

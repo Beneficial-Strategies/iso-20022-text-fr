@@ -1,0 +1,12 @@
+{
+  "isoType": "ResidualCash2",
+  "definition": "Indique comment traiter les espèces du compte en attente d’investissement.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indique si les espèces du compte en attente d’investissement doivent être transférées."
+    },
+    "Currency": {
+      "definition": "Devise des espèces."
+    }
+  }
+}

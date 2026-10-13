@@ -1,0 +1,15 @@
+{
+  "isoType": "ChequeCancellationReason1",
+  "definition": "Fournit des précisions sur le motif de la demande d'annulation de la présentation du chèque.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partie qui émet la demande d'annulation."
+    },
+    "Reason": {
+      "definition": "Précise le motif de la demande d'annulation."
+    },
+    "AdditionalInformation": {
+      "definition": "Précisions complémentaires sur le motif de la demande d'annulation."
+    }
+  }
+}

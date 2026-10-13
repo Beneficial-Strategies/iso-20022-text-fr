@@ -1,0 +1,4 @@
+{
+  "isoType": "ReturnStandingOrderV06",
+  "definition": "Périmètre|Le message ReturnStandingOrder est envoyé par un administrateur de transactions à un membre.|Il sert à fournir des informations sur les détails d'un ou de plusieurs ordres permanents, sur la base de critères de demande et de retour spécifiques.|en réponse à une demande d'informations sur les ordres permanents et prédéfinis.|Utilisation|Le message ReturnStandingOrder liste l'ordre permanent selon les critères de retour possibles suivants : |- Détails génériques de l'ordre permanent,|- Détails d'un ordre de transfert de liquidité prédéfini ou permanent spécifique,|- Détails de l'ensemble auquel appartient l'ordre permanent,|- Liste de tous les ordres de transfert de liquidité prédéfinis et permanents et/ou par ensemble,|- Montant total des ordres de transfert de liquidité prédéfinis et permanents définis dans le système."
+}

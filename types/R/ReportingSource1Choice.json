@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportingSource1Choice",
+  "definition": "Précise la source utilisée pour générer le reporting.",
+  "isoElements": {
+    "Code": {
+      "definition": "Source du reporting, telle que publiée dans une liste de codes externe des sources de reporting."
+    },
+    "Proprietary": {
+      "definition": "Source du reporting, sous forme propriétaire."
+    }
+  }
+}

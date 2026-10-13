@@ -1,0 +1,18 @@
+{
+  "isoType": "MessageHeader11",
+  "definition": "Précise les données d'en-tête propres au message, telles que l'identification et la date et l'heure de création.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par l'expéditeur, permettant d'identifier le message de manière non ambiguë.|Utilisation : l'expéditeur doit s'assurer que MessageIdentification est unique pendant une période convenue au préalable."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "RequestType": {
+      "definition": "Actions spécifiques à exécuter par le biais de la demande."
+    },
+    "OriginalBusinessQuery": {
+      "definition": "Identification unique du message de requête d'origine."
+    }
+  }
+}

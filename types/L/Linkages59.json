@@ -1,0 +1,18 @@
+{
+  "isoType": "Linkages59",
+  "definition": "Informations relatives à une opération liée.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Moment où l'opération doit être exécutée par rapport à une opération liée."
+    },
+    "MessageNumber": {
+      "definition": "Numéro du type de message/identifiant du message référencé dans la séquence de liaison."
+    },
+    "Reference": {
+      "definition": "Référence à l'opération liée."
+    },
+    "ReferenceOwner": {
+      "definition": "Partie qui génère la référence."
+    }
+  }
+}

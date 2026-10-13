@@ -1,0 +1,21 @@
+{
+  "isoType": "TransferReference15",
+  "definition": "Référence d'un transfert et d'une annulation de transfert.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Identifiant unique et non ambigu de l'instruction de transfert pour laquelle la demande d'annulation est envoyée, attribué par la partie donneuse d'ordre."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert par l'investisseur. Cette référence peut généralement être utilisée dans un scénario de plateforme centrale (hub) pour fournir la référence du transfert telle qu'attribuée par le client sous-jacent."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë du transfert attribuée par la contrepartie."
+    },
+    "CancellationReference": {
+      "definition": "Identifiant unique et non ambigu de l'annulation du transfert, attribué par la partie donneuse d'ordre."
+    },
+    "CancellationReason": {
+      "definition": "Motif de l'annulation."
+    }
+  }
+}

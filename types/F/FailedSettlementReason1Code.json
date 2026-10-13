@@ -1,0 +1,34 @@
+{
+  "isoType": "FailedSettlementReason1Code",
+  "definition": "Précise le motif d'un échec de règlement.",
+  "isoCodes": {
+    "CANE": {
+      "name": "Compte à créditer non éligible",
+      "definition": "Le compte à créditer n'est pas éligible."
+    },
+    "CADI": {
+      "name": "Compte à créditer désactivé",
+      "definition": "Le compte à créditer est désactivé."
+    },
+    "DANE": {
+      "name": "Compte à débiter non éligible",
+      "definition": "Le compte à débiter n'est pas éligible."
+    },
+    "AADI": {
+      "name": "Compte à débiter désactivé",
+      "definition": "Le compte à débiter est désactivé."
+    },
+    "INSE": {
+      "name": "Titres insuffisants",
+      "definition": "Titres insuffisants sur le compte pour effectuer le règlement."
+    },
+    "INDI": {
+      "name": "Distribution incomplète",
+      "definition": "La distribution est incomplète."
+    },
+    "INCA": {
+      "name": "Espèces insuffisantes",
+      "definition": "Espèces insuffisantes sur le compte pour effectuer le règlement."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "CorporateActionNarrative002V09",
+  "definition": "Portée|Le message CorporateActionNarrative est échangé entre un teneur de compte et un titulaire de compte ou son agent désigné afin de couvrir les processus qui ne peuvent pas être traités à l'aide de messages tels que CorporateActionNotification. Il ne doit pas être utilisé pour le texte narratif d'un événement, qui doit figurer dans le message CorporateActionNotification. Le message CorporateActionNarrative peut par exemple être utilisé pour les demandes de remboursement d'impôt, les restrictions et les exigences de documentation. Ce message ne doit être utilisé que sur accord bilatéral. Ce message est bidirectionnel.|Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé (la sous-fonction du message est Duplicate),|- fournir à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy),|- renvoyer à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy Duplicate), en utilisant les éléments pertinents de l'en-tête applicatif métier (BAH).",
+  "isoElements": {
+    "AdditionalInformation": {
+      "definition": "Fournit des informations supplémentaires."
+    }
+  }
+}

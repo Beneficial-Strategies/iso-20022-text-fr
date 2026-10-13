@@ -1,0 +1,83 @@
+{
+  "isoType": "PaymentInstruction50",
+  "definition": "Caractéristiques applicables au côté crédit des opérations de paiement incluses dans l'initiation de prélèvement.",
+  "isoElements": {
+    "PaymentInformationIdentification": {
+      "definition": "Identification unique, attribuée par une partie émettrice, permettant d'identifier sans ambiguïté le groupe d'informations de paiement au sein du message."
+    },
+    "PaymentMethod": {
+      "definition": "Précise le moyen de paiement qui sera utilisé pour transférer le montant."
+    },
+    "RequestedAdviceType": {
+      "definition": "Type de détails d'avis demandé."
+    },
+    "BatchBooking": {
+      "definition": "Indique si une écriture unique par opération individuelle ou une écriture groupée pour la somme des montants de toutes les opérations du groupe d'un message est demandée.|Utilisation : la remise groupée sert à demander, et non à ordonner, une éventuelle remise groupée."
+    },
+    "NumberOfTransactions": {
+      "definition": "Nombre d'opérations individuelles contenues dans le groupe d'informations de paiement."
+    },
+    "ControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le groupe, quelles que soient les devises."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments servant à préciser davantage le type d'opération."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Date et heure auxquelles le créancier demande que le montant soit prélevé sur le débiteur."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du créancier auprès de sa banque teneur de compte dans la chaîne de paiement."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant est dû."
+    },
+    "ChargeBearer": {
+      "definition": "Précise quelle(s) partie(s) supportera(ont) les frais associés au traitement de l'opération de paiement."
+    },
+    "ChargesAccount": {
+      "definition": "Compte utilisé pour traiter les frais associés à une opération.||Utilisation : le compte de frais doit être utilisé lorsque les frais doivent être imputés à un compte différent de celui identifié dans le compte du débiteur."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Banque qui gère un compte de frais.||Utilisation : la banque du compte de frais ne doit être utilisée que lorsqu'elle est différente de la banque du créancier."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Partie créditrice qui signe le mandat."
+    },
+    "DirectDebitTransactionInformation": {
+      "definition": "Fournit des informations sur la ou les opérations individuelles incluses dans le message."
+    }
+  },
+  "isoRules": {
+    "ChargeBearerRule": {
+      "definition": "Si ChargeBearer est présent, alors DirectDebitTransactionInformation/ChargeBearer n'est pas autorisé. Si DirectDebitTransactionInformation/ChargeBearer est présent, alors ChargeBearer n'est pas autorisé. DirectDebitTransactionInformation/ChargeBearer et ChargeBearer peuvent être tous deux absents."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor ne peut être présent que s'il est différent de Creditor."
+    },
+    "ChargesAccountRule": {
+      "definition": "Si ChargesAccountAgent est présent, alors ChargesAccount doit être présent."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "Si PaymentTypeInformation est présent, DirectDebitTransactionInformation/PaymentTypeInformation n'est pas autorisé."
+    },
+    "CreditorSchemeIdentificationRule": {
+      "definition": "Si CreditorSchemeIdentification est présent, alors DirectDebitTransactionInformation/CreditorSchemeIdentification n'est pas autorisé. Si DirectDebitTransactionInformation/CreditorSchemeIdentification est présent, alors CreditorSchemeIdentification n'est pas autorisé. DirectDebitTransactionInformation/CreditorSchemeIdentification et CreditorSchemeIdentification peuvent être tous deux absents."
+    },
+    "UltimateCreditorRule": {
+      "definition": "Si UltimateCreditor est présent, alors DirectDebitTransactionInformation/UltimateCreditor n'est pas autorisé. Si DirectDebitTransactionInformation/UltimateCreditor est présent, alors UltimateCreditor n'est pas autorisé. DirectDebitTransactionInformation/UltimateCreditor et UltimateCreditor peuvent être tous deux absents."
+    },
+    "ChargesAccountAgentRule": {
+      "definition": "Si ChargesAccountAgent est présent, il doit contenir une agence de la banque du créancier (CreditorAgent). Il ne doit pas contenir une banque totalement différente."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "SenderBusinessRole1Code",
+  "definition": "Indique si le message est envoyé par un titulaire de compte ou par un teneur de compte.",
+  "isoCodes": {
+    "AOWN": {
+      "name": "Titulaire du compte",
+      "definition": "L'expéditeur est le titulaire du compte de conservation. L'expéditeur communique au destinataire la ventilation des propriétaires sous-jacents des avoirs de l'expéditeur."
+    },
+    "ASER": {
+      "name": "Teneur de compte",
+      "definition": "L'expéditeur est le teneur d'un compte appartenant au destinataire."
+    }
+  }
+}

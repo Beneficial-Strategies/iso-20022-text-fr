@@ -1,0 +1,44 @@
+{
+  "isoType": "Fund3",
+  "definition": "Informations sur un fonds d'investissement.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom du fonds/compartiment."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identification du fonds/compartiment par un Legal Entity Identifier. Il s'agit d'un code attribué à une partie, tel que décrit dans la norme ISO 17442 « Services financiers - Identifiant d'entité juridique (LEI) »."
+    },
+    "Identification": {
+      "definition": "Identifiant unique et non ambigu du fonds/compartiment, attribué selon un schéma d'identification formel ou propriétaire."
+    },
+    "Currency": {
+      "definition": "Devise du fonds/compartiment."
+    },
+    "EstimatedTotalNAV": {
+      "definition": "Valeur totale estimée de tous les avoirs, déduction faite des engagements du fonds, du fonds/compartiment."
+    },
+    "PreviousTotalNAV": {
+      "definition": "Valeur totale précédente de tous les avoirs, déduction faite des engagements du fonds, du fonds/compartiment."
+    },
+    "EstimatedTotalUnitsNumber": {
+      "definition": "Nombre total estimé de parts du fonds/compartiment."
+    },
+    "PreviousTotalUnitsNumber": {
+      "definition": "Nombre total précédent de parts du fonds/compartiment."
+    },
+    "EstimatedPercentageOfFundTotalNAV": {
+      "definition": "Flux net de trésorerie consolidé estimé, exprimé en pourcentage de la valeur liquidative (NAV) totale précédente du fonds/compartiment."
+    }
+  },
+  "isoRules": {
+    "FundIdentification1Rule": {
+      "definition": "Si Identification n'est pas présent, Name ou LegalEntityIdentifier doit être présent. Identification, Name et Legal Entity Identifier peuvent tous être présents."
+    },
+    "FundIdentification2Rule": {
+      "definition": "Si Name n'est pas présent, Identification ou Legal Entity Identifier doit être présent. Identification, Name et Legal Entity Identifier peuvent tous être présents."
+    },
+    "FundIdentification3Rule": {
+      "definition": "Si Legal Entity Identifier n'est pas présent, Identification ou Name doit être présent. Identification, Name et Legal Entity Identifier peuvent tous être présents."
+    }
+  }
+}

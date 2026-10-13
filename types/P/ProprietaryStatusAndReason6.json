@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryStatusAndReason6",
+  "definition": "Fournit le statut et le motif propriétaires d'une instruction ou d'une annulation d'instruction.",
+  "isoElements": {
+    "ProprietaryStatus": {
+      "definition": "Identification propriétaire du statut lié à une instruction."
+    },
+    "ProprietaryReason": {
+      "definition": "Identification propriétaire du motif lié à un statut propriétaire."
+    }
+  }
+}

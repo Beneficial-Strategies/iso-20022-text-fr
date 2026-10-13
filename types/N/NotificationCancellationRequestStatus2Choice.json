@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellationRequestStatus2Choice",
+  "definition": "Choix entre divers statuts.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Fournit des informations sur le statut de traitement de la demande d'annulation."
+    },
+    "RejectedStatus": {
+      "definition": "Fournit des informations sur le statut de rejet."
+    }
+  }
+}

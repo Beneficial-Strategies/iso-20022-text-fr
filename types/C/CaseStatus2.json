@@ -1,0 +1,15 @@
+{
+  "isoType": "CaseStatus2",
+  "definition": "Définit le statut d'un dossier d'enquête.",
+  "isoElements": {
+    "DateTime": {
+      "definition": "Date et heure du statut."
+    },
+    "CaseStatus": {
+      "definition": "Statut du dossier."
+    },
+    "Reason": {
+      "definition": "Justification du statut en texte libre."
+    }
+  }
+}

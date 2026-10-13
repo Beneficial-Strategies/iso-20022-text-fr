@@ -1,0 +1,21 @@
+{
+  "isoType": "SecurityParameters18",
+  "definition": "Paramètres de sécurité de l'ATM pour le téléchargement de clés initié.",
+  "isoElements": {
+    "Key": {
+      "definition": "Clé cryptographique utilisée pour protéger le téléchargement de clés."
+    },
+    "SignatureChoice": {
+      "definition": "Élément contenant la signature."
+    },
+    "Certificate": {
+      "definition": "Chaîne ordonnée de certificats de la clé de chiffrement de clé asymétrique, en commençant par le certificat de l'ATM."
+    },
+    "ATMChallenge": {
+      "definition": "Valeur aléatoire de l'ATM pour éviter la rejouabilité du message."
+    },
+    "RequestedKey": {
+      "definition": "Clé demandée pour le téléchargement, selon la hiérarchie de clés utilisée par l'hôte."
+    }
+  }
+}

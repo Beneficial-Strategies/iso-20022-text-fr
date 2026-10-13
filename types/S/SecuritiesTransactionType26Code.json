@@ -1,0 +1,182 @@
+{
+  "isoType": "SecuritiesTransactionType26Code",
+  "definition": "Précise les informations sous-jacentes relatives au type d'opération de règlement.",
+  "isoCodes": {
+    "BSBK": {
+      "name": "Achat-vente",
+      "definition": "Se rapporte à une opération de buy sell back."
+    },
+    "COLI": {
+      "name": "Garantie reçue",
+      "definition": "Se rapporte à une opération de garantie, du point de vue du preneur de garantie ou de son agent."
+    },
+    "COLO": {
+      "name": "Garantie remise",
+      "definition": "Se rapporte à une opération de garantie, du point de vue du donneur de garantie ou de son agent."
+    },
+    "MKDW": {
+      "name": "Décote",
+      "definition": "Se rapporte à la diminution des positions détenues par un dépositaire central de titres international (ICSD) auprès du dépositaire commun en raison d'opérations de conservation (rachat, pré-libération, produits d'un événement sur titres réalignés)."
+    },
+    "MKUP": {
+      "name": "Majoration",
+      "definition": "Se rapporte à l'augmentation des positions détenues par un dépositaire central de titres international (ICSD) auprès du dépositaire commun en raison d'opérations de conservation (rachat, pré-libération, produits d'un événement sur titres réalignés)."
+    },
+    "NETT": {
+      "name": "Compensation par solde net",
+      "definition": "Se rapporte à la compensation (netting) d'instructions de règlement."
+    },
+    "NSYN": {
+      "name": "Non syndiqué",
+      "definition": "Se rapporte à l'émission de titres de créance à moyen et court terme (CP, CD, MTN, billets) dans le cadre d'un programme et sans accord de syndication."
+    },
+    "PAIR": {
+      "name": "Compensation par appariement",
+      "definition": "Se rapporte à un pair-off : l'opération est appariée et compensée avec une ou plusieurs opérations précédentes."
+    },
+    "PLAC": {
+      "name": "Placement",
+      "definition": "Se rapporte au placement/à la nouvelle émission d'un instrument financier."
+    },
+    "PORT": {
+      "name": "Transfert de portefeuille",
+      "definition": "Se rapporte au déplacement d'un portefeuille d'un gestionnaire de placements à un autre et/ou d'un teneur de compte à un autre. Il est généralement facturé différemment d'un autre transfert de compte, d'où la nécessité d'identifier ce type de transfert en tant que tel."
+    },
+    "REAL": {
+      "name": "Réalignement",
+      "definition": "Se rapporte à un réalignement de positions."
+    },
+    "REDM": {
+      "name": "Rachat",
+      "definition": "Se rapporte à un rachat de fonds (secteur des fonds uniquement)."
+    },
+    "REPU": {
+      "name": "Pension livrée",
+      "definition": "Se rapporte à une opération de mise en pension."
+    },
+    "RODE": {
+      "name": "Livraison retour sans appariement",
+      "definition": "Se rapporte au retour d'instruments financiers résultant d'une livraison rejetée sans opération d'appariement."
+    },
+    "RVPO": {
+      "name": "Prise en pension",
+      "definition": "Se rapporte à une opération de prise en pension."
+    },
+    "SECB": {
+      "name": "Emprunt de titres",
+      "definition": "Se rapporte à une opération d'emprunt de titres."
+    },
+    "SECL": {
+      "name": "Prêt de titres",
+      "definition": "Se rapporte à une opération de prêt de titres."
+    },
+    "SUBS": {
+      "name": "Souscription",
+      "definition": "Se rapporte à une souscription de fonds (secteur des fonds uniquement)."
+    },
+    "SYND": {
+      "name": "Syndicat de garantie",
+      "definition": "Se rapporte à l'émission d'instruments financiers par l'intermédiaire d'un syndicat de preneurs fermes et d'un chef de file."
+    },
+    "TBAC": {
+      "name": "Clôture TBA",
+      "definition": "Se rapporte à une opération de clôture To Be Announced (TBA)."
+    },
+    "TRAD": {
+      "name": "Transaction",
+      "definition": "Se rapporte au règlement d'une transaction."
+    },
+    "TRPO": {
+      "name": "Pension livrée tripartite",
+      "definition": "Se rapporte à une mise en pension tripartite."
+    },
+    "TRVO": {
+      "name": "Prise en pension tripartite",
+      "definition": "Se rapporte à une prise en pension tripartite."
+    },
+    "TURN": {
+      "name": "Opération aller-retour",
+      "definition": "Se rapporte à un turnaround : le même titre est acheté et vendu pour un règlement le même jour, auprès de courtiers différents ou pour leur compte."
+    },
+    "BYIY": {
+      "name": "Rachat d'office",
+      "definition": "Se rapporte à un rachat d'office par le marché à la suite d'un défaut de livraison."
+    },
+    "CNCB": {
+      "name": "Opération de garantie de la banque centrale",
+      "definition": "Se rapporte à une livraison/réception de garanties auprès d'une banque centrale nationale pour des opérations de crédit de banque centrale."
+    },
+    "OWNE": {
+      "name": "Transfert de compte externe",
+      "definition": "Se rapporte à un transfert de compte impliquant plus d'une partie donneuse d'ordre (expéditeur du message) et/ou plus d'un teneur de compte (destinataire des messages)."
+    },
+    "FCTA": {
+      "name": "Mise à jour du facteur",
+      "definition": "Se rapporte à une mise à jour de facteur."
+    },
+    "OWNI": {
+      "name": "Transfert de compte interne",
+      "definition": "Se rapporte à un transfert de compte impliquant une seule partie donneuse d'ordre (expéditeur du message) auprès d'un seul teneur de compte (destinataire des messages)."
+    },
+    "RELE": {
+      "name": "Libération ou annulation de certificats de dépôt",
+      "definition": "Se rapporte à une opération de libération (vers/depuis le local) de certificats de dépôt."
+    },
+    "SBRE": {
+      "name": "Réaffectation d'emprunt",
+      "definition": "Réaffectation interne d'une position empruntée d'un compte de conservation à un autre."
+    },
+    "CORP": {
+      "name": "Opération sur titres",
+      "definition": "Se rapporte à une opération sur titres."
+    },
+    "CLAI": {
+      "name": "Réclamation de marché",
+      "definition": "Se rapporte à une réclamation de marché."
+    },
+    "AUTO": {
+      "name": "Auto-collatéralisation",
+      "definition": "Se rapporte à un mouvement d'auto-collatéralisation."
+    },
+    "SWIF": {
+      "name": "Arbitrage depuis",
+      "definition": "L'opération est un changement d'investissement d'un sous-fonds à un autre sous-fonds (volet rachat)."
+    },
+    "SWIT": {
+      "name": "Arbitrage vers",
+      "definition": "L'opération est un changement d'investissement d'un sous-fonds à un autre sous-fonds (volet souscription)."
+    },
+    "CONV": {
+      "name": "Conversion de certificats de dépôt",
+      "definition": "Se rapporte à une conversion de certificats de dépôt."
+    },
+    "ETFT": {
+      "name": "Fonds négociés en bourse",
+      "definition": "Se rapporte à une création ou un rachat d'ETF."
+    },
+    "ISSU": {
+      "name": "Émission",
+      "definition": "Se rapporte à l'émission d'un titre tel qu'une action ou un certificat de dépôt."
+    },
+    "SLRE": {
+      "name": "Réaffectation de prêt",
+      "definition": "Réaffectation interne d'une position prêtée d'un compte de conservation à un autre."
+    },
+    "INSP": {
+      "name": "Transfert de titres",
+      "definition": "Se rapporte à un mouvement d'actions entrant dans un compte commun ou en sortant."
+    },
+    "SBBK": {
+      "name": "Vente-rachat",
+      "definition": "Se rapporte à une opération de sell buy back."
+    },
+    "REDI": {
+      "name": "Retrait",
+      "definition": "Se rapporte au retrait de montants spécifiés de sous-comptes spécifiés."
+    },
+    "REBL": {
+      "name": "Rééquilibrage",
+      "definition": "Se rapporte à une opération rééquilibrée."
+    }
+  }
+}

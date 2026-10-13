@@ -1,0 +1,10 @@
+{
+  "isoType": "PaymentMethod2Code",
+  "definition": "Précise la méthode de transfert qui sera utilisée pour transférer les fonds.",
+  "isoCodes": {
+    "DD": {
+      "name": "Prélèvement",
+      "definition": "Encaissement d'un montant sur le compte bancaire du débiteur par le créancier. Le montant et les dates d'encaissement peuvent varier."
+    }
+  }
+}

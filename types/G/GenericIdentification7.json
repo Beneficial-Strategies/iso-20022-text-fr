@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericIdentification7",
+  "definition": "Information exprimée de manière propriétaire.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Entité qui attribue l'identification."
+    },
+    "Information": {
+      "definition": "Informations propriétaires, souvent un code, émises par l'émetteur du schéma de la source de données."
+    }
+  }
+}

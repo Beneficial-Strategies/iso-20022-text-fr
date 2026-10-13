@@ -1,0 +1,21 @@
+{
+  "isoType": "References47Choice",
+  "definition": "Choix de référence.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Identification sans ambiguïté d'une opération de règlement-livraison de titres telle que connue du titulaire du compte (ou de la partie donneuse d'ordre agissant en son nom)."
+    },
+    "PoolIdentification": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    },
+    "IntraPositionMovementIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération de mouvement intra-position telle que connue du titulaire du compte (ou de la partie donneuse d'ordre agissant en son nom)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la banque teneur de compte."
+    },
+    "OtherTransactionIdentification": {
+      "definition": "Identification d'une opération qui ne peut pas être identifiée à l'aide d'un élément de référence standard présent dans le message."
+    }
+  }
+}

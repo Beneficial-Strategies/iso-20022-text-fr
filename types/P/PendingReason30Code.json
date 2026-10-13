@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason30Code",
+  "definition": "Précise le motif pour lequel l'instruction a le statut en attente.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "BUMM": {
+      "name": "Non-concordance de la protection de l'acheteur",
+      "definition": "Désaccord de la contrepartie sur le résultat choisi de l'événement sur titres."
+    },
+    "ECRD": {
+      "name": "Échéance de réponse du choix à la contrepartie dépassée",
+      "definition": "Reçue après l'échéance de marché de la réponse de la contrepartie au choix."
+    },
+    "WCTF": {
+      "name": "En attente de la réponse de la contrepartie",
+      "definition": "L'allégation a été envoyée à la contrepartie. En attente de la réponse."
+    }
+  }
+}

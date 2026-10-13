@@ -1,0 +1,30 @@
+{
+  "isoType": "FractionDispositionType11Code",
+  "definition": "Indique que la valeur fractionnaire doit être conservée ; aucun arrondi.",
+  "isoCodes": {
+    "BUYU": {
+      "name": "Rachat complémentaire",
+      "definition": "Acheter des titres jusqu'au nombre entier supérieur."
+    },
+    "CINL": {
+      "name": "Espèces en remplacement des fractions",
+      "definition": "Partie fractionnaire en espèces. Percevoir des espèces en lieu et place des fractions."
+    },
+    "DIST": {
+      "name": "Émission de fraction",
+      "definition": "Recevoir la distribution des fractions sous forme de titres."
+    },
+    "RDDN": {
+      "name": "Arrondi inférieur",
+      "definition": "Arrondir le droit à la dernière unité entière/quantité nominale minimale inférieure ; les fractions sont écartées."
+    },
+    "STAN": {
+      "name": "Arrondi au plus proche",
+      "definition": "Si la fraction est supérieure ou égale à 0,5 du titre résultant, arrondir à l'unité supérieure, sinon arrondir à l'unité inférieure, comme précisé dans les codes RDUP et RDDN respectifs (0.5)."
+    },
+    "RDUP": {
+      "name": "Arrondi supérieur",
+      "definition": "Arrondir à l'unité entière/quantité nominale minimale supérieure sans frais."
+    }
+  }
+}

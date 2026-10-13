@@ -1,0 +1,15 @@
+{
+  "isoType": "MessageReference1",
+  "definition": "Référence(s) commerciale(s) à un ou plusieurs messages pertinents précédemment envoyés par d'autres parties, ou par la partie qui émet ce message.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Référence sans ambiguïté à un message précédent ayant un lien commercial avec ce message."
+    },
+    "MessageName": {
+      "definition": "Nom du message qui contenait la référence supplémentaire donnée comme référence de message."
+    },
+    "ReferenceIssuer": {
+      "definition": "Partie qui a initialement attribué la référence supplémentaire donnée."
+    }
+  }
+}

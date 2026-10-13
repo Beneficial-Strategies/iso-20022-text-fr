@@ -1,0 +1,27 @@
+{
+  "isoType": "BenefitCrystallisationEvent2",
+  "definition": "Informations sur la réalisation des prestations tirées d’une pension.",
+  "isoElements": {
+    "EventTypeNumber": {
+      "definition": "Numéro de l’événement de cristallisation. Sur le marché UK, il peut s’agir par exemple de BCE5, BE5A ou BCE5B."
+    },
+    "EventTypeName": {
+      "definition": "Nom de l’événement de cristallisation. Sur le marché UK, il peut s’agir par exemple de « droit à une pension de régime »."
+    },
+    "EventDate": {
+      "definition": "Date à laquelle l’événement de cristallisation a été déclenché."
+    },
+    "CrystallisationAmount": {
+      "definition": "Montant de l’événement de cristallisation."
+    },
+    "PercentageOfAllowance": {
+      "definition": "Pourcentage de l’allocation utilisé pour l’événement de cristallisation des prestations."
+    },
+    "LifetimeAllowanceProtection": {
+      "definition": "Indique si la protection de l’allocation viagère a une incidence sur l’événement de cristallisation des prestations."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur l’événement de cristallisation des prestations."
+    }
+  }
+}

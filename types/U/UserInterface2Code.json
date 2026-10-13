@@ -1,0 +1,14 @@
+{
+  "isoType": "UserInterface2Code",
+  "definition": "Type d'interface d'affichage d'un message.",
+  "isoCodes": {
+    "MDSP": {
+      "name": "Affichage commerçant",
+      "definition": "Affichage ou interface du commerçant."
+    },
+    "CDSP": {
+      "name": "Affichage porteur de carte",
+      "definition": "Affichage ou interface du porteur de la carte."
+    }
+  }
+}

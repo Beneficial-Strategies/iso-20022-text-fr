@@ -1,0 +1,15 @@
+{
+  "isoType": "UnderlyingSecurityMovement1",
+  "definition": "Fournit des informations sur le mouvement de titres sous-jacents.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identification de l'instrument financier."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Quantité d'instrument financier."
+    },
+    "AccountDetails": {
+      "definition": "Fournit des informations sur le compte titres débité/crédité."
+    }
+  }
+}

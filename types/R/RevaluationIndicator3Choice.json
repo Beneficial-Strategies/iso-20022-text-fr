@@ -1,0 +1,12 @@
+{
+  "isoType": "RevaluationIndicator3Choice",
+  "definition": "Choix de format pour la réévaluation.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Précise si la position de garantie doit faire l'objet d'une réévaluation automatique par le teneur de compte."
+    },
+    "Proprietary": {
+      "definition": "Informations de réévaluation fournies sous forme de code propriétaire."
+    }
+  }
+}

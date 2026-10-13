@@ -1,0 +1,26 @@
+{
+  "isoType": "SettlementParties130",
+  "definition": "Indique les parties au règlement-livraison (livreuse/réceptrice).",
+  "isoElements": {
+    "Depository": {
+      "definition": "Première partie réceptrice de la chaîne de règlement. Dans un règlement standard, il s'agit du dépositaire central de titres auprès duquel la partie réceptrice de l'opération demande à recevoir l'instrument financier."
+    },
+    "Party1": {
+      "definition": "Partie qui interagit avec le dépositaire."
+    },
+    "Party2": {
+      "definition": "Partie qui interagit avec la partie 1."
+    },
+    "Party3": {
+      "definition": "Partie qui interagit avec la partie 2."
+    }
+  },
+  "isoRules": {
+    "Party2PresenceRule": {
+      "definition": "Si la partie 2 est présente, alors la partie 1 doit être présente."
+    },
+    "Party3PresenceRule": {
+      "definition": "Si la partie 3 est présente, alors la partie 2 doit être présente."
+    }
+  }
+}

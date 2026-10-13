@@ -1,0 +1,10 @@
+{
+  "isoType": "RejectionReason19Code",
+  "definition": "Précise le motif de rejet d'une demande d'autorisation de mouvement global.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "La validation de l'avis/de l'instruction/de la demande a échoué."
+    }
+  }
+}

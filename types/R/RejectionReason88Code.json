@@ -1,0 +1,38 @@
+{
+  "isoType": "RejectionReason88Code",
+  "definition": "Précise le motif pour lequel l'instruction ou la demande d'annulation a le statut rejeté.",
+  "isoCodes": {
+    "ULNK": {
+      "name": "Référence non valide",
+      "definition": "La référence liée est inconnue."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "DCAN": {
+      "name": "Rejeté car déjà annulé",
+      "definition": "La demande d'annulation a été rejetée car l'instruction a déjà été annulée."
+    },
+    "DPRG": {
+      "name": "Rejeté car en cours",
+      "definition": "La demande d'annulation a été rejetée car le traitement de l'instruction est en cours ou a été effectué."
+    },
+    "DUPL": {
+      "name": "Instruction en double",
+      "definition": "L'instruction est rejetée en raison d'un identifiant de message métier en double."
+    },
+    "ECMD": {
+      "name": "Échéance de marché du choix à la contrepartie dépassée",
+      "definition": "Reçue après l'échéance de marché du choix auprès de la contrepartie."
+    },
+    "ECRD": {
+      "name": "Échéance de réponse du choix à la contrepartie dépassée",
+      "definition": "Reçue après l'échéance de marché de la réponse de la contrepartie au choix."
+    }
+  }
+}

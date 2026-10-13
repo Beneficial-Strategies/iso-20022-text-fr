@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCADeactivationCancellationRequestV01",
+  "definition": "Portée|Ce message est envoyé par un émetteur (ou son agent) au CSD afin de demander l'annulation d'une instruction de désactivation d'opération sur titres précédemment envoyée.|Utilisation|Ce message est utilisé pour demander l'annulation d'une instruction de désactivation en attente. L'annulation doit porter exactement sur le même niveau que l'instruction d'origine, c'est-à-dire sur l'ensemble de l'événement sur titres ou sur une option, conformément à l'instruction d'origine.|Ce message doit être envoyé avant la date d'exécution de la désactivation.|Si une opération sur titres ou une option est déjà désactivée, ce message ne peut pas être utilisé pour réactiver l'ensemble de l'événement ou l'option ; le message d'avis de notification doit être utilisé pour réactiver une opération sur titres ou une option (CA)."
+}

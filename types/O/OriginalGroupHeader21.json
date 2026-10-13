@@ -1,0 +1,38 @@
+{
+  "isoType": "OriginalGroupHeader21",
+  "definition": "Fournit des détails sur le groupe d'origine auquel le message se rapporte.",
+  "isoElements": {
+    "GroupCancellationIdentification": {
+      "definition": "Identification unique, attribuée par l'initiateur de la demande, permettant d'identifier sans ambiguïté la demande d'annulation de groupe.||Utilisation : l'identification de la demande d'annulation de groupe peut servir au rapprochement ou à la liaison de tâches relatives à la demande d'annulation."
+    },
+    "Case": {
+      "definition": "Identifie de manière unique et non équivoque une exception ou un processus d'enquête."
+    },
+    "OriginalMessageIdentification": {
+      "definition": "Référence de point à point, attribuée par la partie instructrice d'origine, permettant d'identifier sans ambiguïté le message d'origine."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Précise l'identifiant du nom du message d'origine auquel le message se rapporte."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Date et heure de création du message d'origine."
+    },
+    "NumberOfTransactions": {
+      "definition": "Nombre d'opérations individuelles contenues dans le message d'origine."
+    },
+    "ControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le message, quelles que soient les devises."
+    },
+    "GroupCancellation": {
+      "definition": "Indique si la demande d'annulation s'applique à un groupe entier d'opérations ou à des opérations individuelles au sein d'un groupe d'origine."
+    },
+    "CancellationReasonInformation": {
+      "definition": "Fournit des informations détaillées sur le motif de l'annulation."
+    }
+  },
+  "isoRules": {
+    "GroupCancellationAndReasonRule": {
+      "definition": "Si GroupCancellation est vrai, alors CancellationReasonInformation/Reason doit être présent."
+    }
+  }
+}

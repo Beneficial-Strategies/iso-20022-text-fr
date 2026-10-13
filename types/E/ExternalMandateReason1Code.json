@@ -1,0 +1,198 @@
+{
+  "isoType": "ExternalMandateReason1Code",
+  "definition": "Précise le code externe de motif de traitement du mandat, sous forme de chaîne de caractères d'une longueur maximale de 4 caractères.|La liste des codes valides est une liste de codes externe publiée séparément.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "AC01": {
+      "name": "Numéro de compte incorrect",
+      "definition": "Le format du numéro de compte indiqué n'est pas correct."
+    },
+    "AC04": {
+      "name": "Numéro de compte clôturé",
+      "definition": "Le numéro de compte indiqué a été clos dans les livres du destinataire"
+    },
+    "AC06": {
+      "name": "Compte bloqué",
+      "definition": "Le compte indiqué est bloqué, ce qui interdit d'y imputer des opérations."
+    },
+    "AG01": {
+      "name": "Opération interdite",
+      "definition": "Opération interdite sur ce type de compte (anciennement NoAgreement)"
+    },
+    "AG02": {
+      "name": "Code d'opération bancaire non valide",
+      "definition": "Le code d'opération bancaire indiqué dans le message n'est pas valide pour le destinataire"
+    },
+    "AM02": {
+      "name": "Montant non autorisé",
+      "definition": "Le montant de l'opération/du message spécifique est supérieur au maximum autorisé"
+    },
+    "AM03": {
+      "name": "Devise non autorisée",
+      "definition": "Le montant du message indiqué est dans une devise non traitable, hors accord existant"
+    },
+    "AM05": {
+      "name": "Doublon",
+      "definition": "Doublon."
+    },
+    "BE01": {
+      "name": "Incohérent avec le client final",
+      "definition": "L'identification du client final n'est pas cohérente avec le numéro de compte associé. (anciennement CreditorConsistency)."
+    },
+    "BE04": {
+      "name": "Adresse du créancier manquante",
+      "definition": "La désignation de l'adresse du créancier, requise pour le paiement, est manquante/incorrecte (anciennement IncorrectCreditorAddress)."
+    },
+    "BE05": {
+      "name": "Partie initiatrice non reconnue",
+      "definition": "La partie ayant initié le message n'est pas reconnue par le client final"
+    },
+    "BE06": {
+      "name": "Client final inconnu",
+      "definition": "Le client final indiqué n'est pas connu du code guichet/code de banque national associé ou n'existe plus dans les livres"
+    },
+    "BE07": {
+      "name": "Adresse du débiteur manquante",
+      "definition": "La désignation de l'adresse du débiteur, requise pour le paiement, est manquante/incorrecte."
+    },
+    "DT01": {
+      "name": "Date non valide",
+      "definition": "Date invalide (par exemple, date de règlement erronée)."
+    },
+    "FF01": {
+      "name": "Format de fichier non valide",
+      "definition": "Format de fichier incomplet ou invalide"
+    },
+    "MD01": {
+      "name": "Aucun mandat",
+      "definition": "Aucun mandat"
+    },
+    "MD02": {
+      "name": "Informations obligatoires manquantes dans le mandat",
+      "definition": "Les données d'information relatives au mandat requises par le schéma sont manquantes."
+    },
+    "MD07": {
+      "name": "Client final décédé",
+      "definition": "Le client final est décédé."
+    },
+    "MD08": {
+      "name": "Aucun service de mandat par la banque",
+      "definition": "La banque réceptrice ne propose pas les services de mandat indiqués"
+    },
+    "MD09": {
+      "name": "Aucun service de mandat pour le client",
+      "definition": "Le compte n'est pas ouvert aux services de mandat indiqués"
+    },
+    "MD10": {
+      "name": "Aucun service de mandat pour l'élément spécifié",
+      "definition": "Le compte n'est pas ouvert aux services de mandat indiqués pour ce créancier en particulier"
+    },
+    "MD11": {
+      "name": "Banque non reconnue",
+      "definition": "La banque à laquelle le message doit être transmis est introuvable"
+    },
+    "MD12": {
+      "name": "Référence de mandat non unique",
+      "definition": "L'identification du mandat n'est pas unique pour le créancier"
+    },
+    "MD13": {
+      "name": "Authentification du client incorrecte",
+      "definition": "Il y a un problème avec l'authentification du client"
+    },
+    "MD14": {
+      "name": "Agent incorrect",
+      "definition": "La banque intervenant dans le flux de paiement est incorrecte"
+    },
+    "MD15": {
+      "name": "Devise incorrecte",
+      "definition": "La devise de l'opération est incorrecte"
+    },
+    "MD16": {
+      "name": "Demandé par le client",
+      "definition": "Annulation/modification demandée par le débiteur"
+    },
+    "MD17": {
+      "name": "Demandé par la partie initiatrice",
+      "definition": "Annulation/modification demandée par le créancier"
+    },
+    "MD18": {
+      "name": "Demandé par la partie initiatrice et le client",
+      "definition": "Annulation/modification demandée par le créancier et le débiteur"
+    },
+    "MD19": {
+      "name": "Mandat annulé en raison d'un règlement anticipé",
+      "definition": "Annulation du mandat suite au remboursement anticipé du débit par le débiteur"
+    },
+    "MD20": {
+      "name": "Mandat expiré",
+      "definition": "Annulation du mandat suite à l'expiration de sa validité"
+    },
+    "MD21": {
+      "name": "Mandat annulé pour cause de fraude",
+      "definition": "Annulation du mandat en raison d'une suspicion de fraude"
+    },
+    "MD22": {
+      "name": "Initiation du mandat annulée",
+      "definition": "Annulation du mandat suite à l'annulation de l'initiation du mandat"
+    },
+    "MD23": {
+      "name": "Modification du mandat annulée",
+      "definition": "Annulation du mandat suite à l'annulation de la modification du mandat"
+    },
+    "MS02": {
+      "name": "Motif non spécifié, généré par le client",
+      "definition": "Le motif n'a pas été précisé par le client final"
+    },
+    "MS03": {
+      "name": "Motif non précisé, généré par la banque",
+      "definition": "Le motif n'a pas été précisé par la banque."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Le motif est fourni sous forme d'information narrative dans les informations complémentaires sur le motif."
+    },
+    "RC01": {
+      "name": "Identifiant bancaire incorrect",
+      "definition": "Le code d'identification bancaire indiqué dans le message a un format incorrect (anciennement IncorrectFormatForRoutingCode)."
+    },
+    "RF01": {
+      "name": "Référence d'opération non unique",
+      "definition": "La référence de l'opération n'est pas unique au sein du message."
+    },
+    "RR01": {
+      "name": "Compte ou identification du débiteur manquant",
+      "definition": "La spécification du compte du débiteur ou de l'identification unique requise pour des raisons réglementaires est insuffisante ou manquante"
+    },
+    "RR02": {
+      "name": "Nom ou adresse du débiteur manquant",
+      "definition": "La spécification du nom et/ou de l'adresse du débiteur requise pour des raisons réglementaires est insuffisante ou manquante."
+    },
+    "RR03": {
+      "name": "Nom ou adresse du créancier manquant",
+      "definition": "La spécification du nom et/ou de l'adresse du créancier requise pour des raisons réglementaires est insuffisante ou manquante."
+    },
+    "RR04": {
+      "name": "Motif réglementaire",
+      "definition": "Motif réglementaire"
+    },
+    "SL01": {
+      "name": "Service spécifique proposé par la banque du débiteur",
+      "definition": "En raison d'un service spécifique offert par la banque du débiteur."
+    },
+    "SL11": {
+      "name": "Créancier absent de la liste blanche du débiteur",
+      "definition": "Service de liste blanche proposé par la banque du débiteur ; le débiteur n'a pas (encore) inscrit le créancier sur sa « liste blanche ». Dans la liste blanche, le débiteur peut recenser tous les créanciers autorisés à débiter son compte bancaire."
+    },
+    "SL12": {
+      "name": "Créancier sur la liste noire du débiteur",
+      "definition": "Service de liste noire proposé par la banque du débiteur ; le débiteur a inscrit le créancier sur sa « liste noire ». Dans la liste noire, le débiteur peut recenser tous les créanciers non autorisés à débiter son compte bancaire."
+    },
+    "SL13": {
+      "name": "Nombre maximal d'opérations de prélèvement dépassé",
+      "definition": "En raison du service de nombre maximal d'opérations de prélèvement autorisées par période proposé par la banque du débiteur."
+    },
+    "SL14": {
+      "name": "Montant maximal d'opération de prélèvement dépassé",
+      "definition": "En raison du service de montant maximal d'opération de prélèvement autorisé proposé par la banque du débiteur."
+    }
+  }
+}

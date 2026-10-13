@@ -1,0 +1,18 @@
+{
+  "isoType": "BusinessFlowType1Code",
+  "definition": "Identifie le processus métier dans lequel les acteurs sont impliqués. Cela est important pour déclencher le bon processus métier, selon le modèle d'activité du marché, qui peut exiger l'appariement des instructions dans un environnement CSD (processus à deux volets) ou non (processus à un seul volet).",
+  "isoCodes": {
+    "SLDP": {
+      "name": "Partie livreuse à une seule jambe",
+      "definition": "Processus à un seul volet initié par la partie livreuse."
+    },
+    "SLRP": {
+      "name": "Partie receveuse à une seule jambe",
+      "definition": "Processus à un seul volet initié par la partie réceptrice."
+    },
+    "DLPR": {
+      "name": "Processus à double jambe",
+      "definition": "Processus à deux volets."
+    }
+  }
+}

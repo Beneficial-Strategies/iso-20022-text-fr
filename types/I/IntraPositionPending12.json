@@ -1,0 +1,80 @@
+{
+  "isoType": "IntraPositionPending12",
+  "definition": "Identifie le détail de l'opération.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Statut et motif du statut de l'opération."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue du titulaire du compte (ou de la partie donneuse d'ordre gérant le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la banque teneur de compte."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par le processeur."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identification attribuée par la banque teneur de compte permettant d'identifier sans ambiguïté un événement sur titres."
+    },
+    "PoolIdentification": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    },
+    "BalanceFrom": {
+      "definition": "Solde d'où les titres sont déplacés."
+    },
+    "BalanceTo": {
+      "definition": "Solde vers lequel les titres sont déplacés."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instruments financiers représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Éléments caractérisant un instrument financier."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantité totale de titres à régler."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être déplacés."
+    },
+    "StatusDate": {
+      "definition": "Date et heure auxquelles le statut a été attribué."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Horodatage de l'accusé de réception de l'opération."
+    },
+    "Linkages": {
+      "definition": "Lien vers une autre opération qui doit être traitée après, avant ou en même temps."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Numéro identifiant un lot constituant le sous-solde."
+    },
+    "Priority": {
+      "definition": "Précise si l'opération doit être exécutée avec une priorité élevée."
+    },
+    "CorporateActionEventType": {
+      "definition": "Indique le type d'événement sur titres."
+    },
+    "MessageOriginator": {
+      "definition": "Partie à l'origine du message, si elle est différente de l'expéditeur."
+    },
+    "CreationDateTime": {
+      "definition": "Précise la date et l'heure de création du mouvement intra-position."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires sur le traitement du règlement qui ne peuvent pas être incluses dans les champs structurés du message."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Si aucune référence n'est disponible pour AccountOwnerTransactionIdentification, par exemple parce que l'opération a été envoyée par télécopie, AccountOwnerTransactionIdentification doit être NONREF."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledReason11Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le motif pour lequel l'instruction ou la demande d'annulation est annulée.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le motif pour lequel l'instruction est annulée."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire précisant le motif pour lequel l'instruction est annulée."
+    }
+  }
+}

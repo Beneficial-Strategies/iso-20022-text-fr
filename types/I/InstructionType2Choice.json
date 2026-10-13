@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionType2Choice",
+  "definition": "Type d'instruction.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identification du message d'instruction d'assemblée initial pour lequel le statut global ou le ou les statuts d'une ou plusieurs instructions individuelles sont fournis."
+    },
+    "InstructionCancellationIdentification": {
+      "definition": "Identification du message de demande d'annulation d'instruction d'assemblée initial pour lequel le statut global ou le ou les statuts d'une ou plusieurs demandes d'annulation d'instruction individuelles sont fournis."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "isoType": "Resolution8",
+  "definition": "Résolutions à l'ordre du jour d'une assemblée et type de résolution.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Numéro de la résolution tel que précisé par l'émetteur ou son agent."
+    },
+    "Description": {
+      "definition": "Langue, titre et description textuelle d'une résolution de l'ordre du jour."
+    },
+    "ListingGroupResolutionLabel": {
+      "definition": "Identifie sous le même libellé un groupe de résolutions de l'ordre du jour pour lesquelles un vote favorable ne peut être attribué qu'à une seule résolution du groupe."
+    },
+    "Type": {
+      "definition": "Type de résolution."
+    },
+    "ForInformationOnly": {
+      "definition": "Indique si la résolution est inscrite pour information ou pour vote."
+    },
+    "VoteType": {
+      "definition": "Impact des résultats du vote sur une résolution de l'ordre du jour."
+    },
+    "Status": {
+      "definition": "Précise si la résolution est active ou retirée."
+    },
+    "SubmittedBySecurityHolder": {
+      "definition": "Indique si la résolution a été soumise par le porteur de titres."
+    },
+    "RightToWithdrawIndicator": {
+      "definition": "Indique si un client qui n'a pas voté en faveur des résolutions finalement approuvées a le droit de se retirer d'un événement de société associé."
+    },
+    "VoteInstructionType": {
+      "definition": "Options de vote autorisées au niveau de la résolution. Lorsqu'elles sont précisées, elles remplacent les options de vote indiquées pour l'assemblée."
+    },
+    "ManagementRecommendation": {
+      "definition": "Précise comment la direction de la société émettrice souhaite que les porteurs de titres votent."
+    },
+    "NotifyingPartyRecommendation": {
+      "definition": "Précise comment la partie notifiante recommande que les porteurs de titres votent."
+    },
+    "Entitlement": {
+      "definition": "Nombre de voix attribuées par résolution à un titre."
+    },
+    "VotingRightsThresholdForApproval": {
+      "definition": "Seuil de droits de vote et base de seuil requis pour qu'une résolution de l'assemblée soit approuvée."
+    },
+    "URLAddress": {
+      "definition": "Adresse à utiliser sur le service www (HTTP) où l'on peut trouver des informations supplémentaires spécifiques sur les résolutions de l'assemblée."
+    }
+  },
+  "isoRules": {
+    "VotingRightsTresholdForApproval1Rule": {
+      "definition": "Si VotingRightThresholdForApproval est présent plus d'une fois, alors ThresholdBasis est obligatoire dans chaque occurrence de VotingRightThresholdForApproval et la valeur de l'élément ThresholdBasis/Code doit être différente dans chaque occurrence."
+    }
+  }
+}

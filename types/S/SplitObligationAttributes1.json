@@ -1,0 +1,15 @@
+{
+  "isoType": "SplitObligationAttributes1",
+  "definition": "Précise le détail de la scission.",
+  "isoElements": {
+    "ObligationIdentification": {
+      "definition": "Référence de l'obligation scindée."
+    },
+    "SplitSequenceNumber": {
+      "definition": "Numéro de séquence de la scission."
+    },
+    "Amount": {
+      "definition": "Montant de la scission."
+    }
+  }
+}

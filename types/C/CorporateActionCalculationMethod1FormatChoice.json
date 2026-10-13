@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionCalculationMethod1FormatChoice",
+  "definition": "Choix de formats pour exprimer la méthode de calcul des tirages au sort.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard pour préciser la méthode de calcul des tirages au sort."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire pour exprimer la méthode de calcul des tirages au sort."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "Reason21Choice",
+  "definition": "Choix du motif.",
+  "isoElements": {
+    "RepoCallAcknowledgementReason": {
+      "definition": "Précise des informations complémentaires sur l'accusé de réception de la demande de rappel de la mise en pension."
+    },
+    "CancellationReason": {
+      "definition": "Précise le motif pour lequel l'instruction associée est annulée, ou la demande d'annulation associée est exécutée."
+    },
+    "PendingCancellationReason": {
+      "definition": "Précise le motif pour lequel la demande d'annulation est en attente."
+    },
+    "GeneratedReason": {
+      "definition": "Précise le motif pour lequel l'opération a été générée."
+    },
+    "DeniedReason": {
+      "definition": "Précise le motif pour lequel la demande a été refusée."
+    },
+    "AcknowledgedAcceptedReason": {
+      "definition": "Précise des informations complémentaires sur l'instruction traitée."
+    },
+    "PendingReason": {
+      "definition": "Précise le motif pour lequel l'instruction a le statut en attente."
+    },
+    "FailingReason": {
+      "definition": "Précise le motif pour lequel l'instruction a un statut de défaut de règlement."
+    },
+    "PendingProcessingReason": {
+      "definition": "Précise le motif pour lequel l'instruction a le statut de traitement en attente."
+    },
+    "RejectionReason": {
+      "definition": "Précise le motif pour lequel l'instruction ou la demande a le statut rejeté."
+    },
+    "RepairReason": {
+      "definition": "Précise le motif pour lequel l'instruction est en réparation."
+    },
+    "PendingModificationReason": {
+      "definition": "Précise le motif pour lequel la demande de modification est en attente."
+    },
+    "UnmatchedReason": {
+      "definition": "Précise le motif pour lequel l'instruction a le statut non apparié."
+    }
+  },
+  "isoRules": {
+    "ReasonRule": {
+      "definition": "Si le motif est demandé, il doit correspondre aux motifs disponibles pour le type de message demandé."
+    }
+  }
+}

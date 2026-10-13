@@ -1,0 +1,4 @@
+{
+  "isoType": "ChequeCancellationOrStopRequestV02",
+  "definition": "Le message ChequeCancellationOrStopRequest est envoyé par une banque du tireur, ou une banque agissant pour son compte, à la banque sur laquelle un chèque est tiré (la banque tirée) pour demander l'annulation de la présentation et/ou l'opposition au paiement du chèque visé dans le message."
+}

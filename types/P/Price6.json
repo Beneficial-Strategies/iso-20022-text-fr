@@ -1,0 +1,15 @@
+{
+  "isoType": "Price6",
+  "definition": "Fournit la valeur, le type et la source du prix.",
+  "isoElements": {
+    "RateOrAmount": {
+      "definition": "Valeur du prix exprimée en devise et montant ou sous forme de taux."
+    },
+    "Type": {
+      "definition": "Spécification du type de prix."
+    },
+    "Source": {
+      "definition": "Source de l'évaluation du prix."
+    }
+  }
+}

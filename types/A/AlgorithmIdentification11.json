@@ -1,0 +1,12 @@
+{
+  "isoType": "AlgorithmIdentification11",
+  "definition": "Algorithmes cryptographiques et paramètres pour la protection des clés transportées par une clé asymétrique.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Algorithme de chiffrement asymétrique d'une clé de transport."
+    },
+    "Parameter": {
+      "definition": "Paramètres de l'algorithme de chiffrement."
+    }
+  }
+}

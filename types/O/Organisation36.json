@@ -1,0 +1,33 @@
+{
+  "isoType": "Organisation36",
+  "definition": "Structure organisée constituée à une fin particulière, par exemple une entreprise, un organisme public, un service, une organisation caritative ou un établissement financier.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom sous lequel la partie est connue et qui est habituellement utilisé pour l'identifier."
+    },
+    "Identification": {
+      "definition": "Identifiant unique et non ambigu de l'organisation."
+    },
+    "Purpose": {
+      "definition": "Objet de l'organisation, par exemple œuvre caritative."
+    },
+    "TaxationCountry": {
+      "definition": "Pays d’imposition de l’organisation."
+    },
+    "RegistrationCountry": {
+      "definition": "Pays dans lequel l'organisation est immatriculée."
+    },
+    "RegistrationDate": {
+      "definition": "Date et heure auxquelles l’organisation a été officiellement enregistrée."
+    },
+    "TaxIdentificationNumber": {
+      "definition": "Numéro attribué à l’organisation par une autorité fiscale."
+    },
+    "NationalRegistrationNumber": {
+      "definition": "Numéro attribué à l’organisation par une autorité nationale d’enregistrement."
+    },
+    "CorporateInvestorAddress": {
+      "definition": "Adresse postale de l’organisation."
+    }
+  }
+}

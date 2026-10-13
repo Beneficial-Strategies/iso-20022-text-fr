@@ -1,0 +1,18 @@
+{
+  "isoType": "OnLineCapability1Code",
+  "definition": "Capacités en ligne et hors ligne du POI (Point Of Interaction).",
+  "isoCodes": {
+    "OFLN": {
+      "name": "Hors ligne",
+      "definition": "Capable de fonctionner uniquement hors ligne."
+    },
+    "ONLN": {
+      "name": "En ligne",
+      "definition": "Capable de fonctionner uniquement en ligne."
+    },
+    "SMON": {
+      "name": "Semi-hors ligne",
+      "definition": "Capable de fonctionner hors ligne avec d'éventuelles demandes en ligne auprès de l'acquéreur."
+    }
+  }
+}

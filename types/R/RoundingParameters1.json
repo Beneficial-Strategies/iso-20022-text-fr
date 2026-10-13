@@ -1,0 +1,12 @@
+{
+  "isoType": "RoundingParameters1",
+  "definition": "Paramètres appliqués à un nombre fractionnaire.",
+  "isoElements": {
+    "RoundingModulus": {
+      "definition": "Valeur décimale précisant la valeur à laquelle l'arrondi est requis, p. ex. 10 signifie arrondir à un multiple de 10 parts/actions, 0.5 signifie arrondir à un multiple de 0.5 part/action."
+    },
+    "RoundingDirection": {
+      "definition": "Sens d'arrondi appliqué aux nombres fractionnaires, p. ex. arrondi supérieur."
+    }
+  }
+}

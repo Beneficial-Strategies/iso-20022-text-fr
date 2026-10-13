@@ -1,0 +1,250 @@
+{
+  "isoType": "CorporateActionEventType2Code",
+  "definition": "Indique le statut de l'événement CA.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Statut de négociation actif",
+      "definition": "La négociation du titre a commencé ou le titre a été réactivé après une suspension de cotation."
+    },
+    "ATTI": {
+      "name": "Rattachement",
+      "definition": "Combinaison de différents types de titres pour créer une unité. Les unités sont généralement composées de bons de souscription et d'obligations ou de bons de souscription et d'actions. Les titres peuvent être combinés à la demande du détenteur ou selon la convention de marché."
+    },
+    "BIDS": {
+      "name": "Offre de rachat",
+      "definition": "Offre de rachat / offre de l'émetteur / droits inversés. Offre faite aux actionnaires existants par la société émettrice de racheter des actions ou d'autres titres convertibles en actions. L'objectif de l'offre est de réduire le nombre d'actions en circulation."
+    },
+    "BONU": {
+      "name": "Attribution gratuite d'actions",
+      "definition": "L'événement est une émission gratuite ou une émission d'actions gratuites ou une incorporation de réserves au capital. Les détenteurs de titres se voient attribuer gratuitement par l'émetteur des actifs supplémentaires proportionnellement à leur détention. Une émission gratuite est généralement représentée par des actions, des droits ou des bons de souscription. La valeur nominale ne change pas. Le détenteur peut se voir offrir le choix de la forme."
+    },
+    "BPUT": {
+      "name": "Remboursement sur option de vente",
+      "definition": "Remboursement partiel avant la date d'échéance finale prévue d'un titre. Le tirage au sort se distingue du remboursement anticipé partiel en ce que les obligations tirées sont choisies par loterie et sans réduction de la valeur nominale."
+    },
+    "BRUP": {
+      "name": "Faillite",
+      "definition": "Statut juridique d'une société incapable de payer ses créanciers. La faillite implique généralement une décision formelle d'un tribunal. Les titres peuvent devenir sans valeur."
+    },
+    "CAPG": {
+      "name": "Distribution de plus-values",
+      "definition": "L'événement est la distribution des bénéfices résultant de la vente de titres. Les actionnaires de fonds communs de placement, de fonds d'investissement ou de Sicav reçoivent des distributions de plus-values, qui sont souvent réinvesties dans des parts supplémentaires du fonds."
+    },
+    "CAPI": {
+      "name": "Capitalisation",
+      "definition": "Augmentation du principal courant d'un instrument de dette sans augmentation de la valeur nominale. Elle résulte normalement de l'incorporation au principal des intérêts échus mais impayés. Elle s'effectue couramment par l'augmentation de la valeur du facteur de pool, par exemple capitalisation et amortissement négatif."
+    },
+    "CERT": {
+      "name": "Certification non américaine TEFRA D",
+      "definition": "Exigence de certification de bénéficiaire effectif non US pour l'échange de titres temporaires contre des titres permanents."
+    },
+    "CHAN": {
+      "name": "Changement",
+      "definition": "Informations concernant une modification décrite plus en détail dans les détails de l'opération sur titres."
+    },
+    "CLSA": {
+      "name": "Règlement proposé d'une action collective",
+      "definition": "Situation dans laquelle des parties intéressées demandent réparation d'un préjudice financier. Le détenteur de titres peut se voir offrir la possibilité de se joindre à une action collective et devrait répondre par une instruction."
+    },
+    "CONS": {
+      "name": "Consentement",
+      "definition": "Procédure visant à obtenir le consentement du porteur à une proposition de l'émetteur ou d'un tiers destinée à faire progresser un événement vers l'étape suivante. Cette procédure n'est pas nécessairement liée à l'organisation d'une assemblée formelle. Par exemple, le consentement à l'approbation d'un plan de réorganisation dans le cadre d'une procédure de faillite."
+    },
+    "CONV": {
+      "name": "Conversion",
+      "definition": "Conversion de titres (généralement des obligations convertibles ou des actions de préférence) en une autre forme de titres (généralement des actions ordinaires) à un prix ou un ratio préétabli."
+    },
+    "COOP": {
+      "name": "Option de la société",
+      "definition": "Une option de société peut être accordée par la société, permettant au porteur de souscrire des actions de la société à une ou plusieurs dates futures à un prix convenu à l'avance. Une société ne peut pas accorder d'options permettant au porteur de souscrire des actions non émises à une date située cinq ans ou plus après la date d'octroi. Les porteurs d'options ne sont pas membres d'une société. Ce sont des créanciers conditionnels de la société et peuvent donc, dans certains cas, avoir le droit de voter sur un arrangement entre les créanciers et la société et d'être liés par celui-ci. Comme de nombreuses options comportent plusieurs périodes d'exercice, une option de société soit expire, soit se poursuit jusqu'à la date d'échéance suivante."
+    },
+    "DECR": {
+      "name": "Diminution de valeur",
+      "definition": "Réduction de la valeur nominale d'une action ou de la valeur des actifs du fonds. Le nombre d'actions/parts en circulation reste inchangé. Cet événement peut inclure un versement en espèces aux détenteurs."
+    },
+    "DETI": {
+      "name": "Détachement",
+      "definition": "Séparation des composants d'un titre, par exemple, généralement des unités composées de bons de souscription et d'obligations ou de bons de souscription et d'actions. Les unités peuvent être dissociées à la demande du porteur du titre ou selon la convention de marché."
+    },
+    "DFLT": {
+      "name": "Défaut obligataire",
+      "definition": "Manquement de la société à exécuter des obligations définies comme des cas de défaut dans le contrat d'émission obligataire et auquel il n'a pas été remédié."
+    },
+    "DLST": {
+      "name": "Statut de négociation : radié de la cote",
+      "definition": "Le titre n'est plus en mesure de satisfaire aux exigences d'admission à la cote d'une bourse et est retiré de la cotation officielle."
+    },
+    "DRAW": {
+      "name": "Tirage au sort",
+      "definition": "Remboursement partiel avant la date d'échéance finale prévue d'un titre. Le tirage au sort se distingue du remboursement anticipé partiel en ce que les obligations tirées sont choisies par loterie et sans réduction de la valeur nominale."
+    },
+    "DRIP": {
+      "name": "Réinvestissement du dividende",
+      "definition": "L'événement est un type de paiement de dividende où le dividende en espèces est converti en actions supplémentaires de la société émettrice."
+    },
+    "DSCL": {
+      "name": "Divulgation",
+      "definition": "Obligation pour les détenteurs ou les bénéficiaires effectifs de communiquer à l'émetteur leur nom, leur localisation et leurs avoirs de toute émission."
+    },
+    "DTCH": {
+      "name": "Enchère hollandaise",
+      "definition": "Action d'une partie souhaitant acquérir un titre. Les porteurs du titre sont invités à faire une offre de vente dans une fourchette de prix déterminée. La partie acquéreuse achètera auprès du porteur ayant fait l'offre la plus basse."
+    },
+    "DVCA": {
+      "name": "Dividende en espèces",
+      "definition": "Distribution de numéraire aux actionnaires, proportionnellement à leur participation au capital. Les dividendes ordinaires sont récurrents et réguliers. L'actionnaire doit prendre le numéraire et peut se voir proposer un choix de devise."
+    },
+    "DVOP": {
+      "name": "Option de dividende",
+      "definition": "L'événement est une distribution de dividende aux actionnaires avec choix du mode de paiement. L'actionnaire doit choisir la forme de paiement : actions, espèces ou les deux."
+    },
+    "DVSC": {
+      "name": "Dividende en titres",
+      "definition": "Dividende ou paiement en titres. Dividende ou intérêt versé sous forme de scrip."
+    },
+    "DVSE": {
+      "name": "Dividende en actions",
+      "definition": "L'événement est un dividende versé aux actionnaires sous forme d'actions de la société émettrice ou d'une autre société. L'actionnaire doit recevoir des actions et ne se voit pas offrir de choix quant à la forme de la distribution."
+    },
+    "EXOF": {
+      "name": "Échange",
+      "definition": "Échange d'avoirs contre d'autres titres et/ou des espèces. L'échange peut être obligatoire ou volontaire et implique l'échange de titres en circulation contre des titres différents et/ou des espèces. Par exemple \"offre d'échange\", \"réorganisation du capital\" ou \"séparation de fonds\"."
+    },
+    "EXRI": {
+      "name": "Appel sur titres intermédiaires",
+      "definition": "Appel de fonds ou exercice sur des titres non libérés ou des titres intermédiaires résultant d'une distribution de titres intermédiaires (RHDI). Ce code est utilisé pour le second événement, lorsque l'émission de titres intermédiaires (droits/coupons) se compose de deux événements, le premier événement étant la distribution de titres intermédiaires."
+    },
+    "EXTM": {
+      "name": "Prolongation de l'échéance",
+      "definition": "Comme le prévoient les conditions générales d'une obligation, l'émetteur ou l'obligataire peut proroger la date d'échéance d'une obligation. Après la prorogation, le titre peut différer de l'émission d'origine (nouveau taux ou nouvelle date d'échéance). Peut être soumise à l'approbation de l'obligataire."
+    },
+    "EXWA": {
+      "name": "Exercice de bon de souscription",
+      "definition": "Option offerte aux détenteurs d'acheter (bon d'achat) ou de vendre (bon de vente) un montant déterminé d'actions, d'espèces ou de matières premières, à un prix prédéterminé, pendant une période prédéterminée (qui correspond généralement à la durée de vie de l'émission)."
+    },
+    "INCR": {
+      "name": "Augmentation de valeur",
+      "definition": "Augmentation de la valeur nominale d'un titre. Le nombre de titres en circulation reste inchangé."
+    },
+    "INTR": {
+      "name": "Paiement d'intérêts",
+      "definition": "Paiement régulier d'intérêts distribué aux porteurs d'un actif productif d'intérêts."
+    },
+    "LIQU": {
+      "name": "Dividende de liquidation",
+      "definition": "Distribution de liquidités, d'actifs ou des deux. Les dettes peuvent être payées par ordre de priorité selon les droits préférentiels sur les actifs précisés par le titre."
+    },
+    "MCAL": {
+      "name": "Remboursement anticipé total",
+      "definition": "Remboursement de la totalité d'une émission de titres en circulation, par exemple obligations, actions de préférence, fonds, par l'émetteur ou son agent, par exemple un gestionnaire d'actifs, avant l'échéance finale."
+    },
+    "MRGR": {
+      "name": "Fusion",
+      "definition": "L'événement est un échange obligatoire ou volontaire de titres en circulation résultant du regroupement des actifs de deux sociétés ou plus. Des paiements en espèces peuvent accompagner l'échange d'actions."
+    },
+    "ODLT": {
+      "name": "Vente ou achat de lot irrégulier",
+      "definition": "Vente ou achat de rompus. Vente ou achat de rompus à la société émettrice ou auprès d'elle, à l'initiative du porteur du titre ou à la suite d'une offre faite par l'émetteur."
+    },
+    "PARI": {
+      "name": "Pari passu",
+      "definition": "Se produit lorsque des titres présentant des caractéristiques différentes, par exemple des actions ayant des droits différents aux dividendes ou au vote, deviennent identiques à tous égards, par exemple pari passu ou assimilation. Peut être prévue à l'avance, par exemple des actions issues d'une attribution gratuite peuvent devenir fongibles après une période préétablie, ou résulter d'événements extérieurs, par exemple fusion, réorganisation, émission de tranches supplémentaires, etc."
+    },
+    "PCAL": {
+      "name": "Remboursement partiel avec réduction de la valeur nominale",
+      "definition": "Les titres sont remboursés en partie avant leur date d'échéance finale prévue, avec réduction de la valeur nominale des actions. Le montant des titres en circulation sera réduit proportionnellement."
+    },
+    "PDEF": {
+      "name": "Préfinancement",
+      "definition": "Également appelé défaisance partielle. L'émetteur a mis de l'argent de côté pour rembourser une partie d'une émission et l'acte de fiducie stipule que les titres peuvent être rappelés avant l'échéance indiquée."
+    },
+    "PINK": {
+      "name": "Paiement en nature",
+      "definition": "Paiement d'intérêts, sous toute forme autre qu'en espèces, distribué aux détenteurs d'un actif productif d'intérêts."
+    },
+    "PLAC": {
+      "name": "Lieu de constitution",
+      "definition": "Changements de l'État de constitution pour les sociétés US et changements du lieu de constitution pour les sociétés étrangères. Lorsque les actions doivent être enregistrées à la suite du changement de constitution, le ou les détenteurs peuvent avoir à choisir le teneur de registre."
+    },
+    "PPMT": {
+      "name": "Appel de versement",
+      "definition": "Versement échelonné pour l'achat de capital social, soumis à un accord entre un émetteur et un acheteur."
+    },
+    "PRED": {
+      "name": "Remboursement partiel sans réduction de la valeur nominale",
+      "definition": "Les titres sont remboursés en partie avant leur date d'échéance finale prévue, sans réduction de la valeur nominale des actions. Cela s'effectue couramment par une réduction du facteur de pool."
+    },
+    "PRII": {
+      "name": "Paiement des intérêts avec le principal",
+      "definition": "Événement composé de deux éléments : la diminution de la valeur amortie d'un titre à facteur de pool et un paiement d'intérêts."
+    },
+    "PRIO": {
+      "name": "Émission prioritaire",
+      "definition": "Forme d'offre ouverte ou publique où, en raison d'une quantité limitée de titres disponibles, la priorité est donnée aux actionnaires existants."
+    },
+    "REDM": {
+      "name": "Échéance finale",
+      "definition": "Remboursement de la totalité d'une émission de titres en circulation, par exemple obligations, actions de préférence, fonds, par l'émetteur ou son agent, par exemple un gestionnaire d'actifs, à l'échéance finale."
+    },
+    "REDO": {
+      "name": "Changement de dénomination",
+      "definition": "Événement par lequel l'unité (devise et/ou nominal) d'un titre est redéfinie, par exemple la valeur nominale d'un titre exprimée en devise nationale est redéfinie dans une autre devise."
+    },
+    "REMK": {
+      "name": "Accord de remise en marché",
+      "definition": "Achat et vente de titres de participation/obligations de préférence remis en marché par la négociation du taux d'intérêt entre les émetteurs et les détenteurs."
+    },
+    "RHDI": {
+      "name": "Distribution de titres intermédiaires",
+      "definition": "Distribution de titres intermédiaires ou d'un privilège qui donne au porteur le droit de participer à un événement futur."
+    },
+    "RHTS": {
+      "name": "Émission de droits",
+      "definition": "Émission de droits / droits de souscription / offre de droits. Distribution d'un titre ou d'un privilège qui donne au porteur un droit à participer à un événement futur."
+    },
+    "SHPR": {
+      "name": "Dividende prélevé sur la prime d'émission",
+      "definition": "Cet événement sur titres verse aux actionnaires un montant en numéraire prélevé sur la réserve de prime d'émission. Il est similaire à un dividende mais avec des conséquences fiscales différentes."
+    },
+    "SMAL": {
+      "name": "Plus petite unité négociable",
+      "definition": "Modification de la plus petite unité négociable d'actions afin d'obtenir une nouvelle unité négociable."
+    },
+    "SOFF": {
+      "name": "Scission",
+      "definition": "L'événement est une scission ou une distribution ou un dégroupement. Il s'agit d'une distribution d'actions d'une filiale aux actionnaires de la société mère sans remise d'actions. Une scission représente une forme de cession aboutissant à une société indépendante. Normalement, elle est sans frais pour les actionnaires de l'émission de la société mère."
+    },
+    "SPLF": {
+      "name": "Division d'actions",
+      "definition": "L'événement est une modification de la valeur nominale, une division. Il s'agit d'une augmentation du nombre d'actions en circulation d'une société sans modification des capitaux propres de l'actionnaire ni de la valeur de marché globale au moment de la division. Le cours de l'action et la valeur nominale sont réduits en conséquence."
+    },
+    "SPLR": {
+      "name": "Regroupement d'actions",
+      "definition": "L'événement est une modification de la valeur nominale, un regroupement. Il s'agit d'une diminution du nombre d'actions en circulation sans modification des capitaux propres de l'actionnaire ni de la valeur de marché globale au moment de la division. Le cours de l'action et la valeur nominale sont réduits en conséquence."
+    },
+    "SUSP": {
+      "name": "Statut de négociation : suspendu",
+      "definition": "La négociation du titre a été suspendue."
+    },
+    "TEND": {
+      "name": "Offre publique",
+      "definition": "L'événement est une acquisition ou une prise de contrôle ou une offre publique de retrait (FR) ou une offre d'achat ou un rachat. Il s'agit d'une offre faite aux actionnaires leur demandant de vendre (offrir) leurs actions à un prix déterminé, généralement supérieur au cours du marché en vigueur. En général, l'objectif d'une offre publique d'achat est de prendre le contrôle de la société visée."
+    },
+    "TREC": {
+      "name": "Réclamation fiscale",
+      "definition": "Événement lié aux activités de récupération d'impôt."
+    },
+    "WRTH": {
+      "name": "Sans valeur",
+      "definition": "Sortie comptable de titres sans valeur."
+    },
+    "WTRC": {
+      "name": "Certification d'allègement de la retenue à la source",
+      "definition": "Processus de certification pour la réduction ou l'exonération de la retenue à la source en fonction du statut fiscal du détenteur."
+    },
+    "OTHR": {
+      "name": "Autre événement",
+      "definition": "Autre événement, à utiliser uniquement lorsqu'aucun autre type d'événement ne s'applique, par exemple un nouveau type d'événement."
+    }
+  }
+}

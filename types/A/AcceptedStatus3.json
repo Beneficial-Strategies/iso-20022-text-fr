@@ -1,0 +1,12 @@
+{
+  "isoType": "AcceptedStatus3",
+  "definition": "Informations de statut et de quantité relatives à une demande d'instruction acceptée.",
+  "isoElements": {
+    "AcceptedQuantity": {
+      "definition": "Quantité de titres instruits qui a été acceptée pour la suite du traitement."
+    },
+    "AcceptedReason": {
+      "definition": "Motif du statut accepté."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "Algorithm11Code",
+  "definition": "Identification d'un algorithme de condensé.",
+  "isoCodes": {
+    "HS25": {
+      "name": "SHA256",
+      "definition": "Algorithme de condensé de message SHA-256 tel que défini dans FIPS 180-1 et 2 - (identifiant d'objet ASN.1 : id-sha256)."
+    },
+    "HS38": {
+      "name": "SHA384",
+      "definition": "Algorithme de condensé de message SHA-384 tel que défini dans FIPS 180-1 et 2 - (identifiant d'objet ASN.1 : id-sha384)."
+    },
+    "HS51": {
+      "name": "SHA512",
+      "definition": "Algorithme de condensé de message SHA-512 tel que défini dans FIPS 180-1 et 2 - (identifiant d'objet ASN.1 : id-sha512)."
+    },
+    "HS01": {
+      "name": "SHA1",
+      "definition": "Algorithme de condensé de message SHA-1 DEPRECATED tel que défini dans FIPS 180-1 - (identifiant d'objet ASN.1 : id-sha1)."
+    }
+  }
+}

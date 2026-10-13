@@ -1,0 +1,18 @@
+{
+  "isoType": "ReportHeader7",
+  "definition": "Précise les informations générales d'un rapport d'enquête.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Référence de point à point attribuée par le mandant du dossier pour identifier sans ambiguïté le rapport de statut du dossier."
+    },
+    "From": {
+      "definition": "Partie qui rapporte le statut du dossier d'enquête."
+    },
+    "To": {
+      "definition": "Partie à laquelle le statut du dossier est rapporté."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "isoType": "StandingOrderReturnCriteria1",
+  "definition": "Définit les critères utilisés pour établir le relevé des ordres permanents.",
+  "isoElements": {
+    "StandingOrderIdentificationIndicator": {
+      "definition": "Définit les critères utilisés pour établir le relevé d'un solde multilatéral."
+    },
+    "TypeIndicator": {
+      "definition": "Indique si le type d'ordre permanent est demandé."
+    },
+    "SystemMemberIndicator": {
+      "definition": "Indique si l'identification du membre du système est demandée."
+    },
+    "ResponsiblePartyIndicator": {
+      "definition": "Indique si l'identification de la partie responsable est demandée."
+    },
+    "CurrencyIndicator": {
+      "definition": "Indique si la devise du compte est demandée."
+    },
+    "DebtorAccountIndicator": {
+      "definition": "Indique si le type de compte est demandé."
+    },
+    "CreditorAccountIndicator": {
+      "definition": "Indique si la limite multilatérale est demandée."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Indique si le compte du groupe associé est demandé."
+    },
+    "FrequencyIndicator": {
+      "definition": "Indique si la fréquence est demandée."
+    },
+    "ExecutionTypeIndicator": {
+      "definition": "Indique si le type d'exécution est demandé."
+    },
+    "ValidityFromIndicator": {
+      "definition": "Indique si l'ordre permanent du compte est demandé."
+    },
+    "ValidToIndicator": {
+      "definition": "Indique si les informations sur le titulaire du compte sont demandées."
+    },
+    "LinkSetIdentificationIndicator": {
+      "definition": "Indique si l'identification de l'ensemble lié est demandée."
+    },
+    "LinkSetOrderIdentificationIndicator": {
+      "definition": "Indique si l'identification d'un ordre permanent au sein d'un ensemble lié est demandée."
+    },
+    "LinkSetOrderSequenceIndicator": {
+      "definition": "Indique si la séquence d'un ordre permanent au sein d'un ensemble lié est demandée."
+    },
+    "TotalAmountIndicator": {
+      "definition": "Indique si le montant total par type d'ordre permanent est demandé."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Indique si l'indicateur de balayage à zéro est demandé."
+    }
+  }
+}

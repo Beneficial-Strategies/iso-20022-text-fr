@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAElectionAmendmentRequestV01",
+  "definition": "Portée|Ce message est envoyé par un CSD à l'émetteur (ou à son agent) pour demander l'autorisation de modifier un message Agent Corporate Action Election Advice envoyé précédemment.|Utilisation|Ce message est utilisé pour demander la modification d'un message Agent Corporate Action Election Advice envoyé précédemment.|Une fois la demande de modification acceptée par l'émetteur (ou son agent), le CSD traitera tout mouvement de ressources et enverra un message Agent Corporate Action Election Advice avec la fonction « changement d'option » pour confirmer que la modification a été comptabilisée au CSD.|Ce message est utilisé lorsque les conditions de l'événement d'opération sur titres autorisent les modifications."
+}

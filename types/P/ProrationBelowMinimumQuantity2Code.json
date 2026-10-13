@@ -1,0 +1,30 @@
+{
+  "isoType": "ProrationBelowMinimumQuantity2Code",
+  "definition": "Précise le type de répartition au prorata lorsque la quantité est inférieure à la quantité minimale à instruire.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Accepté en totalité",
+      "definition": "Les instructions seront acceptées en totalité (avec leur quantité initiale de titres instruite)."
+    },
+    "MIEX": {
+      "name": "Quantité minimale",
+      "definition": "Les instructions seront acceptées mais réparties au prorata de la quantité minimale à instruire."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "Les instructions seront rejetées."
+    },
+    "MILD": {
+      "name": "Arrondi inférieur",
+      "definition": "Les instructions seront acceptées mais arrondies à l'inférieur à la quantité multiple minimale à instruire indiquée."
+    },
+    "MILU": {
+      "name": "Arrondi supérieur",
+      "definition": "Les instructions seront acceptées mais arrondies au supérieur à la quantité multiple minimale à instruire indiquée."
+    },
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "Le traitement des instructions réparties au prorata en deçà de la quantité minimale à instruire est inconnu."
+    }
+  }
+}

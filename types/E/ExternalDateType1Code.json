@@ -1,0 +1,25 @@
+{
+  "isoType": "ExternalDateType1Code",
+  "isoCodes": {
+    "INDA": {
+      "name": "Date de facture",
+      "definition": "Se rapporte à la date de facture."
+    },
+    "PADD": {
+      "name": "Date d'échéance du paiement",
+      "definition": "Se rapporte à la date d'échéance de paiement."
+    },
+    "NXBD": {
+      "name": "Prochaine date de facturation",
+      "definition": "Se rapporte à la prochaine date de facturation."
+    },
+    "NTAV": {
+      "name": "Non disponible",
+      "definition": "Le type de date n'est pas disponible."
+    },
+    "PYDT": {
+      "name": "Date de paie",
+      "definition": "Se rapporte à la date de paie."
+    }
+  }
+}

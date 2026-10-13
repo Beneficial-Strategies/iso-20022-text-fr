@@ -1,0 +1,130 @@
+{
+  "isoType": "ExternalInvestigationExecutionConfirmation1Code",
+  "definition": "Précise le résultat d'une enquête, tel que publié dans une liste externe de codes de confirmation d'exécution d'enquête.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "ACDA": {
+      "name": "Autorisation de débit acceptée",
+      "definition": "Utilisé lorsqu'un créancier accepte l'autorisation de débit."
+    },
+    "ACNR": {
+      "name": "Réclamation pour non-réception acceptée",
+      "definition": "La réclamation pour non-réception d'une instruction de paiement est acceptée."
+    },
+    "ACVA": {
+      "name": "Ajustement de date de valeur accepté",
+      "definition": "La réclamation pour correction de la date de valeur est acceptée."
+    },
+    "CHRG": {
+      "name": "Détails des frais fournis",
+      "definition": "Des détails complémentaires sur les frais sont fournis pour résoudre le dossier."
+    },
+    "CNCL": {
+      "name": "Annulé conformément à la demande",
+      "definition": "Utilisé lorsqu'une annulation demandée aboutit."
+    },
+    "CONF": {
+      "name": "Confirmation de paiement",
+      "definition": "Utilisé lorsqu'un paiement a été vérifié et correctement exécuté sans aucune intervention."
+    },
+    "CVAA": {
+      "name": "Date de valeur correcte déjà appliquée",
+      "definition": "La date de valeur d'origine était correcte."
+    },
+    "CWFW": {
+      "name": "Annulation à suivre",
+      "definition": "Utilisé lorsqu'un paiement sera annulé pour résoudre un dossier d'enquête."
+    },
+    "FTNA": {
+      "name": "Demande d'annulation transmise à la banque suivante",
+      "definition": "La demande d'annulation a été transmise à la banque suivante pour exécution.|Usage : ce code ne doit être utilisé que lorsqu'aucun identifiant de dossier n'est présent."
+    },
+    "ICOV": {
+      "name": "Couverture initiée",
+      "definition": "Utilisé lorsqu'un transfert de fonds a été initié (un paiement de couverture) pour résoudre un dossier."
+    },
+    "IDUP": {
+      "name": "Instruction en double",
+      "definition": "Utilisé lorsque la vérification demandée d'une éventuelle instruction en double est confirmée."
+    },
+    "IPAY": {
+      "name": "Paiement initié",
+      "definition": "Utilisé lorsque le résultat d'une enquête est, ou sera, l'initiation d'une instruction de paiement."
+    },
+    "IPYI": {
+      "name": "Instruction de paiement initiée",
+      "definition": "Utilisé lorsqu'une instruction de paiement (par ex. MT103) a été initiée pour résoudre un dossier."
+    },
+    "MCOV": {
+      "name": "Couverture modifiée",
+      "definition": "Utilisé lorsqu'un transfert de fonds a été modifié (un paiement de couverture) pour résoudre un dossier."
+    },
+    "MODI": {
+      "name": "Modifié conformément à la demande",
+      "definition": "Utilisé lorsqu'une modification demandée aboutit."
+    },
+    "MWFW": {
+      "name": "Modification à suivre",
+      "definition": "Utilisé lorsque le paiement sera modifié pour résoudre un dossier d'enquête."
+    },
+    "PDCR": {
+      "name": "Demande d'annulation en attente",
+      "definition": "Utilisé lorsqu'une annulation demandée est en attente."
+    },
+    "PECR": {
+      "name": "Demande d'annulation partiellement exécutée",
+      "definition": "Utilisé lorsqu'une annulation demandée a été partiellement exécutée."
+    },
+    "PURP": {
+      "name": "Détails du motif fournis",
+      "definition": "Des détails complémentaires sur le motif sont fournis pour résoudre le dossier."
+    },
+    "RJCR": {
+      "name": "Demande d'annulation rejetée",
+      "definition": "Utilisé lorsqu'une annulation demandée a été rejetée."
+    },
+    "RJNR": {
+      "name": "Réclamation pour non-réception rejetée",
+      "definition": "La réclamation pour non-réception d'une instruction de paiement est rejetée."
+    },
+    "RJVA": {
+      "name": "Ajustement de date de valeur rejeté",
+      "definition": "La réclamation pour correction de la date de valeur est rejetée."
+    },
+    "SMTC": {
+      "name": "Écriture du relevé correcte",
+      "definition": "Utilisé lorsque l'écriture du relevé est correcte."
+    },
+    "SMTI": {
+      "name": "Écriture du relevé incorrecte",
+      "definition": "Utilisé lorsque l'écriture du relevé est incorrecte et que des informations complémentaires sont fournies avec la résolution."
+    },
+    "UWFW": {
+      "name": "Impossibilité d'imputation, détails à suivre",
+      "definition": "Utilisé lorsque l'expéditeur souhaite répondre à une affectation par un processus Unable To Apply."
+    },
+    "BIAS": {
+      "name": "Instruction de lot déjà réglée",
+      "definition": "Traiter une demande d'annulation alors que le lot est déjà réglé."
+    },
+    "IDNE": {
+      "name": "Instruction inexistante",
+      "definition": "Traiter une annulation de lot « utilisant un numéro de séquence de lot incorrect »."
+    },
+    "IVCR": {
+      "name": "Demande d'annulation non valide",
+      "definition": "Traiter une demande d'annulation comportant une référence incorrecte au lot initial."
+    },
+    "INFO": {
+      "name": "Informations complémentaires envoyées",
+      "definition": "Utilisé lorsque des informations complémentaires ont été envoyées au bénéficiaire d'un paiement."
+    },
+    "NINF": {
+      "name": "Aucune information disponible",
+      "definition": "Utilisé lorsqu'aucune information complémentaire n'est disponible."
+    },
+    "PDNG": {
+      "name": "En attente",
+      "definition": "Utilisé pour indiquer qu'une réponse à une enquête est en attente."
+    }
+  }
+}

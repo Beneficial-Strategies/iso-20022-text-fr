@@ -1,0 +1,42 @@
+{
+  "isoType": "ATMSecurityScheme4Code",
+  "definition": "Schémas de sécurité d'échange de clés mis en œuvre dans le module matériel de sécurité de l'ATM.",
+  "isoCodes": {
+    "APPK": {
+      "name": "Chargement de clé à distance par application",
+      "definition": "Téléchargement de clés applicatives protégé par une clé symétrique partagée."
+    },
+    "CERT": {
+      "name": "Chargement de clé à distance par certificat",
+      "definition": "Téléchargement de clés protégé par des clés asymétriques authentifiées par un certificat."
+    },
+    "FRAN": {
+      "name": "Chargement de clé à distance français",
+      "definition": "Téléchargement de clés conforme au schéma de sécurité français de téléchargement de clés des ATM."
+    },
+    "DTCH": {
+      "name": "Chargement de clé à distance allemand",
+      "definition": "Téléchargement de clés conforme au schéma de sécurité allemand de téléchargement de clés des ATM."
+    },
+    "LUXG": {
+      "name": "Chargement de clé à distance luxembourgeois",
+      "definition": "Téléchargement de clés conforme au schéma de sécurité luxembourgeois de téléchargement de clés des ATM."
+    },
+    "MANU": {
+      "name": "Saisie manuelle de clé",
+      "definition": "Saisie manuelle des clés sur l'ATM."
+    },
+    "PKIP": {
+      "name": "Téléchargement de clé PKI",
+      "definition": "Téléchargement de clés protégé par des clés asymétriques authentifiées par une PKI (infrastructure à clés publiques)."
+    },
+    "SIGN": {
+      "name": "Chargement de clé à distance par signature",
+      "definition": "Téléchargement de clés protégé par des clés asymétriques authentifiées par une signature numérique."
+    },
+    "TR34": {
+      "name": "TR34",
+      "definition": "Schéma ANSI X9 TR34 2012 pour la distribution des clés publiques symétriques et de la clé maîtresse initiale."
+    }
+  }
+}

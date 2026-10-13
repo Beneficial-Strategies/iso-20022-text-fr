@@ -1,0 +1,12 @@
+{
+  "isoType": "CommunicationMethod2Choice",
+  "definition": "Précise un choix pour le mode de communication des documents.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identification unique et univoque du mode de communication à l'aide d'une liste de codes."
+    },
+    "Proprietary": {
+      "definition": "Identification unique et univoque du mode de communication à l'aide d'une description convenue bilatéralement ou multilatéralement."
+    }
+  }
+}

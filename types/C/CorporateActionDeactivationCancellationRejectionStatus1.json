@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDeactivationCancellationRejectionStatus1",
+  "definition": "Fournit le motif du rejet d'une demande d'annulation de désactivation.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Le motif du rejet."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

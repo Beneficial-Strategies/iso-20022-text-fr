@@ -1,0 +1,18 @@
+{
+  "isoType": "MeetingCancellationReason2Code",
+  "definition": "Précise le motif d'annulation d'une assemblée.",
+  "isoCodes": {
+    "QORM": {
+      "name": "Quorum",
+      "definition": "Annulation en raison d'une participation insuffisante au vote."
+    },
+    "PROC": {
+      "name": "Traitement",
+      "definition": "Annulation en raison d'une erreur de traitement."
+    },
+    "WITH": {
+      "name": "Retrait",
+      "definition": "Annulation en raison de l'annulation de l'assemblée par l'émetteur."
+    }
+  }
+}

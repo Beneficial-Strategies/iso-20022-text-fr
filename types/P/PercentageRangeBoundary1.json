@@ -1,0 +1,12 @@
+{
+  "isoType": "PercentageRangeBoundary1",
+  "definition": "Limite pour une plage de taux en pourcentage.",
+  "isoElements": {
+    "BoundaryRate": {
+      "definition": "Taux en pourcentage de la limite de plage."
+    },
+    "Included": {
+      "definition": "Indique si le taux en pourcentage de la borne est inclus dans la plage de taux en pourcentage."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "Instruction9",
+  "definition": "Informations sur une instruction de vote d'assemblée.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identification de l'instruction individuelle."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Date à laquelle l'instruction doit être exécutée."
+    },
+    "VoteExecutionConfirmation": {
+      "definition": "Indique qu'une confirmation d'exécution du vote est demandée."
+    },
+    "AccountDetails": {
+      "definition": "Identification du compte-titres."
+    },
+    "Proxy": {
+      "definition": "Identification de la personne désignée par le détenteur de titres comme mandataire."
+    },
+    "VoteDetails": {
+      "definition": "Instructions de vote détaillées."
+    },
+    "MeetingAttendee": {
+      "definition": "Identification du détenteur de titres qui assistera à l'assemblée et y votera en personne et/ou de la personne désignée par le détenteur de titres pour assister à l'assemblée sans avoir de droit de vote ni prendre aucune mesure."
+    },
+    "SpecificInstructionRequest": {
+      "definition": "Demande d'exécution d'instructions spécifiques, telles que l'enregistrement de la participation, l'enregistrement des titres ou le blocage de titres."
+    },
+    "AdditionalDisclosureInformation": {
+      "definition": "Informations exigées par l'émetteur pour être communiquées dans le cadre d'une instruction soumise, qui ne sont ni les informations relatives au détenteur bénéficiaire, ni au participant votant, ni au mandataire désigné par l'émetteur, ni au(x) participant(s) assistant à l'assemblée (sans voter)."
+    }
+  },
+  "isoRules": {
+    "MeetingAttendeeRule": {
+      "definition": "Si au moins une occurrence de MeetingAttendee est présente, alors SpecificInstructionRequest/ParticipationMethod/Code doit être PHYS (InPerson)."
+    }
+  }
+}

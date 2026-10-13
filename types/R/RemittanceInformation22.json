@@ -1,0 +1,12 @@
+{
+  "isoType": "RemittanceInformation22",
+  "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Informations fournies, sous forme non structurée, pour permettre le rapprochement d'une écriture avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients."
+    },
+    "Structured": {
+      "definition": "Informations fournies, sous forme structurée, pour permettre le rapprochement d'une écriture avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients."
+    }
+  }
+}

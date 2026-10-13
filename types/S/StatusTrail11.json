@@ -1,0 +1,39 @@
+{
+  "isoType": "StatusTrail11",
+  "definition": "Fournit l'historique des statuts et des motifs d'une opération en attente, comptabilisée ou annulée.",
+  "isoElements": {
+    "StatusDate": {
+      "definition": "Date et heure auxquelles le statut a été attribué."
+    },
+    "SendingOrganisationIdentification": {
+      "definition": "Moyen unique et non ambigu d'identifier l'organisation qui a envoyé l'instance du message."
+    },
+    "UserIdentification": {
+      "definition": "Moyen unique et non ambigu d'identifier l'utilisateur qui a créé l'instance du message."
+    },
+    "ProcessingStatus": {
+      "definition": "Fournit des précisions sur le statut de traitement de l'opération."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Fournit le statut de rapprochement d'une instruction selon le teneur de compte ou l'infrastructure de marché, sur la base d'une allégation. À ce stade, aucun rapprochement n'a eu lieu sur le marché (au DCT/DCTI/IM) (CSD) (ICSD) (MI)."
+    },
+    "MatchingStatus": {
+      "definition": "Fournit le statut d'appariement de l'instruction."
+    },
+    "SettlementStatus": {
+      "definition": "Fournit le statut de règlement d'une opération."
+    },
+    "ModificationProcessingStatus": {
+      "definition": "Fournit des détails sur le statut de traitement de la modification de l'opération."
+    },
+    "CancellationStatus": {
+      "definition": "Fournit des détails sur le statut de traitement de la demande d'annulation."
+    },
+    "Settled": {
+      "definition": "Le statut est réglé."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  }
+}

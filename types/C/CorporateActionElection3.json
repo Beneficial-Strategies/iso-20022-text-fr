@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionElection3",
+  "definition": "Fournit des informations sur une option choisie dans le cadre d'une opération sur titres.",
+  "isoElements": {
+    "AccountDetails": {
+      "definition": "Fournit des informations sur le compte."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "InstructedUnderlyingSecuritiesQuantity": {
+      "definition": "Quantité de titres sous-jacents à laquelle s'applique cette instruction."
+    },
+    "InstructedSecuritiesQuantityToReceive": {
+      "definition": "Quantité des avantages que le titulaire du compte souhaite recevoir, p. ex. à la suite d'un réinvestissement de dividendes."
+    },
+    "ProposedRate": {
+      "definition": "Taux proposé lors d'un remarketing de titres à taux variable."
+    },
+    "CashMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement d'espèces résultant de l'instruction d'élection."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement de titres résultant de l'instruction d'élection."
+    }
+  }
+}

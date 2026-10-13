@@ -1,0 +1,12 @@
+{
+  "isoType": "ChequeDeliveryMethod1Choice",
+  "definition": "Ensemble de caractéristiques relatives à une instruction de chèque, telles que le type de chèque ou le numéro de chèque.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le mode de remise du chèque par la banque du débiteur."
+    },
+    "Proprietary": {
+      "definition": "Précise un mode de remise propriétaire du chèque par la banque du débiteur."
+    }
+  }
+}

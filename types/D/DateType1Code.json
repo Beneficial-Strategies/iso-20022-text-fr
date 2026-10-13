@@ -1,0 +1,10 @@
+{
+  "isoType": "DateType1Code",
+  "definition": "Précise le cas où la date est inconnue.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "La date est inconnue de l'expéditeur ou n'a pas été établie."
+    }
+  }
+}

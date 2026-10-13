@@ -1,0 +1,12 @@
+{
+  "isoType": "DateFormat73Choice",
+  "definition": "Précise la valeur d'une date.",
+  "isoElements": {
+    "Date": {
+      "definition": "Date exprimée sous forme de date ISO."
+    },
+    "NotSpecifiedDate": {
+      "definition": "Date non spécifiée, par exemple, la date est inconnue."
+    }
+  }
+}

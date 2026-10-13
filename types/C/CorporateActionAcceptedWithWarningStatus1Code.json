@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionAcceptedWithWarningStatus1Code",
+  "definition": "Statut accepté avec avertissement de l'avis de notification d'opération sur titres provenant de l'agent de l'émetteur.",
+  "isoCodes": {
+    "SCAL": {
+      "name": "Montant du titre appelé non valide",
+      "definition": "Montant appelé du titre non valide."
+    },
+    "PAYD": {
+      "name": "Date de paiement hors plage",
+      "definition": "Date de paiement en dehors de la plage de dates applicable."
+    }
+  }
+}

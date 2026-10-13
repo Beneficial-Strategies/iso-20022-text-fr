@@ -1,0 +1,12 @@
+{
+  "isoType": "PledgeeTypeAndText1",
+  "definition": "Identification de l'entité au profit de laquelle les instruments financiers sont nantis, exprimée sous la forme d'un code et d'une description narrative.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Informations complémentaires sur l'entité au profit de laquelle les instruments financiers sont nantis."
+    },
+    "PledgeeType": {
+      "definition": "Entité au profit de laquelle les instruments financiers sont nantis, exprimée sous la forme d'un code."
+    }
+  }
+}

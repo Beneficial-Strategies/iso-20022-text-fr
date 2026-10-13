@@ -1,0 +1,18 @@
+{
+  "isoType": "RemittanceLocation9",
+  "definition": "Fournit des informations sur l'avis de remise.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice, pour identifier sans ambiguïté les informations de remise envoyées séparément de l'instruction de paiement, telles qu'un avis de remise."
+    },
+    "RemittanceLocationMethod": {
+      "definition": "Méthode utilisée pour transmettre les informations de l'avis de remise."
+    },
+    "RemittanceLocationElectronicAddress": {
+      "definition": "Adresse électronique à laquelle une banque doit envoyer les informations de remise."
+    },
+    "RemittanceLocationPostalAddress": {
+      "definition": "Adresse postale à laquelle une banque doit envoyer les informations de remise."
+    }
+  }
+}

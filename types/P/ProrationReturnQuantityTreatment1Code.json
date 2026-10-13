@@ -1,0 +1,18 @@
+{
+  "isoType": "ProrationReturnQuantityTreatment1Code",
+  "definition": "Indique comment les instructions au prorata seront traitées lorsque le droit au prorata aboutit à un montant inférieur à la coupure minimale.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Accepter",
+      "definition": "Les instructions au prorata qui aboutissent à un montant inférieur aux coupures minimales seront acceptées en totalité."
+    },
+    "ADJT": {
+      "name": "Ajustement",
+      "definition": "Les instructions au prorata qui aboutissent à un montant inférieur aux coupures minimales seront ajustées à la hausse."
+    },
+    "REJT": {
+      "name": "Rejet",
+      "definition": "Les instructions au prorata qui aboutissent à un montant inférieur aux coupures minimales seront rejetées en totalité."
+    }
+  }
+}

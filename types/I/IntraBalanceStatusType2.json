@@ -1,0 +1,15 @@
+{
+  "isoType": "IntraBalanceStatusType2",
+  "definition": "Choix du type de statut du mouvement intra-solde.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Fournit des précisions sur le statut de traitement de l'opération."
+    },
+    "SettlementStatus": {
+      "definition": "Indique le statut de règlement d'une opération."
+    },
+    "Settled": {
+      "definition": "Précise l'état ou la condition."
+    }
+  }
+}

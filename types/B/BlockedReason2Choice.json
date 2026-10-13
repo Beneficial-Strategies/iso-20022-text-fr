@@ -1,0 +1,12 @@
+{
+  "isoType": "BlockedReason2Choice",
+  "definition": "Choix de formats pour la spécification du motif.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif exprimé sous forme de code propriétaire."
+    }
+  }
+}

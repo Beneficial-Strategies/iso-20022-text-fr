@@ -1,0 +1,14 @@
+{
+  "isoType": "PartialSettlement2Code",
+  "definition": "Informations sur le règlement partiel.",
+  "isoCodes": {
+    "PAIN": {
+      "name": "Règlement partiel",
+      "definition": "La confirmation concerne un règlement partiel. Une partie de l'opération reste non réglée."
+    },
+    "PARC": {
+      "name": "Partiellement confirmé",
+      "definition": "La confirmation concerne un règlement partiel. Aucun règlement supplémentaire n'aura lieu."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "ServiceItemTotals10",
+  "definition": "Précise les totaux relatifs à la facture.",
+  "isoElements": {
+    "ItemType": {
+      "definition": "Précise une classification des éléments de service, par exemple requête, relevé, compte-titres, etc."
+    },
+    "Description": {
+      "definition": "Description de l'élément de service."
+    },
+    "Quantity": {
+      "definition": "Somme du nombre total d'unités par élément de service."
+    },
+    "BalanceCurrency": {
+      "definition": "Devise du solde. À renseigner uniquement si la quantité est un solde."
+    },
+    "UnitPrice": {
+      "definition": "Précise le prix unitaire de l'élément de service."
+    },
+    "Tax": {
+      "definition": "Informations détaillées sur la taxe appliquée."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Montant total de la facture, égal à la somme des montants totaux des lignes de facture, du montant total des ajustements de la facture (remises, déductions et frais) et des montants totaux de taxes."
+    }
+  }
+}

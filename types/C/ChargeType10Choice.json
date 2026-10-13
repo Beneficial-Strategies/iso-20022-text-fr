@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType10Choice",
+  "definition": "Choix de formats pour le type de frais.",
+  "isoElements": {
+    "Code": {
+      "definition": "Frais (charges/commissions) exprimés sous la forme d'un code."
+    },
+    "Proprietary": {
+      "definition": "Frais (charges/commissions) exprimés sous la forme d'un code propriétaire."
+    }
+  }
+}

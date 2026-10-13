@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatusReason1Choice",
+  "definition": "Choix de formats pour un motif de statut en attente.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Aucun motif n'est disponible ou à signaler pour le statut en attente du compte."
+    },
+    "Reason": {
+      "definition": "Motif du statut en attente du compte."
+    }
+  }
+}

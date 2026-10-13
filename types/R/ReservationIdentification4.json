@@ -1,0 +1,21 @@
+{
+  "isoType": "ReservationIdentification4",
+  "definition": "Liquidités mises de côté par le titulaire du compte à des fins spécifiques.",
+  "isoElements": {
+    "ReservationIdentification": {
+      "definition": "Identification unique de la réservation."
+    },
+    "SystemIdentification": {
+      "definition": "Identification d'un système de compensation de trésorerie particulier."
+    },
+    "Type": {
+      "definition": "Nature de la réservation."
+    },
+    "AccountOwner": {
+      "definition": "Titulaire du compte faisant l'objet de la requête."
+    },
+    "AccountIdentification": {
+      "definition": "Identification unique et non ambiguë du compte entre le titulaire du compte et le teneur de compte."
+    }
+  }
+}

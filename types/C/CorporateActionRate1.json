@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionRate1",
+  "definition": "Précise des taux.",
+  "isoElements": {
+    "Interest": {
+      "definition": "Taux annuel d'un instrument financier."
+    },
+    "RelatedIndex": {
+      "definition": "Taux d'indice lié au taux d'intérêt du prochain paiement d'intérêts."
+    },
+    "PercentageSought": {
+      "definition": "Pourcentage de titres que l'offrant ou l'émetteur achètera ou remboursera selon les conditions de l'événement. Il peut s'agir d'un nombre ou de la mention « any and all » (la totalité)."
+    },
+    "ReinvestmentDiscountToMarket": {
+      "definition": "Taux de décote des titres achetés dans le cadre d'un plan de réinvestissement par rapport au cours actuel du titre sur le marché."
+    },
+    "Spread": {
+      "definition": "Marge autorisée au-dessus ou en dessous d'un taux donné."
+    },
+    "BidInterval": {
+      "definition": "Incrément de prix acceptable utilisé pour soumettre une offre."
+    },
+    "Charges": {
+      "definition": "Taux utilisé pour calculer le montant des frais/commissions qui ne peuvent pas être catégorisés."
+    }
+  }
+}

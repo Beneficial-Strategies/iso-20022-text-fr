@@ -1,0 +1,18 @@
+{
+  "isoType": "StandingOrderTotalAmount1",
+  "definition": "Fournit des détails sur le montant global des ordres de transfert de liquidités prédéfinis « non encore exécutés » ou « définis » par un participant au système dans son périmètre de responsabilité au sein du système.",
+  "isoElements": {
+    "SetPredefinedOrder": {
+      "definition": "Montant total défini des ordres de transfert de liquidités prédéfinis."
+    },
+    "PendingPredefinedOrder": {
+      "definition": "Montant total des ordres de transfert de liquidités prédéfinis non encore exécutés."
+    },
+    "SetStandingOrder": {
+      "definition": "Montant total défini des ordres permanents de transfert de liquidités."
+    },
+    "PendingStandingOrder": {
+      "definition": "Montant total des ordres permanents de transfert de liquidités non encore exécutés."
+    }
+  }
+}

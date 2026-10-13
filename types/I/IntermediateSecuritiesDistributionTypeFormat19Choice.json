@@ -1,0 +1,12 @@
+{
+  "isoType": "IntermediateSecuritiesDistributionTypeFormat19Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type de distribution de titres intermédiaires.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type de distribution de titres intermédiaires."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de distribution de titres intermédiaires."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "TransactionEnvironment2Code",
+  "definition": "Indique l'environnement du lieu de l'opération.",
+  "isoCodes": {
+    "PRIV": {
+      "name": "Privé",
+      "definition": "Environnement privé."
+    },
+    "PUBL": {
+      "name": "Public",
+      "definition": "Environnement public."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "DisclosureRequestCancellationReason1Code",
+  "definition": "Précise le motif de l'annulation de la demande de divulgation.",
+  "isoCodes": {
+    "PROC": {
+      "name": "Traitement",
+      "definition": "L'annulation de la demande de divulgation est due à une erreur de traitement."
+    },
+    "WITH": {
+      "name": "Retrait",
+      "definition": "L'annulation de la demande de divulgation est due au retrait de la demande par l'émetteur."
+    }
+  }
+}

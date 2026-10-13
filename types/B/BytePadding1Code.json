@@ -1,0 +1,26 @@
+{
+  "isoType": "BytePadding1Code",
+  "definition": "Bourrage d'octets pour un chiffrement en mode de chaînage de blocs, si le bourrage n'est pas implicite.",
+  "isoCodes": {
+    "LNGT": {
+      "name": "Remplissage de longueur",
+      "definition": "Le message à chiffrer est complété par un octet dont la valeur indique le nombre total d'octets ajoutés."
+    },
+    "NUL8": {
+      "name": "Remplissage nul 80",
+      "definition": "Le message à chiffrer est complété par un bit de valeur 1, suivi de bits nuls jusqu'à atteindre la longueur du bloc de chiffrement."
+    },
+    "NULG": {
+      "name": "Remplissage nul de longueur",
+      "definition": "Le message à chiffrer est complété par des octets de valeur nulle, le dernier octet contenant le nombre total d'octets ajoutés."
+    },
+    "NULL": {
+      "name": "Remplissage nul",
+      "definition": "Le message à chiffrer est complété par des octets nuls."
+    },
+    "RAND": {
+      "name": "Remplissage aléatoire",
+      "definition": "Le message à chiffrer est complété par une valeur aléatoire, le dernier octet contenant le nombre total d'octets ajoutés."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "NoReasonCode",
+  "definition": "Précise qu'aucun motif n'est disponible.",
+  "isoCodes": {
+    "NORE": {
+      "name": "Aucun motif",
+      "definition": "Aucun motif à rapporter ou aucun motif disponible à rapporter."
+    }
+  }
+}

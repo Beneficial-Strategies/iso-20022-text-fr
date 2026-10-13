@@ -1,0 +1,15 @@
+{
+  "isoType": "Case6",
+  "definition": "Fournit des précisions complémentaires pour identifier un dossier d'enquête.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifie de manière unique le dossier."
+    },
+    "Creator": {
+      "definition": "Partie qui a créé le dossier d'enquête."
+    },
+    "ReopenCaseIndication": {
+      "definition": "Indique si le dossier avait été précédemment clôturé et est désormais rouvert."
+    }
+  }
+}

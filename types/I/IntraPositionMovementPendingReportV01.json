@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraPositionMovementPendingReportV01",
+  "definition": "Ce message IntraPositionMovementPendingReport est envoyé par une infrastructure de règlement à un titulaire de compte/demandeur pour déclarer les instructions de mouvement intra-position, précédemment envoyées par le titulaire de compte, qui ont un statut en attente.||Le message peut également servir à : |- renvoyer un message envoyé par le titulaire de compte au teneur de compte (la sous-fonction du message est « Duplicate ») |- fournir à un tiers une copie d'un message envoyé par le titulaire de compte, à titre d'information (la sous-fonction du message est « Copy ») |- renvoyer à un tiers une copie d'un message envoyé par le titulaire de compte, à titre d'information (la sous-fonction du message est « Copy Duplicate »).",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator est égal à Yes (true ou 1), Movements doit être présent."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator est égal à No (false ou 0), Movements doit être absent."
+    }
+  }
+}

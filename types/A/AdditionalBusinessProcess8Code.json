@@ -1,0 +1,22 @@
+{
+  "isoType": "AdditionalBusinessProcess8Code",
+  "definition": "Indique le processus métier supplémentaire lié à un événement d'opération sur titres, tel qu'une réclamation de marché automatique.",
+  "isoCodes": {
+    "CONS": {
+      "name": "Consentement",
+      "definition": "Se rapporte à un consentement dans un événement d'opération sur titres autre qu'un événement de consentement (: 22F:: CAEV//CONS)."
+    },
+    "FPRE": {
+      "name": "Préfinancement intégral",
+      "definition": "Préfinancement intégral d'un instrument de dette par l'émetteur avant l'échéance initiale, lorsque l'émetteur dépose des actifs en fiducie. Applicable uniquement dans le cadre d'un événement sur titres de défaisance partielle."
+    },
+    "PPUT": {
+      "name": "Remboursement partiel sur exercice obligatoire de l'option de vente",
+      "definition": "Échange obligatoire partiel d'une partie des obligations, dont les titres échangés sont habituellement recommercialisés. L'émetteur peut offrir aux détenteurs le droit de conserver leurs titres au lieu de les échanger. Un tirage au sort sera utilisé pour déterminer l'éligibilité à l'événement."
+    },
+    "PPRE": {
+      "name": "Préfinancement partiel",
+      "definition": "Préfinancement partiel d'un instrument de dette avant l'échéance, désigné par tirage au sort. Un nouveau titre est émis avec une date d'échéance antérieure pour la partie refinancée (partie rappelée) et l'autre nouveau titre est émis avec la date d'échéance d'origine pour la partie non refinancée (partie restante). Applicable uniquement dans le cadre d'un événement d'opération sur titres de défaisance partielle."
+    }
+  }
+}

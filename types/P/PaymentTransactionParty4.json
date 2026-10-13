@@ -1,0 +1,45 @@
+{
+  "isoType": "PaymentTransactionParty4",
+  "definition": "Définit les champs de partie utilisés pour rechercher un paiement.",
+  "isoElements": {
+    "InstructingAgent": {
+      "definition": "Banque qui donne instruction à la partie suivante de la chaîne d'exécuter la ou les instructions."
+    },
+    "InstructedAgent": {
+      "definition": "Banque qui reçoit instruction de la partie précédente de la chaîne d'exécuter la ou les instructions."
+    },
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit un montant au créancier (final)."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit des avoirs au créancier, par exemple à la suite de la réception de biens ou de services, de dons ou de paiements de bienfaisance. Le débiteur peut également être le titulaire du compte débité."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui reçoit l'opération de paiement du propriétaire du compte, ou d'une autre partie autorisée, et traite l'instruction."
+    },
+    "InstructingReimbursementAgent": {
+      "definition": "Spécifie la banque par l'intermédiaire de laquelle la banque donneuse d'ordre remboursera la banque destinataire de l'instruction."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Banque auprès de laquelle la banque destinataire de l'instruction sera remboursée."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Banque située entre la banque du débiteur et la banque du créancier.||Utilisation : si plusieurs banques intermédiaires sont présentes, IntermediaryAgent1 identifie la banque située entre DebtorAgent et IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Banque située entre la banque du débiteur et la banque du créancier.||Utilisation : si plus de deux banques intermédiaires sont présentes, IntermediaryAgent2 identifie la banque située entre IntermediaryAgent1 et IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Banque située entre la banque du débiteur et la banque du créancier.||Utilisation : si IntermediaryAgent3 est présent, il identifie la banque située entre IntermediaryAgent 2 et CreditorAgent."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui reçoit l'opération de paiement pour le compte d'un propriétaire de compte, ou d'une autre partie désignée, et crédite le compte."
+    },
+    "Creditor": {
+      "definition": "Partie qui reçoit un montant du débiteur. Dans le contexte du modèle de paiement, le créancier est également le titulaire du compte crédité."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant est dû."
+    }
+  }
+}

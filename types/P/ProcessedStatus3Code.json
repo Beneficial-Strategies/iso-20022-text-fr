@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessedStatus3Code",
+  "definition": "Précise le statut de traitement d'un avis, d'une demande ou d'un mouvement.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Reçu",
+      "definition": "L'instruction/la demande a été reçue."
+    },
+    "PEND": {
+      "name": "En attente",
+      "definition": "Le traitement de la demande est en attente."
+    },
+    "PACK": {
+      "name": "Accepté",
+      "definition": "La demande est acceptée."
+    }
+  }
+}

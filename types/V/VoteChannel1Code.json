@@ -1,0 +1,14 @@
+{
+  "isoType": "VoteChannel1Code",
+  "definition": "Précise le canal de réseau par lequel le vote doit être envoyé.",
+  "isoCodes": {
+    "VOPI": {
+      "name": "Vote selon les informations de l'intermédiaire",
+      "definition": "Le vote est celui décrit dans le texte de traitement du champ d'information de l'intermédiaire suivant."
+    },
+    "VOCI": {
+      "name": "Vote via la chaîne",
+      "definition": "Le vote passe par la chaîne d'intermédiaires."
+    }
+  }
+}

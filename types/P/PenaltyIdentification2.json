@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyIdentification2",
+  "definition": "Identification unique et non ambiguë d'une pénalité.",
+  "isoElements": {
+    "MarketInfrastructureIdentification": {
+      "definition": "Identification attribuée à la pénalité par l'infrastructure de marché, commune au participant défaillant et au participant non défaillant."
+    },
+    "Identification": {
+      "definition": "Identification attribuée à la pénalité par l'infrastructure de marché, qui constitue l'identification individuelle de la pénalité pour le titulaire de compte concerné (c'est-à-dire soit pour le participant défaillant, soit pour le participant non défaillant)."
+    }
+  }
+}

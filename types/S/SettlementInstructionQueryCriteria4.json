@@ -1,0 +1,93 @@
+{
+  "isoType": "SettlementInstructionQueryCriteria4",
+  "definition": "Définit les critères selon lesquels les informations sont incluses.",
+  "isoElements": {
+    "References": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    },
+    "Status": {
+      "definition": "Fournit le statut de règlement d'une opération."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Précise si le mouvement sur un compte-titres résulte d'une instruction de livraison ou de réception."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifie le type d'opération sur titres."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instruments financiers représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "Priority": {
+      "definition": "Précise si l'opération doit être exécutée avec une priorité élevée."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel les instruments financiers sont conservés."
+    },
+    "CashAccount": {
+      "definition": "Compte dans lequel les espèces sont tenues."
+    },
+    "TradeDate": {
+      "definition": "Précise la date/l'heure d'exécution de la transaction."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantité totale de titres à régler."
+    },
+    "SettledQuantity": {
+      "definition": "Quantité totale de titres réglés."
+    },
+    "SettlementAmount": {
+      "definition": "Montant total à payer ou à recevoir en échange des titres."
+    },
+    "SettledAmount": {
+      "definition": "Montant total d'argent payé ou reçu en échange des titres."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Date à laquelle une opération devrait être réglée, c'est-à-dire le jour prévu auquel le transfert d'espèces ou d'actifs est achevé."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Date et heure auxquelles une opération est achevée et compensée, c'est-à-dire auxquelles un paiement est effectué et les titres sont livrés."
+    },
+    "SettlementCurrency": {
+      "definition": "Devise dans laquelle le montant ordonné est exprimé."
+    },
+    "SafekeepingAccountOwner": {
+      "definition": "Partie titulaire du compte."
+    },
+    "MessageOriginator": {
+      "definition": "Partie à l'origine du message, si elle est différente de l'expéditeur."
+    },
+    "CounterpartSettlementParties": {
+      "definition": "Identifie la chaîne des parties de règlement de la contrepartie."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifie la chaîne des parties livreuses au règlement."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifie la chaîne des parties réceptrices au règlement."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Fournit les conditions dans lesquelles l'ordre ou la transaction doit être exécuté ou a été exécuté."
+    },
+    "SecuritiesTransactionCondition": {
+      "definition": "Indique les conditions dans lesquelles l'ordre ou la transaction doit être exécuté ou a été exécuté."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Précise si le règlement partiel est autorisé."
+    },
+    "ConditionalSecuritiesDelivery": {
+      "definition": "Précise si l'opération relève de la livraison conditionnelle de titres (CoSD)."
+    },
+    "CountryOfIssue": {
+      "definition": "Marché principal ou pays où un titre est émis par l'émetteur ou son agent."
+    },
+    "IssuerCSD": {
+      "definition": "Dépositaire central de titres (CSD) dans lequel les instruments financiers sont émis (ou immobilisés). Le CSD émetteur ouvre des comptes permettant aux investisseurs (dans un système de détention directe) et/ou aux intermédiaires (y compris les CSD investisseurs) de détenir ces instruments financiers."
+    },
+    "HoldIndicator": {
+      "definition": "Précise si l'opération est en attente, bloquée ou gelée."
+    }
+  }
+}

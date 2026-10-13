@@ -1,0 +1,17 @@
+{
+  "isoType": "PoliticallyExposedPerson1",
+  "definition": "Vérifications relatives aux personnes politiquement exposées.",
+  "isoElements": {
+    "PoliticallyExposedPersonType": {
+      "definition": "Indique si les vérifications de diligence raisonnable sur l'exposition politique de l'investisseur ont été effectuées. (Une personne politiquement exposée est une personne qui exerce d'importantes fonctions publiques, ou un individu étroitement lié à une telle personne.)"
+    },
+    "PoliticallyExposedPersonStatus": {
+      "definition": "Statut de la personne politiquement exposée."
+    }
+  },
+  "isoRules": {
+    "PoliticallyExposedPersonTypeRule": {
+      "definition": "Si PoliticallyExposedPersonType/Code est 'NoPoliticalExposure' (NPEX), alors PoliticallyExposedPersonStatus n'est pas autorisé."
+    }
+  }
+}

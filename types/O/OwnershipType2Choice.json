@@ -1,0 +1,12 @@
+{
+  "isoType": "OwnershipType2Choice",
+  "definition": "Choix de formats pour la spécification du type de propriété.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de propriété exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de propriété exprimé sous forme de code propriétaire."
+    }
+  }
+}

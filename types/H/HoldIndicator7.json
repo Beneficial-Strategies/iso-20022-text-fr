@@ -1,0 +1,12 @@
+{
+  "isoType": "HoldIndicator7",
+  "definition": "Précise si l'opération est suspendue/bloquée/gelée.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Précise si l'opération est suspendue/bloquée/gelée."
+    },
+    "Reason": {
+      "definition": "Précise le motif du statut d'inscription."
+    }
+  }
+}

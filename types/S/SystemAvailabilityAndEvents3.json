@@ -1,0 +1,18 @@
+{
+  "isoType": "SystemAvailabilityAndEvents3",
+  "definition": "Précise les détails de la disponibilité du système et des événements système associés susceptibles d'avoir une incidence sur cette disponibilité.",
+  "isoElements": {
+    "SystemCurrency": {
+      "definition": "Devise pouvant être traitée par le système. Un système peut traiter des opérations dans une seule devise ou dans plusieurs devises."
+    },
+    "SessionPeriod": {
+      "definition": "Fenêtre horaire d'activité du système."
+    },
+    "Event": {
+      "definition": "Informations détaillées sur un événement survenant sur un système, qu'il soit prévu, comme l'heure limite pour un type donné de virement éligible, ou imprévu (une défaillance non sollicitée), conformément aux spécifications du système."
+    },
+    "ClosureInformation": {
+      "definition": "Informations relatives à l'heure de fermeture d'un système."
+    }
+  }
+}

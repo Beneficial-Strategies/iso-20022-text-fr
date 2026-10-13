@@ -1,0 +1,14 @@
+{
+  "isoType": "PreConfirmation1Code",
+  "definition": "Précise s'il existe une préconfirmation des espèces ou des titres.",
+  "isoCodes": {
+    "PRCA": {
+      "name": "Préconfirmation espèces",
+      "definition": "Préconfirmation du mouvement des espèces, dans l'attente du mouvement des titres."
+    },
+    "PRSE": {
+      "name": "Préconfirmation titres",
+      "definition": "Préconfirmation du mouvement des titres, dans l'attente du mouvement des espèces."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ContentInformationType14",
+  "definition": "Syntaxe générale de message cryptographique (CMS) contenant des données protégées par une signature numérique.",
+  "isoElements": {
+    "ContentType": {
+      "definition": "Type de protection des données."
+    },
+    "SignedData": {
+      "definition": "Données protégées par une signature numérique."
+    }
+  }
+}

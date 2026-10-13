@@ -1,0 +1,119 @@
+{
+  "isoType": "FinancialInstrument112",
+  "definition": "Identification d’un titre ou d’un autre actif.",
+  "isoElements": {
+    "LineIdentification": {
+      "definition": "Identification de la ligne de position du portefeuille."
+    },
+    "Instrument": {
+      "definition": "Identification de l'actif."
+    },
+    "Quantity": {
+      "definition": "Quantité d'actif transféré."
+    },
+    "PartialInstructedQuantity": {
+      "definition": "Indique que la quantité d'actif transférée est une quantité partiellement instruite."
+    },
+    "OriginalPercentageInstructed": {
+      "definition": "Taux en pourcentage des actifs transférés, tel qu'initialement instruit."
+    },
+    "TransferType": {
+      "definition": "Précise comment les instruments financiers ont été transférés."
+    },
+    "AdditionalAsset": {
+      "definition": "Indique que l’actif est un nouvel actif, non identifié précédemment par le cédant (partie cédante) lors du processus de découverte des avoirs du compte."
+    },
+    "NotAvailable": {
+      "definition": "Indique que l’actif n’est plus disponible auprès de la partie cédante."
+    },
+    "Conversion": {
+      "definition": "Le titre a été converti à partir d'un autre titre avant le transfert."
+    },
+    "UnitsDetails": {
+      "definition": "Ventilation des parts."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert par l'investisseur. Cette référence peut généralement être utilisée dans un scénario de plateforme centrale (hub) pour fournir la référence du transfert telle qu'attribuée par le client sous-jacent."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë du transfert attribuée par la contrepartie."
+    },
+    "BusinessFlowType": {
+      "definition": "Processus métier dans lequel les acteurs sont impliqués. Cela permettra de déclencher le processus métier approprié, selon le modèle économique du marché, qui peut exiger un rapprochement des instructions (processus à double volet) ou non (processus à volet unique)."
+    },
+    "AverageAcquisitionPrice": {
+      "definition": "Coût moyen par action du titre, frais compris."
+    },
+    "TransferCurrency": {
+      "definition": "Devise à utiliser pour transférer les positions. Certains agents de transfert enregistrent les positions regroupées par devise en plus d'utiliser l'ISIN pour les parts de fonds multidevises."
+    },
+    "TotalBookValue": {
+      "definition": "Actif net au bilan, soit la valeur totale du portefeuille diminuée ou augmentée du gain ou de la perte latent(e)."
+    },
+    "OriginalCost": {
+      "definition": "Montant initial payé pour l'actif au moment de l'achat. Peut aussi être appelé coût comptable."
+    },
+    "LatestValuation": {
+      "definition": "Date et valeur de marché de l’actif."
+    },
+    "TransfereeAccount": {
+      "definition": "Compte détenu au nom de la partie qui n'est pas le nom du bénéficiaire effectif des actions.|(Partie et compte sur lesquels le cessionnaire a reçu l'instrument financier du cédant.)"
+    },
+    "Transferor": {
+      "definition": "Partie et compte à partir desquels le cédant a livré l'instrument financier au cessionnaire."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identification d'une partie liée ou d'un intermédiaire."
+    },
+    "RequestedTradeDate": {
+      "definition": "Date demandée comme date de négociation lorsque les titres sont réglés par l'intermédiaire d'un dépositaire central de titres international (ICSD) ou d'un dépositaire central de titres (CSD)."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Date à laquelle les titres devaient être échangés auprès du dépositaire central de titres international (ICSD) ou du dépositaire central de titres (CSD)."
+    },
+    "EffectiveTransferDate": {
+      "definition": "Date et heure auxquelles le transfert a été exécuté."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Date et heure auxquelles les titres ont été échangés auprès du dépositaire central international de titres (ICSD) ou du dépositaire central de titres (CSD)."
+    },
+    "PaymentDetails": {
+      "definition": "Processus de paiement pour le transfert d’espèces du débiteur au créancier."
+    },
+    "CrystallisationDetails": {
+      "definition": "Nombre de parts qui ont été reçues (cristallisées) ou non encore reçues (non cristallisées) du fonds. Cela concerne généralement un fonds de pension."
+    },
+    "TaxValuationPoint": {
+      "definition": "Date ou trimestre fiscal utilisé pour le calcul de l’impôt sur l’actif."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Chaîne de parties impliquées dans le règlement d'une transaction."
+    },
+    "AssetsHeldInOwnName": {
+      "definition": "Indique si les actifs sont détenus au nom propre d’une personne physique."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "definition": "Indique si le transfert a entraîné un changement de bénéficiaire effectif."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur l'instrument financier."
+    }
+  },
+  "isoRules": {
+    "AssetQuantity1Guideline": {
+      "definition": "Si Instrument/Security est présent, alors Quantity/Unit ou Quantity/FaceAmount ou Quantity/AmortisedValue doit être présent."
+    },
+    "AssetQuantity2Guideline": {
+      "definition": "Si Instrument/CashAsset est présent, alors Quantity/CashAmount doit être présent."
+    },
+    "EffectiveDatesGuideline": {
+      "definition": "Lorsque la confirmation de transfert de portefeuille est utilisée pour confirmer l’intention de transférer, la date de transfert effective et la date de règlement effective ne sont pas applicables."
+    },
+    "Conversion1Rule": {
+      "definition": "Si TransferType/Code/CONV (Conversion) est présent, alors Conversion doit être présent."
+    },
+    "Conversion2Rule": {
+      "definition": "Si TransferType/Code/CONV (Conversion) n’est pas présent, alors Conversion n’est pas autorisé."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "AmendmentInformationDetails14",
+  "definition": "Fournit des détails complémentaires sur la liste des éléments du mandat de prélèvement qui ont été modifiés lorsque l'indicateur de modification a été activé.",
+  "isoElements": {
+    "OriginalMandateIdentification": {
+      "definition": "Identification unique, attribuée par le créancier, permettant d'identifier sans ambiguïté le mandat d'origine."
+    },
+    "OriginalCreditorSchemeIdentification": {
+      "definition": "Identification du schéma du créancier d'origine qui a été modifiée."
+    },
+    "OriginalCreditorAgent": {
+      "definition": "Agent du créancier d'origine qui a été modifié."
+    },
+    "OriginalCreditorAgentAccount": {
+      "definition": "Compte de l'agent du créancier d'origine qui a été modifié."
+    },
+    "OriginalDebtor": {
+      "definition": "Débiteur d'origine qui a été modifié."
+    },
+    "OriginalDebtorAccount": {
+      "definition": "Compte du débiteur d'origine qui a été modifié."
+    },
+    "OriginalDebtorAgent": {
+      "definition": "Agent du débiteur d'origine qui a été modifié."
+    },
+    "OriginalDebtorAgentAccount": {
+      "definition": "Compte de l'agent du débiteur d'origine qui a été modifié."
+    },
+    "OriginalFinalCollectionDate": {
+      "definition": "Date d'encaissement finale d'origine qui a été modifiée."
+    },
+    "OriginalFrequency": {
+      "definition": "Fréquence d'origine qui a été modifiée."
+    },
+    "OriginalReason": {
+      "definition": "Motif d'origine du mandat permettant à l'utilisateur de distinguer les différents mandats d'un même créancier."
+    },
+    "OriginalTrackingDays": {
+      "definition": "Nombre de jours de suivi d'origine qui a été modifié."
+    }
+  }
+}

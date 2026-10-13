@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentMethod3Choice",
+  "definition": "Mode de paiement du règlement du CSD ou de la NCB à la partie qui facture.",
+  "isoElements": {
+    "Code": {
+      "definition": "Mode de paiement du règlement du CSD ou de la NCB à la partie qui facture, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Mode de paiement du règlement du CSD ou de la NCB à la partie qui facture, sous forme de texte libre propriétaire."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Number3Choice",
+  "definition": "Choix entre un nombre numérique exact de 3 chiffres et de 5 chiffres.",
+  "isoElements": {
+    "Short": {
+      "definition": "Nombre de 3 chiffres au maximum, en texte numérique."
+    },
+    "Long": {
+      "definition": "Nombre de 5 chiffres au maximum, en texte numérique. À utiliser uniquement dans un relevé différentiel."
+    }
+  }
+}

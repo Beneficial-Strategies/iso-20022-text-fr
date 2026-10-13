@@ -1,0 +1,15 @@
+{
+  "isoType": "Member6",
+  "definition": "Informations sur les membres d'un système.",
+  "isoElements": {
+    "MemberReturnAddress": {
+      "definition": "Adresse physique/logique appartenant à un membre, distincte de son adresse principale utilisée pour les opérations courantes. L'adresse de retour de fonds sert à acheminer les messages nécessitant une attention ou un traitement d'exception particulier, par exemple les retours ou les rejets."
+    },
+    "ContactReference": {
+      "definition": "Personne à contacter au sein d'une organisation donnée."
+    },
+    "CommunicationAddress": {
+      "definition": "Numéro ou adresse virtuelle utilisé pour la communication."
+    }
+  }
+}

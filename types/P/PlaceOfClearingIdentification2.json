@@ -1,0 +1,12 @@
+{
+  "isoType": "PlaceOfClearingIdentification2",
+  "definition": "Identification d'une infrastructure pouvant faire partie d'une chambre de compensation et qui facilite la compensation et le règlement pour ses membres en s'interposant entre l'acheteur et le vendeur. Elle peut compenser (netting) les opérations et se substitue comme contrepartie de règlement pour chaque position.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique du lieu de compensation."
+    },
+    "LEI": {
+      "definition": "Identification d'entité juridique en tant qu'identification alternative d'un lieu de compensation."
+    }
+  }
+}

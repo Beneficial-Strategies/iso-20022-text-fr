@@ -1,0 +1,44 @@
+{
+  "isoType": "MandateRelatedInformation15",
+  "definition": "Fournit des détails complémentaires relatifs à un mandat de prélèvement signé entre le créancier et le débiteur.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identification unique, attribuée par le créancier, permettant d'identifier sans ambiguïté le mandat."
+    },
+    "DateOfSignature": {
+      "definition": "Date à laquelle le mandat de prélèvement a été signé par le débiteur."
+    },
+    "AmendmentIndicator": {
+      "definition": "Indicateur précisant si le mandat sous-jacent est modifié ou non."
+    },
+    "AmendmentInformationDetails": {
+      "definition": "Liste des éléments du mandat qui ont été modifiés."
+    },
+    "ElectronicSignature": {
+      "definition": "Dispositions de sécurité supplémentaires, telles qu'une signature numérique, fournies par le débiteur."
+    },
+    "FirstCollectionDate": {
+      "definition": "Date du premier encaissement d'un prélèvement selon le mandat."
+    },
+    "FinalCollectionDate": {
+      "definition": "Date du dernier encaissement d'un prélèvement selon le mandat."
+    },
+    "Frequency": {
+      "definition": "Régularité avec laquelle les instructions de prélèvement doivent être créées et traitées."
+    },
+    "Reason": {
+      "definition": "Motif du mandat de prélèvement permettant à l'utilisateur de distinguer les différents mandats d'un même créancier."
+    },
+    "TrackingDays": {
+      "definition": "Précise le nombre de jours pendant lesquels l'instruction de prélèvement doit être suivie."
+    }
+  },
+  "isoRules": {
+    "AmendmentIndicatorTrueRule": {
+      "definition": "Si AmendmentIndicator est vrai, alors AmendmentInformationDetails doit être présent."
+    },
+    "AmendmentIndicatorFalseRule": {
+      "definition": "Si AmendmentIndicator est faux, alors AmendmentInformationDetails n'est pas autorisé."
+    }
+  }
+}

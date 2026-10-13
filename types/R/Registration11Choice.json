@@ -1,0 +1,12 @@
+{
+  "isoType": "Registration11Choice",
+  "definition": "Choix de format pour les informations d'inscription.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informations d'inscription exprimées sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Informations d'inscription exprimées sous la forme d'un code propriétaire."
+    }
+  }
+}

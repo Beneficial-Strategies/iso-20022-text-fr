@@ -1,0 +1,12 @@
+{
+  "isoType": "NettingIdentification2Choice",
+  "definition": "Choix entre l'identification d'un groupe de compensation et une partie négociatrice individuelle.",
+  "isoElements": {
+    "TradeParty": {
+      "definition": "Décrit la partie négociatrice individuelle."
+    },
+    "NettingGroupIdentification": {
+      "definition": "Décrit le groupe de compensation."
+    }
+  }
+}

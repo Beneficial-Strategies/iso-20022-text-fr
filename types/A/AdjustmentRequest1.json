@@ -1,0 +1,9 @@
+{
+  "isoType": "AdjustmentRequest1",
+  "definition": "Précise la période visée par une demande de valorisation.",
+  "isoElements": {
+    "Period": {
+      "definition": "Précise la date de valeur actuelle et la date de valeur demandée de l'opération ou de l'écriture sous-jacente."
+    }
+  }
+}

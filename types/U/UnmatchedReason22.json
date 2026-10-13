@@ -1,0 +1,12 @@
+{
+  "isoType": "UnmatchedReason22",
+  "definition": "Statut d'une instruction, d'un avis ou d'une demande.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction a le statut non apparié."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur le motif qui ne peuvent pas figurer dans un champ structuré."
+    }
+  }
+}

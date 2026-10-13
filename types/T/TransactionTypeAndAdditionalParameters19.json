@@ -1,0 +1,35 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters19",
+  "definition": "Précise les conditions dans lesquelles l'ordre/la transaction commerciale doit être réglé(e).",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification non ambiguë de l'opération (unique par élément de garantie) telle que connue du titulaire de compte (ou de la partie instructrice gérant le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification non ambiguë de l'opération (unique par élément de garantie) telle que connue du teneur de compte."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Précise le type d'opération de financement de titres, c'est-à-dire mise en pension, prise en pension, prêt de titres ou emprunt de titres."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Précise si le mouvement sur un compte-titres résulte d'une instruction de livraison ou de réception."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    },
+    "CommonIdentification": {
+      "definition": "Référence unique convenue entre les deux contreparties de la transaction commerciale pour identifier celle-ci."
+    },
+    "PoolIdentification": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identification attribuée par la banque teneur de compte permettant d'identifier sans ambiguïté un événement sur titres."
+    }
+  },
+  "isoRules": {
+    "TwoLegTransactionOpeningClosingRule": {
+      "definition": "Pour les opérations réglées en deux volets (financement de titres), les informations d'ouverture/initiation et de clôture/restitution de l'opération sont fournies par l'envoi de la combinaison ci-dessous de codes SecuritiesMovementType et de codes SecuritiesFinancingTransactionType :||Ouverture de repo|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: Repo (REPU)|Clôture de repo|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: Repo (REPU)||Ouverture de reverse repo|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: ReverseRepo (RVPO)|Clôture de reverse repo|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: ReverseRepo (RVPO)||Initiation de prêt de titres|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)|Restitution de prêt de titres|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)||Initiation d'emprunt de titres|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)|Restitution d'emprunt de titres|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)."
+    }
+  }
+}

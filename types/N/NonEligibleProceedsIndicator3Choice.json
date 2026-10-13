@@ -1,0 +1,12 @@
+{
+  "isoType": "NonEligibleProceedsIndicator3Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser l'éligibilité des ressources résultantes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant les informations relatives à la non-éligibilité des ressources résultantes."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire précisant les informations relatives à la non-éligibilité des ressources résultantes."
+    }
+  }
+}

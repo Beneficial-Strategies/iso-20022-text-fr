@@ -1,0 +1,24 @@
+{
+  "isoType": "Compensation5",
+  "definition": "Précise les détails d'une compensation de paiement.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant à payer à titre de compensation."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui gère un compte pour le débiteur.||Utilisation : la banque du débiteur est le payeur du montant de la compensation."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identification sans ambiguïté du compte de la banque du débiteur auprès de sa banque teneur de compte dans la chaîne de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui gère un compte pour le créancier.||Utilisation : la banque du créancier est le bénéficiaire du montant de la compensation."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification sans ambiguïté du compte de la banque du créancier auprès de sa banque teneur de compte, sur lequel sera passée une écriture au crédit à la suite de l'opération de paiement."
+    },
+    "Reason": {
+      "definition": "Motif de la compensation du paiement."
+    }
+  }
+}

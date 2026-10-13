@@ -1,0 +1,38 @@
+{
+  "isoType": "PendingReason35Code",
+  "definition": "Précise le motif pour lequel une demande d'annulation envoyée pour l'instruction associée est en attente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du teneur de compte. Elle sera traitée conformément à l'accord de service bilatéral entre le teneur de compte et le titulaire du compte."
+    },
+    "CONF": {
+      "name": "En attente de confirmation",
+      "definition": "En attente de confirmation de la contrepartie."
+    },
+    "CDCY": {
+      "name": "Devise conditionnelle",
+      "definition": "L'exécution est subordonnée à l'exécution d'un traitement lié à la devise de l'opération."
+    },
+    "CDAC": {
+      "name": "Livraison conditionnelle en attente d'annulation",
+      "definition": "En attente de l'annulation par l'une des parties."
+    },
+    "CDRE": {
+      "name": "Réalignement conditionnel",
+      "definition": "L'exécution est subordonnée à l'exécution d'un traitement de réalignement auprès du CSD émetteur."
+    },
+    "CDRG": {
+      "name": "Registraire conditionnel",
+      "definition": "L'exécution est subordonnée à l'exécution d'un traitement auprès de l'agent chargé de la tenue du registre."
+    },
+    "INBC": {
+      "name": "Décompte de numéros incomplet",
+      "definition": "Toutes les instructions faisant partie d'un groupe n'ont pas été reçues."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    }
+  }
+}

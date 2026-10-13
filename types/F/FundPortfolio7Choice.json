@@ -1,0 +1,15 @@
+{
+  "isoType": "FundPortfolio7Choice",
+  "definition": "Choix entre différents types de portefeuille.",
+  "isoElements": {
+    "TaxEfficientProduct": {
+      "definition": "Le portefeuille est un dispositif gouvernemental visant à encourager l’investissement dans des parts et des fonds d’investissement fondés sur des titres, offrant certains avantages fiscaux. Il ne s’agit pas d’investissements en tant que tels, mais d’« enveloppes » exonérées d’impôt dans lesquelles des actions, des obligations et des fonds peuvent être détenus afin de les protéger de divers types d’impôts.|Au Royaume-Uni (UK), un produit d’enveloppe fiscale typique est appelé « ISA » (Individual Savings Account)."
+    },
+    "GeneralInvestment": {
+      "definition": "Le portefeuille est un investissement général."
+    },
+    "Pension": {
+      "definition": "Le portefeuille est une police, un plan ou un régime de retraite."
+    }
+  }
+}

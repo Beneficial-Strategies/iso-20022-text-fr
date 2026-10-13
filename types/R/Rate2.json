@@ -1,0 +1,17 @@
+{
+  "isoType": "Rate2",
+  "definition": "Ensemble d'éléments qualifiant le taux d'intérêt.",
+  "isoElements": {
+    "Sign": {
+      "definition": "Indique le signe du taux."
+    },
+    "Rate": {
+      "definition": "Pourcentage facturé pour l'utilisation d'une somme d'argent, généralement exprimé en taux annuel. Le taux d'intérêt est le rapport entre le montant des intérêts versés pendant une certaine période et le montant en principal de l'instrument financier porteur d'intérêts."
+    }
+  },
+  "isoRules": {
+    "SignRule": {
+      "definition": "Lorsque Sign est présent, le taux ne doit pas être nul."
+    }
+  }
+}

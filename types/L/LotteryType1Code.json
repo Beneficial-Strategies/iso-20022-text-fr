@@ -1,0 +1,14 @@
+{
+  "isoType": "LotteryType1Code",
+  "definition": "Précise le type de tirage.",
+  "isoCodes": {
+    "ORIG": {
+      "name": "Notification de tirage au sort initiale",
+      "definition": "Tirage initial annoncé pour un montant et une date déterminés."
+    },
+    "SUPP": {
+      "name": "Notification de tirage au sort complémentaire",
+      "definition": "Quantité complémentaire ou additionnelle appelée dans le cadre d'un tirage initial annoncé précédemment."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "PenaltyReport1",
+  "definition": "Spécifie les détails du rapport sur les pénalités.",
+  "isoElements": {
+    "ReportIdentification": {
+      "definition": "Référence commune à toutes les pages d'un relevé."
+    },
+    "ReportDate": {
+      "definition": "Date du rapport."
+    },
+    "ReportPeriod": {
+      "definition": "Période du rapport."
+    },
+    "Frequency": {
+      "definition": "Fréquence du relevé."
+    },
+    "PenaltyListType": {
+      "definition": "Indique si la liste de pénalités déclarée contient des pénalités nouvellement calculées ou des pénalités mises à jour/supprimées."
+    },
+    "UpdateType": {
+      "definition": "Indique si le relevé est complet ou ne contient que des modifications."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique s'il y a une activité ou une mise à jour d'informations déclarée dans le rapport."
+    }
+  },
+  "isoRules": {
+    "ReportDatePeriodPresenceRule": {
+      "definition": "Au moins une occurrence de ReportDate ou ReportPeriod doit être présente."
+    }
+  }
+}

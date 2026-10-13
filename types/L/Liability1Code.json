@@ -1,0 +1,14 @@
+{
+  "isoType": "Liability1Code",
+  "definition": "Indique la partie responsable de l'engagement.",
+  "isoCodes": {
+    "INVE": {
+      "name": "Investisseur",
+      "definition": "L'investisseur est responsable."
+    },
+    "BROK": {
+      "name": "Courtier",
+      "definition": "Le courtier est responsable."
+    }
+  }
+}

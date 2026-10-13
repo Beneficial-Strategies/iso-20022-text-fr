@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionPrice88",
+  "definition": "Précise les prix liés à une option d'opération sur titres.",
+  "isoElements": {
+    "IndicativeOrMarketPrice": {
+      "definition": "Indique si le prix est un prix indicatif ou un prix de marché."
+    },
+    "IssuePrice": {
+      "definition": "Prix d'émission initial d'un instrument financier."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Prix générique en espèces reçu par produit par le porteur du titre sous-jacent, sous forme de pourcentage ou de montant, par exemple, prix de remboursement."
+    },
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Prix générique en espèces payé par produit par le détenteur du titre sous-jacent, sous forme de pourcentage ou de montant, par exemple le prix de réinvestissement."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "Le prix générique en espèces reçu par produit (OFFR) et le prix générique en espèces payé par produit (PRPP) sont des prix reçus ou payés au cours d'un événement. La signification précise (prix de remboursement, prix de souscription, prix de réinvestissement, etc.) découle du type d'événement."
+    }
+  }
+}

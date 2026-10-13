@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountUsageType2Code",
+  "definition": "Indique le type d'utilisation du compte.",
+  "isoCodes": {
+    "INVE": {
+      "name": "Investisseur",
+      "definition": "Investisseur."
+    },
+    "ISSP": {
+      "name": "Participant émetteur",
+      "definition": "Participant émetteur."
+    },
+    "SETP": {
+      "name": "Participant au règlement",
+      "definition": "Participant au règlement."
+    },
+    "TRDP": {
+      "name": "Participant à la négociation",
+      "definition": "Participant à la négociation."
+    }
+  }
+}

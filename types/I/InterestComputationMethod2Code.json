@@ -1,0 +1,66 @@
+{
+  "isoType": "InterestComputationMethod2Code",
+  "definition": "Précise la méthode utilisée pour calculer les intérêts courus d'un instrument financier.",
+  "isoCodes": {
+    "A001": {
+      "name": "30/360 ISDA ou règle de base américaine 30/360",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base d'un mois de 30 jours et d'une année de 360 jours. Les intérêts courus jusqu'à une date de valeur correspondant au dernier jour d'un mois sont les mêmes que jusqu'au 30e jour calendaire du même mois, sauf en février, et à condition que la période d'intérêts ait débuté un 30 ou un 31. Cela signifie qu'un 31 est supposé être un 30 si la période a débuté un 30 ou un 31, et que le 28 février (ou le 29 février pour une année bissextile) est supposé être le 28 (ou le 29). Il s'agit de la méthode 30/360 la plus couramment utilisée pour les obligations US ordinaires et convertibles."
+    },
+    "A002": {
+      "name": "30/365",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base d'un mois de 30 jours, de manière similaire à la méthode 30/360 (règle de base), et d'une année de 365 jours. Les intérêts courus jusqu'à une date de valeur correspondant au dernier jour d'un mois sont les mêmes que jusqu'au 30e jour calendaire du même mois, sauf en février. Cela signifie qu'un 31 est supposé être un 30 et que le 28 février (ou le 29 février pour une année bissextile) est supposé être le 28 (ou le 29)."
+    },
+    "A003": {
+      "name": "30/Réel",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base d'un mois de 30 jours, de manière similaire à la méthode 30/360 (règle de base), et du nombre de jours supposé dans l'année, de manière similaire à la méthode Actual/Actual (ICMA). Les intérêts courus jusqu'à une date de valeur correspondant au dernier jour d'un mois sont les mêmes que jusqu'au 30e jour calendaire du même mois, sauf en février. Cela signifie que le 31 est supposé être le 30 et que le 28 février (ou le 29 février pour une année bissextile) est supposé être le 28 (ou le 29). Le nombre de jours supposé dans l'année est calculé comme le nombre réel de jours de la période de coupon multiplié par le nombre de paiements d'intérêts dans l'année."
+    },
+    "A004": {
+      "name": "Réel/360",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base du nombre réel de jours courus de la période d'intérêts et d'une année de 360 jours."
+    },
+    "A005": {
+      "name": "Réel/365 fixe",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base du nombre réel de jours courus de la période d'intérêts et d'une année de 365 jours."
+    },
+    "A006": {
+      "name": "Réel/Réel ICMA",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base du nombre réel de jours courus et du nombre de jours supposé dans l'année, c'est-à-dire le nombre réel de jours de la période de coupon multiplié par le nombre de paiements d'intérêts dans l'année. Si la période de coupon est irrégulière (premier ou dernier coupon), elle est prolongée ou scindée en quasi-périodes d'intérêts ayant la longueur d'une période de coupon régulière, le calcul est effectué séparément sur chaque quasi-période d'intérêts et les résultats intermédiaires sont additionnés."
+    },
+    "A007": {
+      "name": "30E/360 ou base euro-obligataire, modèle 1",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base d'un mois de 30 jours et d'une année de 360 jours. Les intérêts courus jusqu'à une date de valeur correspondant au dernier jour d'un mois sont les mêmes que jusqu'au 30e jour calendaire du même mois. Cela signifie que le 31 est supposé être le 30 et que le 28 février (ou le 29 février pour une année bissextile) est supposé équivaloir au 30 février. Toutefois, si le dernier jour de la période de coupon à l'échéance est le dernier jour de février, il n'est pas supposé être le 30. Il s'agit d'une variante de la méthode 30/360 (ICMA) couramment utilisée pour les euro-obligations. L'utilisation de cette variante n'est pertinente que lorsque les périodes de coupon sont prévues pour se terminer le dernier jour du mois."
+    },
+    "A008": {
+      "name": "Réel/Réel ISDA",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base du nombre réel de jours courus de la période d'intérêts tombant dans une année normale, divisé par 365, additionné au nombre réel de jours de la période d'intérêts tombant dans une année bissextile, divisé par 366."
+    },
+    "A009": {
+      "name": "Réel/365L ou règle de base Réel/Réel",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base du nombre réel de jours courus et d'une année de 365 jours (si la date de paiement du coupon n'est PAS dans une année bissextile) ou d'une année de 366 jours (si la date de paiement du coupon est dans une année bissextile)."
+    },
+    "A010": {
+      "name": "Réel/Réel AFB",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base du nombre réel de jours courus et d'une année de 366 jours (si le 29 février tombe dans la période de coupon) ou d'une année de 365 jours (si le 29 février ne tombe pas dans la période de coupon). Si une période de coupon est supérieure à un an, elle est scindée en séparant de façon répétée des sous-périodes d'une année complète en comptant à rebours depuis la fin de la période de coupon (un an en arrière à partir du 28 février étant le 29 février, s'il existe). La première des sous-périodes commence à la date de début de la période d'intérêts courus et peut donc être plus courte qu'un an. Le calcul des intérêts est ensuite effectué séparément sur chaque sous-période et les résultats intermédiaires sont additionnés."
+    },
+    "A011": {
+      "name": "30/360 ICMA ou règle de base 30/360",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base d'un mois de 30 jours et d'une année de 360 jours. Les intérêts courus jusqu'à une date de valeur correspondant au dernier jour d'un mois sont les mêmes que jusqu'au 30e jour calendaire du même mois, sauf en février. Cela signifie que le 31 est supposé être le 30 et que le 28 février (ou le 29 février pour une année bissextile) est supposé être le 28 (ou le 29). Il s'agit de la méthode 30/360 la plus couramment utilisée pour les obligations ordinaires et convertibles non US émises avant le 1er janvier 1999."
+    },
+    "A012": {
+      "name": "30E2/360 ou base euro-obligataire, modèle 2",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base d'un mois de 30 jours et d'une année de 360 jours. Les intérêts courus jusqu'à une date de valeur correspondant au dernier jour d'un mois sont les mêmes que jusqu'au 30e jour calendaire du même mois, sauf pour le dernier jour de février, dont la valeur du jour du mois est alignée sur celle du premier jour de la période d'intérêts si celle-ci est plus élevée et si la période fait partie d'un calendrier régulier. Cela signifie que le 31 est supposé être le 30 et que le 28 février d'une année non bissextile est supposé équivaloir au 29 février lorsque le premier jour de la période d'intérêts est le 29, ou au 30 février lorsque le premier jour de la période d'intérêts est le 30 ou le 31. Le 29 février d'une année bissextile est supposé équivaloir au 30 février lorsque le premier jour de la période d'intérêts est le 30 ou le 31. De même, si la période de coupon commence le dernier jour de février, elle est supposée ne produire qu'un seul jour d'intérêts en février, comme si elle commençait le 30 février, lorsque la fin de la période est le 30 ou le 31, ou deux jours d'intérêts en février lorsque la fin de la période est le 29, ou trois jours d'intérêts en février lorsqu'il s'agit du 28 février d'une année non bissextile et que la fin de la période est antérieure au 29."
+    },
+    "A013": {
+      "name": "30E3/360 ou base euro-obligataire, modèle 3",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base d'un mois de 30 jours et d'une année de 360 jours. Les intérêts courus jusqu'à une date de valeur correspondant au dernier jour d'un mois sont les mêmes que jusqu'au 30e jour calendaire du même mois. Cela signifie que le 31 est supposé être le 30 et que le 28 février (ou le 29 février pour une année bissextile) est supposé équivaloir au 30 février. Il s'agit d'une variante de la méthode 30E/360 (ou base euro-obligataire) dans laquelle le dernier jour de février est toujours supposé être le 30, même s'il s'agit du dernier jour de la période de coupon à l'échéance."
+    },
+    "A014": {
+      "name": "Réel/365NL",
+      "definition": "Méthode selon laquelle les intérêts sont calculés sur la base du nombre réel de jours courus de la période d'intérêts, à l'exclusion de tout jour bissextile du décompte, et d'une année de 365 jours."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Méthode autre que A001-A020. Voir Narrative."
+    }
+  }
+}

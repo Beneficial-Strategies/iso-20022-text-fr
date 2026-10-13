@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementTransactionCondition30Choice",
+  "definition": "Choix de format pour les conditions de l'opération de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condition de règlement exprimée sous la forme d'un code."
+    },
+    "Proprietary": {
+      "definition": "Condition de règlement exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

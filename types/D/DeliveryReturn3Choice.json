@@ -1,0 +1,12 @@
+{
+  "isoType": "DeliveryReturn3Choice",
+  "definition": "Choix du format des informations de retour de livraison.",
+  "isoElements": {
+    "Code": {
+      "definition": "Retour de livraison exprimé sous forme de code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Retour de livraison exprimé sous forme de code propriétaire."
+    }
+  }
+}

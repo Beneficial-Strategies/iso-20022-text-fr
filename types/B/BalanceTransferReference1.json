@@ -1,0 +1,9 @@
+{
+  "isoType": "BalanceTransferReference1",
+  "definition": "Référence permettant à la banque tenant le compte destinataire de rapprocher le paiement du message.",
+  "isoElements": {
+    "BalanceTransferReference": {
+      "definition": "Utilisée par le débiteur dans un champ de référence approprié d'un message de paiement envoyé par un canal de paiement alternatif, afin de permettre au créancier de rapprocher le paiement de la demande de paiement."
+    }
+  }
+}

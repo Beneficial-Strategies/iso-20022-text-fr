@@ -1,0 +1,29 @@
+{
+  "isoType": "Statement83",
+  "definition": "Caractéristiques du relevé.",
+  "isoElements": {
+    "StatementDateOrPeriod": {
+      "definition": "Date ou période du relevé."
+    },
+    "Frequency": {
+      "definition": "Fréquence du relevé."
+    },
+    "UpdateType": {
+      "definition": "Indique si le relevé est complet ou ne contient que des modifications."
+    },
+    "StatementBasis": {
+      "definition": "Type de solde sur lequel le relevé est établi."
+    },
+    "StatementType": {
+      "definition": "Type de solde sur lequel le relevé est établi."
+    }
+  },
+  "isoRules": {
+    "StatementTypeRule": {
+      "definition": "Si StatementType est utilisé, le relevé demandé doit être un SecuritiesBalanceAccountingReport, un SecuritiesBalanceCustodyReport ou un SecuritiesTransactionPostingReport."
+    },
+    "StatementBasisRule": {
+      "definition": "Si StatementBasis est utilisé, le relevé demandé doit être un SecuritiesBalanceAccountingReport ou un SecuritiesBalanceCustodyReport."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "BuyInState1Code",
+  "definition": "Précise l'état de l'opération de rachat forcé (buy-in).",
+  "isoCodes": {
+    "BSSP": {
+      "name": "Partiellement réussi",
+      "definition": "Le rachat forcé (buy-in) a partiellement réussi."
+    },
+    "BSSY": {
+      "name": "Réussi",
+      "definition": "Le rachat forcé (buy-in) a réussi."
+    },
+    "BSSN": {
+      "name": "Non réussi",
+      "definition": "Le rachat forcé (buy-in) a échoué."
+    }
+  }
+}

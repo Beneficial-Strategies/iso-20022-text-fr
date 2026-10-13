@@ -1,0 +1,22 @@
+{
+  "isoType": "NamePrefix1Code",
+  "definition": "Précise les termes utilisés pour s'adresser formellement à une personne.",
+  "isoCodes": {
+    "DOCT": {
+      "name": "Docteur",
+      "definition": "Le titre de la personne est Docteur ou Dr."
+    },
+    "MIST": {
+      "name": "Monsieur",
+      "definition": "Le titre de la personne est Monsieur ou M."
+    },
+    "MISS": {
+      "name": "Mademoiselle",
+      "definition": "Le titre de la personne est Mademoiselle."
+    },
+    "MADM": {
+      "name": "Madame",
+      "definition": "Le titre de la personne est Madame."
+    }
+  }
+}

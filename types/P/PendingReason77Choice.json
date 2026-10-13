@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason77Choice",
+  "definition": "Choix de format pour le motif de mise en attente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel une demande d'annulation envoyée pour l'instruction associée est en attente."
+    },
+    "Proprietary": {
+      "definition": "Précise le code de motif pour lequel l'instruction ou la demande est en attente, au format propriétaire."
+    }
+  }
+}

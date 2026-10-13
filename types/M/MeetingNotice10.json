@@ -1,0 +1,75 @@
+{
+  "isoType": "MeetingNotice10",
+  "definition": "Informations sur une assemblée, les conditions de participation et les procédures de vote.",
+  "isoElements": {
+    "MeetingIdentification": {
+      "definition": "Identification attribuée à l'assemblée générale par la partie qui fournit la notification d'assemblée. Elle doit être unique pour la partie qui fournit la notification"
+    },
+    "IssuerMeetingIdentification": {
+      "definition": "Identification attribuée à l'assemblée par l'émetteur. Elle doit être unique pour l'émetteur."
+    },
+    "Type": {
+      "definition": "Type d'assemblée des porteurs de titres."
+    },
+    "Classification": {
+      "definition": "Classification de l'assemblée."
+    },
+    "AnnouncementDate": {
+      "definition": "Date officielle d'annonce de l'assemblée."
+    },
+    "OneManOneVoteIndicator": {
+      "definition": "Indique si le vote de l'assemblée est tenu selon le principe « une personne, une voix », également appelé « vote par tête », selon lequel l'actionnaire présent à l'assemblée dispose d'une seule voix, quelles que soient ses positions détenues."
+    },
+    "Participation": {
+      "definition": "Méthode de participation au vote à l'assemblée générale et date limite de vote associée selon la méthode de participation."
+    },
+    "Attendance": {
+      "definition": "Informations et conditions de présence physique à l'assemblée générale."
+    },
+    "AdditionalDocumentationURLAddress": {
+      "definition": "Adresse à utiliser sur le service www (HTTP) où l'on peut trouver des informations supplémentaires sur l'assemblée."
+    },
+    "EventProcessingWebSiteAddress": {
+      "definition": "Fournit l'adresse web d'un teneur de compte (ou d'un prestataire de services) contenant des informations destinées uniquement au titulaire de compte immédiat afin de permettre ou de faciliter le traitement de l'événement entre les parties."
+    },
+    "AdditionalProcedureDetails": {
+      "definition": "Informations procédurales supplémentaires sur l'assemblée générale, précisant les conditions de participation et les procédures de vote. Il peut aussi s'agir d'une indication de l'endroit où obtenir ces informations."
+    },
+    "TotalNumberOfSecuritiesOutstanding": {
+      "definition": "Nombre de titres admis au vote, exprimé sous forme de montant et de devise."
+    },
+    "TotalNumberOfVotingRights": {
+      "definition": "Nombre de droits admis au vote."
+    },
+    "ProxyAppointmentNotificationAddress": {
+      "definition": "Adresse à laquelle les informations sur le mandataire doivent être envoyées."
+    },
+    "ProxyChoice": {
+      "definition": "Précise le mandataire ou si un mandataire n'est pas autorisé."
+    },
+    "ContactPersonDetails": {
+      "definition": "Personne de contact auprès de la partie organisatrice de l'assemblée, de l'émetteur ou d'un intermédiaire."
+    },
+    "ResultPublicationDate": {
+      "definition": "Date à laquelle la société publie les résultats de son assemblée."
+    },
+    "SecuritiesBlockingPeriodEndDate": {
+      "definition": "Date à laquelle la période de blocage des titres doit prendre fin."
+    },
+    "EntitlementFixingDate": {
+      "definition": "Date à laquelle les positions sont arrêtées pour consigner quelles parties recevront le droit, par exemple date d'arrêté, date de clôture des registres."
+    },
+    "RegistrationSecuritiesDeadline": {
+      "definition": "Date avant laquelle les titres doivent être enregistrés. Cette date limite est précisée par un intermédiaire."
+    },
+    "RegistrationSecuritiesMarketDeadline": {
+      "definition": "Date avant laquelle les titres doivent être enregistrés. Cette date limite est fixée par l'émetteur."
+    },
+    "EnrolmentMarketDeadline": {
+      "definition": "Date avant laquelle l'inscription à la participation à l'assemblée générale ou à l'exercice des droits de vote doit être instruite. Cette date limite est fixée par l'émetteur."
+    },
+    "EnrolmentDeadline": {
+      "definition": "Date avant laquelle l'inscription à la participation à l'assemblée générale ou à l'exercice des droits de vote doit être instruite. Cette date limite est fixée par l'intermédiaire."
+    }
+  }
+}

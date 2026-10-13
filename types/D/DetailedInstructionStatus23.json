@@ -1,0 +1,23 @@
+{
+  "isoType": "DetailedInstructionStatus23",
+  "definition": "Statut d'une instruction individuelle d'une instruction d'assemblée.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identification de l'instruction individuelle spécifique issue de l'élément InstructionIdentification du message d'instruction d'assemblée initial, pour laquelle le statut est fourni."
+    },
+    "AccountIdentification": {
+      "definition": "Identification du compte-titres."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identification du sous-compte au sein du compte de conservation."
+    },
+    "InstructionStatus": {
+      "definition": "Statut de l'instruction d'assemblée individuelle."
+    }
+  },
+  "isoRules": {
+    "SubAccount1Rule": {
+      "definition": "Si SubAccountIdentification est présent, alors AccountIdentification doit être présent."
+    }
+  }
+}

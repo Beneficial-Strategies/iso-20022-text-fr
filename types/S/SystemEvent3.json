@@ -1,0 +1,21 @@
+{
+  "isoType": "SystemEvent3",
+  "definition": "Fournit des précisions sur un événement survenant dans un système, qu'il soit prévu ou imprévu, conformément aux spécifications du système.",
+  "isoElements": {
+    "Type": {
+      "definition": "Nature de l'événement survenu."
+    },
+    "ScheduledTime": {
+      "definition": "Date et heure auxquelles l'événement est prévu."
+    },
+    "EffectiveTime": {
+      "definition": "Date et heure auxquelles l'événement a effectivement lieu."
+    },
+    "StartTime": {
+      "definition": "Heure à laquelle l'événement commence."
+    },
+    "EndTime": {
+      "definition": "Heure à laquelle l'événement se termine."
+    }
+  }
+}

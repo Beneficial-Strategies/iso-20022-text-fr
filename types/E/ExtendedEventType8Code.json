@@ -1,0 +1,26 @@
+{
+  "isoType": "ExtendedEventType8Code",
+  "definition": "Précise le type d'événement d'opération sur titres défini par DTCC (The Depository Trust and Clearing Corporation).",
+  "isoCodes": {
+    "CDRD": {
+      "name": "Remboursement anticipé de certificat de dépôt",
+      "definition": "Caractéristique d'un titre permettant à un émetteur d'effectuer un paiement au détenteur du titre. Cet événement sera utilisé pour les titres soumis à des remboursements autres que ceux catégorisés comme rappels totaux et partiels (par exemple les remboursements anticipés de certificats de dépôt)."
+    },
+    "FPAY": {
+      "name": "Amortissement final",
+      "definition": "Distribution finale du principal dû sur un titre, typiquement des obligations hypothécaires avec collatéral."
+    },
+    "REDW": {
+      "name": "Remboursement de bon de souscription",
+      "definition": "L'événement est un remboursement de bon de souscription."
+    },
+    "TMTN": {
+      "name": "Résiliation",
+      "definition": "Titre, généralement une forme de dérivé, pour lequel l'agent ou l'émetteur a décidé de mettre fin au dérivé en raison d'une modification du ou des titres sous-jacents ou d'un changement de stratégie. Se distingue des types d'événements Mandatory Exchange et Exchange Offer associés au même code de type d'événement ISO."
+    },
+    "FPRE": {
+      "name": "Préfinancement intégral",
+      "definition": "Exercice par l'émetteur du privilège de rembourser intégralement tout titre de créance avant l'échéance lorsque l'émetteur dépose des actifs en fiducie. Cela en restreint irrévocablement l'utilisation à l'extinction de la dette."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "CashEntry2",
+  "definition": "Imputation d'un élément sur un compte de trésorerie, dans le contexte d'une opération de trésorerie, entraînant une augmentation ou une diminution du solde du compte.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant d'argent de l'écriture de trésorerie."
+    },
+    "Date": {
+      "definition": "Date à laquelle une écriture est comptabilisée sur un compte dans les livres de la banque gestionnaire du compte."
+    },
+    "Status": {
+      "definition": "Statut d'une écriture dans les livres de la banque gestionnaire du compte."
+    },
+    "Identification": {
+      "definition": "Identifiant unique et non ambigu d'une écriture, attribué par la banque gestionnaire du compte."
+    },
+    "StatementIdentification": {
+      "definition": "Identification unique, attribuée par la banque gestionnaire du compte, permettant d'identifier sans ambiguïté le relevé de compte."
+    },
+    "AccountServicerReference": {
+      "definition": "Numéro séquentiel du relevé, attribué par la banque gestionnaire du compte.|Utilisation : le numéro séquentiel est incrémenté pour chaque relevé envoyé par voie électronique."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Détails complémentaires de l'écriture."
+    }
+  }
+}

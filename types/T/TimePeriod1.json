@@ -1,0 +1,12 @@
+{
+  "isoType": "TimePeriod1",
+  "definition": "Intervalle de temps particulier défini entre une heure de début et une heure de fin. La période ne peut pas dépasser 24 heures.",
+  "isoElements": {
+    "FromTime": {
+      "definition": "Heure à laquelle l'intervalle de temps commence."
+    },
+    "ToTime": {
+      "definition": "Heure à laquelle l'intervalle de temps se termine."
+    }
+  }
+}

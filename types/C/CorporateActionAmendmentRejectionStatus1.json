@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionAmendmentRejectionStatus1",
+  "definition": "Fournit le motif de rejet d'une demande de modification d'option choisie.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Le motif du rejet."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

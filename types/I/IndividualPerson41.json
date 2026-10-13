@@ -1,0 +1,18 @@
+{
+  "isoType": "IndividualPerson41",
+  "definition": "Entité humaine, par opposition à une entité d'entreprise (parfois appelée « personne morale »).",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et non ambiguë du mandataire."
+    },
+    "ParticipationMethod": {
+      "definition": "Méthode de participation au vote à l'assemblée générale."
+    },
+    "EmployingParty": {
+      "definition": "Organisation représentée par la personne, ou pour laquelle la personne travaille."
+    },
+    "AttendanceCardDetails": {
+      "definition": "Détails relatifs à la carte d'admission."
+    }
+  }
+}

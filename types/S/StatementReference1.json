@@ -1,0 +1,15 @@
+{
+  "isoType": "StatementReference1",
+  "definition": "Identifie la référence du relevé par un identifiant unique et la date (et l'heure).",
+  "isoElements": {
+    "StatementIdentification": {
+      "definition": "Référence commune à toutes les pages du relevé pour lequel l'avis de statut est envoyé."
+    },
+    "StatementDateTime": {
+      "definition": "Date et heure de création du relevé."
+    },
+    "Pagination": {
+      "definition": "Numéro de page du message associé (au sein du relevé) et indicateur de continuation précisant que le relevé se poursuit ou que le message associé est la dernière page du relevé."
+    }
+  }
+}

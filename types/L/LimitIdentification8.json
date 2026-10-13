@@ -1,0 +1,29 @@
+{
+  "isoType": "LimitIdentification8",
+  "definition": "Définit les éléments d'identification permettant d'identifier de manière unique une limite au sein du système.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identification d'un système de compensation de trésorerie particulier."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Identification du membre du système pour lequel la limite est établie."
+    },
+    "Type": {
+      "definition": "Nature de la limite de gestion des risques."
+    },
+    "AccountOwner": {
+      "definition": "Titulaire du compte faisant l'objet de la requête."
+    },
+    "AccountIdentification": {
+      "definition": "Identification unique et non ambiguë du compte entre le titulaire du compte et le teneur de compte."
+    }
+  },
+  "isoRules": {
+    "BilateralLimitCounterparty1Rule": {
+      "definition": "Si Type vaut MULT, alors BilateralLimitCounterpartyIdentification n'est pas autorisé."
+    },
+    "BilateralLimitCounterparty2Rule": {
+      "definition": "Si Type vaut BILI ou NELI ou INBI, alors BilateralLimitCounterpartyIdentification doit être présent."
+    }
+  }
+}

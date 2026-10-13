@@ -1,0 +1,54 @@
+{
+  "isoType": "IntraBalanceMovement6",
+  "definition": "Fournit des précisions supplémentaires sur les données des mouvements intra-solde.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Solde à partir duquel le montant est déplacé."
+    },
+    "BalanceTo": {
+      "definition": "Solde vers lequel le montant est déplacé."
+    },
+    "SettlementAmount": {
+      "definition": "Montant effectivement réglé, qui sera crédité sur le compte espèces du titulaire du compte ou débité de celui-ci. Il peut différer du montant de règlement instruit en fonction du niveau de tolérance du marché."
+    },
+    "SettledAmount": {
+      "definition": "Montant effectivement réglé, qui sera crédité sur le compte espèces du titulaire du compte ou débité de celui-ci. Il peut différer du montant de règlement instruit en fonction du niveau de tolérance du marché."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Montant précédemment réglé."
+    },
+    "RemainingSettlementAmount": {
+      "definition": "Montant restant à régler."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Date et heure auxquelles le montant doit être déplacé."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Date et heure auxquelles le montant est déplacé."
+    },
+    "StatusDate": {
+      "definition": "Date et heure auxquelles le statut a été attribué."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Numéro identifiant un lot constituant le sous-solde."
+    },
+    "Linkages": {
+      "definition": "Lien vers une autre opération qui doit être traitée après, avant ou en même temps."
+    },
+    "Priority": {
+      "definition": "Précise si l'opération doit être exécutée avec une priorité élevée."
+    },
+    "MessageOriginator": {
+      "definition": "Partie à l'origine du message, si elle est différente de l'expéditeur."
+    },
+    "CreationDateTime": {
+      "definition": "Précise la date/l'heure d'exécution de la transaction."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires sur le traitement du règlement qui ne peuvent pas être incluses dans les champs structurés du message."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés ou dans tout autre bloc spécifique."
+    }
+  }
+}

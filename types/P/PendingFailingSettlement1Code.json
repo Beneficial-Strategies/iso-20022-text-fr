@@ -1,0 +1,186 @@
+{
+  "isoType": "PendingFailingSettlement1Code",
+  "definition": "Précise la raison pour laquelle l'opération ou l'instruction risque de ne pas être réglée et pour laquelle le règlement à la date de règlement de l'instruction n'est plus possible.",
+  "isoCodes": {
+    "AWMO": {
+      "name": "En attente de fonds",
+      "definition": "Les titres ont été livrés, mais les fonds sont toujours attendus de la contrepartie."
+    },
+    "AWSH": {
+      "name": "En attente de titres de la contrepartie",
+      "definition": "Les titres n'ont pas encore été reçus de la contrepartie. Si l'instruction de règlement était une réception contre paiement, les fonds ont été livrés."
+    },
+    "LAAW": {
+      "name": "En attente d'une autre transaction",
+      "definition": "En attente du règlement d'un « achat » lié."
+    },
+    "DOCY": {
+      "name": "En attente de documents ou d'endossements de votre part",
+      "definition": "En attente de documents ou d'endossements de votre part."
+    },
+    "CLAT": {
+      "name": "Contrepartie trop tardive pour le règlement",
+      "definition": "L'instruction de la contrepartie est arrivée trop tard pour le règlement (c'est-à-dire reçue trop tard, ou les problèmes d'appariement ou de règlement ont été résolus trop tard)."
+    },
+    "CERT": {
+      "name": "Numéros de certificat erronés",
+      "definition": "Erreur de numéro de certificat."
+    },
+    "MINO": {
+      "name": "Montant de règlement minimal",
+      "definition": "La quantité de titres est inférieure à la quantité minimale de règlement existante pour l'instrument financier instruit."
+    },
+    "PHSE": {
+      "name": "Retard de livraison physique",
+      "definition": "Le règlement est physique et la livraison des titres est retardée."
+    },
+    "SBLO": {
+      "name": "Titres bloqués",
+      "definition": "Les titres sont bloqués, par exemple en raison d'un événement sur titres ou d'un réalignement."
+    },
+    "DKNY": {
+      "name": "Titres retournés par la contrepartie",
+      "definition": "La contrepartie a retourné ou refusé les titres, ou ne les reconnaît pas."
+    },
+    "STCD": {
+      "name": "Écart de confirmation",
+      "definition": "Divergence dans la confirmation de règlement."
+    },
+    "BENO": {
+      "name": "Désaccord sur la propriété effective",
+      "definition": "Désaccord sur la propriété effective."
+    },
+    "LACK": {
+      "name": "Défaut de titres",
+      "definition": "Titres livrables insuffisants sur votre compte."
+    },
+    "LATE": {
+      "name": "Trop tard pour le règlement",
+      "definition": "L'instruction de règlement est arrivée trop tard pour le règlement, c'est-à-dire reçue trop tard, ou les problèmes d'appariement ou de règlement ont été résolus trop tard."
+    },
+    "CANR": {
+      "name": "Demande de confirmation d'annulation",
+      "definition": "Opération suspendue. La période de suspension étant terminée, l'annulation ou la confirmation des instructions est requise."
+    },
+    "MLAT": {
+      "name": "Fonds trop tardifs pour le règlement",
+      "definition": "Le paiement d'un achat de titres a été reçu après l'heure limite pour réaliser le règlement le jour même."
+    },
+    "OBJT": {
+      "name": "Sous opposition",
+      "definition": "Les titres sont volés, en litige et sous opposition."
+    },
+    "DOCC": {
+      "name": "En attente de documents ou d'endossements de la contrepartie",
+      "definition": "En attente de documents ou d'endossements de la contrepartie."
+    },
+    "BLOC": {
+      "name": "Compte bloqué",
+      "definition": "Le compte est bloqué ; aucune instruction ne peut donc être réglée."
+    },
+    "CHAS": {
+      "name": "Demande de renseignements envoyée",
+      "definition": "Demande de renseignements ou relance envoyée à l'agent ou au dépositaire."
+    },
+    "NEWI": {
+      "name": "Nouvelles émissions",
+      "definition": "Les titres sont des nouvelles émissions et ne sont pas encore disponibles ou négociables."
+    },
+    "CLAC": {
+      "name": "Titres insuffisants de la contrepartie",
+      "definition": "Titres livrables insuffisants sur le compte de la contrepartie, ou la contrepartie ne détient pas les titres."
+    },
+    "PART": {
+      "name": "Transaction réglée en partie",
+      "definition": "L'opération sera réglée en plusieurs parties."
+    },
+    "CMON": {
+      "name": "Fonds insuffisants de la contrepartie",
+      "definition": "Fonds insuffisants sur le compte de la contrepartie."
+    },
+    "COLL": {
+      "name": "Titres donnés en garantie",
+      "definition": "Les titres ne sont pas livrables car ils sont nantis en garantie."
+    },
+    "DEPO": {
+      "name": "Dépôt refusé pour l'émission de certificats de dépôt",
+      "definition": "Le dépôt d'actions en vue de l'émission d'un certificat de dépôt a été refusé. L'opération dépasserait le quota de certificats de dépôt accordé par l'émetteur."
+    },
+    "FLIM": {
+      "name": "Limite maximale pour l'étranger atteinte",
+      "definition": "Titres livrables insuffisants sur votre compte, car la limite maximale pour les étrangers est atteinte."
+    },
+    "NOFX": {
+      "name": "Aucune instruction de change",
+      "definition": "Une instruction de change de votre part est manquante."
+    },
+    "INCA": {
+      "name": "Ajustement du revenu requis",
+      "definition": "Les titres nécessitent un ajustement de revenu, c'est-à-dire un dividende ou des intérêts."
+    },
+    "LINK": {
+      "name": "Instruction liée en attente",
+      "definition": "L'instruction liée est en attente ou en défaut de règlement."
+    },
+    "BYIY": {
+      "name": "Procédure de rachat forcé",
+      "definition": "Une procédure de rachat d'office a été engagée sur le marché pour votre compte si votre instruction est une réception, ou pour le compte de la contrepartie si l'instruction est une livraison."
+    },
+    "CAIS": {
+      "name": "En attente de titres",
+      "definition": "En attente de titres provenant d'une émission d'opération sur titres ou d'autres procédures, par exemple conversion, dématérialisation, échange, enregistrement, estampillage et fractionnement."
+    },
+    "LALO": {
+      "name": "Titres prêtés",
+      "definition": "Titres livrables insuffisants sur votre compte, car les titres sont prêtés."
+    },
+    "MONY": {
+      "name": "Fonds insuffisants",
+      "definition": "Fonds insuffisants sur votre compte."
+    },
+    "NCON": {
+      "name": "Confirmation non reçue",
+      "definition": "La confirmation de règlement n'a pas encore été reçue."
+    },
+    "YCOL": {
+      "name": "Insuffisance de garanties",
+      "definition": "Garantie insuffisante sur votre compte pour exécuter l'instruction."
+    },
+    "REFS": {
+      "name": "Non conforme",
+      "definition": "La livraison ou la réception est refusée car les titres physiques ne sont pas en bon état."
+    },
+    "SDUT": {
+      "name": "Information sur le droit de timbre manquante",
+      "definition": "L'instruction est en défaut de règlement car les informations relatives au droit de timbre sont manquantes."
+    },
+    "CYCL": {
+      "name": "En attente du prochain cycle de règlement",
+      "definition": "Votre instruction est confirmée sur le marché local, mais est prête à être réglée lors du prochain cycle de règlement."
+    },
+    "BATC": {
+      "name": "Différence de lot de traitement",
+      "definition": "Le lot de traitement diffère dans l'instruction de la contrepartie, par exemple en journée ou en temps réel par rapport à la nuit."
+    },
+    "GUAD": {
+      "name": "Différence d'indicateur de livraison garantie",
+      "definition": "L'indicateur de livraison garantie diffère dans l'instruction de la contrepartie."
+    },
+    "PREA": {
+      "name": "Préavis instruit",
+      "definition": "L'instruction est un préavis, c'est-à-dire un rapprochement uniquement."
+    },
+    "GLOB": {
+      "name": "Titres sous forme globale",
+      "definition": "Les titres sont sous forme globale."
+    },
+    "CPEC": {
+      "name": "Contrepartie sous administration judiciaire",
+      "definition": "La contrepartie est en redressement judiciaire, c'est-à-dire une forme de faillite."
+    },
+    "MUNO": {
+      "name": "Montant de règlement multiple",
+      "definition": "Le montant n'est pas un multiple d'un lot de montant de règlement existant pour l'instrument financier instruit."
+    }
+  }
+}

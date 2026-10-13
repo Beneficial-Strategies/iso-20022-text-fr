@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxBasis1Choice",
+  "definition": "Choix de formats pour l'assiette de l'impôt.",
+  "isoElements": {
+    "Code": {
+      "definition": "Assiette de l'impôt exprimée sous la forme d'un code."
+    },
+    "Proprietary": {
+      "definition": "Assiette de l'impôt exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

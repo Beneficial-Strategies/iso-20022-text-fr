@@ -1,0 +1,18 @@
+{
+  "isoType": "DocumentAdjustment1",
+  "definition": "Ensemble d'éléments servant à fournir des informations sur le montant et le motif de l'ajustement du document.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant de l'ajustement du document."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si l'ajustement doit être soustrait du montant total ou y être ajouté."
+    },
+    "Reason": {
+      "definition": "Précise le motif de l'ajustement."
+    },
+    "AdditionalInformation": {
+      "definition": "Fournit des précisions supplémentaires sur l'ajustement du document."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountSwitchDetails1",
+  "definition": "Détails du changement de compte, y compris son statut et les éventuels codes de réponse.",
+  "isoElements": {
+    "UniqueReferenceNumber": {
+      "definition": "Numéro unique assurant l'identification unique et univoque du changement de compte."
+    },
+    "RoutingUniqueReferenceNumber": {
+      "definition": "Numéro unique assurant l'identification unique et univoque du changement de compte. ||Utilisation : lorsqu'un ou plusieurs changements de compte ont eu lieu depuis le changement de compte initial, ce champ contient le numéro unique se rapportant au changement ayant transféré le compte au dernier nouveau teneur de compte."
+    },
+    "SwitchReceivedDateTime": {
+      "definition": "Date et heure auxquelles la demande a été reçue par le service central de changement de compte, renseignées uniquement par le service central de changement de compte."
+    },
+    "SwitchDate": {
+      "definition": "Date à laquelle le changement de compte devrait être terminé. La valeur est identique à la date de changement visée si le changement se termine dans les délais prévus."
+    },
+    "SwitchType": {
+      "definition": "Indique si le changement de compte est complet ou partiel.||Usage : un changement complet indique le transfert du solde intégral du compte et des mandats de paiement associés. Un changement partiel indique le transfert de certains mandats de paiement vers un nouveau compte."
+    },
+    "SwitchStatus": {
+      "definition": "État du changement de compte au moment de l'envoi du message."
+    },
+    "BalanceTransferWindow": {
+      "definition": "Identifie la fenêtre de traitement dans laquelle le transfert de solde sera traité le jour du changement de compte."
+    },
+    "Response": {
+      "definition": "Code de réponse et informations complémentaires."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "DigitalPaymentSettlement3",
+  "definition": "Précise les informations relatives au règlement du paiement numérique.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrument financier représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "Quantity": {
+      "definition": "Choix entre différentes quantités relatives au paiement en actif numérique."
+    },
+    "DigitalLedgerIdentification": {
+      "definition": "Lieu de règlement exprimé au moyen d'un identifiant de registre numérique (Digital Ledger Identifier). Il identifie un registre numérique ou un système de registre distribué (par exemple, une blockchain ou des plateformes similaires)."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "Eligibility1Code",
+  "definition": "Identifie le type d'investisseur. Les règles applicables à chaque type de client sont différentes.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Contrepartie éligible",
+      "definition": "Les clients éligibles constituent le niveau d'investisseur le plus averti ; ils peuvent renoncer à certaines des protections offertes par les règles de conduite des affaires."
+    },
+    "RETL": {
+      "name": "Client de détail",
+      "definition": "Les clients de détail constituent le niveau d'investisseur le moins averti."
+    },
+    "PROF": {
+      "name": "Client professionnel",
+      "definition": "Les clients professionnels sont, par exemple, les entreprises d'investissement, les établissements de crédit et les compagnies d'assurance."
+    }
+  }
+}

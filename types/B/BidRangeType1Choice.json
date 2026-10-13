@@ -1,0 +1,12 @@
+{
+  "isoType": "BidRangeType1Choice",
+  "definition": "Type de fourchette d'offres sous forme de choix entre une valeur codée définie ou une valeur propriétaire.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de fourchette d'offres exprimé sous forme de valeur codée."
+    },
+    "Proprietary": {
+      "definition": "Type de fourchette d'offres exprimé sous forme de valeur propriétaire."
+    }
+  }
+}

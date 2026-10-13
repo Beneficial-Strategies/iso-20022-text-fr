@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalReference3",
+  "definition": "Fait référence à un message connexe ou fournit une autre référence, telle qu'une référence de lot, reliant un ensemble de messages. La partie qui a émis la référence connexe peut être l'expéditeur du message référencé ou une partie autre que l'expéditeur.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Référence métier d'un message attribuée par la partie qui émet le message. Cette référence doit être unique parmi tous les messages de même nom envoyés par la même partie."
+    },
+    "ReferenceIssuer": {
+      "definition": "Émetteur de la référence."
+    },
+    "MessageName": {
+      "definition": "Nom d'un message."
+    }
+  }
+}

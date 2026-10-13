@@ -1,0 +1,113 @@
+{
+  "isoType": "ExternalDocumentAmountType1Code",
+  "isoCodes": {
+    "APDS": {
+      "name": "Remise promotionnelle supplémentaire",
+      "definition": "Remise supplémentaire fondée sur une action promotionnelle commerciale convenue avec un tiers, par exemple une remise supplémentaire de 10 pour cent pendant 15 jours)"
+    },
+    "STDS": {
+      "name": "Remise permanente",
+      "definition": "Remise fondée sur le volume acheté."
+    },
+    "TMDS": {
+      "name": "Escompte de règlement",
+      "definition": "Remise fondée sur des conditions négociées pour un paiement dans un délai déterminé, par exemple 2/10 net 30 (remise de 2 pour cent en cas de paiement sous 10 jours ; sinon, le montant net est dû sous 30 jours)."
+    },
+    "CITY": {
+      "name": "Taxe municipale",
+      "definition": "Taxe perçue par les juridictions municipales d'un pays."
+    },
+    "CNTY": {
+      "name": "Taxe de comté",
+      "definition": "Taxe perçue par les juridictions de comté d'un pays."
+    },
+    "LOCL": {
+      "name": "Impôt local",
+      "definition": "Taxe perçue par les juridictions locales d'un pays."
+    },
+    "PROV": {
+      "name": "Taxe provinciale",
+      "definition": "Taxe perçue par les juridictions provinciales d'un pays."
+    },
+    "STAT": {
+      "name": "Impôt d'État",
+      "definition": "Taxe perçue par les juridictions d'État d'un pays."
+    },
+    "CREN": {
+      "name": "Note de crédit",
+      "definition": "Le montant est un avoir."
+    },
+    "DUPA": {
+      "name": "Montant exigible",
+      "definition": "Le montant est exigible."
+    },
+    "PRIN": {
+      "name": "Capital restant dû",
+      "definition": "Le montant est le principal restant dû."
+    },
+    "TOTA": {
+      "name": "Paiement total",
+      "definition": "Le montant est le total."
+    },
+    "INTE": {
+      "name": "Paiement d'intérêts",
+      "definition": "Le montant est l'intérêt."
+    },
+    "ESCO": {
+      "name": "Séquestre",
+      "definition": "Le montant est sous séquestre."
+    },
+    "TAXS": {
+      "name": "Impôt",
+      "definition": "Le montant est une taxe."
+    },
+    "INSU": {
+      "name": "Assurance",
+      "definition": "Le montant est une assurance."
+    },
+    "OBAL": {
+      "name": "Solde restant dû",
+      "definition": "Le montant est le solde restant dû."
+    },
+    "SBAL": {
+      "name": "Solde du relevé",
+      "definition": "Le montant est le solde du relevé."
+    },
+    "MIDU": {
+      "name": "Minimum exigible",
+      "definition": "Le montant est le minimum dû."
+    },
+    "PADU": {
+      "name": "En souffrance",
+      "definition": "Le montant est échu."
+    },
+    "CRTL": {
+      "name": "Crédit disponible",
+      "definition": "Le montant est le crédit disponible."
+    },
+    "PBAL": {
+      "name": "Solde précédent",
+      "definition": "Le montant est le solde précédent."
+    },
+    "CHAR": {
+      "name": "Nouveaux frais",
+      "definition": "Le montant correspond à de nouveaux frais, par exemple de nouveaux frais sur une carte de crédit."
+    },
+    "FEES": {
+      "name": "Frais",
+      "definition": "Le montant correspond à des frais."
+    },
+    "INTC": {
+      "name": "Frais d'intérêts",
+      "definition": "Le montant correspond à des charges d'intérêts, par exemple des charges d'intérêts sur une carte de crédit."
+    },
+    "REMI": {
+      "name": "Remis",
+      "definition": "Montant remis."
+    },
+    "DISC": {
+      "name": "Remise appliquée",
+      "definition": "Remise appliquée. Usage générique si elle ne peut être précisée par aucun autre code de remise."
+    }
+  }
+}

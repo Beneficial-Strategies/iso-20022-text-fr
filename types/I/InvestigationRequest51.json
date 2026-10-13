@@ -1,0 +1,53 @@
+{
+  "isoType": "InvestigationRequest51",
+  "definition": "Précise les détails d'une demande d'enquête, y compris son identification et son type.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par le demandeur et envoyée au répondant pour identifier le message de manière non ambiguë.|Utilisation : le demandeur doit s'assurer que MessageIdentification est unique par répondant pendant une période convenue au préalable."
+    },
+    "RequestorInvestigationIdentification": {
+      "definition": "Identification unique, attribuée par le demandeur, pour identifier sans ambiguïté l'enquête pour le demandeur."
+    },
+    "ResponderInvestigationIdentification": {
+      "definition": "Identification unique, attribuée par le répondant, pour identifier sans ambiguïté l'enquête pour le répondant."
+    },
+    "EIR": {
+      "definition": "Identifiant unique fournissant la référence de bout en bout d'une enquête."
+    },
+    "RequestAction": {
+      "definition": "Précise une action que le répondant doit maintenant entreprendre à l'égard de l'enquête, ainsi que le motif de cette action."
+    },
+    "InvestigationType": {
+      "definition": "Type d'enquête."
+    },
+    "InvestigationSubType": {
+      "definition": "Sous-type d'une enquête.||Utilisation : l'élément de sous-type d'enquête peut servir à identifier un service au sein d'une banque auquel l'enquête peut être adressée, à des fins d'acheminement. Il ne doit être utilisé que lorsque le type d'enquête pourrait logiquement être adressé à différents services au sein d'une banque, par exemple une demande d'information."
+    },
+    "UnderlyingInstrument": {
+      "definition": "Précise l'instrument ou le produit auquel l'enquête se rapporte."
+    },
+    "Underlying": {
+      "definition": "Fournit des détails sur l'objet auquel l'enquête se rapporte, par exemple un paiement ou une écriture de relevé."
+    },
+    "Requestor": {
+      "definition": "Identification de la banque ou de la partie qui demande l'ouverture d'une nouvelle enquête ou la mise à jour du statut d'une enquête existante."
+    },
+    "Responder": {
+      "definition": "Identification de la banque ou de la partie dont on attend qu'elle ouvre une nouvelle enquête ou fournisse une mise à jour du statut d'une enquête existante."
+    },
+    "RequestOriginator": {
+      "definition": "Identification de la banque ou de la partie à l'origine de la demande.||Utilisation : lorsque le demandeur a transmis l'enquête reçue d'une autre partie, il est recommandé de renseigner RequestOriginator dans cet élément."
+    },
+    "ExpectedResponder": {
+      "definition": "Identification de la banque ou de la partie que le demandeur de l'enquête s'attend à voir contactée par le répondant au sujet de la demande d'enquête."
+    },
+    "ServiceLevel": {
+      "definition": "Précise un service ou un niveau de service convenu au préalable entre le demandeur et le répondant."
+    }
+  },
+  "isoRules": {
+    "ResponderInvestigationIdentificationGuideline": {
+      "definition": "Lorsque ResponderInvestigationIdentification a déjà été communiquée au demandeur dans le cadre d'une réponse antérieure, ResponderInvestigationIdentification doit être présente."
+    }
+  }
+}

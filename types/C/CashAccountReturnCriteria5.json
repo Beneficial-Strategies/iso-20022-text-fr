@@ -1,0 +1,36 @@
+{
+  "isoType": "CashAccountReturnCriteria5",
+  "definition": "Définit les critères utilisés pour établir le relevé d'un compte.",
+  "isoElements": {
+    "NameIndicator": {
+      "definition": "Indique si le nom du compte est demandé."
+    },
+    "CurrencyIndicator": {
+      "definition": "Indique si la devise du compte est demandée."
+    },
+    "TypeIndicator": {
+      "definition": "Indique si le type de compte est demandé."
+    },
+    "MultilateralLimitIndicator": {
+      "definition": "Indique si la limite multilatérale est demandée."
+    },
+    "MultilateralBalanceReturnCriteria": {
+      "definition": "Définit les critères utilisés pour établir le relevé d'un solde multilatéral."
+    },
+    "BilateralLimitIndicator": {
+      "definition": "Indique si la limite bilatérale est demandée."
+    },
+    "BilateralBalanceReturnCriteria": {
+      "definition": "Définit les critères utilisés pour établir le relevé d'un solde bilatéral."
+    },
+    "StandingOrderIndicator": {
+      "definition": "Indique si l'ordre permanent du compte est demandé."
+    },
+    "AccountOwnerIndicator": {
+      "definition": "Indique si les informations sur le titulaire du compte sont demandées."
+    },
+    "AccountServicerIndicator": {
+      "definition": "Indique si les informations sur le teneur de compte sont demandées."
+    }
+  }
+}

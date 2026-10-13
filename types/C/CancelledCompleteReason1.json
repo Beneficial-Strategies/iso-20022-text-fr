@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledCompleteReason1",
+  "definition": "Motif d'un statut d'annulation achevée.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motif du statut d'annulation complète."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informations supplémentaires sur le motif du statut d'annulation complète."
+    }
+  }
+}

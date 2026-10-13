@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesTransactionType55Choice",
+  "definition": "Choix de formats pour un motif de réparation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'opération sur titres exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Type d'opération sur titres exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

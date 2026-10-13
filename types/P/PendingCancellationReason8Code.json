@@ -1,0 +1,18 @@
+{
+  "isoType": "PendingCancellationReason8Code",
+  "definition": "Précise le motif pour lequel la demande d'annulation est en attente.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "PCAT": {
+      "name": "Acceptation de la contrepartie en attente",
+      "definition": "En attente d'acceptation par la contrepartie."
+    },
+    "ECRD": {
+      "name": "Échéance de réponse du choix à la contrepartie dépassée",
+      "definition": "Reçue après l'échéance de marché de la réponse de la contrepartie au choix."
+    }
+  }
+}

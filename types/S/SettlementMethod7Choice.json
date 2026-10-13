@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementMethod7Choice",
+  "definition": "Détails de règlement permettant de déterminer si le paiement est un crédit ou un débit.",
+  "isoElements": {
+    "Credit": {
+      "definition": "Précise les détails du paiement à effectuer par l'ancienne banque tenant le compte à la nouvelle banque tenant le compte en cas de solde de clôture positif."
+    },
+    "Debit": {
+      "definition": "Précise les détails du paiement à effectuer par la nouvelle banque tenant le compte à l'ancienne banque tenant le compte en cas de solde de clôture négatif."
+    }
+  }
+}

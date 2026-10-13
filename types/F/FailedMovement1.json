@@ -1,0 +1,26 @@
+{
+  "isoType": "FailedMovement1",
+  "definition": "Fournit des informations sur un mouvement dont le règlement a échoué.",
+  "isoElements": {
+    "CashAmount": {
+      "definition": "Montant en espèces."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Quantité de l'instrument financier."
+    },
+    "SecurityIdentification": {
+      "definition": "Identification de l'instrument financier."
+    },
+    "Reason": {
+      "definition": "Motif de l'échec du règlement."
+    }
+  },
+  "isoRules": {
+    "CashAmountOrSecuritiesQuantityRule": {
+      "definition": "CashAmount ou SecuritiesQuantity doit être présent."
+    },
+    "CashAmountOrSecuritiesQuantityRuleNotBoth": {
+      "definition": "CashAmount ou SecuritiesQuantity doit être présent."
+    }
+  }
+}

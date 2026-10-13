@@ -1,0 +1,14 @@
+{
+  "isoType": "AllegementRemovalReason1Code",
+  "definition": "Précise la raison du retrait d'une allégation.",
+  "isoCodes": {
+    "CANC": {
+      "name": "Annulé",
+      "definition": "Allégation retirée car la contrepartie a annulé son instruction."
+    },
+    "REMO": {
+      "name": "Supprimé",
+      "definition": "Allégation retirée car une instruction correspondante a été reçue."
+    }
+  }
+}

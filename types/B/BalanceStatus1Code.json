@@ -1,0 +1,14 @@
+{
+  "isoType": "BalanceStatus1Code",
+  "definition": "Précise le solde des opérations ayant un certain statut.",
+  "isoCodes": {
+    "PDNG": {
+      "name": "En attente",
+      "definition": "Solde correspondant aux opérations en attente."
+    },
+    "STLD": {
+      "name": "Réglé",
+      "definition": "Statut final d'une opération lorsque le transfert de fonds associé a été traité avec succès."
+    }
+  }
+}

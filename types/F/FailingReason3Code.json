@@ -1,0 +1,242 @@
+{
+  "isoType": "FailingReason3Code",
+  "definition": "Précise le motif pour lequel l'opération/l'instruction est en défaut de règlement. Le règlement à la date de règlement instruite n'est plus possible.",
+  "isoCodes": {
+    "AWMO": {
+      "name": "En attente de fonds",
+      "definition": "Les instruments financiers sont livrés, mais les fonds de la contrepartie sont toujours attendus."
+    },
+    "BYIY": {
+      "name": "Procédure de rachat forcé",
+      "definition": "Une procédure de rachat forcé a débuté sur le marché (pour votre compte si votre instruction est une réception, par la contrepartie si votre instruction est une livraison)."
+    },
+    "CLAT": {
+      "name": "Contrepartie trop tardive pour le règlement",
+      "definition": "L'instruction de la contrepartie était trop tardive pour le règlement, c'est-à-dire que le problème d'appariement ou de règlement a été résolu trop tard."
+    },
+    "ADEA": {
+      "name": "Échéance du teneur de compte manquée",
+      "definition": "L'instruction a été reçue après l'heure limite de la banque teneur de compte. Traitée au mieux."
+    },
+    "CANR": {
+      "name": "Confirmation d'annulation demandée",
+      "definition": "L'instruction était en suspens. La période de suspens est terminée ; votre annulation ou confirmation de l'instruction est donc requise."
+    },
+    "CAIS": {
+      "name": "En attente de titres",
+      "definition": "En attente d'instruments financiers provenant d'une opération sur titres ou d'une autre procédure, par exemple conversion, dématérialisation, échange, enregistrement, estampillage, fractionnement."
+    },
+    "OBJT": {
+      "name": "Sous opposition",
+      "definition": "Les instruments financiers sont, par exemple, volés, en litige ou frappés d'opposition."
+    },
+    "AWSH": {
+      "name": "En attente de titres de la contrepartie",
+      "definition": "Les instruments financiers n'ont pas encore été reçus de la contrepartie (s'il s'agit d'une opération de réception contre paiement) ; les fonds ont été livrés."
+    },
+    "PHSE": {
+      "name": "Retard de livraison physique",
+      "definition": "Le règlement est physique. Les instruments financiers sont en cours de livraison."
+    },
+    "STCD": {
+      "name": "Écart de confirmation",
+      "definition": "Divergence dans la confirmation de règlement."
+    },
+    "DOCY": {
+      "name": "En attente de documents ou d'endossements de votre part",
+      "definition": "En attente de documents ou d'endossements de votre part."
+    },
+    "MLAT": {
+      "name": "Fonds ou titres reçus trop tard pour le règlement",
+      "definition": "Les fonds/instruments financiers de couverture ont été reçus trop tard pour permettre de finaliser le règlement le jour même."
+    },
+    "DOCC": {
+      "name": "En attente de documents ou d'endossements de la contrepartie",
+      "definition": "En attente de documents ou d'endossements de la contrepartie."
+    },
+    "BLOC": {
+      "name": "Compte bloqué",
+      "definition": "Votre compte est bloqué ; aucune instruction ne peut être réglée sur le compte."
+    },
+    "CHAS": {
+      "name": "Demande de renseignements envoyée",
+      "definition": "Une relance/demande de renseignements a été envoyée."
+    },
+    "NEWI": {
+      "name": "Nouvelles émissions",
+      "definition": "L'instrument financier est une nouvelle émission et n'est pas encore disponible/négociable."
+    },
+    "CLAC": {
+      "name": "Titres insuffisants de la contrepartie",
+      "definition": "Instruments financiers livrables insuffisants sur le compte de la contrepartie, ou la contrepartie ne détient pas d'instruments financiers."
+    },
+    "MUNO": {
+      "name": "Montant de règlement multiple",
+      "definition": "La quantité instruite n'est pas un multiple d'un lot de règlement existant pour l'instrument financier."
+    },
+    "GLOB": {
+      "name": "Titres sous forme globale",
+      "definition": "Le règlement ne peut pas être exécuté ; les instruments financiers sont sous forme globale."
+    },
+    "PREA": {
+      "name": "Votre instruction est en suspens",
+      "definition": "Votre instruction est un préavis, c'est-à-dire uniquement pour appariement."
+    },
+    "PART": {
+      "name": "Transaction réglée en partie",
+      "definition": "L'opération sera réglée en plusieurs parties."
+    },
+    "NOFX": {
+      "name": "Aucune instruction de change",
+      "definition": "Une instruction de change de votre part est manquante."
+    },
+    "CMON": {
+      "name": "Fonds insuffisants de la contrepartie",
+      "definition": "Fonds insuffisants sur le compte de la contrepartie."
+    },
+    "YCOL": {
+      "name": "Insuffisance de garanties",
+      "definition": "Garanties insuffisantes sur votre compte pour exécuter l'instruction."
+    },
+    "COLL": {
+      "name": "Titres donnés en garantie",
+      "definition": "Les instruments financiers ne sont pas livrables car ils sont nantis en garantie."
+    },
+    "DEPO": {
+      "name": "Dépôt refusé pour l'émission de certificats de dépôt",
+      "definition": "Le dépôt d'actions en vue de l'émission de certificats de dépôt a été refusé. L'allocation accordée par l'émetteur est dépassée par votre opération."
+    },
+    "FLIM": {
+      "name": "Limite maximale pour l'étranger atteinte",
+      "definition": "Instruments financiers livrables insuffisants sur votre compte, la limite maximale applicable aux étrangers ayant été atteinte."
+    },
+    "INCA": {
+      "name": "Ajustement du revenu requis",
+      "definition": "Les instruments financiers nécessitent un ajustement de revenu, par exemple dividende ou intérêts."
+    },
+    "LINK": {
+      "name": "Instruction liée en attente",
+      "definition": "Votre instruction est en attente de règlement car l'instruction qui lui est liée est en attente."
+    },
+    "LACK": {
+      "name": "Défaut de titres",
+      "definition": "Instruments financiers insuffisants sur votre compte."
+    },
+    "LALO": {
+      "name": "Titres prêtés",
+      "definition": "Les instruments financiers sont prêtés."
+    },
+    "MONY": {
+      "name": "Fonds insuffisants",
+      "definition": "Fonds insuffisants sur votre compte."
+    },
+    "NCON": {
+      "name": "Confirmation non reçue",
+      "definition": "La confirmation du règlement n'a pas encore été reçue."
+    },
+    "REFS": {
+      "name": "Non conforme",
+      "definition": "La livraison/réception a été refusée car les instruments financiers physiques ne sont pas en bon état."
+    },
+    "SDUT": {
+      "name": "Information sur le droit de timbre manquante",
+      "definition": "Les informations relatives aux droits de timbre sont manquantes."
+    },
+    "BATC": {
+      "name": "Différence de lot de traitement",
+      "definition": "Le lot de traitement diffère dans l'instruction de la contrepartie, par exemple en journée/temps réel ou de nuit."
+    },
+    "CYCL": {
+      "name": "En attente du prochain cycle de règlement",
+      "definition": "Votre instruction est confirmée sur le marché local ou est prête pour le règlement, dans l'attente du prochain cycle de règlement."
+    },
+    "SBLO": {
+      "name": "Titres bloqués",
+      "definition": "Les instruments financiers sont bloqués en raison, par exemple, d'un événement sur titres ou d'un réalignement."
+    },
+    "CPEC": {
+      "name": "Contrepartie sous administration judiciaire",
+      "definition": "La contrepartie est en redressement judiciaire (forme de faillite où une personne désignée par le tribunal - l'administrateur judiciaire - gère les affaires de l'entreprise)."
+    },
+    "MINO": {
+      "name": "Montant de règlement minimal",
+      "definition": "La quantité instruite est inférieure à la quantité de règlement minimale existante pour l'instrument financier."
+    },
+    "IAAD": {
+      "name": "Investigation du motif de statut",
+      "definition": "Motif de la mise en attente en cours d'examen."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir le champ Narrative."
+    },
+    "PHCK": {
+      "name": "Vérification des titres physiques",
+      "definition": "Les instruments financiers physiques ont été reçus et leur authenticité est en cours de vérification."
+    },
+    "BENO": {
+      "name": "Désaccord sur la propriété effective",
+      "definition": "Désaccord sur la propriété effective."
+    },
+    "BOTH": {
+      "name": "Les deux instructions sont en suspens",
+      "definition": "L'instruction de la contrepartie et votre instruction sont suspendues/gelées/en mode préavis."
+    },
+    "CLHT": {
+      "name": "Opération de chambre de compensation",
+      "definition": "La date de règlement instruite ne concorde pas avec la date de règlement de l'opération de la chambre de compensation, c'est-à-dire un type particulier d'opération en Inde."
+    },
+    "DENO": {
+      "name": "Quantité livrable libellée indisponible",
+      "definition": "La quantité instruite ne correspond pas à la coupure disponible/livrable. Les titres physiques doivent être obtenus en quantités de coupures livrables."
+    },
+    "DISA": {
+      "name": "Catastrophe naturelle",
+      "definition": "Fermeture exceptionnelle de tous les établissements financiers en raison d'une catastrophe naturelle, par exemple un tremblement de terre."
+    },
+    "DKNY": {
+      "name": "Titres retournés par la contrepartie",
+      "definition": "La contrepartie a retourné ou refuse les titres."
+    },
+    "FROZ": {
+      "name": "Titres gelés auprès du dépositaire central",
+      "definition": "Les instruments financiers sont bloqués auprès du dépositaire central de titres (CSD) à la suite d'un événement sur titres."
+    },
+    "LAAW": {
+      "name": "En attente d'une autre transaction",
+      "definition": "En attente du règlement d'un achat destiné à couvrir des positions défaillantes."
+    },
+    "LATE": {
+      "name": "Échéance du marché manquée",
+      "definition": "L'instruction a été reçue après l'heure limite du marché."
+    },
+    "LIQU": {
+      "name": "Liquidité insuffisante en monnaie de banque centrale",
+      "definition": "La liquidité de la banque centrale est insuffisante."
+    },
+    "PRCY": {
+      "name": "Instruction de la contrepartie en suspens",
+      "definition": "L'instruction de la contrepartie est un préavis, c'est-à-dire uniquement pour appariement."
+    },
+    "REGT": {
+      "name": "Certificats rejetés",
+      "definition": "Des certificats ont été déposés auprès du teneur de registre mais rejetés en raison d'une documentation incomplète ou de l'atteinte de la limite de détention étrangère."
+    },
+    "SETS": {
+      "name": "Méthode du système de règlement modifiée",
+      "definition": "Le système/mode de règlement a été modifié auprès du CSD afin de permettre le règlement."
+    },
+    "CERT": {
+      "name": "Numéros de certificats erronés",
+      "definition": "Erreur de numéro de certificat."
+    },
+    "PRSY": {
+      "name": "Système en suspens",
+      "definition": "L'opération a été suspendue/gelée par le système."
+    },
+    "INBC": {
+      "name": "Décompte incomplet",
+      "definition": "Toutes les instructions faisant partie d'un pool n'ont pas été reçues."
+    }
+  }
+}

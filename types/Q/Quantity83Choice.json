@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity83Choice",
+  "definition": "Choix entre la quantité de règlement en jetons de monnaie électronique et la quantité de frais de réseau.",
+  "isoElements": {
+    "ElectronicMoneyTokenSettlementQuantity": {
+      "definition": "Quantité de jetons de monnaie électronique pour le paiement de règlement."
+    },
+    "NetworkFeeQuantity": {
+      "definition": "Quantité d'actifs numériques pour les frais de réseau attribuée à une opération sur un réseau DLT."
+    }
+  }
+}

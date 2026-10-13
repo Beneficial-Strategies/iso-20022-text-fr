@@ -1,0 +1,12 @@
+{
+  "isoType": "TradingPartyCapacity3Choice",
+  "definition": "Choix du format de la qualité de négociation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Qualité de négociation exprimée sous forme de code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Qualité de négociation exprimée sous forme de code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "ConfirmationPartyDetails13",
+  "definition": "Parties utilisées pour les parties agissantes, qui s'appliquent soit à l'ensemble du message, soit à des côtés individuels.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiant unique et non ambigu d'une organisation, attribué par un établissement, par exemple l'identification Dun & Bradstreet."
+    },
+    "AlternateIdentification": {
+      "definition": "Identification alternative d'une partie."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identification non ambiguë de l'opération pour la partie identifiée."
+    },
+    "AdditionalInformation": {
+      "definition": "Fournit des informations supplémentaires sur l'identification d'une partie."
+    },
+    "InvestorProtectionAssociationMembership": {
+      "definition": "Indique si la partie qui confirme est membre de l'association de protection des investisseurs exigée, par exemple en vertu de la réglementation."
+    }
+  }
+}

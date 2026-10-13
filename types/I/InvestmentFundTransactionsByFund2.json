@@ -1,0 +1,30 @@
+{
+  "isoType": "InvestmentFundTransactionsByFund2",
+  "definition": "Opérations sur fonds d'investissement pour un instrument financier donné.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification d'un titre par un ISIN."
+    },
+    "Name": {
+      "definition": "Nom de l'instrument financier en texte libre."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Informations complémentaires sur un instrument financier destinées à aider à l'identifier."
+    },
+    "SecuritiesForm": {
+      "definition": "Forme, c'est-à-dire propriété, du titre, par exemple nominatif ou au porteur."
+    },
+    "ClassType": {
+      "definition": "Caractéristiques des parts offertes par un fonds. Par exemple, une part peut avoir une structure de commissions particulière, par exemple à l'entrée ou à la sortie, une politique de revenus, par exemple distribution ou capitalisation, ou une politique de rétrocession, par exemple avec ou sans. Les catégories de fonds sont généralement désignées par un seul caractère, par exemple « Classe A », « Classe 2 »."
+    },
+    "DistributionPolicy": {
+      "definition": "Politique de revenus relative à un type de catégorie, c'est-à-dire si les revenus sont distribués ou conservés dans le fonds."
+    },
+    "TransactionDetails": {
+      "definition": "Processus d'achat, de vente, de switch ou de transfert de parts de fonds."
+    },
+    "BalanceByPage": {
+      "definition": "Solde de l'instrument financier pour cette page de relevé donnée."
+    }
+  }
+}

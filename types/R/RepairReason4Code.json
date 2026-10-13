@@ -1,0 +1,122 @@
+{
+  "isoType": "RepairReason4Code",
+  "definition": "Précise le motif pour lequel l'instruction de règlement a le statut en réparation.",
+  "isoCodes": {
+    "BATC": {
+      "name": "Lot en cours de traitement",
+      "definition": "Lot de traitement non reconnu ou invalide, c'est-à-dire en journée/temps réel alors que le règlement n'est possible que par lot de nuit."
+    },
+    "CAEV": {
+      "name": "Opération sur titres",
+      "definition": "Opération sur titres en cours sur l'instrument financier faisant l'objet de l'instruction."
+    },
+    "CASH": {
+      "name": "Compte espèces",
+      "definition": "Compte espèces non reconnu ou invalide."
+    },
+    "CASY": {
+      "name": "Système de règlement en espèces impossible",
+      "definition": "Des dispositions permanentes impossibles prévalent sur l'instruction pour le système de règlement espèces."
+    },
+    "DDAT": {
+      "name": "Date de règlement",
+      "definition": "Date de règlement non reconnue ou invalide."
+    },
+    "DDEA": {
+      "name": "Prix de la transaction",
+      "definition": "Prix de la transaction non reconnu ou invalide."
+    },
+    "DMON": {
+      "name": "Montant de règlement",
+      "definition": "Montant de règlement non reconnu ou invalide."
+    },
+    "DQUA": {
+      "name": "Quantité",
+      "definition": "Quantité de règlement non reconnue ou invalide."
+    },
+    "DSEC": {
+      "name": "Titre",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    },
+    "DTRD": {
+      "name": "Date de négociation",
+      "definition": "Date de négociation non reconnue ou invalide."
+    },
+    "IIND": {
+      "name": "Référence commune",
+      "definition": "Référence commune non reconnue, invalide ou manquante."
+    },
+    "MINO": {
+      "name": "Quantité de règlement minimale",
+      "definition": "La quantité instruite est inférieure à la quantité de règlement minimale existante pour l'instrument financier."
+    },
+    "MUNO": {
+      "name": "Quantité de règlement multiple",
+      "definition": "La quantité instruite n'est pas un multiple d'un lot de règlement existant pour l'instrument financier."
+    },
+    "NCRR": {
+      "name": "Devise du montant de règlement",
+      "definition": "Devise du montant de règlement non reconnue ou invalide."
+    },
+    "PHYS": {
+      "name": "Règlement physique impossible",
+      "definition": "Le règlement physique est impossible pour l'instrument financier instruit."
+    },
+    "PLCE": {
+      "name": "Lieu de négociation",
+      "definition": "Lieu de négociation non reconnu ou invalide."
+    },
+    "REFE": {
+      "name": "Référence",
+      "definition": "L'instruction porte une référence identique à celle d'une autre instruction reçue précédemment."
+    },
+    "RTGS": {
+      "name": "Impossible d'utiliser le système RTGS indiqué",
+      "definition": "Impossible d'utiliser le système RTGS instruit (NRTG ou YRTG)."
+    },
+    "SAFE": {
+      "name": "Compte de conservation",
+      "definition": "Compte de conservation de l'émetteur du message non reconnu ou invalide."
+    },
+    "SETR": {
+      "name": "Opération de règlement",
+      "definition": "Type d'opération de règlement non reconnu ou invalide."
+    },
+    "SETS": {
+      "name": "Méthode du système de règlement",
+      "definition": "Système/mode de règlement instruit non reconnu ou invalide."
+    },
+    "TXST": {
+      "name": "Statut fiscal",
+      "definition": "Statut fiscal des titres instruits non reconnu ou invalide."
+    },
+    "INPS": {
+      "name": "Lieu de conservation",
+      "definition": "Lieu de conservation non reconnu, invalide ou manquant."
+    },
+    "SDUT": {
+      "name": "Droit de timbre",
+      "definition": "Les informations requises sur le droit de timbre sont manquantes."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "IEXE": {
+      "name": "Partie réceptrice ou livreuse 3",
+      "definition": "Non-concordance du client de la partie livreuse ou réceptrice 2."
+    },
+    "ICAG": {
+      "name": "Partie réceptrice ou livreuse 1",
+      "definition": "Non-concordance du participant du dépositaire livreur ou récepteur."
+    },
+    "DEPT": {
+      "name": "Dépositaire récepteur ou livreur",
+      "definition": "Non-concordance du dépositaire."
+    },
+    "ICUS": {
+      "name": "Partie réceptrice ou livreuse 2",
+      "definition": "Non-concordance du client de la partie livreuse ou réceptrice 1."
+    }
+  }
+}

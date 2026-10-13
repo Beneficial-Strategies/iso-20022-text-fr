@@ -1,0 +1,33 @@
+{
+  "isoType": "Document15",
+  "definition": "Informations sur un document.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de document ou de modèle."
+    },
+    "Identification": {
+      "definition": "Identification du document ou du modèle."
+    },
+    "IssueDate": {
+      "definition": "Date ou date et heure d'émission du document."
+    },
+    "Name": {
+      "definition": "Nom du document ou de l'opération, par exemple facture avec TVA."
+    },
+    "LanguageCode": {
+      "definition": "Identifiant unique d'une langue utilisée dans le document."
+    },
+    "Format": {
+      "definition": "Format du document ou du modèle, tel que PDF, XML, XSLT."
+    },
+    "FileName": {
+      "definition": "Nom technique du fichier."
+    },
+    "DigitalSignature": {
+      "definition": "Signature numérique du fichier binaire joint."
+    },
+    "Enclosure": {
+      "definition": "Fichier binaire représentant le document ou le modèle joint, tel qu'un fichier PDF, un fichier image, un fichier XML, un message MT."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionOrRepairStatus38Choice",
+  "definition": "Précise si le statut est fourni avec un motif ou non.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à signaler."
+    },
+    "Reason": {
+      "definition": "Précise le motif du statut de rejet ou de réparation."
+    }
+  }
+}

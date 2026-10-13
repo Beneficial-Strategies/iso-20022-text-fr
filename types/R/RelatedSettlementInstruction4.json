@@ -1,0 +1,23 @@
+{
+  "isoType": "RelatedSettlementInstruction4",
+  "definition": "Informations sur une instruction de règlement-livraison liée.",
+  "isoElements": {
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par l'entité de traitement de l'instruction autre que le titulaire du compte, le teneur de compte et l'infrastructure de marché."
+    },
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Identification non ambiguë de l'instruction de règlement-livraison liée, attribuée par le titulaire du compte."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Identifiant unique d'opération (UTI) tel que convenu avec l'autre contrepartie."
+    }
+  },
+  "isoRules": {
+    "MarketInfrastructureOrProcessorTransactionIdentificationRule": {
+      "definition": "MarketInfrastructureTransactionIdentification ou ProcessorTransactionIdentification doit être présent ; les deux peuvent être présents."
+    }
+  }
+}

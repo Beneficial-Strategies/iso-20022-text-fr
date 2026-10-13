@@ -1,0 +1,27 @@
+{
+  "isoType": "ContactIdentification4",
+  "definition": "Informations nécessaires pour contacter une personne physique.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "NamePrefix": {
+      "definition": "Précise les termes utilisés pour s'adresser formellement à une personne, p. ex. Mme."
+    },
+    "GivenName": {
+      "definition": "Prénom d'une personne."
+    },
+    "Role": {
+      "definition": "Rôle de la partie dans l'activité."
+    },
+    "PhoneNumber": {
+      "definition": "Ensemble d'informations identifiant un numéro de téléphone, tel que défini par les services de télécommunications."
+    },
+    "FaxNumber": {
+      "definition": "Ensemble d'informations identifiant un numéro de FAX, tel que défini par les services de télécommunications."
+    },
+    "EmailAddress": {
+      "definition": "Adresse de courrier électronique (e-mail)."
+    }
+  }
+}

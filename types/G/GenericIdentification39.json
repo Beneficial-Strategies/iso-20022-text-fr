@@ -1,0 +1,12 @@
+{
+  "isoType": "GenericIdentification39",
+  "definition": "Identification exprimée sous la forme d'un type propriétaire et d'une description narrative.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Information propriétaire émise par l'émetteur du schéma de la source de données."
+    },
+    "Issuer": {
+      "definition": "Entité qui attribue l'identification."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentStatus6",
+  "definition": "Détails du statut du paiement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut d'un transfert, sous forme codée, attribué par l'administrateur des opérations."
+    },
+    "DateTime": {
+      "definition": "Date et heure auxquelles le statut a été attribué au transfert."
+    },
+    "Reason": {
+      "definition": "Motif fourni pour le statut d'un transfert."
+    }
+  }
+}

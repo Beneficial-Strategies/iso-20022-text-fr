@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitCriteria7Choice",
+  "definition": "Définit les informations recherchées, soit implicitement en rappelant une requête précédente, soit explicitement en définissant les critères.",
+  "isoElements": {
+    "QueryName": {
+      "definition": "Rappelle les critères (de recherche et de retour) définis dans une requête précédente."
+    },
+    "NewCriteria": {
+      "definition": "Définit les critères selon lesquels les informations sont extraites."
+    }
+  }
+}

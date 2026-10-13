@@ -1,0 +1,30 @@
+{
+  "isoType": "ProcessedStatus7Code",
+  "definition": "Statut de traitement de l'avis de notification d'opération sur titres provenant de l'agent de l'émetteur.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Reçu",
+      "definition": "L'instruction/la demande a été reçue."
+    },
+    "SENT": {
+      "name": "Envoyé au marché",
+      "definition": "L'avis a été envoyé au marché."
+    },
+    "SNAV": {
+      "name": "Système non disponible",
+      "definition": "Le système n'est pas disponible. L'instruction est envoyée en dehors des heures ouvrables."
+    },
+    "WARN": {
+      "name": "Accepté avec avertissement",
+      "definition": "L'annonce a été acceptée mais une autre source a fourni des informations différentes."
+    },
+    "PACK": {
+      "name": "Accepté",
+      "definition": "La demande est acceptée."
+    },
+    "PEND": {
+      "name": "En attente",
+      "definition": "Le traitement de la demande est en attente."
+    }
+  }
+}

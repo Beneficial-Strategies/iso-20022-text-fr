@@ -1,0 +1,14 @@
+{
+  "isoType": "WaivingInstruction1Code",
+  "definition": "Précise la forme de la remise lorsque la commission est supprimée.",
+  "isoCodes": {
+    "WICA": {
+      "name": "Renonciation en espèces",
+      "definition": "La forme de la commission supprimée est en numéraire."
+    },
+    "WIUN": {
+      "name": "Renonciation en parts",
+      "definition": "La forme de la commission supprimée est constituée de parts supplémentaires d'un instrument financier."
+    }
+  }
+}

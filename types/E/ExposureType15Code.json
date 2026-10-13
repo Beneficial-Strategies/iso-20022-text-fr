@@ -1,0 +1,142 @@
+{
+  "isoType": "ExposureType15Code",
+  "definition": "Précise le domaine d'activité ou le type d'opération sous-jacent à l'origine du mouvement de garantie.",
+  "isoCodes": {
+    "BFWD": {
+      "name": "Contrat à terme obligataire",
+      "definition": "Tout titre négocié au-delà de 3 jours, y compris les bons du Trésor, les obligations d'État japonaises (JGB) et les gilts."
+    },
+    "PAYM": {
+      "name": "Règlement en espèces",
+      "definition": "À l'appui de tout type de règlement en espèces."
+    },
+    "CCPC": {
+      "name": "Garantie de la CCP",
+      "definition": "Garantie couvrant les exigences de marge initiale pour les opérations de gré à gré compensées par une contrepartie centrale (CCP) (OTC)."
+    },
+    "COMM": {
+      "name": "Matières premières",
+      "definition": "Tout bien échangé dans le cadre d'une activité commerciale, y compris les biens négociés sur une bourse de matières premières."
+    },
+    "CRDS": {
+      "name": "Swap sur défaut de crédit",
+      "definition": "Swap conçu pour transférer entre les parties l'exposition au risque de crédit de produits à revenu fixe."
+    },
+    "CRTL": {
+      "name": "Ligne de crédit",
+      "definition": "Ouverture d'une ligne de crédit avant la négociation."
+    },
+    "CRSP": {
+      "name": "Soutien de crédit",
+      "definition": "Prêt/emprunt d'espèces ; lettre de crédit ; signature d'une convention-cadre."
+    },
+    "CCIR": {
+      "name": "Swap de taux d'intérêt multidevise",
+      "definition": "Accord de devises croisées entre deux parties (dites contreparties) dans lequel un flux de paiements d'intérêts futurs est échangé contre un autre, sur la base d'un montant de principal déterminé."
+    },
+    "CRPR": {
+      "name": "Produit croisé",
+      "definition": "Combinaison de divers types d'opérations."
+    },
+    "EQPT": {
+      "name": "Option sur actions",
+      "definition": "Négociation d'options sur actions (également appelées options d'achat d'actions)."
+    },
+    "EXTD": {
+      "name": "Dérivés négociés en bourse",
+      "definition": "Négociation de produits dérivés cotés en général."
+    },
+    "EQUS": {
+      "name": "Swap sur actions",
+      "definition": "Opérations de swap sur actions dans lesquelles le rendement d'une action est échangé contre un taux d'intérêt fixe ou variable."
+    },
+    "EXPT": {
+      "name": "Option exotique",
+      "definition": "Négociation d'options exotiques, par exemple une option non standard."
+    },
+    "FIXI": {
+      "name": "Titres à revenu fixe",
+      "definition": "Négociation d'instruments à revenu fixe."
+    },
+    "FORX": {
+      "name": "Change",
+      "definition": "Opérations de change en général (FX)."
+    },
+    "FORW": {
+      "name": "Change à terme",
+      "definition": "Opérations de change à terme (FX)."
+    },
+    "FUTR": {
+      "name": "Contrats à terme standardisés",
+      "definition": "Accord d'achat ou de vente d'une quantité déterminée d'une matière première ou d'un instrument financier à un prix donné à une date future convenue."
+    },
+    "OPTN": {
+      "name": "Option de change",
+      "definition": "Contrat conférant au détenteur le droit, mais non l'obligation, d'acheter ou de vendre une devise à un taux de change déterminé pendant une période déterminée."
+    },
+    "LIQU": {
+      "name": "Liquidité",
+      "definition": "À l'appui d'un règlement via un RTGS ou un autre système de compensation."
+    },
+    "OTCD": {
+      "name": "Dérivés de gré à gré",
+      "definition": "Négociation de produits dérivés de gré à gré (OTC)."
+    },
+    "REPO": {
+      "name": "Mise en pension",
+      "definition": "Relatif aux opérations de mise en pension."
+    },
+    "RVPO": {
+      "name": "Prise en pension",
+      "definition": "À l'appui d'une opération de prise en pension."
+    },
+    "SLOA": {
+      "name": "Prêt garanti",
+      "definition": "L'exposition est liée à un prêt garanti."
+    },
+    "SBSC": {
+      "name": "Achat-vente et vente-achat de titres",
+      "definition": "Achat-vente à réméré de titres."
+    },
+    "SCRP": {
+      "name": "Produits croisés sur titres",
+      "definition": "Combinaison de types d'expositions liées aux titres."
+    },
+    "SLEB": {
+      "name": "Prêt et emprunt de titres",
+      "definition": "L'exposition est liée à une activité de prêt ou d'emprunt de titres."
+    },
+    "SHSL": {
+      "name": "Vente à découvert",
+      "definition": "Exposition à une vente à découvert."
+    },
+    "SCIR": {
+      "name": "Swap de taux d'intérêt monodevise",
+      "definition": "Swap de taux d'intérêt en une seule devise."
+    },
+    "SCIE": {
+      "name": "Swap de taux d'intérêt monodevise exotique",
+      "definition": "Swap de taux d'intérêt exotique en une seule devise."
+    },
+    "SWPT": {
+      "name": "Option sur swap",
+      "definition": "Option sur swap de taux d'intérêt."
+    },
+    "TBAS": {
+      "name": "À annoncer",
+      "definition": "Garantie liée aux opérations TBA (to be announced)."
+    },
+    "UDMS": {
+      "name": "Ségrégation des marges sur dérivés non compensés",
+      "definition": "Relatif à la ségrégation des marges sur dérivés non compensés. Il peut s'agir de la marge de variation ou de la marge initiale."
+    },
+    "TRCP": {
+      "name": "Produit croisé de trésorerie",
+      "definition": "Combinaison de types d'expositions liées à la trésorerie."
+    },
+    "CBCO": {
+      "name": "Opérations de crédit de la banque centrale",
+      "definition": "Expositions liées à l'activité avec les banques centrales."
+    }
+  }
+}

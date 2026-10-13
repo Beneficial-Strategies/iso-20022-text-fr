@@ -1,0 +1,45 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails50",
+  "definition": "Détails de la clôture de l'opération de financement sur titres.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "definition": "Identification non ambiguë de la transaction de financement sur titres sous-jacente, telle qu'attribuée par la partie instructrice. L'identification est commune à toutes les composantes de garantie (une ou plusieurs)."
+    },
+    "ClosingLegIdentification": {
+      "definition": "Identification non ambiguë de la seconde jambe de l'opération, telle que connue du titulaire du compte (ou de la partie instructrice agissant en son nom)."
+    },
+    "TerminationDate": {
+      "definition": "Date/heure de clôture ou date/heure d'échéance de l'opération."
+    },
+    "RateType": {
+      "definition": "Précise si le taux est fixe ou variable."
+    },
+    "LegalFramework": {
+      "definition": "Cadre juridique de l'opération."
+    },
+    "MaturityDateModification": {
+      "definition": "Indique si la date d'échéance de l'opération de financement sur titres peut être modifiée."
+    },
+    "InterestPayment": {
+      "definition": "Indique si les intérêts doivent être versés au preneur de garantie. Si la valeur est non, les intérêts sont versés au donneur de garantie."
+    },
+    "VariableRateSupport": {
+      "definition": "Indice ou taux de référence utilisé avec la marge pour calculer le taux de rachat."
+    },
+    "RepurchaseRate": {
+      "definition": "Taux à utiliser pour recalculer le montant de rachat."
+    },
+    "TransactionCallDelay": {
+      "definition": "Nombre minimal de jours de préavis dont une contrepartie a besoin pour mettre fin à l'opération."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Montant des intérêts courus entre les périodes de paiement des coupons."
+    },
+    "TerminationTransactionAmount": {
+      "definition": "Montant total à régler pour mettre fin à l'opération."
+    },
+    "SecondLegNarrative": {
+      "definition": "Fournit des informations supplémentaires sur la seconde jambe sous forme narrative."
+    }
+  }
+}

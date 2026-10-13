@@ -1,0 +1,38 @@
+{
+  "isoType": "DateType9Code",
+  "definition": "La date est précisée sous forme de valeur de code fixe.",
+  "isoCodes": {
+    "PWAL": {
+      "name": "Blocage jusqu'à la fin de la période d'option",
+      "definition": "Le blocage a lieu jusqu'à la fin de la période d'option de l'option, celle-ci incluse."
+    },
+    "MKDT": {
+      "name": "Blocage jusqu'à la date limite du marché",
+      "definition": "Le blocage a lieu jusqu'à l'échéance de marché de l'option, celle-ci incluse."
+    },
+    "MEET": {
+      "name": "Blocage jusqu'à la date de l'assemblée",
+      "definition": "Le blocage a lieu jusqu'à la date de l'assemblée incluse."
+    },
+    "PAYD": {
+      "name": "Blocage jusqu'à la date de paiement",
+      "definition": "Le déblocage aura lieu à la date de paiement de l'option."
+    },
+    "RDTE": {
+      "name": "Blocage jusqu'à la date d'arrêté",
+      "definition": "Le blocage a lieu jusqu'à la date d'arrêté de l'événement incluse."
+    },
+    "RDDT": {
+      "name": "Blocage jusqu'à la date limite de réponse",
+      "definition": "Le blocage a lieu jusqu'à l'échéance du teneur de compte pour l'option, celle-ci incluse."
+    },
+    "NARR": {
+      "name": "Date de déblocage en texte libre",
+      "definition": "Se reporter à l'élément d'information supplémentaire pour la date jusqu'à laquelle les titres sont bloqués."
+    },
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "La date est inconnue de l'expéditeur ou n'a pas été établie."
+    }
+  }
+}

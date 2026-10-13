@@ -1,0 +1,12 @@
+{
+  "isoType": "RepurchaseType26Choice",
+  "definition": "Choix de format pour les informations sur le type d'opération de mise en pension.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de processus d'opération de financement sur titres exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Type de processus d'opération de financement sur titres exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

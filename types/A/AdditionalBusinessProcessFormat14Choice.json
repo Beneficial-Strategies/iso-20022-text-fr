@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalBusinessProcessFormat14Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour indiquer le type du processus métier supplémentaire, c'est-à-dire un remboursement d'impôt.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard indiquant le processus métier supplémentaire « remboursement d'impôt » lié à un événement d'opération sur titres."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du processus métier supplémentaire « remboursement d'impôt » lié à un événement d'opération sur titres."
+    }
+  }
+}

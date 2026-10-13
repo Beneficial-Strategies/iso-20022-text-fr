@@ -1,0 +1,22 @@
+{
+  "isoType": "RejectionReason9Code",
+  "definition": "Précise le motif de rejet d'une demande d'annulation d'option choisie.",
+  "isoCodes": {
+    "NCAN": {
+      "name": "Annulation non autorisée",
+      "definition": "L'annulation n'est pas autorisée."
+    },
+    "LATT": {
+      "name": "En retard",
+      "definition": "L'instruction/la demande arrive trop tard."
+    },
+    "ELEC": {
+      "name": "Choix déjà annulé",
+      "definition": "L'avis d'option choisie est déjà annulé."
+    },
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "La validation de l'avis/de l'instruction/de la demande a échoué."
+    }
+  }
+}

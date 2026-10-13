@@ -1,0 +1,33 @@
+{
+  "isoType": "ProcessingStatus94Choice",
+  "definition": "Choix de formats pour un statut de traitement.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "L'instruction a été acquittée par la banque teneur de compte."
+    },
+    "PendingProcessing": {
+      "definition": "Le traitement de l'instruction/demande est en attente."
+    },
+    "Rejected": {
+      "definition": "L'instruction/demande a été rejetée pour la suite du traitement."
+    },
+    "Repair": {
+      "definition": "L'instruction/demande est acceptée mais en réparation."
+    },
+    "Cancelled": {
+      "definition": "L'instruction/demande a été annulée."
+    },
+    "PendingCancellation": {
+      "definition": "Une demande d'annulation de votre part pour cette instruction est en attente, dans l'attente d'un traitement ultérieur."
+    },
+    "Proprietary": {
+      "definition": "Statut qui ne peut pas être rapporté à l'aide de l'un des statuts standard disponibles."
+    },
+    "CancellationRequested": {
+      "definition": "La demande d'annulation de votre contrepartie pour cette opération est en attente de votre demande d'annulation ou de votre consentement."
+    },
+    "ModificationRequested": {
+      "definition": "La demande de modification de votre contrepartie pour cette opération est en attente de votre demande d'annulation ou de votre accord."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "Limit8",
+  "definition": "Détails sur les limites.",
+  "isoElements": {
+    "StartDateTime": {
+      "definition": "Date et heure à laquelle la limite prend effet."
+    },
+    "Amount": {
+      "definition": "Montant de la limite, exprimé dans une devise éligible."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si une limite est une limite de débit ou une limite de crédit."
+    }
+  }
+}

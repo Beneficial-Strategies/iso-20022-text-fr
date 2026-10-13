@@ -1,0 +1,94 @@
+{
+  "isoType": "ExternalSystemEventType1Code",
+  "definition": "Précise le type d'un événement généré au sein d'un système, tel que publié dans une liste de codes de types d'événements système.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "CRCO": {
+      "name": "Heure limite de réservation de trésorerie",
+      "definition": "L'événement est l'heure limite de la fenêtre de réservation de trésorerie."
+    },
+    "CUSC": {
+      "name": "Heure limite clients",
+      "definition": "L'événement correspond à l'heure limite des paiements de clientèle."
+    },
+    "ESTF": {
+      "name": "Fin des facilités permanentes",
+      "definition": "L'événement correspond à l'heure limite des facilités permanentes."
+    },
+    "EUCO": {
+      "name": "Heure limite Euro1",
+      "definition": "L'événement est l'heure limite pour le système Euro1, c'est-à-dire la date limite de traitement des opérations Euro1."
+    },
+    "EUSU": {
+      "name": "Démarrage Euro1",
+      "definition": "L'événement est l'ouverture de l'exploitation du système Euro 1."
+    },
+    "FIRE": {
+      "name": "Rapport final",
+      "definition": "L'événement est le rapport émis après l'arrêt de toutes les opérations dans le système."
+    },
+    "IBKC": {
+      "name": "Heure limite interbancaire",
+      "definition": "L'événement correspond à l'heure limite des paiements interbancaires."
+    },
+    "LTDC": {
+      "name": "Heure limite LTD",
+      "definition": "L'événement correspond à l'heure limite de règlement des soldes multilatéraux de trésorerie issus du cycle de jour du système de règlement de titres."
+    },
+    "LTGC": {
+      "name": "Heure limite LTG",
+      "definition": "L'événement est l'heure limite du cycle de jour du système de règlement de titres."
+    },
+    "LTNC": {
+      "name": "Heure limite LTN",
+      "definition": "L'événement est l'heure limite pour le règlement des soldes multilatéraux de trésorerie issus du cycle de nuit du système de règlement de titres."
+    },
+    "LVCC": {
+      "name": "Heure limite d'annulation des paiements de montant élevé",
+      "definition": "L'événement est l'heure limite après laquelle les paiements de faible montant ne peuvent plus être annulés."
+    },
+    "LVCO": {
+      "name": "Heure limite des paiements de montant élevé",
+      "definition": "L'événement est l'heure limite pour les paiements de faible montant traités par le système."
+    },
+    "LVRT": {
+      "name": "Heure du rapport de l'heure limite des paiements de montant élevé",
+      "definition": "L'événement est l'heure à laquelle les membres recevront le rapport correspondant au traitement des paiements de faible montant."
+    },
+    "LWSU": {
+      "name": "Démarrage de l'alerte de limite",
+      "definition": "L'événement est le début de la période d'alerte sur les limites."
+    },
+    "NPCT": {
+      "name": "Heure limite des nouveaux paiements",
+      "definition": "L'événement correspond à l'heure limite de réception des nouveaux paiements commerciaux."
+    },
+    "PCOT": {
+      "name": "Heure limite de traitement",
+      "definition": "L'événement correspond à l'heure limite de traitement des paiements."
+    },
+    "RECC": {
+      "name": "Heure limite REC",
+      "definition": "L'événement est l'heure limite pour le règlement des soldes multilatéraux issus du système de compensation de détail."
+    },
+    "REOP": {
+      "name": "Reprise des opérations",
+      "definition": "L'événement correspond à l'heure de reprise prévue d'une composante TARGET."
+    },
+    "SSSC": {
+      "name": "Heure limite de réservation SSS net",
+      "definition": "L'événement correspond à l'heure limite de la fenêtre de réservation de trésorerie du système de règlement de titres."
+    },
+    "STDY": {
+      "name": "Début de journée",
+      "definition": "L'événement est le début de la journée d'exploitation."
+    },
+    "STSU": {
+      "name": "Démarrage Step1",
+      "definition": "L'événement est le début de l'exploitation de l'étape 1 du système."
+    },
+    "SYSC": {
+      "name": "Heure limite du système",
+      "definition": "L'événement correspond à l'heure limite du système."
+    }
+  }
+}

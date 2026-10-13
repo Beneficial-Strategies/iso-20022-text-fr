@@ -1,0 +1,18 @@
+{
+  "isoType": "StandingInstructionType1Code",
+  "definition": "Précise le type d'instruction permanente.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Distribution en espèces",
+      "definition": "Instruction permanente pour une distribution en espèces."
+    },
+    "PAYM": {
+      "name": "Brut net",
+      "definition": "Instruction permanente pour la modalité de paiement, brut ou net."
+    },
+    "SECU": {
+      "name": "Distribution de titres",
+      "definition": "Instruction permanente pour une distribution de titres."
+    }
+  }
+}

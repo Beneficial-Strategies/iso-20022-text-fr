@@ -1,0 +1,12 @@
+{
+  "isoType": "LumpSumType1Choice",
+  "definition": "Choix de formats pour un type de capital forfaitaire.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de capital forfaitaire exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de capital forfaitaire exprimé sous forme de code propriétaire."
+    }
+  }
+}

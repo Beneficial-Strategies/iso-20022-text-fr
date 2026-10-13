@@ -1,0 +1,15 @@
+{
+  "isoType": "SecurityParameters19",
+  "definition": "Paramètres de sécurité de l'hôte effectuant le téléchargement de la clé.",
+  "isoElements": {
+    "HostChallenge": {
+      "definition": "Valeur aléatoire de l'hôte."
+    },
+    "Key": {
+      "definition": "Clé cryptographique à stocker dans l'ATM."
+    },
+    "SignatureChoice": {
+      "definition": "Élément contenant la signature."
+    }
+  }
+}

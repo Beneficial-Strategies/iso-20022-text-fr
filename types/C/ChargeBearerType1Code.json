@@ -1,0 +1,22 @@
+{
+  "isoType": "ChargeBearerType1Code",
+  "definition": "Précise quelle(s) partie(s) paiera(ont) les frais dus pour le traitement de l'instruction.",
+  "isoCodes": {
+    "DEBT": {
+      "name": "Supportés par le débiteur",
+      "definition": "Tous les frais d'opération sont à la charge du débiteur."
+    },
+    "CRED": {
+      "name": "Supportés par le créancier",
+      "definition": "Tous les frais d'opération sont à la charge du créancier."
+    },
+    "SHAR": {
+      "name": "Partagés",
+      "definition": "Dans le cas d'un virement, signifie que les frais d'opération du côté de l'émetteur sont à la charge du débiteur et que les frais d'opération du côté du destinataire sont à la charge du créancier. Dans le cas d'un prélèvement, signifie que les frais d'opération du côté de l'émetteur sont à la charge du créancier et que les frais d'opération du côté du destinataire sont à la charge du débiteur."
+    },
+    "SLEV": {
+      "name": "Selon le niveau de service",
+      "definition": "Les frais sont appliqués selon les règles convenues dans le niveau de service et/ou le schéma."
+    }
+  }
+}

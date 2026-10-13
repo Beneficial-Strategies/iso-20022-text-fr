@@ -1,0 +1,12 @@
+{
+  "isoType": "BlockTrade4Choice",
+  "definition": "Choix de format pour les informations sur l'opération de bloc.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informations sur le parent ou l'enfant du bloc exprimées sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Informations sur le parent ou l'enfant du bloc exprimées sous la forme d'un code propriétaire."
+    }
+  }
+}

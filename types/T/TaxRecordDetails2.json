@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxRecordDetails2",
+  "definition": "Fournit des informations sur le ou les montants de taxe par période de l'enregistrement fiscal.",
+  "isoElements": {
+    "Period": {
+      "definition": "Ensemble d'éléments servant à fournir des détails sur la période relative au paiement de la taxe."
+    },
+    "Amount": {
+      "definition": "Montant de taxe sous-jacent relatif à la période indiquée."
+    }
+  }
+}

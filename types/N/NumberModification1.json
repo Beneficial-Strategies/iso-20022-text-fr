@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberModification1",
+  "definition": "Précise le type de modification d'un nombre.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Précise le type de modification."
+    },
+    "Number": {
+      "definition": "Nombre."
+    }
+  }
+}

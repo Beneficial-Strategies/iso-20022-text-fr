@@ -1,0 +1,21 @@
+{
+  "isoType": "ImpliedCurrencyAmountRange1Choice",
+  "definition": "Choix entre des fourchettes de valeurs dans lesquelles un montant est considéré comme valide, ou une valeur de montant précise qui doit correspondre ou ne pas correspondre pour être valide.",
+  "isoElements": {
+    "FromAmount": {
+      "definition": "Limite inférieure d'une fourchette de valeurs de montant."
+    },
+    "ToAmount": {
+      "definition": "Limite supérieure d'une fourchette de valeurs de montant."
+    },
+    "FromToAmount": {
+      "definition": "Fourchette de valeurs de montant valides."
+    },
+    "EqualAmount": {
+      "definition": "Valeur exacte à laquelle un montant doit correspondre pour être considéré comme valide."
+    },
+    "NotEqualAmount": {
+      "definition": "Valeur à laquelle un montant ne doit pas correspondre pour être considéré comme valide."
+    }
+  }
+}

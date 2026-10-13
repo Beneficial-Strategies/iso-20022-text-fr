@@ -1,0 +1,22 @@
+{
+  "isoType": "SettlingCapacity2Code",
+  "definition": "Indique le rôle de la partie dans le règlement de l'opération.",
+  "isoCodes": {
+    "SAGE": {
+      "name": "Agent de règlement",
+      "definition": "La partie au règlement négocie et règle des opérations sur instruments financiers pour le compte de son ou ses clients."
+    },
+    "CUST": {
+      "name": "Conservateur de règlement",
+      "definition": "La partie au règlement est un conservateur. Elle reçoit/livre les titres et assure les fonctions de conservation."
+    },
+    "SPRI": {
+      "name": "Donneur d'ordre de règlement",
+      "definition": "La partie au règlement règle ses propres opérations."
+    },
+    "RISP": {
+      "name": "Donneur d'ordre sans risque de règlement",
+      "definition": "La partie règle des opérations qui ont été compensées simultanément."
+    }
+  }
+}

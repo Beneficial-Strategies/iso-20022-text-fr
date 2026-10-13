@@ -1,0 +1,66 @@
+{
+  "isoType": "SecuritiesEntryType2Code",
+  "definition": "Précise le type d'écriture de titres sur un compte.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqué",
+      "definition": "Solde de titres bloqués ou gelés. Un instrument financier peut être indisponible en raison de circonstances extérieures telles qu'une décision de justice, le décès du bénéficiaire ou du titulaire du compte, ou une faillite."
+    },
+    "ELIG": {
+      "name": "Éligible",
+      "definition": "Nombre total de titres éligibles à cet événement."
+    },
+    "PEND": {
+      "name": "Livraison en attente",
+      "definition": "Solde de titres en attente de livraison."
+    },
+    "PENR": {
+      "name": "Réception en attente",
+      "definition": "Solde de titres en attente de réception."
+    },
+    "NOMI": {
+      "name": "Nominatif",
+      "definition": "Solde de titres enregistrés (au nom d'un prête-nom ou du bénéficiaire effectif)."
+    },
+    "SETD": {
+      "name": "Réglé",
+      "definition": "Solde de titres représentant uniquement des opérations dénouées."
+    },
+    "BORR": {
+      "name": "Emprunté",
+      "definition": "Solde de titres empruntés auprès d'une autre partie."
+    },
+    "LOAN": {
+      "name": "En prêt",
+      "definition": "Solde de titres prêtés à un tiers."
+    },
+    "SPOS": {
+      "name": "Position en circulation",
+      "definition": "Solde de titres qui demeurent enregistrés au nom du bénéficiaire effectif précédent des titres."
+    },
+    "TRAD": {
+      "name": "Négocié",
+      "definition": "Solde de titres représentant des opérations négociées."
+    },
+    "COLI": {
+      "name": "Garantie reçue",
+      "definition": "Solde de titres appartenant à un tiers et détenus à des fins de constitution de garantie."
+    },
+    "COLO": {
+      "name": "Garantie remise",
+      "definition": "Solde de titres appartenant au compte de conservation indiqué dans ce message et déposés auprès d'un tiers à des fins de constitution de garantie."
+    },
+    "UNBA": {
+      "name": "Solde non instruit",
+      "definition": "Solde de la position non instruite."
+    },
+    "INBA": {
+      "name": "Solde instruit",
+      "definition": "Solde de la position instruite."
+    },
+    "REGO": {
+      "name": "En cours d'enregistrement",
+      "definition": "Solde de titres en cours de traitement par l'établissement chargé d'enregistrer le nouveau bénéficiaire effectif (ou prête-nom) des titres après le dénouement d'une opération."
+    }
+  }
+}

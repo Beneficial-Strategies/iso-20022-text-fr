@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAStandingInstructionCancellationRequestV01",
+  "definition": "Portée|Ce message est envoyé par un CSD à l'agent de l'émetteur afin de demander l'annulation d'une instruction permanente d'agent pour opération sur titres (Agent Corporate Action Standing Instruction) précédemment envoyée.|Utilisation|Ce message est utilisé pour demander l'annulation d'une instruction permanente.|Ce message doit contenir l'identification de l'instruction permanente à annuler. Il peut également contenir les détails de l'instruction permanente à annuler, mais cela n'est pas recommandé."
+}

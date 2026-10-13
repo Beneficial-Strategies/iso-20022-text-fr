@@ -1,0 +1,51 @@
+{
+  "isoType": "Vote21",
+  "definition": "Vote exprimé pour une résolution.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Numéro de la résolution tel que précisé par l'émetteur ou son agent."
+    },
+    "ListingGroupResolutionLabel": {
+      "definition": "Identifie sous le même libellé un groupe de résolutions de l'ordre du jour pour lesquelles un vote favorable ne peut être attribué qu'à une seule résolution du groupe."
+    },
+    "For": {
+      "definition": "Nombre de titres pour lesquels un vote favorable est instruit."
+    },
+    "Against": {
+      "definition": "Nombre de titres pour lesquels un vote défavorable est instruit."
+    },
+    "Abstain": {
+      "definition": "Nombre de titres pour lesquels un vote d'abstention est instruit."
+    },
+    "Withhold": {
+      "definition": "Nombre de titres pour lesquels un vote de retenue est instruit."
+    },
+    "WithManagement": {
+      "definition": "Nombre de titres pour lesquels un vote conforme aux votes de la direction est instruit."
+    },
+    "AgainstManagement": {
+      "definition": "Nombre de titres pour lesquels un vote contraire à la recommandation de vote de la direction est instruit."
+    },
+    "Discretionary": {
+      "definition": "Nombre de titres pour lesquels la décision est laissée à la partie qui exercera le droit de vote."
+    },
+    "OneYear": {
+      "definition": "Nombre de titres pour lesquels un vote favorable pour un an est instruit pour une résolution de type « say on pay »."
+    },
+    "TwoYears": {
+      "definition": "Nombre de titres pour lesquels un vote favorable pour deux ans est instruit pour une résolution de type « say on pay »."
+    },
+    "ThreeYears": {
+      "definition": "Nombre de titres pour lesquels un vote favorable pour trois ans est instruit pour une résolution de type « say on pay »."
+    },
+    "NoAction": {
+      "definition": "Ne pas voter."
+    },
+    "Blank": {
+      "definition": "Le vote est exprimé comme vide, mais il est comptabilisé."
+    },
+    "Proprietary": {
+      "definition": "Autre type de vote exprimé sous forme de code propriétaire."
+    }
+  }
+}

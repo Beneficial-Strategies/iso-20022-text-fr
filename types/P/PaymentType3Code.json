@@ -1,0 +1,102 @@
+{
+  "isoType": "PaymentType3Code",
+  "definition": "Spécifie le type, ou la nature, du paiement.",
+  "isoCodes": {
+    "CBS": {
+      "name": "Paiement transfrontalier",
+      "definition": "Le paiement a son origine dans un pays, sa destination dans un autre, et est effectué dans la devise du pays d'origine ou de destination."
+    },
+    "BCK": {
+      "name": "Secours",
+      "definition": "Le paiement est effectué dans le cadre de la procédure de recouvrement afin de transférer de la liquidité vers ou depuis le compte de règlement d'un membre, conformément aux spécifications du système."
+    },
+    "BAL": {
+      "name": "Solde de détail",
+      "definition": "L'opération est un paiement compensant le solde net de trésorerie dû dans un système de paiement de détail."
+    },
+    "CLS": {
+      "name": "Paiement CLS",
+      "definition": "Le paiement est lié à des activités CLS."
+    },
+    "CTR": {
+      "name": "Opération de banque centrale",
+      "definition": "Le paiement est effectué pour régler une opération réalisée avec la banque centrale."
+    },
+    "CBH": {
+      "name": "Paiement transfrontalier de montant élevé",
+      "definition": "L'opération est un paiement de montant élevé ayant son origine dans un pays et sa destination dans un autre pays, effectué dans la devise du pays d'origine ou de destination."
+    },
+    "CBP": {
+      "name": "Paiement transfrontalier prioritaire",
+      "definition": "L'opération est un paiement prioritaire ayant son origine dans un pays et sa destination dans un autre, effectué dans la devise du pays d'origine ou de destination."
+    },
+    "DPG": {
+      "name": "DVP brut",
+      "definition": "Paiement brut de trésorerie compensant le montant dû pour le règlement d'une opération sur titres."
+    },
+    "DPN": {
+      "name": "DVP net",
+      "definition": "Paiement net compensant le solde de trésorerie dû pour le règlement d'une série d'opérations sur titres."
+    },
+    "EXP": {
+      "name": "Paiement express",
+      "definition": "L'opération est un paiement traité dès que de la liquidité est disponible sur le compte de règlement d'un membre du système RTGSPlus."
+    },
+    "TCH": {
+      "name": "Paiement de montant élevé en devise tierce",
+      "definition": "L'opération est un paiement de montant élevé effectué dans une devise tierce par rapport aux pays d'origine et de destination. Les pays d'origine et de destination peuvent être un seul et même pays."
+    },
+    "LMT": {
+      "name": "Paiement de limite",
+      "definition": "L'opération est un paiement traité lorsque le pool de liquidité dépasse la valeur minimale réservée à un paiement express dans le système RTGSPlus."
+    },
+    "LIQ": {
+      "name": "Transfert de liquidité",
+      "definition": "Le paiement est effectué pour transférer de la liquidité vers ou depuis le compte de règlement d'un membre, vers ou depuis le compte courant détenu auprès de l'établissement central ou de tout autre établissement."
+    },
+    "DPP": {
+      "name": "Paiement national prioritaire",
+      "definition": "L'opération est un paiement prioritaire ayant son origine et sa destination dans le même pays, effectué dans la devise de ce pays."
+    },
+    "DPH": {
+      "name": "Paiement national de montant élevé",
+      "definition": "L'opération est un paiement de montant élevé ayant son origine et sa destination dans le même pays, effectué dans la devise de ce pays."
+    },
+    "DPS": {
+      "name": "Paiement national",
+      "definition": "Le paiement a son origine et sa destination dans le même pays et est effectué dans la devise de ce pays."
+    },
+    "STF": {
+      "name": "Facilités permanentes",
+      "definition": "Le paiement est lié aux dépôts à vingt-quatre heures et à la facilité de prêt marginal."
+    },
+    "TRP": {
+      "name": "Paiement du Trésor public",
+      "definition": "Le paiement est lié au Trésor public."
+    },
+    "TCS": {
+      "name": "Paiement en devise tierce",
+      "definition": "L'opération est un paiement effectué dans une devise tierce par rapport aux pays d'origine et de destination. Les pays d'origine et de destination peuvent être un seul et même pays."
+    },
+    "LOA": {
+      "name": "Prêt",
+      "definition": "L'opération est le paiement d'un montant déterminé prêté par un créancier/prêteur."
+    },
+    "LOR": {
+      "name": "Remboursement de prêt",
+      "definition": "L'opération est un montant transféré en remboursement d'un prêt."
+    },
+    "TCP": {
+      "name": "Paiement prioritaire en devise tierce",
+      "definition": "Le paiement est effectué dans une devise tierce par rapport aux pays d'origine et de destination. Les pays d'origine et de destination peuvent être un seul et même pays."
+    },
+    "OND": {
+      "name": "Dépôt à vue",
+      "definition": "L'opération est liée à un dépôt à vingt-quatre heures."
+    },
+    "MGL": {
+      "name": "Facilité de prêt marginal",
+      "definition": "L'opération est liée à la facilité de prêt marginal."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchRequestBalanceTransferV06",
+  "definition": "Le message AccountSwitchRequestBalanceTransfer est envoyé par la nouvelle banque tenant le compte à la banque qui tenait précédemment le compte pour demander le transfert du solde de clôture. Il peut être adressé au nouveau compte ou à un autre compte désigné par la nouvelle banque tenant le compte."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionProcessingStatus6Choice",
+  "definition": "Précise le statut des détails de l'événement d'opération sur titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le statut des détails de l'événement d'opération sur titres."
+    },
+    "Proprietary": {
+      "definition": "Informations relatives à une identification, par exemple, l'identification d'une partie ou d'un compte."
+    }
+  }
+}

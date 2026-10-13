@@ -1,0 +1,12 @@
+{
+  "isoType": "Reporting9Choice",
+  "definition": "Choix de format pour le type de déclaration.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informations de déclaration par un tiers exprimées sous forme de code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Informations de déclaration par un tiers exprimées sous forme de code propriétaire."
+    }
+  }
+}

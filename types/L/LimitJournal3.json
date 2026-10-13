@@ -1,0 +1,15 @@
+{
+  "isoType": "LimitJournal3",
+  "definition": "Registre dans lequel toutes les opérations sont initialement saisies. Le journal détaille les opérations qui ont eu lieu et les comptes concernés.",
+  "isoElements": {
+    "Limit": {
+      "definition": "Valeur maximale utilisée pour la maîtrise des risques dans un système ou à l'égard des contreparties. La limite peut être une limite en cours ou une limite par défaut."
+    },
+    "JournalActivityDate": {
+      "definition": "Date à laquelle l'activité du journal a lieu."
+    },
+    "JournalEntry": {
+      "definition": "Enregistrement dans un journal des données d'une opération."
+    }
+  }
+}

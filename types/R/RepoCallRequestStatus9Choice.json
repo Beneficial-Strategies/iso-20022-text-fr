@@ -1,0 +1,15 @@
+{
+  "isoType": "RepoCallRequestStatus9Choice",
+  "definition": "Choix de format pour l'accusé de réception de l'appel de pension livrée.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "L'instruction a été acquittée par la banque teneur de compte."
+    },
+    "Denied": {
+      "definition": "L'instruction ou la demande ne sera pas exécutée."
+    },
+    "Proprietary": {
+      "definition": "Statut propriétaire."
+    }
+  }
+}

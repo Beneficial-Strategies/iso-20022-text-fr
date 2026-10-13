@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesPaymentStatus6Choice",
+  "definition": "Choix du format du statut de paiement d'un titre à un moment donné.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut de paiement du titre exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Statut de paiement du titre exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

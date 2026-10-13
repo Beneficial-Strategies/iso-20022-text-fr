@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesBalanceType2Code",
+  "definition": "Précise la nature du solde de titres ou de parts de fonds de placement.",
+  "isoCodes": {
+    "CLEN": {
+      "name": "Exonéré d'impôt",
+      "definition": "Solde de titres exonérés d'impôt."
+    },
+    "DIRT": {
+      "name": "Non exonéré d'impôt",
+      "definition": "Solde de titres imposables."
+    },
+    "NOMI": {
+      "name": "Nominatif",
+      "definition": "Solde de titres enregistrés (au nom d'un prête-nom ou du bénéficiaire effectif)."
+    },
+    "OTHR": {
+      "name": "Non classé",
+      "definition": "Solde de titres non classé, c'est-à-dire non identifié par l'un des types de sous-solde existants."
+    },
+    "SPOS": {
+      "name": "Position en circulation",
+      "definition": "Solde de titres qui demeurent enregistrés au nom du bénéficiaire effectif précédent des titres."
+    },
+    "UNRG": {
+      "name": "Non enregistré",
+      "definition": "Solde de titres n'ayant pu être enregistrés en raison d'une limitation de la détention par des étrangers."
+    }
+  }
+}

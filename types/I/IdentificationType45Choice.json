@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationType45Choice",
+  "definition": "Choix entre un code et un schéma de source de données pour préciser le type d'identification d'une personne physique.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'identification exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type d'identification exprimé sous forme de code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "FinancialInstrumentIdentification8",
+  "definition": "Identification d'un titre.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiant unique et non ambigu d'un titre, attribué dans le cadre d'un schéma d'identification formel ou propriétaire."
+    },
+    "Name": {
+      "definition": "Nom de l'instrument financier en texte libre."
+    },
+    "ShortName": {
+      "definition": "Financial Instrument Short Name (FISN) exprimé conformément à la norme ISO 18774."
+    },
+    "ClassificationType": {
+      "definition": "Type de titre."
+    },
+    "RestrictedIndicator": {
+      "definition": "Indique si le titre est un titre restreint."
+    },
+    "AlternateSecurity": {
+      "definition": "Titre alternatif proposé en remplacement d’un titre restreint."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "Lorsqu'un code ISIN existe, il est fortement recommandé de l'utiliser."
+    }
+  }
+}

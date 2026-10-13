@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelInstruction5",
+  "definition": "Instruction à annuler.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identification de l'instruction individuelle envoyée précédemment."
+    },
+    "InstructedPosition": {
+      "definition": "Compte et positions instruites auxquels s'applique la demande d'annulation d'instruction d'assemblée."
+    }
+  }
+}

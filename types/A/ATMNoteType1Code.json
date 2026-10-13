@@ -1,0 +1,26 @@
+{
+  "isoType": "ATMNoteType1Code",
+  "definition": "Type d'éléments de la cassette de dépôt d'espèces.",
+  "isoCodes": {
+    "ALLT": {
+      "name": "Tous",
+      "definition": "Tous les types de billets de banque aptes à la circulation."
+    },
+    "CNTR": {
+      "name": "Contrefait",
+      "definition": "Billets contrefaits détectés."
+    },
+    "IDVD": {
+      "name": "Individuel",
+      "definition": "Tous les types de billets de banque aptes à la circulation précisés dans une liste individuelle."
+    },
+    "SCNT": {
+      "name": "Contrefaçon suspectée",
+      "definition": "Billets présumés contrefaits."
+    },
+    "UNFT": {
+      "name": "Inapte à la circulation",
+      "definition": "Billets de banque inaptes à la circulation (qualité inacceptable)."
+    }
+  }
+}

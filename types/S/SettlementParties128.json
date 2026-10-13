@@ -1,0 +1,47 @@
+{
+  "isoType": "SettlementParties128",
+  "definition": "Chaîne de parties impliquées dans le règlement d'une opération, y compris réceptions et livraisons, virements internes, opérations de trésorerie ou autres activités, entraînant le mouvement d'un titre ou d'une somme d'argent d'un compte à un autre.",
+  "isoElements": {
+    "Depository": {
+      "definition": "Première partie de la chaîne de règlement. Dans un règlement simple (plain vanilla), il s'agit du dépositaire central de titres auprès duquel la contrepartie demande à recevoir l'instrument financier ou à partir duquel la contrepartie livre les instruments financiers."
+    },
+    "Party1": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec le dépositaire."
+    },
+    "Party2": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec la partie 1."
+    },
+    "Party3": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec la partie 2."
+    },
+    "Party4": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec la partie 3."
+    },
+    "Party5": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec la partie 4."
+    }
+  },
+  "isoRules": {
+    "Party2PresenceRule": {
+      "definition": "Si Party2 est présent, Party1 doit être présent."
+    },
+    "Party3PresenceRule": {
+      "definition": "Si Party3 est présent, Party2 doit être présent."
+    },
+    "Party4PresenceRule": {
+      "definition": "Si Party4 est présent, Party3 doit être présent."
+    },
+    "Party5PresenceRule": {
+      "definition": "Si Party5 est présent, Party4 doit être présent."
+    },
+    "SettlementChainGuideline": {
+      "definition": "Le SMPG recommande que au moins trois parties de règlement soient indiquées dans les instructions de règlement d'actions ou de titres à revenu fixe de type réception|libre ou contre paiement : le dépositaire, le participant du dépositaire (Party1) et le client de Party1 (Party2).|Le format des données d'identification de Party1 dépend du marché. En l'absence d'exigence spécifique au pays, le BIC est recommandé.|Pour plus de détails, consulter le document de pratique de marché correspondant sur www.smpg.info."
+    },
+    "DepositoryGuideline": {
+      "definition": "Lors d'une livraison, le dépositaire récepteur s'entend du dépositaire demandé de la contrepartie réceptrice. |Lors d'une réception, le dépositaire livreur s'entend du dépositaire demandé de la contrepartie livreuse.|Le champ doit être renseigné avec le BIC d'un CSD national ou international. Lorsqu'il n'existe pas de CSD sur un marché donné, le BIC de la bourse sera utilisé.|Le code pays doit être utilisé pour un règlement ayant lieu en dehors d'un établissement publié dans la liste des BIC du PSET. Cela inclut les livraisons physiques et les fonds d'investissement ne réglant pas auprès d'un CSD. |Le format et le contenu des séquences de parties au règlement respecteront les pratiques de marché publiées pour le dépositaire de la contrepartie figurant dans le message.|Pour plus de détails, voir le document de pratique de marché pertinent sur www.smpg.info."
+    },
+    "BookTransferGuideline": {
+      "definition": "Dans le cas d'un transfert interne de compte propre, d'un transfert externe de compte propre, d'un transfert de portefeuille et d'un transfert en nature (voir SecuritiesTransactionType), le compte de Party2 (livreur) auprès de Party1 (livreur) doit être fourni.|Pour plus de détails, voir le document de pratique de marché pertinent sur www.smpg.info."
+    }
+  }
+}

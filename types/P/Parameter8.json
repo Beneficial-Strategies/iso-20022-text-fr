@@ -1,0 +1,18 @@
+{
+  "isoType": "Parameter8",
+  "definition": "Paramètres de l'algorithme de signature numérique RSASSA-PSS (algorithme de signature RSA avec appendice : Probabilistic Signature Scheme).",
+  "isoElements": {
+    "DigestAlgorithm": {
+      "definition": "Identification de l'algorithme de condensé."
+    },
+    "MaskGeneratorAlgorithm": {
+      "definition": "Algorithme cryptographique et paramètres de la fonction de génération de masque."
+    },
+    "SaltLength": {
+      "definition": "Longueur du sel à inclure dans la signature."
+    },
+    "TrailerField": {
+      "definition": "Numéro du champ de fin."
+    }
+  }
+}

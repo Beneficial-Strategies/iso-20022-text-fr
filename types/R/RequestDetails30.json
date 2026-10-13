@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestDetails30",
+  "definition": "Détails de la demande de traitement.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de données demandées, par exemple un BIC de sous-membre."
+    },
+    "RequestorIdentification": {
+      "definition": "Identifie le demandeur."
+    },
+    "AdditionalRequestInformation": {
+      "definition": "Informations complémentaires à l'appui de la demande de traitement."
+    }
+  }
+}

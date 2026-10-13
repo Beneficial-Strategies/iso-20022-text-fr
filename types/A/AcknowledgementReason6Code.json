@@ -1,0 +1,26 @@
+{
+  "isoType": "AcknowledgementReason6Code",
+  "definition": "Précise des informations complémentaires sur l'instruction traitée.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Reçue après l'heure limite de l'établissement teneur de compte. Traitée au mieux."
+    },
+    "SMPG": {
+      "name": "Écart avec les règles de pratique de marché",
+      "definition": "L'instruction est acceptée mais n'est pas conforme à la règle de pratique de marché publiée pour le marché ou le traitement concerné."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "NSTP": {
+      "name": "Traitement non automatisé",
+      "definition": "L'instruction n'a pas été traitée de bout en bout automatiquement et a dû être traitée manuellement."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du marché."
+    }
+  }
+}

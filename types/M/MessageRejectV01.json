@@ -1,0 +1,4 @@
+{
+  "isoType": "MessageRejectV01",
+  "definition": "Portée|Le message MessageReject est envoyé par un système central pour notifier le rejet d'un message reçu précédemment.|Utilisation|Le message fournit des informations spécifiques sur le motif du rejet."
+}

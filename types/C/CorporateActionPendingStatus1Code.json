@@ -1,0 +1,62 @@
+{
+  "isoType": "CorporateActionPendingStatus1Code",
+  "definition": "Statut en attente de l'avis de notification d'opération sur titres provenant de l'agent de l'émetteur.",
+  "isoCodes": {
+    "CNFC": {
+      "name": "Appel total simultané",
+      "definition": "Un événement de remboursement total simultané existe."
+    },
+    "PUBF": {
+      "name": "Date de publication future",
+      "definition": "En attente en raison d'une date de publication future."
+    },
+    "REOR": {
+      "name": "Réorganisation simultanée",
+      "definition": "Une annonce de réorganisation simultanée existe."
+    },
+    "ACCR": {
+      "name": "Intérêts non calculables",
+      "definition": "Impossible de calculer les intérêts courus. Les détails de paiement sont manquants."
+    },
+    "SCAL": {
+      "name": "Montant du titre appelé non valide",
+      "definition": "Montant appelé du titre non valide."
+    },
+    "LATE": {
+      "name": "Annonce tardive",
+      "definition": "Annonce tardive. La date de paiement déclarée est en dehors de la plage acceptable dans le passé."
+    },
+    "MATU": {
+      "name": "Émission arrivant à échéance",
+      "definition": "Émission arrivant à échéance. La date de remboursement est postérieure ou égale à la date d'échéance."
+    },
+    "PAYD": {
+      "name": "Date de paiement hors plage",
+      "definition": "Date de paiement en dehors de la plage de dates applicable."
+    },
+    "POSD": {
+      "name": "Écart de position",
+      "definition": "Écart de position. Remboursement partiel potentiel."
+    },
+    "CNPC": {
+      "name": "Appel partiel potentiel",
+      "definition": "Vérifier l'événement. Un remboursement partiel potentiellement conflictuel existe."
+    },
+    "CNRD": {
+      "name": "Vérifier le remboursement simultané",
+      "definition": "Vérifier l'événement. Un événement de remboursement simultané existe."
+    },
+    "CNRE": {
+      "name": "Vérifier la réorganisation simultanée",
+      "definition": "Vérifier l'événement. Un événement de réorganisation simultané existe."
+    },
+    "VRON": {
+      "name": "Vérifier le taux du remboursement",
+      "definition": "Vérifier le taux. Remboursement dans le cycle."
+    },
+    "VRZC": {
+      "name": "Vérifier le taux de l'obligation zéro coupon",
+      "definition": "Vérifier le taux. Obligation à coupon zéro."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesStatementQuery002V08",
+  "definition": "Portée|Un titulaire de compte envoie un SecuritiesStatementQuery à un teneur de compte pour demander tout relevé de titres existant.|La relation titulaire/teneur de compte peut être la suivante :|- un conservateur global qui détient un compte auprès d'un conservateur local, ou|- une société de gestion d'investissements qui gère un compte de fonds ouvert auprès d'un conservateur, ou|- un courtier qui détient un compte auprès d'un conservateur, ou|- un participant à un dépositaire central de titres qui détient un compte auprès d'un dépositaire central de titres, ou|- un dépositaire central de titres qui détient un compte auprès d'un conservateur, d'un autre dépositaire central de titres ou d'une autre infrastructure de marché de règlement, ou|- une contrepartie centrale, une bourse ou un service de rapprochement des opérations qui doit donner des instructions à un dépositaire central de titres ou à une autre infrastructure de marché de règlement.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information|en utilisant les éléments appropriés de l'en-tête applicatif métier (Business Application Header).",
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

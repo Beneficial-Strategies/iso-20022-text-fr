@@ -1,0 +1,30 @@
+{
+  "isoType": "RemittanceLocationMethod2Code",
+  "definition": "Précise le mode utilisé pour transmettre les informations de l'avis de remise.",
+  "isoCodes": {
+    "FAXI": {
+      "name": "Télécopie",
+      "definition": "Les informations de l'avis de remise doivent être envoyées par télécopie."
+    },
+    "EDIC": {
+      "name": "Échange de données informatisé",
+      "definition": "Les informations de l'avis de remise doivent être envoyées par échange de données informatisé (EDI)."
+    },
+    "URID": {
+      "name": "Identifiant de ressource uniforme",
+      "definition": "Les informations de l'avis de remise doivent être envoyées à un identifiant de ressource uniforme (URI). Un URI est une chaîne compacte de caractères qui identifie de manière unique une ressource abstraite ou physique. Les URI constituent le sur-ensemble des identifiants, tels que les URL, les adresses électroniques, les sites ftp, etc., et fournissent ainsi la syntaxe de tous les schémas d'identification."
+    },
+    "EMAL": {
+      "name": "E-mail",
+      "definition": "Les informations de l'avis de remise doivent être envoyées par courrier électronique."
+    },
+    "POST": {
+      "name": "Courrier postal",
+      "definition": "Les informations de l'avis de remise doivent être envoyées par voie postale."
+    },
+    "SMSM": {
+      "name": "SMS",
+      "definition": "Les informations de l'avis de remise doivent être envoyées par téléphone sous forme de message court (SMS)."
+    }
+  }
+}

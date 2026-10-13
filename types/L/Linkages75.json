@@ -1,0 +1,9 @@
+{
+  "isoType": "Linkages75",
+  "definition": "Informations relatives à une opération liée.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Identification sans ambiguïté d'une opération de règlement-livraison de titres telle que connue du titulaire du compte (ou de la partie donneuse d'ordre agissant en son nom)."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "TransferOutInstructionV10",
+  "definition": "Portée|Le message TransferOutInstruction est envoyé par une partie donneuse d'ordre, par exemple un gestionnaire de placements ou son représentant autorisé, à la partie exécutante, par exemple un agent de transfert, afin de donner instruction de livrer un instrument financier, franco de paiement, à une date donnée, à partir d'une partie spécifiée.|Ce message peut également être utilisé pour donner instruction de livrer un instrument financier, franco de paiement, vers un autre compte propre de la partie donneuse d'ordre ou vers un tiers.|Utilisation|Le message TransferOutInstruction est utilisé pour donner instruction de retirer un instrument financier d'un compte et de le livrer soit à un autre compte, soit à un tiers.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identifiant unique et non ambigu d'un groupe de transferts individuels, attribué par la partie donneuse d'ordre. Cet identifiant relie les transferts individuels entre eux."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Soit TransferDetails/RequestedSettlementDate peut être présent dans une ou plusieurs occurrences de TransferDetails, soit SettlementDetails/RequestedSettlementDate peut être présent, mais pas les deux."
+    }
+  }
+}

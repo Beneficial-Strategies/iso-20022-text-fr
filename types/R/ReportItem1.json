@@ -1,0 +1,18 @@
+{
+  "isoType": "ReportItem1",
+  "definition": "Détails du compte de l'élément du rapport.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "AccountLevel": {
+      "definition": "Niveau du compte de conservation ou du sous-compte de l'élément du rapport."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identification de l'instrument financier de l'élément du rapport."
+    },
+    "ItemDate": {
+      "definition": "Date de l'élément du rapport."
+    }
+  }
+}

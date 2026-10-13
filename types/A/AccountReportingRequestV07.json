@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountReportingRequestV07",
+  "definition": "Périmètre|Le message AccountReportingRequest est envoyé par le titulaire du compte, directement ou par l'intermédiaire d'une banque de transmission, à l'un de ses établissements teneurs de compte. Il sert à demander à l'établissement teneur de compte d'envoyer un relevé du compte du titulaire dans un BankToCustomerAccountReport (camt.052), un BankToCustomerStatement (camt.053) ou un BankToCustomerDebitCreditNotification (camt.054)."
+}

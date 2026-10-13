@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventStage4Code",
+  "definition": "Indique l'étape de l'événement de tirage au sort de l'opération sur titres (CA).",
+  "isoCodes": {
+    "FULL": {
+      "name": "Annulation et nouvelle exécution",
+      "definition": "Annulation et nouveau tirage d'un tirage au sort initial ou d'un tirage initial et complémentaire. Un tirage ultérieur sera effectué dans le cadre d'un nouvel événement."
+    },
+    "PART": {
+      "name": "Annulation et nouvelle exécution complémentaires",
+      "definition": "Annulation et nouvelle exécution d'un tirage complémentaire uniquement. Un nouveau tirage complémentaire ultérieur sera effectué dans le cadre de l'événement initial."
+    },
+    "RESC": {
+      "name": "Annulation complémentaire",
+      "definition": "Un tirage complémentaire est annulé par l'émetteur. Aucun tirage ultérieur ne sera effectué."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInformationRejectedStatus1",
+  "definition": "Fournit le motif du rejet d'un avis d'information.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Le motif du rejet."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

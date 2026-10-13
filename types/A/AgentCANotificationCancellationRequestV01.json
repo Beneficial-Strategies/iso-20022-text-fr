@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCANotificationCancellationRequestV01",
+  "definition": "Périmètre|Ce message est envoyé par un émetteur (ou son agent) à un CSD pour demander l'annulation d'un message d'avis de notification.|Utilisation|Lorsque ce message est utilisé pour demander l'annulation d'un message d'avis de notification, la fonction du message doit être l'annulation.|Lorsque ce message est utilisé pour demander le retrait d'un événement ou d'une option d'opération sur titres, la fonction du message doit être le retrait.|Dans les deux cas, le bloc de construction d'identification de l'avis de notification doit être présent afin de relier cette demande d'annulation à l'avis de notification précédemment envoyé."
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "PaymentTransaction170",
+  "definition": "Fournit des précisions complémentaires sur la référence et le statut des opérations d'origine, incluses dans l'instruction d'origine, auxquelles s'applique le message de demande d'annulation.",
+  "isoElements": {
+    "CancellationStatusIdentification": {
+      "definition": "Identifiant unique et sans ambiguïté d'un statut de demande d'annulation, attribué par l'attributeur.||Utilisation : l'identification du statut d'annulation peut servir au rapprochement ou à la liaison de tâches relatives à la demande d'annulation."
+    },
+    "ResolvedCase": {
+      "definition": "Identifie le dossier résolu."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Fournit des informations sur le message d'origine."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identification unique, attribuée par la partie instructrice d'origine à l'intention de la partie instruite d'origine, permettant d'identifier sans ambiguïté l'instruction d'origine."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice d'origine, permettant d'identifier sans ambiguïté l'opération d'origine."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identification unique, attribuée par la première banque instructrice d'origine, permettant d'identifier sans ambiguïté l'opération."
+    },
+    "OriginalClearingSystemReference": {
+      "definition": "Référence unique, attribuée par le système de compensation d'origine, permettant d'identifier sans ambiguïté l'instruction d'origine."
+    },
+    "OriginalUETR": {
+      "definition": "Identifiant universel unique fournissant la référence de bout en bout d'origine d'une opération de paiement."
+    },
+    "TransactionCancellationStatus": {
+      "definition": "Précise le statut de la demande d'annulation de l'opération."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Fournit des informations détaillées sur le motif du statut d'annulation."
+    },
+    "ResolutionRelatedInformation": {
+      "definition": "Référence d'une opération de retour ou d'annulation initiée pour régler le dossier faisant l'objet de l'enquête dans le cadre de sa résolution."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Montant transféré entre la banque instructrice et la banque instruite, tel que fourni dans l'instruction d'origine."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Date, telle que fournie dans l'opération d'origine, à laquelle le montant cesse d'être disponible pour la banque qui le doit et devient disponible pour la banque à laquelle il est dû."
+    },
+    "Assigner": {
+      "definition": "Partie qui affecte le dossier.|Utilisation : il s'agit aussi de la banque qui instruit la partie suivante de la chaîne d'exécuter la ou les demandes d'annulation."
+    },
+    "Assignee": {
+      "definition": "Partie à laquelle le dossier est affecté.|Utilisation : il s'agit aussi de la banque instruite par la partie précédente de la chaîne d'exécuter la ou les demandes d'annulation."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Éléments clés servant à identifier l'opération d'origine concernée."
+    }
+  }
+}

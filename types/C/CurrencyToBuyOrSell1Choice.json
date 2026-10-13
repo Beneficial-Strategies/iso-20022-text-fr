@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyToBuyOrSell1Choice",
+  "definition": "Choix du type de contrepartie.",
+  "isoElements": {
+    "CurrencyToBuy": {
+      "definition": "Le teneur de compte reçoit l'instruction d'acheter la devise indiquée après réception du produit en espèces."
+    },
+    "CurrencyToSell": {
+      "definition": "Le teneur de compte est chargé de vendre la devise indiquée afin d'obtenir la devise nécessaire au financement de l'opération."
+    }
+  }
+}

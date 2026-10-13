@@ -1,0 +1,14 @@
+{
+  "isoType": "AddressType1Code",
+  "definition": "Précise le type d'adresse.",
+  "isoCodes": {
+    "HOME": {
+      "name": "Résidentielle",
+      "definition": "L'adresse est l'adresse du domicile."
+    },
+    "BIZZ": {
+      "name": "Professionnelle",
+      "definition": "L'adresse est l'adresse professionnelle."
+    }
+  }
+}

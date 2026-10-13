@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCADistributionBreakdownAdviceV01",
+  "definition": "Portée|Ce message est envoyé par un CSD à un émetteur (ou à son agent) pour fournir des informations de ventilation de la distribution pour le produit qui doit être livré en dehors du CSD (p. ex. lorsque le produit n'est pas éligible au CSD).|Utilisation|Ce message est utilisé pour fournir des informations de ventilation de la distribution (titres et/ou espèces) par compte pour une option spécifique d'opération sur titres.|Remarque : les détails de livraison sont envoyés par l'intermédiaire de l'Agent Corporate Action Information Advice."
+}

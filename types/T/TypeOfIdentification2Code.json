@@ -1,0 +1,26 @@
+{
+  "isoType": "TypeOfIdentification2Code",
+  "definition": "Précise le type d'identification alternative pouvant servir à donner une identification alternative de la partie identifiée.",
+  "isoCodes": {
+    "ARNU": {
+      "name": "Numéro d'enregistrement d'étranger",
+      "definition": "Numéro attribué par un organisme public pour identifier les ressortissants étrangers."
+    },
+    "CHTY": {
+      "name": "Numéro d'identification d'exonération fiscale",
+      "definition": "Numéro attribué à une entité exonérée d'impôt."
+    },
+    "CORP": {
+      "name": "Identification de la société",
+      "definition": "Numéro attribué à une entité commerciale."
+    },
+    "FIIN": {
+      "name": "Numéro d'identité d'investissement étranger",
+      "definition": "Numéro attribué à un investisseur étranger (autre que le numéro d'étranger)."
+    },
+    "TXID": {
+      "name": "Numéro d'identification fiscale",
+      "definition": "Numéro attribué à une entité par une autorité fiscale."
+    }
+  }
+}

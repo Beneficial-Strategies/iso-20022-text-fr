@@ -1,0 +1,18 @@
+{
+  "isoType": "ProxyAppointmentInformation6",
+  "definition": "Informations sur l'enregistrement d'un mandataire.",
+  "isoElements": {
+    "RegistrationMethod": {
+      "definition": "Précise comment enregistrer le mandataire."
+    },
+    "Deadline": {
+      "definition": "Date avant laquelle les informations sur la désignation du mandataire doivent être reçues par l'intermédiaire."
+    },
+    "MarketDeadline": {
+      "definition": "Date avant laquelle les informations sur la désignation du mandataire doivent être reçues par l'émetteur."
+    },
+    "AuthorisedProxy": {
+      "definition": "Mandataire autorisé par l'émetteur."
+    }
+  }
+}

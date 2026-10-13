@@ -1,0 +1,30 @@
+{
+  "isoType": "IntraBalance6",
+  "definition": "Détails du mouvement intra-solde.",
+  "isoElements": {
+    "SettledAmount": {
+      "definition": "Montant effectivement réglé, qui sera crédité sur le compte espèces du titulaire du compte ou débité de celui-ci. Il peut différer du montant de règlement instruit en fonction du niveau de tolérance du marché."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Montant précédemment réglé."
+    },
+    "RemainingSettlementAmount": {
+      "definition": "Montant restant à régler."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles le montant est déplacé."
+    },
+    "BalanceFrom": {
+      "definition": "Solde à partir duquel le montant est déplacé."
+    },
+    "BalanceTo": {
+      "definition": "Solde vers lequel le montant est déplacé."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Numéro identifiant un lot constituant le sous-solde."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires sur le traitement du règlement qui ne peuvent pas être incluses dans les champs structurés du message."
+    }
+  }
+}

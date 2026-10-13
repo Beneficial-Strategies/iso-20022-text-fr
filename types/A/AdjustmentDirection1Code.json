@@ -1,0 +1,14 @@
+{
+  "isoType": "AdjustmentDirection1Code",
+  "definition": "Précise si l'ajustement est ajouté au montant total ou soustrait de celui-ci.",
+  "isoCodes": {
+    "ADDD": {
+      "name": "Ajouté",
+      "definition": "L'ajustement doit être ajouté au montant total."
+    },
+    "SUBS": {
+      "name": "Soustrait",
+      "definition": "L'ajustement doit être soustrait du montant total."
+    }
+  }
+}

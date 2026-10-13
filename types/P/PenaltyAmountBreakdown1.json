@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyAmountBreakdown1",
+  "definition": "Précise la ventilation de la pénalité en sous-montants.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant de la pénalité défini par type de montant."
+    },
+    "Type": {
+      "definition": "Type de montant pour la ventilation de la pénalité."
+    }
+  }
+}

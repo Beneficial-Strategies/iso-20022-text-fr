@@ -1,0 +1,12 @@
+{
+  "isoType": "ExchangeRateOrPercentage1Choice",
+  "definition": "Précise un choix entre un taux absolu et un taux en pourcentage.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Le taux est exprimé sous la forme d'un taux de change."
+    },
+    "Percentage": {
+      "definition": "Le taux est exprimé sous la forme d'un pourcentage par rapport au taux de référence."
+    }
+  }
+}

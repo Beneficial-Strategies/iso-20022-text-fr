@@ -1,0 +1,15 @@
+{
+  "isoType": "Repartition6",
+  "definition": "Indique comment le montant du plan d'investissement est réparti entre les fonds.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Montant, parts ou pourcentage d'instrument financier investi ou retiré."
+    },
+    "FinancialInstrument": {
+      "definition": "Informations détaillées sur le titre ou le fonds d'investissement."
+    },
+    "CurrencyOfPlan": {
+      "definition": "Lorsqu'un fonds a plusieurs devises sous le même ISIN, indique la devise du plan d'épargne ou de retrait."
+    }
+  }
+}

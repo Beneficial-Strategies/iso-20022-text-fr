@@ -1,0 +1,30 @@
+{
+  "isoType": "BillingTaxCalculationMethod1Code",
+  "definition": "Définit la méthode de calcul de la taxe.",
+  "isoCodes": {
+    "NTAX": {
+      "name": "Sans taxes",
+      "definition": "Aucune taxe n'est calculée ni due sur ce compte."
+    },
+    "MTDA": {
+      "name": "Méthode A",
+      "definition": "Calcul ligne par ligne par service et conversion en devise de règlement."
+    },
+    "MTDB": {
+      "name": "Méthode B",
+      "definition": "Calcul ligne par ligne par service, avec conversion en devise de règlement effectuée sur le total de taxe du relevé."
+    },
+    "MTDC": {
+      "name": "Méthode C",
+      "definition": "Calcul de taxe groupé avec conversion groupée en devise de règlement."
+    },
+    "MTDD": {
+      "name": "Méthode D",
+      "definition": "Calcul ligne par ligne par service, avec tous les frais et taxes dus dans la devise de tarification."
+    },
+    "UDFD": {
+      "name": "Non défini",
+      "definition": "La méthode de calcul de la taxe n'est pas définie ou est inconnue."
+    }
+  }
+}

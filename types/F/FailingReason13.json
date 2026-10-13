@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingReason13",
+  "definition": "Précise le motif pour lequel l'instruction ou la demande a un statut de défaut de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction a un statut de défaut."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur le motif qui ne peuvent pas figurer dans un champ structuré."
+    }
+  }
+}

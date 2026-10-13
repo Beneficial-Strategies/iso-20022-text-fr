@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestIdentification1",
+  "definition": "Identification de la demande de retrait ou de dépôt d'origine.",
+  "isoElements": {
+    "OriginalOrderReference": {
+      "definition": "Identification unique de l'ordre."
+    },
+    "OriginalCashReceiverReference": {
+      "definition": "Identification unique, attribuée par le destinataire des espèces pour le retrait d'espèces."
+    },
+    "OriginalCashSenderReference": {
+      "definition": "Identification unique, attribuée par l'expéditeur des espèces pour le dépôt d'espèces."
+    }
+  }
+}

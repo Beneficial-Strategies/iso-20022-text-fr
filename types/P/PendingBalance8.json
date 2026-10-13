@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingBalance8",
+  "definition": "Fournit des informations sur le solde en attente et les opérations en attente.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Quantité signée du solde."
+    },
+    "PendingTransactions": {
+      "definition": "Processus global couvrant les opérations de négociation et de règlement-livraison d'instruments financiers."
+    }
+  }
+}

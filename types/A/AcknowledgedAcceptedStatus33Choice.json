@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgedAcceptedStatus33Choice",
+  "definition": "Précise si le statut est fourni avec ou sans motif.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    },
+    "Reason": {
+      "definition": "Informations complémentaires sur le motif du statut accepté et acquitté."
+    }
+  }
+}

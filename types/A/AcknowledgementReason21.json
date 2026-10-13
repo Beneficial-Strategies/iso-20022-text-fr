@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason21",
+  "definition": "Précise des informations complémentaires sur une instruction traitée.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif fourni pour le statut."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur le motif qui ne peuvent pas figurer dans un champ structuré."
+    }
+  }
+}

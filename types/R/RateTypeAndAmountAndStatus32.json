@@ -1,0 +1,15 @@
+{
+  "isoType": "RateTypeAndAmountAndStatus32",
+  "definition": "Précise la valeur exprimée sous forme de taux et de montant.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Valeur exprimée sous forme de type de taux."
+    },
+    "Amount": {
+      "definition": "Valeur exprimée sous forme de montant."
+    },
+    "RateStatus": {
+      "definition": "Valeur exprimée sous forme de statut de taux."
+    }
+  }
+}

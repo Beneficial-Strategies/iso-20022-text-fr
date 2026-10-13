@@ -1,0 +1,14 @@
+{
+  "isoType": "ReportIndicator1Code",
+  "definition": "Précise la nature du rapport, c'est-à-dire standard ou propriétaire.",
+  "isoCodes": {
+    "STND": {
+      "name": "Standard",
+      "definition": "Le rapport demandé doit contenir les informations au format d'un relevé."
+    },
+    "PRPR": {
+      "name": "Propriétaire",
+      "definition": "Le rapport demandé doit contenir les informations dans un format convenu bilatéralement."
+    }
+  }
+}

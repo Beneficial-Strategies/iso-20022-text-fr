@@ -1,0 +1,42 @@
+{
+  "isoType": "OriginalPaymentInformation10",
+  "definition": "Fournit des informations sur l'opération de paiement initiale à laquelle s'applique le message de remise.",
+  "isoElements": {
+    "References": {
+      "definition": "Identifie l'opération sous-jacente."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments servant à préciser davantage le type d'opération."
+    },
+    "Amount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise demandée par la partie initiatrice."
+    },
+    "ExchangeRateInformation": {
+      "definition": "Fournit des détails sur le taux de change et le contrat."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Date à laquelle la partie initiatrice demande à la banque de compensation de traiter le paiement. |Utilisation : il s'agit de la date à laquelle le compte du débiteur doit être débité. En cas de paiement par chèque, il s'agit de la date à laquelle le chèque doit être émis par la banque."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Date et heure auxquelles le créancier demande que le montant soit prélevé sur le débiteur."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit un montant au créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture au débit sera passée à la suite de l'opération."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    }
+  }
+}

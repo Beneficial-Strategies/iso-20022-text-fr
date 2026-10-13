@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementTimeRequest2",
+  "definition": "Fournit des informations sur le ou les horaires de règlement demandés pour l'instruction de paiement.",
+  "isoElements": {
+    "CLSTime": {
+      "definition": "Heure avant laquelle le montant doit être crédité, avec confirmation, sur le compte de la CLS Bank auprès de la banque centrale.|Utilisation : l'heure doit être exprimée en heure d'Europe centrale (CET)."
+    },
+    "TillTime": {
+      "definition": "Heure jusqu'à laquelle le paiement peut être réglé."
+    },
+    "FromTime": {
+      "definition": "Heure à partir de laquelle le paiement peut être réglé."
+    },
+    "RejectTime": {
+      "definition": "Heure avant laquelle le paiement doit être réglé pour éviter son rejet."
+    }
+  }
+}

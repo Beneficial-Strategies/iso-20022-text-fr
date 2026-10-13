@@ -1,0 +1,18 @@
+{
+  "isoType": "FundBalance1",
+  "definition": "Soldes de parts et de trésorerie issus des ordres sur fonds d'investissement.",
+  "isoElements": {
+    "TotalUnitsFromUnitOrders": {
+      "definition": "Nombre total de parts issues des ordres passés en parts."
+    },
+    "TotalUnitsFromCashOrders": {
+      "definition": "Nombre de parts issues des ordres passés en numéraire."
+    },
+    "TotalCashFromUnitOrders": {
+      "definition": "Montant total de trésorerie issu des ordres passés en parts."
+    },
+    "TotalCashFromCashOrders": {
+      "definition": "Montant total de trésorerie issu des ordres passés en numéraire."
+    }
+  }
+}

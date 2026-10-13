@@ -1,0 +1,9 @@
+{
+  "isoType": "InvestigationRejectionJustification1",
+  "definition": "Fournit le motif du rejet de l'affectation du dossier.",
+  "isoElements": {
+    "RejectionReason": {
+      "definition": "Motif du rejet d'une affectation de dossier, sous forme codée."
+    }
+  }
+}

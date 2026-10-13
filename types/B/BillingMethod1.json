@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingMethod1",
+  "definition": "Fournit les détails de la méthode A de calcul de la taxe.",
+  "isoElements": {
+    "ServiceChargeHostAmount": {
+      "definition": "Montant des frais d'origine exprimé dans la devise d'accueil."
+    },
+    "ServiceTax": {
+      "definition": "Prévoit les taxes régionales sur le service. Jusqu'à trois taxes régionales peuvent être définies pour un même service."
+    },
+    "TotalCharge": {
+      "definition": "Précise le total des frais d'un service (taxes comprises)."
+    },
+    "TaxIdentification": {
+      "definition": "Prévoit l'identification de taxe spécifique au sein de la même région fiscale. ||Usage : cet élément autorise un maximum de trois taxes régionales sur un même service."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "RateType1Code",
+  "definition": "Précise si le taux est fixe, variable ou forfaitaire.",
+  "isoCodes": {
+    "FIXE": {
+      "name": "Fixe",
+      "definition": "Le taux est fixe."
+    },
+    "FORF": {
+      "name": "Déchéance",
+      "definition": "Aucun taux de rachat spécifique ne s'applique à l'opération de pension (Repo), uniquement un forfait."
+    },
+    "VARI": {
+      "name": "Variable",
+      "definition": "Le taux est variable."
+    }
+  }
+}

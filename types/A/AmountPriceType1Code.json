@@ -1,0 +1,22 @@
+{
+  "isoType": "AmountPriceType1Code",
+  "definition": "Précise le type de prix en montant.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Montant réel",
+      "definition": "Prix exprimé sous forme de devise et de montant par unité ou par action."
+    },
+    "DISC": {
+      "name": "Décote",
+      "definition": "Prix exprimé sous forme de montant de décote."
+    },
+    "PLOT": {
+      "name": "Lot",
+      "definition": "Prix exprimé sous forme de montant d'argent par lot."
+    },
+    "PREM": {
+      "name": "Prime",
+      "definition": "Prix exprimé sous forme de prime."
+    }
+  }
+}

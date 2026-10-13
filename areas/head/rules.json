@@ -1,3 +1,0 @@
-{
- "BusinessApplicationHeaderV04/RelatedPresentWhenCopyDupl": "Related DOIT (MUST) contenir les éléments BusinessMessageHeader pertinents du BusinessMessage auquel ce BusinessMessage se rapporte.||Si CopyDuplicate est présent, Related DOIT (MUST) être présent."
-}

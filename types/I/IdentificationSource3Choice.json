@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationSource3Choice",
+  "definition": "Choix entre les sources d'identification d'un instrument financier.",
+  "isoElements": {
+    "Code": {
+      "definition": "Source d'identification unique et non équivoque, attribuée au moyen d'une liste de codes prédéfinie."
+    },
+    "Proprietary": {
+      "definition": "Source d'identification unique et non équivoque utilisant un schéma d'identification propriétaire."
+    }
+  }
+}

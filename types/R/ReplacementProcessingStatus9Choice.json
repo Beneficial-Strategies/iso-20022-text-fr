@@ -1,0 +1,12 @@
+{
+  "isoType": "ReplacementProcessingStatus9Choice",
+  "definition": "Choix de format pour le statut de traitement du remplacement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fournit le statut de traitement de la demande de remplacement."
+    },
+    "Proprietary": {
+      "definition": "Fournit le statut de traitement de la demande de remplacement."
+    }
+  }
+}

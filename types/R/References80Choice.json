@@ -1,0 +1,39 @@
+{
+  "isoType": "References80Choice",
+  "definition": "Choix entre des références.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Identification sans ambiguïté d'une opération de règlement-livraison de titres telle que connue du titulaire du compte (ou de la partie instructrice agissant pour son compte)."
+    },
+    "IntraPositionMovementIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération de mouvement intra-position telle que connue du titulaire du compte (ou de la partie instructrice agissant pour son compte)."
+    },
+    "IntraBalanceMovementIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération de mouvement intra-solde telle que connue du titulaire du compte."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de l'établissement gestionnaire du compte."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération de contrepartie attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "PoolIdentification": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    },
+    "CommonIdentification": {
+      "definition": "Référence unique convenue entre les deux contreparties de la transaction commerciale pour identifier celle-ci."
+    },
+    "TradeIdentification": {
+      "definition": "Référence attribuée à l'opération par l'investisseur ou la partie négociatrice. Cette référence sera utilisée tout au long du cycle de vie de l'opération pour accéder aux détails de celle-ci ou les mettre à jour."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Identifiant unique d'opération (UTI) tel que convenu avec l'autre contrepartie."
+    },
+    "OtherTransactionIdentification": {
+      "definition": "Identification d'une opération qui ne peut pas être identifiée au moyen d'un élément de référence standard présent dans le message."
+    }
+  }
+}

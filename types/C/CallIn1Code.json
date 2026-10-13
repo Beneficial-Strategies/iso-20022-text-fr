@@ -1,0 +1,18 @@
+{
+  "isoType": "CallIn1Code",
+  "definition": "Spécifie le type de rapport d'appel de fonds.",
+  "isoCodes": {
+    "CFAV": {
+      "name": "Appel pour la valeur du compte",
+      "definition": "L'appel de fonds concerne la valeur du compte."
+    },
+    "CFST": {
+      "name": "Appel pour règlement",
+      "definition": "L'appel de fonds concerne le règlement."
+    },
+    "CFCC": {
+      "name": "Appel pour clôture de devise",
+      "definition": "L'appel de fonds concerne la clôture de la devise."
+    }
+  }
+}

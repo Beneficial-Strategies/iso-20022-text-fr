@@ -1,0 +1,9 @@
+{
+  "isoType": "BuyerProtectionInstructionAllegementNotificationV01",
+  "definition": "Portée|Un teneur de compte envoie un message BuyerProtectionInstructionAllegementNotification à un titulaire de compte pour l'informer qu'une contrepartie a allégué une instruction de protection de l'acheteur à l'encontre du compte du titulaire auprès du teneur de compte. Une action peut être requise de la part du titulaire du compte.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments pertinents de l'en-tête applicatif métier.",
+  "isoElements": {
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par l'entité de traitement de l'instruction autre que le titulaire du compte, le teneur de compte et l'infrastructure de marché."
+    }
+  }
+}

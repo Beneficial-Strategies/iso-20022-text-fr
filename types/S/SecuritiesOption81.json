@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesOption81",
+  "definition": "Précise l'option en titres d'un événement sur titres.",
+  "isoElements": {
+    "MaximumQuantityToInstruct": {
+      "definition": "Quantité maximale d'instrument financier pouvant être instruite."
+    },
+    "MinimumQuantityToInstruct": {
+      "definition": "Quantité minimale d'instrument financier pouvant être instruite."
+    },
+    "MinimumMultipleQuantityToInstruct": {
+      "definition": "Quantité multiple minimale d'instrument financier pouvant être instruite."
+    },
+    "NewBoardLotQuantity": {
+      "definition": "Quantité de titres constituant le nouveau lot de négociation."
+    },
+    "NewDenominationQuantity": {
+      "definition": "Nouvelle valeur nominale du titre à la suite, par exemple, d'une augmentation ou d'une diminution de la valeur nominale."
+    },
+    "FrontEndOddLotQuantity": {
+      "definition": "Précise que, si un ordre est réparti au prorata, les porteurs de rompus qui apportent la totalité de leur position ne verront pas leur position apportée répartie au prorata mais acceptée en totalité."
+    },
+    "BackEndOddLotQuantity": {
+      "definition": "Représente la présence d'une disposition de rompus de fin de traitement et la quantité d'actions requise après répartition au prorata pour bénéficier de ce privilège."
+    }
+  }
+}

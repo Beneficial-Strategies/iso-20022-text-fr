@@ -1,0 +1,29 @@
+{
+  "isoType": "CashBalance8",
+  "definition": "Ensemble d'éléments servant à définir les détails du solde.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise la nature d'un solde."
+    },
+    "CreditLine": {
+      "definition": "Ensemble d'éléments fournissant des détails sur la ligne de crédit."
+    },
+    "Amount": {
+      "definition": "Montant du solde de trésorerie."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le solde est créditeur ou débiteur.|Utilisation : un solde nul est considéré comme un solde créditeur."
+    },
+    "Date": {
+      "definition": "Indique la date (et l'heure) du solde."
+    },
+    "Availability": {
+      "definition": "Ensemble d'éléments indiquant quand le montant comptabilisé sera disponible, c'est-à-dire pourra être utilisé et commencer à produire des intérêts.||Utilisation : ce type d'information est utilisé aux États-Unis (US) et est lié à des instruments particuliers tels que les chèques.|Exemple : lorsqu'un chèque est déposé, il est comptabilisé le jour du dépôt, mais le montant n'est accessible qu'à compter du jour de disponibilité indiqué (selon la réglementation bancaire nationale)."
+    }
+  },
+  "isoRules": {
+    "ForwardBalanceAndAvailabilityRule": {
+      "definition": "Si Type est égal à ForwardAvailable, Availability n'est pas autorisé."
+    }
+  }
+}

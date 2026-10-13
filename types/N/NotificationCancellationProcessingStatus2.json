@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellationProcessingStatus2",
+  "definition": "Fournit des informations sur le statut de traitement d'une demande d'annulation de notification.",
+  "isoElements": {
+    "Status": {
+      "definition": "Le statut de traitement."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

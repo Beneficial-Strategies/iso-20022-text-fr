@@ -1,0 +1,21 @@
+{
+  "isoType": "Capped1",
+  "definition": "Informations sur un retrait échelonné plafonné.",
+  "isoElements": {
+    "StartDate": {
+      "definition": "Date de début de la période de référence en cours"
+    },
+    "IncomeLimitCurrentPeriod": {
+      "definition": "Limite de revenu pour la période en cours."
+    },
+    "IncomeCurrentPeriod": {
+      "definition": "Revenu perçu au cours de l’année de revenu en cours."
+    },
+    "IncomeLimitNextPeriod": {
+      "definition": "Limite de revenu pour l’année de revenu suivante."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le plafond."
+    }
+  }
+}

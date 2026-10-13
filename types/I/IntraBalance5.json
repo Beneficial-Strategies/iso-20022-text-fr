@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraBalance5",
+  "definition": "Détails du mouvement intra-solde.",
+  "isoElements": {
+    "SettlementAmount": {
+      "definition": "Montant total à régler."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles le montant doit être déplacé."
+    },
+    "BalanceFrom": {
+      "definition": "Solde à partir duquel le montant est déplacé."
+    },
+    "BalanceTo": {
+      "definition": "Solde vers lequel le montant est déplacé."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Numéro identifiant un lot constituant le sous-solde."
+    },
+    "Priority": {
+      "definition": "Indique si l'opération doit être exécutée avec une priorité élevée."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires de traitement du règlement qui ne peuvent pas figurer dans les champs structurés du message."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Sauf accord bilatéral entre l'émetteur et le destinataire, si InstructionProcessingAdditionalDetails est présent, il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    },
+    "BalanceFromToRule": {
+      "definition": "Le type de solde de trésorerie de BalanceFrom doit être différent du type de solde de trésorerie de BalanceTo."
+    }
+  }
+}

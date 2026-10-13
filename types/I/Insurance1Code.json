@@ -1,0 +1,14 @@
+{
+  "isoType": "Insurance1Code",
+  "definition": "Précise le type d'assurance.",
+  "isoCodes": {
+    "LIFE": {
+      "name": "Assurance vie",
+      "definition": "Assurance vie."
+    },
+    "PDIS": {
+      "name": "Assurance invalidité permanente",
+      "definition": "Assurance invalidité permanente."
+    }
+  }
+}

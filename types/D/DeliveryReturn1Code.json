@@ -1,0 +1,34 @@
+{
+  "isoType": "DeliveryReturn1Code",
+  "definition": "Précise le type de retour de livraison.",
+  "isoCodes": {
+    "UNRE": {
+      "name": "Livraison non reconnue",
+      "definition": "La livraison d'origine n'est pas reconnue."
+    },
+    "DQUA": {
+      "name": "Quantité erronée",
+      "definition": "Mauvaise quantité livrée dans l'instruction d'origine."
+    },
+    "DMON": {
+      "name": "Montant de règlement erroné",
+      "definition": "Mauvais montant de règlement réglé dans la livraison d'origine."
+    },
+    "PART": {
+      "name": "Livraison partielle",
+      "definition": "Seule une partie de la quantité de l'opération d'origine a été livrée par le dépositaire central de titres (CSD)."
+    },
+    "SAFE": {
+      "name": "Compte manquant",
+      "definition": "Les informations de compte sont manquantes dans la livraison d'origine."
+    },
+    "DUEB": {
+      "name": "Reconnaissance de dette manquante",
+      "definition": "Les informations de « due bill » sont manquantes dans la livraison d'origine."
+    },
+    "PARD": {
+      "name": "Retour partiel",
+      "definition": "Une partie de la quantité de l'opération d'origine a été retournée par le destinataire."
+    }
+  }
+}

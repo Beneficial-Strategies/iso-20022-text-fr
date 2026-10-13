@@ -1,0 +1,4 @@
+{
+  "isoType": "SystemEventNotificationV02",
+  "definition": "Portée|Le message SystemEventNotification est envoyé par un système central pour notifier la survenue d'un événement dans un système central.|Utilisation|Le message peut être utilisé par un système central de règlement pour informer ses participants d'un événement qui va se produire dans le système, par exemple que le système sera indisponible à une heure donnée, etc."
+}

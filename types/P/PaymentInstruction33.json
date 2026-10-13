@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentInstruction33",
+  "definition": "Fournit des détails sur l'instruction de paiement.",
+  "isoElements": {
+    "Instruction": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement. L'instruction peut porter sur un niveau de service entre la banque et le client, ou donner des instructions à des parties précises de la chaîne de paiement et pour celles-ci.|."
+    },
+    "Type": {
+      "definition": "Type ou nature du paiement, par exemple un paiement express."
+    },
+    "Priority": {
+      "definition": "Urgence ou ordre d'importance que le donneur d'ordre souhaite voir appliquer par le destinataire de l'instruction de paiement pour son traitement.|."
+    },
+    "ProcessingValidityTime": {
+      "definition": "Plage de dates et d'heures dans laquelle l'instruction de paiement doit être traitée.|."
+    }
+  }
+}

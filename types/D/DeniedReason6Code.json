@@ -1,0 +1,46 @@
+{
+  "isoType": "DeniedReason6Code",
+  "definition": "Précise le motif du refus.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Reçue après l'heure limite de l'établissement teneur de compte."
+    },
+    "CDCY": {
+      "name": "Devise conditionnelle",
+      "definition": "L'exécution est refusée en raison d'un traitement lié à la devise de l'opération."
+    },
+    "CDRE": {
+      "name": "Réalignement conditionnel",
+      "definition": "L'exécution est refusée en raison de l'exécution d'un traitement de réalignement auprès du CSD émetteur."
+    },
+    "DCAN": {
+      "name": "Refusé car annulé",
+      "definition": "La demande a été refusée car l'instruction a été annulée."
+    },
+    "DSET": {
+      "name": "Refusé car réglé",
+      "definition": "La demande a été refusée car l'instruction a été réglée."
+    },
+    "DPRG": {
+      "name": "Refusé car en cours",
+      "definition": "La demande a été refusée car le processus de règlement est en cours."
+    },
+    "DREP": {
+      "name": "Refusé car le repo est terminé",
+      "definition": "La demande a été refusée car la pension a été annulée."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "CDRG": {
+      "name": "Registraire conditionnel",
+      "definition": "L'exécution est refusée en raison de l'exécution d'un traitement auprès de l'agent chargé de la tenue du registre."
+    }
+  }
+}

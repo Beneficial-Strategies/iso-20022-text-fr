@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventAndBalance28",
+  "definition": "Relevé détaillé des positions de compte pour un événement d'opération sur titres.",
+  "isoElements": {
+    "GeneralInformation": {
+      "definition": "Fournit des informations générales relatives à un événement d'opération sur titres."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Titre concerné par l'opération sur titres."
+    },
+    "Balance": {
+      "definition": "Fournit des informations sur le solde relatif à une opération sur titres."
+    },
+    "SupplementaryData": {
+      "definition": "Fournit des informations complémentaires relatives à l'événement et au solde de l'opération sur titres."
+    }
+  }
+}

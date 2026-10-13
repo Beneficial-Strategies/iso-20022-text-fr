@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyListType1Choice",
+  "definition": "Choix de format pour le type de liste de pénalités.",
+  "isoElements": {
+    "Code": {
+      "definition": "Indique la liste de pénalités déclarée, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Indique la liste de pénalités déclarée, sous forme propriétaire."
+    }
+  }
+}

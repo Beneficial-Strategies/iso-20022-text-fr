@@ -1,0 +1,15 @@
+{
+  "isoType": "OrganisationIdentification39",
+  "definition": "Moyen unique et sans ambiguïté d'identifier une organisation.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Code d'identification d'entreprise de l'organisation."
+    },
+    "LEI": {
+      "definition": "Identification d'entité juridique en tant qu'identification alternative d'une partie."
+    },
+    "Other": {
+      "definition": "Identification unique d'une organisation, attribuée par une institution, à l'aide d'un schéma d'identification."
+    }
+  }
+}

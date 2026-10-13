@@ -1,0 +1,17 @@
+{
+  "isoType": "Fees2",
+  "definition": "Montant d'argent associé à un service.",
+  "isoElements": {
+    "CommercialAgreementReference": {
+      "definition": "Référence à l'accord établi entre le fonds et une autre partie. Cet élément définit, entre autres, les conditions des commissions."
+    },
+    "IndividualFee": {
+      "definition": "Frais (charges/commissions) individuels."
+    }
+  },
+  "isoRules": {
+    "FeeTaxElementRule": {
+      "definition": "L'un des éléments (CommercialAgreementReference, IndividualFee, IndividualTax) doit être présent."
+    }
+  }
+}

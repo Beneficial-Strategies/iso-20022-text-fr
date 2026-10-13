@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionDate84",
+  "definition": "Précise les dates d'une opération sur titres.",
+  "isoElements": {
+    "PaymentDate": {
+      "definition": "Date et heure auxquelles le mouvement doit avoir lieu (espèces et/ou titres)."
+    },
+    "ValueDate": {
+      "definition": "Date et heure du calcul du bénéfice économique pour un montant en espèces."
+    },
+    "ForeignExchangeRateFixingDate": {
+      "definition": "Date et heure auxquelles un taux de change sera déterminé."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Date et heure auxquelles un paiement peut être effectué, par exemple si la date de paiement est un jour non ouvrable ou pour indiquer la première date de paiement d'une offre."
+    }
+  }
+}

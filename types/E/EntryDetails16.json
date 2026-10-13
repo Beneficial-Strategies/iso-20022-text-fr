@@ -1,0 +1,12 @@
+{
+  "isoType": "EntryDetails16",
+  "definition": "Identifie la ou les opérations sous-jacentes et/ou les écritures groupées.",
+  "isoElements": {
+    "Batch": {
+      "definition": "Fournit des détails sur les opérations groupées."
+    },
+    "TransactionDetails": {
+      "definition": "Fournit des informations sur la ou les opérations sous-jacentes."
+    }
+  }
+}

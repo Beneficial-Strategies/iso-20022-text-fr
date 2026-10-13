@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingProcessingReason13",
+  "definition": "Précise le motif pour lequel l'instruction ou la demande a le statut de traitement en attente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction a le statut de traitement en attente."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur le motif qui ne peuvent pas figurer dans un champ structuré."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType6Choice",
+  "definition": "Choix entre les formats d'un type de frais.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de frais exprimé sous la forme d'un code."
+    },
+    "Proprietary": {
+      "definition": "Type de frais exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

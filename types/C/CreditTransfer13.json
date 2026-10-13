@@ -1,0 +1,42 @@
+{
+  "isoType": "CreditTransfer13",
+  "definition": "Instrument de paiement entre un débiteur et un créancier, qui transite par un ou plusieurs établissements financiers ou systèmes.",
+  "isoElements": {
+    "Debtor": {
+      "definition": "Partie qui devait une somme d'argent au créancier (final). Dans le contexte du modèle de paiement, le débiteur est également le titulaire du compte débité."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture de débit a été passée à la suite de l'opération."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient le compte du débiteur."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identifie le compte de la banque du débiteur."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Banque située entre la banque du débiteur et la banque du créancier."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 1 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Banque située entre la banque du débiteur et la banque du créancier."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 2 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient le compte du créancier."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du créancier auprès de son agent teneur de compte, sur lequel une écriture de crédit a été passée à la suite de l'opération de paiement."
+    },
+    "Creditor": {
+      "definition": "Partie qui a reçu une somme d'argent du débiteur. Dans le contexte du modèle de paiement, le créancier est également le titulaire du compte crédité."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture de crédit a été passée à la suite de l'opération de paiement."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "TaxVoucher6",
+  "definition": "Indique les certificats fiscaux dans le cadre d'un événement d'opération sur titres.",
+  "isoElements": {
+    "TaxVoucherReference": {
+      "definition": "Référence unique du certificat fiscal exigée par les autorités fiscales compétentes afin de garantir qu'aucune réclamation relative à ce certificat fiscal particulier ne puisse être dupliquée."
+    },
+    "TaxReclaimDocumentationReference": {
+      "definition": "Référence unique attribuée par le titulaire de compte à la documentation fiscale envoyée au teneur de compte pour traitement."
+    },
+    "BeneficialOwnerReference": {
+      "definition": "Référence unique identifiant le bénéficiaire effectif auquel le remboursement s'applique, telle qu'attribuée par le titulaire de compte à la documentation fiscale envoyée au teneur de compte pour traitement."
+    }
+  },
+  "isoRules": {
+    "TaxVoucherPresenceRule": {
+      "definition": "Au moins un des éléments TaxVoucherReference, TaxReclaimDocumentationReference ou BeneficialOwnerReference doit être présent."
+    },
+    "TaxReclaimDocumentationReferencePresenceRule": {
+      "definition": "Si TaxReclaimDocumentationReference est présent, alors BeneficialOwnerReference doit être absent."
+    },
+    "BeneficialOwnerReferencePresenceRule": {
+      "definition": "Si BeneficialOwnerReference est présent, alors TaxReclaimDocumentationReference doit être absent."
+    }
+  }
+}

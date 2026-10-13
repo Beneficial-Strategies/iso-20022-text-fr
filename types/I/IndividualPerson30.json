@@ -1,0 +1,21 @@
+{
+  "isoType": "IndividualPerson30",
+  "definition": "Entité humaine, par opposition à une entité juridique (parfois qualifiée de « personne morale »).",
+  "isoElements": {
+    "GivenName": {
+      "definition": "Prénom de la personne."
+    },
+    "MiddleName": {
+      "definition": "Deuxième prénom de la personne."
+    },
+    "Name": {
+      "definition": "Nom sous lequel la partie est connue et qui est habituellement utilisé pour l'identifier."
+    },
+    "Gender": {
+      "definition": "Sexe de la personne."
+    },
+    "BirthDate": {
+      "definition": "Date de naissance de la personne."
+    }
+  }
+}

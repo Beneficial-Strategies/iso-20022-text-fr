@@ -1,0 +1,12 @@
+{
+  "isoType": "AcceptedReason10Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le motif pour lequel l'instruction ou la demande d'annulation a le statut accepté.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant des informations complémentaires sur l'instruction traitée."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire d'informations complémentaires sur l'instruction traitée."
+    }
+  }
+}

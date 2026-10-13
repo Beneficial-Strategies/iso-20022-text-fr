@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceValueType6Code",
+  "definition": "Précise la valeur d'un prix.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "Le prix est inconnu de l'expéditeur ou n'a pas été établi."
+    },
+    "OPEN": {
+      "name": "À date ouverte",
+      "definition": "Le prix n'a pas été établi."
+    },
+    "UNSP": {
+      "name": "Non précisé",
+      "definition": "Le titulaire du compte n'est pas tenu de préciser le prix."
+    },
+    "TBSP": {
+      "name": "À préciser",
+      "definition": "Prix à préciser par le titulaire du compte."
+    }
+  }
+}

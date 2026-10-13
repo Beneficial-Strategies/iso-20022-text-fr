@@ -1,0 +1,21 @@
+{
+  "isoType": "FundConfirmedCashForecastReportV04",
+  "definition": "Portée|Un fournisseur de rapport, tel qu'un agent de transfert, envoie le message FundConfirmedCashForecastReport à l'utilisateur du rapport, tel qu'un gestionnaire d'investissements ou un agent de valorisation, afin de lui communiquer les entrées et sorties de trésorerie confirmées d'une ou de plusieurs catégories de parts d'un fonds d'investissement à une ou plusieurs dates de négociation.|Les mouvements de trésorerie peuvent résulter, par exemple, d'opérations de rachat, de souscription, d'arbitrage ou du réinvestissement de dividendes.|Utilisation|Le message FundConfirmedCashForecastReport sert à communiquer des mouvements de trésorerie définitifs, c'est-à-dire qu'il est envoyé après l'heure limite et/ou la valorisation du prix du fonds.|Ce message contient des flux de trésorerie entrants et sortants confirmés, c'est-à-dire que le prix a été appliqué. Si le prix n'est pas encore définitif, le message FundEstimatedCashForecastReport doit être utilisé.|La structure du message permet les utilisations suivantes :|-  fournir les montants d'entrées et de sorties de trésorerie d'un fonds ou compartiment (une séquence FundOrSubFundDetails est utilisée),|-  fournir les montants d'entrées et de sorties de trésorerie d'un fonds ou compartiment et d'une ou de plusieurs catégories de parts (une séquence FundOrSubFundDetails et une ou plusieurs séquences FundCashForecastDetails sont utilisées),|-  fournir les montants d'entrées et de sorties de trésorerie d'une ou de plusieurs catégories de parts (une ou plusieurs séquences FundCashForecastDetails sont utilisées).|-  fournir les montants d'entrées et de sorties de trésorerie de plusieurs fonds ou compartiments et de plusieurs catégories de parts (deux séquences FundOrSubFundDetails ou plus et deux séquences FundCashForecastDetails ou plus sont utilisées) ; il convient toutefois de noter que, dans cette utilisation, le contenu du message ne permet pas à lui seul de déterminer à quel fonds ou compartiment appartient chaque catégorie de parts, ce qui peut ne pas être souhaitable, et qu'une telle combinaison doit faire l'objet d'un accord bilatéral.|Ce message permet au fournisseur de rapport de communiquer les mouvements de trésorerie entrant dans un fonds ou en sortant, mais ne permet pas à l'expéditeur de classer ces mouvements, par exemple par pays, ni de fournir le détail des ordres, commissions ou frais sous-jacents.|Si le fournisseur de rapport souhaite fournir des informations détaillées sur les mouvements de trésorerie, le message FundDetailedConfirmedCashForecastReport doit être utilisé.",
+  "isoRules": {
+    "PreviousTradeDateRule": {
+      "definition": "Si une occurrence quelconque de FundCashForecastDetails est présente, aucune occurrence de FundOrSubFundDetails/PreviousTradeDateTime n'est autorisée."
+    },
+    "TradeDate1Rule": {
+      "definition": "Si une occurrence quelconque de FundCashForecastDetails est présente, aucune occurrence de FundOrSubFundDetails/TradeDateTime n'est autorisée."
+    },
+    "TradeDate2Rule": {
+      "definition": "Si FundCashForecastDetails n'est pas présent, au moins une occurrence de FundOrSubFundDetails/TradeDateTime doit être présente."
+    },
+    "ConsolidatedNetCashRule": {
+      "definition": "Si ConsolidatedNetCashForecast est présent, au moins une occurrence de FundOrSubFundDetails ou de FundCashForecastDetails doit être présente. FundOrSubFundDetails et FundCashForecastDetails peuvent être présents tous les deux."
+    },
+    "FundOrSubFundAndShareClassGuideline": {
+      "definition": "Lorsque le message est utilisé pour fournir les montants d'entrées et de sorties de trésorerie de plusieurs fonds ou compartiments et de plusieurs catégories de parts (deux séquences FundOrSubFundDetails ou plus et deux séquences FundCashForecastDetails ou plus sont utilisées), le contenu du message ne permet pas à lui seul de déterminer à quel fonds ou compartiment appartient chaque catégorie de parts, ce qui peut ne pas être souhaitable ; ce type d'utilisation doit faire l'objet d'un accord bilatéral."
+    }
+  }
+}

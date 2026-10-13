@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingCancellationReason2",
+  "definition": "Précise le motif d'annulation d'une assemblée.",
+  "isoElements": {
+    "CancellationReasonCode": {
+      "definition": "Motif d'annulation d'une assemblée."
+    },
+    "CancellationReason": {
+      "definition": "Fournit des informations complémentaires sur le motif d'annulation d'une assemblée sous forme de format libre."
+    }
+  }
+}

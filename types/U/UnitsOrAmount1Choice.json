@@ -1,0 +1,12 @@
+{
+  "isoType": "UnitsOrAmount1Choice",
+  "definition": "Choix entre un montant ou un nombre de parts.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Devise et montant des paiements périodiques."
+    },
+    "Unit": {
+      "definition": "Nombre de parts à souscrire ou à retirer."
+    }
+  }
+}

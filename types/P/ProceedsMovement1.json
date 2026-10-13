@@ -1,0 +1,15 @@
+{
+  "isoType": "ProceedsMovement1",
+  "definition": "Détails des mouvements du produit.",
+  "isoElements": {
+    "CashProceedsMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement du produit en espèces."
+    },
+    "SecuritiesProceedsMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement du produit en titres."
+    },
+    "TaxDetails": {
+      "definition": "Fournit des informations sur le bordereau fiscal."
+    }
+  }
+}

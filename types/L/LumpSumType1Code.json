@@ -1,0 +1,18 @@
+{
+  "isoType": "LumpSumType1Code",
+  "definition": "Précise un type de capital forfaitaire.",
+  "isoCodes": {
+    "DEAB": {
+      "name": "Prestation de décès",
+      "definition": "Le capital forfaitaire est un capital décès."
+    },
+    "PCLS": {
+      "name": "Début de la pension",
+      "definition": "Le capital forfaitaire est un capital de début de retraite."
+    },
+    "UFPL": {
+      "name": "Non cristallisé",
+      "definition": "Le capital forfaitaire est un capital forfaitaire de retraite sur fonds non cristallisé."
+    }
+  }
+}

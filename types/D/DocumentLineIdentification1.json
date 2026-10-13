@@ -1,0 +1,15 @@
+{
+  "isoType": "DocumentLineIdentification1",
+  "definition": "Identifie les documents visés dans les informations de remise.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type d'identification de la ligne du document visé."
+    },
+    "Number": {
+      "definition": "Identification du type indiqué pour la ligne du document visé."
+    },
+    "RelatedDate": {
+      "definition": "Date associée à la ligne du document visé."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "CancellationPendingStatus7Choice",
+  "definition": "Motif du statut d'annulation en attente.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motif du statut d'annulation en attente."
+    },
+    "DataSourceScheme": {
+      "definition": "Identification propriétaire du motif du statut d’annulation en attente."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    }
+  }
+}

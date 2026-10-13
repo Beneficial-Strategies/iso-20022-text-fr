@@ -1,0 +1,114 @@
+{
+  "isoType": "SettlementTransactionCondition16Code",
+  "definition": "Précise les conditions dans lesquelles l'ordre/la transaction commerciale doit être réglé(e).",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Acceptation après l'heure limite de règlement normale",
+      "definition": "Le règlement porte sur une opération acceptée bilatéralement qui doit être acceptée au-delà de l'échéance de règlement habituelle."
+    },
+    "ASGN": {
+      "name": "Affectation",
+      "definition": "Transfert de la propriété de l'actif à une autre partie lors de la clôture d'une option."
+    },
+    "BUTC": {
+      "name": "Rachat pour couverture",
+      "definition": "L'opération est un achat de couverture (buy to cover)."
+    },
+    "CLEN": {
+      "name": "Net",
+      "definition": "Les instruments financiers exonérés d'impôt doivent être réglés."
+    },
+    "DLWM": {
+      "name": "Livraison sans appariement",
+      "definition": "Instruction de réception correspondante non requise (uniquement pour les dépositaires centraux de titres internationaux ou nationaux concernés)."
+    },
+    "DIRT": {
+      "name": "Brut",
+      "definition": "Les instruments financiers imposables doivent être réglés."
+    },
+    "DRAW": {
+      "name": "Tiré",
+      "definition": "Les opérations de règlement concernent des titres tirés au sort."
+    },
+    "EXER": {
+      "name": "Exercé",
+      "definition": "L'opération de règlement se rapporte à des options, contrats à terme ou produits dérivés exercés."
+    },
+    "EXPI": {
+      "name": "Expiré",
+      "definition": "L'opération de règlement se rapporte à des options, contrats à terme ou produits dérivés arrivés à expiration."
+    },
+    "FRCL": {
+      "name": "Règlement libre de paiement",
+      "definition": "La livraison sera effectuée franco de paiement, mais un ordre de paiement simple (clean) sera envoyé."
+    },
+    "GATE": {
+      "name": "Participation à un événement de plafonnement",
+      "definition": "Participation à un événement à seuil (gating). Maintenir jusqu'à l'heure de début de l'événement."
+    },
+    "INTS": {
+      "name": "Règlement internalisé",
+      "definition": "L'instruction a été réglée par l'internalisateur de règlement/teneur de compte (par exemple un conservateur) dans ses propres livres et non par l'intermédiaire d'un système de règlement-livraison de titres (par exemple un système de CSD)."
+    },
+    "KNOC": {
+      "name": "Désactivé",
+      "definition": "L'opération de règlement se rapporte à des options, contrats à terme ou produits dérivés expirés sans valeur."
+    },
+    "NOMC": {
+      "name": "Pas de réclamation de marché automatique",
+      "definition": "Aucune réclamation de marché ne doit être générée automatiquement."
+    },
+    "NACT": {
+      "name": "Sans lien avec la comptabilité",
+      "definition": "L'opération sur titres n'est pas destinée à la comptabilité."
+    },
+    "BPSS": {
+      "name": "Rachat d'office partiellement réussi",
+      "definition": "Identification des instructions de règlement créées à la suite d'un rachat d'office partiellement réussi."
+    },
+    "PENS": {
+      "name": "Vente en attente",
+      "definition": "La position destinée à couvrir la vente en attente sera disponible à la date de règlement contractuelle (information comptable)."
+    },
+    "PHYS": {
+      "name": "Physique",
+      "definition": "Les titres doivent être réglés physiquement."
+    },
+    "RHYP": {
+      "name": "Réutilisation",
+      "definition": "La position de garantie est disponible à d'autres fins (par exemple, livraison ultérieure)."
+    },
+    "RPTO": {
+      "name": "Déclaration",
+      "definition": "Se rapporte à une opération à des fins de déclaration uniquement."
+    },
+    "RESI": {
+      "name": "Résiduel",
+      "definition": "Se rapporte à une opération sur un titre qui n'est pas éligible auprès du dépositaire central de titres (CSD) mais dont le paiement sera effectué par le dépositaire central de titres."
+    },
+    "SHOR": {
+      "name": "Vente à découvert",
+      "definition": "Le compte est utilisé pour les ordres de vente à découvert."
+    },
+    "SPDL": {
+      "name": "Livraison spéciale",
+      "definition": "Opérations de règlement à régler avec livraison spéciale."
+    },
+    "SPST": {
+      "name": "Règlement fractionné",
+      "definition": "L'argent et les instruments financiers sont réglés à des endroits différents."
+    },
+    "TRAN": {
+      "name": "Transformation",
+      "definition": "Opération résultant d'une transformation."
+    },
+    "TRIP": {
+      "name": "Ségrégation tripartite",
+      "definition": "Les titres ne doivent pas être livrés mais isolés à la suite d'une opération de garantie tripartite."
+    },
+    "UNEX": {
+      "name": "Non exposé",
+      "definition": "La livraison ne peut être effectuée avant réception des fonds."
+    }
+  }
+}

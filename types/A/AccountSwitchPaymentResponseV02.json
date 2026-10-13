@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchPaymentResponseV02",
+  "definition": "Le message AccountSwitchPaymentResponse est envoyé par la nouvelle banque tenant le compte à l'ancienne banque tenant le compte pour confirmer si elle effectuera le paiement demandé dans un message de demande de paiement. Le message AccountSwitchPaymentResponse n'est utilisé que pour répondre à un message AccountSwitchRequestPayment."
+}

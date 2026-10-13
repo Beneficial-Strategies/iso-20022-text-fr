@@ -1,0 +1,24 @@
+{
+  "isoType": "ResendSearchCriteria2",
+  "definition": "Définit les critères permettant d'extraire le ou les messages à renvoyer.",
+  "isoElements": {
+    "BusinessDate": {
+      "definition": "Date du jour ouvré des messages demandés pour lesquels la fonction de renvoi est utilisée."
+    },
+    "SequenceNumber": {
+      "definition": "Compteur indépendant de la séquence des messages, disponible une fois par adresse technique de partie.|Précise le numéro de séquence d'identification pour un couple expéditeur/destinataire donné."
+    },
+    "SequenceRange": {
+      "definition": "Compteur indépendant d'une plage de séquences de messages, disponible une fois par adresse technique de partie.|Précise la plage de numéros de séquence d'identification pour un couple expéditeur/destinataire donné."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Identifie sans ambiguïté le message commercial initial, remis par l'expéditeur commercial."
+    },
+    "FileReference": {
+      "definition": "Chaîne de caractères qui identifie de manière unique le fichier remis par l'expéditeur."
+    },
+    "Recipient": {
+      "definition": "Identification unique permettant d'identifier sans ambiguïté le destinataire du message de rapport."
+    }
+  }
+}

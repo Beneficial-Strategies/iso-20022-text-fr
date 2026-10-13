@@ -1,0 +1,20 @@
+{
+  "isoType": "SettlementStatus32Choice",
+  "definition": "Choix du format du statut de règlement.",
+  "isoElements": {
+    "Pending": {
+      "definition": "L'instruction est en attente. Le règlement à la date de règlement instruite est encore possible."
+    },
+    "Failing": {
+      "definition": "L'instruction est en défaut. Le règlement à la date de règlement instruite n'est plus possible."
+    },
+    "Proprietary": {
+      "definition": "Statut propriétaire."
+    }
+  },
+  "isoRules": {
+    "PendingToFailingRule": {
+      "definition": "Une opération en attente (PEND) devient une opération en défaut (PENF) à la date de règlement instruite dans le message, lors du reporting de fin de journée."
+    }
+  }
+}

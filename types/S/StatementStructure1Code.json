@@ -1,0 +1,14 @@
+{
+  "isoType": "StatementStructure1Code",
+  "definition": "Précise le type de soldes sur lesquels le relevé est établi.",
+  "isoCodes": {
+    "STAT": {
+      "name": "Statuts",
+      "definition": "Le relevé est trié par statut."
+    },
+    "TRAN": {
+      "name": "Opérations",
+      "definition": "Le relevé est trié par opération."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryType1Code",
+  "definition": "Indique un type de bénéficiaire.",
+  "isoCodes": {
+    "DEPE": {
+      "name": "Personne à charge",
+      "definition": "Le bénéficiaire est une personne à charge."
+    },
+    "NOMI": {
+      "name": "Prête-nom",
+      "definition": "Le bénéficiaire est un mandataire."
+    },
+    "SUCC": {
+      "name": "Successeur",
+      "definition": "Le bénéficiaire est un successeur."
+    }
+  }
+}

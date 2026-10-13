@@ -1,0 +1,56 @@
+{
+  "isoType": "CorporateActionPeriod17",
+  "definition": "Précise les périodes d'une opération sur titres.",
+  "isoElements": {
+    "InterestPeriod": {
+      "definition": "Période pendant laquelle le taux d'intérêt a été appliqué."
+    },
+    "CompulsoryPurchasePeriod": {
+      "definition": "Période, lors d'une offre publique d'acquisition, pendant laquelle tout capital restant en circulation doit être acheté par la société qui lance l'offre."
+    },
+    "ClaimPeriod": {
+      "definition": "Période fixée par le tribunal dans une action collective. Elle détermine les opérations éligibles du client qui seront incluses dans l'action collective et utilisées pour déterminer le droit en résultant."
+    },
+    "DepositorySuspensionPeriodForBookEntryTransfer": {
+      "definition": "Période définissant la dernière date jusqu'à laquelle les transferts en compte seront acceptés et la date à laquelle la suspension sera levée et le traitement des transferts en compte reprendra."
+    },
+    "DepositorySuspensionPeriodForDepositAtAgent": {
+      "definition": "Période définissant la dernière date jusqu'à laquelle les dépôts, au nom du prête-nom, auprès de l'agent seront acceptés et la date à laquelle la suspension sera levée et les dépôts auprès de l'agent reprendront."
+    },
+    "DepositorySuspensionPeriodForDeposit": {
+      "definition": "Période définissant la dernière date jusqu'à laquelle les dépôts seront acceptés et la date à laquelle la suspension sera levée et les dépôts reprendront."
+    },
+    "DepositorySuspensionPeriodForPledge": {
+      "definition": "Période définissant la dernière date jusqu'à laquelle les nantissements seront acceptés et la date à laquelle la suspension sera levée et le traitement des nantissements reprendra."
+    },
+    "DepositorySuspensionPeriodForSegregation": {
+      "definition": "Période définissant la dernière date jusqu'à laquelle les soldes intra-position peuvent être ségrégués et la date à laquelle la suspension sera levée et la possibilité de ségréguer les soldes intra-position reprendra."
+    },
+    "DepositorySuspensionPeriodForWithdrawalAtAgent": {
+      "definition": "Période définissant la dernière date jusqu'à laquelle les retraits, du nom du prête-nom auprès de l'agent, seront acceptés et la date à laquelle la suspension sera levée et le traitement des retraits auprès de l'agent reprendra."
+    },
+    "DepositorySuspensionPeriodForWithdrawalInNomineeName": {
+      "definition": "Période définissant la dernière date jusqu'à laquelle les retraits physiques au nom du prête-nom seront acceptés et la date à laquelle la suspension sera levée et les retraits physiques au nom du prête-nom reprendront."
+    },
+    "DepositorySuspensionPeriodForWithdrawalInStreetName": {
+      "definition": "Période définissant la dernière date à laquelle les demandes de retrait en street name seront acceptées sur le titre de l'événement et la date à laquelle la suspension sera levée et le traitement des retraits en street name sur le titre de l'événement reprendra."
+    },
+    "BookClosurePeriod": {
+      "definition": "Période définissant la dernière date à laquelle l'enregistrement des actionnaires sera accepté par l'émetteur et la date à laquelle l'enregistrement des actionnaires reprendra."
+    },
+    "CoDepositoriesSuspensionPeriod": {
+      "definition": "Période pendant laquelle les activités de règlement auprès des co-dépositaires sont suspendues afin de stabiliser les avoirs auprès du CSD."
+    },
+    "SplitPeriod": {
+      "definition": "Période pendant laquelle un certificat physique peut être fractionné."
+    },
+    "FiscalYearPeriod": {
+      "definition": "Période définissant l'exercice fiscal ou l'année d'imposition auquel se rapporte le dividende afin de déduire correctement les impôts pour les résidents."
+    }
+  },
+  "isoRules": {
+    "InterestPeriodRule": {
+      "definition": "InterestPeriod doit être utilisé uniquement s'il diffère d'une période normale d'intérêts courus."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "FinalStatus1Code",
+  "definition": "Précise le statut final d'une opération.",
+  "isoCodes": {
+    "STLD": {
+      "name": "Réglé",
+      "definition": "L'opération a été traitée avec succès par l'agent de compensation."
+    },
+    "RJTD": {
+      "name": "Rejeté",
+      "definition": "L'opération a été rejetée par l'agent de compensation."
+    },
+    "CAND": {
+      "name": "Annulé",
+      "definition": "L'opération a été annulée."
+    },
+    "FNLD": {
+      "name": "Finalisé",
+      "definition": "L'opération a été traitée avec succès par l'agent de compensation. Le règlement aura lieu en dehors du système."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingServicesAmount2",
+  "definition": "Conversions en devise d'accueil du montant des frais de service imposables.",
+  "isoElements": {
+    "HostAmount": {
+      "definition": "Somme du montant des frais d'origine en devise d'accueil et du montant de la taxe de service en devise d'accueil. Elle représente le total des frais d'un service (taxes comprises) exprimé dans la devise d'accueil."
+    },
+    "SettlementAmount": {
+      "definition": "Somme du montant des frais d'origine en devise d'accueil et du montant de la taxe de service en devise d'accueil, mais exprimée dans la devise de règlement."
+    },
+    "PricingAmount": {
+      "definition": "Somme du montant des frais d'origine en devise d'accueil et du montant de la taxe de service en devise d'accueil, mais exprimée dans la devise de tarification."
+    }
+  }
+}

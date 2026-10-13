@@ -1,0 +1,89 @@
+{
+  "isoType": "Transfer38",
+  "definition": "Paramètres appliqués au règlement d'un transfert de titres.",
+  "isoElements": {
+    "TransferConfirmationReference": {
+      "definition": "Identifiant unique et non ambigu de l'exécution du transfert, attribué par la partie qui confirme."
+    },
+    "TransferReference": {
+      "definition": "Identifiant unique et non ambigu de l'instruction de transfert, attribué par la partie instructrice."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert par l'investisseur. Cette référence peut généralement être utilisée dans un scénario de plateforme centrale (hub) pour fournir la référence du transfert telle qu'attribuée par le client sous-jacent."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë du transfert attribuée par la contrepartie."
+    },
+    "BusinessFlowType": {
+      "definition": "Identifie le processus métier dans lequel les acteurs sont impliqués. Cela est important pour déclencher le bon processus métier, selon le modèle d'activité du marché, qui peut exiger l'appariement des instructions dans un environnement CSD (processus à deux volets) ou non (processus à un seul volet)."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être échangés auprès du dépositaire central international de titres (ICSD) ou du dépositaire central de titres (CSD)."
+    },
+    "EffectiveTransferDate": {
+      "definition": "Date et heure auxquelles le transfert a été exécuté."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Date et heure auxquelles les titres ont été échangés auprès du dépositaire central international de titres (ICSD) ou du dépositaire central de titres (CSD)."
+    },
+    "TradeDate": {
+      "definition": "Date et heure auxquelles l'opération est achevée et compensée, c'est-à-dire que les titres sont livrés."
+    },
+    "TransferOrderDateForm": {
+      "definition": "Date à laquelle l'investisseur a signé le formulaire d'ordre de transfert."
+    },
+    "TransferReason": {
+      "definition": "Motif du transfert."
+    },
+    "HoldingsPlanType": {
+      "definition": "Précise les informations sur les plans d'investissement inclus dans la position."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Informations relatives à l'instrument financier transféré."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Nombre de parts transférées."
+    },
+    "TransferRate": {
+      "definition": "Quantité de titres transférés exprimée en pourcentage de la position détenue."
+    },
+    "UnitsDetails": {
+      "definition": "Ventilation des parts transférées."
+    },
+    "Rounding": {
+      "definition": "Sens d'arrondi appliqué à l'unité la plus proche."
+    },
+    "OriginalCost": {
+      "definition": "Montant initial payé pour l'actif au moment de l'achat. Peut aussi être appelé coût comptable."
+    },
+    "AveragePrice": {
+      "definition": "Prix moyen pondéré des parts du compte avant l'exécution du transfert."
+    },
+    "NewAveragePrice": {
+      "definition": "Prix moyen pondéré des parts du compte après l'exécution du transfert."
+    },
+    "AverageDate": {
+      "definition": "Date de négociation des données moyennes pondérées des parts du compte avant l'exécution du transfert."
+    },
+    "NewAverageDate": {
+      "definition": "Date de négociation des données moyennes pondérées des parts du compte après l'exécution du transfert."
+    },
+    "TransferCurrency": {
+      "definition": "Devise utilisée pour transférer les positions détenues. Certains agents de transfert enregistrent les positions regroupées par devise, en plus d'utiliser l'ISIN pour les parts de fonds multidevises."
+    },
+    "OwnAccountTransferIndicator": {
+      "definition": "Indique si le transfert entraîne un changement de bénéficiaire effectif."
+    },
+    "NonStandardSettlementInformation": {
+      "definition": "Informations de règlement spécifiques supplémentaires pour les fonds négociés non réglementés."
+    },
+    "TransferExpensesPaymentType": {
+      "definition": "Précise comment le paiement des frais et impôts résultant du transfert est couvert, c'est-à-dire en numéraire ou par le rachat de parts."
+    }
+  },
+  "isoRules": {
+    "TotalUnitsNumberRule": {
+      "definition": "TotalUnitsNumber doit être la somme de toutes les occurrences de UnitsDetails/UnitsNumber lorsque UnitsDetails est présent."
+    }
+  }
+}

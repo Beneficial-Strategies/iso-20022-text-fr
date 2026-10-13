@@ -1,0 +1,126 @@
+{
+  "isoType": "SecuritiesBalanceType14Code",
+  "definition": "Indique le type de solde de titres ou de fonds d'investissement.",
+  "isoCodes": {
+    "AWAS": {
+      "name": "Disponible sans statut supplémentaire",
+      "definition": "Solde d'instruments financiers librement disponibles, sans statut supplémentaire spécifique."
+    },
+    "BTRA": {
+      "name": "En cours de transfert",
+      "definition": "L'instrument financier est indisponible à la suite d'un ordre de transfert, dans l'attente d'un mouvement dans le registre des actionnaires."
+    },
+    "BLOK": {
+      "name": "Bloqué",
+      "definition": "Solde d'instruments financiers bloqués."
+    },
+    "BLOV": {
+      "name": "Bloqué pour authenticité",
+      "definition": "Solde d'instruments financiers bloqués pour vérification de l'authenticité."
+    },
+    "BLCA": {
+      "name": "Bloqué pour opération sur titres",
+      "definition": "Solde d'instruments financiers bloqués à la suite d'un événement sur titres, y compris les activités de vote par procuration."
+    },
+    "BLOT": {
+      "name": "Bloqué pour négociation",
+      "definition": "Solde d'instruments financiers bloqués pour la négociation."
+    },
+    "BORR": {
+      "name": "Emprunté",
+      "definition": "Solde d'instruments financiers empruntés auprès d'une autre partie."
+    },
+    "OPNT": {
+      "name": "Net en attente en retard",
+      "definition": "Solde net d'instruments financiers négociés en attente de règlement, dont le règlement est en retard."
+    },
+    "PNET": {
+      "name": "Net en attente",
+      "definition": "Solde net d'instruments financiers négociés en attente de règlement."
+    },
+    "COLI": {
+      "name": "Garantie reçue",
+      "definition": "Solde de titres appartenant à un tiers et détenus à des fins de garantie."
+    },
+    "COLO": {
+      "name": "Garantie remise",
+      "definition": "Solde de titres appartenant au compte-titres indiqué dans ce message et déposés auprès d'un tiers à des fins de garantie."
+    },
+    "MARG": {
+      "name": "Marge sur dérivés",
+      "definition": "Le compte est utilisé lorsque le financement est assuré par le courtier/teneur de marché."
+    },
+    "DRAW": {
+      "name": "Tiré",
+      "definition": "Les opérations de règlement concernent des titres tirés au sort."
+    },
+    "TRAN": {
+      "name": "En transbordement",
+      "definition": "L'opération a été générée à la suite d'une transformation consécutive à un événement sur titres."
+    },
+    "LOAN": {
+      "name": "En prêt",
+      "definition": "Prêt de consommation."
+    },
+    "REGO": {
+      "name": "En cours d'enregistrement",
+      "definition": "Solde d'instruments financiers en cours de traitement par l'établissement chargé d'enregistrer le nouveau titulaire effectif (ou prête-nom)."
+    },
+    "BODE": {
+      "name": "Livraison d'emprunt en attente",
+      "definition": "Solde d'instruments financiers en attente de livraison dans le cadre d'une opération d'emprunt."
+    },
+    "BORE": {
+      "name": "Réception d'emprunt en attente",
+      "definition": "Solde d'instruments financiers en attente de réception dans le cadre d'une opération d'emprunt."
+    },
+    "PEDA": {
+      "name": "Livraison d'opération sur titres en attente",
+      "definition": "Solde d'instrument financier en attente de livraison à la suite d'un événement sur titres."
+    },
+    "PECA": {
+      "name": "Réception d'opération sur titres en attente",
+      "definition": "Solde d'instrument financier en attente de réception à la suite d'un événement sur titres."
+    },
+    "PEND": {
+      "name": "Livraison en attente",
+      "definition": "Le traitement n'est pas terminé."
+    },
+    "LODE": {
+      "name": "Livraison de prêt en attente",
+      "definition": "Solde d'instruments financiers en attente de livraison dans le cadre d'une opération de prêt."
+    },
+    "LORE": {
+      "name": "Réception de prêt en attente",
+      "definition": "Solde d'instruments financiers en attente de réception dans le cadre d'une opération de prêt."
+    },
+    "PENR": {
+      "name": "Réception en attente",
+      "definition": "L'instruction est en attente de réception de titres, par exemple à la suite d'un achat, d'un prêt, etc."
+    },
+    "PLED": {
+      "name": "Nanti",
+      "definition": "Solde de titres appartenant au compte de conservation indiqué dans ce message et conservés sur celui-ci, qui sont nantis."
+    },
+    "RSTR": {
+      "name": "Restreint",
+      "definition": "Solde d'instruments financiers qui ne peuvent être vendus que sous certaines conditions ou qui nécessitent des documents juridiques."
+    },
+    "OTHR": {
+      "name": "Non classé",
+      "definition": "Autre. Voir Narrative."
+    },
+    "WDOC": {
+      "name": "En attente de documentation",
+      "definition": "L'instrument financier est indisponible en raison d'une documentation manquante ou incomplète relative au compte, ou d'un ordre manquant ou incomplet."
+    },
+    "GRP1": {
+      "name": "Part de groupe fiscal de fonds d'investissement achetée 1",
+      "definition": "Parts de fonds d'investissement achetées avant la dernière date de détachement du dividende."
+    },
+    "GRP2": {
+      "name": "Part de groupe fiscal de fonds d'investissement achetée 2",
+      "definition": "Parts de fonds d'investissement achetées depuis la date de détachement du dividende et bénéficiant de l'exonération fiscale."
+    }
+  }
+}

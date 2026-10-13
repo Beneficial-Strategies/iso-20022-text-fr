@@ -1,0 +1,14 @@
+{
+  "isoType": "TR34Status1Code",
+  "definition": "Statut TR34 spécifique que l'ATM peut utiliser.",
+  "isoCodes": {
+    "BUND": {
+      "name": "Lié",
+      "definition": "Le dispositif est lié."
+    },
+    "UBND": {
+      "name": "Non lié",
+      "definition": "Le dispositif est délié."
+    }
+  }
+}

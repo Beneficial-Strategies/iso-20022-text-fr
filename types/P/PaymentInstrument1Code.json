@@ -1,0 +1,46 @@
+{
+  "isoType": "PaymentInstrument1Code",
+  "definition": "Spécifie l'instrument de paiement utilisé ou l'opération financière sous-jacente ayant donné lieu à une opération de paiement.",
+  "isoCodes": {
+    "BDT": {
+      "name": "Prélèvement interbancaire",
+      "definition": "Instruction de prélèvement dans laquelle le débiteur et le créancier sont des établissements financiers."
+    },
+    "BCT": {
+      "name": "Virement interbancaire",
+      "definition": "Virement de fonds dans lequel le débiteur et le créancier sont des établissements financiers."
+    },
+    "CDT": {
+      "name": "Prélèvement client",
+      "definition": "Instruction de prélèvement dans laquelle le débiteur ou le créancier, ou les deux, sont des établissements non financiers."
+    },
+    "CCT": {
+      "name": "Virement client",
+      "definition": "Virement de fonds dans lequel le débiteur ou le créancier, ou les deux, sont des établissements non financiers."
+    },
+    "CHK": {
+      "name": "Chèque",
+      "definition": "L'instrument de paiement est un chèque. (Ordre écrit donnant instruction à un titulaire de compte (un établissement financier) de payer une somme déterminée à un bénéficiaire désigné (le payé).)"
+    },
+    "BKT": {
+      "name": "Virement interne",
+      "definition": "Transfert correspondant à un mouvement de trésorerie dans les livres du teneur de compte."
+    },
+    "DCP": {
+      "name": "Paiement par carte de débit",
+      "definition": "L'instrument de paiement est une carte de débit. (Le paiement a été initié au moyen d'un système de cartes de débit.)"
+    },
+    "CCP": {
+      "name": "Paiement par carte de crédit",
+      "definition": "L'instrument de paiement est une carte de crédit. (Le paiement a été initié au moyen d'un système de cartes de crédit.)"
+    },
+    "RTI": {
+      "name": "Retour",
+      "definition": "Écriture relative à un effet retourné ou impayé."
+    },
+    "CAN": {
+      "name": "Demande d'annulation",
+      "definition": "Écriture d'annulation résultant de l'annulation d'une écriture précédemment comptabilisée."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitIdentification3Choice",
+  "definition": "Détails d'une limite particulière fixée par le membre et gérée par l'administrateur des opérations.",
+  "isoElements": {
+    "Current": {
+      "definition": "Identification de la limite courante."
+    },
+    "Default": {
+      "definition": "Identification de la limite par défaut."
+    },
+    "AllCurrent": {
+      "definition": "Identification de toutes les limites courantes."
+    },
+    "AllDefault": {
+      "definition": "Identification de toutes les limites par défaut."
+    }
+  }
+}

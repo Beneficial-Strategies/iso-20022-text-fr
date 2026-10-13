@@ -1,0 +1,42 @@
+{
+  "isoType": "ProcessingType1Code",
+  "definition": "Précise le type de restrictions de traitement que le système central doit appliquer.",
+  "isoCodes": {
+    "RJCT": {
+      "name": "Rejet",
+      "definition": "La restriction est le rejet lors de la validation de l'instruction de règlement."
+    },
+    "CVHD": {
+      "name": "Blocage de validation du dépositaire central",
+      "definition": "La restriction consiste à mettre automatiquement la validation CSD en attente lors de l'acceptation d'une instruction de règlement."
+    },
+    "RSVT": {
+      "name": "Réservation",
+      "definition": "La restriction est la création d'une réservation d'un solde de trésorerie ou d'une position en titres pour un motif déterminé."
+    },
+    "BLCK": {
+      "name": "Blocage",
+      "definition": "La restriction est le blocage d'une partie, d'un compte-titres, d'un titre ou d'un compte de trésorerie pour le règlement, ou le blocage d'une position en titres ou d'un solde de trésorerie pour un motif déterminé."
+    },
+    "EARM": {
+      "name": "Affectation",
+      "definition": "Restriction liée au type de solde qui définit et gère les types de position pour les positions en titres."
+    },
+    "EFAC": {
+      "name": "Affectation pour auto-collatéralisation",
+      "definition": "Restriction liée au type de solde qui définit et gère les types de position pour les positions en titres en vue de l'autocollatéralisation."
+    },
+    "DLVR": {
+      "name": "Livrable",
+      "definition": "Aucune restriction n'a été définie."
+    },
+    "COLD": {
+      "name": "Collatéralisé",
+      "definition": "La restriction est liée à une opération de garantie sous-nantie."
+    },
+    "CSDB": {
+      "name": "Blocage CoSD",
+      "definition": "La restriction n'autorise aucune exécution partielle."
+    }
+  }
+}

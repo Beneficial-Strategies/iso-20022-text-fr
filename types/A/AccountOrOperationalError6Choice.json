@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountOrOperationalError6Choice",
+  "definition": "Choix entre les détails du compte ou une erreur opérationnelle lorsque les données demandées ne peuvent pas être récupérées.",
+  "isoElements": {
+    "AccountReport": {
+      "definition": "Fournit soit les informations sur le compte, soit une erreur fonctionnelle."
+    },
+    "OperationalError": {
+      "definition": "Indique qu'une erreur opérationnelle a été émise lors du traitement de la demande associée."
+    }
+  }
+}

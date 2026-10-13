@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionPeriod12",
+  "definition": "Précise les périodes liées à une option d'opération sur titres.",
+  "isoElements": {
+    "PriceCalculationPeriod": {
+      "definition": "Période pendant laquelle le prix d'un titre est déterminé."
+    },
+    "ParallelTradingPeriod": {
+      "definition": "Période pendant laquelle les anciennes et les nouvelles actions peuvent être négociées simultanément, par exemple, regroupement ou fractionnement d'actions."
+    },
+    "ActionPeriod": {
+      "definition": "Période pendant laquelle l'option indiquée, ou toutes les options de l'événement, reste valide, par exemple, période d'offre."
+    },
+    "RevocabilityPeriod": {
+      "definition": "Période pendant laquelle l'actionnaire peut révoquer, modifier ou retirer son instruction."
+    },
+    "PrivilegeSuspensionPeriod": {
+      "definition": "Période pendant laquelle le privilège n'est pas disponible, par exemple lors de la tenue d'une assemblée ou lorsqu'un paiement de coupon est dû."
+    },
+    "AccountServicerRevocabilityPeriod": {
+      "definition": "Période pendant laquelle le participant du teneur de compte peut révoquer, modifier ou retirer ses instructions."
+    },
+    "DepositorySuspensionPeriodForWithdrawal": {
+      "definition": "Période définissant la dernière date à laquelle les demandes de retrait en nom de nominee sur le titre résultant seront acceptées et la date à laquelle la suspension sera levée et le traitement des retraits par transfert sur le titre résultant reprendra."
+    }
+  }
+}

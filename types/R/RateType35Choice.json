@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType35Choice",
+  "definition": "Choix entre un code et/ou un schéma de source de données pour déterminer le taux.",
+  "isoElements": {
+    "Code": {
+      "definition": "Taux exprimé sous forme de code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Taux exprimé sous forme de code propriétaire."
+    }
+  }
+}

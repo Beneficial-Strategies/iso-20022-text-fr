@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferInstructionStatusReportV10",
+  "definition": "Portée|Le message TransferInstructionStatusReport est envoyé par une partie exécutante, par exemple un agent de transfert, à la partie instructrice, par exemple un gestionnaire d’investissements ou l’un de ses représentants autorisés, afin de fournir le statut d’une demande d’informations sur les avoirs, d’un transfert de portefeuille ou d’une instruction de transfert précédemment reçu(e).| Il peut également servir à signaler le statut d’un événement lié à l’actif transféré ou à fournir des informations complémentaires.|Le message TransferInstructionStatusReport peut aussi être envoyé par toute partie à l’opération de transfert à une autre partie de la chaîne de l’opération de transfert afin de fournir des informations utiles au règlement d’une opération de transfert. |Utilisation|Le message TransferInstructionStatusReport est utilisé pour fournir le statut d’une demande d’informations sur les avoirs, d’un transfert de portefeuille ou d’une instruction de transfert précédemment reçu(e), ou en réponse à un message RequestForTransferStatus. Il peut également servir à signaler le statut d’un événement lié à l’actif transféré ou à fournir des informations complémentaires.",
+  "isoRules": {
+    "OtherReferenceRule": {
+      "definition": "Reference/OtherReference doit être utilisé pour référencer un « message » d'instruction de transfert ou de demande d'annulation de transfert envoyé de manière propriétaire ou utilisé comme référence de système. Si Reference/OtherReference est présent, Reference/OtherReference/MessageName doit contenir « fax », « phone » ou « email », etc."
+    },
+    "RelatedReferenceRule": {
+      "definition": "Si Reference/RelatedReference/MessageName est présent, il doit commencer par sese.001, sese.002, sese.005, sese.006, sese.009, sese.012 ou sese.014."
+    }
+  }
+}

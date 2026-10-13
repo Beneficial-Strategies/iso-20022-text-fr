@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceType9Choice",
+  "definition": "Choix du format du sous-solde.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif pour lequel un instrument financier n'est pas disponible ou informations complémentaires sur l'instrument financier pour lequel le solde est donné, par exemple non enregistré, enregistré au nom d'un prête-nom."
+    },
+    "Proprietary": {
+      "definition": "Motif pour lequel un instrument financier n'est pas disponible ou informations complémentaires sur l'instrument financier pour lequel le solde est donné, par exemple non enregistré, enregistré au nom d'un prête-nom."
+    }
+  }
+}

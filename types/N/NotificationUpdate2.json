@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationUpdate2",
+  "definition": "Identification d'une notification précédente.",
+  "isoElements": {
+    "PreviousNotificationIdentification": {
+      "definition": "Identification d'un message de notification d'assemblée envoyé précédemment."
+    },
+    "ReconfirmInstructions": {
+      "definition": "Indique si une instruction d'assemblée doit être renvoyée lorsque les paramètres de l'assemblée sont modifiés et que l'instruction d'assemblée a déjà été envoyée."
+    }
+  }
+}

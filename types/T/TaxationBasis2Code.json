@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxationBasis2Code",
+  "definition": "Précise l'assiette de l'impôt.",
+  "isoCodes": {
+    "FLAT": {
+      "name": "Forfaitaire",
+      "definition": "La base des frais/impôts est un montant forfaitaire."
+    },
+    "PERU": {
+      "name": "Par part",
+      "definition": "La base des frais/impôts est par unité d'instrument financier."
+    }
+  }
+}

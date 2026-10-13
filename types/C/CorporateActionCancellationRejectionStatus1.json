@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionCancellationRejectionStatus1",
+  "definition": "Fournit le motif de rejet d'une demande d'annulation d'option choisie.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Le motif du rejet."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

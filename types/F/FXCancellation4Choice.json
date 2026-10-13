@@ -1,0 +1,12 @@
+{
+  "isoType": "FXCancellation4Choice",
+  "definition": "Choix de format pour les informations d’annulation de change.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Précise si l’opération de change sous-jacente doit également être annulée. Oui signifie que le change doit être annulé. Non signifie que le change doit être conservé."
+    },
+    "Proprietary": {
+      "definition": "Informations d’annulation de change exprimées sous forme de code propriétaire."
+    }
+  }
+}

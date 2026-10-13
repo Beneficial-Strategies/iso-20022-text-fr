@@ -1,0 +1,15 @@
+{
+  "isoType": "CancellationStatusReason5",
+  "definition": "Fournit des précisions complémentaires sur le statut de la demande d'annulation.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partie qui émet le statut d'annulation."
+    },
+    "Reason": {
+      "definition": "Précise le motif du rapport de statut."
+    },
+    "AdditionalInformation": {
+      "definition": "Précisions complémentaires sur le motif du statut d'annulation."
+    }
+  }
+}

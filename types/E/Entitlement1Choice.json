@@ -1,0 +1,12 @@
+{
+  "isoType": "Entitlement1Choice",
+  "definition": "Choix de la méthode de calcul du droit.",
+  "isoElements": {
+    "EntitlementRatio": {
+      "definition": "Nombre de voix attribuées à un titre."
+    },
+    "EntitlementDescription": {
+      "definition": "Précise la méthode de calcul du nombre de voix attribuées à un titre. Cet élément doit être utilisé lorsque la règle de calcul du droit est complexe."
+    }
+  }
+}

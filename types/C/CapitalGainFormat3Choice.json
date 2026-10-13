@@ -1,0 +1,12 @@
+{
+  "isoType": "CapitalGainFormat3Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type de plus-value.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise si la plus-value relève du champ d'application de la directive européenne en matière de fiscalité des revenus de l'épargne sous forme de paiements d'intérêts (directive 2003/48/CE du Conseil du 3 juin) pour un revenu réalisé lors de la vente, du remboursement ou du rachat d'actions et de parts, etc (EC)."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de plus-value."
+    }
+  }
+}

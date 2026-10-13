@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxReference2",
+  "definition": "Référence fiscale du régime de retraite.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de référence fiscale."
+    },
+    "Reference": {
+      "definition": "Référence fiscale du régime de retraite attribuée au plan de retraite par un organisme central."
+    }
+  }
+}

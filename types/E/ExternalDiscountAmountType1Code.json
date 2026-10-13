@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalDiscountAmountType1Code",
+  "definition": "Précise la nature ou l'utilisation du montant, sous forme de chaîne de caractères d'une longueur maximale de 4 caractères.|La liste des codes valides est une liste de codes externe publiée séparément.|Les ensembles de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "APDS": {
+      "name": "Remise promotionnelle supplémentaire",
+      "definition": "Remise supplémentaire fondée sur une action promotionnelle commerciale convenue avec un tiers, par exemple une remise supplémentaire de 10 pour cent pendant 15 jours)"
+    },
+    "STDS": {
+      "name": "Remise permanente",
+      "definition": "Remise fondée sur le volume acheté."
+    },
+    "TMDS": {
+      "name": "Escompte de règlement",
+      "definition": "Remise fondée sur des conditions négociées pour un paiement dans un délai déterminé, par exemple 2/10 net 30 (remise de 2 pour cent en cas de paiement sous 10 jours ; sinon, le montant net est dû sous 30 jours)."
+    },
+    "DISC": {
+      "name": "Remise appliquée",
+      "definition": "Remise appliquée. Usage générique si elle ne peut être précisée par aucun autre code de remise."
+    }
+  }
+}

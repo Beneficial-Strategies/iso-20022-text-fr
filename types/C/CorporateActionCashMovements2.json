@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionCashMovements2",
+  "definition": "Fournit des informations sur le mouvement d'espèces résultant de l'instruction d'élection.",
+  "isoElements": {
+    "PostingIdentification": {
+      "definition": "Identification de comptabilisation du mouvement d'espèces."
+    },
+    "PostingDateTime": {
+      "definition": "Date de comptabilisation du mouvement d'espèces."
+    },
+    "PostingAmount": {
+      "definition": "Montant comptabilisé à la suite du mouvement d'espèces."
+    },
+    "AccountDetails": {
+      "definition": "Fournit des informations sur le compte débité/crédité à la suite du mouvement."
+    }
+  }
+}

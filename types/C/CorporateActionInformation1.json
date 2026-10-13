@@ -1,0 +1,32 @@
+{
+  "isoType": "CorporateActionInformation1",
+  "definition": "Informations générales sur l'événement d'opération sur titres.",
+  "isoElements": {
+    "AgentIdentification": {
+      "definition": "Identification de l'agent de l'émetteur."
+    },
+    "IssuerCorporateActionIdentification": {
+      "definition": "Référence attribuée à l'événement par l'émetteur de l'événement CA (agent)."
+    },
+    "CorporateActionProcessingIdentification": {
+      "definition": "Référence attribuée par le teneur de compte pour identifier sans ambiguïté un événement sur titres."
+    },
+    "EventType": {
+      "definition": "Type d'événement sur titres."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Précise si l'événement est obligatoire, obligatoire avec options ou volontaire."
+    },
+    "EventProcessingType": {
+      "definition": "Type de traitement impliqué par une opération sur titres."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Identification de l'instrument financier sous-jacent, c'est-à-dire l'instrument financier concerné par l'événement sur titres."
+    }
+  },
+  "isoRules": {
+    "CorporateActionIdentificationRule": {
+      "definition": "Au moins un élément de la liste (IssuerCorporateActionReference, OfficialCorporateActionReference, CorporateActionProcessingIdentifier) doit être présent. Ils peuvent tous être présents."
+    }
+  }
+}

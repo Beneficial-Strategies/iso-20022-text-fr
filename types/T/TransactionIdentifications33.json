@@ -1,0 +1,29 @@
+{
+  "isoType": "TransactionIdentifications33",
+  "definition": "Identifiant unique d'un document, d'un message ou d'une opération.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue du titulaire du compte (ou de la partie donneuse d'ordre gérant le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la banque teneur de compte."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par l'entité de traitement de l'instruction autre que le titulaire du compte, le teneur de compte et l'infrastructure de marché."
+    },
+    "OtherIdentification": {
+      "definition": "Référence d’une opération qui ne peut pas être identifiée à l’aide d’un élément de référence standard présent dans le message."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Si aucune référence n’est disponible pour AccountOwnerTransactionIdentification, alors AccountOwnerTransactionIdentification doit être NONREF."
+    },
+    "AccountOwnerTransactionIdentificationRule": {
+      "definition": "Si AccountOwnerTransactionIdentification est NONREF, alors au moins une des autres références doit être présente."
+    }
+  }
+}

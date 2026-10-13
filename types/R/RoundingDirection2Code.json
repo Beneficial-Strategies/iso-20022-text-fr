@@ -1,0 +1,14 @@
+{
+  "isoType": "RoundingDirection2Code",
+  "definition": "Précise le sens d'arrondi appliqué à l'unité la plus proche.",
+  "isoCodes": {
+    "RDUP": {
+      "name": "Arrondi supérieur",
+      "definition": "Arrondi à l'entier supérieur le plus proche."
+    },
+    "RDWN": {
+      "name": "Arrondi inférieur",
+      "definition": "Arrondi à l'entier inférieur le plus proche."
+    }
+  }
+}

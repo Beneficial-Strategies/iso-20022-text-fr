@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMCommand5Code",
+  "definition": "Type de commande exécutée par l'ATM.",
+  "isoCodes": {
+    "ABAL": {
+      "name": "Solde du DAB",
+      "definition": "Fournir les compteurs de l'ATM, en réinitialisant ceux qui sont applicables."
+    },
+    "CCNT": {
+      "name": "Consultation des compteurs",
+      "definition": "Demander la valeur des compteurs de l'ATM."
+    },
+    "RPTC": {
+      "name": "Rapport des compteurs",
+      "definition": "Fournir la valeur des compteurs de l'ATM, sans réinitialisation des compteurs."
+    }
+  }
+}

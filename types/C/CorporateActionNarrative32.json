@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionNarrative32",
+  "definition": "Fournit des informations complémentaires, telles que les informations à respecter.",
+  "isoElements": {
+    "InformationToComplyWith": {
+      "definition": "Fournit au titulaire du compte les conditions d'information à respecter, par exemple : non ouvert aux résidents US/canadiens, acheteurs institutionnels qualifiés (QIB) ou lettre d'investisseur averti (SIL) à fournir."
+    },
+    "DeliveryDetails": {
+      "definition": "Fournit des informations complémentaires sur les modalités de livraison des titres issus (dérivés). Ce texte libre n'est à utiliser que si les titres ne sont pas éligibles auprès de l'agent/du conservateur, et ne peut pas servir pour des instructions de règlement."
+    },
+    "ForeignExchangeInstructionsAdditionalInformation": {
+      "definition": "Fournit des précisions supplémentaires relatives aux instructions de change."
+    },
+    "InstructionAdditionalInformation": {
+      "definition": "Fournit des détails complémentaires relatifs à l'instruction d'opération sur titres."
+    }
+  }
+}

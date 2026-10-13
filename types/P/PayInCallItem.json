@@ -1,0 +1,9 @@
+{
+  "isoType": "PayInCallItem",
+  "definition": "Représentation numérique des augmentations et diminutions nettes d'un compte à un moment donné. Un solde de trésorerie est calculé comme la somme des crédits en espèces moins la somme des débits en espèces.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Spécifie la devise et le montant de l'élément appelé."
+    }
+  }
+}

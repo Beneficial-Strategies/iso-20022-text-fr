@@ -1,0 +1,190 @@
+{
+  "isoType": "RejectedStatusReason12Code",
+  "definition": "Indique le motif d'un statut de rejet d'une instruction de transfert ou de règlement.",
+  "isoCodes": {
+    "BLCA": {
+      "name": "Compte bloqué pour opération sur titres",
+      "definition": "Le compte de placement est bloqué en raison d'une opération sur titres."
+    },
+    "DOCC": {
+      "name": "Compte bloqué, documents manquants",
+      "definition": "Le compte de placement est bloqué jusqu'à l'achèvement de certaines procédures judiciaires, par exemple des documents juridiques du successeur, des procédures judiciaires dues à une faillite."
+    },
+    "IAQD": {
+      "name": "Date d'acquisition",
+      "definition": "La date d'acquisition n'est pas reconnue ou est invalide."
+    },
+    "ICTN": {
+      "name": "Numéro de certificat",
+      "definition": "Le numéro de certificat n'est pas reconnu ou est invalide."
+    },
+    "CYPA": {
+      "name": "Partiel de l'année en cours",
+      "definition": "Le transfert partiel de l'exercice en cours n'est pas autorisé, c'est-à-dire qu'il n'est pas possible de transférer un actif pour l'exercice en cours alors que d'autres actifs sont détenus pour l'exercice en cours."
+    },
+    "TREF": {
+      "name": "Référence de transfert en double",
+      "definition": "La référence de transfert est un doublon d'un transfert reçu précédemment."
+    },
+    "DSEC": {
+      "name": "Identification de l'instrument financier",
+      "definition": "L'identification du titre n'est pas reconnue ou est invalide."
+    },
+    "IDNA": {
+      "name": "Identification et nom de l'instrument financier",
+      "definition": "L'identification du titre et le nom du titre ne correspondent pas."
+    },
+    "DQUA": {
+      "name": "Quantité d'instruments financiers",
+      "definition": "La quantité d'instruments financiers est invalide."
+    },
+    "FTAX": {
+      "name": "Année fiscale de l'instrument financier",
+      "definition": "L'instrument financier n'est pas valide pour l'exercice fiscal demandé."
+    },
+    "INID": {
+      "name": "Données insuffisantes sur l'investisseur",
+      "definition": "Les données de l'investisseur sont insuffisantes. Applicable lorsque la pratique de marché obligatoire n'est pas respectée."
+    },
+    "INAC": {
+      "name": "Teneur de compte non valide",
+      "definition": "L'organisme teneur de compte n'est pas reconnu ou est invalide."
+    },
+    "CASH": {
+      "name": "Compte espèces non valide",
+      "definition": "Le compte de trésorerie n'est pas reconnu ou est invalide."
+    },
+    "INPM": {
+      "name": "Nouveau gestionnaire de plan non valide",
+      "definition": "Le nouveau gestionnaire du plan n'est pas reconnu ou est invalide."
+    },
+    "INNA": {
+      "name": "Compte de prête-nom non valide",
+      "definition": "Le compte de prête-nom n'est pas reconnu ou est invalide."
+    },
+    "SAFE": {
+      "name": "Compte d'investissement",
+      "definition": "L'identification du compte d'investissement n'est pas reconnue ou n'est pas valide."
+    },
+    "INUK": {
+      "name": "Nom et adresse de l'investisseur inconnus",
+      "definition": "Le nom et l'adresse de l'investisseur ne sont pas reconnus."
+    },
+    "LEGL": {
+      "name": "Légalement impossible",
+      "definition": "Annulation juridiquement impossible."
+    },
+    "NSLA": {
+      "name": "Non conforme au SLA",
+      "definition": "L'instruction n'est pas conforme à l'accord de niveau de service."
+    },
+    "SECU": {
+      "name": "Instrument financier insuffisant",
+      "definition": "Le compte ne contient pas assez de titres pour traiter l'instruction."
+    },
+    "PTNS": {
+      "name": "Partiel non pris en charge",
+      "definition": "Le transfert partiel n'est pas pris en charge. Applicable lorsque les exercices fiscaux sont regroupés et que, par exemple, une demande de transfert pour le seul exercice fiscal 2000 est reçue, il n'est pas possible de traiter le transfert car l'investisseur détient également d'autres exercices fiscaux."
+    },
+    "DLVY": {
+      "name": "Livraison physique impossible",
+      "definition": "L'ordre contient des informations de livraison physique, mais le fonds ne peut pas être livré physiquement."
+    },
+    "DDAT": {
+      "name": "Date de règlement",
+      "definition": "La date de règlement en espèces n'est pas reconnue ou est invalide."
+    },
+    "ISTP": {
+      "name": "Parties au règlement",
+      "definition": "Une ou plusieurs parties au règlement ne sont pas reconnues ou sont invalides."
+    },
+    "DEPT": {
+      "name": "Lieu de règlement",
+      "definition": "Le lieu de règlement n'est pas reconnu ou est invalide."
+    },
+    "ISAT": {
+      "name": "Type ISA non valide",
+      "definition": "Le type d'ISA n'est pas reconnu ou est invalide."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre motif du statut rejeté."
+    },
+    "NCON": {
+      "name": "Non convertible",
+      "definition": "Les deux catégories de parts ne font pas partie du même fonds."
+    },
+    "ACLO": {
+      "name": "Actif clôturé",
+      "definition": "L'actif faisant l'objet de l'instruction de transfert est clôturé."
+    },
+    "NASS": {
+      "name": "Actif non pris en charge",
+      "definition": "L'actif ne prend pas en charge le réenregistrement."
+    },
+    "NQTY": {
+      "name": "Quantité inférieure au minimum",
+      "definition": "La quantité à transférer est trop faible."
+    },
+    "BLTR": {
+      "name": "Compte bloqué pour transfert",
+      "definition": "Le compte de placement est bloqué en raison d'un transfert sortant de fonds de placement."
+    },
+    "COSE": {
+      "name": "Déjà exécuté",
+      "definition": "L'ordre ou le transfert a déjà été exécuté et la confirmation a été envoyée."
+    },
+    "ILLI": {
+      "name": "Actifs illiquides",
+      "definition": "Les actifs sont illiquides."
+    },
+    "BMRV": {
+      "name": "Inférieur au montant minimal retenu",
+      "definition": "La position détenue sera inférieure à la valeur minimale à conserver."
+    },
+    "DINV": {
+      "name": "Données non valides",
+      "definition": "Les données de l'ordre ou de l'instruction de transfert sont invalides."
+    },
+    "ICAG": {
+      "name": "Agent livreur",
+      "definition": "L'agent livreur n'est pas reconnu ou est invalide."
+    },
+    "IPAC": {
+      "name": "Partie instructrice non autorisée pour le compte",
+      "definition": "La partie donneuse d'ordre n'est pas autorisée à donner des instructions pour ce compte de placement."
+    },
+    "INTE": {
+      "name": "Intermédiaire",
+      "definition": "L'intermédiaire n'est pas reconnu ou est invalide."
+    },
+    "DMON": {
+      "name": "Montant de règlement non valide",
+      "definition": "Montant de règlement non reconnu ou invalide."
+    },
+    "PRCT": {
+      "name": "Dépassement du pourcentage de détention",
+      "definition": "Dépassement du pourcentage de détention, par exemple règles PPM ; règles fiscales (ERISA)."
+    },
+    "IVAG": {
+      "name": "Agent récepteur",
+      "definition": "L'agent récepteur n'est pas reconnu ou est invalide."
+    },
+    "NCRR": {
+      "name": "Devise du montant de règlement",
+      "definition": "Devise du montant de règlement non reconnue ou invalide."
+    },
+    "DTRD": {
+      "name": "Date de négociation",
+      "definition": "Date de transaction, date de transaction demandée ou date de transaction future non reconnue ou invalide."
+    },
+    "UPAY": {
+      "name": "Mode de paiement non accepté",
+      "definition": "Le mode de paiement, par exemple chèque ou carte de paiement, n'est pas accepté."
+    },
+    "URSC": {
+      "name": "Devise de règlement demandée non acceptée",
+      "definition": "La devise de règlement demandée n'est pas prise en charge."
+    }
+  }
+}

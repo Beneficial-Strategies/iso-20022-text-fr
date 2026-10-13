@@ -1,0 +1,18 @@
+{
+  "isoType": "BreakdownByCurrency2",
+  "definition": "Précise les flux de trésorerie entrants et sortants par devise.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Devise pour laquelle le flux de trésorerie est communiqué."
+    },
+    "CashOutForecast": {
+      "definition": "Mouvement de trésorerie sortant du fonds à la suite d'opérations sur des parts d'un fonds d'investissement, par exemple des rachats ou des arbitrages sortants."
+    },
+    "CashInForecast": {
+      "definition": "Mouvement de trésorerie entrant dans le fonds à la suite d'opérations sur des parts d'un fonds d'investissement, par exemple des souscriptions ou des arbitrages entrants."
+    },
+    "NetCashForecast": {
+      "definition": "Trésorerie nette résultant des flux de trésorerie entrants et sortants précisés pour la devise."
+    }
+  }
+}

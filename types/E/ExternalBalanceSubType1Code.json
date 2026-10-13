@@ -1,0 +1,94 @@
+{
+  "isoType": "ExternalBalanceSubType1Code",
+  "definition": "Précise le sous-type de solde, tel que publié dans une liste externe de codes de sous-type de solde.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "ADJT": {
+      "name": "Ajustement",
+      "definition": "Solde à maintenir sur le compte de règlement afin de respecter la réserve moyenne exigible, dans le cas où le solde de la banque serait égal à la réserve exigible pendant les jours restants de la période de constitution."
+    },
+    "BCUR": {
+      "name": "Devise de base",
+      "definition": "Solde représentant le montant dans la devise comptable nationale ou de base."
+    },
+    "BLCK": {
+      "name": "Bloqué",
+      "definition": "Solde représentant la réserve réglementaire qu'un établissement financier doit détenir auprès de l'établissement teneur de compte, par exemple le solde créditeur minimum qu'un établissement financier doit conserver auprès de sa banque centrale au titre des réserves obligatoires. Dans certains pays, un solde bloqué est appelé solde de « réserve »."
+    },
+    "BLKD": {
+      "name": "Fonds bloqués",
+      "definition": "Solde représentant des fonds auxquels le titulaire du compte ne peut pas toucher."
+    },
+    "DLOD": {
+      "name": "Découvert intrajournalier",
+      "definition": "Solde représentant le découvert intrajournalier accordé par la banque centrale aux établissements financiers participant à un système RTGS. Ce solde peut varier dans le temps et doit être compensé en fin de journée."
+    },
+    "EAST": {
+      "name": "Actifs éligibles",
+      "definition": "Solde représentant le prêt potentiel qu'une banque centrale consentirait en espèces si la garantie est constituée, par exemple des titres disponibles et éligibles comme garantie auprès de la banque centrale."
+    },
+    "FCOL": {
+      "name": "Collatéralisation ferme",
+      "definition": "Solde représentant la prévision de l'équivalent en espèces résultant de l'évaluation des avoirs existants auprès du CSD qui sont admissibles comme garantie."
+    },
+    "FCOU": {
+      "name": "Montants utilisés comme garantie ferme",
+      "definition": "Solde représentant la contre-valeur en numéraire résultant de l'évaluation des avoirs existants auprès du CSD qui sont admissibles comme garantie et ont été utilisés comme telle."
+    },
+    "FORC": {
+      "name": "Prévision de titres",
+      "definition": "Solde représentant le total de tous les types de solde représentant la prévision des opérations à régler, des éléments bloqués, des opérations de conservation et des décaissements en espèces liés aux opérations sur titres."
+    },
+    "FUND": {
+      "name": "Financement net",
+      "definition": "Solde représentant le montant net à financer résultant de la différence entre le total de toutes les opérations ayant une incidence sur les espèces et la couverture en espèces existante."
+    },
+    "INTM": {
+      "name": "Intermédiaire",
+      "definition": "Solde représentant un montant intermédiaire, tel que le solde d'ouverture ou de clôture reporté de manière incrémentale d'une page à l'autre dans un relevé ou un rapport de plusieurs pages."
+    },
+    "LCUR": {
+      "name": "Devise locale",
+      "definition": "Solde représentant le montant dans la devise du marché local dans laquelle l'actif est détenu."
+    },
+    "LRLD": {
+      "name": "Lié à la limite",
+      "definition": "Solde d'une valeur limite spécifique, par exemple un solde bilatéral est calculé par rapport à une limite bilatérale donnée."
+    },
+    "NOTE": {
+      "name": "Liquidité réservée",
+      "definition": "Solde représentant le montant qu'un établissement financier a mis de côté pour un motif précis et qui n'est donc pas disponible. Dans le contexte des CSD, réservation de liquidité effectuée pour faire face aux obligations de règlement."
+    },
+    "PDNG": {
+      "name": "Titres en attente",
+      "definition": "Solde de titres en attente de livraison, par exemple lorsque des ordres de vente de titres ont été exécutés mais que le règlement des opérations ouvertes n'a pas été confirmé."
+    },
+    "PIPO": {
+      "name": "Versement et paiement",
+      "definition": "Solde représentant le montant fictif des prélèvements ou paiements automatisés fondés sur des accords permanents entre le CSD et l'utilisateur. Usage : les entrées et sorties de fonds peuvent différer selon les instructions de paiement individuelles ou les fonds disponibles."
+    },
+    "PRAV": {
+      "name": "Moyenne progressive",
+      "definition": "Moyenne des soldes quotidiens du compte utilisée pour satisfaire aux exigences de réserves, calculée depuis le début de la période de constitution."
+    },
+    "RESV": {
+      "name": "Réserve",
+      "definition": "Solde représentant la réserve réglementaire qu'un établissement financier doit détenir auprès de l'établissement teneur de compte, par exemple le solde créditeur minimum qu'un établissement financier doit conserver auprès de sa banque centrale au titre des réserves obligatoires."
+    },
+    "SCOL": {
+      "name": "Auto-collatéralisation",
+      "definition": "Solde représentant la prévision de la contre-valeur en numéraire résultant de l'évaluation du solde net entrant de titres admissibles comme garantie et dont les instructions de règlement sont détenues auprès de."
+    },
+    "SCOU": {
+      "name": "Montants utilisés comme auto-collatéral",
+      "definition": "Solde représentant la contre-valeur en numéraire résultant de l'évaluation des titres entrants, admissibles comme garantie et effectivement utilisés comme telle, qui ont été réglés au cours du processus de règlement."
+    },
+    "THRE": {
+      "name": "Seuil",
+      "definition": "Solde représentant le montant qui sera destiné à l'investissement. Différence entre le solde disponible et le seuil de la limite d'investissement."
+    },
+    "UNBL": {
+      "name": "Fonds débloqués",
+      "definition": "Solde représentant des fonds auxquels le titulaire du compte peut toucher."
+    }
+  }
+}

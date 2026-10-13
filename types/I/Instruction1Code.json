@@ -1,0 +1,18 @@
+{
+  "isoType": "Instruction1Code",
+  "definition": "Spécifie des instructions complémentaires concernant le traitement d'une instruction de paiement, fournies par l'agent de compensation émetteur aux agents suivants.",
+  "isoCodes": {
+    "PBEN": {
+      "name": "Payer le bénéficiaire",
+      "definition": "Le créancier (final) ne doit être payé qu'après vérification de son identité."
+    },
+    "TTIL": {
+      "name": "Heure limite",
+      "definition": "L'instruction de paiement est valide et éligible à l'exécution jusqu'à la date et l'heure indiquées. À défaut, l'instruction de paiement sera rejetée."
+    },
+    "TFRO": {
+      "name": "Heure de début",
+      "definition": "L'instruction de paiement sera valide et éligible à l'exécution à partir de la date et de l'heure indiquées."
+    }
+  }
+}

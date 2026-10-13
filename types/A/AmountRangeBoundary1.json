@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountRangeBoundary1",
+  "definition": "Limite d'une fourchette de montants.",
+  "isoElements": {
+    "BoundaryAmount": {
+      "definition": "Valeur du montant de la limite de la fourchette."
+    },
+    "Included": {
+      "definition": "Indique si le montant limite est inclus dans la fourchette de valeurs de montant."
+    }
+  }
+}

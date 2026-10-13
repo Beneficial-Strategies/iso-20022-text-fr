@@ -1,0 +1,23 @@
+{
+  "isoType": "NumberAndSumOfTransactions2",
+  "definition": "Ensemble d'éléments fournissant le total des écritures.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Nombre d'écritures individuelles incluses dans le relevé."
+    },
+    "Sum": {
+      "definition": "Total de toutes les écritures individuelles incluses dans le relevé."
+    },
+    "TotalNetEntryAmount": {
+      "definition": "Montant résultant de la compensation des montants de toutes les écritures de débit et de crédit."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le montant net total des écritures est un montant de crédit ou de débit."
+    }
+  },
+  "isoRules": {
+    "DebitCreditIndicatorGuideline": {
+      "definition": "DebitCreditIndicator doit être présent lorsque TotalNetEntryAmount est présent."
+    }
+  }
+}

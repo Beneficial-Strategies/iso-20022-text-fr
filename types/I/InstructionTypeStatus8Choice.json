@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionTypeStatus8Choice",
+  "definition": "Choix du statut du type d'instruction.",
+  "isoElements": {
+    "InstructionStatus": {
+      "definition": "Statut de chaque instruction de réunion individuelle incluse dans le message d'instruction identifié dans InstructionType/InstructionIdentification."
+    },
+    "CancellationStatus": {
+      "definition": "Statut du message de demande d'annulation d'instruction de réunion ou des demandes d'annulation d'instruction de réunion individuelles. Le message est identifié dans InstructionType/InstructionCancellationIdentification."
+    }
+  }
+}

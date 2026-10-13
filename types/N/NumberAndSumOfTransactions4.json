@@ -1,0 +1,15 @@
+{
+  "isoType": "NumberAndSumOfTransactions4",
+  "definition": "Ensemble d'éléments fournissant la somme totale des écritures.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Nombre d'écritures individuelles incluses dans le relevé."
+    },
+    "Sum": {
+      "definition": "Total de toutes les écritures individuelles incluses dans le relevé."
+    },
+    "TotalNetEntry": {
+      "definition": "Montant de débit ou de crédit résultant de la compensation des montants de toutes les écritures de débit et de crédit."
+    }
+  }
+}

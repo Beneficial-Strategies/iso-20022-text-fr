@@ -1,0 +1,18 @@
+{
+  "isoType": "SystemSearch5",
+  "definition": "Recherche d'un système et d'un membre d'un système.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identification d'un système de compensation de trésorerie particulier."
+    },
+    "MemberIdentification": {
+      "definition": "Identification unique et non ambiguë d'un membre au sein d'un système, attribuée selon le schéma d'identification des membres du système."
+    },
+    "Country": {
+      "definition": "Pays dans lequel le système est situé."
+    },
+    "AccountIdentification": {
+      "definition": "Identification unique et non ambiguë du compte entre le titulaire du compte et le teneur de compte."
+    }
+  }
+}

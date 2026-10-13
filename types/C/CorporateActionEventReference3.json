@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventReference3",
+  "definition": "Identification d'un événement sur titres lié.",
+  "isoElements": {
+    "EventIdentification": {
+      "definition": "Identification de l'événement sur titres lié."
+    },
+    "LinkageType": {
+      "definition": "Précise à quel moment cet événement sur titres doit être traité par rapport à un événement sur titres lié."
+    }
+  }
+}

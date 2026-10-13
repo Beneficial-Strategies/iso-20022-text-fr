@@ -1,0 +1,15 @@
+{
+  "isoType": "ReversedStatus2Choice",
+  "definition": "Motif du statut d’annulation (contrepassation).",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motif du statut d’annulation (contrepassation)."
+    },
+    "DataSourceScheme": {
+      "definition": "Identification propriétaire du motif du statut d’annulation (contrepassation)."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    }
+  }
+}

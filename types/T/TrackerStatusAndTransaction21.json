@@ -1,0 +1,17 @@
+{
+  "isoType": "TrackerStatusAndTransaction21",
+  "definition": "Fournit des informations détaillées sur l'opération et son statut à mettre à jour dans le système de suivi.",
+  "isoElements": {
+    "TransactionStatus": {
+      "definition": "Fournit des informations détaillées sur le statut de l'opération à mettre à jour dans le système de suivi."
+    },
+    "Transaction": {
+      "definition": "Éléments clés utilisés pour identifier la ou les opérations initiales auxquelles il est fait référence."
+    }
+  },
+  "isoRules": {
+    "RejectReturnReasonRule": {
+      "definition": "TransactionStatus/RejectReturnReason doit être absent ou Transaction/RejectReturnReason doit être absent."
+    }
+  }
+}

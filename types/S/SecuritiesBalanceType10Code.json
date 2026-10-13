@@ -1,0 +1,22 @@
+{
+  "isoType": "SecuritiesBalanceType10Code",
+  "definition": "Précise le type de solde de titres.",
+  "isoCodes": {
+    "AVLB": {
+      "name": "Disponible",
+      "definition": "Solde de fonds ou de titres dont dispose le titulaire du compte à la date indiquée."
+    },
+    "REST": {
+      "name": "Restreint",
+      "definition": "Solde d'espèces qui ne peut être utilisé que sous certaines conditions.||Le type de solde est utilisé pour bloquer des titres/espèces sur le compte du client, par exemple en relation avec des élections relatives à certaines opérations sur titres. La position est sous le contrôle direct de l'agent payeur du système, qui est le seul à pouvoir transférer des titres hors de ce type de solde.|Aussi appelé « solde séquestre » ou « solde mis sous séquestre »."
+    },
+    "RDIS": {
+      "name": "Réservé pour distribution",
+      "definition": "Solde d'instruments financiers réservés pour la distribution du produit."
+    },
+    "RREM": {
+      "name": "Réservé pour retrait",
+      "definition": "Solde de titres réservés temporairement sur le compte du SPA avant d'être effectivement échangés."
+    }
+  }
+}

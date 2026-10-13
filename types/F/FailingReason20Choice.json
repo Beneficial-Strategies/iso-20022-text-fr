@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingReason20Choice",
+  "definition": "Choix du format du motif de défaut.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction a un statut de défaut de règlement."
+    },
+    "Proprietary": {
+      "definition": "Précise le motif pour lequel l'instruction a un statut de défaut de règlement."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalChequeCancellationReason1Code",
+  "definition": "Indique le code externe de motif d'annulation de chèque, sous la forme d'une chaîne de caractères d'une longueur maximale de 4 caractères.|La liste des codes valides est un jeu de codes externe publié séparément.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Demandé par le client",
+      "definition": "Le client a demandé l'arrêt/l'annulation du chèque."
+    },
+    "LOST": {
+      "name": "Perdu",
+      "definition": "Le chèque a été volé/perdu."
+    },
+    "FRAD": {
+      "name": "Fraude",
+      "definition": "Le chèque a été émis frauduleusement."
+    },
+    "DUPL": {
+      "name": "Duplicata",
+      "definition": "Le chèque a été émis en double d'un autre chèque."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Le motif est fourni sous forme d'information narrative dans les informations complémentaires sur le motif."
+    }
+  }
+}

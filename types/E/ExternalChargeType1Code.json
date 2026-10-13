@@ -1,0 +1,62 @@
+{
+  "isoType": "ExternalChargeType1Code",
+  "definition": "Précise la nature ou l'utilisation des frais, sous la forme d'une chaîne de caractères de 4 caractères maximum.|La liste des codes valides est une liste de codes externe publiée séparément.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "BRKF": {
+      "name": "Frais de courtage",
+      "definition": "Frais payés à un courtier pour les services fournis."
+    },
+    "BTCH": {
+      "name": "Lot",
+      "definition": "Commission payée pour le traitement d'un lot d'opérations."
+    },
+    "COMM": {
+      "name": "Commission",
+      "definition": "Commission payée pour les services fournis."
+    },
+    "SUMM": {
+      "name": "Cumul",
+      "definition": "Somme des commissions individuelles."
+    },
+    "AMND": {
+      "name": "Modification",
+      "definition": "L'ordre de paiement a été modifié à la demande de la banque émettrice (d'origine) ou à la suite de la réception d'informations modifiées de la banque émettrice (d'origine)."
+    },
+    "CFEE": {
+      "name": "Frais d'annulation",
+      "definition": "Utilisé lorsque des commissions sont facturées pour l'annulation d'un paiement."
+    },
+    "CLEF": {
+      "name": "Frais de compensation",
+      "definition": "Utilisé lorsque des commissions sont facturées pour le traitement standard des virements entre établissements financiers."
+    },
+    "INVS": {
+      "name": "Recherche",
+      "definition": "Frais liés au traitement d'un dossier d'enquête/de demande."
+    },
+    "INTE": {
+      "name": "Intérêts",
+      "definition": "Frais liés aux intérêts."
+    },
+    "NSTP": {
+      "name": "Frais hors STP",
+      "definition": "Frais pour un paiement ayant nécessité une intervention pendant le traitement."
+    },
+    "DEBT": {
+      "name": "Supportés par le débiteur",
+      "definition": "Une réclamation est soumise en réponse à la réception d'un virement client avec DEBT dans le code de frais."
+    },
+    "TELE": {
+      "name": "Frais de télécommunication",
+      "definition": "Frais relatifs au moyen de télécommunication le plus approprié et le plus efficace disponible, par exemple SWIFT, télex, téléphone, télécopie, tel que déterminé par la partie exécutant l'instruction de paiement."
+    },
+    "ACCM": {
+      "name": "Frais de tenue de compte",
+      "definition": "Frais de tenue de compte."
+    },
+    "RECH": {
+      "name": "Frais de reporting",
+      "definition": "Frais pour un message de reporting (camt.05X)."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "CancellationProcessingStatus3Code",
+  "definition": "Précise le statut d'une demande d'annulation.",
+  "isoCodes": {
+    "CANP": {
+      "name": "Annulation en attente",
+      "definition": "L'annulation est en attente. On ignore pour l'instant si elle peut être effectuée."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "L'annulation a été rejetée pour la suite du traitement."
+    },
+    "REPR": {
+      "name": "En réparation",
+      "definition": "La demande d'annulation est en réparation."
+    },
+    "PACK": {
+      "name": "Accepté",
+      "definition": "La demande d'annulation a été acceptée pour la suite du traitement par l'établissement teneur de compte."
+    },
+    "DEND": {
+      "name": "Refusé",
+      "definition": "L'annulation ne sera pas exécutée."
+    },
+    "CAND": {
+      "name": "Annulation terminée",
+      "definition": "L'annulation a été effectuée."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "AccountStatusUpdateInstruction1Code",
+  "definition": "Précise le type de mise à jour du statut du compte ayant fait l'objet d'une instruction.",
+  "isoCodes": {
+    "CLOS": {
+      "name": "Clôture",
+      "definition": "Le compte doit être clos."
+    },
+    "REAC": {
+      "name": "Réactivation",
+      "definition": "Le compte doit être réactivé, toute instruction antérieure de clore le compte est annulée."
+    }
+  }
+}

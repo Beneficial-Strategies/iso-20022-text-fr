@@ -1,0 +1,21 @@
+{
+  "isoType": "ExternalAccountIdentification1Code",
+  "isoCodes": {
+    "AIIN": {
+      "name": "Numéro d'identification de l'émetteur",
+      "definition": "Numéro d'identification de l'émetteur (IIN) - identifie un établissement émetteur de cartes dans un environnement d'échange international. Attribué par l'ABA (American Bankers Association)."
+    },
+    "BBAN": {
+      "name": "Identifiant BBAN",
+      "definition": "Numéro de compte bancaire de base (BBAN) - identifiant utilisé à l'échelle nationale par les établissements financiers, c'est-à-dire dans chaque pays, généralement dans le cadre d'un ou plusieurs systèmes nationaux de numérotation des comptes, pour identifier de manière unique le compte d'un client."
+    },
+    "CUID": {
+      "name": "Identifiant universel CHIPS",
+      "definition": "(États-Unis) Identification universelle (UID) du Clearing House Interbank Payments System (CHIPS) - identifie les entités titulaires de comptes auprès des établissements financiers participant au CHIPS, par lesquels les paiements CHIPS sont effectués. L'UID CHIPS est attribuée par le New York Clearing House."
+    },
+    "UPIC": {
+      "name": "Identifiant UPIC",
+      "definition": "Code d'identification universel de paiement (UPIC) - identifiant utilisé par le New York Clearing House pour masquer des données confidentielles, telles que les comptes bancaires et les numéros d'acheminement bancaires. Les numéros UPIC restent attachés aux clients entreprises, quels que soient les changements de relation bancaire."
+    }
+  }
+}

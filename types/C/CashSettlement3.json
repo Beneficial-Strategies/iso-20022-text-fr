@@ -1,0 +1,12 @@
+{
+  "isoType": "CashSettlement3",
+  "definition": "Parties et comptes de règlement en espèces.",
+  "isoElements": {
+    "CashAccountDetails": {
+      "definition": "Compte à créditer ou à débiter. S'il s'agit d'un compte à débiter, c'est pour le paiement d'une souscription à un fonds d'investissement, d'un paiement de plan d'épargne, de l'achat de titres ou du paiement de frais. S'il s'agit d'un compte à créditer, c'est pour le paiement d'un montant résultant du rachat de parts de fonds d'investissement, de la vente de titres, de paiements d'intérêts et de dividendes. Un seul compte peut être indiqué pour tous les mouvements d'espèces sur le compte, ou des comptes espèces peuvent être indiqués pour des types d'opérations spécifiques sur le compte."
+    },
+    "OtherCashSettlementDetails": {
+      "definition": "Mode de paiement autre qu'un compte espèces."
+    }
+  }
+}

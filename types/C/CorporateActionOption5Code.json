@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionOption5Code",
+  "definition": "Précise les options d'événement sur titres offertes au titulaire du compte.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Espèces",
+      "definition": "Option de choisir un paiement en espèces."
+    },
+    "SECU": {
+      "name": "Titre",
+      "definition": "Distribution de titres aux porteurs."
+    }
+  }
+}

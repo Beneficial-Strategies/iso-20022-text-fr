@@ -1,0 +1,4 @@
+{
+  "isoType": "RequestForAccountManagementStatusReportV06",
+  "definition": "Portée|Le message RequestForAccountManagementStatusReport est envoyé par un titulaire de compte, par exemple un investisseur ou son agent désigné, au teneur de compte, par exemple un registraire, un agent de transfert, une banque dépositaire ou un dépositaire central de titres, pour demander le statut d'une AccountOpeningInstruction, d'un GetAccountDetails ou d'une AccountModificationInstruction.|Utilisation|Le message RequestForAccountManagementStatusReport est utilisé pour demander le statut de traitement d'un message AccountOpeningInstruction, GetAccountDetails ou AccountModificationInstruction précédemment envoyé, pour lequel un message AccountDetailsConfirmation n'a pas encore été reçu."
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "RateAndAmountFormat66Choice",
+  "definition": "Choix de format entre un taux, ou un type de taux et un taux, ou un montant, ou un taux non spécifié.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Valeur exprimée sous forme de taux."
+    },
+    "Amount": {
+      "definition": "La valeur est exprimée sous forme de devise et de montant."
+    },
+    "RateTypeAndRate": {
+      "definition": "La valeur est exprimée sous forme de type de taux et de taux en pourcentage."
+    }
+  }
+}

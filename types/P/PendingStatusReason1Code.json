@@ -1,0 +1,30 @@
+{
+  "isoType": "PendingStatusReason1Code",
+  "definition": "Précise le motif d'un statut en attente.",
+  "isoCodes": {
+    "KYCM": {
+      "name": "Document de connaissance du client manquant",
+      "definition": "Le document de connaissance du client (KYC) est manquant."
+    },
+    "FRDM": {
+      "name": "Date de déclaration FATCA manquante",
+      "definition": "La date de déclaration FATCA est manquante."
+    },
+    "RIGH": {
+      "name": "Titulaire de droits manquant",
+      "definition": "Les informations sur le détenteur de droits sont manquantes."
+    },
+    "ATHR": {
+      "name": "Autorisation",
+      "definition": "Une autorisation est requise."
+    },
+    "ATHP": {
+      "name": "Autorisé mais en attente",
+      "definition": "L'autorisation est fournie mais la modification du compte est toujours en attente."
+    },
+    "MODI": {
+      "name": "Modification en cours",
+      "definition": "La modification des données du compte est en cours."
+    }
+  }
+}

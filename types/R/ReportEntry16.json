@@ -1,0 +1,68 @@
+{
+  "isoType": "ReportEntry16",
+  "definition": "Fournit des détails supplémentaires sur une écriture du relevé.",
+  "isoElements": {
+    "EntryReference": {
+      "definition": "Référence unique de l'écriture."
+    },
+    "Amount": {
+      "definition": "Montant d'argent de l'écriture de trésorerie."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si l'écriture est une écriture de crédit ou de débit."
+    },
+    "ReversalIndicator": {
+      "definition": "Indique si l'écriture résulte ou non d'une annulation.|Utilisation : cet élément ne doit être présent que si l'écriture résulte d'une annulation.|Si CreditDebitIndicator est CRDT et que ReversalIndicator est Yes, l'opération d'origine était une écriture de débit.|Si CreditDebitIndicator est DBIT et que ReversalIndicator est Yes, l'opération d'origine était une écriture de crédit."
+    },
+    "Status": {
+      "definition": "Statut d'une écriture dans les livres du teneur de compte."
+    },
+    "BookingDate": {
+      "definition": "Date et heure auxquelles une écriture est passée sur un compte dans les livres du teneur de compte.||Utilisation : la date de comptabilisation est la date de comptabilisation prévue, sauf si le statut est comptabilisé, auquel cas il s'agit de la date de comptabilisation effective."
+    },
+    "ValueDate": {
+      "definition": "Date et heure auxquelles les avoirs deviennent disponibles pour le titulaire du compte dans le cas d'une écriture de crédit, ou cessent d'être disponibles pour le titulaire du compte dans le cas d'une écriture de débit.|Utilisation : si le statut de l'écriture est en attente et qu'une date de valeur est présente, la date de valeur correspond à une date de valeur prévue/demandée.|Pour les écritures soumises à disponibilité/flottant et pour lesquelles des informations de disponibilité sont fournies, la date de valeur ne doit pas être utilisée. Dans ce cas, le composant de disponibilité identifie le nombre de jours de disponibilité."
+    },
+    "AccountServicerReference": {
+      "definition": "Référence unique attribuée par l'établissement teneur de compte pour identifier sans ambiguïté l'écriture."
+    },
+    "Availability": {
+      "definition": "Indique le moment où le montant comptabilisé deviendra disponible, c'est-à-dire accessible et producteur d'intérêts. ||Utilisation : ce type d'information est utilisé aux US et est lié à des instruments particuliers tels que les chèques.|Exemple : lorsqu'un chèque est déposé, il est comptabilisé le jour du dépôt, mais le montant ne sera accessible qu'à partir du jour de disponibilité indiqué (conformément à la réglementation bancaire nationale)."
+    },
+    "BankTransactionCode": {
+      "definition": "Ensemble d'éléments permettant d'identifier complètement le type d'opération sous-jacente donnant lieu à une écriture."
+    },
+    "CommissionWaiverIndicator": {
+      "definition": "Indique si l'opération est exonérée de commission."
+    },
+    "AdditionalInformationIndicator": {
+      "definition": "Indique si les détails de l'opération sous-jacente sont fournis par un message distinct, comme dans le cas des comptabilisations agrégées."
+    },
+    "AmountDetails": {
+      "definition": "Fournit des informations sur le montant d'origine.||Utilisation : ce composant (au niveau de l'écriture) doit être utilisé lorsqu'un montant d'origine total de la remise groupée ou agrégé doit être fourni. Si nécessaire, les montants d'origine individuels peuvent être inclus dans le même composant au niveau des détails de l'opération."
+    },
+    "Charges": {
+      "definition": "Fournit des informations sur les frais, préavisés ou inclus dans le montant de l'écriture.||Utilisation : ce composant est utilisé au niveau de l'écriture dans le cas de remises groupées ou de comptabilisations agrégées."
+    },
+    "TechnicalInputChannel": {
+      "definition": "Canal utilisé pour saisir techniquement l'instruction relative à l'écriture."
+    },
+    "Interest": {
+      "definition": "Fournit des détails sur le montant d'intérêts inclus dans le montant de l'écriture.||Utilisation : ce composant est utilisé au niveau de l'écriture dans le cas de remises groupées ou de comptabilisations agrégées."
+    },
+    "CardTransaction": {
+      "definition": "Fournit les détails de l'opération de carte incluse dans le montant de l'écriture, lorsqu'elle est globalisée par le teneur de compte."
+    },
+    "EntryDetails": {
+      "definition": "Fournit des détails sur l'écriture."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Détails supplémentaires de l'écriture."
+    }
+  },
+  "isoRules": {
+    "ReferenceGuideline": {
+      "definition": "Au moins une référence devrait être présente pour identifier la ou les opérations sous-jacentes."
+    }
+  }
+}

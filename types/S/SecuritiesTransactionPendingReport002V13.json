@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesTransactionPendingReport002V13",
+  "definition": "Scope|SecuritiesTransactionPendingReport est envoyé par un teneur de compte à un titulaire de compte pour fournir, à un moment donné, le détail des augmentations et diminutions de positions en attente, pour tout ou partie des titres d'un compte de conservation spécifié, pour tout ou partie des motifs pour lesquels l'opération est en attente. |La relation teneur de compte/titulaire de compte peut être la suivante :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement agissant pour le compte de ses participants|- un agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou |- un conservateur agissant pour le compte d'un établissement de gestion de placements ou d'un courtier/négociateur.||Usage|Le relevé peut également inclure des opérations de règlement futur ou à terme devenues contraignantes pour le titulaire du compte.|Le message peut également servir à :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments correspondants de l'en-tête applicatif métier (Business Application Header).",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur l'utilisation de ce message.|Ces pratiques de marché sont disponibles sur www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

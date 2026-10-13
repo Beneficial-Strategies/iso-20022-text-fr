@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditorReferenceType2Choice",
+  "definition": "Précise le type de document visé par le créancier.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de référence du créancier, tel que publié dans un ensemble externe de codes de types de référence du créancier."
+    },
+    "Proprietary": {
+      "definition": "Type de référence du créancier, sous forme propriétaire."
+    }
+  }
+}

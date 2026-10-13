@@ -1,0 +1,30 @@
+{
+  "isoType": "Header20",
+  "definition": "Informations relatives à la gestion du protocole sur un segment du chemin entre l'ATM et l'acquéreur.",
+  "isoElements": {
+    "MessageFunction": {
+      "definition": "Identifie le type de traitement lié au message."
+    },
+    "ProtocolVersion": {
+      "definition": "Version des spécifications du protocole de l'ATM."
+    },
+    "ExchangeIdentification": {
+      "definition": "Identification unique d'une occurrence d'échange."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "InitiatingParty": {
+      "definition": "Identification unique du partenaire ayant initié l'échange."
+    },
+    "RecipientParty": {
+      "definition": "Identification unique du partenaire destinataire de l'échange de messages."
+    },
+    "ProcessState": {
+      "definition": "État de l'expéditeur du message dans le flux de traitement."
+    },
+    "Traceability": {
+      "definition": "Identification des partenaires impliqués dans l'échange entre le commerçant et l'émetteur, avec l'horodatage relatif de leurs échanges."
+    }
+  }
+}

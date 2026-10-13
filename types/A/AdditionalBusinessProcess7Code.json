@@ -1,0 +1,54 @@
+{
+  "isoType": "AdditionalBusinessProcess7Code",
+  "definition": "Précise le processus métier supplémentaire lié à un événement d'opération sur titres.",
+  "isoCodes": {
+    "CLAI": {
+      "name": "Réclamation ou compensation",
+      "definition": "Se rapporte à une réclamation sur l'événement d'opération sur titres associé."
+    },
+    "TAXR": {
+      "name": "Remboursement d'impôt",
+      "definition": "Se rapporte à un remboursement d'impôt par les autorités sur l'événement d'opération sur titres associé."
+    },
+    "ACLA": {
+      "name": "Réclamation de marché automatique",
+      "definition": "Donnera automatiquement lieu à des réclamations de marché par le teneur de compte, par exemple un dépositaire central de titres (CSD)."
+    },
+    "ATXF": {
+      "name": "Sujet à transformation",
+      "definition": "À la suite de l'opération sur titres, toutes les opérations sur le titre sous-jacent seront annulées par le système et remplacées par des opérations sur la ou les ressources de sortie."
+    },
+    "CNTR": {
+      "name": "Annulation des opérations sous-jacentes",
+      "definition": "À la suite de l'opération sur titres, toutes les opérations sur le titre sous-jacent seront annulées par le système."
+    },
+    "CONS": {
+      "name": "Consentement",
+      "definition": "Se rapporte à un consentement dans un événement d'opération sur titres autre qu'un événement de consentement (: 22F:: CAEV//CONS)."
+    },
+    "NAMC": {
+      "name": "Aucune réclamation de marché automatique ni transformation",
+      "definition": "L'événement ne donnera pas automatiquement lieu à des réclamations de marché et à des transformations par le teneur de compte, par exemple un dépositaire central de titres (CSD)."
+    },
+    "NPLE": {
+      "name": "Aucun choix fractionné",
+      "definition": "L'émetteur n'autorise qu'une seule option par position désignée."
+    },
+    "SCHM": {
+      "name": "Plan d'arrangement",
+      "definition": "Événement composant d'un plan d'arrangement : une réorganisation d'une société ou d'un groupe de sociétés, et de leur capital."
+    },
+    "PPUT": {
+      "name": "Remboursement partiel sur exercice obligatoire de l'option de vente",
+      "definition": "Échange obligatoire partiel d'une partie des obligations, dont les titres échangés sont habituellement recommercialisés. L'émetteur peut offrir aux détenteurs le droit de conserver leurs titres au lieu de les échanger. Un tirage au sort sera utilisé pour déterminer l'éligibilité à l'événement."
+    },
+    "PPRE": {
+      "name": "Préfinancement partiel",
+      "definition": "Préfinancement partiel d'un instrument de dette avant l'échéance, désigné par tirage au sort. Un nouveau titre est émis avec une date d'échéance antérieure pour la partie refinancée (partie rappelée) et l'autre nouveau titre est émis avec la date d'échéance d'origine pour la partie non refinancée (partie restante). Applicable uniquement dans le cadre d'un événement d'opération sur titres de défaisance partielle."
+    },
+    "FPRE": {
+      "name": "Préfinancement intégral",
+      "definition": "Préfinancement intégral d'un instrument de dette par l'émetteur avant l'échéance initiale, lorsque l'émetteur dépose des actifs en fiducie. Applicable uniquement dans le cadre d'un événement sur titres de défaisance partielle."
+    }
+  }
+}

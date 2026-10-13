@@ -1,0 +1,15 @@
+{
+  "isoType": "ContactIdentificationAndAddress2",
+  "definition": "Entité humaine, par opposition à une entité d'entreprise (parfois appelée « personne morale »).",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "Role": {
+      "definition": "Rôle de la partie dans le paiement."
+    },
+    "CommunicationAddress": {
+      "definition": "Numéro ou adresse virtuelle utilisés pour la communication."
+    }
+  }
+}

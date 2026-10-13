@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationProcessingStatus8Choice",
+  "definition": "Choix du statut de traitement de l'annulation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fournit le statut d'une demande d'annulation."
+    },
+    "Proprietary": {
+      "definition": "Fournit le statut d'une demande d'annulation."
+    }
+  }
+}

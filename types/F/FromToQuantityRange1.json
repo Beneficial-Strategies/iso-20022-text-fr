@@ -1,0 +1,12 @@
+{
+  "isoType": "FromToQuantityRange1",
+  "definition": "Plage de quantités.",
+  "isoElements": {
+    "FromQuantity": {
+      "definition": "Limite inférieure d'une plage de valeurs de quantité."
+    },
+    "ToQuantity": {
+      "definition": "Limite supérieure d'une plage de valeurs de quantité."
+    }
+  }
+}

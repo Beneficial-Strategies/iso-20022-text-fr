@@ -1,0 +1,15 @@
+{
+  "isoType": "DocumentIdentification32",
+  "definition": "Identification d'un document ainsi que le numéro du document et le type de lien.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiant unique du document (message) attribué soit par le teneur de compte, soit par le titulaire du compte."
+    },
+    "DocumentNumber": {
+      "definition": "Identification du type de document."
+    },
+    "LinkageType": {
+      "definition": "Précise quand ce document doit être traité par rapport à un autre document référencé."
+    }
+  }
+}

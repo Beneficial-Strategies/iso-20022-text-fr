@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitQuery5",
+  "definition": "Définit les critères de la requête.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Spécifie le type d'éléments correspondants à renvoyer dans la réponse à la requête."
+    },
+    "LimitCriteria": {
+      "definition": "Définit les critères de requête sur la limite."
+    }
+  }
+}

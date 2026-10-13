@@ -1,0 +1,18 @@
+{
+  "isoType": "Algorithm14Code",
+  "definition": "Algorithmes cryptographiques pour les signatures numériques.",
+  "isoCodes": {
+    "ERS2": {
+      "name": "SHA256WithRSA",
+      "definition": "Algorithmes de signature avec RSA, utilisant l'algorithme de condensé SHA-256 - (identifiant d'objet ASN.1 : sha256WithRSAEncryption)."
+    },
+    "ERS1": {
+      "name": "SHA1WithRSA",
+      "definition": "Algorithmes de signature DEPRECATEDS avec RSA (PKCS #1 version 2.1), utilisant l'algorithme de condensé SHA-1 - (identifiant d'objet ASN.1 : sha1WithRSAEncryption)."
+    },
+    "RPSS": {
+      "name": "RSASSA-PSS",
+      "definition": "Algorithme de signature avec appendice, schéma de signature probabiliste (PKCS #1 version 2.1), - (identifiant d'objet ASN.1 : id-RSASSA-PSS)."
+    }
+  }
+}

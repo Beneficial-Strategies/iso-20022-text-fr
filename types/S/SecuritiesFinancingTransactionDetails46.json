@@ -1,0 +1,90 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails46",
+  "definition": "Détails de la clôture de l'opération de financement sur titres.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "definition": "Identification non ambiguë de la transaction de financement sur titres sous-jacente, telle qu'attribuée par la partie instructrice. L'identification est commune à toutes les composantes de garantie (une ou plusieurs)."
+    },
+    "ClosingLegIdentification": {
+      "definition": "Identification non ambiguë de la seconde jambe de l'opération, telle que connue du titulaire du compte (ou de la partie instructrice agissant en son nom)."
+    },
+    "TerminationDate": {
+      "definition": "Date/heure de clôture ou date/heure d'échéance de l'opération."
+    },
+    "RateChangeDate": {
+      "definition": "Date/heure à laquelle le changement de taux a eu lieu."
+    },
+    "EarliestCallBackDate": {
+      "definition": "Date/heure au plus tôt à laquelle le rappel peut avoir lieu."
+    },
+    "CommissionCalculationDate": {
+      "definition": "Date/heure à laquelle la commission est calculée."
+    },
+    "RateType": {
+      "definition": "Précise si le taux est fixe ou variable."
+    },
+    "Revaluation": {
+      "definition": "Précise si la position de garantie doit faire l'objet d'une réévaluation automatique par le teneur de compte."
+    },
+    "LegalFramework": {
+      "definition": "Cadre juridique de l'opération."
+    },
+    "InterestComputationMethod": {
+      "definition": "Identifie la méthode de calcul des intérêts courus de l'instrument financier concerné."
+    },
+    "MaturityDateModification": {
+      "definition": "Précise si la date d'échéance de l'opération de financement de titres peut être modifiée."
+    },
+    "InterestPayment": {
+      "definition": "Précise si les intérêts doivent être versés au preneur de garantie. Si la valeur est non, les intérêts sont versés au donneur de garantie."
+    },
+    "VariableRateSupport": {
+      "definition": "Indice ou taux de référence utilisé avec la marge pour calculer le taux de rachat."
+    },
+    "RepurchaseRate": {
+      "definition": "Taux à utiliser pour recalculer le montant de rachat."
+    },
+    "StockLoanMargin": {
+      "definition": "Majoration en pourcentage sur la contrepartie d'un prêt, utilisée pour refléter le risque du prêteur."
+    },
+    "SecuritiesHaircut": {
+      "definition": "Décote ou facteur de valorisation du titre, exprimé en pourcentage."
+    },
+    "ChargesRate": {
+      "definition": "Taux d'intérêt payé dans le contexte d'une opération de financement de titres."
+    },
+    "PricingRate": {
+      "definition": "Taux d'intérêt à payer sur le montant de l'opération, tel que convenu entre les contreparties."
+    },
+    "Spread": {
+      "definition": "Écart de rachat exprimé sous forme de taux ; marge au-dessus ou au-dessous d'un indice qui détermine le taux de rachat."
+    },
+    "TransactionCallDelay": {
+      "definition": "Nombre minimal de jours de préavis dont une contrepartie a besoin pour mettre fin à l'opération."
+    },
+    "TotalNumberOfCollateralInstructions": {
+      "definition": "Nombre total d'instructions de garantie impliquées dans l'opération."
+    },
+    "DealAmount": {
+      "definition": "Montant principal d'une transaction commerciale (pour le second volet)."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Montant des intérêts courus entre les périodes de paiement des coupons."
+    },
+    "ForfeitAmount": {
+      "definition": "Montant fixe devant être payé (au lieu d'intérêts) en cas de rappel ou à la date de clôture."
+    },
+    "PremiumAmount": {
+      "definition": "Différence entre le montant du premier volet et le montant du second volet de l'opération."
+    },
+    "TerminationAmountPerPieceOfCollateral": {
+      "definition": "Montant à régler par élément de garantie pour mettre fin à l'opération."
+    },
+    "TerminationTransactionAmount": {
+      "definition": "Montant total à régler pour mettre fin à l'opération."
+    },
+    "SecondLegNarrative": {
+      "definition": "Fournit des informations supplémentaires sur la seconde jambe sous forme narrative."
+    }
+  }
+}

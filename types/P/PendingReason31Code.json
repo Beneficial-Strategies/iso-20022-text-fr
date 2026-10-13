@@ -1,0 +1,46 @@
+{
+  "isoType": "PendingReason31Code",
+  "definition": "Précise le motif pour lequel l'opération/l'instruction est en attente de règlement. Le règlement à la date de règlement instruite est encore possible.",
+  "isoCodes": {
+    "BLOC": {
+      "name": "Compte bloqué",
+      "definition": "Votre compte est bloqué ; aucune instruction ne peut être réglée sur le compte."
+    },
+    "PART": {
+      "name": "Transaction réglée en partie",
+      "definition": "L'opération sera réglée en plusieurs parties."
+    },
+    "COLL": {
+      "name": "Titres donnés en garantie",
+      "definition": "Les instruments financiers ne sont pas livrables car ils sont nantis en garantie."
+    },
+    "LINK": {
+      "name": "Instruction liée en attente",
+      "definition": "Votre instruction est en attente de règlement car l'instruction qui lui est liée est en attente."
+    },
+    "FUTU": {
+      "name": "En attente de la date de règlement",
+      "definition": "En attente de la date de règlement. Aucun problème de règlement à signaler."
+    },
+    "LACK": {
+      "name": "Défaut de titres",
+      "definition": "Instruments financiers insuffisants sur votre compte."
+    },
+    "SBLO": {
+      "name": "Titres bloqués",
+      "definition": "Les instruments financiers sont bloqués en raison d'un événement sur titres, d'un réalignement, etc."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "PRSY": {
+      "name": "Système en suspens",
+      "definition": "L'opération a été suspendue/gelée par le système."
+    },
+    "INBC": {
+      "name": "Décompte de numéros incomplet",
+      "definition": "Toutes les instructions faisant partie d'un groupe n'ont pas été reçues."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "VoteInstruction7Code",
+  "definition": "Précise un type d'instructions de vote.",
+  "isoCodes": {
+    "ABST": {
+      "name": "Abstention",
+      "definition": "Vote actif exprimé comme une abstention (sans opinion)."
+    },
+    "CAGS": {
+      "name": "Contre",
+      "definition": "Vote contre une résolution de l'assemblée."
+    },
+    "AMGT": {
+      "name": "Contre la direction",
+      "definition": "L'instruction de vote va à l'encontre des recommandations de vote de la direction."
+    },
+    "BLNK": {
+      "name": "Blanc",
+      "definition": "Le vote est exprimé comme vide, mais il est comptabilisé."
+    },
+    "CFOR": {
+      "name": "Pour",
+      "definition": "Vote en faveur d'une résolution de l'assemblée."
+    },
+    "NOAC": {
+      "name": "Aucune action",
+      "definition": "Ne pas voter."
+    },
+    "ONEY": {
+      "name": "Un an",
+      "definition": "Vote en faveur pour un an pour une résolution de type « say on pay »."
+    },
+    "THRY": {
+      "name": "Trois ans",
+      "definition": "Vote en faveur pour trois ans pour une résolution de type « say on pay »."
+    },
+    "TWOY": {
+      "name": "Deux ans",
+      "definition": "Vote en faveur pour deux ans pour une résolution de type « say on pay »."
+    },
+    "WTHH": {
+      "name": "Retenir",
+      "definition": "Un participant à une assemblée retient son vote sur une résolution de l'assemblée. Cette action est généralement entreprise pour indiquer un fort désaccord avec une résolution (marché US)."
+    },
+    "WMGT": {
+      "name": "Avec la direction",
+      "definition": "L'instruction de vote est conforme aux recommandations de vote de la direction."
+    }
+  }
+}

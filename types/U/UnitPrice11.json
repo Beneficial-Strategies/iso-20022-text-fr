@@ -1,0 +1,26 @@
+{
+  "isoType": "UnitPrice11",
+  "definition": "Montant pour lequel des biens ou des services sont offerts, vendus ou achetés.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type et informations relatifs à un prix."
+    },
+    "ExtendedType": {
+      "definition": "Type et informations relatifs à un prix."
+    },
+    "Value": {
+      "definition": "Valeur du prix, p. ex. sous la forme d'une devise et d'une valeur."
+    },
+    "PriceMethod": {
+      "definition": "Type de méthode de calcul du prix."
+    }
+  },
+  "isoRules": {
+    "TypeOrExtendedTypeRule": {
+      "definition": "Type ou ExtendedType doit être présent, mais pas les deux."
+    },
+    "TypeOrExtendedTypeRuleNotBoth": {
+      "definition": "Type ou ExtendedType doit être présent, mais pas les deux."
+    }
+  }
+}

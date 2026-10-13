@@ -1,0 +1,12 @@
+{
+  "isoType": "Period2",
+  "definition": "Période définie par une date et une heure de début, et une date et une heure de fin.",
+  "isoElements": {
+    "FromDate": {
+      "definition": "Date et heure de début de la plage."
+    },
+    "ToDate": {
+      "definition": "Date et heure de fin de la plage."
+    }
+  }
+}

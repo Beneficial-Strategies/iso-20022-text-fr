@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionChangeTypeFormat5Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type de modification d'un événement d'opération sur titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type de modifications."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de modifications."
+    }
+  }
+}

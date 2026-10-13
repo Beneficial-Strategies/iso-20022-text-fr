@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneralBusinessOrError7Choice",
+  "definition": "Sert à fournir à tout ou partie des membres des informations relatives au traitement du système.",
+  "isoElements": {
+    "OperationalError": {
+      "definition": "Indique qu'une erreur opérationnelle a été émise lors du traitement de la demande associée."
+    },
+    "BusinessReport": {
+      "definition": "Rapporte soit sur les informations métier, soit sur une erreur métier."
+    }
+  }
+}

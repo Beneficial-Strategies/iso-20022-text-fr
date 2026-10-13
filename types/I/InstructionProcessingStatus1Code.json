@@ -1,0 +1,134 @@
+{
+  "isoType": "InstructionProcessingStatus1Code",
+  "definition": "Précise le statut d'une instruction.",
+  "isoCodes": {
+    "CAN1": {
+      "name": "Annulation 1",
+      "definition": "Annulation en attente ; un seul côté a été saisi et une demande d'annulation a été envoyée."
+    },
+    "CAN2": {
+      "name": "Annulation 2",
+      "definition": "Annulation en attente ; les deux côtés ont été saisis, la transaction n'a pas encore été appariée et un côté a envoyé une demande d'annulation."
+    },
+    "CAN3": {
+      "name": "Annulation 3",
+      "definition": "Annulation en attente ; les deux côtés ont été saisis, la transaction est appariée et un côté a envoyé une demande d'annulation."
+    },
+    "CAND": {
+      "name": "Annulé",
+      "definition": "L'instruction a été annulée."
+    },
+    "CANO": {
+      "name": "Annulé par une autre partie",
+      "definition": "L'instruction a été annulée par une partie autre que la partie instructrice, par exemple une infrastructure de marché telle qu'une bourse."
+    },
+    "CANP": {
+      "name": "Annulation en attente",
+      "definition": "Votre demande d'annulation de cette instruction est en attente de traitement ultérieur."
+    },
+    "CGEN": {
+      "name": "Généré",
+      "definition": "Le teneur de compte ou un tiers a créé l'opération. Elle n'a pas été instruite directement par le titulaire du compte."
+    },
+    "COSE": {
+      "name": "Entièrement exécuté, confirmation envoyée",
+      "definition": "L'ordre est entièrement exécuté et la confirmation a été envoyée."
+    },
+    "CPRC": {
+      "name": "Annulation demandée",
+      "definition": "La demande d'annulation de la contrepartie est en attente de votre demande d'annulation ou de votre consentement."
+    },
+    "DFLA": {
+      "name": "Action par défaut",
+      "definition": "L'action par défaut est appliquée."
+    },
+    "DONE": {
+      "name": "Terminé",
+      "definition": "L'ordre est partiellement exécuté et aucune autre exécution n'est prévue pour la journée de négociation."
+    },
+    "DONF": {
+      "name": "Ordre partiellement exécuté",
+      "definition": "L'ordre est partiellement exécuté et aucune autre exécution n'aura lieu."
+    },
+    "EXCH": {
+      "name": "Reçu à la bourse",
+      "definition": "L'ordre a été reçu à la bourse."
+    },
+    "EXSE": {
+      "name": "Entièrement exécuté, exécution envoyée",
+      "definition": "L'ordre a été entièrement exécuté et l'exécution a été envoyée."
+    },
+    "FORC": {
+      "name": "Rejet forcé",
+      "definition": "Le message a été envoyé automatiquement par le prestataire de services pour notifier que le règlement n'aura pas lieu."
+    },
+    "FUTU": {
+      "name": "Futur",
+      "definition": "Tous les contrôles relatifs à l'instruction (hors garantie) sont réussis."
+    },
+    "INTE": {
+      "name": "Reçu chez l'intermédiaire",
+      "definition": "L'ordre a été reçu chez l'intermédiaire."
+    },
+    "NOTC": {
+      "name": "Déjà rapproché et affirmé",
+      "definition": "L'instruction ne peut pas être annulée car elle a déjà été appariée et affirmée."
+    },
+    "OPOD": {
+      "name": "Ordre ouvert",
+      "definition": "L'ordre est ouvert."
+    },
+    "OVER": {
+      "name": "Sur-alloué",
+      "definition": "La quantité d'instruments financiers de l'opération en bloc a été sur-allouée."
+    },
+    "PACK": {
+      "name": "Accusé de réception et accepté",
+      "definition": "L'instruction a été reconnue/acceptée pour traitement ultérieur par la banque tenant le compte."
+    },
+    "PAFI": {
+      "name": "Exécution partielle",
+      "definition": "L'ordre a été partiellement exécuté et la quantité restante est mise en attente."
+    },
+    "PART": {
+      "name": "Annulation partielle",
+      "definition": "L'ordre a été partiellement annulé comme demandé."
+    },
+    "PPRC": {
+      "name": "Traitement en attente",
+      "definition": "Le traitement de l'instruction est en attente."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "L'instruction a été rejetée pour traitement ultérieur."
+    },
+    "REPR": {
+      "name": "En réparation",
+      "definition": "L'instruction est acceptée mais en réparation."
+    },
+    "SESE": {
+      "name": "Instruction de règlement envoyée",
+      "definition": "L'instruction de règlement a été envoyée à votre conservateur."
+    },
+    "STIN": {
+      "name": "Instruction permanente",
+      "definition": "L'instruction permanente a été appliquée."
+    },
+    "SUSP": {
+      "name": "Négociation suspendue par la bourse",
+      "definition": "La négociation est suspendue par la bourse."
+    },
+    "TREA": {
+      "name": "Traité",
+      "definition": "L'opération a été traitée (statut de garantie tripartite)."
+    },
+    "UNDE": {
+      "name": "Sous-alloué",
+      "definition": "La quantité d'instruments financiers de l'opération en bloc a été sous-allouée."
+    },
+    "MPRC": {
+      "name": "Modification demandée",
+      "definition": "La demande de modification de la contrepartie est en attente de votre demande de modification ou de votre consentement."
+    }
+  }
+}

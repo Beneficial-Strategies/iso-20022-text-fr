@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedReason29Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le motif pour lequel l'instruction ou la demande d'annulation a un statut rejeté.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le motif pour lequel l'instruction ou la demande d'annulation a un statut rejeté."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du motif pour lequel l'instruction ou la demande d'annulation a un statut rejeté."
+    }
+  }
+}

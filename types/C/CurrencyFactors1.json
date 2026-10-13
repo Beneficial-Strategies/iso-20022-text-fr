@@ -1,0 +1,21 @@
+{
+  "isoType": "CurrencyFactors1",
+  "definition": "Facteurs propres à une devise.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Devise des montants et ratios propres à la devise sous-jacents utilisés dans le calcul de l'échéancier de versement."
+    },
+    "ShortPositionLimit": {
+      "definition": "Position vendeur maximale autorisée dans la devise pendant le règlement."
+    },
+    "MinimumPayInAmount": {
+      "definition": "Montant minimal versé en un seul paiement, sauf si la position vendeur est inférieure au minimum."
+    },
+    "VolatilityMargin": {
+      "definition": "Marge utilisée pour réduire les positions acheteur et augmenter les positions vendeur lors du calcul du risque."
+    },
+    "Rate": {
+      "definition": "Taux de change utilisé dans le calcul de l'échéancier de versement."
+    }
+  }
+}

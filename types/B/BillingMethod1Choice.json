@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingMethod1Choice",
+  "definition": "Choix entre les méthodes de calcul de la taxe A, B ou D.",
+  "isoElements": {
+    "MethodA": {
+      "definition": "Les valeurs de taxe reposent sur la méthode A de calcul de la taxe."
+    },
+    "MethodB": {
+      "definition": "Les valeurs de taxe reposent sur la méthode B de calcul de la taxe."
+    },
+    "MethodD": {
+      "definition": "Les valeurs de taxe reposent sur la méthode D de calcul de la taxe."
+    }
+  }
+}

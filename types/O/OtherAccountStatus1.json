@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherAccountStatus1",
+  "definition": "Statut d'un compte.",
+  "isoElements": {
+    "Status": {
+      "definition": "Statut du compte."
+    },
+    "Reason": {
+      "definition": "Motif du statut du compte."
+    }
+  }
+}

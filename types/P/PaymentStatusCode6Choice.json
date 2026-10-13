@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentStatusCode6Choice",
+  "definition": "Choix entre une liste de statuts en attente ou de statuts finaux.",
+  "isoElements": {
+    "Pending": {
+      "definition": "Précise davantage le statut en attente."
+    },
+    "Final": {
+      "definition": "Précise davantage le statut final."
+    },
+    "RTGS": {
+      "definition": "Précise davantage le statut RTGS."
+    },
+    "Settlement": {
+      "definition": "Précise davantage le statut de règlement."
+    },
+    "Proprietary": {
+      "definition": "Précise davantage le statut propriétaire."
+    }
+  }
+}

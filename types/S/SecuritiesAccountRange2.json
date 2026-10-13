@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAccountRange2",
+  "definition": "Précise une plage de comptes-titres.",
+  "isoElements": {
+    "From": {
+      "definition": "Numéro ou code de compte-titres à partir duquel la plage commence."
+    },
+    "To": {
+      "definition": "Numéro ou code de compte-titres auquel la plage se termine."
+    }
+  }
+}

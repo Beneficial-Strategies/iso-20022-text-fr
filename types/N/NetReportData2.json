@@ -1,0 +1,33 @@
+{
+  "isoType": "NetReportData2",
+  "definition": "Précise les métadonnées associées à un relevé de positions nettes.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identifiant unique et sans ambiguïté d'un message, attribué par l'expéditeur. Cet identifiant unique peut servir de référence croisée dans les messages ultérieurs."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure de génération du relevé de positions nettes."
+    },
+    "NettingCutOffTime": {
+      "definition": "Indique l'heure limite dépassée ayant entraîné la génération du relevé de positions nettes."
+    },
+    "ReportDate": {
+      "definition": "Précise la date de valeur à laquelle le relevé de positions nettes a été généré."
+    },
+    "ValueDate": {
+      "definition": "Précise la date de valeur des transactions utilisées pour générer le relevé de positions nettes."
+    },
+    "ReportType": {
+      "definition": "Précise le type de relevé de positions nettes, indiquant comment les obligations ont été calculées."
+    },
+    "NetReportServicer": {
+      "definition": "Décrit le système central chargé de générer le relevé de positions nettes."
+    },
+    "NetServiceType": {
+      "definition": "Décrit le type de service de compensation multilatérale à l'appui du relevé de positions nettes."
+    },
+    "MessagePagination": {
+      "definition": "Numéro de page du message (au sein du relevé de positions nettes) et indicateur de poursuite signalant que le relevé continue ou que le message est la dernière page du relevé."
+    }
+  }
+}

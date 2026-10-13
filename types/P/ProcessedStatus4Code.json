@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessedStatus4Code",
+  "definition": "Précise le statut de traitement de la demande d'annulation d'instruction permanente.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Reçu",
+      "definition": "L'instruction/la demande a été reçue."
+    },
+    "COMP": {
+      "name": "Terminé",
+      "definition": "La demande a été traitée."
+    },
+    "PEND": {
+      "name": "En attente",
+      "definition": "Le traitement de la demande est en attente."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason19FormatChoice",
+  "definition": "Choix de formats pour exprimer le motif de rejet d'une demande d'autorisation de mouvement global.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le motif de rejet d'une demande d'autorisation de mouvement global."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire exprimant le motif de rejet d'une demande d'autorisation de mouvement global."
+    }
+  }
+}

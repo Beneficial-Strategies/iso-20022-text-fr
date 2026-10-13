@@ -1,0 +1,12 @@
+{
+  "isoType": "ExchangeRateReportOrError3Choice",
+  "definition": "Sert à fournir des informations sur les données statiques tenues par l'administrateur des transactions et relatives aux détails de change, tels que tenus pour les opérations du système par l'administrateur des transactions.",
+  "isoElements": {
+    "CurrencyExchangeReport": {
+      "definition": "Rapporte sur les informations de change."
+    },
+    "OperationalError": {
+      "definition": "Indique qu'une erreur opérationnelle a été émise lors du traitement de la demande associée."
+    }
+  }
+}

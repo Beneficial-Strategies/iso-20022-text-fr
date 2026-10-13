@@ -1,0 +1,42 @@
+{
+  "isoType": "CancellationProcessingStatus1Code",
+  "definition": "Précise le statut d'une demande d'annulation.",
+  "isoCodes": {
+    "CAND": {
+      "name": "Annulation terminée",
+      "definition": "L'annulation a été effectuée."
+    },
+    "CANP": {
+      "name": "Annulation en attente",
+      "definition": "L'annulation est en attente. On ignore pour l'instant si elle peut être effectuée."
+    },
+    "DEND": {
+      "name": "Refusé",
+      "definition": "L'annulation ne sera pas exécutée."
+    },
+    "EXCH": {
+      "name": "Reçu à la bourse",
+      "definition": "L'annulation a été reçue à la bourse."
+    },
+    "INTE": {
+      "name": "Reçu chez l'intermédiaire",
+      "definition": "L'annulation a été reçue chez l'intermédiaire."
+    },
+    "PACK": {
+      "name": "Accepté",
+      "definition": "La demande d'annulation a été acceptée pour la suite du traitement par l'établissement teneur de compte."
+    },
+    "PARF": {
+      "name": "Partiellement exécuté",
+      "definition": "L'ordre est partiellement exécuté, le traitement de l'annulation est accepté pour le solde."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "L'annulation a été rejetée pour la suite du traitement."
+    },
+    "REPR": {
+      "name": "En réparation",
+      "definition": "La demande d'annulation est en réparation."
+    }
+  }
+}

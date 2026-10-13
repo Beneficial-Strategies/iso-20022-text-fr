@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalRequestStatus1Code",
+  "definition": "Indique le statut de la demande, tel que publié dans un jeu de codes externe de statuts de demande.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "RCVD": {
+      "name": "Reçu",
+      "definition": "Le message a été reçu."
+    },
+    "RJCT": {
+      "name": "Rejeté",
+      "definition": "Le message a été rejeté."
+    },
+    "ACPT": {
+      "name": "Accepté",
+      "definition": "Le message a été accepté."
+    },
+    "PDNG": {
+      "name": "En attente",
+      "definition": "Le message est en attente d'analyse et d'investigation complémentaires."
+    },
+    "PART": {
+      "name": "Partiellement accepté",
+      "definition": "Le message a été partiellement accepté."
+    }
+  }
+}

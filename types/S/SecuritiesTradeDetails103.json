@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesTradeDetails103",
+  "definition": "Détails de la transaction sur titres.",
+  "isoElements": {
+    "TradeDate": {
+      "definition": "Précise la date/l'heure d'exécution de la transaction."
+    },
+    "OpeningSettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être livrés ou reçus."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Nombre de jours pendant lesquels le taux d'intérêt court (titre à intérêts courus quotidiens)."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires sur le traitement du règlement qui ne peuvent pas être incluses dans les champs structurés du message."
+    }
+  },
+  "isoRules": {
+    "TradeDateTimeUTCRule": {
+      "definition": "Si Trade Date/Time est utilisé avec une heure ou une heure + indicateur UTC, il doit s'agir de l'heure locale du lieu de la transaction, par exemple de la bourse ou du courtier vendeur pour les opérations de gré à gré (OTC)."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Sauf accord bilatéral entre l'expéditeur et le destinataire, si InstructionProcessingAdditionalDetails est présent, il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    }
+  }
+}

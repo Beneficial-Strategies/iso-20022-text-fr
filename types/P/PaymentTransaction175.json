@@ -1,0 +1,39 @@
+{
+  "isoType": "PaymentTransaction175",
+  "definition": "Fournit des informations de référence et de statut sur les opérations d'origine, incluses dans l'instruction d'origine, auxquelles s'applique le message de demande d'annulation.",
+  "isoElements": {
+    "CancellationStatusIdentification": {
+      "definition": "Identifiant unique et sans ambiguïté d'un statut de demande d'annulation, attribué par l'attributeur.||Utilisation : l'identification du statut d'annulation peut servir au rapprochement ou à la liaison de tâches relatives à la demande d'annulation."
+    },
+    "ResolvedCase": {
+      "definition": "Identifie le dossier résolu."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identification unique, attribuée par la partie instructrice d'origine à l'intention de la partie instruite d'origine, permettant d'identifier sans ambiguïté l'instruction d'origine."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice d'origine, permettant d'identifier sans ambiguïté l'opération d'origine."
+    },
+    "UETR": {
+      "definition": "Identifiant universel unique fournissant une référence de bout en bout d'une opération de paiement."
+    },
+    "TransactionCancellationStatus": {
+      "definition": "Précise le statut de la demande d'annulation de l'opération."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Fournit des informations détaillées sur le motif du statut d'annulation."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, tel que fourni dans l'opération d'origine, avant déduction des frais, exprimé dans la devise ordonnée par la partie initiatrice d'origine.|Utilisation : ce montant doit être transporté sans modification tout au long de la chaîne d'opérations."
+    },
+    "OriginalRequestedExecutionDate": {
+      "definition": "Date à laquelle la partie initiatrice a initialement demandé à la banque de compensation de traiter le paiement."
+    },
+    "OriginalRequestedCollectionDate": {
+      "definition": "Date à laquelle le créancier a initialement demandé l'encaissement du montant auprès du débiteur."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Éléments clés servant à identifier l'opération d'origine concernée."
+    }
+  }
+}

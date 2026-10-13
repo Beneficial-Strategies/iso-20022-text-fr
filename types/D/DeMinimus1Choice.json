@@ -1,0 +1,12 @@
+{
+  "isoType": "DeMinimus1Choice",
+  "definition": "Conditions d'applicabilité de minimis.",
+  "isoElements": {
+    "DeMinimusApplicable": {
+      "definition": "Conditions applicables lorsque l'investisseur est couvert par l'exemption « de minimis »."
+    },
+    "DeMinimusNotApplicable": {
+      "definition": "Conditions applicables lorsque l'investisseur n'est pas couvert par l'exemption « de minimis »."
+    }
+  }
+}

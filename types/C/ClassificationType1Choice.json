@@ -1,0 +1,12 @@
+{
+  "isoType": "ClassificationType1Choice",
+  "definition": "Choix du format de la classification.",
+  "isoElements": {
+    "ClassificationFinancialInstrument": {
+      "definition": "Classification des instruments financiers (CFI) selon la norme ISO 10962."
+    },
+    "AlternateClassification": {
+      "definition": "Classification propriétaire de l'instrument financier."
+    }
+  }
+}

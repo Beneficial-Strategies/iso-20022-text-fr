@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryDate3",
+  "definition": "Ensemble d'éléments permettant d'identifier une date propriétaire.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type de date."
+    },
+    "Date": {
+      "definition": "Date au format ISO."
+    }
+  }
+}

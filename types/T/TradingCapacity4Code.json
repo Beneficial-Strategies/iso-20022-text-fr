@@ -1,0 +1,66 @@
+{
+  "isoType": "TradingCapacity4Code",
+  "definition": "Précise le rôle d'une partie négociatrice dans une opération.",
+  "isoCodes": {
+    "PRIN": {
+      "name": "Donneur d'ordre",
+      "definition": "Négociation en tant que principal."
+    },
+    "CPRN": {
+      "name": "Donneur d'ordre en croisement",
+      "definition": "Croisement en tant que principal."
+    },
+    "RISP": {
+      "name": "Donneur d'ordre sans risque",
+      "definition": "Négociation en tant que principal sans risque, c'est-à-dire que l'ordre d'achat (de vente) a été compensé simultanément par un ordre de vente (d'achat) avec une autre partie."
+    },
+    "PROP": {
+      "name": "Propriétaire",
+      "definition": "Négociation pour compte propre de l'entreprise. L'opération affecte le compte de l'entreprise elle-même, et non celui de ses clients."
+    },
+    "AGEN": {
+      "name": "Agent",
+      "definition": "Négociation en tant qu'agent pour le compte d'un client."
+    },
+    "CAGN": {
+      "name": "Agent en croisement",
+      "definition": "Croisement en tant qu'agent."
+    },
+    "OAGN": {
+      "name": "Autre agent",
+      "definition": "Agit en tant qu'agent pour une partie autre qu'un client."
+    },
+    "PRAG": {
+      "name": "Agent principal",
+      "definition": "Agit en tant qu'agent pour certaines exécutions et en tant que principal pour d'autres dans la même opération."
+    },
+    "BAGN": {
+      "name": "Agent agissant",
+      "definition": "Partie agissant en tant qu'agent à la fois pour un client et pour une autre personne."
+    },
+    "INFI": {
+      "name": "Entreprise d'investissement",
+      "definition": "Toute personne morale dont l'occupation ou l'activité habituelle consiste à fournir un ou plusieurs services d'investissement à des tiers et/ou à exercer une ou plusieurs activités d'investissement à titre professionnel."
+    },
+    "MKTM": {
+      "name": "Teneur de marché",
+      "definition": "Opérateur ou spécialiste qui négocie pour son propre compte sur le marché de gré à gré. Les teneurs de marché sont tenus de maintenir un marché ordonné en étant disponibles pour acheter ou vendre (OTC)."
+    },
+    "MLTF": {
+      "name": "Système multilatéral de négociation",
+      "definition": "Un système multilatéral de négociation (MTF) est un système multilatéral qui réunit de multiples intérêts acheteurs et vendeurs de tiers sur des instruments financiers, d'une manière qui aboutit à un contrat."
+    },
+    "RMKT": {
+      "name": "Marché réglementé",
+      "definition": "Marché réglementé sur lequel des instruments financiers peuvent être négociés selon des règles définies par la bourse."
+    },
+    "SINT": {
+      "name": "Internalisateur systématique",
+      "definition": "Entreprises qui, de façon organisée, fréquente et systématique, négocient pour compte propre en exécutant les ordres de clients en dehors d'un marché réglementé ou d'un MTF. Les internalisateurs systématiques ont l'obligation de fournir et de rendre publique une cotation ferme d'achat et de vente pour les titres liquides."
+    },
+    "TAGT": {
+      "name": "Agent de transfert",
+      "definition": "Partie nommée par la société de gestion du fonds. Elle met à jour les registres des comptes d'investisseurs afin de refléter les achats, rachats, échanges, transferts et réinscriptions quotidiens des investisseurs. Elle assure le règlement des opérations dans les délais et peut fournir des informations fiscales à l'investisseur et/ou à ses intermédiaires. Elle peut calculer, percevoir et rétrocéder des commissions. Elle prépare et distribue les confirmations reflétant les opérations, qui donnent lieu à des mouvements de parts ou de compte espèces pour l'investisseur ou l'intermédiaire de l'investisseur. Elle répond aux demandes concernant le statut du compte et traite la distribution des revenus."
+    }
+  }
+}

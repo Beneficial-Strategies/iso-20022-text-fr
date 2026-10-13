@@ -1,0 +1,47 @@
+{
+  "isoType": "GroupHeader131",
+  "definition": "Ensemble de caractéristiques communes à toutes les opérations individuelles incluses dans le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de bout en bout, attribuée par la partie donneuse d'ordre et envoyée à la partie suivante de la chaîne, permettant d'identifier sans ambiguïté le message.|Utilisation : la partie donneuse d'ordre doit s'assurer que MessageIdentification est unique par partie destinataire de l'ordre pendant une période convenue au préalable."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "ExpiryDateTime": {
+      "definition": "Date et heure auxquelles le paiement doit expirer s'il n'a pas été réglé."
+    },
+    "BatchBooking": {
+      "definition": "Indique si une écriture unique par opération individuelle ou une écriture groupée pour la somme des montants de toutes les opérations du groupe d'un message est demandée.|Utilisation : la remise groupée sert à demander, et non à ordonner, une éventuelle remise groupée."
+    },
+    "NumberOfTransactions": {
+      "definition": "Nombre d'opérations individuelles contenues dans le message."
+    },
+    "ControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le message, quelles que soient les devises."
+    },
+    "TotalInterbankSettlementAmount": {
+      "definition": "Montant total transféré entre la banque donneuse d'ordre et la banque destinataire de l'ordre."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour la banque qui le doit et devient disponible pour la banque à laquelle il est dû."
+    },
+    "SettlementInformation": {
+      "definition": "Précise les détails de la manière dont le règlement de la ou des opérations entre la banque donneuse d'ordre et la banque destinataire de l'ordre est effectué."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments servant à préciser davantage le type d'opération."
+    },
+    "InstructingAgent": {
+      "definition": "Agent qui charge la partie suivante de la chaîne d'exécuter la ou les instructions."
+    },
+    "InstructedAgent": {
+      "definition": "Agent chargé par la partie précédente de la chaîne d'exécuter la ou les instructions."
+    }
+  },
+  "isoRules": {
+    "TotalInterbankSettlementAmountAndDateRule": {
+      "definition": "Si TotalInterbankSettlementAmount est présent, alors InterbankSettlementDate doit être présent."
+    }
+  }
+}

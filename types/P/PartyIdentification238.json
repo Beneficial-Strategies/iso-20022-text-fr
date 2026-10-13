@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentification238",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nom et adresse de la partie."
+    },
+    "EmailAddress": {
+      "definition": "Adresse de courrier électronique (e-mail)."
+    },
+    "Identification": {
+      "definition": "Identification locale et type de la personne physique."
+    },
+    "Nationality": {
+      "definition": "Nationalité de la personne."
+    },
+    "DateAndPlaceOfBirth": {
+      "definition": "Date et lieu de naissance d'une personne née."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "IntraPosition6",
+  "definition": "Détails du mouvement intra-position.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instruments financiers représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantité totale de titres à régler."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être déplacés."
+    },
+    "BalanceFrom": {
+      "definition": "Solde d'où les titres sont déplacés."
+    },
+    "BalanceTo": {
+      "definition": "Solde vers lequel les titres sont déplacés."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Numéro identifiant un lot constituant le sous-solde."
+    },
+    "Priority": {
+      "definition": "Précise si l'opération doit être exécutée avec une priorité élevée."
+    }
+  }
+}

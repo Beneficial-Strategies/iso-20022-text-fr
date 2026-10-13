@@ -1,0 +1,9 @@
+{
+  "isoType": "MessageReference",
+  "definition": "Référence de message pertinente pour le présent message.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Référence commerciale du présent message attribuée par la partie qui l'émet. Cette référence doit être unique parmi tous les messages du même nom envoyés par la même partie."
+    }
+  }
+}

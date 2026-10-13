@@ -1,0 +1,18 @@
+{
+  "isoType": "BilateralLimit4",
+  "definition": "Caractéristiques et valeurs définies pour une limite bilatérale, y compris la contrepartie à laquelle la limite s'applique.",
+  "isoElements": {
+    "CounterpartyIdentification": {
+      "definition": "Identification unique et non équivoque d'un membre au sein d'un système, attribuée selon le schéma d'identification des membres du système."
+    },
+    "LimitAmount": {
+      "definition": "Montant de la limite, exprimé dans une devise éligible."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si une limite est une limite de débit ou une limite de crédit."
+    },
+    "BilateralBalance": {
+      "definition": "Solde calculé à l'égard d'un membre du système."
+    }
+  }
+}

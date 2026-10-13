@@ -1,0 +1,18 @@
+{
+  "isoType": "ExchangeRateType1Code",
+  "definition": "Précise un type de document financier ou commercial.",
+  "isoCodes": {
+    "SPOT": {
+      "name": "Au comptant",
+      "definition": "Le taux de change appliqué est le taux au comptant."
+    },
+    "SALE": {
+      "name": "Vente",
+      "definition": "Le taux de change appliqué est le taux du marché au moment de la vente."
+    },
+    "AGRD": {
+      "name": "Convenu",
+      "definition": "Le taux de change appliqué est le taux convenu entre les parties."
+    }
+  }
+}

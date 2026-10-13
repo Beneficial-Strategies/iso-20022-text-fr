@@ -1,0 +1,14 @@
+{
+  "isoType": "ElectionMovementType1Code",
+  "definition": "Indique l'effet sur les avoirs de l'élection d'une option d'opération sur titres.",
+  "isoCodes": {
+    "REST": {
+      "name": "Restreint",
+      "definition": "L'élection entraîne un changement de type de solde qui transfère le contrôle des titres plutôt que les titres eux-mêmes."
+    },
+    "DRCT": {
+      "name": "Direct",
+      "definition": "Mouvement direct de ressources, c'est-à-dire de numéraire ou de titres, directement crédité sur le compte de l'agent payeur."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "isoType": "ATMCommand7Code",
+  "definition": "Type de commande exécutée par l'ATM.",
+  "isoCodes": {
+    "ABAL": {
+      "name": "Solde du DAB",
+      "definition": "Fournir les compteurs de l'ATM, en réinitialisant ceux qui sont applicables."
+    },
+    "ASTS": {
+      "name": "Mise à jour du statut du DAB",
+      "definition": "Statut de l'ATM requis par le gestionnaire de l'ATM."
+    },
+    "CFGT": {
+      "name": "Mise à jour de la configuration",
+      "definition": "Mettre à jour les paramètres de configuration de l'ATM."
+    },
+    "CCNT": {
+      "name": "Consultation des compteurs",
+      "definition": "Demander la valeur des compteurs de l'ATM."
+    },
+    "DISC": {
+      "name": "Déconnexion",
+      "definition": "Effectuer une déconnexion suivie d'une reconnexion."
+    },
+    "KACT": {
+      "name": "Activation de clé",
+      "definition": "Activer les clés cryptographiques."
+    },
+    "KDAC": {
+      "name": "Désactivation de clé",
+      "definition": "Désactiver les clés cryptographiques."
+    },
+    "KDWL": {
+      "name": "Téléchargement de clé",
+      "definition": "Démarrer un téléchargement de clés cryptographiques."
+    },
+    "KRMV": {
+      "name": "Suppression de clé",
+      "definition": "Supprimer les clés cryptographiques."
+    },
+    "SCFU": {
+      "name": "Mise à jour de la configuration du dispositif de sécurité",
+      "definition": "Mettre à jour la configuration du module matériel de sécurité de l'ATM."
+    },
+    "SSCU": {
+      "name": "Mise à jour du schéma du dispositif de sécurité",
+      "definition": "Mettre à jour le schéma de sécurité du module matériel de sécurité de l'ATM."
+    },
+    "SSTU": {
+      "name": "Mise à jour du statut du dispositif de sécurité",
+      "definition": "Mettre à jour le statut du module matériel de sécurité de l'ATM."
+    },
+    "SNDM": {
+      "name": "Envoi de message",
+      "definition": "Envoyer un message spécifique pour initier un traitement."
+    },
+    "HKCG": {
+      "name": "Remplacement de clé HLA",
+      "definition": "Remplacer une clé existante à l'aide d'une clé d'autorité de niveau supérieur (HLA). Dans le schéma TR34, ceci serait utilisé pour mettre en œuvre une opération HLA Rebind."
+    },
+    "HKRV": {
+      "name": "Suppression de clé HLA",
+      "definition": "Supprimer une clé cryptographique à l'aide d'une clé d'autorité de niveau supérieur (HLA). Dans le schéma TR34, ceci serait utilisé pour mettre en œuvre une opération HLA Unbind."
+    },
+    "KCHG": {
+      "name": "Remplacement de clé",
+      "definition": "Remplace une clé cryptographique existante. Dans un schéma TR34, ceci serait utilisé pour mettre en œuvre une opération Rebind."
+    },
+    "RREQ": {
+      "name": "Demande de rapprochement",
+      "definition": "Envoyer un message ReconciliationRequest."
+    }
+  }
+}

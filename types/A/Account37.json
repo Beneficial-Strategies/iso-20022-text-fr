@@ -1,0 +1,27 @@
+{
+  "isoType": "Account37",
+  "definition": "Compte entre un ou plusieurs investisseurs et une société de gestion ou un fonds. Le compte peut contenir des avoirs dans tout fonds d'investissement ou toute catégorie de fonds d'investissement géré (ou distribué) par la société de gestion, au sein de la même famille de fonds.",
+  "isoElements": {
+    "OwnerIdentification": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "AccountIdentification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "Designation": {
+      "definition": "Informations d'enregistrement complémentaires s'appliquant à un bloc spécifique de parts à des fins de traitement et de déclaration. Ces informations d'enregistrement complémentaires peuvent être utilisées lorsque toutes les parts sont enregistrées, par exemple, auprès d'un supermarché de fonds, mais que les avoirs de chaque investisseur doivent être rapprochés individuellement."
+    },
+    "AccountName": {
+      "definition": "Nom du compte. Il constitue un moyen supplémentaire d'identification et est désigné par le teneur de compte en accord avec le titulaire du compte."
+    },
+    "Servicer": {
+      "definition": "Établissement qui tient les registres où le compte est détenu."
+    },
+    "SubAccountDetails": {
+      "definition": "Sous-compte du compte principal ou global."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Compte numérique où des actifs numériques ou des jetons numériques peuvent être stockés et où une inscription est effectuée."
+    }
+  }
+}

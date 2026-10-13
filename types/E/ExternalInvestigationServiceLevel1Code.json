@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalInvestigationServiceLevel1Code",
+  "definition": "Précise le niveau de service de l'enquête, tel que publié dans un ensemble externe de codes de niveaux de service d'enquête.|Les ensembles de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "R01D": {
+      "name": "Répondre sous un jour ouvrable",
+      "definition": "Réponse attendue sous un jour ouvré."
+    },
+    "R03D": {
+      "name": "Répondre sous trois jours ouvrables",
+      "definition": "Réponse attendue sous trois jours ouvrés."
+    },
+    "R05D": {
+      "name": "Répondre sous cinq jours ouvrables",
+      "definition": "Réponse attendue sous cinq jours ouvrés."
+    },
+    "R10D": {
+      "name": "Répondre sous dix jours ouvrables",
+      "definition": "Réponse attendue sous dix jours ouvrés."
+    },
+    "R15D": {
+      "name": "Répondre sous quinze jours ouvrables",
+      "definition": "Réponse attendue sous quinze jours ouvrés."
+    }
+  }
+}

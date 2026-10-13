@@ -1,0 +1,26 @@
+{
+  "isoType": "ATMPropertyType1Code",
+  "definition": "Type d'encodage de la propriété.",
+  "isoCodes": {
+    "STRG": {
+      "name": "Chaîne de caractères",
+      "definition": "La propriété est encodée sous forme de chaîne de caractères."
+    },
+    "NMBR": {
+      "name": "Nombre",
+      "definition": "La propriété est encodée sous forme de nombre."
+    },
+    "BOOL": {
+      "name": "Booléen",
+      "definition": "La propriété est encodée sous forme de booléen."
+    },
+    "JSON": {
+      "name": "JSON",
+      "definition": "La propriété est encodée en JSON."
+    },
+    "CSVF": {
+      "name": "CSV",
+      "definition": "La propriété est une chaîne CSV représentant un tableau de données."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "References3",
+  "definition": "Ensemble d'éléments permettant l'identification du message et des références associées.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identifie un message par un identifiant unique ainsi que la date et l'heure auxquelles le message a été créé par l'expéditeur."
+    },
+    "RequestToBeCompletedIdentification": {
+      "definition": "Identification du message de demande qui doit être complété."
+    },
+    "ProcessIdentification": {
+      "definition": "Identifie un processus par un identifiant unique ainsi que la date et l'heure auxquelles le premier message appartenant au processus a été créé par l'expéditeur. L'identification du processus reste la même dans tous les messages appartenant au même processus, du message de demande initial jusqu'au relevé de compte final clôturant le processus."
+    },
+    "RequestReason": {
+      "definition": "Motif de la demande."
+    },
+    "AttachedDocumentName": {
+      "definition": "Nom de fichier d'un document logiquement lié à la demande."
+    }
+  }
+}

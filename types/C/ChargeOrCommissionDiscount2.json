@@ -1,0 +1,20 @@
+{
+  "isoType": "ChargeOrCommissionDiscount2",
+  "definition": "Remises ou dispenses de frais et de commissions.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant de la remise ou de la dispense."
+    },
+    "Rate": {
+      "definition": "Taux de la remise ou de la dispense."
+    },
+    "Basis": {
+      "definition": "Forme de la remise ou de la ristourne."
+    }
+  },
+  "isoRules": {
+    "DiscountElementRule": {
+      "definition": "Amount Or Rate Or Basis doit être présent."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "MovementRecord2",
+  "definition": "Détails d'un enregistrement de mouvement demandé dans une instruction de règlement unique.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique, attribuée par l'agent instructeur et envoyée à l'infrastructure de marché, pour identifier sans ambiguïté l'enregistrement de mouvement (opération) spécifique au sein d'une demande de règlement.||Utilisation : l'identification de mouvement est une référence de point à point pouvant être utilisée entre l'agent instructeur et l'infrastructure de marché pour faire référence à l'enregistrement de mouvement individuel au sein d'une demande de règlement. Elle peut figurer dans plusieurs messages relatifs au mouvement."
+    },
+    "SequenceNumber": {
+      "definition": "Index permettant d'identifier l'écriture d'enregistrement de mouvement individuelle."
+    },
+    "Amount": {
+      "definition": "Montant d'argent demandé par l'agent instructeur pour règlement auprès de l'infrastructure de marché dans une seule écriture d'enregistrement de mouvement."
+    },
+    "SettlementAgent": {
+      "definition": "Agent sur le compte duquel les fonds sont réglés pour le compte du participant."
+    },
+    "SettlementAgentAccount": {
+      "definition": "Identification sans ambiguïté du compte de l'agent de règlement."
+    },
+    "Participant": {
+      "definition": "Identification d'un participant pour le compte duquel l'agent de règlement charge l'infrastructure de marché de régler les obligations au moyen de comptes détenus dans le service de règlement."
+    },
+    "ParticipantAccount": {
+      "definition": "Identification sans ambiguïté du compte du participant détenu dans le service de règlement."
+    },
+    "Reference": {
+      "definition": "Informations de référence complétant un enregistrement de mouvement."
+    }
+  }
+}

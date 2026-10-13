@@ -1,0 +1,38 @@
+{
+  "isoType": "RepurchaseType9Code",
+  "definition": "Indique le type d'opération de mise en pension.",
+  "isoCodes": {
+    "PAIR": {
+      "name": "Compensation par appariement",
+      "definition": "Se rapporte à une opération appariée et compensée avec une ou plusieurs opérations précédentes. Une opération appariée (paired off) est un rachat visant à compenser et à liquider effectivement une vente de titres antérieure, ou une revente visant à compenser et à liquider effectivement un achat de titres antérieur."
+    },
+    "PADJ": {
+      "name": "Ajustement de l'exposition du principal",
+      "definition": "Se rapporte à un ajustement de principal."
+    },
+    "RATE": {
+      "name": "Taux de pension",
+      "definition": "Fait partie d'un pair-off."
+    },
+    "CALL": {
+      "name": "Rappel de pension",
+      "definition": "Se rapporte à la clôture anticipée/date d'échéance d'un repo à terme ou à la date de résiliation d'un repo ouvert avec les garanties sous-jacentes."
+    },
+    "ROLP": {
+      "name": "Reconduction du contrat de pension",
+      "definition": "Se rapporte à la reconduction (rollover) d'un contrat de repo prolongeant la date de clôture ou d'échéance sans incidence sur les garanties sous-jacentes."
+    },
+    "CADJ": {
+      "name": "Échange",
+      "definition": "Se rapporte à un échange/une substitution."
+    },
+    "TOPU": {
+      "name": "Complément",
+      "definition": "Se rapporte à la reconduction (rollover) d'une position de repo prolongeant la date de clôture ou d'échéance."
+    },
+    "WTHD": {
+      "name": "Retrait",
+      "definition": "Se rapporte à la reconduction (rollover) d'une position de repo prolongeant la date de clôture ou d'échéance."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "FloorLimitType1Code",
+  "definition": "Indique si le seuil plancher s'applique aux écritures de crédit, de débit ou aux deux.",
+  "isoCodes": {
+    "CRED": {
+      "name": "Crédit",
+      "definition": "Le seuil plancher s'applique aux écritures de crédit."
+    },
+    "DEBT": {
+      "name": "Débit",
+      "definition": "Le seuil plancher s'applique aux écritures de débit."
+    },
+    "BOTH": {
+      "name": "Les deux",
+      "definition": "Le seuil plancher s'applique aux écritures de crédit et de débit."
+    }
+  }
+}

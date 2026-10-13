@@ -1,0 +1,15 @@
+{
+  "isoType": "NumberOfCancellationsPerStatus1",
+  "definition": "Ensemble d'éléments fournissant des informations détaillées sur le nombre d'opérations signalées avec un statut d'annulation donné.",
+  "isoElements": {
+    "DetailedNumberOfTransactions": {
+      "definition": "Nombre de demandes d'annulation individuelles contenues dans le message, détaillé par statut."
+    },
+    "DetailedStatus": {
+      "definition": "Statut de demande d'annulation commun à toutes les demandes d'annulation individuelles signalées."
+    },
+    "DetailedControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le message, quelles que soient les devises, détaillé par statut."
+    }
+  }
+}

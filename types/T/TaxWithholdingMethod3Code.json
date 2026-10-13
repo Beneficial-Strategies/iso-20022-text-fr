@@ -1,0 +1,42 @@
+{
+  "isoType": "TaxWithholdingMethod3Code",
+  "definition": "Précise la méthode de traitement de l'impôt sur les intérêts, c'est-à-dire soit retenu à la source, soit déclaré aux autorités fiscales, soit un certificat fiscal a été fourni par le bénéficiaire.",
+  "isoCodes": {
+    "MITX": {
+      "name": "Impôt sur les intérêts minoritaires",
+      "definition": "L'impôt sur les intérêts minoritaires est retenu."
+    },
+    "INVE": {
+      "name": "Société d'investissement",
+      "definition": "La retenue à la source est appliquée à une société d'investissement."
+    },
+    "ACCT": {
+      "name": "Comptable",
+      "definition": "L'impôt sur les dividendes est exonéré selon le comptable."
+    },
+    "EXMT": {
+      "name": "Exempté",
+      "definition": "L'impôt sur les dividendes est exonéré."
+    },
+    "REPT": {
+      "name": "Déclaration fiscale",
+      "definition": "Les informations fiscales sont déclarées aux autorités fiscales et ne sont donc pas retenues à la source."
+    },
+    "CRTF": {
+      "name": "Certificat fiscal",
+      "definition": "Un certificat fiscal est fourni par le bénéficiaire par l'intermédiaire de son administration fiscale dans son pays de résidence. L'obligation de retenue à la source est donc levée et les informations fiscales seront déclarées aux autorités fiscales."
+    },
+    "WHCO": {
+      "name": "Retenue à la source de l'impôt sur les sociétés",
+      "definition": "La retenue à la source est appliquée à une entreprise."
+    },
+    "WTHD": {
+      "name": "Retenue fiscale",
+      "definition": "L'impôt est retenu à la source."
+    },
+    "WTRE": {
+      "name": "Retenue fiscale et déclaration",
+      "definition": "L'impôt est retenu à la source et les informations fiscales sont également déclarées aux autorités fiscales."
+    }
+  }
+}

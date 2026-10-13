@@ -1,0 +1,94 @@
+{
+  "isoType": "ATMDevice2Code",
+  "definition": "Liste des dispositifs de l'ATM.",
+  "isoCodes": {
+    "ALRM": {
+      "name": "Capteurs d'alarme",
+      "definition": "Capteurs d'alarme, tels que les capteurs d'effraction, sismiques ou thermiques."
+    },
+    "BRCD": {
+      "name": "Lecteur de codes-barres",
+      "definition": "Dispositif de lecture de codes-barres utilisant toute technologie de lecture."
+    },
+    "CAMR": {
+      "name": "Caméra",
+      "definition": "Caméra, enregistreur, mélangeur vidéo."
+    },
+    "CRDD": {
+      "name": "Distributeur de cartes",
+      "definition": "Dispositif distribuant des cartes à un consommateur."
+    },
+    "CRDR": {
+      "name": "Unité de cartes",
+      "definition": "Dispositif de lecture et éventuellement d'écriture de cartes selon divers modes de saisie."
+    },
+    "CSHD": {
+      "name": "Distributeur de billets",
+      "definition": "Dispositif distribuant des espèces dans un environnement automatisé ou en présence d'un opérateur."
+    },
+    "CSHI": {
+      "name": "Module de dépôt d'espèces",
+      "definition": "Dispositif acceptant l'entrée et la sortie d'articles tels que coupons, documents, billets et pièces."
+    },
+    "CSHR": {
+      "name": "Recycleur d'espèces",
+      "definition": "Dispositif composite comprenant un module de dépôt d'espèces, un distributeur d'espèces et un échangeur d'espèces."
+    },
+    "CHCK": {
+      "name": "Lecteur de chèques",
+      "definition": "Lecteur de chèques et scanner d'images de chèques."
+    },
+    "CDIS": {
+      "name": "Console client",
+      "definition": "Écran et clavier du client."
+    },
+    "DPST": {
+      "name": "Dépôt",
+      "definition": "Dispositif de dépôt de supports sous enveloppes ou de sacs contenant des supports en vrac."
+    },
+    "DPRN": {
+      "name": "Imprimante de documents",
+      "definition": "Imprimante de formulaires de pleine taille prenant en charge l'impression de texte et de graphiques."
+    },
+    "DOOR": {
+      "name": "Capteurs de porte",
+      "definition": "Capteurs de portes, tels que les portes de l'armoire, du coffre ou du blindage antivandalisme."
+    },
+    "INPM": {
+      "name": "Module de traitement des entrées",
+      "definition": "Dispositif libre-service traitant des articles."
+    },
+    "JRNL": {
+      "name": "Journal",
+      "definition": "Journal des événements."
+    },
+    "JPRN": {
+      "name": "Imprimante de journal",
+      "definition": "Dispositif à formulaire continu utilisé pour enregistrer sur papier une piste d'audit des opérations et pour certains besoins d'impression de rapports."
+    },
+    "SNSR": {
+      "name": "Autre capteur",
+      "definition": "Autre unité de capteurs et d'indicateurs."
+    },
+    "PSBK": {
+      "name": "Imprimante de livrets",
+      "definition": "Dispositif pour livret prenant en charge le positionnement automatique du livret."
+    },
+    "PINR": {
+      "name": "Clavier PIN",
+      "definition": "Module matériel de sécurité permettant la saisie du PIN (numéro d'identification personnel), le stockage sécurisé des clés cryptographiques et d'autres fonctions cryptographiques."
+    },
+    "RPRN": {
+      "name": "Imprimante de reçus",
+      "definition": "Imprimante de reçus utilisée pour imprimer des documents en feuilles coupées."
+    },
+    "SCAN": {
+      "name": "Scanner-imprimante",
+      "definition": "Dispositif intégrant à la fois la capacité de numériser les documents insérés et, en option, d'imprimer sur ceux-ci."
+    },
+    "RWDR": {
+      "name": "Reçu de retrait",
+      "definition": "Reçu des opérations de retrait."
+    }
+  }
+}

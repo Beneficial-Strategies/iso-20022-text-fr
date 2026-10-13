@@ -1,0 +1,12 @@
+{
+  "isoType": "Account32",
+  "definition": "Relation commerciale entre deux entités ; l'une des entités est le titulaire du compte, l'autre est le teneur de compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "AccountServicer": {
+      "definition": "Établissement qui gère un compte et attribue l'identifiant du compte au propriétaire du compte."
+    }
+  }
+}

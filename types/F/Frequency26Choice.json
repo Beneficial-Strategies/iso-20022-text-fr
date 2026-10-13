@@ -1,0 +1,12 @@
+{
+  "isoType": "Frequency26Choice",
+  "definition": "Choix de format pour une fréquence, par exemple la fréquence de livraison d'un relevé.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fréquence exprimée sous forme de code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Fréquence exprimée sous forme de code propriétaire."
+    }
+  }
+}

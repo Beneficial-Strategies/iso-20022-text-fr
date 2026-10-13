@@ -1,0 +1,12 @@
+{
+  "isoType": "DutchAuctionTypeFormat1Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le format du type d'enchère hollandaise requis.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type d'enchère hollandaise requis."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type d'enchère hollandaise."
+    }
+  }
+}

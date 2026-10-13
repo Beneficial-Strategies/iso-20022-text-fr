@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxWrapperAmountType1Code",
+  "definition": "Précise un type de montant.",
+  "isoCodes": {
+    "BONU": {
+      "name": "Bonus",
+      "definition": "Le type de montant est une prime, par exemple une prime publique."
+    },
+    "WTHD": {
+      "name": "Retrait",
+      "definition": "Le type de montant est un retrait, par exemple un retrait pour un premier achat résidentiel."
+    }
+  }
+}

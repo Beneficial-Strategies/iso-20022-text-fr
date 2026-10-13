@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification3Choice",
+  "definition": "Choix entre une identification de document fournie soit par le titulaire du compte, soit par le teneur de compte.",
+  "isoElements": {
+    "AccountServicerDocumentIdentification": {
+      "definition": "Identification du document attribuée par le teneur de compte."
+    },
+    "AccountOwnerDocumentIdentification": {
+      "definition": "Identification du document attribuée par le titulaire du compte."
+    }
+  }
+}

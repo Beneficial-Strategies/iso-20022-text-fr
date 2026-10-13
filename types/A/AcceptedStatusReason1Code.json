@@ -1,0 +1,14 @@
+{
+  "isoType": "AcceptedStatusReason1Code",
+  "definition": "Précise le motif d'un statut accepté.",
+  "isoCodes": {
+    "PLAC": {
+      "name": "Place non autorisée",
+      "definition": "Le statut de l'instruction de modification du compte est accepté, mais la modification des données du compte ne sera pas effectuée pour le lieu."
+    },
+    "SECT": {
+      "name": "Secteur non autorisé",
+      "definition": "Le statut de l'instruction de modification du compte est accepté, mais la modification des données du compte ne sera pas effectuée pour le code secteur."
+    }
+  }
+}

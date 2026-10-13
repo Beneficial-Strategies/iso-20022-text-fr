@@ -1,0 +1,4 @@
+{
+  "isoType": "InvestigationResponseV03",
+  "definition": "Portée|Le message InvestigationResponse est échangé entre banques pour fournir une réponse ou une mise à jour du statut d'une enquête.|Utilisation|Le message InvestigationResponse doit être utilisé pour répondre à un message InvestigationRequest. Les réponses couvrent les scénarios métier suivants -|- impossibilité d'imputer ;|- demande d'information ;|- demande d'ajustement de la date de valeur ;|- réclamation pour non-réception ;|- demande d'autorisation de débit ;|- demande d'utilisation des fonds ;|- initiation de paiement non confirmée ;|- scénarios métier divers.|Le message InvestigationResponse ne couvre qu'une seule opération ou écriture à la fois, sauf lorsqu'il répond à certaines demandes d'information."
+}

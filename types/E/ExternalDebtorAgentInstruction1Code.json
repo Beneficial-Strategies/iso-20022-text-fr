@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalDebtorAgentInstruction1Code",
+  "isoCodes": {
+    "HOLD": {
+      "name": "Tenir les espèces à disposition du créancier",
+      "definition": "Le montant doit être tenu à la disposition du créancier (final), qui se présentera. Paiement sur justification d'identité."
+    },
+    "CHQB": {
+      "name": "Payer le créancier par chèque",
+      "definition": "Le créancier (final) doit être payé par chèque."
+    },
+    "PRTK": {
+      "name": "Jeton du payeur demandé",
+      "definition": "Indique qu'un jeton du payeur est demandé/utilisé."
+    },
+    "PHOB": {
+      "name": "Téléphoner au bénéficiaire",
+      "definition": "Veuillez aviser/contacter le créancier (final)/demandeur par téléphone."
+    },
+    "TELB": {
+      "name": "Télécommunications",
+      "definition": "Veuillez aviser/contacter le créancier (final)/demandeur par le moyen de télécommunication le plus efficace."
+    },
+    "TOKN": {
+      "name": "Jeton",
+      "definition": "Informations sur le jeton."
+    },
+    "VLTK": {
+      "name": "Validation du jeton",
+      "definition": "Informations de validation supplémentaires à utiliser conjointement avec le jeton."
+    }
+  }
+}

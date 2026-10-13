@@ -1,0 +1,34 @@
+{
+  "isoType": "InvestigationRejection1Code",
+  "definition": "Précise le motif du rejet d'un dossier d'enquête.",
+  "isoCodes": {
+    "NFND": {
+      "name": "Paiement sous-jacent introuvable",
+      "definition": "L'instruction sous-jacente est introuvable."
+    },
+    "NAUT": {
+      "name": "Non autorisé à investiguer",
+      "definition": "Le destinataire du dossier n'est pas autorisé à enquêter sur cette instruction, ou une partie a été contournée dans la chaîne de paiement, ou aucun accord bilatéral n'a été établi pour ce type de demande."
+    },
+    "UKNW": {
+      "name": "Dossier inconnu",
+      "definition": "Le dossier n'a jamais été affecté auparavant."
+    },
+    "PCOR": {
+      "name": "Paiement précédemment annulé ou rejeté",
+      "definition": "Utilisé lorsque l'instruction de paiement a été précédemment annulée ou rejetée."
+    },
+    "WMSG": {
+      "name": "Message erroné",
+      "definition": "Un message inapproprié a été utilisé dans le flux de travail de l'enquête."
+    },
+    "RNCR": {
+      "name": "Rejet sans lien avec la trésorerie",
+      "definition": "Utilisé pour rejeter une demande non liée aux espèces qui n'est pas couverte par le flux de travail."
+    },
+    "MROI": {
+      "name": "Résolution de l'investigation manquante",
+      "definition": "La résolution de l'enquête n'a pas été reçue pour le dossier rouvert."
+    }
+  }
+}

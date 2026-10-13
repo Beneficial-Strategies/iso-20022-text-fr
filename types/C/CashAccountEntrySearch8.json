@@ -1,0 +1,38 @@
+{
+  "isoType": "CashAccountEntrySearch8",
+  "definition": "Définit les critères utilisés pour rechercher une écriture de trésorerie.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique et non ambiguë du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "EntryAmount": {
+      "definition": "Précise le ou les montants d'écriture sur lesquels porte la requête."
+    },
+    "EntryAmountCurrency": {
+      "definition": "Devise du montant de l'écriture."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si une écriture est un crédit ou un débit."
+    },
+    "EntryStatus": {
+      "definition": "Statut d'une écriture dans les livres du teneur de compte."
+    },
+    "EntryDate": {
+      "definition": "Date et heure auxquelles une écriture est passée sur un compte dans les livres du teneur de compte."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    }
+  },
+  "isoRules": {
+    "EntryAmountCreditDebitIndicator1Rule": {
+      "definition": "Si au moins une occurrence de EntryAmount/CurrencyAndAmountRange/CreditDebitIndicator est présente, alors CreditDebitIndicator n'est pas autorisé.|Si EntryAmount/CurrencyAndAmountRange/CreditDebitIndicator n'est pas présent, alors CreditDebitIndicator est facultatif.||Si CreditDebitIndicator est présent, alors |toutes les occurrences de EntryAmount/CurrencyAndAmountRange/CreditDebitIndicator doivent être absentes et|toutes les occurrences de EntryAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator doivent être absentes."
+    },
+    "EntryAmountCreditDebitIndicator2Rule": {
+      "definition": "Si au moins une occurrence de EntryAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator est présente, alors CreditDebitIndicator n'est pas autorisé.|Si EntryAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator n'est pas présent, alors CreditDebitIndicator est facultatif."
+    }
+  }
+}

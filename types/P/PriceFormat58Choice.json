@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceFormat58Choice",
+  "definition": "Choix entre un prix en pourcentage, un prix en montant ou un prix non précisé.",
+  "isoElements": {
+    "AmountPrice": {
+      "definition": "Prix exprimé sous forme de devise et de montant."
+    },
+    "NotSpecifiedPrice": {
+      "definition": "Valeur du prix non spécifiée."
+    }
+  }
+}

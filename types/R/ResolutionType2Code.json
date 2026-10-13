@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionType2Code",
+  "definition": "Précise le type de résolution.",
+  "isoCodes": {
+    "EXTR": {
+      "name": "Extraordinaire",
+      "definition": "La résolution de l'assemblée est extraordinaire et peut être soumise à des exigences de vote spécifiques."
+    },
+    "SPCL": {
+      "name": "Spécial",
+      "definition": "Résolution qui n'est ni ordinaire ni extraordinaire (par exemple, décision sur une stratégie d'investissement)."
+    }
+  }
+}

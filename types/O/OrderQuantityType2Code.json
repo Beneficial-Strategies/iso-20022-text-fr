@@ -1,0 +1,14 @@
+{
+  "isoType": "OrderQuantityType2Code",
+  "definition": "Précise la manière dont l'ordre est passé, par exemple en quantité de parts ou en montant d'argent.",
+  "isoCodes": {
+    "UNIT": {
+      "name": "Unité",
+      "definition": "L'ordre est passé en nombre de parts."
+    },
+    "CASH": {
+      "name": "Montant",
+      "definition": "L'ordre est passé en montant d'argent."
+    }
+  }
+}

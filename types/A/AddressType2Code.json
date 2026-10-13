@@ -1,0 +1,30 @@
+{
+  "isoType": "AddressType2Code",
+  "definition": "Précise le type d'adresse.",
+  "isoCodes": {
+    "ADDR": {
+      "name": "Postale",
+      "definition": "L'adresse est l'adresse postale complète."
+    },
+    "PBOX": {
+      "name": "Boîte postale",
+      "definition": "L'adresse est une boîte postale (PO box)."
+    },
+    "HOME": {
+      "name": "Résidentielle",
+      "definition": "L'adresse est l'adresse du domicile."
+    },
+    "BIZZ": {
+      "name": "Professionnelle",
+      "definition": "L'adresse est l'adresse professionnelle."
+    },
+    "MLTO": {
+      "name": "Courrier à",
+      "definition": "L'adresse est l'adresse à laquelle le courrier est envoyé."
+    },
+    "DLVY": {
+      "name": "Livraison à",
+      "definition": "L'adresse est l'adresse de livraison."
+    }
+  }
+}

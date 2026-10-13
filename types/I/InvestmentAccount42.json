@@ -1,0 +1,23 @@
+{
+  "isoType": "InvestmentAccount42",
+  "definition": "Compte entre un ou plusieurs investisseurs et une société de gestion ou un fonds. Le compte peut contenir des avoirs dans tout fonds d'investissement ou toute catégorie de fonds d'investissement géré (ou distribué) par la société de gestion, au sein de la même famille de fonds.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique et non ambiguë du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "OwnerIdentification": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    }
+  },
+  "isoRules": {
+    "AccountOrOwner1Rule": {
+      "definition": "Si AccountIdentification n'est pas présent, alors OwnerIdentification doit être présent. AccountIdentification et OwnerIdentification peuvent être présents tous les deux."
+    },
+    "AccountOrOwner2Rule": {
+      "definition": "Si OwnerIdentification n'est pas présent, alors AccountIdentification doit être présent. OwnerIdentification et AccountIdentification peuvent être présents tous les deux."
+    }
+  }
+}

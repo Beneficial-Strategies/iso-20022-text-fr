@@ -1,0 +1,18 @@
+{
+  "isoType": "TotalTransactions6",
+  "definition": "Ensemble d'éléments fournissant des informations récapitulatives sur les écritures.",
+  "isoElements": {
+    "TotalEntries": {
+      "definition": "Précise le nombre total et la somme des écritures de débit et de crédit."
+    },
+    "TotalCreditEntries": {
+      "definition": "Précise le nombre total et la somme des écritures de crédit."
+    },
+    "TotalDebitEntries": {
+      "definition": "Précise le nombre total et la somme des écritures de débit."
+    },
+    "TotalEntriesPerBankTransactionCode": {
+      "definition": "Précise le nombre total et la somme des écritures par code d'opération bancaire."
+    }
+  }
+}

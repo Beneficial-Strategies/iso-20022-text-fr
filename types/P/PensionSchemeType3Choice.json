@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionSchemeType3Choice",
+  "definition": "Choix de formats pour un type de régime de retraite.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de police, de plan ou de régime de retraite exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de police, de plan ou de régime de retraite exprimé sous forme de code propriétaire."
+    }
+  }
+}

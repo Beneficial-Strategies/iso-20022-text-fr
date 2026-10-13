@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessInformationQueryDefinition3",
+  "definition": "Définit les critères de la requête.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Spécifie le type d'éléments correspondants à renvoyer dans la réponse à la requête."
+    },
+    "GeneralBusinessInformationCriteria": {
+      "definition": "Définit les critères de la requête d'informations commerciales générales."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosurePendingStatusReason1",
+  "definition": "Motif d'un statut de clôture en attente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut de clôture en attente."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le motif du statut de clôture en attente."
+    }
+  }
+}

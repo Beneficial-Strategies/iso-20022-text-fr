@@ -1,0 +1,59 @@
+{
+  "isoType": "SettlementInstruction15",
+  "definition": "Fournit des détails supplémentaires sur le règlement de l'instruction.",
+  "isoElements": {
+    "SettlementMethod": {
+      "definition": "Méthode utilisée pour régler le (lot d')instructions de paiement."
+    },
+    "SettlementAccount": {
+      "definition": "Compte dédié à un motif spécifique utilisé pour comptabiliser les écritures de débit et de crédit résultant de l'opération."
+    },
+    "ClearingSystem": {
+      "definition": "Spécification d'une offre convenue au préalable entre agents de compensation ou du canal par lequel l'instruction de paiement est traitée."
+    },
+    "InstructingReimbursementAgent": {
+      "definition": "Agent par l'intermédiaire duquel l'agent donneur d'ordre remboursera l'agent destinataire de l'instruction.||Utilisation : si InstructingAgent et InstructedAgent ont le même agent de remboursement, seul InstructingReimbursementAgent doit être utilisé."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "definition": "Identification sans ambiguïté du compte de l'agent de remboursement donneur d'ordre auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Agent auprès duquel l'agent destinataire de l'instruction sera remboursé.|Utilisation : si InstructedReimbursementAgent contient une agence de InstructedAgent, la partie figurant dans InstructedAgent demandera le remboursement à cette agence/sera payée par cette agence.|Utilisation : si InstructingAgent et InstructedAgent ont le même agent de remboursement, seul InstructingReimbursementAgent doit être utilisé."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "definition": "Identification sans ambiguïté du compte de l'agent de remboursement destinataire de l'instruction auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "ThirdReimbursementAgent": {
+      "definition": "Agent auprès duquel l'agent destinataire de l'instruction sera remboursé.|Utilisation : si ThirdReimbursementAgent contient une agence de InstructedAgent, la partie figurant dans InstructedAgent demandera le remboursement à cette agence/sera payée par cette agence."
+    },
+    "ThirdReimbursementAgentAccount": {
+      "definition": "Identification sans ambiguïté du compte du troisième agent de remboursement auprès de son agent teneur de compte dans la chaîne de paiement."
+    }
+  },
+  "isoRules": {
+    "ThirdReimbursementAgentRule": {
+      "definition": "Si ThirdReimbursementAgent est présent, InstructingReimbursementAgent et InstructedReimbursementAgent doivent tous deux être présents."
+    },
+    "SettlementMethodAgentRule": {
+      "definition": "Si SettlementMethod est égal à INDA ou INGA, ReimbursementAgent(s) et ClearingSystem ne sont pas autorisés."
+    },
+    "SettlementMethodCoverRule": {
+      "definition": "Si SettlementMethod est égal à COVE, SettlementAccount et ClearingSystem ne sont pas autorisés."
+    },
+    "SettlementMethodCoverAgentRule": {
+      "definition": "Si SettlementMethod est égal à COVE, InstructedReimbursementAgent ou InstructingReimbursementAgent doit être présent."
+    },
+    "SettlementMethodClearingRule": {
+      "definition": "Si SettlementMethod est égal à CLRG, SettlementAccount et ReimbursementAgent(s) ne sont pas autorisés."
+    },
+    "InstructingReimbursementAgentAccountRule": {
+      "definition": "Si InstructingReimbursementAgentAccount est présent, InstructingReimbursementAgent doit être présent."
+    },
+    "InstructedReimbursementAgentAccountRule": {
+      "definition": "Si InstructedReimbursementAgentAccount est présent, InstructedReimbursementAgent doit être présent."
+    },
+    "ThirdReimbursementAgentAccountRule": {
+      "definition": "Si ThirdReimbursementAgentAccount est présent, ThirdReimbursementAgent doit être présent."
+    }
+  }
+}

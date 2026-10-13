@@ -1,0 +1,22 @@
+{
+  "isoType": "ModalityOfCounting1Code",
+  "definition": "Précise la modalité selon laquelle les votes ont été enregistrés et comptabilisés.",
+  "isoCodes": {
+    "EVAM": {
+      "name": "Électronique lors de l'assemblée",
+      "definition": "Vote électronique enregistré et comptabilisé lors de la réunion."
+    },
+    "EVBM": {
+      "name": "Électronique avant l'assemblée",
+      "definition": "Vote électronique enregistré et comptabilisé avant la réunion."
+    },
+    "PVBM": {
+      "name": "Papier avant l'assemblée",
+      "definition": "Vote papier enregistré et comptabilisé avant la réunion."
+    },
+    "PVAM": {
+      "name": "Physique lors de l'assemblée",
+      "definition": "Présence physique avec vote lors de la réunion."
+    }
+  }
+}

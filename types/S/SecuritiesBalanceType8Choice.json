@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesBalanceType8Choice",
+  "definition": "Choix de format pour le type de solde.",
+  "isoElements": {
+    "Code": {
+      "definition": "Sous-solde exprimé sous forme de code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Sous-solde exprimé sous forme de code propriétaire."
+    }
+  }
+}

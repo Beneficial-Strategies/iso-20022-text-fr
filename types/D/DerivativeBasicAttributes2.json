@@ -1,0 +1,12 @@
+{
+  "isoType": "DerivativeBasicAttributes2",
+  "definition": "Détails du contrat dérivé non inclus dans le composant des attributs généraux de l'instrument financier.",
+  "isoElements": {
+    "NotionalCurrencyAndAmount": {
+      "definition": "Montant sous-jacent d'un contrat dérivé financier, nécessaire au calcul des paiements ou des encaissements."
+    },
+    "InterestIncludedInPrice": {
+      "definition": "Indique si le prix du dérivé donné inclut une composante d'intérêts courus calculée au prorata."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "GroupHeader104",
+  "definition": "Ensemble de caractéristiques communes à toutes les instructions individuelles incluses dans le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par l'agent instructeur et envoyée à l'infrastructure de marché, pour identifier le message sans ambiguïté.||Utilisation : l'agent instructeur doit s'assurer que MessageIdentification est unique par infrastructure de marché pendant une période convenue au préalable."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "NumberOfSettlementRequests": {
+      "definition": "Nombre de demandes de règlement individuelles contenues dans le message."
+    },
+    "ControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le message, quelles que soient les devises."
+    },
+    "SettlementInformation": {
+      "definition": "Précise le détail de la manière dont s'effectue le règlement de l'opération ou des opérations entre l'agent instructeur et l'infrastructure de marché."
+    }
+  }
+}

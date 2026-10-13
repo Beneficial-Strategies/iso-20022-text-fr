@@ -1,0 +1,119 @@
+{
+  "isoType": "Pension5",
+  "definition": "Attributs d’une retraite.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification de la police, du plan ou du régime de retraite."
+    },
+    "Type": {
+      "definition": "Type de police, de plan ou de régime de retraite."
+    },
+    "TransferScope": {
+      "definition": "Portée du transfert de la police, du plan ou du régime de retraite."
+    },
+    "TaxReference": {
+      "definition": "Référence fiscale attribuée à la police, au plan ou au régime de retraite par un organisme central."
+    },
+    "DrawdownTrancheIdentification": {
+      "definition": "Référence du retrait échelonné."
+    },
+    "DrawdownStatus": {
+      "definition": "Statut de retrait progressif de la retraite."
+    },
+    "DrawdownType": {
+      "definition": "Type de tranche de retrait échelonné."
+    },
+    "NumberOfDrawdownTranches": {
+      "definition": "Nombre de tranches de retrait progressif."
+    },
+    "EstimatedValue": {
+      "definition": "Valeur estimée de la police, du plan ou du régime de retraite."
+    },
+    "BlockTransfer": {
+      "definition": "Indique si le transfert fait partie d’un transfert en bloc."
+    },
+    "BlockTransferReference": {
+      "definition": "Lorsque le transfert fait partie d’un transfert en bloc, référence permettant de lier plusieurs éléments."
+    },
+    "TaxFreeCashProtection": {
+      "definition": "Indique si le capital exonéré d’impôt est protégé lorsque la police, le plan ou le régime de retraite est transféré."
+    },
+    "TaxFreeCashAmount": {
+      "definition": "Montant des espèces exonérées d’impôt."
+    },
+    "ValueOfPensionPolicyOrPlanOrScheme": {
+      "definition": "Valeur de la police, du plan ou du régime de retraite."
+    },
+    "RetirementAgeProtection": {
+      "definition": "Indique si la police, le plan ou le régime de retraite bénéficie d’une protection de l’âge de départ à la retraite."
+    },
+    "RetirementAge": {
+      "definition": "Âge auquel le titulaire de la police, du plan ou du régime de retraite prend sa retraite."
+    },
+    "Sharing": {
+      "definition": "Indique si les prestations de retraite sont partagées."
+    },
+    "LumpSumType": {
+      "definition": "Type de capital forfaitaire versé à un membre de la police, du plan ou du régime de retraite."
+    },
+    "PensionOrder": {
+      "definition": "Ordonnance attachée à la police, au plan ou au régime de retraite."
+    },
+    "RingFencedDrawdownAssets": {
+      "definition": "Indique si les actifs détenus dans la retraite sont cloisonnés en tranches spécifiques."
+    },
+    "MoneyPurchaseAnnualAllowance": {
+      "definition": "Détails de la Money Purchase Annual Allowance (MPAA)."
+    },
+    "SafeguardBenefit": {
+      "definition": "Indique si la police, le plan ou le régime de retraite est couvert par une prestation de sauvegarde."
+    },
+    "NonSafeguardedGuaranteedBenefits": {
+      "definition": "Indique si la police, le plan ou le régime de retraite comporte des prestations garanties non sauvegardées."
+    },
+    "LifetimeAllowanceProtection": {
+      "definition": "Indique si la police, le plan ou le régime de retraite bénéficie d’une protection de l’allocation viagère."
+    },
+    "ClientLifetimeAllowanceProtection": {
+      "definition": "Indique si le client bénéficie d’une quelconque protection de l’allocation viagère."
+    },
+    "BenefitCrystallisationEventOccurred": {
+      "definition": "Indique si un événement de cristallisation des prestations (BCE) s’est produit. Cela inclut les « contrôles de l’âge de 75 ans »."
+    },
+    "NonWrapperTransfer": {
+      "definition": "Indique que le transfert concerne uniquement les actifs sous-jacents et que le transfert de l’enveloppe aura lieu séparément."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur la police, le plan ou le régime de retraite."
+    }
+  },
+  "isoRules": {
+    "BlockTransferRetirementAgeProtectionRule": {
+      "definition": "Si BlockTransfer est \"false\" ou \"0\" (Non), alors RetirementAgeProtection n’est pas autorisé.|Si BlockTransfer est \"true\" ou \"1\" (Oui), alors RetirementAgeProtection peut être présent."
+    },
+    "RetirementAgeRule": {
+      "definition": "Si RetirementAgeProtection est \"false\" ou \"0\" (Non), alors RetirementAge n’est pas autorisé.|Si RetirementAgeProtection est \"true\" ou \"1\" (Oui), alors RetirementAge peut être présent."
+    },
+    "BlockTransferTaxFreeCashProtectionRule": {
+      "definition": "Si BlockTransfer est \"false\" ou \"0\" (Non), alors TaxFreeCashProtection n’est pas autorisé.|Si BlockTransfer est \"true\" ou \"1\" (Oui), alors TaxFreeCashProtection peut être présent."
+    },
+    "TaxFreeCashAmountRule": {
+      "definition": "Si TaxFreeCashProtection est \"false\" ou \"0\" (Non), alors TaxFreeCashAmount n’est pas autorisé.|Si TaxFreeCashProtection est \"true\" ou \"1\" (Oui), alors TaxFreeCashAmount peut être présent."
+    },
+    "RingFencedDrawdownAssets1Rule": {
+      "definition": "Si DrawdownStatus/Code/NONE (None) est présent, alors RingFencedDrawdownAssets n’est pas autorisé."
+    },
+    "PensionOrderTypeGuideline": {
+      "definition": "Une police, un plan ou un régime de retraite ne peut pas avoir à la fois une réservation et une ordonnance de partage.|Si PensionOrder/Type/Code/SHAR est présent, alors PensionOrder/Type/Code/EARM n’est pas autorisé.|Si PensionOrder/Type/Code/EARM est présent, alors PensionOrder/Type/Code/SHAR n’est pas autorisé."
+    },
+    "TaxFreeCashAndValueRule": {
+      "definition": "Si TaxFreeCashProtection est \"true\" ou \"1\" (Oui), alors TaxFreeCashAmount et ValueOfPensionPolicyOrPlanOrScheme doivent être présents.|Si TaxFreeCashProtection est \"false\" ou \"0\" (Oui), alors TaxFreeCashAmount et ValueOfPensionPolicyOrPlanOrScheme peuvent être présents."
+    },
+    "TransferScopeTrancheIdentification1Rule": {
+      "definition": "Si TransferScope/Code/SDDT (DrawdownTranche) n’est pas présent, alors DrawdownTrancheIdentification n’est pas autorisé.|Si TransferScope/Code/SDDT (DrawdownTranche) est présent, alors DrawdownTrancheIdentification peut être présent."
+    },
+    "RingFencedDrawdownAssets2Rule": {
+      "definition": "Si DrawdownStatus/Code/PART (Partial) ou FULL (Full) est présent, alors RingFencedDrawdownAssets doit être présent."
+    }
+  }
+}

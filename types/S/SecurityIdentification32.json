@@ -1,0 +1,32 @@
+{
+  "isoType": "SecurityIdentification32",
+  "definition": "Identification d'un titre.",
+  "isoElements": {
+    "ISIN": {
+      "definition": "Numéro international d'identification des valeurs mobilières (ISIN). Système de numérotation conçu par l'Organisation internationale de normalisation (ISO) des Nations Unies. L'ISIN est composé d'un préfixe de 2 caractères représentant le pays d'émission, suivi du numéro national du titre (s'il existe) et d'un chiffre de contrôle. Chaque pays dispose d'un organisme national de numérotation qui attribue les numéros ISIN aux titres de ce pays."
+    },
+    "OtherIdentification": {
+      "definition": "Identification d'un titre par un schéma d'identification propriétaire ou national."
+    },
+    "Description": {
+      "definition": "Description textuelle d'un instrument de titre."
+    }
+  },
+  "isoRules": {
+    "DescriptionPresenceRule": {
+      "definition": "Si Description est absent, alors soit ISIN, soit au moins une occurrence de OtherIdentification doit être présent."
+    },
+    "OtherIdentificationPresenceRule": {
+      "definition": "Si OtherIdentification est absent, alors soit ISIN, soit Description doit être présent."
+    },
+    "ISINPresenceRule": {
+      "definition": "Si ISIN est absent, alors soit Description, soit au moins une occurrence de OtherIdentification doit être présent."
+    },
+    "DescriptionUsageRule": {
+      "definition": "Description doit être utilisé seul en dernier recours."
+    },
+    "ISINGuideline": {
+      "definition": "Lorsqu'un code ISIN existe, il est fortement recommandé d'utiliser l'ISIN."
+    }
+  }
+}

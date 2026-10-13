@@ -1,0 +1,12 @@
+{
+  "isoType": "FailedSettlementReason1FormatChoice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le motif d'un échec de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le motif d'un échec de règlement."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire précisant le motif d'un échec de règlement."
+    }
+  }
+}

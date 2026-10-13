@@ -1,0 +1,35 @@
+{
+  "isoType": "FundConfirmedCashForecastReport3",
+  "definition": "Informations relatives à un rapport de prévision de trésorerie.",
+  "isoElements": {
+    "FundOrSubFundDetails": {
+      "definition": "Informations sur le fonds ou compartiment lorsque le rapport précise le flux de trésorerie soit du fonds ou compartiment, soit d'une catégorie de parts du fonds ou compartiment."
+    },
+    "FundCashForecastDetails": {
+      "definition": "Informations relatives aux flux de trésorerie entrants et sortants pour une date de négociation donnée à la suite d'opérations sur fonds d'investissement, par exemple des souscriptions, des rachats ou des arbitrages à destination ou en provenance d'un fonds d'investissement donné."
+    },
+    "ConsolidatedNetCashForecast": {
+      "definition": "Trésorerie nette estimée résultant des flux de trésorerie entrants et sortants."
+    },
+    "Extension": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans tout autre bloc spécifique."
+    }
+  },
+  "isoRules": {
+    "TradeDate1Rule": {
+      "definition": "Si une occurrence quelconque de FundCashForecastDetails est présente, aucune occurrence de FundOrSubFundDetails/TradeDateTime n'est autorisée."
+    },
+    "PreviousTradeDate1Rule": {
+      "definition": "Si une occurrence quelconque de FundCashForecastDetails est présente, aucune occurrence de FundOrSubFundDetails/PreviousTradeDateTime n'est autorisée."
+    },
+    "TradeDate2Rule": {
+      "definition": "Si FundCashForecastDetails n'est pas présent, au moins une occurrence de FundOrSubFundDetails/TradeDateTime doit être présente."
+    },
+    "ConsolidatedNetCashRule": {
+      "definition": "Si ConsolidatedNetCashForecast est présent, au moins une occurrence de FundOrSubFundDetails ou de FundCashForecastDetails doit être présente. FundOrSubFundDetails et FundCashForecastDetails peuvent être présents tous les deux."
+    },
+    "FundOrSubFundAndShareClassGuideline": {
+      "definition": "Lorsque le message est utilisé pour fournir les montants d'entrées et de sorties de trésorerie de plusieurs fonds ou compartiments et de plusieurs catégories de parts (deux séquences FundOrSubFundDetails ou plus et deux séquences FundCashForecastDetails ou plus sont utilisées), le contenu du message ne permet pas à lui seul de déterminer à quel fonds ou compartiment appartient chaque catégorie de parts, ce qui peut ne pas être souhaitable ; ce type d'utilisation doit faire l'objet d'un accord bilatéral."
+    }
+  }
+}

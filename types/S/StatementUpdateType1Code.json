@@ -1,0 +1,14 @@
+{
+  "isoType": "StatementUpdateType1Code",
+  "definition": "Précise la nature d'une mise à jour de relevé, par exemple s'il s'agit d'un relevé complet.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Complet",
+      "definition": "Le relevé est complet."
+    },
+    "DELT": {
+      "name": "Delta",
+      "definition": "Le relevé ne contient que les modifications."
+    }
+  }
+}

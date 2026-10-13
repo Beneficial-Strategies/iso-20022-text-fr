@@ -1,0 +1,12 @@
+{
+  "isoType": "InformationDistribution1Choice",
+  "definition": "Choix de formats pour la spécification de la manière dont les informations doivent être distribuées.",
+  "isoElements": {
+    "Code": {
+      "definition": "Distribution des informations exprimée sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Distribution des informations exprimée sous forme de code."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "isoType": "PendingStatus4Code",
+  "definition": "Indique que l'état d'un paiement du côté de l'agent de compensation est en attente.",
+  "isoCodes": {
+    "ACPD": {
+      "name": "Accepté",
+      "definition": "L'opération a été acceptée par l'agent de compensation."
+    },
+    "VALD": {
+      "name": "Validé",
+      "definition": "L'opération a été validée par l'agent de compensation."
+    },
+    "MATD": {
+      "name": "Apparié",
+      "definition": "L'opération a été rapprochée d'une opération correspondante par l'agent de compensation."
+    },
+    "AUTD": {
+      "name": "Autorisé",
+      "definition": "L'opération a été autorisée par l'administrateur des opérations ou par une partie autorisée."
+    },
+    "INVD": {
+      "name": "Invalide",
+      "definition": "L'opération est invalide."
+    },
+    "UMAC": {
+      "name": "Non apparié",
+      "definition": "L'agent de compensation a tenté de rapprocher l'opération d'une opération correspondante, sans succès."
+    },
+    "STLE": {
+      "name": "Éligible au règlement",
+      "definition": "L'opération est éligible à un règlement futur."
+    },
+    "STLM": {
+      "name": "Échu pour règlement",
+      "definition": "L'opération est éligible à un règlement immédiat."
+    },
+    "SSPD": {
+      "name": "Suspendu",
+      "definition": "L'opération a été suspendue par l'agent de compensation."
+    },
+    "PCAN": {
+      "name": "Annulation en attente",
+      "definition": "L'agent de compensation a reçu une demande d'annulation de l'opération et a besoin soit d'une demande d'annulation correspondante de la contrepartie, soit d'une confirmation d'une partie autorisée."
+    },
+    "PSTL": {
+      "name": "Règlement en attente",
+      "definition": "L'opération est éligible au règlement, mais est en attente."
+    },
+    "PFST": {
+      "name": "Règlement en attente d'échec",
+      "definition": "L'opération éligible à un règlement immédiat n'a pas pu être réglée."
+    },
+    "SMLR": {
+      "name": "Lié à la limite multilatérale de l'émetteur",
+      "definition": "L'opération entraîne le dépassement de la « limite multilatérale de l'expéditeur » et ne peut pas être traitée pour le moment."
+    },
+    "RMLR": {
+      "name": "Lié à la limite multilatérale du destinataire",
+      "definition": "L'opération entraîne le dépassement de la « limite multilatérale du destinataire » et ne peut pas être traitée pour le moment."
+    },
+    "SRBL": {
+      "name": "Lié à la limite bilatérale émetteur-destinataire",
+      "definition": "L'opération entraîne le dépassement de la limite bilatérale fixée entre l'expéditeur et le destinataire et ne peut pas être traitée pour le moment."
+    },
+    "AVLB": {
+      "name": "Retenu en attente de disponibilité du service",
+      "definition": "Spécifie que le message est mis en file d'attente vers le système de paiement destinataire et attend d'être traité, car le système de paiement destinataire n'est pas opérationnel (ouvert) à ce moment."
+    },
+    "SRML": {
+      "name": "Lié à la limite multilatérale émetteur-destinataire",
+      "definition": "L'opération entraîne le dépassement des limites multilatérales fixées entre l'expéditeur et le destinataire par le montant total des paiements soumis en fin de journée et ne peut pas être traitée pour le moment."
+    }
+  }
+}

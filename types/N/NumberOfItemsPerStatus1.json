@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberOfItemsPerStatus1",
+  "definition": "Fournit des informations détaillées sur le nombre d'éléments déclarés avec leur statut d'acceptation respectif.",
+  "isoElements": {
+    "Status": {
+      "definition": "Statut commun des éléments du rapport dont le nombre est spécifié dans NumberOfItems."
+    },
+    "NumberOfItems": {
+      "definition": "Nombre d'éléments pour le statut."
+    }
+  }
+}

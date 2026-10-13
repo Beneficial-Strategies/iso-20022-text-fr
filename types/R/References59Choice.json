@@ -1,0 +1,18 @@
+{
+  "isoType": "References59Choice",
+  "definition": "Choix de référence.",
+  "isoElements": {
+    "OtherTransactionIdentification": {
+      "definition": "Référence d’une opération qui ne peut pas être identifiée à l’aide d’un élément de référence standard présent dans le message."
+    },
+    "SecuritiesFinancingTransactionIdentification": {
+      "definition": "Identification non ambiguë de l’opération de financement sur titres sous-jacente (et non de la transaction de financement sur titres sous-jacente), telle qu’attribuée par la partie instructrice."
+    },
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Identification non ambiguë de l’opération de règlement de titres."
+    },
+    "IntraPositionMovementIdentification": {
+      "definition": "Référence de l’opération de mouvement intra-position dont l’annulation est demandée, telle que connue du titulaire du compte (ou de la partie instructrice agissant pour son compte)."
+    }
+  }
+}

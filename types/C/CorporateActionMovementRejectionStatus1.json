@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionMovementRejectionStatus1",
+  "definition": "Fournit le motif de rejet d'un mouvement.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Le motif du rejet."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

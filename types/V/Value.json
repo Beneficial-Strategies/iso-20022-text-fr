@@ -1,0 +1,12 @@
+{
+  "isoType": "Value",
+  "definition": "Imputation d'un élément sur un compte de trésorerie, dans le contexte d'une opération de trésorerie, entraînant une augmentation ou une diminution du solde du compte.",
+  "isoElements": {
+    "BaseCurrencyItem": {
+      "definition": "Spécifie le montant dans la devise de base du destinataire."
+    },
+    "AlternateCurrencyItem": {
+      "definition": "Spécifie le montant dans une autre devise."
+    }
+  }
+}

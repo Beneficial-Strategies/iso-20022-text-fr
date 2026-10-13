@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountForAction1",
+  "definition": "Compte au débit ou au crédit duquel une écriture de trésorerie est passée.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "Currency": {
+      "definition": "Moyen d'échange de valeur."
+    }
+  }
+}

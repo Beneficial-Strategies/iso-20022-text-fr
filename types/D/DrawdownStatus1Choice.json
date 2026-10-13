@@ -1,0 +1,12 @@
+{
+  "isoType": "DrawdownStatus1Choice",
+  "definition": "Choix de formats pour un statut de retrait progressif.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Statut exprimé sous forme de code propriétaire."
+    }
+  }
+}

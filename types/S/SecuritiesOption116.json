@@ -1,0 +1,77 @@
+{
+  "isoType": "SecuritiesOption116",
+  "definition": "Fournit des informations sur l'option sur titres de l'événement sur titres.",
+  "isoElements": {
+    "SecurityDetails": {
+      "definition": "Fournit la description de l'instrument financier lié au mouvement de titres."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si la valeur est un débit ou un crédit."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "definition": "Précise que le titre identifié est une identification de titre temporaire utilisée pour des raisons de traitement, par exemple un titre de contrepartie utilisé aux US."
+    },
+    "NonEligibleProceedsIndicator": {
+      "definition": "Précise les informations relatives aux ressources de sortie qui ne peuvent pas être traitées par le dépositaire central de titres (CSD). Une instruction de livraison spéciale du titulaire du compte est requise pour que le résultat de l'événement sur titres soit crédité."
+    },
+    "IssuerOfferorTaxabilityIndicator": {
+      "definition": "Le produit est imposable selon les informations fournies par l'émetteur / offrant."
+    },
+    "NewSecuritiesIssuanceIndicator": {
+      "definition": "Précise la nature de l'émission de titres."
+    },
+    "IncomeType": {
+      "definition": "Précise le type de revenu.|Les listes des codes de type de revenu à utiliser sont disponibles sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "OtherIncomeType": {
+      "definition": "Type de revenu à utiliser dans le cadre d'un autre régime fiscal."
+    },
+    "ExemptionType": {
+      "definition": "Précise la base du taux réduit de retenue à la source."
+    },
+    "EntitledQuantity": {
+      "definition": "Quantité de titres fondée sur les conditions de l'événement sur titres et sur le solde de titres sous-jacents auquel le titulaire du compte a droit. (Cette quantité peut être positive ou négative)."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lieu où les instruments financiers sont/seront conservés."
+    },
+    "CountryOfIncomeSource": {
+      "definition": "Indique le pays d'où provient le revenu."
+    },
+    "FractionDisposition": {
+      "definition": "Précise comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    },
+    "CurrencyOption": {
+      "definition": "Devise dans laquelle le produit en espèces doit être crédité ou débité."
+    },
+    "TradingPeriod": {
+      "definition": "Période pendant laquelle les titres intermédiaires ou de sortie sont négociables sur un marché secondaire."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates relatives au mouvement de titres."
+    },
+    "RateDetails": {
+      "definition": "Fournit des informations sur les taux relatifs au mouvement de titres."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix relatifs au mouvement de titres."
+    },
+    "AmountDetails": {
+      "definition": "Fournit des informations sur les montants relatifs à un mouvement de titres."
+    }
+  },
+  "isoRules": {
+    "IssuerOfferorTaxabilityIndicatorUsageRule": {
+      "definition": "L'IssuerOfferorTaxabilityIndicator ne peut être utilisé que lorsqu'aucun taux d'imposition n'est fourni dans le message et ne doit pas être utilisé dans des événements tels que le dividende ou l'intérêt.|La liste des codes propriétaires IssuerOfferorTaxabilityIndicator pouvant être utilisés figure dans le document \" TXAP Taxability Codes\" disponible sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "Les listes des codes de type de revenu à utiliser dans IncomeType sont fournies dans le document « ETYP-ITYP Exemption & Income Type Codes » disponible sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "Les listes des codes de type d'exemption à utiliser dans ExemptionType sont fournies dans le document « ETYP-ITYP Exemption & Income Type Codes » disponible sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "IncomeType1Rule": {
+      "definition": "Si au moins une occurrence de OtherIncomeType est présente, alors IncomeType doit être présent."
+    }
+  }
+}

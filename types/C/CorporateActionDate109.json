@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDate109",
+  "definition": "Indique la date de l'opération sur titres.",
+  "isoElements": {
+    "CoverExpirationDeadline": {
+      "definition": "Dernier jour où un porteur peut livrer les titres pour lesquels il a fait un choix et/ou qu'il a précédemment protégés."
+    },
+    "TradingDate": {
+      "definition": "Date/heure à laquelle la transaction (droits) a été convenue."
+    }
+  }
+}

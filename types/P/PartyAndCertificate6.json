@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyAndCertificate6",
+  "definition": "Partie et certificat de sécurité associé.",
+  "isoElements": {
+    "Party": {
+      "definition": "Entité impliquée dans une activité."
+    },
+    "Certificate": {
+      "definition": "Certificat de sécurité utilisé pour signer électroniquement."
+    }
+  }
+}

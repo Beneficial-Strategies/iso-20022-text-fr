@@ -1,0 +1,12 @@
+{
+  "isoType": "Disclosure3Choice",
+  "definition": "Choix entre l'indication d'une absence de divulgation et la fourniture d'informations de divulgation de la détention d'actions.",
+  "isoElements": {
+    "NoDisclosure": {
+      "definition": "Les informations sur la détention d'actions ne sont pas divulguées."
+    },
+    "SafekeepingAccountAndHoldings": {
+      "definition": "Détail du compte, des sous-niveaux de compte et des positions."
+    }
+  }
+}

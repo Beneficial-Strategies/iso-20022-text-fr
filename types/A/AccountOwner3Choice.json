@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountOwner3Choice",
+  "definition": "Choix entre une organisation et une personne physique.",
+  "isoElements": {
+    "IndividualOwnerIdentification": {
+      "definition": "Identification de la personne physique propriétaire légale du compte."
+    },
+    "OrganisationOwnerIdentification": {
+      "definition": "Identification de l'organisation propriétaire légale du compte."
+    }
+  }
+}

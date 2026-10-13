@@ -1,0 +1,27 @@
+{
+  "isoType": "SafekeepingAccount2",
+  "definition": "Compte de conservation ou d'investissement. Un compte de conservation est un compte sur lequel une écriture de titres est passée. Un compte d'investissement est un compte entre un ou plusieurs investisseurs et un gestionnaire de fonds ou un fonds. Le compte peut contenir des avoirs dans tout fonds d'investissement ou toute catégorie de fonds d'investissement géré (ou distribué) par le gestionnaire de fonds, au sein de la même famille de fonds.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "FungibleIndicator": {
+      "definition": "Indique si les titres du compte sont fongibles, c'est-à-dire interchangeables."
+    },
+    "Name": {
+      "definition": "Nom du compte. Il constitue un moyen supplémentaire d'identification et est désigné par le teneur de compte en accord avec le titulaire du compte."
+    },
+    "Designation": {
+      "definition": "Informations d'enregistrement supplémentaires s'appliquant à un bloc de parts déterminé à des fins de négociation et de déclaration. Ces informations peuvent être utilisées lorsque toutes les parts sont enregistrées, par exemple, auprès d'un supermarché de fonds, mais que les avoirs de chaque investisseur doivent être rapprochés individuellement."
+    },
+    "IntermediaryInformation": {
+      "definition": "Partie qui fournit aux investisseurs des services relatifs aux produits financiers, p. ex. des conseils sur les produits et le placement d'ordres pour le fonds d'investissement."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    }
+  }
+}

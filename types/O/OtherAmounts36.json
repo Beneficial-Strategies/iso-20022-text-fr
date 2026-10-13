@@ -1,0 +1,39 @@
+{
+  "isoType": "OtherAmounts36",
+  "definition": "Identifie d'autres montants relatifs à l'opération.",
+  "isoElements": {
+    "AccruedInterestAmount": {
+      "definition": "Montant des intérêts courus entre les périodes de paiement des coupons."
+    },
+    "ChargesFees": {
+      "definition": "Montant payé pour la prestation de services financiers qui ne peut être classé sous un autre qualificatif."
+    },
+    "TradeAmount": {
+      "definition": "Montant principal d'une transaction (prix multiplié par la quantité)."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Montant versé à un courtier d'exécution à titre de commission."
+    },
+    "LocalTax": {
+      "definition": "Taxe prélevée par la juridiction dans laquelle l'instrument financier est réglé."
+    },
+    "LocalBrokerCommission": {
+      "definition": "Montant de la commission versée à un courtier local."
+    },
+    "Other": {
+      "definition": "Montant qui n'est pas indiqué par une dénomination commerciale connue."
+    },
+    "StampDuty": {
+      "definition": "Montant du droit de timbre."
+    },
+    "TransactionTax": {
+      "definition": "Montant de la taxe sur les transactions."
+    },
+    "WithholdingTax": {
+      "definition": "Montant qui sera retenu par une autorité fiscale."
+    },
+    "ConsumptionTax": {
+      "definition": "Montant de la taxe à la consommation."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "OriginalItem9",
+  "definition": "Identifie l'élément de notification d'origine auquel se rapporte l'avis d'annulation.",
+  "isoElements": {
+    "OriginalItemIdentification": {
+      "definition": "Identification de l'élément de notification d'origine."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identification unique attribuée par le débiteur pour identifier sans ambiguïté l'opération sous-jacente d'origine auprès du créancier."
+    },
+    "UETR": {
+      "definition": "Identifiant unique universel fournissant une référence de bout en bout d'une opération de paiement."
+    },
+    "Amount": {
+      "definition": "Montant d'argent dont le crédit sur le compte était attendu, conformément à la notification à recevoir d'origine."
+    },
+    "ExpectedValueDate": {
+      "definition": "Date de valeur à laquelle le compte devait être crédité."
+    },
+    "OriginalItemReference": {
+      "definition": "Fournit des informations supplémentaires afin d'identifier une notification de paiement antérieure."
+    }
+  }
+}

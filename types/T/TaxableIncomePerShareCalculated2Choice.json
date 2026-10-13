@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxableIncomePerShareCalculated2Choice",
+  "definition": "Choix de formats pour le revenu imposable par part calculé.",
+  "isoElements": {
+    "Code": {
+      "definition": "Revenu imposable par part (TIS) calculé, exprimé sous la forme d'un code."
+    },
+    "Proprietary": {
+      "definition": "Revenu imposable par part (TIS) calculé, exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

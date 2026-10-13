@@ -1,0 +1,18 @@
+{
+  "isoType": "RelatedSettlementInstruction2",
+  "definition": "Informations sur une instruction de règlement-livraison liée.",
+  "isoElements": {
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Identification non ambiguë de l'instruction de règlement-livraison liée, attribuée par le titulaire du compte."
+    },
+    "RelatedSettlementQuantity": {
+      "definition": "Quantité de titres pour laquelle la réclamation de marché a été émise."
+    },
+    "TransferOfProceedsTypeIndicator": {
+      "definition": "Indique le type de transfert du produit de la réclamation de marché."
+    },
+    "ProceedsQuantityBreakdown": {
+      "definition": "Précise la ventilation des quantités entre transfert du produit et compensation en espèces."
+    }
+  }
+}

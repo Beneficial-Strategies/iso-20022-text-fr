@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationOrError11Choice",
+  "definition": "Sert à fournir les détails de confirmation d'une ou plusieurs réservations définies par le membre (ou pour son compte) et gérées par l'administrateur des transactions.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Fournit un rapport sur les réservations."
+    },
+    "OperationalError": {
+      "definition": "Indique qu'une erreur opérationnelle a été émise lors du traitement de la demande associée."
+    }
+  }
+}

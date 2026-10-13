@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionOption200",
+  "definition": "Fournit des informations sur l'option de l'événement sur titres.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "InstructedQuantity": {
+      "definition": "Quantité de titres à laquelle s'applique cette instruction."
+    }
+  },
+  "isoRules": {
+    "OptionNumber1Rule": {
+      "definition": "Pour différencier les options, OptionNumber doit être utilisé (de préférence à OptionType, par exemple lorsque deux offres ou plus peuvent être décrites par le même code d'option d'opération sur titres). Par conséquent, la valeur de OptionNumber doit être différente pour chaque option."
+    },
+    "OptionNumber2Rule": {
+      "definition": "Lorsque CorporateActionInstruction est non sollicitée, c'est-à-dire que l'instruction n'a pas été précédée d'un Corporate ActionNotification, alors OptionNumber/code doit être UNSO (unsolicited)."
+    }
+  }
+}

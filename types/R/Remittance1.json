@@ -1,0 +1,15 @@
+{
+  "isoType": "Remittance1",
+  "definition": "Précise la ressource de remise permettant l'accès direct aux informations de remise.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients, sous forme non structurée."
+    },
+    "Structured": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients, sous forme structurée."
+    },
+    "Related": {
+      "definition": "Fournit des informations relatives au traitement des informations de remise par l'une des banques de la chaîne de traitement de l'opération."
+    }
+  }
+}

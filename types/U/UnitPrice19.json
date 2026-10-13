@@ -1,0 +1,12 @@
+{
+  "isoType": "UnitPrice19",
+  "definition": "Somme d'argent pour laquelle des biens ou des services sont proposés, vendus ou achetés.",
+  "isoElements": {
+    "PriceType": {
+      "definition": "Type de prix."
+    },
+    "Value": {
+      "definition": "Valeur du prix, c'est-à-dire sous forme de devise et de valeur."
+    }
+  }
+}

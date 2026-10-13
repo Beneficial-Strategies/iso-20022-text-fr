@@ -1,0 +1,18 @@
+{
+  "isoType": "Quantity48",
+  "definition": "Détails sur la quantité, le compte et les autres informations connexes relatifs à une opération.",
+  "isoElements": {
+    "SettlementQuantity": {
+      "definition": "Quantité totale de titres à régler."
+    },
+    "DenominationChoice": {
+      "definition": "Dénomination du titre à recevoir ou à livrer."
+    },
+    "CertificateNumber": {
+      "definition": "Identifiant unique et non ambigu d'un certificat attribué par l'émetteur."
+    },
+    "QuantityBreakdown": {
+      "definition": "Ventilation d'une quantité en lots, tels que lots fiscaux ou séries d'instruments."
+    }
+  }
+}

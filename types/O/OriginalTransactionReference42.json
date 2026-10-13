@@ -1,0 +1,72 @@
+{
+  "isoType": "OriginalTransactionReference42",
+  "definition": "Précise les éléments clés tels que définis dans l'opération d'origine.",
+  "isoElements": {
+    "InterbankSettlementAmount": {
+      "definition": "Montant d'argent transféré entre la banque donneuse d'ordre et la banque destinataire de l'instruction."
+    },
+    "Amount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise ordonnée par la partie initiatrice."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour la banque qui le doit et à laquelle il devient disponible pour la banque à laquelle il est dû."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Date et heure auxquelles le créancier demande que le montant soit encaissé auprès du débiteur."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Date à laquelle la partie initiatrice demande à la banque de compensation de traiter le paiement.|Utilisation : il s'agit de la date à laquelle le compte du débiteur doit être débité. En cas de paiement par chèque, date à laquelle le chèque doit être établi par la banque."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Partie créancière qui signe le mandat."
+    },
+    "SettlementInformation": {
+      "definition": "Précise comment s'est déroulé le règlement de l'ou des opérations d'origine entre l'agent instructeur et l'agent instruit."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments utilisés pour préciser davantage le type d'opération."
+    },
+    "PaymentMethod": {
+      "definition": "Précise le moyen de paiement qui sera utilisé pour transférer le montant."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Fournit des détails complémentaires sur le mandat signé entre le créancier et le débiteur."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le transfert est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients."
+    },
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit un montant au créancier (final)."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit une somme d'argent au créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture de débit sera passée à la suite de l'opération."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du débiteur auprès de son teneur de compte dans la chaîne de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du créancier auprès de son teneur de compte, sur lequel une écriture de crédit sera passée à la suite de l'opération de paiement."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle une somme d'argent est due."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture de crédit sera passée à la suite de l'opération de paiement."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant est dû."
+    },
+    "Purpose": {
+      "definition": "Motif sous-jacent de l'opération de paiement.||Utilisation : |Le motif est utilisé par les clients finaux, c'est-à-dire la partie initiatrice, le débiteur (final) et le créancier (final), pour fournir des informations sur la nature du paiement. Le motif est un élément de contenu, qui n'est utilisé pour aucun traitement par les banques intervenant dans la chaîne de paiement."
+    }
+  }
+}

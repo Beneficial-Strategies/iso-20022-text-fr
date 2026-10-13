@@ -1,0 +1,18 @@
+{
+  "isoType": "EUCapitalGain2Code",
+  "definition": "Précise si la plus-value relève du champ d'application de la directive européenne en matière de fiscalité des revenus de l'épargne sous forme de paiements d'intérêts (directive 2003/48/CE du Conseil du 3 juin) pour un revenu réalisé lors de la vente, du remboursement ou du rachat d'actions et de parts, etc (EC).",
+  "isoCodes": {
+    "EUSI": {
+      "name": "Plus-value en capital dans le périmètre",
+      "definition": "La plus-value relève du champ d'application de la directive."
+    },
+    "EUSO": {
+      "name": "Plus-value en capital hors périmètre",
+      "definition": "La plus-value ne relève pas du champ d'application de la directive."
+    },
+    "UKWN": {
+      "name": "Plus-value en capital inconnue",
+      "definition": "On ignore si la plus-value relève ou non du champ d'application de la directive."
+    }
+  }
+}

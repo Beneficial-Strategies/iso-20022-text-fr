@@ -1,0 +1,18 @@
+{
+  "isoType": "CancellationStatus5Code",
+  "definition": "Précise le statut d'annulation.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Reçu",
+      "definition": "L'instruction/demande d'annulation a été reçue, c'est-à-dire que la validation technique du message est correcte et que le message se trouve désormais côté destinataire."
+    },
+    "PACK": {
+      "name": "Accepté",
+      "definition": "L'instruction / demande d'annulation a été reçue et accusée réception / acceptée pour la suite du traitement."
+    },
+    "STNP": {
+      "name": "Envoyé à la partie suivante",
+      "definition": "L'instruction/demande d'annulation a été envoyée à la partie suivante, c'est-à-dire à l'intermédiaire suivant."
+    }
+  }
+}

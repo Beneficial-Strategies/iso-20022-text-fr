@@ -1,0 +1,15 @@
+{
+  "isoType": "InstructionStatusReturnCriteria1",
+  "definition": "Définit les critères utilisés pour établir un rapport sur le statut du paiement.",
+  "isoElements": {
+    "PaymentInstructionStatusIndicator": {
+      "definition": "Indique si le statut de l'instruction est demandé."
+    },
+    "PaymentInstructionStatusDateTimeIndicator": {
+      "definition": "Indique si la date et l'heure du statut sont demandées."
+    },
+    "PaymentInstructionStatusReasonIndicator": {
+      "definition": "Indique si le motif du statut est demandé."
+    }
+  }
+}

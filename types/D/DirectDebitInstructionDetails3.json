@@ -1,0 +1,27 @@
+{
+  "isoType": "DirectDebitInstructionDetails3",
+  "definition": "Instructions, initiées par le créancier, de débiter le compte d'un débiteur au profit du créancier.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identification du mandat d'une instruction de prélèvement."
+    },
+    "AutomatedDirectDebitInstructionIndicator": {
+      "definition": "Indique si l'instruction est une instruction de prélèvement automatisé.||Usage : la valeur par défaut de AutomatedDirectDebitInstructionIndicator est false."
+    },
+    "DirectDebitTransferableIndicator": {
+      "definition": "Indique si l'instruction de prélèvement est transférable.||Usage : la valeur par défaut de DirectDebitTransferableIndicator est false."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "LastCollectionCurrencyAmount": {
+      "definition": "Montant du dernier débit effectué pour le mandat de prélèvement."
+    },
+    "LastCollectionDate": {
+      "definition": "Date à laquelle le dernier débit au titre du mandat de prélèvement peut être effectué.||Usage : non inclus si toutes les limites de validité du mandat de prélèvement ont déjà été précisées ou s'il n'y a aucune limite de durée de validité du prélèvement."
+    },
+    "OtherDetails": {
+      "definition": "Fournit des informations complémentaires sur le statut du transfert de l'échéancier d'opérations demandé."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionNarrative35",
+  "definition": "Fournit des informations complémentaires telles que les conditions de fiscalité.",
+  "isoElements": {
+    "AdditionalText": {
+      "definition": "Fournit des informations supplémentaires ou précise plus en détail le contenu d'un message. Ce champ ne peut être utilisé que lorsque l'information à transmettre ne peut pas être codifiée."
+    },
+    "NarrativeVersion": {
+      "definition": "Fournit des informations pouvant être ignorées pour le traitement automatisé ; - reprise d'informations déjà incluses dans des champs structurés, - ou informations narratives non nécessaires au traitement automatique."
+    },
+    "PartyContactNarrative": {
+      "definition": "Fournit des informations supplémentaires concernant la partie, par exemple l'unité de contact ou la personne responsable de l'opération identifiée dans le message."
+    },
+    "TaxationConditions": {
+      "definition": "Fournit des conditions fiscales qui ne peuvent pas être incluses dans les champs structurés de ce message et qui n'ont pas été mentionnées dans l'accord de niveau de service (SLA)."
+    }
+  }
+}

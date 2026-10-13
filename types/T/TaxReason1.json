@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxReason1",
+  "definition": "Motif pour lequel le service est taxé.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif pour lequel le service est taxé, sous forme codée."
+    },
+    "Explanation": {
+      "definition": "Motif pour lequel le service est taxé, sous forme de texte libre."
+    }
+  }
+}

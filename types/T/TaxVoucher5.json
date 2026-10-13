@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxVoucher5",
+  "definition": "Indique les certificats fiscaux dans le cadre d'un événement d'opération sur titres.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Référence unique du certificat fiscal exigée par les autorités fiscales compétentes afin de garantir qu'aucune réclamation relative à ce certificat fiscal particulier ne puisse être dupliquée."
+    },
+    "BargainDate": {
+      "definition": "Date à laquelle un achat de réinvestissement de dividende a été finalisé. S'il n'y a qu'une seule transaction, l'heure à laquelle elle a été conclue doit être incluse."
+    },
+    "BargainSettlementDate": {
+      "definition": "Date de règlement de l'opération d'achat de réinvestissement de dividende."
+    }
+  }
+}

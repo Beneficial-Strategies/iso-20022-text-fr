@@ -1,0 +1,4 @@
+{
+  "isoType": "ReceiptAcknowledgementV01",
+  "definition": "Le message ReceiptAcknowledgement est envoyé par l'administrateur des transactions à un membre du système et inversement. Il est envoyé pour accuser réception d'un ou de plusieurs messages envoyés précédemment. Le message d'accusé est 1) un accusé de réception applicatif et 2) il transmet des informations sur le traitement du ou des messages initiaux. Dans le cas 2), le ReceiptAcknowledgement peut servir de message d'erreur générique, qui fournit des informations sur le statut (par exemple rejet, acceptation) d'une instruction."
+}

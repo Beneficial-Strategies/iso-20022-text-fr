@@ -1,0 +1,17 @@
+{
+  "isoType": "Pledgee3",
+  "definition": "Identifie l'entité au profit de laquelle les instruments financiers sont nantis.",
+  "isoElements": {
+    "PledgeeTypeAndIdentification": {
+      "definition": "Identification unique de la partie."
+    },
+    "LEI": {
+      "definition": "Identification de l'entité juridique utilisée comme identification alternative d'une partie."
+    }
+  },
+  "isoRules": {
+    "PledgeeTypeAndIdentificationOrLEIRule": {
+      "definition": "PledgeeTypeAndIdentification doit être présent ou LEI doit être présent."
+    }
+  }
+}

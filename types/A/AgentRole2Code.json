@@ -1,0 +1,26 @@
+{
+  "isoType": "AgentRole2Code",
+  "definition": "Précise le rôle de l'agent.",
+  "isoCodes": {
+    "SPAY": {
+      "name": "Agent payeur du système",
+      "definition": "L'agent payeur du système (SPA) est la partie au sein du CSD responsable de la distribution des produits en espèces et en titres liés à une distribution donnée aux autres parties du CSD."
+    },
+    "CODO": {
+      "name": "Codomicile",
+      "definition": "Sous-agent désigné pour exécuter le paiement de l'opération sur titres pour le compte de la société émettrice/de l'offrant."
+    },
+    "ISAG": {
+      "name": "Agent de l'émetteur",
+      "definition": "Partie désignée pour administrer l'événement pour le compte de la société émettrice ou de l'offrant. La partie peut être contactée pour obtenir plus d'informations sur l'événement."
+    },
+    "REGR": {
+      "name": "Teneur de registre",
+      "definition": "Partie/agent responsable de la tenue du registre d'un titre."
+    },
+    "PAYA": {
+      "name": "Agent payeur",
+      "definition": "Agent (agent payeur principal ou fiscal) désigné pour exécuter le paiement de l'événement d'opération sur titres pour le compte de la société émettrice ou de l'offrant."
+    }
+  }
+}

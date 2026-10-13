@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceOrOperationalError10Choice",
+  "definition": "Choix entre les données du relevé ou une erreur opérationnelle.",
+  "isoElements": {
+    "Cancellations": {
+      "definition": "Détails complémentaires des opérations d'annulation intra-solde."
+    },
+    "OperationalError": {
+      "definition": "Erreur opérationnelle résultant d'un rejet."
+    }
+  }
+}

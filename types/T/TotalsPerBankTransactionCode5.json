@@ -1,0 +1,33 @@
+{
+  "isoType": "TotalsPerBankTransactionCode5",
+  "definition": "Ensemble d'éléments fournissant la somme totale des écritures par code d'opération bancaire.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Nombre d'écritures individuelles pour le code d'opération bancaire."
+    },
+    "Sum": {
+      "definition": "Total de toutes les écritures individuelles incluses dans le relevé."
+    },
+    "TotalNetEntry": {
+      "definition": "Montant total de débit ou de crédit résultant de la compensation des montants de toutes les écritures de débit et de crédit par code d'opération bancaire."
+    },
+    "CreditEntries": {
+      "definition": "Nombre d'écritures de crédit individuelles pour le code d'opération bancaire."
+    },
+    "DebitEntries": {
+      "definition": "Nombre d'écritures de débit individuelles pour le code d'opération bancaire."
+    },
+    "ForecastIndicator": {
+      "definition": "Indique si le code d'opération bancaire se rapporte à des éléments comptabilisés ou prévisionnels."
+    },
+    "BankTransactionCode": {
+      "definition": "Ensemble d'éléments permettant d'identifier complètement le type d'opération sous-jacente donnant lieu à une écriture."
+    },
+    "Availability": {
+      "definition": "Ensemble d'éléments indiquant le moment où le montant comptabilisé deviendra disponible, c'est-à-dire accessible et producteur d'intérêts."
+    },
+    "Date": {
+      "definition": "Indique la date (et l'heure) du récapitulatif des opérations."
+    }
+  }
+}

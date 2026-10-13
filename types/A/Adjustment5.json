@@ -1,0 +1,12 @@
+{
+  "isoType": "Adjustment5",
+  "definition": "Modification de la valeur de biens et / ou de services. Par exemple : ristourne, remise, majoration.",
+  "isoElements": {
+    "Direction": {
+      "definition": "Précise si l'ajustement doit être soustrait du montant total ou ajouté à celui-ci."
+    },
+    "Amount": {
+      "definition": "Précise le montant monétaire de l'ajustement."
+    }
+  }
+}

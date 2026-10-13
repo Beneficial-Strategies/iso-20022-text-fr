@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionStatus1Code",
+  "definition": "Indique le statut de traitement d'une opération sur fonds d'investissement.",
+  "isoCodes": {
+    "RVSL": {
+      "name": "Annulation",
+      "definition": "L'opération a été annulée."
+    },
+    "REBO": {
+      "name": "Recomptabilisé",
+      "definition": "L'opération a été recomptabilisée."
+    },
+    "CANC": {
+      "name": "Annulé",
+      "definition": "L'opération a été annulée."
+    }
+  }
+}

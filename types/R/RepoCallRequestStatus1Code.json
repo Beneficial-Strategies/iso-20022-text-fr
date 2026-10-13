@@ -1,0 +1,14 @@
+{
+  "isoType": "RepoCallRequestStatus1Code",
+  "definition": "Précise des informations supplémentaires sur le statut de l'instruction d'appel de pension livrée traitée.",
+  "isoCodes": {
+    "CACK": {
+      "name": "Accusé de réception et accepté",
+      "definition": "La demande d'appel de pension livrée est reconnue/acceptée."
+    },
+    "DEND": {
+      "name": "Refusé",
+      "definition": "La demande d'appel de pension livrée est refusée."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CardholderAuthentication2",
+  "definition": "Données relatives à l'authentification du porteur de la carte.",
+  "isoElements": {
+    "AuthenticationMethod": {
+      "definition": "Méthode utilisée pour authentifier le porteur de la carte."
+    },
+    "AuthenticationEntity": {
+      "definition": "Entité ou objet chargé de vérifier l'authenticité du porteur de la carte."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "CertificateIssuer1",
+  "definition": "Nom de l'émetteur du certificat (voir X.509).",
+  "isoElements": {
+    "RelativeDistinguishedName": {
+      "definition": "Nom distinctif relatif dans un certificat X.509."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "TransactionActivity1Code",
+  "definition": "Indique le type d'activité à laquelle se rapporte cette opération.",
+  "isoCodes": {
+    "BOLE": {
+      "name": "Activité d'emprunt et de prêt",
+      "definition": "L'opération se rapporte à un prêt/emprunt."
+    },
+    "CLAI": {
+      "name": "Réclamation de marché",
+      "definition": "L'opération se rapporte à une réclamation de marché consécutive à une opération sur titres."
+    },
+    "COLL": {
+      "name": "Activité de garantie",
+      "definition": "L'opération se rapporte à des garanties."
+    },
+    "CORP": {
+      "name": "Activité d'opérations sur titres",
+      "definition": "L'opération se rapporte à une opération sur titres."
+    },
+    "SETT": {
+      "name": "Activité de règlement et de compensation",
+      "definition": "L'opération se rapporte au règlement et à la compensation."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "OpeningClosing3Choice",
+  "definition": "Choix de format pour les informations d’ouverture et de clôture.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informations d’ouverture et de clôture exprimées sous forme de code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Informations d’ouverture et de clôture exprimées sous forme de code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "DateType8Code",
+  "definition": "Précise le type de dates.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "La date est inconnue de l'expéditeur ou n'a pas été établie."
+    },
+    "ONGO": {
+      "name": "En cours",
+      "definition": "Base continue, indiquant que la date est déterminée par un processus de « base continue », par exemple « au fil de l'eau »."
+    }
+  }
+}

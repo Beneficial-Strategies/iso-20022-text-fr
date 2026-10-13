@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementDate1Code",
+  "definition": "Indique la date de règlement sous forme codée.",
+  "isoCodes": {
+    "ASAP": {
+      "name": "Dès que possible",
+      "definition": "Le transfert doit être effectué dès que possible."
+    },
+    "ENDC": {
+      "name": "À la fin du contrat",
+      "definition": "Le transfert doit être effectué à la fin du contrat."
+    },
+    "WHIF": {
+      "name": "Lorsque et si émis",
+      "definition": "Le règlement a lieu lorsque l'instrument financier est émis par l'émetteur."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "BeneficialOwner2",
+  "definition": "Fournit des informations sur le bénéficiaire effectif des titres.",
+  "isoElements": {
+    "BeneficialOwnerIdentification": {
+      "definition": "Identification de la partie qui est le bénéficiaire effectif de l'instrument financier spécifié."
+    },
+    "AdditionalIdentification": {
+      "definition": "Identification complémentaire de la partie qui est le bénéficiaire effectif de l'instrument financier spécifié."
+    },
+    "Nationality": {
+      "definition": "Nationalité du bénéficiaire effectif."
+    },
+    "DomicileCountry": {
+      "definition": "Pays dans lequel la personne est domiciliée de façon permanente (lieu de résidence permanente d'une personne)."
+    },
+    "NonDomicileCountry": {
+      "definition": "Pays dans lequel le détenteur de l'instrument financier doit préciser qu'il n'est pas domicilié. (Le détenteur doit certifier, conformément aux conditions de l'opération sur titres, qu'il n'est pas domicilié dans le pays indiqué.)."
+    },
+    "CertificationIndicator": {
+      "definition": "Indique si une certification est requise du titulaire du compte. (Oui signifie qu'une certification est requise. Non signifie qu'aucune certification n'est requise.)."
+    },
+    "CertificationType": {
+      "definition": "Type de certification du bénéficiaire effectif qui est requis."
+    },
+    "DeclarationDetails": {
+      "definition": "Détails de la déclaration relatifs à l'instrument financier, par exemple la propriété effective."
+    }
+  }
+}

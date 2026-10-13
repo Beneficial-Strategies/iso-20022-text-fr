@@ -1,0 +1,14 @@
+{
+  "isoType": "OtherAmountType1Code",
+  "definition": "Type d'autre montant.",
+  "isoCodes": {
+    "PINT": {
+      "name": "Intérêts prépayés",
+      "definition": "Intérêts payés d'avance."
+    },
+    "SINT": {
+      "name": "Intérêts de règlement",
+      "definition": "Intérêts sur les intérêts."
+    }
+  }
+}

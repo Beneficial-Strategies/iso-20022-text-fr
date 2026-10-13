@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesOption80",
+  "definition": "Fournit des informations sur l'option sur titres de l'événement sur titres.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identification de l'instrument financier."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si la valeur est un débit ou un crédit."
+    },
+    "PostingQuantity": {
+      "definition": "Quantité de titres qui ont été comptabilisés (crédit ou débit) sur le compte-titres."
+    },
+    "PostingDate": {
+      "definition": "Date de l'écriture (crédit ou débit) sur le compte."
+    },
+    "OriginalPostingDate": {
+      "definition": "Date/heure de la comptabilisation (crédit ou débit) sur le compte qui a été initialement communiquée dans la confirmation."
+    }
+  }
+}

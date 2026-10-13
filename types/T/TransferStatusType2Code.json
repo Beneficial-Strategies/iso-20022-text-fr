@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferStatusType2Code",
+  "definition": "Indique un type de statut de transfert ou d’événement de transfert.",
+  "isoCodes": {
+    "S019": {
+      "name": "Demande d'informations sur la détention du compte",
+      "definition": "Le rapport de statut est envoyé en réponse à une demande d’informations sur les avoirs du compte."
+    },
+    "BCEV": {
+      "name": "Événement de cristallisation des prestations",
+      "definition": "Le rapport de statut signale qu’un ou plusieurs événements de cristallisation des prestations (BCE) se sont produits."
+    },
+    "SETT": {
+      "name": "Informations de règlement CSD ou ICSD",
+      "definition": "Le rapport de statut est envoyé pour fournir les informations requises pour une étape de règlement d’un CSD ou d’un ICSD."
+    },
+    "DRAW": {
+      "name": "Retrait",
+      "definition": "Le rapport de statut signale un ou plusieurs retraits échelonnés."
+    },
+    "PAYA": {
+      "name": "Avis de paiement",
+      "definition": "Le rapport de statut signale que des espèces sont ou ont été instruites."
+    },
+    "S012": {
+      "name": "Instruction de transfert de portefeuille",
+      "definition": "Le rapport de statut est envoyé en réponse à une instruction de transfert de portefeuille."
+    },
+    "INFO": {
+      "name": "Information",
+      "definition": "Le rapport de statut est envoyé pour fournir des informations relatives au transfert. Il peut être envoyé en réponse à une demande de statut de transfert."
+    },
+    "STAT": {
+      "name": "Statut",
+      "definition": "Le rapport de statut est envoyé pour fournir le statut d’un transfert. Il peut être envoyé en réponse à une demande de statut de transfert."
+    },
+    "S005": {
+      "name": "Instruction de transfert entrant",
+      "definition": "Le rapport de statut est envoyé en réponse à une instruction de transfert entrant."
+    },
+    "S001": {
+      "name": "Instruction de transfert sortant",
+      "definition": "Le rapport de statut est envoyé en réponse à une instruction de transfert sortant."
+    },
+    "CONV": {
+      "name": "Statut de conversion",
+      "definition": "Le rapport de statut est envoyé pour fournir le nombre de parts à la suite d’une conversion."
+    }
+  }
+}

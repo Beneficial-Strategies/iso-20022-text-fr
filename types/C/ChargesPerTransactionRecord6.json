@@ -1,0 +1,51 @@
+{
+  "isoType": "ChargesPerTransactionRecord6",
+  "definition": "Fournit une ventilation détaillée des frais par opération de paiement.",
+  "isoElements": {
+    "RecordIdentification": {
+      "definition": "Identification unique et sans ambiguïté de l'enregistrement de frais à des fins de rapprochement."
+    },
+    "ChargesRequestor": {
+      "definition": "Agent qui demande les frais, s'il est différent de l'expéditeur."
+    },
+    "SettlementInstruction": {
+      "definition": "Précise les détails de la manière dont le règlement de la ou des opérations suivantes est effectué.||Utilisation : les données de cet agent et de cette partie doivent être reportées telles quelles dans le message résultant pour le paiement des frais."
+    },
+    "UnderlyingTransaction": {
+      "definition": "Identifie la ou les opérations sous-jacentes auxquelles les frais s'appliquent."
+    },
+    "TotalChargesPerRecord": {
+      "definition": "Total des frais réclamés pour l'enregistrement de l'opération."
+    },
+    "ChargesBreakdown": {
+      "definition": "Fournit la ventilation détaillée des frais par type."
+    },
+    "ValueDate": {
+      "definition": "Date et heure à laquelle les frais sont ou seront disponibles."
+    },
+    "Debtor": {
+      "definition": "Précise le débiteur de l'opération de paiement initiale."
+    },
+    "DebtorAccount": {
+      "definition": "Précise le compte du débiteur de l'opération de paiement initiale."
+    },
+    "DebtorAgent": {
+      "definition": "Précise la banque du débiteur de l'opération de paiement initiale, si elle est différente de l'agent teneur du compte de frais."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Précise le compte de la banque du débiteur de l'opération de paiement initiale, lorsque l'agent instructeur est différent du titulaire du compte de frais."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Agent qui tient le compte de frais.||Utilisation : cet élément doit être utilisé lorsque les frais réclamés ne sont pas liés au traitement d'une opération de paiement, par exemple lorsqu'ils concernent une recherche ou un autre processus. Il identifie l'agent qui tient le compte sur lequel les frais doivent être réglés."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Compte de l'agent qui tient le compte de frais.||Utilisation : cet élément doit être utilisé lorsque les frais réclamés ne sont pas liés au traitement d'une opération de paiement, par exemple lorsqu'ils concernent une recherche ou un autre processus. Il identifie le compte sur lequel les frais doivent être réglés."
+    },
+    "InstructionForInstructedAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction d'ajustement de paiement, auxquelles l'agent suivant peut devoir donner suite."
+    },
+    "AdditionalInformation": {
+      "definition": "Précisions complémentaires sur le motif des frais."
+    }
+  }
+}

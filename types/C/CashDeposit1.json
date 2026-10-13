@@ -1,0 +1,15 @@
+{
+  "isoType": "CashDeposit1",
+  "definition": "Dépôt d'un montant d'argent défini en billets et/ou en pièces.",
+  "isoElements": {
+    "NoteDenomination": {
+      "definition": "Précise la valeur faciale du billet ou de la pièce, y compris la devise, par exemple un billet de 50 euros."
+    },
+    "NumberOfNotes": {
+      "definition": "Précise le nombre de billets de même valeur faciale dans le dépôt."
+    },
+    "Amount": {
+      "definition": "Précise le montant total du dépôt d'espèces, c'est-à-dire la valeur faciale du billet multipliée par le nombre de billets."
+    }
+  }
+}

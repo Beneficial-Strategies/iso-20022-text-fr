@@ -1,0 +1,58 @@
+{
+  "isoType": "PendingReason39Code",
+  "definition": "Précise le motif pour lequel l'instruction a le statut en attente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du teneur de compte. Elle sera traitée conformément à l'accord de service bilatéral entre le teneur de compte et le titulaire du compte."
+    },
+    "CYCL": {
+      "name": "En attente du prochain cycle de règlement",
+      "definition": "Votre instruction est confirmée sur le marché local ou est prête pour le règlement, dans l'attente du prochain cycle de règlement."
+    },
+    "FUTU": {
+      "name": "En attente de la date de règlement",
+      "definition": "En attente de la date de règlement. Aucun problème de règlement à signaler."
+    },
+    "BOTH": {
+      "name": "Les deux instructions sont en suspens",
+      "definition": "L'instruction de la contrepartie et votre instruction sont suspendues/gelées/en mode préavis."
+    },
+    "PRCY": {
+      "name": "Instruction de la contrepartie en suspens",
+      "definition": "L'instruction de la contrepartie est un préavis, c'est-à-dire uniquement pour appariement."
+    },
+    "CMON": {
+      "name": "Fonds insuffisants de la contrepartie",
+      "definition": "Fonds insuffisants sur le compte de la contrepartie."
+    },
+    "CLAC": {
+      "name": "Titres insuffisants de la contrepartie",
+      "definition": "Instruments financiers livrables insuffisants sur le compte de la contrepartie, ou la contrepartie ne détient pas d'instruments financiers."
+    },
+    "MONY": {
+      "name": "Fonds insuffisants",
+      "definition": "Fonds insuffisants sur votre compte."
+    },
+    "LACK": {
+      "name": "Défaut de titres",
+      "definition": "Instruments financiers insuffisants sur votre compte."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du marché."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "LINK": {
+      "name": "Instruction liée en attente",
+      "definition": "Votre instruction est en attente de règlement car l'instruction qui lui est liée est en attente."
+    },
+    "PREA": {
+      "name": "Votre instruction est en suspens",
+      "definition": "Votre instruction est un préavis, c'est-à-dire uniquement pour appariement."
+    }
+  }
+}

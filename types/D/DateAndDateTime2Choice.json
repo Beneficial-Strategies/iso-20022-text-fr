@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndDateTime2Choice",
+  "definition": "Choix entre un format de date ou un format de date et heure.",
+  "isoElements": {
+    "Date": {
+      "definition": "Date précisée."
+    },
+    "DateTime": {
+      "definition": "Date et heure précisées."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MaximumAmountByPeriod1",
+  "definition": "Montant maximal autorisé sur une période donnée.",
+  "isoElements": {
+    "MaximumAmount": {
+      "definition": "Montant maximal autorisé sur une période donnée."
+    },
+    "NumberOfDays": {
+      "definition": "Période exprimée en nombre de jours."
+    }
+  }
+}

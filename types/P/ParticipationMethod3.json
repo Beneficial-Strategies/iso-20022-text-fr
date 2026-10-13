@@ -1,0 +1,24 @@
+{
+  "isoType": "ParticipationMethod3",
+  "definition": "Méthode de participation au vote à une assemblée générale.",
+  "isoElements": {
+    "ParticipationMethod": {
+      "definition": "Méthode de participation au vote à l'assemblée générale."
+    },
+    "AttendeeEmailRequiredIndicator": {
+      "definition": "Indique si l'adresse e-mail de la partie qui participera à l'assemblée virtuelle doit être fournie dans l'instruction d'assemblée."
+    },
+    "IssuerDeadlineForVoting": {
+      "definition": "Date limite de vote sur les résolutions de l'ordre du jour de l'assemblée générale."
+    },
+    "SupportedByAccountServicer": {
+      "definition": "Indique si la méthode de participation spécifique proposée par l'émetteur est prise en charge par le teneur de compte."
+    },
+    "ResponseDeadlineForVoting": {
+      "definition": "Date limite du teneur de compte pour le vote sur les résolutions de l'ordre du jour de l'assemblée générale."
+    },
+    "InvestorTypeIdentification": {
+      "definition": "Types d'investisseurs pouvant ou non participer à l'événement."
+    }
+  }
+}

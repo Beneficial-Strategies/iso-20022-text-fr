@@ -1,0 +1,12 @@
+{
+  "isoType": "ReferredDocumentType3Choice",
+  "definition": "Précise le type du document mentionné dans les informations de remise.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de document sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type du document de remise."
+    }
+  }
+}

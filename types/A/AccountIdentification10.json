@@ -1,0 +1,9 @@
+{
+  "isoType": "AccountIdentification10",
+  "definition": "Fournit des informations d'identification du compte.",
+  "isoElements": {
+    "IdentificationCode": {
+      "definition": "Code standard précisant que l'annonce s'applique à tous les comptes-titres qui détiennent l'instrument financier sous-jacent."
+    }
+  }
+}

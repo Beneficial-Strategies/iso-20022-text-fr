@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementConditionModificationStatus3Choice",
+  "definition": "Choix de statut de la commande de modification du traitement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fournit le statut de la demande de modification de condition de règlement de titres."
+    },
+    "Proprietary": {
+      "definition": "Fournit le statut de la demande de modification de condition de règlement de titres."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateClassification1Choice",
+  "definition": "Précise la finalité de haut niveau de l'instruction, selon un ensemble de catégories prédéfinies.|Utilisation : cet élément est utilisé par la partie initiatrice pour fournir des informations concernant le traitement du paiement. Il est susceptible de déclencher un traitement spécial par l'un des agents intervenant dans la chaîne de paiement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Finalité de la catégorie, telle que publiée dans une liste externe de codes de finalité de catégorie."
+    },
+    "Proprietary": {
+      "definition": "Finalité de la catégorie, sous forme propriétaire."
+    }
+  }
+}

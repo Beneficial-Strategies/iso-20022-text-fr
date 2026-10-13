@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventType126Choice",
+  "definition": "Choix entre un type d'événement sur titres et un type d'événement sur titres étendu.",
+  "isoElements": {
+    "PlainCorporateEventType": {
+      "definition": "Type d'événement sur titres."
+    },
+    "ExtendedCorporateEventType": {
+      "definition": "Liste étendue des types d'événements d'opération sur titres."
+    }
+  }
+}

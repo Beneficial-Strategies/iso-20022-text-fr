@@ -1,0 +1,17 @@
+{
+  "isoType": "ClosingBalance5",
+  "definition": "Solde de clôture de la période du relevé (solde de clôture final) ou de cette page (solde de clôture intermédiaire).",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "definition": "Indication que la position est courte ou longue."
+    },
+    "ClosingBalance": {
+      "definition": "Solde de clôture de la période du relevé (solde de clôture final) ou de cette page (solde de clôture intermédiaire)."
+    }
+  },
+  "isoRules": {
+    "ShortLongDefaultRule": {
+      "definition": "Si Shortlong est absent, la valeur par défaut est long, c'est-à-dire que le solde est positif."
+    }
+  }
+}

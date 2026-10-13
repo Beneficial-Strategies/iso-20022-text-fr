@@ -1,0 +1,22 @@
+{
+  "isoType": "BillingCurrencyType2Code",
+  "definition": "Définit le type de devise à utiliser pour la facturation d'un service.",
+  "isoCodes": {
+    "ACCT": {
+      "name": "Compte",
+      "definition": "La devise utilisée pour la facturation est la devise du compte."
+    },
+    "STLM": {
+      "name": "Règlement",
+      "definition": "La devise utilisée pour la facturation est la devise de règlement."
+    },
+    "PRCG": {
+      "name": "Tarification",
+      "definition": "La devise utilisée pour la facturation est la devise de tarification."
+    },
+    "HOST": {
+      "name": "Hôte",
+      "definition": "La devise utilisée pour la facturation est la devise d'accueil."
+    }
+  }
+}

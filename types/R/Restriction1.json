@@ -1,0 +1,15 @@
+{
+  "isoType": "Restriction1",
+  "definition": "Restriction portant sur une capacité ou des opérations autorisées.",
+  "isoElements": {
+    "RestrictionType": {
+      "definition": "Type de la restriction."
+    },
+    "ValidFrom": {
+      "definition": "Date à partir de laquelle la restriction est valide."
+    },
+    "ValidUntil": {
+      "definition": "Date jusqu'à laquelle la restriction est valide."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "ThirdPartyRights2",
+  "definition": "Informations sur les droits de tiers.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de droit de tiers."
+    },
+    "DateTime": {
+      "definition": "Horodatage du droit de tiers."
+    },
+    "Holder": {
+      "definition": "Partie qui détient le droit de tiers."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identification du titulaire au moyen d'un Legal Entity Identifier. Il s'agit d'un code attribué à une partie conformément à la norme ISO 17442 « Financial Services - Legal Entity Identifier (LEI) »."
+    },
+    "Amount": {
+      "definition": "Montant du droit de tiers."
+    },
+    "Description": {
+      "definition": "Description du droit de tiers."
+    }
+  }
+}

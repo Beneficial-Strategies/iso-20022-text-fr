@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceQuantity5Choice",
+  "definition": "Choix entre les formats de l'information de solde.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantité d'instruments financiers dans le sous-solde."
+    },
+    "Proprietary": {
+      "definition": "Quantité d'instruments financiers dans le sous-solde exprimée dans un format propriétaire."
+    }
+  }
+}

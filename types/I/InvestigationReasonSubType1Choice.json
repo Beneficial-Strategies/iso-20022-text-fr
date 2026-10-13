@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationReasonSubType1Choice",
+  "definition": "Précise le sous-type de code de motif d'une enquête.",
+  "isoElements": {
+    "Code": {
+      "definition": "Sous-type de motif, tel que publié dans l'ensemble externe de codes de sous-types de motifs d'enquête."
+    },
+    "Proprietary": {
+      "definition": "Sous-type de motif, sous une forme propriétaire."
+    }
+  }
+}

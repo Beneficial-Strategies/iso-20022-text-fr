@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalAuthenticationChannel1Code",
+  "definition": "Précise le canal d'authentification de l'opération, tel que publié dans une liste de codes externe de canaux d'authentification.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "ATMA": {
+      "name": "ATM",
+      "definition": "Authentification fournie via un distributeur automatique (ATM)"
+    },
+    "CARD": {
+      "name": "Carte",
+      "definition": "Authentification fournie via la carte"
+    },
+    "INBA": {
+      "name": "Banque en ligne",
+      "definition": "Authentification fournie via la banque en ligne"
+    },
+    "MOBI": {
+      "name": "Mobile",
+      "definition": "Authentification fournie via mobile"
+    }
+  }
+}

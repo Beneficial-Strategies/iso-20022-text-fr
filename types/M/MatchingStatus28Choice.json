@@ -1,0 +1,12 @@
+{
+  "isoType": "MatchingStatus28Choice",
+  "definition": "Choix du format pour le statut d'appariement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fournit le statut d'appariement de l'instruction."
+    },
+    "Proprietary": {
+      "definition": "Fournit le statut d'appariement de l'instruction."
+    }
+  }
+}

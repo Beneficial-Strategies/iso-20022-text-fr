@@ -1,0 +1,21 @@
+{
+  "isoType": "SettlementInstruction19",
+  "definition": "Fournit des détails complémentaires sur le règlement de l'instruction.",
+  "isoElements": {
+    "RequestedSettlementDate": {
+      "definition": "Date à laquelle l'expéditeur du message ou le ChargesRequestor dans lequel cet élément est présent s'attend à être crédité du paiement des frais."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du créancier auprès de son teneur de compte, sur lequel une écriture de crédit sera passée à la suite de l'opération de paiement."
+    },
+    "Creditor": {
+      "definition": "Établissement financier qui reçoit une somme d'argent de l'établissement financier débiteur.||Utilisation : lorsqu'elle est utilisée, cette partie doit être la même que l'expéditeur du message ou le ChargesRequestor dans lequel cet élément est présent."
+    },
+    "CreditorAccount": {
+      "definition": "Identification sans ambiguïté du compte du créancier sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement.||Utilisation : lorsqu'il est utilisé, ce compte doit appartenir à l'expéditeur du message ou au ChargesRequestor dans lequel cet élément est présent."
+    }
+  }
+}

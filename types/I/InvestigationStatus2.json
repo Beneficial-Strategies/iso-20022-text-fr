@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationStatus2",
+  "definition": "Précise le statut d'une enquête.",
+  "isoElements": {
+    "Status": {
+      "definition": "Statut de l'enquête, tel que publié dans une liste de codes externe des statuts d'enquête."
+    },
+    "StatusReason": {
+      "definition": "Motif du statut de l'enquête."
+    }
+  }
+}

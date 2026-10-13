@@ -1,0 +1,14 @@
+{
+  "isoType": "SequenceType2Code",
+  "definition": "Précise si une opération ponctuelle ou des opérations récurrentes sont couvertes.",
+  "isoCodes": {
+    "RCUR": {
+      "name": "Récurrent",
+      "definition": "Instruction de prélèvement dans laquelle l'autorisation du débiteur sert à des opérations de prélèvement récurrentes initiées par le créancier."
+    },
+    "OOFF": {
+      "name": "Ponctuel",
+      "definition": "Instruction de prélèvement dans laquelle l'autorisation du débiteur sert à initier une seule opération de prélèvement."
+    }
+  }
+}

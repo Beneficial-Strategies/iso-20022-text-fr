@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesSettlementTransactionGenerationNotificationV13",
+  "definition": "Portée|Un teneur de compte envoie un SecuritiesSettlementTransactionGenerationNotification à un titulaire de compte afin de l'informer d'une opération de règlement de titres qui a été générée/créée par le teneur de compte pour le titulaire de compte. Le motif de la création peut aller de la transformation automatique d'instructions de règlement en attente à la suite d'un événement sur titres, jusqu'à la reconstitution de la base de données des opérations d'un titulaire de compte à l'initiative de son teneur de compte.|La relation teneur de compte/titulaire peut être :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement agissant pour le compte de ses participants|- un agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou|- un conservateur agissant pour le compte d'un établissement de gestion d'investissements ou d'un courtier/négociateur||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments pertinents du Business Application Header.",
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "Si TransactionIdentificationDetails/Payment est égal à « Against Payment Settlement » (APMT), alors SettlementAmount doit être présent."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Si TransactionIdentificationDetails/SecuritiesMovementType est égal à « Delivery » (DELI), alors ReceivingSettlementParties/Depository et ReceivingSettlementParties/Party1 doivent être présents."
+    },
+    "AdditionalPhysicalOrRegistrationDetailsRule": {
+      "definition": "Si AdditionalPhysicalOrRegistrationDetails est présent, alors l'opération doit être libre de paiement."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Si TransactionIdentificationDetails/SecuritiesMovementType est égal à « Receive » (RECE), alors DeliveringSettlementParties/Depository et DeliveringSettlementParties/Party1 doivent être présents."
+    },
+    "CurrencyToSellRule": {
+      "definition": "Si CurrencyToSell est présent, alors l'opération doit être une réception."
+    },
+    "CurrencyToBuyRule": {
+      "definition": "Si CurrencyToBuy est présent, alors l'opération doit être une livraison."
+    }
+  }
+}

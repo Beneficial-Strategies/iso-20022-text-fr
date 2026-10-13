@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalBankTransactionFamily1Code",
+  "definition": "Précise la famille du code de transaction bancaire, telle que publiée dans une liste externe de codes de famille de transaction bancaire.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org."
+}

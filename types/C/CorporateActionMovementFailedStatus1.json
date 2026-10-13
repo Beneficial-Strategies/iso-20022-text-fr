@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionMovementFailedStatus1",
+  "definition": "Fournit des informations sur l'échec du règlement d'un mouvement.",
+  "isoElements": {
+    "AgentAccountIdentification": {
+      "definition": "Identification du compte de l'agent."
+    },
+    "ClientAccountIdentification": {
+      "definition": "Identification du compte du client."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identification de la partie qui est titulaire du compte du client."
+    },
+    "ResourceDetails": {
+      "definition": "Fournit des informations sur le mouvement de ressources qui a échoué et le motif de l'échec."
+    }
+  }
+}

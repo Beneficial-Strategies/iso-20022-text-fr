@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyModification3",
+  "definition": "Précise le type de modification de la partie.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Précise le type de modification."
+    },
+    "PartyIdentification": {
+      "definition": "Identification de la partie."
+    }
+  }
+}

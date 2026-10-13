@@ -1,0 +1,46 @@
+{
+  "isoType": "InvestorProfileStatus1Code",
+  "definition": "Indique le statut du profil de l'investisseur.",
+  "isoCodes": {
+    "DISA": {
+      "name": "Désactivé",
+      "definition": "Le statut du profil de l'investisseur est désactivé."
+    },
+    "DISG": {
+      "name": "Désactivation",
+      "definition": "Le statut du profil de l'investisseur est en cours de désactivation."
+    },
+    "ENAB": {
+      "name": "Activé",
+      "definition": "Le statut du profil de l'investisseur est activé."
+    },
+    "ENBG": {
+      "name": "Activation",
+      "definition": "Le statut du profil de l'investisseur est en cours d'activation."
+    },
+    "ADMI": {
+      "name": "En cours d'admission",
+      "definition": "Le statut du profil de l'investisseur est en cours d'admission."
+    },
+    "ANLY": {
+      "name": "En cours d'analyse",
+      "definition": "Le statut du profil de l'investisseur est en cours d'analyse."
+    },
+    "NAPP": {
+      "name": "Non approuvé",
+      "definition": "Le statut du profil de l'investisseur est non approuvé."
+    },
+    "PSUS": {
+      "name": "Partiellement suspendu",
+      "definition": "Le statut du profil de l'investisseur est partiellement suspendu."
+    },
+    "PEND": {
+      "name": "En attente d'approbation",
+      "definition": "Le statut du profil de l'investisseur est en attente d'approbation."
+    },
+    "SUPS": {
+      "name": "Suspendu",
+      "definition": "Le statut du profil de l'investisseur est suspendu."
+    }
+  }
+}

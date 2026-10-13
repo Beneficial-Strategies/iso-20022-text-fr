@@ -1,0 +1,22 @@
+{
+  "isoType": "GDPRDataConsent1Code",
+  "definition": "Type de consentement dans le cadre du Règlement général sur la protection des données (GDPR) 2016/679.",
+  "isoCodes": {
+    "DP00": {
+      "name": "Consentement au marketing",
+      "definition": "Consentement autorisant le responsable du traitement des données personnelles à traiter les données personnelles à des fins de prospection commerciale."
+    },
+    "DP03": {
+      "name": "Consentement au profilage ciblé",
+      "definition": "Consentement autorisant le responsable du traitement des données personnelles à traiter les données personnelles à des fins de profilage afin de formuler des offres de produits et de services personnalisées et ciblées."
+    },
+    "DP01": {
+      "name": "Consentement au transfert pour un marketing identique",
+      "definition": "Consentement autorisant le responsable du traitement des données personnelles à transférer les données personnelles à d'autres sociétés appartenant au même groupe pour un traitement indépendant à des fins de prospection commerciale."
+    },
+    "DP02": {
+      "name": "Consentement au transfert à des tiers pour le marketing",
+      "definition": "Consentement autorisant le responsable du traitement des données personnelles à transférer les données personnelles à des sociétés tierces pour un traitement indépendant à des fins de prospection commerciale."
+    }
+  }
+}

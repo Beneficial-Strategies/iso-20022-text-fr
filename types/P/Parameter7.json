@@ -1,0 +1,12 @@
+{
+  "isoType": "Parameter7",
+  "definition": "Paramètres associés à l'algorithme MAC.",
+  "isoElements": {
+    "InitialisationVector": {
+      "definition": "Vecteur d'initialisation d'un chiffrement en mode de chaînage de blocs (CBC)."
+    },
+    "BytePadding": {
+      "definition": "Bourrage d'octets pour un chiffrement en mode de chaînage de blocs, si le bourrage n'est pas implicite."
+    }
+  }
+}

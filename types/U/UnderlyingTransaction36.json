@@ -1,0 +1,26 @@
+{
+  "isoType": "UnderlyingTransaction36",
+  "definition": "Identifie la ou les opérations (ou groupes d'opérations) sous-jacentes auxquelles s'applique l'enquête.",
+  "isoElements": {
+    "OriginalGroupInformationAndCancellation": {
+      "definition": "Fournit des informations sur le message d'origine auquel l'annulation se rapporte."
+    },
+    "TransactionInformation": {
+      "definition": "Fournit des informations sur les opérations d'origine auxquelles se rapporte le message de demande d'annulation."
+    }
+  },
+  "isoRules": {
+    "GroupCancellationAndNumberOfTransactionsRule": {
+      "definition": "Si OriginalGroupInformationAndCancellation/GroupCancellation est faux, alors NumberOfTransactions doit être égal au nombre d'occurrences de TransactionInformation."
+    },
+    "GroupCancellationTrueAndTransactionInformationRule": {
+      "definition": "Si OriginalGroupInformationAndCancellation/GroupCancellation est vrai, alors TransactionInformation n'est pas autorisé."
+    },
+    "GroupCancellationFalseAndTransactionInformationRule": {
+      "definition": "Si OriginalGroupInformationAndCancellation/GroupCancellation est faux, alors TransactionInformation doit être présent."
+    },
+    "GroupOrTransactionCaseRule": {
+      "definition": "Case peut être présent au niveau de Case, OriginalGroupInformationAndCancellation, OriginalPaymentInformationAndCancellation ou TransactionInformation."
+    }
+  }
+}

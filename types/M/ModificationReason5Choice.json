@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationReason5Choice",
+  "definition": "Choix du format du motif de modification.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction liée est modifiée, ou la demande de modification liée est exécutée."
+    },
+    "Proprietary": {
+      "definition": "Précise le motif pour lequel l'instruction liée est modifiée, ou la demande de modification liée est exécutée."
+    }
+  }
+}

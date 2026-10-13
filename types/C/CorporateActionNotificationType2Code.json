@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionNotificationType2Code",
+  "definition": "Type de demande d'annulation de notification.",
+  "isoCodes": {
+    "WITH": {
+      "name": "Retrait",
+      "definition": "Notification envoyée pour annuler une notification précédemment envoyée en raison du retrait de l'événement par l'émetteur."
+    },
+    "CANC": {
+      "name": "Annulation",
+      "definition": "Notification demandant l'annulation d'une notification précédemment envoyée."
+    }
+  }
+}

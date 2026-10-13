@@ -1,0 +1,30 @@
+{
+  "isoType": "Verification1Code",
+  "definition": "Résultat de la vérification.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Échec",
+      "definition": "La vérification a échoué."
+    },
+    "MISS": {
+      "name": "Manquant",
+      "definition": "Les informations nécessaires pour effectuer la vérification étaient manquantes."
+    },
+    "NOVF": {
+      "name": "Non effectué",
+      "definition": "La vérification n'a pas été effectuée."
+    },
+    "PART": {
+      "name": "Correspondance partielle",
+      "definition": "La vérification a partiellement réussi."
+    },
+    "SUCC": {
+      "name": "Réussi",
+      "definition": "La vérification a réussi."
+    },
+    "ERRR": {
+      "name": "Erreur technique",
+      "definition": "L'appareil ou l'entité devant effectuer la vérification était indisponible."
+    }
+  }
+}

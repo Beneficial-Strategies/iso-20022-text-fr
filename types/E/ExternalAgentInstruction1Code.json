@@ -1,0 +1,46 @@
+{
+  "isoType": "ExternalAgentInstruction1Code",
+  "definition": "Précise des instructions complémentaires pour l'agent concernant le traitement d'une instruction.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Payer le créancier par chèque",
+      "definition": "Le créancier (final) doit être payé par chèque."
+    },
+    "HOLD": {
+      "name": "Tenir les espèces à disposition du créancier",
+      "definition": "Le montant doit être tenu à la disposition du créancier (final), qui se présentera. Paiement sur justification d'identité."
+    },
+    "INQR": {
+      "name": "Motif de la demande de renseignements",
+      "definition": "Des informations complémentaires sur le motif de la demande doivent être fournies."
+    },
+    "PBEN": {
+      "name": "Payer le bénéficiaire",
+      "definition": "Le créancier (final) ne doit être payé qu'après vérification de son identité."
+    },
+    "PHOA": {
+      "name": "Téléphoner à la banque suivante",
+      "definition": "Prière d'aviser/contacter l'agent suivant par téléphone."
+    },
+    "PHOB": {
+      "name": "Téléphoner au bénéficiaire",
+      "definition": "Veuillez aviser/contacter le créancier (final)/demandeur par téléphone."
+    },
+    "TELA": {
+      "name": "Télécommunication avec la banque suivante",
+      "definition": "Prière d'aviser/contacter l'agent suivant par le moyen de télécommunication le plus efficace."
+    },
+    "TELB": {
+      "name": "Télécommunications",
+      "definition": "Veuillez aviser/contacter le créancier (final)/demandeur par le moyen de télécommunication le plus efficace."
+    },
+    "TFRO": {
+      "name": "Heure de début",
+      "definition": "L'instruction de paiement sera valide et éligible à l'exécution à partir de la date et de l'heure indiquées."
+    },
+    "TTIL": {
+      "name": "Heure limite",
+      "definition": "L'instruction de paiement est valide et éligible à l'exécution jusqu'à la date et l'heure indiquées. À défaut, l'instruction de paiement sera rejetée."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingServiceCommonIdentification1",
+  "definition": "Identification commune d'un service à facturer.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Définit l'émetteur du code commun, par exemple « AFP »."
+    },
+    "Identification": {
+      "definition": "Code de référence standard servant à identifier de manière unique ce service entre établissements financiers. Il ne s'agit pas de l'identification interne du service bancaire de l'établissement financier."
+    }
+  }
+}

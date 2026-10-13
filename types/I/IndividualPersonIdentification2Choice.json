@@ -1,0 +1,12 @@
+{
+  "isoType": "IndividualPersonIdentification2Choice",
+  "definition": "Choix de formats pour l'identification d'une personne physique.",
+  "isoElements": {
+    "IdentificationNumber": {
+      "definition": "Identification d'une partie, telle qu'un identifiant fiscal ou de sécurité sociale."
+    },
+    "PersonName": {
+      "definition": "Entité humaine, par opposition à une entité d'entreprise (parfois appelée « personne morale »)."
+    }
+  }
+}

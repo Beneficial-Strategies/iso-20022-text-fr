@@ -1,0 +1,14 @@
+{
+  "isoType": "ProcessedStatus2Code",
+  "definition": "Précise le statut de traitement d'une demande d'annulation.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Reçu",
+      "definition": "L'instruction/la demande a été reçue."
+    },
+    "COMP": {
+      "name": "Terminé",
+      "definition": "La demande a été traitée."
+    }
+  }
+}

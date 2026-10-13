@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateEventNarrative4",
+  "definition": "Fournit des informations narratives de clause de non-responsabilité relatives à l'événement.",
+  "isoElements": {
+    "Disclaimer": {
+      "definition": "Avis de non-responsabilité de l'émetteur relatif aux informations de convocation à l'assemblée fournies. Il peut être ignoré pour le traitement automatisé."
+    },
+    "ProcessingTextForNextIntermediary": {
+      "definition": "Fournit des informations complémentaires de la part du teneur de compte ou d'un prestataire de services, destinées uniquement au titulaire de compte immédiatement suivant afin de permettre ou de faciliter le traitement de l'événement entre les parties."
+    }
+  }
+}

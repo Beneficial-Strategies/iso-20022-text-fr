@@ -1,0 +1,78 @@
+{
+  "isoType": "TaxRecordPeriod1Code",
+  "definition": "Précise la période à laquelle se rapporte le paiement de l'impôt.",
+  "isoCodes": {
+    "MM01": {
+      "name": "Premier mois",
+      "definition": "L'impôt se rapporte au deuxième mois de la période."
+    },
+    "MM02": {
+      "name": "Deuxième mois",
+      "definition": "L'impôt se rapporte au premier mois de la période."
+    },
+    "MM03": {
+      "name": "Troisième mois",
+      "definition": "L'impôt se rapporte au troisième mois de la période."
+    },
+    "MM04": {
+      "name": "Quatrième mois",
+      "definition": "L'impôt se rapporte au quatrième mois de la période."
+    },
+    "MM05": {
+      "name": "Cinquième mois",
+      "definition": "L'impôt se rapporte au cinquième mois de la période."
+    },
+    "MM06": {
+      "name": "Sixième mois",
+      "definition": "L'impôt se rapporte au sixième mois de la période."
+    },
+    "MM07": {
+      "name": "Septième mois",
+      "definition": "L'impôt se rapporte au septième mois de la période."
+    },
+    "MM08": {
+      "name": "Huitième mois",
+      "definition": "L'impôt se rapporte au huitième mois de la période."
+    },
+    "MM09": {
+      "name": "Neuvième mois",
+      "definition": "L'impôt se rapporte au neuvième mois de la période."
+    },
+    "MM10": {
+      "name": "Dixième mois",
+      "definition": "L'impôt se rapporte au dixième mois de la période."
+    },
+    "MM11": {
+      "name": "Onzième mois",
+      "definition": "L'impôt se rapporte au onzième mois de la période."
+    },
+    "MM12": {
+      "name": "Douzième mois",
+      "definition": "L'impôt se rapporte au douzième mois de la période."
+    },
+    "QTR1": {
+      "name": "Premier trimestre",
+      "definition": "L'impôt se rapporte au premier trimestre de la période."
+    },
+    "QTR2": {
+      "name": "Deuxième trimestre",
+      "definition": "L'impôt se rapporte au deuxième trimestre de la période."
+    },
+    "QTR3": {
+      "name": "Troisième trimestre",
+      "definition": "L'impôt se rapporte au troisième trimestre de la période."
+    },
+    "QTR4": {
+      "name": "Quatrième trimestre",
+      "definition": "L'impôt se rapporte au quatrième trimestre de la période."
+    },
+    "HLF1": {
+      "name": "Premier semestre",
+      "definition": "L'impôt se rapporte à la première moitié de la période."
+    },
+    "HLF2": {
+      "name": "Second semestre",
+      "definition": "L'impôt se rapporte à la seconde moitié de la période."
+    }
+  }
+}

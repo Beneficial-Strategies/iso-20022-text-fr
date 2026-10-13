@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentReceipt1Code",
+  "definition": "Précise si une opération est un paiement, une réception ou aucun des deux.",
+  "isoCodes": {
+    "PAYM": {
+      "name": "Paiement",
+      "definition": "L'opération est un paiement."
+    },
+    "RECE": {
+      "name": "Réception",
+      "definition": "L'opération est une réception."
+    },
+    "NONE": {
+      "name": "Aucun",
+      "definition": "L'opération est nulle."
+    }
+  }
+}

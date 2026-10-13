@@ -1,0 +1,12 @@
+{
+  "isoType": "GarnishmentType1",
+  "definition": "Précise le type de saisie-arrêt.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Fournit les détails du type de saisie-arrêt."
+    },
+    "Issuer": {
+      "definition": "Identification de l'émetteur du type de saisie-arrêt."
+    }
+  }
+}

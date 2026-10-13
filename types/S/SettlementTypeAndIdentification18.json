@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndIdentification18",
+  "definition": "Fournit le type d'opération et des informations d'identification.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Fournit des informations d'identification non ambiguë de l'opération."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Précise si le mouvement sur un compte-titres résulte d'une instruction de livraison ou de réception."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    }
+  }
+}

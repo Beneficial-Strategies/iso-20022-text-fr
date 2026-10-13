@@ -1,0 +1,21 @@
+{
+  "isoType": "TaxCalculation1",
+  "definition": "Précise les détails du calcul de la taxe.",
+  "isoElements": {
+    "HostCurrency": {
+      "definition": "Devise dans laquelle tous les totaux des services imposables doivent être convertis pour calculer les taxes dues pour cette région fiscale. C'est aussi généralement la devise dans laquelle le paiement des obligations fiscales est soumis à l'autorité fiscale."
+    },
+    "TaxableServiceChargeConversion": {
+      "definition": "Conversions en devise d'accueil du montant des frais de service imposables. ||Usage : une occurrence doit être présente pour chaque devise de tarification de service différente dans le relevé."
+    },
+    "TotalTaxableServiceChargeHostAmount": {
+      "definition": "Total de tous les services soumis à taxe pour une région fiscale donnée. ||Usage : |ce champ est égal à la somme de tous les totaux équivalents distincts de frais de service imposables en devise d'accueil pour chaque devise. Il est exprimé dans la devise d'accueil de la région fiscale. Ce total sert à déterminer la taxe due en calculant avec le taux de chaque identification fiscale."
+    },
+    "TaxIdentification": {
+      "definition": "Prévoit l'identification de taxe spécifique au sein de la même région fiscale. ||Usage : un maximum de trois identifications fiscales spécifiques peut être fourni. Ces éléments utilisent le montant imposable total en devise d'accueil comme base de calcul. |Cet élément n'est valide que pour la méthode C."
+    },
+    "TotalTax": {
+      "definition": "Montant total de toutes les taxes pour un client donné au sein de la région fiscale. Il s'agit de la somme de tous les montants de taxe totaux individuels pour les identifications fiscales, exprimée dans la devise d'accueil de la région fiscale."
+    }
+  }
+}

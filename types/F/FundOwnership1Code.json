@@ -1,0 +1,14 @@
+{
+  "isoType": "FundOwnership1Code",
+  "definition": "Précise si la totalité des parts est détenue exclusivement par la société du fonds.",
+  "isoCodes": {
+    "YALL": {
+      "name": "Entièrement détenu",
+      "definition": "Toutes les parts sont détenues."
+    },
+    "NALL": {
+      "name": "Non entièrement détenu",
+      "definition": "Les parts ne sont pas toutes détenues."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "TypeOfPrice10Code",
+  "definition": "Précise le type de prix.",
+  "isoCodes": {
+    "BIDE": {
+      "name": "Cours acheteur",
+      "definition": "Le prix est le prix acheteur calculé d'un fonds à double prix (prix offert-demandé), c'est-à-dire le prix de vente des parts pour l'investisseur."
+    },
+    "OFFR": {
+      "name": "Cours vendeur",
+      "definition": "Le prix est le prix vendeur calculé d'un fonds d'investissement à double prix (prix offert-demandé), c'est-à-dire le prix d'achat des parts pour un investisseur."
+    },
+    "NAVL": {
+      "name": "Valeur liquidative",
+      "definition": "Le prix est la valeur liquidative (NAV) par part utilisée soit comme prix de transaction pour une catégorie de fonds d'investissement à prix unique, soit comme prix théorique pour le calcul d'autres prix."
+    },
+    "CREA": {
+      "name": "Création",
+      "definition": "Le prix est le prix de création calculé d'un fonds d'investissement à double prix (prix de création-annulation) et le prix d'achat maximal possible des parts avant les frais d'entrée. Le prix d'achat ou prix vendeur réel, qui inclut les frais, sera plus élevé."
+    },
+    "CANC": {
+      "name": "Annulation",
+      "definition": "Le prix est le prix d'annulation calculé d'un fonds d'investissement à double prix (prix de création-annulation) et la valorisation minimale possible des parts un jour donné. Le prix de vente ou prix acheteur réel est généralement plus élevé."
+    },
+    "INTE": {
+      "name": "Intermédiaire",
+      "definition": "Le prix est le prix intermédiaire non officiel communiqué à un investisseur avant le prix d'exécution."
+    },
+    "SWNG": {
+      "name": "Swing",
+      "definition": "Le prix est le prix de valeur liquidative (NAV) calculé d'un fonds d'investissement à prix unique. Le prix est ajusté pour tenir compte des coûts de transaction dus à des ordres individuels importants, ou à un déséquilibre significatif entre les volumes de souscriptions et de rachats, comme alternative à la commission de dilution."
+    },
+    "MIDD": {
+      "name": "Cours moyen",
+      "definition": "Le prix est le prix moyen entre le prix acheteur et le prix vendeur."
+    },
+    "RINV": {
+      "name": "Réinvestissement",
+      "definition": "Le prix est le prix utilisé lors du réinvestissement des parts après distribution."
+    },
+    "SWIC": {
+      "name": "Arbitrage",
+      "definition": "Le prix est le prix utilisé lors du transfert de parts entre produits."
+    },
+    "DDVR": {
+      "name": "Taux de dividende journalier",
+      "definition": "Le prix est le revenu net d'un instrument financier, calculé à chaque jour de négociation et divisé par toutes les parts en circulation ce jour-là."
+    },
+    "ACTU": {
+      "name": "Réel",
+      "definition": "Prix vendeur réel."
+    }
+  }
+}

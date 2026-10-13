@@ -1,0 +1,23 @@
+{
+  "isoType": "AdditionalBalanceInformation22",
+  "definition": "Sous-soldes fournissant des informations complémentaires sur une position donnée mais qui ne doivent pas être pris en compte dans la constitution du solde agrégé, par exemple, enregistré.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Motif du sous-solde."
+    },
+    "Quantity": {
+      "definition": "Quantité de titres dans le sous-solde."
+    },
+    "SubBalanceAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires sur le sous-solde."
+    }
+  },
+  "isoRules": {
+    "SubBalanceAdditionalDetailsRule": {
+      "definition": "Sauf accord bilatéral entre l'expéditeur et le destinataire, si SubBalanceAdditionnalDetails est utilisé, il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    },
+    "EligibleForCollateralPurposesRule": {
+      "definition": "Si le type de sous-solde est EligibleForCollateralPurposes, alors QuantityAndAvailability ne peut pas être utilisé."
+    }
+  }
+}

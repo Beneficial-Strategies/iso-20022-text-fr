@@ -1,0 +1,27 @@
+{
+  "isoType": "Pension6",
+  "definition": "Attributs d’une retraite.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification de la police, du plan ou du régime de retraite."
+    },
+    "Type": {
+      "definition": "Type de police, de plan ou de régime de retraite."
+    },
+    "TransferScope": {
+      "definition": "Portée du transfert de la police, du plan ou du régime de retraite."
+    },
+    "TaxReference": {
+      "definition": "Référence fiscale attribuée à la police, au plan ou au régime de retraite par un organisme central."
+    },
+    "DrawdownTrancheIdentification": {
+      "definition": "Référence du retrait échelonné."
+    },
+    "NonWrapperTransfer": {
+      "definition": "Indique que le transfert concerne uniquement les actifs sous-jacents et que le transfert de l’enveloppe aura lieu séparément."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur la police, le plan ou le régime de retraite."
+    }
+  }
+}

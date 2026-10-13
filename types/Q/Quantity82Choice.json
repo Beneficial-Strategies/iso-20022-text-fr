@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity82Choice",
+  "definition": "Quantité totale de titres à transférer, exprimée en nombre de parts ou en taux de pourcentage.",
+  "isoElements": {
+    "TotalUnitsNumber": {
+      "definition": "Quantité totale de titres à transférer."
+    },
+    "TransferRate": {
+      "definition": "Quantité de titres à transférer en pourcentage de la position."
+    }
+  }
+}

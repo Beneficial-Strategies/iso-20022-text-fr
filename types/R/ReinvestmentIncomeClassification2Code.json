@@ -1,0 +1,38 @@
+{
+  "isoType": "ReinvestmentIncomeClassification2Code",
+  "definition": "Précise le type de produit en espèces que le porteur est en droit de réinvestir.",
+  "isoCodes": {
+    "CAPG": {
+      "name": "Plus-values",
+      "definition": "Le produit en espèces réinvesti est classé comme plus-values."
+    },
+    "DVCA": {
+      "name": "Dividende en espèces",
+      "definition": "Le produit en espèces réinvesti est classé comme dividende en espèces."
+    },
+    "CDPS": {
+      "name": "Dividende spécial en espèces",
+      "definition": "Le produit en espèces réinvesti est classé comme dividende spécial en espèces."
+    },
+    "INTR": {
+      "name": "Intérêts",
+      "definition": "Le produit en espèces réinvesti est classé comme intérêts."
+    },
+    "LTCG": {
+      "name": "Plus-values à long terme",
+      "definition": "Le produit en espèces réinvesti est classé comme plus-values à long terme."
+    },
+    "PRPL": {
+      "name": "Donneur d'ordre",
+      "definition": "Le produit en espèces réinvesti est classé comme principal."
+    },
+    "ROCA": {
+      "name": "Remboursement de capital",
+      "definition": "Le produit en espèces réinvesti est classé comme remboursement de capital."
+    },
+    "STCG": {
+      "name": "Plus-values à court terme",
+      "definition": "Le produit en espèces réinvesti est classé comme plus-values à court terme."
+    }
+  }
+}

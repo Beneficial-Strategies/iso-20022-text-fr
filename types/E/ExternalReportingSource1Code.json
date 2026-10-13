@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalReportingSource1Code",
+  "definition": "Précise la source du reporting, telle que publiée dans une liste de codes externe des sources de reporting.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "ACCT": {
+      "name": "Comptabilité",
+      "definition": "Le relevé ou le rapport est fondé sur des données comptables."
+    },
+    "ARPF": {
+      "name": "Système de rapprochement de comptes complet",
+      "definition": "Système de rapprochement de comptes assurant un rapprochement complet, portant généralement sur les chèques."
+    },
+    "ARPP": {
+      "name": "Système de rapprochement de comptes partiel",
+      "definition": "Système de rapprochement de comptes assurant un rapprochement partiel, portant généralement sur les chèques."
+    },
+    "CTDB": {
+      "name": "Système de décaissement contrôlé",
+      "definition": "Sous-application qui communique les totaux de présentation."
+    },
+    "CUST": {
+      "name": "Conservation",
+      "definition": "Le relevé ou le rapport est fondé sur des données de conservation."
+    },
+    "DEPT": {
+      "name": "Système de dépôt",
+      "definition": "Système comptable de trésorerie ou de dépôts."
+    },
+    "DPCS": {
+      "name": "Système de concentration des dépôts",
+      "definition": "Système de dépôts qui communique les sommes encaissées auprès de divers établissements financiers."
+    },
+    "LKBX": {
+      "name": "Boîte postale de recouvrement",
+      "definition": "Système de traitement qui saisit et communique les données de chèques dans un environnement de boîte postale de recouvrement (lockbox)."
+    },
+    "RCPT": {
+      "name": "Encaissements",
+      "definition": "Système qui communique les informations de remise consolidées obtenues de diverses sources, par exemple ACH, virements télégraphiques, lockbox, etc."
+    },
+    "MIBO": {
+      "name": "Back-office MI",
+      "definition": "Opération soumise directement par le PMI (système de back-office de l'infrastructure de marché des paiements)."
+    },
+    "PFRE": {
+      "name": "Front-end du participant",
+      "definition": "Opérations soumises directement par les applications du participant / PSO (Payment System Operator)."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "isoType": "RejectionReason69Code",
+  "definition": "Précise le motif pour lequel l'instruction ou la demande d'annulation a le statut rejeté.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Rejet du compte de conservation",
+      "definition": "Compte de conservation de l'émetteur du message non reconnu ou invalide."
+    },
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Opération ou instruction reçue après l'heure limite précisée par l'établissement teneur de compte."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "CAEV": {
+      "name": "Rejet d'opération sur titres",
+      "definition": "Opération sur titres en cours sur l'instrument financier faisant l'objet de l'instruction."
+    },
+    "DDAT": {
+      "name": "Rejet de la date de règlement",
+      "definition": "Date de règlement non reconnue ou invalide."
+    },
+    "REFE": {
+      "name": "Rejet de référence",
+      "definition": "L'instruction porte une référence identique à celle d'une autre instruction reçue précédemment."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "DQUA": {
+      "name": "Rejet de la quantité",
+      "definition": "Quantité instruite non reconnue ou invalide."
+    },
+    "DSEC": {
+      "name": "Titre non valide",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    },
+    "INVB": {
+      "name": "Solde non valide",
+      "definition": "L'instruction vise à utiliser un solde invalide."
+    },
+    "INVL": {
+      "name": "Lien non valide",
+      "definition": "Lien invalide ou non reconnu."
+    },
+    "INVN": {
+      "name": "Numéro de lot non valide",
+      "definition": "Numéro de lot invalide ou non reconnu."
+    },
+    "MINO": {
+      "name": "Quantité de règlement minimale",
+      "definition": "La quantité instruite est inférieure à la quantité de règlement minimale existante pour l'instrument financier."
+    },
+    "MUNO": {
+      "name": "Quantité de règlement multiple",
+      "definition": "La quantité instruite n'est pas un multiple d'un lot de règlement existant pour l'instrument financier."
+    },
+    "VALR": {
+      "name": "Règle non valide",
+      "definition": "Rejet par une règle de validation de la banque teneur de compte."
+    }
+  }
+}

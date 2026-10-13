@@ -1,0 +1,33 @@
+{
+  "isoType": "PenaltyRecord4",
+  "definition": "Précise des détails supplémentaires sur la pénalité.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification attribuée à la pénalité par l'infrastructure de marché."
+    },
+    "Type": {
+      "definition": "Type de la pénalité."
+    },
+    "Insolvency": {
+      "definition": "La partie ne peut plus faire face à ses obligations financières.||Utilisation : si l'indicateur n'est pas fourni, l'insolvabilité n'est pas pertinente."
+    },
+    "Status": {
+      "definition": "Statut d'une pénalité."
+    },
+    "ComputedAmount": {
+      "definition": "Montant calculé pour cette pénalité."
+    },
+    "CalculationMethod": {
+      "definition": "Fournit la règle de calcul utilisée pour calculer la pénalité."
+    },
+    "NumberOfDays": {
+      "definition": "Nombre de jours ouvrés depuis/jusqu'à la date de règlement prévue."
+    },
+    "CalculationData": {
+      "definition": "Précisions supplémentaires sur le calcul de la pénalité."
+    },
+    "RelatedTransaction": {
+      "definition": "Transaction à laquelle les pénalités s'appliquent."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "UnitsOrAmountOrPercentage1Choice",
+  "definition": "Choix entre un montant, un nombre de parts ou un pourcentage.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant en espèces."
+    },
+    "Unit": {
+      "definition": "Nombre de parts."
+    },
+    "Percentage": {
+      "definition": "Pourcentage du montant en espèces."
+    }
+  }
+}

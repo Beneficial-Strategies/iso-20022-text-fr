@@ -1,0 +1,45 @@
+{
+  "isoType": "CashDepositRequest1",
+  "definition": "Indique le détail d'une demande de dépôt d'espèces.",
+  "isoElements": {
+    "OrderReference": {
+      "definition": "Identification unique de l'ordre."
+    },
+    "CashSenderReference": {
+      "definition": "Identification unique, attribuée par l'expéditeur des espèces pour le dépôt d'espèces."
+    },
+    "AmendmentIndicator": {
+      "definition": "Indique si ce message modifie un message de demande antérieur.||Utilisation : lorsque la valeur Yes est indiquée, OrderReference et CashSenderReference doivent rester identiques à ceux du message d'origine. Lorsque cet élément n'est pas utilisé, le message n'est pas considéré comme une modification."
+    },
+    "ExpectedValueDate": {
+      "definition": "Date à laquelle l'expéditeur des espèces s'attend à ce que les espèces parviennent au destinataire des espèces et soient créditées sur son compte."
+    },
+    "Account": {
+      "definition": "Identification non ambiguë du compte sur lequel les espèces seront déposées."
+    },
+    "CashDeposit": {
+      "definition": "Fournit le détail d'un dépôt d'espèces pour une somme d'argent en billets et/ou en pièces."
+    },
+    "DeliveryMethod": {
+      "definition": "Indique le mode de livraison du dépôt d'espèces."
+    },
+    "DeliveryAddress": {
+      "definition": "Indique l'adresse à laquelle le dépôt d'espèces est livré."
+    },
+    "DepositContact": {
+      "definition": "Partie qui apporte les espèces à déposer."
+    },
+    "SecureCarrierName": {
+      "definition": "Identification du transporteur de fonds."
+    },
+    "SecureCarrierReference": {
+      "definition": "Identification unique, attribuée par le transporteur de fonds pour le dépôt."
+    },
+    "InsuranceIndicator": {
+      "definition": "Indique si le dépôt en transit est assuré.||Utilisation : lorsque cet élément n'est pas utilisé, le dépôt n'est pas assuré."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le dépôt d'espèces."
+    }
+  }
+}

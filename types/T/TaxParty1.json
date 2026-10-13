@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxParty1",
+  "definition": "Détails sur l'entité concernée par l'impôt payé ou à payer.",
+  "isoElements": {
+    "TaxIdentification": {
+      "definition": "Numéro d'identification fiscale du créancier."
+    },
+    "RegistrationIdentification": {
+      "definition": "Identification unique, attribuée par un organisme, permettant d'identifier sans ambiguïté une partie."
+    },
+    "TaxType": {
+      "definition": "Type de contribuable."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "AllocationStatus1Code",
+  "definition": "Précise le statut d'allocation de la garantie couvrant l'instruction.",
+  "isoCodes": {
+    "AOLF": {
+      "name": "Entièrement alloué",
+      "definition": "L'instruction a été entièrement couverte par la garantie."
+    },
+    "AOLP": {
+      "name": "Partiellement alloué",
+      "definition": "L'instruction a été partiellement couverte par la garantie."
+    }
+  }
+}

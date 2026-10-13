@@ -1,0 +1,15 @@
+{
+  "isoType": "NumberOfTransactionsPerStatus5",
+  "definition": "Ensemble d'éléments fournissant des informations détaillées sur le nombre d'opérations déclarées avec un statut d'opération spécifique.",
+  "isoElements": {
+    "DetailedNumberOfTransactions": {
+      "definition": "Nombre d'opérations individuelles contenues dans le message, détaillé par statut."
+    },
+    "DetailedStatus": {
+      "definition": "Statut d'opération commun à toutes les opérations individuelles déclarées."
+    },
+    "DetailedControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le message, quelles que soient les devises, détaillé par statut."
+    }
+  }
+}

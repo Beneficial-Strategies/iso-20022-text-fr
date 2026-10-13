@@ -1,0 +1,12 @@
+{
+  "isoType": "FinancialInstrumentQuantity31Choice",
+  "definition": "Choix entre les formats de la quantité de titres.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Quantité exprimée sous forme de nombre, par exemple un nombre d'actions."
+    },
+    "FaceAmount": {
+      "definition": "Quantité exprimée sous forme de montant représentant la valeur nominale, c'est-à-dire le principal, d'un titre de créance."
+    }
+  }
+}

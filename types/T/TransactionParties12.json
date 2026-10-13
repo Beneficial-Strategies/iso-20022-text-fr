@@ -1,0 +1,33 @@
+{
+  "isoType": "TransactionParties12",
+  "definition": "Fournit des détails supplémentaires sur les parties propres à l'opération individuelle.",
+  "isoElements": {
+    "InitiatingParty": {
+      "definition": "Partie qui a initié le paiement figurant dans l'écriture."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit un montant d'argent au créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non équivoque du compte du débiteur."
+    },
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit un montant d'argent au créancier (final)."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant d'argent est dû."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non équivoque du compte du créancier sur lequel une écriture de crédit a été passée à la suite de l'opération de paiement."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant d'argent est dû."
+    },
+    "TradingParty": {
+      "definition": "Partie qui joue un rôle actif dans la planification et l'exécution des opérations qui créent ou liquident des investissements des actifs des investisseurs, ou qui déplacent les actifs de l'investisseur d'un investissement à un autre. Une partie négociatrice est un donneur d'ordre, un décideur d'investissement, un administrateur post-marché ou un négociateur. Dans le contexte de la trésorerie, il s'agit de la partie qui négocie et exécute l'opération de trésorerie."
+    },
+    "Proprietary": {
+      "definition": "Partie propriétaire relative à l'opération sous-jacente."
+    }
+  }
+}

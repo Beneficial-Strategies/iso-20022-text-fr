@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionNumber1Choice",
+  "definition": "Choix entre un numéro et un numéro d'option sous forme de code.",
+  "isoElements": {
+    "Number": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "Code": {
+      "definition": "Code identifiant des numéros d'option spéciaux d'événement sur titres."
+    }
+  }
+}

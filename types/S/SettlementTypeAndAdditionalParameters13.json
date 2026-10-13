@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndAdditionalParameters13",
+  "definition": "Fournit le type d'opération et des informations d'identification.",
+  "isoElements": {
+    "CommonIdentification": {
+      "definition": "Référence unique convenue entre les deux contreparties de la transaction commerciale pour identifier celle-ci."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identification attribuée par la banque teneur de compte permettant d'identifier sans ambiguïté un événement sur titres."
+    },
+    "ReconciliationIndicator": {
+      "definition": "Indique si l'opération de règlement a déjà été envoyée sur le marché et si elle n'est envoyée par un titulaire de compte à un teneur de compte qu'à des fins de rapprochement."
+    }
+  }
+}

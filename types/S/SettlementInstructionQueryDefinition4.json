@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementInstructionQueryDefinition4",
+  "definition": "Définit les informations recherchées au moyen de la définition de critères spécifiques.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Définit le type de requête."
+    },
+    "SearchCriteria": {
+      "definition": "Définit les critères d'extraction des informations sur les instructions de règlement de titres."
+    }
+  }
+}

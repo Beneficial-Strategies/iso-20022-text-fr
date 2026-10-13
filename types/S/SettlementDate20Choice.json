@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementDate20Choice",
+  "definition": "Choix de format pour la date de règlement.",
+  "isoElements": {
+    "Date": {
+      "definition": "Date au format ISO."
+    },
+    "DateCode": {
+      "definition": "Date et heure auxquelles les titres doivent être livrés ou reçus."
+    }
+  }
+}

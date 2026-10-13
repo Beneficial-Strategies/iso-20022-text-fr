@@ -1,0 +1,33 @@
+{
+  "isoType": "SettlementInstruction9",
+  "definition": "Fournit des détails supplémentaires sur le règlement de l'instruction.",
+  "isoElements": {
+    "SettlementMethod": {
+      "definition": "Méthode utilisée pour régler le (lot d')instructions de paiement."
+    },
+    "SettlementAccount": {
+      "definition": "Compte à finalité spécifique utilisé pour comptabiliser les écritures de débit et de crédit résultant de l'opération."
+    },
+    "ClearingSystem": {
+      "definition": "Spécification d'une offre convenue au préalable entre agents de compensation ou du canal par lequel l'instruction de paiement est traitée."
+    },
+    "InstructingReimbursementAgent": {
+      "definition": "Agent par l'intermédiaire duquel l'agent instructeur remboursera l'agent instruit.||Utilisation : si InstructingAgent et InstructedAgent ont le même agent de remboursement, seul InstructingReimbursementAgent doit être utilisé."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "definition": "Identification non ambiguë du compte de l'agent de remboursement de l'agent instructeur auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Agent auprès duquel l'agent instruit sera remboursé.|Utilisation : si InstructedReimbursementAgent contient une succursale de l'InstructedAgent, la partie désignée dans InstructedAgent demandera le remboursement à cette succursale / sera payée par cette succursale.|Utilisation : si InstructingAgent et InstructedAgent ont le même agent de remboursement, seul InstructingReimbursementAgent doit être utilisé."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "definition": "Identification non ambiguë du compte de l'agent de remboursement de l'agent instruit auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "ThirdReimbursementAgent": {
+      "definition": "Agent auprès duquel l'agent instruit sera remboursé.|Utilisation : si ThirdReimbursementAgent contient une succursale de l'InstructedAgent, la partie désignée dans InstructedAgent demandera le remboursement à cette succursale / sera payée par cette succursale."
+    },
+    "ThirdReimbursementAgentAccount": {
+      "definition": "Identification non ambiguë du compte du troisième agent de remboursement auprès de son agent gestionnaire dans la chaîne de paiement."
+    }
+  }
+}

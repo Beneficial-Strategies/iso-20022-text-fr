@@ -1,0 +1,14 @@
+{
+  "isoType": "ServiceAdjustmentType1Code",
+  "definition": "Définit le type d'ajustement de service autorisé.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Compensable",
+      "definition": "L'ajustement s'applique à un service compensable par les soldes. Les bonifications fondées sur les soldes moyens maintenus sur le compte peuvent servir à compenser les frais de service."
+    },
+    "NCMP": {
+      "name": "Non compensable",
+      "definition": "L'ajustement s'applique à un service non compensable par les soldes. Les bonifications fondées sur les soldes ne peuvent pas servir à compenser les frais de service."
+    }
+  }
+}

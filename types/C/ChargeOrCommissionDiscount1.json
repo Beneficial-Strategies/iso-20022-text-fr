@@ -1,0 +1,20 @@
+{
+  "isoType": "ChargeOrCommissionDiscount1",
+  "definition": "Informations sur les remises ou dispenses de frais et de commissions.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Différence entre le montant standard des frais (charges/commissions) et le montant des frais (charges/commissions) appliqué.|EXEMPLE :|Frais standard : EUR 100|Remise : EUR 30|Frais appliqués : EUR 70 (EXAMPLE)."
+    },
+    "Rate": {
+      "definition": "Différence entre le taux standard des frais (charges/commissions) et le taux des frais (charges/commissions) appliqué.|EXEMPLE :|Taux standard : 5%|Taux de remise : 3%|Taux appliqué : 2% (EXAMPLE)."
+    },
+    "Basis": {
+      "definition": "Forme de la remise ou de la ristourne, par exemple en numéraire."
+    }
+  },
+  "isoRules": {
+    "DiscountElementRule": {
+      "definition": "Amount Or Rate Or Basis doit être présent."
+    }
+  }
+}

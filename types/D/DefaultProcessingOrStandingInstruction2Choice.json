@@ -1,0 +1,12 @@
+{
+  "isoType": "DefaultProcessingOrStandingInstruction2Choice",
+  "definition": "Choix entre le traitement par défaut ou l'instruction permanente.",
+  "isoElements": {
+    "DefaultOptionIndicator": {
+      "definition": "Indique si l'option, par exemple une option de devise, sera sélectionnée par défaut si aucune instruction n'est fournie par le titulaire du compte."
+    },
+    "StandingInstructionIndicator": {
+      "definition": "Indique si un titulaire de compte a passé un ordre permanent pour sélectionner cette option d'opération sur titres.|L'instruction permanente peut ou non être remplacée, selon les conditions du compte ou de l'événement."
+    }
+  }
+}

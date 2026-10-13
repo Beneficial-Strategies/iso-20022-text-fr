@@ -1,0 +1,30 @@
+{
+  "isoType": "CompanyLink1Code",
+  "definition": "Précise le type de liens avec une société.",
+  "isoCodes": {
+    "AGEN": {
+      "name": "Agent",
+      "definition": "Agent autonome accrédité par le courtier."
+    },
+    "BROK": {
+      "name": "Courtier",
+      "definition": "Employé, opérateur ou agent du courtier."
+    },
+    "PART": {
+      "name": "Partenaire de courtage",
+      "definition": "Partenaire ou actionnaire du courtier, personne physique ou entité exerçant une fonction de contrôle direct ou indirect, et titulaire d'un poste de direction ou d'administration."
+    },
+    "MEMB": {
+      "name": "Courtier membre",
+      "definition": "Courtier membre d'un conglomérat financier (la personne est membre du conseil, administrateur, dirigeant ou employé d'une société membre du conglomérat)."
+    },
+    "PCOM": {
+      "name": "Société mère",
+      "definition": "Société mère du courtier."
+    },
+    "RELA": {
+      "name": "Parent",
+      "definition": "Conjoint ou partenaire et enfant d'un employé, opérateur ou agent du courtier ; agent du courtier ; partenaires ou actionnaires du courtier ; personne physique ou entité exerçant une fonction de contrôle direct ou indirect et titulaire d'un poste de direction ou d'administration."
+    }
+  }
+}

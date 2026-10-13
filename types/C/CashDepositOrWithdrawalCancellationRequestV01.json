@@ -1,0 +1,4 @@
+{
+  "isoType": "CashDepositOrWithdrawalCancellationRequestV01",
+  "definition": "Le message CashDepositOrWithdrawalCancellationRequest demande l'annulation d'une demande de dépôt d'espèces ou d'une demande de retrait d'espèces.|Lorsqu'il demande l'annulation d'une demande de dépôt d'espèces, il est envoyé par un destinataire d'espèces à un expéditeur d'espèces.|Lorsqu'il demande l'annulation d'une demande de retrait d'espèces, il est envoyé par un expéditeur d'espèces à un destinataire d'espèces."
+}

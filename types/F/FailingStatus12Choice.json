@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingStatus12Choice",
+  "definition": "Choix du statut de défaut.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    },
+    "Reason": {
+      "definition": "Précise le motif du statut de défaut."
+    }
+  }
+}

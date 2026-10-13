@@ -1,0 +1,17 @@
+{
+  "isoType": "ReturnedStatusReason2",
+  "definition": "Motif d'un statut d'instruction retournée.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Motif du statut retourné."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informations complémentaires sur le statut retourné."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "L'élément AdditionalReasonInformation ne doit pas contenir d'informations pouvant être fournies dans un champ structuré, sauf accord bilatéral."
+    }
+  }
+}

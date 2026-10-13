@@ -1,0 +1,21 @@
+{
+  "isoType": "Account34",
+  "definition": "Relation commerciale entre deux entités ; l'une des entités est le titulaire du compte, l'autre est le teneur de compte.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "AccountDesignation": {
+      "definition": "Informations d'enregistrement complémentaires s'appliquant à un bloc spécifique de parts à des fins de traitement et de déclaration. Ces informations d'enregistrement complémentaires peuvent être utilisées lorsque toutes les parts sont enregistrées, par exemple, auprès d'un supermarché de fonds, mais que les avoirs de chaque investisseur doivent être rapprochés individuellement."
+    },
+    "AccountName": {
+      "definition": "Nom du compte. Il constitue un moyen supplémentaire d'identification et est désigné par le teneur de compte en accord avec le titulaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Établissement qui tient les registres où le compte est détenu."
+    },
+    "RegistrationAddress": {
+      "definition": "Adresse de la société prête-nom qui détient les actifs auprès de l'agent de transfert ou du dépositaire central international de titres ou du dépositaire central de titres pour le compte de la partie."
+    }
+  }
+}

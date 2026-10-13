@@ -1,0 +1,22 @@
+{
+  "isoType": "TransactionProcessingStatus3Code",
+  "definition": "Indique le statut de traitement d'une opération (au niveau de la banque tenant le compte).",
+  "isoCodes": {
+    "CAND": {
+      "name": "Annulé",
+      "definition": "L'instruction a été annulée."
+    },
+    "PACK": {
+      "name": "Accusé de réception et accepté",
+      "definition": "L'instruction a été reconnue/acceptée pour traitement ultérieur par la banque tenant le compte."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "L'instruction a été rejetée pour traitement ultérieur."
+    },
+    "REPR": {
+      "name": "En réparation",
+      "definition": "L'instruction est acceptée mais en réparation."
+    }
+  }
+}

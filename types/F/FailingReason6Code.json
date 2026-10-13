@@ -1,0 +1,50 @@
+{
+  "isoType": "FailingReason6Code",
+  "definition": "Précise le motif pour lequel l'opération/l'instruction est en défaut de règlement. Le règlement à la date de règlement instruite n'est plus possible.",
+  "isoCodes": {
+    "BLOC": {
+      "name": "Compte bloqué",
+      "definition": "Votre compte est bloqué ; aucune instruction ne peut être réglée sur le compte."
+    },
+    "PART": {
+      "name": "Transaction réglée en partie",
+      "definition": "L'opération sera réglée en plusieurs parties."
+    },
+    "LINK": {
+      "name": "Instruction liée en attente",
+      "definition": "Votre instruction est en attente de règlement car l'instruction qui lui est liée est en attente."
+    },
+    "LACK": {
+      "name": "Défaut de titres",
+      "definition": "Instruments financiers insuffisants sur votre compte."
+    },
+    "CYCL": {
+      "name": "En attente du prochain cycle de règlement",
+      "definition": "Votre instruction est confirmée sur le marché local ou est prête pour le règlement, dans l'attente du prochain cycle de règlement."
+    },
+    "SBLO": {
+      "name": "Titres bloqués",
+      "definition": "Les instruments financiers sont bloqués en raison d'un événement sur titres, d'un réalignement, etc."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du marché."
+    },
+    "CERT": {
+      "name": "Numéros de certificats erronés",
+      "definition": "Erreur de numéro de certificat."
+    },
+    "PRSY": {
+      "name": "Système en suspens",
+      "definition": "L'opération a été suspendue/gelée par le système."
+    },
+    "INBC": {
+      "name": "Décompte de numéros incomplet",
+      "definition": "Toutes les instructions faisant partie d'un groupe n'ont pas été reçues."
+    }
+  }
+}

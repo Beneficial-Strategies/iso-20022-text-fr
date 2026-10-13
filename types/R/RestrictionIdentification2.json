@@ -1,0 +1,12 @@
+{
+  "isoType": "RestrictionIdentification2",
+  "definition": "Références de restriction appliquées à l'opération pour laquelle la modification des conditions de règlement de titres est demandée.",
+  "isoElements": {
+    "Code": {
+      "definition": "Suppression ou ajout d'une identification de restriction appliquée à l'opération, exprimé sous forme de code."
+    },
+    "Identification": {
+      "definition": "Identification de restriction appliquée à l'opération."
+    }
+  }
+}

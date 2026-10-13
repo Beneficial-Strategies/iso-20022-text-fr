@@ -1,0 +1,30 @@
+{
+  "isoType": "BuyInAdviceDetails2",
+  "definition": "Détails d'un rachat forcé (buy-in).",
+  "isoElements": {
+    "Reference": {
+      "definition": "Références de l'opération défaillante."
+    },
+    "BuyInState": {
+      "definition": "Statut de l'opération de rachat forcé (buy-in)."
+    },
+    "BuyInDeferral": {
+      "definition": "Précise si l'opération de rachat forcé (buy-in) a été différée ou non."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identification de l'instrument financier de l'instruction de rachat forcé (buy-in)."
+    },
+    "Quantity": {
+      "definition": "Quantité d'instrument financier concernée par l'opération de rachat forcé (buy-in)."
+    },
+    "BuyInPrice": {
+      "definition": "Prix de l'instrument financier négocié dans l'opération de rachat forcé (buy-in)."
+    },
+    "CashCompensationAmount": {
+      "definition": "Montant que doit payer la partie défaillante en cas d'opération de rachat forcé (buy-in) infructueuse ou partiellement réussie."
+    },
+    "BuyInSettlementDate": {
+      "definition": "Date de règlement du rachat forcé (buy-in)."
+    }
+  }
+}

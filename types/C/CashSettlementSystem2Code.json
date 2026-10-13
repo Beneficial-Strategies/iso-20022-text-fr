@@ -1,0 +1,14 @@
+{
+  "isoType": "CashSettlementSystem2Code",
+  "definition": "Indique le système de règlement en numéraire utilisé.",
+  "isoCodes": {
+    "GROS": {
+      "name": "Système de règlement brut",
+      "definition": "Régler les fonds par l'intermédiaire d'un système de règlement brut."
+    },
+    "NETS": {
+      "name": "Système de règlement net",
+      "definition": "Régler les fonds par l'intermédiaire d'un système de règlement net."
+    }
+  }
+}

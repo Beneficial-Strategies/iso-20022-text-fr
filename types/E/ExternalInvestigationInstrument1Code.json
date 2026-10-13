@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalInvestigationInstrument1Code",
+  "definition": "Précise le type d'instrument ou de produit sur lequel porte l'enquête, tel que publié dans un ensemble externe de codes d'instruments d'enquête.|Les ensembles de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Chèque",
+      "definition": "L'enquête est liée à un chèque."
+    },
+    "INST": {
+      "name": "Virement instantané",
+      "definition": "L'enquête est liée à un virement instantané."
+    },
+    "XBCT": {
+      "name": "Virement transfrontalier",
+      "definition": "L'enquête est liée à un paiement transfrontalier."
+    },
+    "ACHP": {
+      "name": "ACH ou de masse",
+      "definition": "L'enquête est liée à un paiement ACH ou de masse."
+    },
+    "DDTP": {
+      "name": "Prélèvement",
+      "definition": "L'enquête est liée à un prélèvement."
+    },
+    "CARD": {
+      "name": "Carte",
+      "definition": "L'enquête est liée à une opération par carte."
+    },
+    "URGP": {
+      "name": "HVP ou virement télégraphique",
+      "definition": "L'enquête est liée à un paiement par virement/de montant élevé."
+    },
+    "STAT": {
+      "name": "Écriture de relevé",
+      "definition": "L'enquête est liée à une écriture de relevé."
+    },
+    "DRFT": {
+      "name": "Traite",
+      "definition": "L'enquête est liée à une traite."
+    },
+    "SRTP": {
+      "name": "Demande de paiement",
+      "definition": "L'enquête est liée à une demande de paiement."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre instrument sous-jacent."
+    }
+  }
+}

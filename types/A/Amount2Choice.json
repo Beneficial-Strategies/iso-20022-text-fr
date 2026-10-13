@@ -1,0 +1,12 @@
+{
+  "isoType": "Amount2Choice",
+  "definition": "Choix entre un montant avec ou sans devise.",
+  "isoElements": {
+    "AmountWithoutCurrency": {
+      "definition": "Nombre d'unités monétaires exprimées dans une devise, l'unité monétaire étant implicite d'après le contexte."
+    },
+    "AmountWithCurrency": {
+      "definition": "Nombre d'unités monétaires exprimées dans une devise, l'unité monétaire étant explicite."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "CRSFormType1Code",
+  "definition": "Précise le type de formulaire de la norme commune de déclaration (CRS).",
+  "isoCodes": {
+    "CER4": {
+      "name": "Certificat d'identification gouvernemental",
+      "definition": "Certificat d'identification délivré par une autorité publique."
+    },
+    "CER3": {
+      "name": "Certificat de résidence",
+      "definition": "Certificat de résidence."
+    },
+    "CER5": {
+      "name": "Document officiel du gouvernement pour l'entité",
+      "definition": "Documentation officielle délivrée par une autorité publique pour l'entité."
+    },
+    "CER6": {
+      "name": "Autre document ou rapport",
+      "definition": "États financiers, rapport de crédit d'un tiers, dépôt de bilan ou rapport d'un régulateur des valeurs mobilières."
+    },
+    "CER8": {
+      "name": "Informations publiques sur l'entité",
+      "definition": "Informations publiquement disponibles sur l'entité."
+    },
+    "CER1": {
+      "name": "Autocertification dans un document distinct",
+      "definition": "Auto-certification sous forme de document distinct."
+    },
+    "CER2": {
+      "name": "Autocertification avec le contrat d'ouverture de compte",
+      "definition": "Auto-certification sous forme de document intégré au contrat d'ouverture du compte."
+    },
+    "CER7": {
+      "name": "Standardisé",
+      "definition": "Système de codification normalisé du secteur pour l'entité."
+    }
+  }
+}

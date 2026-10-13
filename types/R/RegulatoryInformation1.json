@@ -1,0 +1,18 @@
+{
+  "isoType": "RegulatoryInformation1",
+  "definition": "Informations réglementaires.",
+  "isoElements": {
+    "Sector": {
+      "definition": "Secteur d'activité économique, par exemple, SAE sur le marché italien."
+    },
+    "Branch": {
+      "definition": "Branche d'activité économique, par exemple, RAE sur le marché italien."
+    },
+    "Group": {
+      "definition": "Groupe d'activité économique, par exemple, un code émis par un régulateur."
+    },
+    "Other": {
+      "definition": "Autres informations réglementaires."
+    }
+  }
+}

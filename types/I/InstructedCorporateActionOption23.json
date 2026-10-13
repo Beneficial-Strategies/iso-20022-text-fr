@@ -1,0 +1,42 @@
+{
+  "isoType": "InstructedCorporateActionOption23",
+  "definition": "Fournit les détails de l'option d'opération sur titres concernant le solde total instruit.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "InstructedBalance": {
+      "definition": "Solde de la position instruite."
+    },
+    "DefaultAction": {
+      "definition": "Indique l'action par défaut relative à un événement d'opération sur titres."
+    },
+    "OptionAcceptedInstructedBalance": {
+      "definition": "Total quotidien des instructions acceptées reçues pour une option donnée."
+    },
+    "OptionCancelledInstructionBalance": {
+      "definition": "Total quotidien des instructions annulées pour une option donnée."
+    },
+    "OptionPendingInstructionBalance": {
+      "definition": "Total quotidien des instructions en attente pour une option donnée.  Il comprend les instructions d'annulation en attente."
+    },
+    "OptionRejectedInstructionBalance": {
+      "definition": "Total quotidien des instructions rejetées pour une option donnée."
+    },
+    "OptionReturnedInstructedBalance": {
+      "definition": "Total quotidien des instructions retournées reçues pour une option donnée."
+    },
+    "OptionProtectInstructionBalance": {
+      "definition": "Total quotidien de toutes les instructions de protection pour une option donnée."
+    },
+    "EventDeadlines": {
+      "definition": "Fournit des informations sur les dates limites relatives à une option d'opération sur titres."
+    },
+    "OptionInstructionDetails": {
+      "definition": "Détail des instructions reçues pour l'option donnée."
+    }
+  }
+}

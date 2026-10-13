@@ -1,0 +1,35 @@
+{
+  "isoType": "InvestigationData18",
+  "definition": "Fournit les informations détaillées de la réponse à l'enquête.",
+  "isoElements": {
+    "OriginalInvestigationSequence": {
+      "definition": "Séquence de l'enquête d'origine telle que fournie dans la demande d'enquête."
+    },
+    "OriginalInvestigationReason": {
+      "definition": "Motif de l'enquête d'origine tel que fourni dans la demande d'enquête."
+    },
+    "OriginalInvestigationReasonSubType": {
+      "definition": "Sous-type du motif de l'enquête d'origine tel que fourni dans la demande d'enquête."
+    },
+    "ResponseData": {
+      "definition": "Réponse à l'enquête, telle que fournie par le répondant."
+    },
+    "RelatedInvestigationData": {
+      "definition": "Informations complémentaires qui seront envoyées séparément du message, telles qu'une copie de passeport."
+    },
+    "EnclosedFile": {
+      "definition": "Document ou modèle joint au message.||Utilisation : l'utilisation de l'élément EnclosedFile doit faire l'objet d'un accord bilatéral."
+    },
+    "RelatedFileData": {
+      "definition": "Détails d'un document non joint au message, qui sera envoyé ou mis à disposition séparément."
+    },
+    "ResponseOriginator": {
+      "definition": "Identification de la banque ou de la partie à l'origine de la réponse.||Utilisation : l'élément ne doit être fourni que s'il diffère de Responder."
+    }
+  },
+  "isoRules": {
+    "InvestigationDataGuideline": {
+      "definition": "InvestigationData ne doit être répété que lorsque la demande d'enquête d'origine contenait plusieurs occurrences du bloc InvestigationData."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "VotingParticipationMethod2Code",
+  "definition": "Précise les différentes méthodes autorisées pour participer au vote des résolutions de l'ordre du jour d'une assemblée générale.",
+  "isoCodes": {
+    "PHNV": {
+      "name": "Sans vote",
+      "definition": "La participation à l'assemblée se fait en personne, mais la personne ne vote pas."
+    }
+  }
+}

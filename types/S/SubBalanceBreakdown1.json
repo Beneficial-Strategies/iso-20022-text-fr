@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceBreakdown1",
+  "definition": "Position nette d'un avoir distinct d'un seul instrument financier au sein de la position globale détenue dans le compte-titres, par exemple un sous-solde par statut.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Motif du sous-solde."
+    },
+    "Quantity": {
+      "definition": "Quantité d'instruments financiers dans le sous-solde."
+    }
+  }
+}

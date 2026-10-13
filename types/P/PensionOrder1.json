@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionOrder1",
+  "definition": "Ordonnance attachée à une retraite.",
+  "isoElements": {
+    "Type": {
+      "definition": "Ordonnance attachée à la police, au plan ou au régime de retraite."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur l’ordonnance de retraite."
+    }
+  }
+}

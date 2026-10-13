@@ -1,0 +1,39 @@
+{
+  "isoType": "FinancialInstrument21",
+  "definition": "Titre qui constitue un sous-ensemble d'un fonds de placement et qui est régi par la même politique de placement, par exemple l'option de dividende ou la devise de valorisation.",
+  "isoElements": {
+    "ClassType": {
+      "definition": "Caractéristiques des parts proposées par un fonds. Par exemple, une part peut avoir une structure de commissions spécifique, par exemple à l'entrée ou à la sortie, une politique de revenus, par ex. distribution ou capitalisation, ou une politique de rétrocessions, par ex. avec ou sans. Les catégories de fonds sont généralement désignées par un seul caractère, par exemple « Class A », « Class 2 »."
+    },
+    "SecuritiesForm": {
+      "definition": "Précise la forme, c'est-à-dire la propriété, du titre."
+    },
+    "DistributionPolicy": {
+      "definition": "Politique de revenus relative à un type de catégorie, c'est-à-dire si les revenus sont distribués ou conservés dans le fonds."
+    },
+    "ProductGroup": {
+      "definition": "Description propre à la société d'un groupe de fonds."
+    },
+    "UmbrellaName": {
+      "definition": "Nom du fonds à compartiments dans lequel l'instrument financier est contenu."
+    },
+    "BaseCurrency": {
+      "definition": "Devise de la catégorie du fonds d'investissement."
+    },
+    "DenominationCurrency": {
+      "definition": "Devise dans laquelle un titre est émis ou redénominé."
+    },
+    "RequestedNAVCurrency": {
+      "definition": "Devise à utiliser pour la valorisation du fonds. Cette devise doit figurer parmi l'ensemble des devises dans lesquelles le prix peut être exprimé, comme indiqué dans le prospectus."
+    },
+    "DualFundIndicator": {
+      "definition": "Indique si le fonds a deux prix."
+    },
+    "CountryOfDomicile": {
+      "definition": "Pays dans lequel le fonds a son domicile légal, tel que reflété dans la classification ISIN."
+    },
+    "RegisteredDistributionCountry": {
+      "definition": "Pays dans lesquels le fonds est enregistré pour la distribution."
+    }
+  }
+}

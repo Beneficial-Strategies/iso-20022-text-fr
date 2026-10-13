@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestDetails4",
+  "definition": "Détails d'une ou de plusieurs clés de la demande.",
+  "isoElements": {
+    "Key": {
+      "definition": "Clé pour laquelle les données spécifiques sont renvoyées, par exemple un BIC."
+    },
+    "ReportData": {
+      "definition": "Données renvoyées."
+    }
+  }
+}

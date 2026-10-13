@@ -1,0 +1,22 @@
+{
+  "isoType": "GroupCancellationStatus1Code",
+  "definition": "Précise le statut d'un groupe de demandes d'annulation.",
+  "isoCodes": {
+    "PACR": {
+      "name": "Demande d'annulation partiellement acceptée",
+      "definition": "L'annulation est partiellement acceptée."
+    },
+    "RJCR": {
+      "name": "Demande d'annulation rejetée",
+      "definition": "La demande d'annulation est rejetée"
+    },
+    "ACCR": {
+      "name": "Demande d'annulation acceptée",
+      "definition": "L'annulation est acceptée."
+    },
+    "PDCR": {
+      "name": "Demande d'annulation en attente",
+      "definition": "La demande d'annulation est en attente."
+    }
+  }
+}

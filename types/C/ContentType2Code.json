@@ -1,0 +1,26 @@
+{
+  "isoType": "ContentType2Code",
+  "definition": "Identification du type d'une structure de données Cryptographic Message Syntax (CMS).",
+  "isoCodes": {
+    "DATA": {
+      "name": "Données en clair",
+      "definition": "Contenu de données générique, non cryptographique ou non qualifié - (identifiant d'objet ASN.1 : id-data)."
+    },
+    "SIGN": {
+      "name": "Données signées",
+      "definition": "Signature numérique - (identifiant d'objet ASN.1 : id-signedData)."
+    },
+    "EVLP": {
+      "name": "Données enveloppées",
+      "definition": "Données chiffrées, avec clé de chiffrement - (identifiant d'objet ASN.1 : id-envelopedData)."
+    },
+    "DGST": {
+      "name": "Données condensées",
+      "definition": "Condensé de message - (identifiant d'objet ASN.1 : id-digestedData)."
+    },
+    "AUTH": {
+      "name": "Données authentifiées",
+      "definition": "MAC (Message Authentication Code), avec clé de chiffrement - (identifiant d'objet ASN.1 : id-ct-authData)."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "SubBalanceInformation23",
+  "definition": "Position nette d'un avoir ségrégué d'un seul titre au sein de la position globale détenue sur le compte-titres, par exemple le sous-solde par statut.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Motif du sous-solde."
+    },
+    "Quantity": {
+      "definition": "Quantité de titres dans le sous-solde."
+    },
+    "SubBalanceAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires sur le sous-solde."
+    },
+    "AdditionalBalanceBreakdownDetails": {
+      "definition": "Fournit des informations complémentaires sur le sous-solde d'instrument, pour tout ou partie de l'instrument financier déclaré (non enregistré, exonéré d'impôt, etc.)."
+    }
+  },
+  "isoRules": {
+    "SubBalanceAdditionalDetailsRule": {
+      "definition": "Sauf accord bilatéral entre l'expéditeur et le destinataire, si SubBalanceAdditionnalDetails est utilisé, il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    },
+    "AvailableWithNoStatusRule": {
+      "definition": "Si le type de sous-solde est AvailableWithNoStatus, alors QuantityAndAvailability ne peut pas être utilisé."
+    }
+  }
+}

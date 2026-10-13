@@ -1,0 +1,15 @@
+{
+  "isoType": "AgentNotificationCancellationIdentificationAndStatus2",
+  "definition": "Identification et statut de la demande d'annulation de notification d'opération sur titres envoyée par l'agent.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique du document."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure de création du document."
+    },
+    "Status": {
+      "definition": "Statut de la demande d'annulation d'opération sur titres envoyée par l'agent."
+    }
+  }
+}

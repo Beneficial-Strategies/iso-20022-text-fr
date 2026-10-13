@@ -1,0 +1,44 @@
+{
+  "isoType": "DetailedInstructionStatus22",
+  "definition": "Informations relatives à un vote d'instruction de réunion.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identification de l'instruction individuelle spécifique issue du message initial d'instruction de réunion pour laquelle la confirmation est fournie."
+    },
+    "AccountIdentification": {
+      "definition": "Identification du compte de conservation."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identification du sous-compte au sein du compte de conservation."
+    },
+    "RightsHolder": {
+      "definition": "Propriétaire des droits de vote."
+    },
+    "Proxy": {
+      "definition": "Identification de la personne désignée par le détenteur de titres comme mandataire."
+    },
+    "StandingInstruction": {
+      "definition": "Indique si des instructions permanentes ont été appliquées ou non."
+    },
+    "ModalityOfCounting": {
+      "definition": "Modalité selon laquelle les votes enregistrés et comptabilisés ont été reçus par l'émetteur, y compris s'ils l'ont été avant la réunion ou lors de la réunion."
+    },
+    "VoteReceiptDateTime": {
+      "definition": "Date ou date et heure auxquelles les votes enregistrés et comptabilisés ont été reçus."
+    },
+    "VotePerResolution": {
+      "definition": "Détails du vote."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "Il est recommandé que RightsHolder ne soit présent plus d'une fois qu'en cas de copropriété."
+    },
+    "SubAccount1Rule": {
+      "definition": "Si SubAccountIdentification est présent, alors AccountIdentification doit être présent."
+    }
+  }
+}

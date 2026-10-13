@@ -1,0 +1,24 @@
+{
+  "isoType": "PartyIdentification273",
+  "definition": "Décrit les détails d'une organisation.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "LegalName": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "PostalAddress": {
+      "definition": "Informations qui localisent et identifient une adresse précise, telles que définies par les services postaux."
+    },
+    "Identification": {
+      "definition": "Moyen unique et non ambigu d'identifier la partie."
+    },
+    "CountryOfResidence": {
+      "definition": "Pays dans lequel une personne réside (lieu de son domicile). Dans le cas d'une société, pays à partir duquel les affaires de cette société sont dirigées."
+    },
+    "ContactDetails": {
+      "definition": "Indique comment contacter la partie."
+    }
+  }
+}

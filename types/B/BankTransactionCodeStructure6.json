@@ -1,0 +1,12 @@
+{
+  "isoType": "BankTransactionCodeStructure6",
+  "definition": "Ensemble d'éléments servant à identifier le type ou le code d'opération d'une écriture d'opération.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise la famille au sein d'un domaine."
+    },
+    "SubFamilyCode": {
+      "definition": "Précise la sous-famille de produits au sein d'une famille donnée."
+    }
+  }
+}

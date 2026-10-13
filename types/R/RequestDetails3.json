@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestDetails3",
+  "definition": "Détails de la demande de données.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de données demandées, par exemple un BIC de sous-membre."
+    },
+    "Key": {
+      "definition": "Données de rapport spécifiques demandées, par exemple un BIC."
+    }
+  }
+}

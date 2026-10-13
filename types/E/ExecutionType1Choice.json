@@ -1,0 +1,12 @@
+{
+  "isoType": "ExecutionType1Choice",
+  "definition": "Définit le type d'exécution à effectuer dans la demande.",
+  "isoElements": {
+    "Time": {
+      "definition": "Le type d'exécution est déclenché par une échéance temporelle."
+    },
+    "Event": {
+      "definition": "Le type d'exécution est déclenché par un événement."
+    }
+  }
+}

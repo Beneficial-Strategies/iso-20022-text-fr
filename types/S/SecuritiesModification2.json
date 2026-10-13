@@ -1,0 +1,29 @@
+{
+  "isoType": "SecuritiesModification2",
+  "definition": "Fournit les opérations du relevé.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partie titulaire du compte."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "ProcessingStatus": {
+      "definition": "Statut et motif du statut de l'opération."
+    },
+    "Modification": {
+      "definition": "Identifie l'opération individuelle."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount doit être présent ou Modification(*)/SafekeepingAccount doit être présent, mais pas les deux."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner doit être présent ou Modification(*)/AccountOwner doit être présent, mais pas les deux."
+    },
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus doit être présent ou Modification(*)/ProcessingStatus doit être présent, mais pas les deux."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountStatusUpdateInstruction1",
+  "definition": "Instruction de modification du statut d'un compte et motif de la modification.",
+  "isoElements": {
+    "UpdateInstruction": {
+      "definition": "Type de modification de statut ayant fait l'objet d'une instruction pour le statut du compte."
+    },
+    "UpdateInstructionReason": {
+      "definition": "Motif de l'instruction de modification du statut du compte."
+    }
+  }
+}

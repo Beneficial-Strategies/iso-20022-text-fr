@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentType4Choice",
+  "definition": "Choix entre un type de paiement issu d'une liste prédéfinie et un type de paiement propriétaire.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type, ou nature, du paiement, tel qu'un paiement express.|."
+    },
+    "Proprietary": {
+      "definition": "Type de paiement non inclus dans une liste prédéfinie."
+    }
+  }
+}

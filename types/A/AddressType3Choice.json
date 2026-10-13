@@ -1,0 +1,12 @@
+{
+  "isoType": "AddressType3Choice",
+  "definition": "Choix de formats pour le type d'adresse.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'adresse exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type d'adresse exprimé sous forme de code propriétaire."
+    }
+  }
+}

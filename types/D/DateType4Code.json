@@ -1,0 +1,14 @@
+{
+  "isoType": "DateType4Code",
+  "definition": "Indique un type de date.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Ouvert",
+      "definition": "À date ouverte, ce qui indique que la date n'a pas été établie."
+    },
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "La date est inconnue de l'expéditeur ou n'a pas été établie."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "RejectionReason20Code",
+  "definition": "Précise le motif du rejet de la demande d'instruction permanente.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "La validation de l'avis/de l'instruction/de la demande a échoué."
+    },
+    "CASA": {
+      "name": "Compte espèces non identifié",
+      "definition": "Impossible d'identifier le compte espèces."
+    },
+    "CORR": {
+      "name": "Banque correspondante non identifiée",
+      "definition": "Impossible d'identifier la banque correspondante."
+    },
+    "STAN": {
+      "name": "Type d'instruction permanente invalide",
+      "definition": "Type d'instruction permanente invalide pour le titre sous-jacent indiqué."
+    },
+    "NOHO": {
+      "name": "Aucune position",
+      "definition": "Aucun avoir pour le titre sous-jacent spécifié."
+    }
+  }
+}

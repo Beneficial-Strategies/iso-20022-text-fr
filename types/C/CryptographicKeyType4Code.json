@@ -1,0 +1,34 @@
+{
+  "isoType": "CryptographicKeyType4Code",
+  "definition": "Catégorie de la clé cryptographique.",
+  "isoCodes": {
+    "APPL": {
+      "name": "Application",
+      "definition": "Clé utilisée pour protéger les informations applicatives."
+    },
+    "DATA": {
+      "name": "Données",
+      "definition": "Clé utilisée pour protéger les données des messages."
+    },
+    "DYNC": {
+      "name": "Dynamique",
+      "definition": "Toute clé cryptographique pouvant être téléchargée."
+    },
+    "KENC": {
+      "name": "Chiffrement de clé",
+      "definition": "Clé utilisée pour chiffrer d'autres clés."
+    },
+    "MACK": {
+      "name": "MAC",
+      "definition": "Clé utilisée pour générer le MAC d'un message."
+    },
+    "PINK": {
+      "name": "PIN",
+      "definition": "Clé utilisée pour chiffrer un PIN."
+    },
+    "WRKG": {
+      "name": "Opérationnel",
+      "definition": "Clé temporaire utilisée pour télécharger des clés."
+    }
+  }
+}

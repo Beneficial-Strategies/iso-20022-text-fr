@@ -1,0 +1,18 @@
+{
+  "isoType": "CommissionType6Code",
+  "definition": "Précise le type de commission de fonds d'investissement.",
+  "isoCodes": {
+    "FEND": {
+      "name": "Commission d'entrée",
+      "definition": "Commission de souscription à un investissement, payée au moment de la souscription."
+    },
+    "BEND": {
+      "name": "Commission de sortie",
+      "definition": "Commission de rachat d'un investissement, lorsqu'un investisseur rachète un fonds d'investissement dans un certain délai."
+    },
+    "CDPL": {
+      "name": "Commission de placement",
+      "definition": "Montant de trésorerie dû à un intermédiaire pour la vente d'un produit ou de services à un tiers."
+    }
+  }
+}

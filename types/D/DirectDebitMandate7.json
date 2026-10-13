@@ -1,0 +1,39 @@
+{
+  "isoType": "DirectDebitMandate7",
+  "definition": "Parties et comptes du mandat de prélèvement.",
+  "isoElements": {
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture au débit sera passée à la suite de l'opération."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit les fonds au créancier/partie finale. Le débiteur est également le propriétaire du compte débité."
+    },
+    "DebtorTaxIdentificationNumber": {
+      "definition": "Numéro attribué à une entité par une autorité fiscale."
+    },
+    "DebtorNationalRegistrationNumber": {
+      "definition": "Numéro attribué à une entité par une autorité nationale d'enregistrement."
+    },
+    "Creditor": {
+      "definition": "Partie qui reçoit un montant du débiteur. Dans le contexte du modèle de paiement, le créancier est également le titulaire du compte crédité."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui reçoit l'instruction de prélèvement du créancier ou d'une autre partie autorisée."
+    },
+    "DebtorAgentBranch": {
+      "definition": "Informations identifiant une agence précise d'un établissement financier.||Utilisation : ce composant doit être utilisé lorsque les informations d'identification du composant établissement financier ne permettent pas une identification jusqu'au niveau de l'agence."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui reçoit l'opération de paiement pour le compte du créancier, ou d'une autre partie désignée, et crédite le compte."
+    },
+    "CreditorAgentBranch": {
+      "definition": "Informations identifiant une agence précise d'un établissement financier.||Utilisation : ce composant doit être utilisé lorsque les informations d'identification du composant établissement financier ne permettent pas une identification jusqu'au niveau de l'agence."
+    },
+    "RegistrationIdentification": {
+      "definition": "Référence attribuée à un créancier par son établissement financier, ou l'autorité compétente, l'autorisant à participer à un système de prélèvement."
+    },
+    "MandateIdentification": {
+      "definition": "Référence du mandat de prélèvement convenu entre le débiteur et le créancier."
+    }
+  }
+}

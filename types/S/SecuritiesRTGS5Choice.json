@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesRTGS5Choice",
+  "definition": "Choix de format pour les informations RTGS sur les titres.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indique si l'opération de règlement doit être réglée par l'intermédiaire d'un système RTGS ou non RTGS."
+    },
+    "Proprietary": {
+      "definition": "Informations RTGS sur les titres exprimées sous la forme d'un code propriétaire."
+    }
+  }
+}

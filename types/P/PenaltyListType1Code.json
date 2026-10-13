@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyListType1Code",
+  "definition": "Indique le type de rapport pour les pénalités.",
+  "isoCodes": {
+    "CURR": {
+      "name": "Courant",
+      "definition": "Pour déclarer les nouvelles pénalités et les pénalités modifiées dans un seul message/rapport (/report)."
+    },
+    "FWAM": {
+      "name": "Modification à terme",
+      "definition": "Pour déclarer une liste de pénalités qui a été modifiée (c'est-à-dire que la liste des pénalités ne contient que des pénalités mises à jour et/ou supprimées qui ont déjà été déclarées précédemment dans une FWIS Penalty List)."
+    },
+    "FWIS": {
+      "name": "Soumission initiale à terme",
+      "definition": "Pour déclarer une liste quotidienne de pénalités créée pour la première fois (c'est-à-dire que la liste des pénalités ne contient que des pénalités nouvellement calculées)"
+    }
+  }
+}

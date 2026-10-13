@@ -1,0 +1,305 @@
+{
+  "isoType": "IssuerAgentRejection1Code",
+  "isoCodes": {
+    "NMOD": {
+      "name": "Événement annulé",
+      "definition": "Un événement annulé ne peut pas être modifié."
+    },
+    "PR1K": {
+      "name": "Taux en espèces inférieur à mille",
+      "definition": "Obligation à coupon zéro : le taux de principal / en espèces doit être inférieur à USD 1,000.00."
+    },
+    "CER0": {
+      "name": "Montant du certificat supérieur à zéro",
+      "definition": "Le montant du certificat doit être supérieur à zéro."
+    },
+    "NCON": {
+      "name": "Titre convertible non pris en charge",
+      "definition": "Titre convertible non pris en charge."
+    },
+    "DEPO": {
+      "name": "Montant appelé du dépositaire égal au montant appelé du titre",
+      "definition": "Le montant appelé au dépositaire doit être supérieur à zéro et égal au montant appelé du titre."
+    },
+    "FAS0": {
+      "name": "Montant appelé du dépositaire supérieur à zéro",
+      "definition": "Le montant appelé au dépositaire doit être supérieur à zéro."
+    },
+    "DUPL": {
+      "name": "Événement en double",
+      "definition": "Un événement en double existe."
+    },
+    "PDAY": {
+      "name": "Jour d'effet postérieur à la date de paiement",
+      "definition": "La date d'effet est postérieure à la date de paiement."
+    },
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "Échec de la validation de l'avis/de l'instruction/de la demande."
+    },
+    "LOCK": {
+      "name": "Verrou global",
+      "definition": "Le titre sous-jacent fait l'objet d'un blocage global."
+    },
+    "GAMN": {
+      "name": "Montant brut inférieur au montant net",
+      "definition": "Le montant brut est inférieur au montant net."
+    },
+    "UNDI": {
+      "name": "Titre sous-jacent inactif",
+      "definition": "Titre sous-jacent inactif."
+    },
+    "DEFE": {
+      "name": "Identifiant de titre défaisé non valide",
+      "definition": "Identifiant de titre défaisant non valide."
+    },
+    "IDIS": {
+      "name": "Identification de titre décaissé non valide",
+      "definition": "L'identification du titre décaissé est manquante."
+    },
+    "SEEQ": {
+      "name": "Type de titre de capital non valide",
+      "definition": "Type de titre de capital non valide."
+    },
+    "EVNT": {
+      "name": "Type d'événement non valide",
+      "definition": "Type d'événement non valide."
+    },
+    "NDEF": {
+      "name": "Identifiant de titre non défaisé non valide",
+      "definition": "Identifiant de titre non défaisant non valide."
+    },
+    "NREF": {
+      "name": "Identifiant de titre non remboursé par anticipation non valide",
+      "definition": "Identifiant de titre non refinancé non valide"
+    },
+    "REFR": {
+      "name": "Identification de notification non valide",
+      "definition": "Identification de notification non valide."
+    },
+    "ISSC": {
+      "name": "Coordonnées de l'agent de l'émetteur non valides ou manquantes",
+      "definition": "Les coordonnées de l'agent de l'émetteur sont non valides ou manquantes."
+    },
+    "PRIN": {
+      "name": "Taux principal en espèces non valide",
+      "definition": "Taux de principal en espèces non valide."
+    },
+    "REDT": {
+      "name": "Date de remboursement non valide",
+      "definition": "Date de remboursement non valide."
+    },
+    "REFU": {
+      "name": "Identifiant de titre remboursé par anticipation non valide",
+      "definition": "Identifiant de titre refinancé non valide."
+    },
+    "CERT": {
+      "name": "Montant total des certificats non valide",
+      "definition": "Montant non valide. Le montant total des certificats doit être supérieur à zéro et égal au montant appelé du titre."
+    },
+    "UNDV": {
+      "name": "Titre sous-jacent invalide",
+      "definition": "Titre sous-jacent non valide."
+    },
+    "BACK": {
+      "name": "Quantité de rompus en fin de période manquante",
+      "definition": "La quantité de lot irrégulier de fin est manquante."
+    },
+    "BIDI": {
+      "name": "Intervalle d'enchère manquant",
+      "definition": "L'intervalle d'offre est manquant."
+    },
+    "CINL": {
+      "name": "Prix des espèces en remplacement manquant",
+      "definition": "Le prix en remplacement d'espèces est manquant."
+    },
+    "MCER": {
+      "name": "Certification manquante",
+      "definition": "La certification n'a pas été remplie."
+    },
+    "CSRT": {
+      "name": "Taux en espèces manquant",
+      "definition": "Le taux en espèces est manquant."
+    },
+    "COND": {
+      "name": "Indicateur d'acceptation des offres conditionnelles manquant",
+      "definition": "L'indicateur d'offres conditionnelles acceptées est manquant."
+    },
+    "DFLT": {
+      "name": "Option par défaut manquante",
+      "definition": "Une option doit être marquée comme option par défaut."
+    },
+    "MDIS": {
+      "name": "Identification du titre décaissé manquante",
+      "definition": "L'identification du titre décaissé est manquante."
+    },
+    "XRAT": {
+      "name": "Taux de change manquant",
+      "definition": "Un montant résultant n'est pas autorisé sans taux de change."
+    },
+    "FIRS": {
+      "name": "Premier incrément d'enchère manquant",
+      "definition": "Le premier incrément d'offre est manquant."
+    },
+    "FRAC": {
+      "name": "Traitement des fractions manquant",
+      "definition": "Un titre sous-jacent fractionnaire ne peut pas être annoncé."
+    },
+    "MFCF": {
+      "name": "Indicateur de condition totale manquant",
+      "definition": "L'indicateur de condition totale est manquant."
+    },
+    "ISSR": {
+      "name": "Agent de l'émetteur manquant",
+      "definition": "L'agent de l'émetteur est manquant."
+    },
+    "LAST": {
+      "name": "Dernier incrément d'enchère manquant",
+      "definition": "Le dernier incrément d'offre est manquant."
+    },
+    "MAXP": {
+      "name": "Prix maximal manquant",
+      "definition": "Le prix maximal est manquant."
+    },
+    "MINP": {
+      "name": "Prix minimal manquant",
+      "definition": "Le prix minimal est manquant."
+    },
+    "ODLT": {
+      "name": "Indicateur de priorité des rompus manquant",
+      "definition": "L'indicateur de priorité des lots irréguliers est manquant."
+    },
+    "SECO": {
+      "name": "Option manquante",
+      "definition": "La deuxième option est obligatoire."
+    },
+    "OVCH": {
+      "name": "Indicateur de frais de sursouscription manquant",
+      "definition": "L'indicateur de frais de sursouscription est manquant."
+    },
+    "OVFL": {
+      "name": "Indicateur de sursouscription manquant",
+      "definition": "L'indicateur de sursouscription est manquant."
+    },
+    "OVPR": {
+      "name": "Prix de sursouscription manquant",
+      "definition": "Le prix de sursouscription est manquant."
+    },
+    "PTYP": {
+      "name": "Type de versement manquant",
+      "definition": "Le type de versement est manquant."
+    },
+    "ENDP": {
+      "name": "Date de fin de période manquante",
+      "definition": "La date ou le code de fin de période est manquant."
+    },
+    "STAR": {
+      "name": "Date de début de période manquante",
+      "definition": "La date ou le code de début de période est manquant."
+    },
+    "PBAS": {
+      "name": "Base de prix manquante",
+      "definition": "La base de prix est manquante."
+    },
+    "PROR": {
+      "name": "Taux de réduction proportionnelle manquant",
+      "definition": "Le taux de répartition au prorata est manquant."
+    },
+    "MPRI": {
+      "name": "Indicateur d'arrondi de la réduction proportionnelle manquant",
+      "definition": "L'indicateur d'arrondi de la répartition au prorata est manquant."
+    },
+    "PRCH": {
+      "name": "Indicateur de frais de protection manquant",
+      "definition": "L'indicateur de frais de protection est manquant."
+    },
+    "RESU": {
+      "name": "Montant résultant manquant",
+      "definition": "Le montant résultant doit être renseigné car un taux de change est présent."
+    },
+    "RITR": {
+      "name": "Indicateur de droits transférables manquant",
+      "definition": "L'indicateur de droits transférables est manquant."
+    },
+    "ROUN": {
+      "name": "Facteur d'arrondi manquant",
+      "definition": "Le facteur d'arrondi est manquant."
+    },
+    "SERT": {
+      "name": "Taux en titres manquant",
+      "definition": "Le taux de titres est manquant."
+    },
+    "SFEE": {
+      "name": "Indicateur de commission du courtier de sollicitation manquant",
+      "definition": "L'indicateur de commission de courtier de sollicitation est manquant."
+    },
+    "SUCH": {
+      "name": "Indicateur de frais de souscription manquant",
+      "definition": "L'indicateur de frais de souscription est manquant."
+    },
+    "SUPR": {
+      "name": "Prix de souscription manquant",
+      "definition": "Le prix de souscription est manquant."
+    },
+    "UNSP": {
+      "name": "Autorisation de prix non précisé manquante",
+      "definition": "L'indicateur de prix non spécifié autorisé est manquant."
+    },
+    "NOAC": {
+      "name": "Aucun accès au service",
+      "definition": "L'agent n'a pas accès au service."
+    },
+    "NPAT": {
+      "name": "Partie non active",
+      "definition": "La partie n'est pas active."
+    },
+    "ELIG": {
+      "name": "Titre non éligible",
+      "definition": "Le titre n'est pas éligible."
+    },
+    "BDAY": {
+      "name": "Jour non ouvrable",
+      "definition": "La date n'est pas un jour ouvrable pour le marché des titres."
+    },
+    "AGID": {
+      "name": "Agent non défini",
+      "definition": "La partie n'est pas définie comme un agent."
+    },
+    "DISP": {
+      "name": "Titre non éligible à la dispersion",
+      "definition": "Le titre à disperser n'est pas éligible auprès du prestataire de services propriétaire (ICSD)."
+    },
+    "ONCV": {
+      "name": "Un événement de conversion est en cours",
+      "definition": "Un événement de conversion est en cours"
+    },
+    "PERI": {
+      "name": "Date de fin de période antérieure à la date de début",
+      "definition": "La date de fin de période est antérieure à la date de début de période."
+    },
+    "PUBD": {
+      "name": "Date de publication",
+      "definition": "La date de publication doit être antérieure à la date de paiement."
+    },
+    "RDTE": {
+      "name": "Date d'arrêté postérieure à la date de paiement",
+      "definition": "La date d'enregistrement est postérieure à la date de paiement."
+    },
+    "UNDM": {
+      "name": "Titre sous-jacent non éligible",
+      "definition": "Le titre sous-jacent n'est pas éligible auprès du dépositaire."
+    },
+    "ACRU": {
+      "name": "Intérêts courus inattendus",
+      "definition": "Les intérêts courus ne sont pas applicables à ce type de titre."
+    },
+    "VALU": {
+      "name": "Date de valeur antérieure à la date de paiement",
+      "definition": "La date de valeur est antérieure à la date de paiement."
+    },
+    "SECT": {
+      "name": "Type de titre erroné",
+      "definition": "Le type de titre ne correspond pas au type d'opération sur titres."
+    }
+  }
+}

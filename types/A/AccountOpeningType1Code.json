@@ -1,0 +1,14 @@
+{
+  "isoType": "AccountOpeningType1Code",
+  "definition": "Précise le type de compte auquel se rapporte une demande d'ouverture de compte, par exemple un nouveau compte.",
+  "isoCodes": {
+    "NEWA": {
+      "name": "Ouverture d'un nouveau compte",
+      "definition": "La demande de compte vise à ouvrir un nouveau compte."
+    },
+    "SUPA": {
+      "name": "Ouverture d'un compte supplémentaire",
+      "definition": "La demande de compte vise à ouvrir un compte complémentaire, c'est-à-dire fondé sur un compte existant."
+    }
+  }
+}

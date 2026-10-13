@@ -1,0 +1,33 @@
+{
+  "isoType": "StructuredRemittanceInformation22",
+  "definition": "Informations fournies, sous forme structurée, pour permettre le rapprochement d'une écriture avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptes clients.",
+  "isoElements": {
+    "ReferredDocumentInformation": {
+      "definition": "Fournit l'identification et le contenu du document visé."
+    },
+    "ReferredDocumentAmount": {
+      "definition": "Fournit des détails sur les montants du document visé."
+    },
+    "CreditorReferenceInformation": {
+      "definition": "Informations de référence fournies par le créancier afin de permettre l'identification des documents sous-jacents."
+    },
+    "Invoicer": {
+      "definition": "Identification de l'organisme qui émet la facture, lorsqu'il est différent du créancier ou du créancier final."
+    },
+    "Invoicee": {
+      "definition": "Identification de la partie à laquelle une facture est adressée, lorsqu'elle est différente du débiteur ou du débiteur final."
+    },
+    "TaxRemittance": {
+      "definition": "Fournit des informations de remise relatives à un paiement effectué à des fins fiscales."
+    },
+    "GarnishmentRemittance": {
+      "definition": "Fournit des informations de remise relatives à un paiement effectué à des fins de saisie-arrêt."
+    },
+    "SecuritiesData": {
+      "definition": "Fournit des informations sur les opérations sur titres qui composent le paiement."
+    },
+    "AdditionalRemittanceInformation": {
+      "definition": "Informations supplémentaires, en texte libre, venant compléter les informations de remise structurées."
+    }
+  }
+}

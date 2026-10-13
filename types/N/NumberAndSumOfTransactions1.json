@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberAndSumOfTransactions1",
+  "definition": "Ensemble d'éléments fournissant la somme totale des écritures.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Nombre d'écritures individuelles incluses dans le relevé."
+    },
+    "Sum": {
+      "definition": "Total de toutes les écritures individuelles incluses dans le relevé."
+    }
+  }
+}

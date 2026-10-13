@@ -1,0 +1,66 @@
+{
+  "isoType": "IntermediateSecurityDistributionType5Code",
+  "definition": "Précise le type de distribution de titres intermédiaires.",
+  "isoCodes": {
+    "BIDS": {
+      "name": "Droits inversés",
+      "definition": "Distribution de droits inversés."
+    },
+    "DRIP": {
+      "name": "Réinvestissement du dividende",
+      "definition": "Distribution de titres de réinvestissement de dividende."
+    },
+    "DVCA": {
+      "name": "Dividende en espèces",
+      "definition": "Distribution de numéraire aux actionnaires, proportionnellement à leur participation au capital. Les dividendes ordinaires sont récurrents et réguliers. L'actionnaire doit prendre le numéraire et peut se voir proposer un choix de devise."
+    },
+    "DVOP": {
+      "name": "Option de dividende",
+      "definition": "Distribution d'une option de dividende."
+    },
+    "EXRI": {
+      "name": "Droits de souscription",
+      "definition": "Distribution de droits de souscription."
+    },
+    "PRIO": {
+      "name": "Droits d'offre ouverte",
+      "definition": "Distribution de droits d'offre ouverte."
+    },
+    "DVSC": {
+      "name": "Dividende ou paiement en titres (scrip)",
+      "definition": "Dividende ou intérêt payé sous forme de scrip."
+    },
+    "DVSE": {
+      "name": "Dividende en actions",
+      "definition": "Dividende versé aux actionnaires sous forme d'actions."
+    },
+    "INTR": {
+      "name": "Paiement d'intérêts",
+      "definition": "Paiement d'intérêts distribué aux détenteurs d'un actif productif d'intérêts."
+    },
+    "LIQU": {
+      "name": "Dividende ou paiement de liquidation",
+      "definition": "Distribution de numéraire, d'actifs ou des deux."
+    },
+    "SOFF": {
+      "name": "Scission",
+      "definition": "Distribution aux actionnaires d'actions d'une filiale."
+    },
+    "SPLF": {
+      "name": "Division d'actions",
+      "definition": "Également appelé modification de la valeur nominale ou division.|Augmentation du nombre d'actions en circulation d'une société sans modification des capitaux propres de l'actionnaire ni de la valeur de marché totale au moment du fractionnement. Le cours de l'action et la valeur nominale sont réduits en conséquence."
+    },
+    "BONU": {
+      "name": "Droits d'attribution gratuite",
+      "definition": "Distribution de droits d'attribution gratuite."
+    },
+    "EXOF": {
+      "name": "Échange",
+      "definition": "Échange d'avoirs contre d'autres titres et/ou des espèces. L'échange peut être obligatoire ou volontaire et implique l'échange de titres en circulation contre des titres différents et/ou des espèces. Par exemple \"offre d'échange\", \"réorganisation du capital\" ou \"séparation de fonds\"."
+    },
+    "MRGR": {
+      "name": "Fusion",
+      "definition": "Échange de titres en circulation, à l'initiative de l'émetteur, pouvant comporter des options, résultant du regroupement des actifs de deux sociétés ou plus, c'est-à-dire d'une société tierce externe. Des paiements en espèces peuvent accompagner l'échange d'actions."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "isoType": "ExternalCreditorAgentInstruction1Code",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Payer le créancier par chèque",
+      "definition": "Le créancier (final) doit être payé par chèque."
+    },
+    "HOLD": {
+      "name": "Tenir les espèces à disposition du créancier",
+      "definition": "Le montant doit être tenu à la disposition du créancier (final), qui se présentera. Paiement sur justification d'identité."
+    },
+    "PHOB": {
+      "name": "Téléphoner au bénéficiaire",
+      "definition": "Veuillez aviser/contacter le créancier (final)/demandeur par téléphone."
+    },
+    "PRTK": {
+      "name": "Jeton du payeur demandé",
+      "definition": "Indique qu'un jeton du payeur est demandé/utilisé."
+    },
+    "RECI": {
+      "name": "Informations sur le client destinataire",
+      "definition": "Informations complémentaires concernant le destinataire prévu."
+    },
+    "TELB": {
+      "name": "Télécommunications",
+      "definition": "Veuillez aviser/contacter le créancier (final)/demandeur par le moyen de télécommunication le plus efficace."
+    },
+    "TKCM": {
+      "name": "Jeton : contrepartie non concordante",
+      "definition": "Jeton trouvé avec une contrepartie non concordante."
+    },
+    "TKSG": {
+      "name": "Jeton à usage unique",
+      "definition": "Jeton à usage unique déjà utilisé."
+    },
+    "TKSP": {
+      "name": "Jeton suspendu",
+      "definition": "Jeton trouvé avec le statut suspendu."
+    },
+    "TKVE": {
+      "name": "Limite de valeur du jeton dépassée",
+      "definition": "Jeton trouvé en violation d'une règle de limite de valeur."
+    },
+    "TKXP": {
+      "name": "Jeton expiré",
+      "definition": "Jeton expiré."
+    },
+    "TOKN": {
+      "name": "Jeton",
+      "definition": "Informations sur le jeton."
+    },
+    "VLTK": {
+      "name": "Validation du jeton",
+      "definition": "Informations de validation supplémentaires à utiliser conjointement avec le jeton."
+    },
+    "SEID": {
+      "name": "Identification secondaire",
+      "definition": "Utilisation de l'identification secondaire du compte du créancier (pouvant se rapporter au compte de recouvrement du siège, au numéro de registre d'une société de crédit immobilier ou au numéro de compte principal d'une carte de crédit)."
+    }
+  }
+}

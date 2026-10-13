@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalReference13",
+  "definition": "Référence à un message ou à une opération associés.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Identification d'un message. Cette référence a été attribuée par la partie qui émet le message."
+    },
+    "ReferenceIssuer": {
+      "definition": "Émetteur de la référence."
+    },
+    "MessageName": {
+      "definition": "Nom du message."
+    }
+  }
+}

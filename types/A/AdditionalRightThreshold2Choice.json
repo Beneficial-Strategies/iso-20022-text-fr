@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalRightThreshold2Choice",
+  "definition": "Choix du seuil de droit supplémentaire.",
+  "isoElements": {
+    "AdditionalRightThreshold": {
+      "definition": "Droit supplémentaire accordé pour préciser la participation minimale au capital social, ou la valeur en numéraire, ou le nombre de porteurs de titres requis pour déposer des résolutions."
+    },
+    "AdditionalRightThresholdPercentage": {
+      "definition": "Droit supplémentaire accordé pour préciser la participation minimale au capital social, ou la valeur en numéraire, ou le nombre de porteurs de titres requis pour déposer des résolutions. Ce minimum est exprimé en pourcentage."
+    }
+  }
+}

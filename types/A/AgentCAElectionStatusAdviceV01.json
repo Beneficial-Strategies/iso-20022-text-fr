@@ -1,0 +1,33 @@
+{
+  "isoType": "AgentCAElectionStatusAdviceV01",
+  "definition": "Portée|Ce message est envoyé par un émetteur (ou son agent) au CSD pour signaler le statut, ou un changement de statut, de :|- un avis d'option choisie dans le cadre d'une opération sur titres ;|- une demande d'annulation d'option choisie ; ou|- une demande de modification d'option choisie.|Utilisation|Ce message doit être envoyé en réponse à :|- un Agent Corporation Action Election Advice pour fournir le statut d'un avis d'option choisie en cas de rejet. Il peut toutefois être utilisé dans toutes les autres situations, auquel cas les blocs Election Advice Identification et Election Advice Status doivent être présents.|- un Agent Corporation Action Election Cancellation Request pour fournir le statut de la demande d'annulation, auquel cas les blocs Election Cancellation Request Identification et Election Cancellation Request Status doivent être présents.|- un Agent Corporation Action Election Amendment Request pour fournir le statut de la demande de modification, auquel cas les blocs Election Amendment Request Identification et Election Amendment Request Status doivent être présents.",
+  "isoRules": {
+    "ElectionAdviceIDOrElectionCancellationRequestIDOrElectionAmendmentRequestIDRule": {
+      "definition": "AgentCAElectionAdviceIdentification ou AgentCAElectionCancellationRequestIdentification ou AgentCAElectionAmendmentRequestIdentification doit être présent."
+    },
+    "ElectionAdviceIDOrElectionCancellationRequestIDOrElectionAmendmentRequestIDRuleNotBoth": {
+      "definition": "AgentCAElectionAdviceIdentification ou AgentCAElectionCancellationRequestIdentification ou AgentCAElectionAmendmentRequestIdentification doit être présent."
+    },
+    "ElectionAdviceIDOrElectionCancellationRequestIDOrElectionAmendmentRequestIDRuleNotBoth2": {
+      "definition": "AgentCAElectionAdviceIdentification ou AgentCAElectionCancellationRequestIdentification ou AgentCAElectionAmendmentRequestIdentification doit être présent."
+    },
+    "ElectionAdviceStatusOrCancellationRequestStatusOrAmendmentRequestStatusRule": {
+      "definition": "ElectionAdviceStatus ou ElectionCancellationRequestStatus ou ElectionAmendmentRequestStatus doit être présent."
+    },
+    "ElectionAdviceStatusOrCancellationRequestStatusOrAmendmentRequestStatusRuleNotBoth": {
+      "definition": "ElectionAdviceStatus ou ElectionCancellationRequestStatus ou ElectionAmendmentRequestStatus doit être présent."
+    },
+    "ElectionAdviceStatusOrCancellationRequestStatusOrAmendmentRequestStatusRuleNotBoth2": {
+      "definition": "ElectionAdviceStatus ou ElectionCancellationRequestStatus ou ElectionAmendmentRequestStatus doit être présent."
+    },
+    "ElectionAdviceStatusRule": {
+      "definition": "Si AgentCAElectionAdviceIdentification est présent, alors ElectionAdviceStatus doit être présent."
+    },
+    "ElectionAmendmentRequestStatusRule": {
+      "definition": "Si AgentCAElectionAmendmentRequestIdentification est présent, alors ElectionAmendmentRequestStatus doit être présent."
+    },
+    "ElectionCancellationRequestStatusRule": {
+      "definition": "Si AgentCAElectionCancellationRequestIdentification est présent, alors ElectionCancellationRequestStatus doit être présent."
+    }
+  }
+}

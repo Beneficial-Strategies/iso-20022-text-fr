@@ -1,0 +1,38 @@
+{
+  "isoType": "StandingOrder10",
+  "definition": "Nouvelles valeurs de l'ordre permanent.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant et devise à transférer lorsqu'une instruction de paiement est créée à la suite d'un ordre permanent."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle une somme d'argent est due."
+    },
+    "CreditorAccount": {
+      "definition": "Compte de trésorerie crédité à partir d'un mécanisme d'ordre permanent."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit une somme d'argent au créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Compte de trésorerie débité à partir d'un mécanisme d'ordre permanent."
+    },
+    "ExecutionType": {
+      "definition": "Définit si l'ordre permanent est exécuté par un déclenchement temporel ou par un déclenchement sur événement."
+    },
+    "Frequency": {
+      "definition": "Périodicité selon laquelle les instructions de paiement doivent être créées et traitées à la suite de l'ordre permanent, par exemple quotidienne, hebdomadaire ou mensuelle."
+    },
+    "ValidityPeriod": {
+      "definition": "Dates pendant lesquelles l'ordre permanent est en vigueur."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Indique si l'ordre permanent est défini comme un ordre de remise à zéro (zero sweeping). Lorsque la valeur est vraie, l'ordre permanent de transfert de liquidités transférera la totalité du montant hors du compte, de sorte que le solde résultant soit nul."
+    }
+  },
+  "isoRules": {
+    "ModifyStandingOrderValueSetRule": {
+      "definition": "Au moins un élément doit être présent."
+    }
+  }
+}

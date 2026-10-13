@@ -1,0 +1,34 @@
+{
+  "isoType": "TradingCapacity6Code",
+  "definition": "Précise le rôle d'une partie négociatrice dans une opération.",
+  "isoCodes": {
+    "AGEN": {
+      "name": "Agent",
+      "definition": "Négociation en tant qu'agent pour le compte d'un client."
+    },
+    "BAGN": {
+      "name": "Agent agissant",
+      "definition": "Partie agissant en tant qu'agent à la fois pour un client et pour une autre personne."
+    },
+    "CAGN": {
+      "name": "Agent en croisement",
+      "definition": "Croisement en tant qu'agent."
+    },
+    "CPRN": {
+      "name": "Donneur d'ordre en croisement",
+      "definition": "Croisement en tant que principal."
+    },
+    "OAGN": {
+      "name": "Autre agent",
+      "definition": "Agit en tant qu'agent pour une partie autre qu'un client."
+    },
+    "PRAG": {
+      "name": "Agent principal",
+      "definition": "Agit en tant qu'agent pour certaines exécutions et en tant que principal pour d'autres dans la même opération."
+    },
+    "PRIN": {
+      "name": "Donneur d'ordre",
+      "definition": "Négociation en tant que principal."
+    }
+  }
+}

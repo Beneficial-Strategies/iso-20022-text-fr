@@ -1,0 +1,57 @@
+{
+  "isoType": "SecuritiesSettlementTransactionDetails61",
+  "definition": "Fournit les détails de la ou des mises à jour de l'opération de règlement.",
+  "isoElements": {
+    "SettlementTypeAndAdditionalParameters": {
+      "definition": "Fournit le type de règlement et des informations d'identification."
+    },
+    "Linkages": {
+      "definition": "Lien vers une autre opération qui doit être traitée après, avant ou en même temps."
+    },
+    "TradeDetails": {
+      "definition": "Détails de la négociation."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrument financier représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Attributs définissant un instrument financier."
+    },
+    "QuantityAndAccountDetails": {
+      "definition": "Détails relatifs au compte et à la quantité concernés par l'opération."
+    },
+    "SettlementParameters": {
+      "definition": "Paramètres qui énoncent explicitement les conditions à remplir avant qu'une opération donnée sur un instrument financier puisse être réglée. Ces paramètres sont définis par la partie donneuse d'instruction conformément aux règles de règlement du marché sur lequel l'opération sera réglée."
+    },
+    "StandingSettlementInstructionDetails": {
+      "definition": "Précise la base de données d'instructions permanentes de règlement à utiliser pour déterminer les parties au règlement impliquées dans l'opération."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifie la chaîne des parties livreuses au règlement."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifie la chaîne des parties réceptrices au règlement."
+    },
+    "CashParties": {
+      "definition": "Parties de trésorerie impliquées dans l'opération si elles diffèrent des parties au règlement des titres."
+    },
+    "SettlementAmount": {
+      "definition": "Montant total à payer ou à recevoir en échange des titres."
+    },
+    "OtherAmounts": {
+      "definition": "Montants autres que le montant de règlement."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Quantité totale d'actifs numériques à payer ou à recevoir en échange du jeton de titre ; ou frais de réseau."
+    },
+    "OtherBusinessParties": {
+      "definition": "Autres parties commerciales concernées par l'opération."
+    },
+    "AdditionalPhysicalOrRegistrationDetails": {
+      "definition": "Fournit les informations requises pour l'enregistrement ou le règlement physique."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  }
+}

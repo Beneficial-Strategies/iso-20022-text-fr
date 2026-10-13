@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope34",
+  "definition": "Portée de la modification à appliquer à un ensemble d'informations identifié.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Précise le type de modification à appliquer à un ensemble d'informations."
+    },
+    "PostalAddress": {
+      "definition": "Adresse de l'organisation."
+    }
+  }
+}

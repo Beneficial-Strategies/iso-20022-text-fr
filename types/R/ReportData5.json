@@ -1,0 +1,27 @@
+{
+  "isoType": "ReportData5",
+  "definition": "Représentation numérique des augmentations et diminutions nettes d'un compte à un instant donné. Un solde de trésorerie est calculé à partir de la somme des crédits en espèces moins la somme des débits en espèces.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identification du rapport attribuée par le système central."
+    },
+    "ValueDate": {
+      "definition": "Date à laquelle le ou les montants demandés doivent être réglés."
+    },
+    "DateAndTimeStamp": {
+      "definition": "Date et heure de génération du rapport. Le décalage par rapport à l'UTC peut également être précisé."
+    },
+    "Type": {
+      "definition": "Spécifie le type de l'appel de fonds."
+    },
+    "PayInCallAmount": {
+      "definition": "Spécifie le montant demandé."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Indique la session de règlement CLS demandée à laquelle appartient la transaction concernée."
+    },
+    "AccountValue": {
+      "definition": "Spécifie le montant demandé dans plusieurs devises."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMConfigurationControlV01",
+  "definition": "Informations relatives à la gestion du protocole sur un segment du chemin entre l'ATM et l'acquéreur."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification4Choice",
+  "definition": "Précise l'identification unique d'un compte telle qu'attribuée par le teneur de compte.",
+  "isoElements": {
+    "IBAN": {
+      "definition": "Numéro de compte bancaire international (IBAN) - identifiant utilisé internationalement par les établissements financiers pour identifier de manière unique le compte d'un client. Des spécifications supplémentaires sur le format et le contenu de l'IBAN figurent dans la norme ISO 13616 « Services bancaires et services financiers connexes - Numéro de compte bancaire international (IBAN) » version du 1997-10-01, ou révisions ultérieures."
+    },
+    "Other": {
+      "definition": "Identification unique d'un compte, attribuée par le teneur de compte, à l'aide d'un schéma d'identification."
+    }
+  }
+}

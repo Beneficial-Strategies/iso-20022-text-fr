@@ -1,0 +1,41 @@
+{
+  "isoType": "Organisation40",
+  "definition": "Structure organisée constituée à une fin particulière, par exemple une entreprise, un organisme public, un service, une organisation caritative ou un établissement financier.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom sous lequel l'organisation est connue et qui est habituellement utilisé pour l'identifier."
+    },
+    "ShortName": {
+      "definition": "Nom abrégé de l'organisation."
+    },
+    "Identification": {
+      "definition": "Identifiant unique et non ambigu de l'organisation."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identification de l'organisation par un identifiant d'entité juridique (LEI). Il s'agit d'un code attribué à une partie, tel que décrit dans la norme ISO 17442 « Services financiers - Identifiant d'entité juridique (LEI) »."
+    },
+    "Purpose": {
+      "definition": "Objet de l'organisation, par exemple œuvre caritative."
+    },
+    "RegistrationCountry": {
+      "definition": "Pays dans lequel l'organisation est immatriculée."
+    },
+    "RegistrationDate": {
+      "definition": "Date et heure auxquelles une organisation donnée a été officiellement immatriculée."
+    },
+    "ModifiedPostalAddress": {
+      "definition": "Informations relatives à une adresse à insérer, mettre à jour ou supprimer."
+    },
+    "TypeOfOrganisation": {
+      "definition": "Type d'organisation."
+    },
+    "PlaceOfListing": {
+      "definition": "Lieu de cotation des actions de l'organisation."
+    }
+  },
+  "isoRules": {
+    "OrganisationElementRule": {
+      "definition": "L'un des éléments (Name, ShortName, Identification, LegalEntityIdentifier, Purpose, RegistrationCountry, RegistrationDate, ModifiedPostalAddress, TypeOfOrganisation, PlaceOfListing) doit être présent."
+    }
+  }
+}

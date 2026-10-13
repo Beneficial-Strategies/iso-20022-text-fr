@@ -1,0 +1,14 @@
+{
+  "isoType": "CancellationRejectedReason1Code",
+  "definition": "Indique le motif d'un statut d'annulation rejetée.",
+  "isoCodes": {
+    "CUTO": {
+      "name": "Heure limite",
+      "definition": "L'instruction a été reçue après l'heure limite."
+    },
+    "COSE": {
+      "name": "Déjà exécuté",
+      "definition": "L'ordre ou le transfert a déjà été exécuté et la confirmation a été envoyée."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DatePeriod2",
+  "definition": "Intervalle de temps défini par une date de début et une date de fin.",
+  "isoElements": {
+    "FromDate": {
+      "definition": "Date de début de l'intervalle."
+    },
+    "ToDate": {
+      "definition": "Date de fin de l'intervalle."
+    }
+  }
+}

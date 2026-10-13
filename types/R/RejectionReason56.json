@@ -1,0 +1,17 @@
+{
+  "isoType": "RejectionReason56",
+  "definition": "Informations sur un statut rejeté.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motif du statut rejeté."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informations complémentaires sur le motif du statut rejeté."
+    }
+  },
+  "isoRules": {
+    "OtherRule": {
+      "definition": "Si Reason/Code/OTHR (Other) est présent, AdditionReasonInformation doit être présent et le motif du statut de rejet doit être fourni."
+    }
+  }
+}

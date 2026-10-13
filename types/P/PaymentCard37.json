@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentCard37",
+  "definition": "Carte effectuant l'opération de retrait.",
+  "isoElements": {
+    "CardDataEntryMode": {
+      "definition": "Mode de saisie utilisé pour obtenir les données de la carte."
+    },
+    "FallbackIndicator": {
+      "definition": "Indique la survenue d'un repli sur le mode de saisie de la carte.|Utilisation : en l'absence de valeur, la valeur par défaut est Faux."
+    },
+    "ProtectedCardData": {
+      "definition": "Remplacement de l'élément de message PlainCardData par une enveloppe numérique utilisant une clé cryptographique."
+    },
+    "PlainCardData": {
+      "definition": "Données sensibles associées à la carte effectuant l'opération."
+    },
+    "CardCountryCode": {
+      "definition": "Code pays attribué à la carte par l'émetteur de la carte."
+    },
+    "CardCurrencyCode": {
+      "definition": "Code de devise de l'émetteur de la carte (code numérique ISO 4217)."
+    },
+    "ElectronicPurseBalance": {
+      "definition": "Solde de la carte capturée ou du porte-monnaie électronique, si disponible."
+    }
+  }
+}

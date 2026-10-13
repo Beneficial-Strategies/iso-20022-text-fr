@@ -1,0 +1,54 @@
+{
+  "isoType": "ChequeDelivery1Code",
+  "definition": "Précise le mode de remise d'un chèque à une partie.",
+  "isoCodes": {
+    "MLDB": {
+      "name": "Courrier vers le débiteur",
+      "definition": "Le chèque doit être envoyé par service postal au débiteur."
+    },
+    "MLCD": {
+      "name": "Courrier vers le créancier",
+      "definition": "Le chèque doit être envoyé par service postal au créancier."
+    },
+    "MLFA": {
+      "name": "Courrier vers la banque finale",
+      "definition": "Le chèque doit être envoyé par service postal à la banque du créancier."
+    },
+    "CRDB": {
+      "name": "Coursier vers le débiteur",
+      "definition": "Le chèque doit être envoyé par service de coursier au débiteur."
+    },
+    "CRCD": {
+      "name": "Coursier vers le créancier",
+      "definition": "Le chèque doit être envoyé au créancier par service de messagerie."
+    },
+    "CRFA": {
+      "name": "Coursier vers la banque finale",
+      "definition": "Le chèque doit être envoyé par service de coursier à la banque du créancier."
+    },
+    "PUDB": {
+      "name": "Retrait par le débiteur",
+      "definition": "Le chèque sera retiré par le débiteur."
+    },
+    "PUCD": {
+      "name": "Retrait par le créancier",
+      "definition": "Le chèque sera retiré par le créancier."
+    },
+    "PUFA": {
+      "name": "Retrait par la banque finale",
+      "definition": "Le chèque sera retiré par la banque du créancier."
+    },
+    "RGDB": {
+      "name": "Courrier recommandé vers le débiteur",
+      "definition": "Le chèque doit être envoyé par courrier recommandé au débiteur."
+    },
+    "RGCD": {
+      "name": "Courrier recommandé vers le créancier",
+      "definition": "Le chèque doit être envoyé par courrier recommandé au créancier."
+    },
+    "RGFA": {
+      "name": "Courrier recommandé vers la banque finale",
+      "definition": "Le chèque doit être envoyé par courrier recommandé à la banque du créancier."
+    }
+  }
+}

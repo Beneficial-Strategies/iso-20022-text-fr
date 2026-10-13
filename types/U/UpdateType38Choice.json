@@ -1,0 +1,15 @@
+{
+  "isoType": "UpdateType38Choice",
+  "definition": "Précise le type de mise à jour demandée, à savoir ajout, suppression ou modification.",
+  "isoElements": {
+    "Addition": {
+      "definition": "Ajout d'informations à l'opération sur titres."
+    },
+    "Deletion": {
+      "definition": "Suppression d'informations dans l'opération sur titres."
+    },
+    "Modification": {
+      "definition": "Modification d'informations dans l'opération sur titres."
+    }
+  }
+}

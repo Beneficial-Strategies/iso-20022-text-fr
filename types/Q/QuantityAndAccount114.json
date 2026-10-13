@@ -1,0 +1,29 @@
+{
+  "isoType": "QuantityAndAccount114",
+  "definition": "Détails sur une quantité, un compte et d'autres informations connexes.",
+  "isoElements": {
+    "SettlementQuantity": {
+      "definition": "Quantité totale de titres à régler."
+    },
+    "DenominationChoice": {
+      "definition": "Dénomination du titre à recevoir ou à livrer."
+    },
+    "CashAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de trésorerie est passée."
+    },
+    "QuantityBreakdown": {
+      "definition": "Ventilation d'une quantité en lots, tels que lots fiscaux ou séries d'instruments."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lieu où les titres sont conservés, physiquement ou de manière notionnelle. Ce lieu peut être, par exemple, un dépositaire local, un dépositaire central de titres (CSD) ou un dépositaire central de titres international (ICSD)."
+    }
+  },
+  "isoRules": {
+    "DenominationRule": {
+      "definition": "Sauf accord bilatéral entre le titulaire du compte et le teneur de compte, si DenominationChoice est utilisé, il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "La fonctionnalité SafekeepingPlace dans les instructions de règlement ne doit être utilisée que pour les conservateurs globaux qui permettent à leurs clients de préciser où les titres doivent être détenus, par exemple sur un compte ICSD plutôt que sur un compte auprès du CSD local."
+    }
+  }
+}

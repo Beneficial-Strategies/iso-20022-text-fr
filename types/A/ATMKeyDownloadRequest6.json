@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMKeyDownloadRequest6",
+  "definition": "Informations relatives à la demande de téléchargement de clés d'un ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Environnement du téléchargement de clés."
+    },
+    "CommandResult": {
+      "definition": "Résultat d'une commande de maintenance exécutée par l'ATM."
+    },
+    "CommandContext": {
+      "definition": "Commande de sécurité en cours dans le cadre de laquelle le téléchargement de clés est demandé."
+    },
+    "ATMSecurityContext": {
+      "definition": "Contexte de l'ATM pour le téléchargement de clés."
+    },
+    "ATMSecurityParameters": {
+      "definition": "Paramètres de sécurité de l'ATM pour le téléchargement de clés initié."
+    },
+    "HostChallenge": {
+      "definition": "Valeur aléatoire de l'hôte fournie lors d'un échange précédent."
+    }
+  }
+}

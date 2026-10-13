@@ -1,0 +1,86 @@
+{
+  "isoType": "PensionSchemeType3Code",
+  "definition": "Indique un type de régime de retraite.",
+  "isoCodes": {
+    "AAVC": {
+      "name": "Cotisation volontaire supplémentaire",
+      "definition": "Le plan de retraite est un plan de cotisations volontaires supplémentaires."
+    },
+    "DBEN": {
+      "name": "Prestations définies",
+      "definition": "Le plan de retraite est un plan à prestations définies."
+    },
+    "EXPP": {
+      "name": "Plan de retraite des cadres",
+      "definition": "Le plan de retraite est un plan de retraite de dirigeants."
+    },
+    "FAVC": {
+      "name": "Cotisation volontaire supplémentaire autonome",
+      "definition": "Le plan de retraite est un plan de cotisations volontaires supplémentaires autonome."
+    },
+    "GPPS": {
+      "name": "Retraite personnelle collective",
+      "definition": "La retraite est une retraite personnelle de groupe."
+    },
+    "SIPG": {
+      "name": "Retraite collective autogérée",
+      "definition": "Le plan de retraite est un plan de retraite de groupe auto-investi."
+    },
+    "STKG": {
+      "name": "Stakeholder collectif",
+      "definition": "Le plan de retraite est un plan de retraite stakeholder de groupe."
+    },
+    "IPST": {
+      "name": "Retraite individuelle avec avantage fiscal",
+      "definition": "La retraite est un plan d’épargne retraite individuel bénéficiant d’un avantage fiscal. Il est connu sous le nom d’Individual Pension Schema (IPS) sur certains marchés."
+    },
+    "STKI": {
+      "name": "Stakeholder individuel",
+      "definition": "Le plan de retraite est une retraite stakeholder individuelle."
+    },
+    "OTPM": {
+      "name": "Retraite professionnelle obligatoire",
+      "definition": "La retraite est une retraite professionnelle obligatoire. Elle est connue sous le nom d’Obligatory Occupation Pension (OTP) sur certains marchés."
+    },
+    "OCDC": {
+      "name": "Retraite professionnelle à cotisations définies",
+      "definition": "Le plan de retraite est un plan professionnel à cotisations définies."
+    },
+    "PPNS": {
+      "name": "Retraite personnelle",
+      "definition": "La retraite est un plan de retraite personnel."
+    },
+    "EPKA": {
+      "name": "Compte de retraite personnelle",
+      "definition": "La retraite est un compte de retraite personnel. Il est connu sous le nom d’Employee Pension Kapital (EPK) sur certains marchés."
+    },
+    "ITPO": {
+      "name": "Retraite professionnelle privée",
+      "definition": "La retraite est une retraite professionnelle privée. Elle est connue sous le nom d’industrial and trade supplementary pension (ITP) sur certains marchés."
+    },
+    "REAN": {
+      "name": "Rente de retraite",
+      "definition": "Le plan de retraite est une rente de retraite."
+    },
+    "SC32": {
+      "name": "Section 32",
+      "definition": "Type de retraite couvert par l’article 32."
+    },
+    "S32A": {
+      "name": "Section 32A",
+      "definition": "Type de retraite couvert par l’article 32A."
+    },
+    "SIPP": {
+      "name": "Retraite personnelle autogérée",
+      "definition": "La retraite est un plan de retraite personnel auto-investi."
+    },
+    "SSAS": {
+      "name": "Petit régime autogéré",
+      "definition": "La retraite est un régime de retraite de petite taille auto-administré."
+    },
+    "NWRP": {
+      "name": "Retraite hors enveloppe",
+      "definition": "Indique que la partie n’exploite pas l’enveloppe de retraite."
+    }
+  }
+}

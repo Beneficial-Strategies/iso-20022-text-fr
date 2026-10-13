@@ -1,0 +1,18 @@
+{
+  "isoType": "DebitAuthorisation2",
+  "definition": "Fournit le motif de la demande d'autorisation de débit ainsi que le montant du débit demandé.",
+  "isoElements": {
+    "CancellationReason": {
+      "definition": "Précise le motif de la demande d'annulation."
+    },
+    "AmountToDebit": {
+      "definition": "Montant demandé pour l'autorisation de débit."
+    },
+    "ValueDateToDebit": {
+      "definition": "Date de valeur du débit du montant."
+    },
+    "AdditionalCancellationReasonInformation": {
+      "definition": "Précisions complémentaires sur le motif de la demande d'annulation."
+    }
+  }
+}

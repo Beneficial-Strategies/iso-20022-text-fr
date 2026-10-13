@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason30Choice",
+  "definition": "Choix de format pour le motif de mise en attente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel la demande d'annulation est en attente."
+    },
+    "Proprietary": {
+      "definition": "Précise le motif pour lequel la demande d'annulation est en attente."
+    }
+  }
+}

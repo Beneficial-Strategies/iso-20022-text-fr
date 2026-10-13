@@ -1,0 +1,18 @@
+{
+  "isoType": "GroupHeader103",
+  "definition": "Ensemble de caractéristiques communes à tous les chèques individuels inclus dans le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par la partie instructrice et envoyée à la partie suivante de la chaîne pour identifier sans ambiguïté le message.|Utilisation : la partie instructrice doit s'assurer que MessageIdentification est unique par partie instruite pendant une période convenue à l'avance."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "NumberOfCheques": {
+      "definition": "Nombre de chèques individuels contenus dans le message."
+    },
+    "ControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le message, quelles que soient les devises."
+    }
+  }
+}

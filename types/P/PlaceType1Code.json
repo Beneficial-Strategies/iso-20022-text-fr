@@ -1,0 +1,10 @@
+{
+  "isoType": "PlaceType1Code",
+  "definition": "Type de date.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "Le type de lieu est inconnu."
+    }
+  }
+}

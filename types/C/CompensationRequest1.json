@@ -1,0 +1,24 @@
+{
+  "isoType": "CompensationRequest1",
+  "definition": "Fournit la période visée par la demande ainsi que le compte à créditer de l'indemnisation.",
+  "isoElements": {
+    "CompensationAccount": {
+      "definition": "Compte auquel l'indemnisation est due."
+    },
+    "Period": {
+      "definition": "Période à laquelle s'applique l'indemnisation."
+    },
+    "Amount": {
+      "definition": "Indemnisation estimée due pour la demande, telle que calculée par le demandeur."
+    },
+    "ExpectedValueDate": {
+      "definition": "Date de valeur à laquelle le paiement de l'indemnisation est demandé."
+    },
+    "InterestRate": {
+      "definition": "Taux d'intérêt d'un instrument financier utilisé pour estimer l'indemnisation."
+    },
+    "Reason": {
+      "definition": "Précise le motif de l'indemnisation."
+    }
+  }
+}

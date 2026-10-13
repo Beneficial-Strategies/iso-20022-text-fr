@@ -1,0 +1,12 @@
+{
+  "isoType": "DiscountAmountAndType1",
+  "definition": "Précise le montant avec un type spécifique.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type du montant."
+    },
+    "Amount": {
+      "definition": "Montant d'argent qui a été typé."
+    }
+  }
+}

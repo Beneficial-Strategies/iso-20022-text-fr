@@ -1,0 +1,35 @@
+{
+  "isoType": "InvestmentAccount76",
+  "definition": "Informations sur un compte-titres et ses caractéristiques.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom du compte. Il constitue un moyen supplémentaire d'identification et est désigné par le teneur de compte en accord avec le titulaire du compte."
+    },
+    "Designation": {
+      "definition": "Informations d'enregistrement complémentaires s'appliquant à un bloc spécifique de parts à des fins de traitement et de déclaration. Ces informations d'enregistrement complémentaires peuvent être utilisées lorsque toutes les parts sont enregistrées, par exemple, auprès d'un supermarché de fonds, mais que les avoirs de chaque investisseur doivent être rapprochés individuellement."
+    },
+    "FundType": {
+      "definition": "Forme juridique du fonds, par exemple UCITS, SICAV, OEIC, Unit Trust et FCP."
+    },
+    "FundFamilyName": {
+      "definition": "Nom de la famille de fonds d'investissement."
+    },
+    "SecurityDetails": {
+      "definition": "Informations détaillées sur le fonds d'investissement associé au compte."
+    },
+    "AccountOwner": {
+      "definition": "Titulaire du compte."
+    },
+    "Intermediary": {
+      "definition": "Intermédiaire ou autre partie liée à la gestion du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    }
+  },
+  "isoRules": {
+    "AccountDataElementRule": {
+      "definition": "L'un des éléments (Name, Designation, FundType, FundFamilyName, SecurityDetails, AccountOwner, Intermediary, Account Servicer) doit être présent."
+    }
+  }
+}

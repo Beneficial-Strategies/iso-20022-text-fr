@@ -1,0 +1,12 @@
+{
+  "isoType": "OfferTypeFormat17Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type d'offre.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant les conditions applicables à l'offre."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire des conditions applicables à l'offre."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "PoliticalExposureType2Code",
+  "definition": "Indique le type d'exposition politique.",
+  "isoCodes": {
+    "NPEX": {
+      "name": "Aucune exposition politique",
+      "definition": "Aucune exposition politique."
+    },
+    "YPEX": {
+      "name": "Exposition politique",
+      "definition": "Exposition politique."
+    },
+    "PEXD": {
+      "name": "Exposition politique nationale",
+      "definition": "Le type d'exposition politique est national."
+    },
+    "PEXF": {
+      "name": "Exposition politique étrangère",
+      "definition": "Le type d'exposition politique est étranger."
+    }
+  }
+}

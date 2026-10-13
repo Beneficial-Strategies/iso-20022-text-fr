@@ -1,0 +1,18 @@
+{
+  "isoType": "TransferOfProceedsType1Code",
+  "definition": "Précise le type de transfert du produit de la réclamation de marché.",
+  "isoCodes": {
+    "CLFT": {
+      "name": "Transfert intégral du produit reçu",
+      "definition": "La réclamation de marché consiste à transférer le produit reçu de l'émetteur à la partie ayant droit."
+    },
+    "CLPT": {
+      "name": "Aucun transfert du produit reçu",
+      "definition": "La réclamation de marché consiste à indemniser en espèces la partie ayant droit par la partie qui n'a pas rempli son obligation. Aucun produit n'a été reçu de l'émetteur."
+    },
+    "CLNT": {
+      "name": "Transfert partiel du produit reçu",
+      "definition": "La réclamation de marché consiste à transférer à la partie ayant droit le produit partiellement reçu de l'émetteur. Une partie est compensée en espèces par la partie qui n'a pas rempli son obligation."
+    }
+  }
+}

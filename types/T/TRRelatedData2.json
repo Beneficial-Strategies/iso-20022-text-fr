@@ -1,0 +1,12 @@
+{
+  "isoType": "TRRelatedData2",
+  "definition": "Bloc de données pour un bloc de clé TR31 ou TR34 contenant la clé transportée.",
+  "isoElements": {
+    "TR34Command": {
+      "definition": "Commande TR34 spécifique dont le TRBlock est un bloc TR34."
+    },
+    "TRBlock": {
+      "definition": "Bloc de données TR31 ou TR34."
+    }
+  }
+}

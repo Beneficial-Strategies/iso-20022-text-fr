@@ -1,0 +1,35 @@
+{
+  "isoType": "RequestDetails22",
+  "definition": "Détails de la demande fournissant les modifications et les références de l'instruction.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Références de l'opération pour laquelle la modification intra-solde est demandée."
+    },
+    "Linkage": {
+      "definition": "Précise le type de lien demandé."
+    },
+    "Priority": {
+      "definition": "Précise si l'opération doit être exécutée avec une priorité élevée."
+    },
+    "OtherProcessing": {
+      "definition": "Précise un autre type de demande de modification du traitement."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Précise si le règlement partiel est autorisé."
+    },
+    "ClearingChannel": {
+      "definition": "Précise le canal de compensation à utiliser pour traiter l'instruction de paiement."
+    },
+    "Linkages": {
+      "definition": "Informations relatives au lien demandé."
+    }
+  },
+  "isoRules": {
+    "ModificationRequestPresenceRule": {
+      "definition": "Au moins un élément de type de demande de modification doit être présent."
+    },
+    "OtherProcessingRule": {
+      "definition": "Si OtherProcessing est utilisé, son utilisation doit être convenue au préalable entre l'expéditeur et le destinataire."
+    }
+  }
+}

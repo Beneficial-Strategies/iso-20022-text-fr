@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountOpeningType1Choice",
+  "definition": "Choix de formats pour le type d'ouverture de compte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'instruction d'ouverture de compte exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type d'instruction d'ouverture de compte exprimé sous forme de code propriétaire."
+    }
+  }
+}

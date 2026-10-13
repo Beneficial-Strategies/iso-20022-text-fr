@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInstructionCancellationRequestStatusAdvice002V14",
+  "definition": "Portée|Le message CorporateActionInstructionCancellationRequestStatusAdvice est envoyé par un teneur de compte à un titulaire de compte ou à son agent désigné pour communiquer le statut d'un message CorporateActionInstructionCancellationRequest précédemment reçu, envoyé par le titulaire du compte. Il comprend l'accusé de réception ou le rejet d'une demande d'annulation d'une instruction en cours. |Utilisation|Le message peut également servir à :|- renvoyer un message précédemment envoyé (la sous-fonction du message est Duplicate),|- fournir à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy),|- renvoyer à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy Duplicate), à l'aide des éléments pertinents de l'en-tête applicatif métier (BAH).",
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "Aucun élément de la séquence AdditionalInformation ne doit contenir d'information pouvant être fournie dans un champ structuré, sauf accord bilatéral."
+    },
+    "BeneficialOwnerBreakdownRequestRule": {
+      "definition": "Si la valeur de CorporateActionInstruction/OptionType/Code est BOBD (BeneficialOwnerBreakdownRequest), la valeur de CorporateActionGeneralInformation/EventType/Code doit être WTRC (Withholding Tax Relief Certification).|(MT567 NVR C6)"
+    }
+  }
+}

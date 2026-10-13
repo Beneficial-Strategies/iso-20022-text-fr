@@ -1,0 +1,58 @@
+{
+  "isoType": "EventFrequency7Code",
+  "definition": "Précise la régularité d'un événement.",
+  "isoCodes": {
+    "YEAR": {
+      "name": "Annuel",
+      "definition": "L'événement a lieu chaque année ou une fois par an."
+    },
+    "ADHO": {
+      "name": "Ponctuel",
+      "definition": "L'événement a lieu selon les besoins."
+    },
+    "MNTH": {
+      "name": "Mensuel",
+      "definition": "L'événement a lieu chaque mois ou une fois par mois."
+    },
+    "DAIL": {
+      "name": "Quotidien",
+      "definition": "L'événement a lieu chaque jour."
+    },
+    "INDA": {
+      "name": "Intrajournalier",
+      "definition": "L'événement a lieu plusieurs fois par jour."
+    },
+    "WEEK": {
+      "name": "Hebdomadaire",
+      "definition": "L'événement a lieu une fois par semaine."
+    },
+    "SEMI": {
+      "name": "Semestriel",
+      "definition": "L'événement a lieu tous les six mois ou deux fois par an."
+    },
+    "QUTR": {
+      "name": "Trimestriel",
+      "definition": "L'événement a lieu tous les trois mois ou quatre fois par an."
+    },
+    "TOMN": {
+      "name": "Tous les deux mois",
+      "definition": "L'événement a lieu tous les deux mois."
+    },
+    "TOWK": {
+      "name": "Toutes les deux semaines",
+      "definition": "L'événement a lieu toutes les deux semaines."
+    },
+    "TWMN": {
+      "name": "Deux fois par mois",
+      "definition": "L'événement a lieu deux fois par mois."
+    },
+    "OVNG": {
+      "name": "Nuitée",
+      "definition": "L'événement a lieu pendant la nuit."
+    },
+    "ONDE": {
+      "name": "À la demande",
+      "definition": "L'événement a lieu sur demande."
+    }
+  }
+}

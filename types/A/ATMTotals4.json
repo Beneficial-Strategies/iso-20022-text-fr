@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMTotals4",
+  "definition": "Totaux actuels de l'ATM.",
+  "isoElements": {
+    "MediaType": {
+      "definition": "Type de support contenu dans la cassette."
+    },
+    "Currency": {
+      "definition": "Devise des totaux."
+    },
+    "ATMBalance": {
+      "definition": "Solde total de l'ATM, cassette de rejet incluse, mais cassette de rétention exclue."
+    },
+    "ATMCurrent": {
+      "definition": "Montant disponible pour distribution dans l'ATM."
+    },
+    "ATMBalanceNumber": {
+      "definition": "Nombre total d'unités pour les supports sans valeur, cassette de rejet incluse."
+    },
+    "ATMCurrentNumber": {
+      "definition": "Nombre total d'unités pour les supports sans valeur, cassette de rejet exclue."
+    }
+  }
+}

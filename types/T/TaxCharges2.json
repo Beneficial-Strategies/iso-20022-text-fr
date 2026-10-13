@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxCharges2",
+  "definition": "Montant dû à l'État ou à l'autorité fiscale, selon divers paramètres prédéfinis tels que des seuils ou des revenus.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Référence unique permettant d'identifier sans ambiguïté la nature de la taxe prélevée, par exemple la taxe sur la valeur ajoutée (VAT)."
+    },
+    "Rate": {
+      "definition": "Taux utilisé pour calculer la taxe."
+    },
+    "Amount": {
+      "definition": "Montant résultant du calcul de la taxe."
+    }
+  }
+}

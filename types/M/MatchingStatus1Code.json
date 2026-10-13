@@ -1,0 +1,14 @@
+{
+  "isoType": "MatchingStatus1Code",
+  "definition": "Fournit le statut d'appariement de l'instruction au moment où l'instruction de règlement a été envoyée.",
+  "isoCodes": {
+    "MACH": {
+      "name": "Apparié",
+      "definition": "L'instruction a été appariée."
+    },
+    "NMAT": {
+      "name": "Non apparié",
+      "definition": "L'instruction n'a pas été appariée."
+    }
+  }
+}

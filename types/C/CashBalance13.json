@@ -1,0 +1,30 @@
+{
+  "isoType": "CashBalance13",
+  "definition": "Détails du solde d'un compte de trésorerie.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Devise et montant du solde de trésorerie."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le solde est créditeur ou débiteur. Un solde nul est considéré comme un solde créditeur."
+    },
+    "Type": {
+      "definition": "Précise la nature d'un solde."
+    },
+    "Status": {
+      "definition": "Statut actuel d'un solde de trésorerie."
+    },
+    "ValueDate": {
+      "definition": "Date et heure auxquelles le solde est ou sera disponible."
+    },
+    "ProcessingDate": {
+      "definition": "Date ou date et heure de la dernière mise à jour du solde à la suite d'une écriture passée au compte, dans les livres de l'établissement teneur de compte."
+    },
+    "NumberOfPayments": {
+      "definition": "Nombre de paiements pris en compte pour le calcul de la valeur du solde de trésorerie."
+    },
+    "RestrictionType": {
+      "definition": "Type fournissant des informations complémentaires sur les restrictions de solde."
+    }
+  }
+}

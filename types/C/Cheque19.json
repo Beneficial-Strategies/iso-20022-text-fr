@@ -1,0 +1,47 @@
+{
+  "isoType": "Cheque19",
+  "definition": "Caractéristiques d'une instruction de chèque, telles que le type de chèque ou le numéro de chèque.",
+  "isoElements": {
+    "ChequeType": {
+      "definition": "Précise le type de chèque à émettre."
+    },
+    "ChequeNumber": {
+      "definition": "Identifiant unique et non ambigu d'un chèque, attribué par la banque."
+    },
+    "ChequeFrom": {
+      "definition": "Identifie la partie qui a ordonné l'émission du chèque."
+    },
+    "DeliveryMethod": {
+      "definition": "Précise le mode de remise du chèque par la banque du débiteur."
+    },
+    "DeliverTo": {
+      "definition": "Partie à laquelle la banque du débiteur doit envoyer le chèque."
+    },
+    "InstructionPriority": {
+      "definition": "Urgence ou ordre d'importance que le donneur d'ordre souhaite voir appliqué par le destinataire de l'instruction de paiement au traitement de cette instruction de paiement."
+    },
+    "ChequeMaturityDate": {
+      "definition": "Date à laquelle la traite devient payable et le compte du débiteur est débité."
+    },
+    "FormsCode": {
+      "definition": "Identifie, sous forme codée, la présentation du chèque, le logo de l'entreprise et la signature numérisée à utiliser pour imprimer le chèque, conformément à l'accord conclu entre la partie initiatrice et la banque du débiteur."
+    },
+    "MemoField": {
+      "definition": "Informations à imprimer sur un chèque, utilisées par le payeur pour ajouter des informations diverses."
+    },
+    "RegionalClearingZone": {
+      "definition": "Zone régionale dans laquelle le chèque peut être compensé, lorsqu'un pays ne dispose pas d'organisme national de compensation des chèques."
+    },
+    "PrintLocation": {
+      "definition": "Précise le lieu d'impression du chèque."
+    },
+    "Signature": {
+      "definition": "Signature à utiliser par le gestionnaire de chèques sur un chèque donné à imprimer."
+    }
+  },
+  "isoRules": {
+    "ChequeMaturityDateRule": {
+      "definition": "Si ChequeMaturityDate est présent, alors ChequeType doit être présent et égal à DRFT ou ELDR."
+    }
+  }
+}

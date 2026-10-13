@@ -1,0 +1,9 @@
+{
+  "isoType": "BuyerProtectionInstructionReportRequestV01",
+  "definition": "Portée|Le message BuyerProtectionInstructionReportRequest est envoyé par un titulaire de compte ou son agent désigné à un teneur de compte pour demander un relevé de toutes les instructions de protection de l'acheteur au niveau du compte-titres pour un ou plusieurs événements sur titres, ou au niveau de l'événement sur titres pour un ou plusieurs comptes-titres.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé (la sous-fonction du message est Duplicate),|- fournir à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy),|- renvoyer à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy Duplicate), en utilisant les éléments pertinents de l'en-tête applicatif métier (BAH).",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identification du message SecuritiesStatementQuery envoyé pour demander ce relevé."
+    }
+  }
+}

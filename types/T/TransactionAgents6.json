@@ -1,0 +1,42 @@
+{
+  "isoType": "TransactionAgents6",
+  "definition": "Fournit des détails supplémentaires sur les banques propres à l'opération individuelle.",
+  "isoElements": {
+    "InstructingAgent": {
+      "definition": "Banque qui donne instruction à la partie suivante de la chaîne d'exécuter la ou les instructions."
+    },
+    "InstructedAgent": {
+      "definition": "Banque instruite par la partie précédente de la chaîne pour exécuter la ou les instructions."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier teneur d'un compte pour le débiteur."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier teneur d'un compte pour le créancier."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Banque située entre la banque du débiteur et la banque du créancier.||Utilisation : si plusieurs banques intermédiaires sont présentes, IntermediaryAgent1 identifie la banque située entre DebtorAgent et IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Banque située entre la banque du débiteur et la banque du créancier.||Utilisation : si plus de deux banques intermédiaires sont présentes, IntermediaryAgent2 identifie la banque située entre IntermediaryAgent1 et IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Banque située entre la banque du débiteur et la banque du créancier.||Utilisation : si IntermediaryAgent3 est présent, il identifie la banque située entre IntermediaryAgent 2 et CreditorAgent."
+    },
+    "ReceivingAgent": {
+      "definition": "Partie qui reçoit les titres de la banque livreuse sur le lieu de règlement, par exemple un dépositaire central de titres.|Peut également être utilisée dans le contexte des opérations de trésorerie."
+    },
+    "DeliveringAgent": {
+      "definition": "Partie qui livre les titres à la banque réceptrice sur le lieu de règlement, par exemple un dépositaire central de titres.|Peut également être utilisée dans le contexte des opérations de trésorerie."
+    },
+    "IssuingAgent": {
+      "definition": "Entité juridique ayant le droit d'émettre des titres."
+    },
+    "SettlementPlace": {
+      "definition": "Lieu où s'effectue le règlement des titres.|Utilisation : il est typé par une identification d'établissement financier, car c'est la méthode standard pour identifier un agent de règlement-livraison de titres ou un système central."
+    },
+    "Proprietary": {
+      "definition": "Banque propriétaire relative à l'opération sous-jacente."
+    }
+  }
+}

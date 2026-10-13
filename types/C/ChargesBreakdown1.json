@@ -1,0 +1,15 @@
+{
+  "isoType": "ChargesBreakdown1",
+  "definition": "Fournit une ventilation des frais par type.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant des frais d'opération à payer par le débiteur des frais."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le montant des frais est un montant au crédit ou au débit. |Utilisation : un montant nul est considéré comme un crédit."
+    },
+    "Type": {
+      "definition": "Précise le type de frais."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraPositionDetails58",
+  "definition": "Détails du mouvement intra-position.",
+  "isoElements": {
+    "Priority": {
+      "definition": "Précise si l'opération doit être exécutée avec une priorité élevée."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantité totale de titres à régler."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Numéro identifiant un type de sous-solde de titres (par exemple, identification de restriction, etc.)."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être déplacés."
+    },
+    "BalanceFrom": {
+      "definition": "Solde d'où les titres sont déplacés."
+    },
+    "BalanceTo": {
+      "definition": "Solde vers lequel les titres sont déplacés."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fournit des informations supplémentaires de traitement du règlement qui ne peuvent pas être incluses dans les champs structurés du message."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Sauf accord bilatéral entre l'émetteur et le destinataire, si InstructionProcessingAdditionalDetails est présent, alors il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    },
+    "BalanceFromToRule": {
+      "definition": "Le SecuritiesBalanceType de BalanceFrom doit être différent du SecuritiesBalanceType de BalanceTo."
+    }
+  }
+}

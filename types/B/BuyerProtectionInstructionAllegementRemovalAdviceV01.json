@@ -1,0 +1,12 @@
+{
+  "isoType": "BuyerProtectionInstructionAllegementRemovalAdviceV01",
+  "definition": "Portée|Un teneur de compte envoie un message BuyerProtectionInstructionAllegementRemovalAdvice à un titulaire de compte pour confirmer qu'une allégation d'instruction de protection de l'acheteur précédemment envoyée n'est plus en cours.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information|en utilisant les éléments pertinents de l'en-tête applicatif métier.",
+  "isoElements": {
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par l'entité de traitement de l'instruction autre que le titulaire du compte, le teneur de compte et l'infrastructure de marché."
+    },
+    "AllegementRemovalReason": {
+      "definition": "Raison du retrait de l'allégation de protection de l'acheteur."
+    }
+  }
+}

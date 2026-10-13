@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemStatus2Choice",
+  "definition": "Statut d'un système et période pendant laquelle ce statut est valide.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut du système, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Statut du système, sous forme propriétaire."
+    }
+  }
+}

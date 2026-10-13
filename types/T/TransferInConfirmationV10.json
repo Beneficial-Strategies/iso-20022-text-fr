@@ -1,0 +1,20 @@
+{
+  "isoType": "TransferInConfirmationV10",
+  "definition": "Portée|Le message TransferInConfirmation est envoyé par une partie exécutante, par exemple un agent de transfert, à la partie donneuse d'ordre, par exemple un gestionnaire de placements ou son représentant autorisé, afin de confirmer la réception d'un instrument financier, franco de paiement, à une date donnée, de la part d'une partie spécifiée.|Ce message peut également être utilisé pour confirmer la réception d'un instrument financier, franco de paiement, en provenance d'un autre compte propre de la partie donneuse d'ordre ou d'un tiers.|Ce message peut également être utilisé comme avis, c'est-à-dire que le message sert à fournir des informations de compte.|Utilisation|Le message TransferInConfirmation est utilisé pour confirmer la réception d'un instrument financier, en provenance soit d'un autre compte détenu par la partie donneuse d'ordre, soit d'un tiers. La référence de la confirmation de transfert est identifiée dans TransferConfirmationReference.|La référence de l'instruction de transfert d'origine est indiquée dans TransferReference. L'identification du message TransferInInstruction dans lequel l'instruction de transfert a été transmise peut également être citée dans RelatedReference.",
+  "isoElements": {
+    "Function": {
+      "definition": "Fonction du transfert entrant, c'est-à-dire si le message de transfert entrant est utilisé comme confirmation ou comme avis. L'absence de Function indique que le message est une confirmation."
+    },
+    "MasterReference": {
+      "definition": "Identifiant unique et non ambigu d'un groupe de transferts individuels, attribué par la partie donneuse d'ordre. Cet identifiant relie les transferts individuels entre eux."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Soit TransferDetails/RequestedSettlementDate peut être présent dans une ou plusieurs occurrences de TransferDetails, soit SettlementDetails/RequestedSettlementDate peut être présent, mais pas les deux."
+    },
+    "EffectiveSettlementDateRule": {
+      "definition": "Soit TransferDetails/EffectiveSettlementDate peut être présent dans une ou plusieurs occurrences de TransferDetails, soit SettlementDetails/Effective Settlement Date peut être présent, mais pas les deux."
+    }
+  }
+}

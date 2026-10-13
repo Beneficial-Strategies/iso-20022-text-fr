@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingCancellationStatus15Choice",
+  "definition": "Choix entre un motif ou l'absence de motif pour le statut d'annulation en attente de l'instruction d'opération sur titres.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motif non précisé."
+    },
+    "Reason": {
+      "definition": "Motif du statut d'annulation en attente."
+    }
+  }
+}

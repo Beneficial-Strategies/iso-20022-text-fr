@@ -1,0 +1,18 @@
+{
+  "isoType": "PostalAddress7",
+  "definition": "Informations permettant de localiser et d'identifier une adresse précise, telles que définies par les services postaux.",
+  "isoElements": {
+    "AddressLine": {
+      "definition": "Informations qui localisent et identifient une adresse précise, telles que définies par les services postaux, présentées sous forme de texte libre."
+    },
+    "PostCode": {
+      "definition": "Identifiant composé d'un groupe de lettres et/ou de chiffres ajouté à une adresse postale pour faciliter le tri du courrier."
+    },
+    "TownName": {
+      "definition": "Nom d'une zone urbanisée, aux limites définies, dotée d'une administration locale."
+    },
+    "Country": {
+      "definition": "Nation dotée de son propre gouvernement."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "Payment1Code",
+  "definition": "Indique le type de paiement.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Paiement réel",
+      "definition": "Le paiement en espèces a lieu ou aura lieu à la réception du produit de l'émetteur."
+    },
+    "CONT": {
+      "name": "Paiement contractuel",
+      "definition": "Le paiement en espèces a lieu ou aura lieu avant la réception du produit de l'émetteur, sur la base d'un accord contractuel établi avec le teneur de compte."
+    }
+  }
+}

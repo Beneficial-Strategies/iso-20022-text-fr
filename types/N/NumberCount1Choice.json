@@ -1,0 +1,17 @@
+{
+  "isoType": "NumberCount1Choice",
+  "definition": "Choix du type de comptage de numéros.",
+  "isoElements": {
+    "CurrentInstructionNumber": {
+      "definition": "Numéro séquentiel de l'instruction dans une série d'instructions de règlement liées."
+    },
+    "TotalNumber": {
+      "definition": "Nombre total d'opérations de règlement, de réceptions et de livraisons, et numéro de l'opération de règlement concernée."
+    }
+  },
+  "isoRules": {
+    "CurrentInstructionNumberRule": {
+      "definition": "Si l'expéditeur souhaite indiquer que cette instruction est liée à une ou plusieurs instructions de règlement, CurrentInstructionNumber doit être renseigné."
+    }
+  }
+}

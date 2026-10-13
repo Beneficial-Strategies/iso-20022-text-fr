@@ -1,0 +1,101 @@
+{
+  "isoType": "PaymentTransaction168",
+  "definition": "Fournit des informations détaillées sur la référence et le statut des opérations d'origine, incluses dans l'instruction d'origine, auxquelles le message de retour s'applique.",
+  "isoElements": {
+    "ReturnIdentification": {
+      "definition": "Identification unique, attribuée par une partie instructrice à une partie instruite, pour identifier sans ambiguïté l'opération retournée.|Utilisation : la partie instructrice est la partie qui envoie le message de retour, et non la partie qui a envoyé l'instruction d'origine faisant l'objet du retour."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Fournit des informations sur le message d'origine."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identification unique, attribuée par la partie donneuse d'ordre d'origine à la partie destinataire de l'ordre d'origine, permettant d'identifier sans ambiguïté l'instruction d'origine."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice d'origine, permettant d'identifier sans ambiguïté l'opération d'origine."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identification unique, attribuée par la première banque donneuse d'ordre d'origine, permettant d'identifier sans ambiguïté l'opération."
+    },
+    "OriginalUETR": {
+      "definition": "Identifiant universellement unique fournissant la référence de bout en bout d'origine d'une opération de paiement."
+    },
+    "OriginalClearingSystemReference": {
+      "definition": "Référence unique, attribuée par le système de compensation d'origine, pour identifier sans ambiguïté l'instruction d'origine."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Montant d'argent transféré entre l'agent instructeur et l'agent instruit, tel que fourni dans l'instruction d'origine."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour l'agent qui le doit et devient disponible pour l'agent auquel il est dû.||Utilisation : OriginalInterbankSettlementDate est la date de règlement interbancaire du message de retour de l'instruction d'origine, et non du message de retour."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Précise le type de l'opération de retour."
+    },
+    "ReturnedInterbankSettlementAmount": {
+      "definition": "Montant d'argent à transférer entre l'agent instructeur et l'agent instruit dans l'instruction retournée."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour l'agent qui le doit et devient disponible pour l'agent auquel il est dû.||Utilisation : InterbankSettlementDate est la date de règlement interbancaire du message de retour, et non de l'instruction d'origine."
+    },
+    "SettlementPriority": {
+      "definition": "Indicateur de l'urgence ou de l'ordre d'importance que la partie instructrice souhaite voir appliquer par la partie instruite au traitement de l'instruction de règlement.|||Utilisation : SettlementPriority est la priorité de règlement du message de retour, et non de l'instruction d'origine."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Fournit des informations sur l'heure de règlement effective de l'opération de paiement."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Fournit des informations sur l'horaire de règlement demandé pour l'instruction de paiement."
+    },
+    "ReturnedInstructedAmount": {
+      "definition": "Montant d'argent à transférer entre le débiteur et le créancier, avant déduction des frais, dans l'opération retournée.|Utilisation : ce montant doit être transmis sans modification tout au long de la chaîne d'opérations."
+    },
+    "ExchangeRate": {
+      "definition": "Facteur utilisé pour convertir un montant d'une devise dans une autre. Il reflète le prix auquel une devise a été achetée avec une autre devise."
+    },
+    "AgreedRate": {
+      "definition": "Ensemble d'éléments fournissant des informations sur un taux de change convenu au préalable.||Utilisation : cet élément ne peut être utilisé que lorsqu'il a été convenu bilatéralement ou multilatéralement dans le cadre d'un schéma de paiement."
+    },
+    "CompensationAmount": {
+      "definition": "Montant d'argent demandé ou payé en compensation du traitement de l'instruction."
+    },
+    "ChargeBearer": {
+      "definition": "Précise la ou les parties qui supporteront les frais associés au traitement de l'opération de paiement.||Utilisation : ChargeBearer s'applique au message de retour, et non à l'instruction d'origine."
+    },
+    "ChargesInformation": {
+      "definition": "Fournit des informations sur les frais à payer par la ou les parties supportant les frais liés au traitement de l'opération de retour."
+    },
+    "ClearingSystemReference": {
+      "definition": "Référence unique, attribuée par le système de compensation, pour identifier sans ambiguïté l'instruction de retour."
+    },
+    "InstructingAgent": {
+      "definition": "Agent qui charge la partie suivante de la chaîne d'exécuter l'instruction ou l'ensemble d'instructions.||Utilisation : l'agent instructeur est la partie qui envoie le message de retour, et non la partie qui a envoyé l'instruction d'origine faisant l'objet du retour."
+    },
+    "InstructedAgent": {
+      "definition": "Agent chargé par la partie précédente de la chaîne d'exécuter l'instruction ou l'ensemble d'instructions.||Utilisation : l'agent instruit est la partie qui reçoit le message de retour, et non la partie qui a reçu l'instruction d'origine faisant l'objet du retour."
+    },
+    "ReturnChain": {
+      "definition": "Fournit toutes les parties (agents et non-agents) impliquées dans une opération de retour."
+    },
+    "ReturnReasonInformation": {
+      "definition": "Fournit des informations détaillées sur le motif du retour."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Éléments clés servant à identifier l'opération d'origine à laquelle il est fait référence."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  },
+  "isoRules": {
+    "ReturnedInstructedAmountAndExchangeRate1Rule": {
+      "definition": "Si ReturnedInstructedAmount est présent et que sa devise est différente de celle de ReturnedInterbankSettlementAmount, ExchangeRate doit être présent."
+    },
+    "ReturnedInstructedAmountAndExchangeRate2Rule": {
+      "definition": "Si ReturnedInstructedAmount est présent et que sa devise est identique à celle de ReturnedInterbankSettlementAmount, ExchangeRate n'est pas autorisé."
+    },
+    "ChargesInformationAndReturnedInstructedAmountRule": {
+      "definition": "Si ChargesInformation est présent, ReturnedInstructedAmount doit être présent."
+    }
+  }
+}

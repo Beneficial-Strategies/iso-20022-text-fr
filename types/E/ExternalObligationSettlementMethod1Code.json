@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalObligationSettlementMethod1Code",
+  "definition": "Précise le mode de règlement de l'obligation.|||La liste des codes valides est une liste de codes externe publiée séparément. ||Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "BILA": {
+      "name": "Bilatéral",
+      "definition": "Réglé de manière bilatérale."
+    },
+    "MULT": {
+      "name": "Multilatéral",
+      "definition": "Réglé de manière multilatérale."
+    }
+  }
+}

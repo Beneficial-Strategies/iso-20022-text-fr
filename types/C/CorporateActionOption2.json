@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionOption2",
+  "definition": "Fournit des informations sur une option d'opération sur titres (CA).",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    }
+  }
+}

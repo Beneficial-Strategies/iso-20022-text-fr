@@ -1,0 +1,18 @@
+{
+  "isoType": "DrawdownStatus1Code",
+  "definition": "Précise un statut de retrait progressif.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Complet",
+      "definition": "La retraite est entièrement en retrait progressif."
+    },
+    "NONE": {
+      "name": "Aucun",
+      "definition": "La retraite n’est pas en retrait progressif."
+    },
+    "PART": {
+      "name": "Partiel",
+      "definition": "La retraite est en retrait progressif partiel."
+    }
+  }
+}

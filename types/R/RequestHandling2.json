@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestHandling2",
+  "definition": "Explique le statut de la demande concernée.",
+  "isoElements": {
+    "StatusCode": {
+      "definition": "Indique le statut de la demande, par exemple le résultat de la validation du schéma ou un résultat/une erreur de traitement métier."
+    },
+    "StatusDateTime": {
+      "definition": "Date et heure auxquelles le statut a été généré."
+    },
+    "Description": {
+      "definition": "Description du statut, sous forme de texte libre."
+    }
+  }
+}

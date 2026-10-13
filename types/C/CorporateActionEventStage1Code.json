@@ -1,0 +1,46 @@
+{
+  "isoType": "CorporateActionEventStage1Code",
+  "definition": "Précise l'étape de l'événement d'opération sur titres (CA).",
+  "isoCodes": {
+    "APPD": {
+      "name": "Approuvé",
+      "definition": "Approuvé lors de la réunion concernée, par ex. dividende."
+    },
+    "CLDE": {
+      "name": "Désactivé",
+      "definition": "L'offre est fermée à l'acceptation."
+    },
+    "PWAL": {
+      "name": "Période d'action",
+      "definition": "Ouvert à l'acceptation jusqu'à la prochaine échéance indiquée dans l'annonce (le cas échéant)."
+    },
+    "SUAP": {
+      "name": "Sous réserve d'approbation",
+      "definition": "Sous réserve d'approbation lors de la réunion concernée, par ex. dividende."
+    },
+    "UNAC": {
+      "name": "Inconditionnel quant à l'acceptation",
+      "definition": "Le niveau d'acceptations requis, précisé dans les conditions de l'offre, a été atteint mais il reste des conditions à remplir."
+    },
+    "WHOU": {
+      "name": "Entièrement inconditionnel",
+      "definition": "Entièrement inconditionnel ; toutes les conditions précisées dans le document d'offre ont été satisfaites."
+    },
+    "FULL": {
+      "name": "Notification de tirage au sort : annulation totale",
+      "definition": "Un tirage au sort initial ou complémentaire est annulé."
+    },
+    "LAPS": {
+      "name": "Caduc",
+      "definition": "Les conditions de l'événement/de l'offre n'ont pas été remplies et l'événement/l'offre est terminé ou caduc."
+    },
+    "PART": {
+      "name": "Notification de tirage au sort : annulation partielle",
+      "definition": "Le montant initial de l'appel est réduit par l'agent. L'annonce initiale est annulée et un nouveau tirage au sort initial est émis."
+    },
+    "RESC": {
+      "name": "Notification de tirage au sort : annulation par rescision",
+      "definition": "Les détails du tirage au sort initial et/ou complémentaire ont changé et le tirage au sort est annulé."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "FractionDispositionType12Code",
+  "definition": "Indique le traitement à appliquer aux fractions de titres.",
+  "isoCodes": {
+    "RDDN": {
+      "name": "Arrondi inférieur",
+      "definition": "Arrondi à l'entier inférieur le plus proche."
+    },
+    "RDUP": {
+      "name": "Arrondi supérieur",
+      "definition": "Arrondi à l'entier supérieur le plus proche."
+    }
+  }
+}

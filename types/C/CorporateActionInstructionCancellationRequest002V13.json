@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionInstructionCancellationRequest002V13",
+  "definition": "Portée|Le message CorporateActionInstructionCancellationRequest est envoyé par un titulaire de compte à un teneur de compte pour demander l'annulation d'une instruction d'option d'opération sur titres précédemment envoyée.|Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé (la sous-fonction du message est Duplicate),|- fournir à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy),|- renvoyer à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy Duplicate), en utilisant les éléments pertinents de l'en-tête applicatif métier (BAH).",
+  "isoElements": {
+    "ChangeInstructionIndicator": {
+      "definition": "Indique que l'instruction annulée sera remplacée par une nouvelle instruction d'opération sur titres qui sera envoyée ultérieurement."
+    }
+  },
+  "isoRules": {
+    "ChangeInstructionIndicatorGuideline": {
+      "definition": "ChangeInstructionIndicator ne peut être utilisé que si CorporateActionOptionDetails/WithdrawalAllowedIndicator était défini à « false » ou « 0 » (Non) dans le message CorporateActionNotification précédemment reçu et si CorporateActionOptionDetails/ChangeAllowedIndicator était défini à « true » ou « 1 » (Oui) dans le message CorporateActionNotification précédemment reçu."
+    },
+    "CorporateActionEventIdentificationRule": {
+      "definition": "Si le message CorporateActionInstruction était non sollicité (c'est-à-dire que cette instruction n'a pas été précédée d'un CorporateActionNotification), alors CorporateActionGeneralInformation/CorporateActionEventIdentification doit être NONREF."
+    },
+    "BeneficialOwnerBreakdownRequestRule ": {
+      "definition": "Si la valeur de CorporateActionInstruction/OptionType/Code est BOBD (BeneficialOwnerBreakdownRequest), la valeur de CorporateActionGeneralInformation/EventType/Code doit être WTRC (Withholding Tax Relief Certification).|(MT565 NVR C8)"
+    }
+  }
+}

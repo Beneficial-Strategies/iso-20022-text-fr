@@ -1,0 +1,12 @@
+{
+  "isoType": "ImpliedCurrencyAndAmountRange1",
+  "definition": "Exprime un montant ou une plage de montants avec un indicateur débit/crédit explicite et dont la devise est implicite.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant ou plage de montants déterminé."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le montant est un montant crédité ou débité."
+    }
+  }
+}

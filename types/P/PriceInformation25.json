@@ -1,0 +1,15 @@
+{
+  "isoType": "PriceInformation25",
+  "definition": "Montant pour lequel des biens ou des services sont offerts, vendus ou achetés.",
+  "isoElements": {
+    "Value": {
+      "definition": "Valeur du prix, par exemple sous forme de devise et de valeur."
+    },
+    "SourceOfPrice": {
+      "definition": "Lieu d'où le prix a été obtenu."
+    },
+    "QuotationDate": {
+      "definition": "Date à laquelle le prix est obtenu. Pour un fonds de placement, il s'agit de la date indiquée dans le prospectus."
+    }
+  }
+}

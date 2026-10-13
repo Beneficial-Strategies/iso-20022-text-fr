@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountReportV05",
+  "definition": "Le message AccountReport est envoyé par un établissement financier à une organisation à des fins de reporting. Il peut être envoyé de manière non sollicitée dans le cadre du processus d'ouverture, de maintenance ou de clôture, ou en réponse à un message AccountReportRequest."
+}

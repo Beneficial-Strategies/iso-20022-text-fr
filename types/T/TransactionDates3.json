@@ -1,0 +1,30 @@
+{
+  "isoType": "TransactionDates3",
+  "definition": "Ensemble d'éléments fournissant des informations sur les dates relatives à l'opération individuelle sous-jacente.",
+  "isoElements": {
+    "AcceptanceDateTime": {
+      "definition": "Moment où l'ordre de paiement de la partie initiatrice satisfait aux conditions de traitement de la banque teneur de compte. Cela signifie que la banque teneur de compte a reçu l'ordre de paiement et a appliqué des contrôles tels que l'autorisation et la disponibilité des fonds."
+    },
+    "TradeActivityContractualSettlementDate": {
+      "definition": "Identifie la date à laquelle un montant aurait contractuellement dû être crédité ou débité du compte, par rapport à la date à laquelle il a effectivement été réglé (débité/crédité) sur le compte de trésorerie."
+    },
+    "TradeDate": {
+      "definition": "Date d'exécution de la transaction boursière."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour la banque qui le doit et devient disponible pour la banque à laquelle il est dû."
+    },
+    "StartDate": {
+      "definition": "Date de début de l'opération sous-jacente, par exemple une opération de trésorerie ou un plan d'investissement."
+    },
+    "EndDate": {
+      "definition": "Date de fin de l'opération sous-jacente, par exemple une opération de trésorerie ou un plan d'investissement."
+    },
+    "TransactionDateTime": {
+      "definition": "Date et heure de l'opération sous-jacente."
+    },
+    "Proprietary": {
+      "definition": "Date propriétaire relative à l'opération sous-jacente."
+    }
+  }
+}

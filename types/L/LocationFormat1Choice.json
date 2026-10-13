@@ -1,0 +1,12 @@
+{
+  "isoType": "LocationFormat1Choice",
+  "definition": "Choix entre les formats d'indication du lieu de l'assemblée.",
+  "isoElements": {
+    "Address": {
+      "definition": "Précise l'adresse physique de l'assemblée."
+    },
+    "LocationCode": {
+      "definition": "Indique que le lieu est inconnu."
+    }
+  }
+}

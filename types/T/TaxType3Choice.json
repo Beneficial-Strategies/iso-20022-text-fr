@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxType3Choice",
+  "definition": "Choix de formats pour le type d'impôt.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'impôt exprimé sous la forme d'un code."
+    },
+    "Proprietary": {
+      "definition": "Type d'impôt exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

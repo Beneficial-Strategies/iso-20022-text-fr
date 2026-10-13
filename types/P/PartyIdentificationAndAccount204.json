@@ -1,0 +1,35 @@
+{
+  "isoType": "PartyIdentificationAndAccount204",
+  "definition": "Fournit des informations sur l'identification et le compte de la partie.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification d'une partie."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel les instruments financiers sont conservés."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Adresse blockchain ou portefeuille dans lequel sont conservés les actifs numériques. Il s'agit de l'équivalent du compte de conservation pour les actifs numériques."
+    },
+    "ProcessingIdentification": {
+      "definition": "Référence significative pour la partie identifiée."
+    },
+    "AlternateIdentification": {
+      "definition": "Identification alternative d'une partie."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "Le champ AdditionalInformation de tous les éléments ne doit pas contenir d'informations pouvant être fournies dans un champ structuré, sauf accord bilatéral ou indication contraire dans la définition de l'élément, comme dans NarrativeVersion."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    }
+  }
+}

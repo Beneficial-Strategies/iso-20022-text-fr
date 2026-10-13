@@ -1,0 +1,30 @@
+{
+  "isoType": "ResolutionData5",
+  "definition": "Précise les informations supplémentaires attendues par la partie pour que l'enquête exécute les actions prévues en vue de sa résolution.",
+  "isoElements": {
+    "EndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice d'origine, permettant d'identifier sans ambiguïté l'opération d'origine."
+    },
+    "TransactionIdentification": {
+      "definition": "Identification unique, attribuée par la première banque instructrice d'origine, permettant d'identifier sans ambiguïté l'opération."
+    },
+    "UETR": {
+      "definition": "Identifiant universel unique fournissant une référence de bout en bout d'une opération de paiement."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montant transféré entre la banque instructrice et la banque instruite."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour la banque qui le doit et devient disponible pour la banque à laquelle il est dû."
+    },
+    "ClearingChannel": {
+      "definition": "Précise le canal de compensation à utiliser pour traiter l'instruction de paiement."
+    },
+    "Compensation": {
+      "definition": "Fournit les détails de la compensation effectuée à la suite de la modification ou de l'annulation d'un paiement antérieur."
+    },
+    "ChargesInformation": {
+      "definition": "Fournit des informations sur les frais à payer par la ou les parties qui supportent les frais liés à l'opération de paiement."
+    }
+  }
+}

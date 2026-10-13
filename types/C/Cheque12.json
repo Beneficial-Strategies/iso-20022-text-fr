@@ -1,0 +1,18 @@
+{
+  "isoType": "Cheque12",
+  "definition": "Ensemble de caractéristiques relatives à une instruction de chèque, telles que le type de chèque ou le numéro de chèque.",
+  "isoElements": {
+    "Number": {
+      "definition": "Identifiant unique et non ambigu du chèque attribué par l’établissement financier."
+    },
+    "PayeeIdentification": {
+      "definition": "Partie à l’ordre de laquelle le chèque est payable."
+    },
+    "DraweeIdentification": {
+      "definition": "Établissement financier sur lequel le chèque est tiré, c’est-à-dire l’établissement financier qui gère le compte de l’entité ayant émis le chèque."
+    },
+    "DrawerIdentification": {
+      "definition": "Titulaire du compte qui émet le chèque ordonnant à la banque tirée de payer un montant déterminé, à vue, au bénéficiaire."
+    }
+  }
+}

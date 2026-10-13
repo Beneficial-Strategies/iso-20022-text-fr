@@ -1,0 +1,12 @@
+{
+  "isoType": "UpdateType16Choice",
+  "definition": "Choix de format pour les informations de mise à jour.",
+  "isoElements": {
+    "Code": {
+      "definition": "Indique si le relevé est complet ou ne contient que les modifications."
+    },
+    "Proprietary": {
+      "definition": "Indique si le relevé est complet ou ne contient que les modifications."
+    }
+  }
+}

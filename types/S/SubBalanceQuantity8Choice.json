@@ -1,0 +1,15 @@
+{
+  "isoType": "SubBalanceQuantity8Choice",
+  "definition": "Choix entre les formats de l'information de solde.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantité de titres dans le sous-solde."
+    },
+    "Proprietary": {
+      "definition": "Quantité de titres dans le sous-solde."
+    },
+    "QuantityAndAvailability": {
+      "definition": "Quantité de titres du sous-solde et indication de sa disponibilité."
+    }
+  }
+}

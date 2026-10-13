@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsentStatus4Choice",
+  "definition": "Choix de statut de consentement.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    },
+    "Reason": {
+      "definition": "Motif fourni pour le statut."
+    }
+  }
+}

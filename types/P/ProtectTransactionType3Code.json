@@ -1,0 +1,10 @@
+{
+  "isoType": "ProtectTransactionType3Code",
+  "definition": "Précise le type d'instruction de protection.",
+  "isoCodes": {
+    "PROT": {
+      "name": "Opération de protection",
+      "definition": "La réorganisation est un type d'opération de protection."
+    }
+  }
+}

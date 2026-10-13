@@ -1,0 +1,54 @@
+{
+  "isoType": "TransactionReferences7",
+  "definition": "Identifie l'opération sous-jacente.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par la partie instructrice du message sous-jacent."
+    },
+    "MessageNameIdentification": {
+      "definition": "Précise l'identifiant du nom du message d'origine auquel le message se rapporte."
+    },
+    "AccountServicerReference": {
+      "definition": "Référence unique, attribuée par l'établissement teneur de compte, pour identifier sans ambiguïté l'instruction."
+    },
+    "PaymentInformationIdentification": {
+      "definition": "Identification unique, attribuée par une partie expéditrice, pour identifier sans ambiguïté le groupe d'informations de paiement au sein du message."
+    },
+    "InstructionIdentification": {
+      "definition": "Identification unique, attribuée par une partie instructrice à une partie instruite, pour identifier sans ambiguïté l'instruction.||Utilisation : l'identification de l'instruction est une référence de point à point pouvant être utilisée entre la partie instructrice et la partie instruite pour désigner l'instruction individuelle. Elle peut figurer dans plusieurs messages relatifs à l'instruction."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice, pour identifier sans ambiguïté l'opération. Cette identification est transmise sans modification tout au long de la chaîne de bout en bout.||Utilisation : l'identification de bout en bout peut servir au rapprochement ou à la liaison de tâches relatives à l'opération. Elle peut figurer dans plusieurs messages relatifs à l'opération.||Utilisation : en cas de limitations techniques empêchant de transmettre plusieurs références, l'identification de bout en bout doit être transmise tout au long de la chaîne de bout en bout."
+    },
+    "UETR": {
+      "definition": "Identifiant unique universel fournissant une référence de bout en bout d'une opération de paiement."
+    },
+    "TransactionIdentification": {
+      "definition": "Identification unique, attribuée par le premier agent instructeur, pour identifier sans ambiguïté l'opération, transmise sans modification tout au long de la chaîne interbancaire.|Utilisation : l'identification de l'opération peut servir au rapprochement, au suivi ou à la liaison de tâches relatives à l'opération au niveau interbancaire.|Utilisation : l'agent instructeur doit s'assurer que l'identification de l'opération est unique pendant une période préconvenue."
+    },
+    "MandateIdentification": {
+      "definition": "Identification unique, attribuée par le créancier, pour identifier sans ambiguïté le mandat."
+    },
+    "ChequeNumber": {
+      "definition": "Identifiant unique et sans ambiguïté d'un chèque, attribué par l'agent."
+    },
+    "ClearingSystemReference": {
+      "definition": "Référence unique, attribuée par un système de compensation, pour identifier sans ambiguïté l'instruction.|Utilisation : en cas de limitations techniques empêchant de transmettre plusieurs références, l'identification de bout en bout doit être transmise tout au long de la chaîne de bout en bout."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération sur titres telle que connue du titulaire du compte-titres (ou de la partie instructrice qui gère le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération sur titres telle que connue de l'établissement teneur du compte-titres."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération sur titres attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identification de l'opération sur titres attribuée par le responsable du traitement de l'instruction autre que le titulaire du compte-titres, l'établissement teneur du compte-titres et l'infrastructure de marché."
+    },
+    "Proprietary": {
+      "definition": "Référence propriétaire liée à l'opération sous-jacente."
+    }
+  }
+}

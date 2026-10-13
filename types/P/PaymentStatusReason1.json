@@ -1,0 +1,17 @@
+{
+  "isoType": "PaymentStatusReason1",
+  "definition": "Fournit des informations sur le motif du statut de l'opération.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Précise le motif du rapport de statut."
+    },
+    "AdditionalInformation": {
+      "definition": "Détails complémentaires sur le motif du statut.||Utilisation : les informations complémentaires peuvent servir à plusieurs fins, par exemple la communication d'informations rectifiées."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "Si Reason/Code est égal à NARR, AddititionalInformation doit être présent."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CreditLine3",
+  "definition": "Ensemble d'éléments fournissant les détails de la ligne de crédit.",
+  "isoElements": {
+    "Included": {
+      "definition": "Indique si la ligne de crédit est incluse ou non dans le solde."
+    },
+    "Type": {
+      "definition": "Type de ligne de crédit fournie lorsque plusieurs lignes de crédit peuvent être fournies."
+    },
+    "Amount": {
+      "definition": "Montant de la ligne de crédit."
+    },
+    "Date": {
+      "definition": "Date de la ligne de crédit fournie lorsque plusieurs lignes de crédit peuvent être fournies."
+    }
+  }
+}

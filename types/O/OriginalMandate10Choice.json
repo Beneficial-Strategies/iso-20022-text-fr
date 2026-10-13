@@ -1,0 +1,12 @@
+{
+  "isoType": "OriginalMandate10Choice",
+  "definition": "Précise le mandat qui est accepté.",
+  "isoElements": {
+    "OriginalMandateIdentification": {
+      "definition": "Identification unique, attribuée par la partie responsable (telle que le créancier) ou la banque (telle que la banque du débiteur), permettant d'identifier sans ambiguïté le mandat d'origine."
+    },
+    "OriginalMandate": {
+      "definition": "Fournit les données du mandat d'origine."
+    }
+  }
+}

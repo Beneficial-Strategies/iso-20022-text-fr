@@ -1,0 +1,17 @@
+{
+  "isoType": "DocumentNumber22",
+  "definition": "Identification du statut demandé.",
+  "isoElements": {
+    "Number": {
+      "definition": "Numéro utilisé pour identifier un message ou un document."
+    },
+    "References": {
+      "definition": "Références de l’opération pour laquelle le statut est demandé."
+    }
+  },
+  "isoRules": {
+    "ReferenceRule": {
+      "definition": "La référence utilisée pour identifier l’opération doit être cohérente avec l’identification disponible pour l’avis de statut demandé par le SecuritiesTransactionStatusQuery. Par exemple, un SecuritiesTransactionStatusQuery ne doit pas demander un SecuritiesSettlementTransactionStatusAdvice en utilisant un CorporateActionEventIdentification."
+    }
+  }
+}

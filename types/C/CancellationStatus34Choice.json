@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationStatus34Choice",
+  "definition": "Statut s'appliquant à la demande d'annulation d'instruction reçue.",
+  "isoElements": {
+    "GlobalCancellationStatus": {
+      "definition": "Statut applicable globalement au message de demande d'annulation d'instruction de réunion."
+    },
+    "DetailedCancellationStatus": {
+      "definition": "Statut des demandes d'annulation d'instruction individuelles reçues dans le message d'annulation d'instruction identifié dans InstructionType/InstructionCancellationIdentification."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "isoType": "CancelledStatusReason13Code",
+  "definition": "Précise le motif sous-jacent de l'annulation de l'opération associée.",
+  "isoCodes": {
+    "CANI": {
+      "name": "Annulé par vous-même",
+      "definition": "L'opération est annulée par vous-même."
+    },
+    "CANS": {
+      "name": "Annulé par le système",
+      "definition": "L'opération est annulée par le système."
+    },
+    "CSUB": {
+      "name": "Annulé par l'agent",
+      "definition": "L'instruction a été annulée par l'agent en raison d'une prolongation de l'échéance de l'événement."
+    },
+    "CXLR": {
+      "name": "Fin de vie",
+      "definition": "L'opération est rejetée par la partie d'exécution ; le rejet étant définitif, l'ordre est annulé dans le système."
+    },
+    "CANT": {
+      "name": "Annulé en raison d'une transformation",
+      "definition": "L'opération d'origine a été annulée et remplacée en raison d'une opération sur titres."
+    },
+    "CANZ": {
+      "name": "Annulé : règlement partiel scindé",
+      "definition": "L'opération d'origine a été annulée et remplacée afin de permettre un règlement partiel ou fractionné."
+    },
+    "CORP": {
+      "name": "Annulé en raison d'une opération sur titres",
+      "definition": "L'opération a été annulée en raison d'une opération sur titres."
+    },
+    "SCEX": {
+      "name": "Titres n'étant plus éligibles",
+      "definition": "L'opération a été annulée ; le titre n'existe plus ou n'est plus éligible sur le marché instruit. Pour une annulation liée à une opération sur titres, CORP doit être utilisé."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir le champ Narrative."
+    },
+    "CTHP": {
+      "name": "Annulé par un tiers",
+      "definition": "L'instruction est annulée par un tiers."
+    }
+  }
+}

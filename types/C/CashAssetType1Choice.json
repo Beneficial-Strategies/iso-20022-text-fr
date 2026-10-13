@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAssetType1Choice",
+  "definition": "Choix de formats pour un type d'actif de trésorerie.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de liquidités exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de liquidités exprimé sous forme de code propriétaire."
+    }
+  }
+}

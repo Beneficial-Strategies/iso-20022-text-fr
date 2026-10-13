@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAccountType3Choice",
+  "definition": "Choix de formats pour le type de compte espèces.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de compte espèces exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de compte espèces exprimé sous forme de code propriétaire."
+    }
+  }
+}

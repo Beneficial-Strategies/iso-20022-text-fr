@@ -1,0 +1,18 @@
+{
+  "isoType": "CaseAssignment6",
+  "definition": "Représente l'affectation d'un dossier à une partie.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifie de manière unique l'affectation du dossier."
+    },
+    "Assigner": {
+      "definition": "Partie qui affecte le dossier.|Utilisation : il s'agit aussi de l'expéditeur du message."
+    },
+    "Assignee": {
+      "definition": "Partie à laquelle le dossier est affecté.|Utilisation : il s'agit aussi du destinataire du message."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure de création de l'affectation."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "IndividualPerson43",
+  "definition": "Entité humaine, par opposition à une entité d'entreprise (parfois appelée « personne morale »).",
+  "isoElements": {
+    "PreassignedProxy": {
+      "definition": "Identification unique et non ambiguë du mandataire."
+    },
+    "EmployingParty": {
+      "definition": "Organisation représentée par la personne, ou pour laquelle la personne travaille."
+    }
+  }
+}

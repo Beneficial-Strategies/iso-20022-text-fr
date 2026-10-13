@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionMovementReversalAdviceV17",
+  "definition": "Portée|Le message CorporateActionMovementReversalAdvice est envoyé par un teneur de compte à un titulaire de compte ou à son agent désigné pour annuler une comptabilisation de titres ou d'espèces précédemment confirmée.|Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé (la sous-fonction du message est Duplicate),|- fournir à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy),|- renvoyer à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy Duplicate), en utilisant les éléments pertinents de l'en-tête applicatif métier (BAH).",
+  "isoRules": {
+    "OptionNumberRule": {
+      "definition": "La valeur de CorporateActionConfirmationDetails/OptionNumber fournie doit être identique à celle fournie dans l'élément CorporateActionOptionDetails/OptionNumber correspondant des messages CorporateActionNotification ou CorporateActionMovementPreliminaryAdvice envoyés précédemment."
+    },
+    "AdditionalInformationRule": {
+      "definition": "Aucun élément de la séquence AdditionalInformation ne doit contenir d'informations pouvant être fournies dans un champ structuré, sauf accord bilatéral ou indication contraire dans la définition de l'élément, comme dans AdditionalInformation/NarrativeVersion."
+    },
+    "IssuerAgentGuideline": {
+      "definition": "IssuerAgent doit être utilisé uniquement dans la communication entre un CSD et des conservateurs locaux."
+    },
+    "IntermediateSecuritiesDistribution1Rule": {
+      "definition": "Si CorporateActionGeneralInformation/EventType/Code est RHDI (IntermediateSecuritiesDistribution), alors CorporateActionDetails/|IntermediateSecuritiesDistributionType doit être présent.|(MT 566 NVR C5)."
+    }
+  }
+}

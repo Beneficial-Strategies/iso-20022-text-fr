@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemMember3",
+  "definition": "Fournit des détails sur un système et sur un membre d'un système.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identification d'un système de compensation de trésorerie particulier."
+    },
+    "MemberIdentification": {
+      "definition": "Identification unique et non ambiguë d'un membre au sein d'un système, attribuée selon le schéma d'identification des membres du système."
+    }
+  }
+}

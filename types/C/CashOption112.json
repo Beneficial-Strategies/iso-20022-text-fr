@@ -1,0 +1,24 @@
+{
+  "isoType": "CashOption112",
+  "definition": "Fournit des informations sur l'option en espèces.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indique si la valeur est un débit ou un crédit."
+    },
+    "Account": {
+      "definition": "Choix entre un compte d'espèces, un compte de frais ou un compte d'impôts."
+    },
+    "PostingDate": {
+      "definition": "Date/heure de la comptabilisation (crédit ou débit) sur le compte."
+    },
+    "OriginalPostingDate": {
+      "definition": "Date/heure de la comptabilisation (crédit ou débit) sur le compte qui a été initialement communiquée dans la confirmation."
+    },
+    "ValueDate": {
+      "definition": "Date et heure du calcul du bénéfice économique pour un montant en espèces."
+    },
+    "PostingAmount": {
+      "definition": "Montant d'argent à comptabiliser (ou comptabilisé) sur le compte."
+    }
+  }
+}

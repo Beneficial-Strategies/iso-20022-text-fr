@@ -1,0 +1,26 @@
+{
+  "isoType": "AmountConsistencyType1Code",
+  "definition": "Précise un type d'incohérences de montant, c'est-à-dire si le type de montant fourni correspond ou non au montant de référence.",
+  "isoCodes": {
+    "CONS": {
+      "name": "Montant cohérent",
+      "definition": "Les informations sur le montant correspondent à l'enregistrement de données de référence."
+    },
+    "ICNS": {
+      "name": "Montant incohérent",
+      "definition": "Les informations sur le montant ne correspondent pas à l'enregistrement de données de référence."
+    },
+    "ICGA": {
+      "name": "Montant des frais incohérent",
+      "definition": "Les informations sur le montant des frais ne correspondent pas à l'enregistrement de données de référence."
+    },
+    "ICFA": {
+      "name": "Montant confirmé incohérent",
+      "definition": "Les informations sur le montant confirmé au créancier ne correspondent pas à l'enregistrement de données de référence."
+    },
+    "IISA": {
+      "name": "Montant de règlement interbancaire incohérent",
+      "definition": "Les informations sur le montant de règlement interbancaire ne correspondent pas à l'enregistrement de données de référence."
+    }
+  }
+}

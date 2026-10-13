@@ -1,0 +1,9 @@
+{
+  "isoType": "TransferCancellationPendingStatus1",
+  "definition": "Le statut de l'annulation du transfert est en attente.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motif du statut d'annulation en attente."
+    }
+  }
+}

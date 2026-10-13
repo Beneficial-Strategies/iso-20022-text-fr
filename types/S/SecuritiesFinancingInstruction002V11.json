@@ -1,0 +1,41 @@
+{
+  "isoType": "SecuritiesFinancingInstruction002V11",
+  "definition": "Portée|Un titulaire de compte envoie un SecuritiesFinancingInstruction à un teneur de compte d'opérations de financement de titres afin de lui notifier les détails d'une opération de mise en pension, de prise en pension, de prêt de titres ou d'emprunt de titres, pour permettre au teneur de compte de gérer le règlement et le suivi du volet d'ouverture et du volet de clôture de l'opération.|La relation titulaire/teneur de compte peut être :|- un conservateur global qui détient un compte auprès d'un conservateur local, ou|- un établissement de gestion d'investissements qui gère un compte de fonds ouvert auprès d'un conservateur, ou|- un courtier qui détient un compte auprès d'un conservateur, ou|- un participant à un dépositaire central de titres qui détient un compte auprès d'un dépositaire central de titres, ou|- un dépositaire central de titres qui détient un compte auprès d'un conservateur, d'un autre dépositaire central de titres ou d'une autre infrastructure de marché de règlement, ou|- une contrepartie centrale, une bourse ou un service d'appariement de transactions qui doit instruire le règlement d'opérations de financement de titres auprès d'un dépositaire central de titres ou d'une autre infrastructure de marché de règlement.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments pertinents du Business Application Header.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la partie donneuse d'ordre."
+    }
+  },
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "Si l'opération est contre paiement, alors OpeningSettlementAmount doit être présent."
+    },
+    "SellerSSI2Rule": {
+      "definition": "Si une instruction de règlement permanente s'applique et que l'opération est un emprunt de titres, alors Seller doit être présent."
+    },
+    "BuyerSSI2Rule": {
+      "definition": "Si une instruction de règlement permanente s'applique et que l'opération est un prêt de titres, alors Buyer doit être présent."
+    },
+    "DeliveringDepositoryAndParty1Part1Rule": {
+      "definition": "Si l'opération est une prise en pension (reverse repo) et qu'aucune instruction de règlement permanente ne s'applique, alors DeliveringDepository et Party1 doivent être présents."
+    },
+    "ReceivingDepositoryAndParty1Part1Rule": {
+      "definition": "Si l'opération est une mise en pension (repo) et qu'aucune instruction de règlement permanente ne s'applique, alors ReceivingDepository et Party1 doivent être présents."
+    },
+    "DeliveringDepositoryAndParty1Part2Rule": {
+      "definition": "Si l'opération est un emprunt de titres et qu'aucune instruction de règlement permanente ne s'applique, alors DeliveringDepository et Party1 doivent être présents."
+    },
+    "ReceivingDepositoryAndParty1Part2Rule": {
+      "definition": "Si l'opération est un prêt de titres et qu'aucune instruction de règlement permanente ne s'applique, alors ReceivingDepository et Party1 doivent être présents."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur l'utilisation de ce message.|Ces pratiques de marché sont disponibles sur www.smpg.info."
+    },
+    "SellerSSI1Rule": {
+      "definition": "Si une instruction de règlement permanente s'applique et que l'opération est une prise en pension (reverse repo), alors Seller doit être présent."
+    },
+    "BuyerSSI1Rule": {
+      "definition": "Si une instruction de règlement permanente s'applique et que l'opération est une mise en pension (repo), alors Buyer doit être présent."
+    }
+  }
+}

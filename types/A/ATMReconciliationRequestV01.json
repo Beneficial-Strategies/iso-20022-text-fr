@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationRequestV01",
+  "definition": "Le message ATMReconciliationRequest est envoyé par un ATM à un hôte de maintenance pour notifier les mises à jour des totaux de rapprochement."
+}

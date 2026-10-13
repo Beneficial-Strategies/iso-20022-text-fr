@@ -1,0 +1,15 @@
+{
+  "isoType": "FailedSettlementStatus2Choice",
+  "definition": "Motif du statut d’échec de règlement.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motif du statut d’échec de règlement."
+    },
+    "DataSourceScheme": {
+      "definition": "Identification propriétaire du motif du statut d’échec de règlement."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    }
+  }
+}

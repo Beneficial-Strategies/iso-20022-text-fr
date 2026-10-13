@@ -1,0 +1,30 @@
+{
+  "isoType": "ServicePaymentMethod1Code",
+  "definition": "Définit la méthode de paiement des frais de service.",
+  "isoCodes": {
+    "BCMP": {
+      "name": "Compensable par le solde",
+      "definition": "Permet à la banque de compenser des frais de service par les intérêts acquis sur le solde du compte de dépôt. Les frais effectifs des services compensables par le solde sont toujours calculés et prélevés en fin de mois. Utilisé aux USA."
+    },
+    "FLAT": {
+      "name": "Frais directs",
+      "definition": "Les frais ne sont pas compensables par le solde et sont dus. En l'absence de frais compensables par le solde en Europe, ce code serait le plus couramment utilisé pour les services facturés en fin de mois."
+    },
+    "PVCH": {
+      "name": "Déjà facturé",
+      "definition": "Les frais ont été évalués précédemment et ne font pas partie du montant dû à la date de ce relevé. Ce code est utilisé pour les frais débités au moment de la survenance du fait générateur."
+    },
+    "INVS": {
+      "name": "Facturé séparément",
+      "definition": "Les frais ont été facturés précédemment et ne font pas partie du montant dû à la date de ce relevé. Ce code est utilisé pour les frais facturés au moment de la survenance du fait générateur."
+    },
+    "WVED": {
+      "name": "Exonéré de frais",
+      "definition": "Les frais sont annulés (exonération) et ne sont pas dus. Le montant exonéré doit être indiqué dans le montant des frais d'origine."
+    },
+    "FREE": {
+      "name": "Gratuit",
+      "definition": "Le service est gratuit pour le client, sans frais."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "DisabledReason2Code",
+  "definition": "Précise le motif pour lequel un compte est désactivé.",
+  "isoCodes": {
+    "CLOS": {
+      "name": "Clôture du compte en cours",
+      "definition": "La clôture du compte est en cours."
+    },
+    "BKRP": {
+      "name": "Faillite",
+      "definition": "Faillite."
+    },
+    "CMMT": {
+      "name": "Engagement",
+      "definition": "Engagement."
+    },
+    "CNFS": {
+      "name": "Confiscation",
+      "definition": "Confiscation."
+    },
+    "MORT": {
+      "name": "Pour cause de décès",
+      "definition": "Réservé en prévision d'un décès."
+    },
+    "PCOM": {
+      "name": "Vérification de conformité en attente",
+      "definition": "En attente de vérification de conformité."
+    },
+    "PLDG": {
+      "name": "Nanti",
+      "definition": "Nanti."
+    },
+    "TRPE": {
+      "name": "Réinscription",
+      "definition": "Réinscription."
+    },
+    "SANC": {
+      "name": "Sanctions",
+      "definition": "Des sanctions sont en vigueur."
+    },
+    "TRAN": {
+      "name": "Transfert",
+      "definition": "Transfert."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "L'ouverture du compte était en attente mais est désormais rejetée."
+    }
+  }
+}

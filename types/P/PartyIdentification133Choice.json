@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification133Choice",
+  "definition": "Choix de formats pour l'identification d'une partie.",
+  "isoElements": {
+    "BICFI": {
+      "definition": "Code attribué à un établissement financier par l'autorité d'enregistrement ISO 9362, tel que décrit dans la norme ISO 9362 « Banking - Banking telecommunication messages - Business identifier code (BIC) »."
+    },
+    "NameAndAddress": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identifiant unique et non ambigu attribué à un établissement financier selon un schéma d'identification propriétaire."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionReportOrError7Choice",
+  "definition": "Choix entre les opérations et écritures comptabilisées détenues par l'administrateur des opérations ou une erreur opérationnelle lorsque les données demandées ne peuvent pas être récupérées.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Rend compte des opérations de paiement."
+    },
+    "OperationalError": {
+      "definition": "Indique qu'une erreur opérationnelle a été émise lors du traitement de la demande associée."
+    }
+  }
+}

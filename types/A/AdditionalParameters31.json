@@ -1,0 +1,32 @@
+{
+  "isoType": "AdditionalParameters31",
+  "definition": "Précise des paramètres supplémentaires du message ou de l'opération.",
+  "isoElements": {
+    "PreConfirmation": {
+      "definition": "Précise s'il existe une préconfirmation."
+    },
+    "PartialSettlement": {
+      "definition": "Précise les informations de règlement partiel."
+    },
+    "PreviousPartialConfirmationIdentification": {
+      "definition": "Identification de la confirmation précédemment envoyée pour confirmer le règlement partiel d'une opération."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "definition": "Identification unique de l'opération de gestion tripartite des garanties du point de vue de l'agent tripartite/prestataire de services."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "definition": "Référence unique identifiant l'opération de gestion tripartite des garanties du point de vue du client."
+    },
+    "ClientCollateralInstructionIdentification": {
+      "definition": "Identification unique attribuée à l'instruction par le client."
+    },
+    "TripartyAgentServiceProviderCollateralInstructionIdentification": {
+      "definition": "Identification unique attribuée à l'instruction par l'agent tripartite/prestataire de services."
+    }
+  },
+  "isoRules": {
+    "PartialSettlementGuideline": {
+      "definition": "Les informations de règlement partiel ne s'appliquent qu'aux marchés où le règlement partiel est autorisé.|Le champ PartialSettlement doit être utilisé comme suit :|- avec le code PAIN dans le ou les premiers messages (il peut y en avoir plusieurs) confirmant le règlement partiel d'une instruction.|- avec le code PARC dans le tout dernier message envoyé pour confirmer le règlement de la partie restante.|Pour plus de détails, voir le document de pratique de marché correspondant sur www.smpg.info."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "FundCashInBreakdown3",
+  "definition": "Ventilation des mouvements de trésorerie entrant dans un fonds à la suite d'opérations sur fonds d'investissement, par exemple des souscriptions ou des arbitrages entrants.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant du flux de trésorerie entrant, exprimé en montant d'argent."
+    },
+    "UnitsNumber": {
+      "definition": "Montant du flux de trésorerie entrant, exprimé en nombre de parts."
+    },
+    "NewAmountIndicator": {
+      "definition": "Indique si le flux de trésorerie est un élément qui ne figurait pas dans le rapport envoyé précédemment, par exemple parce qu'il a été reçu près de l'heure limite."
+    },
+    "InvestmentFundTransactionInType": {
+      "definition": "Type d'opération à l'origine du mouvement de trésorerie entrant, par exemple souscription, arbitrage entrant."
+    },
+    "OriginalOrderQuantityType": {
+      "definition": "Précise la manière dont l'ordre initial à l'origine du mouvement de trésorerie entrant a été exprimé, c'est-à-dire en numéraire ou en parts."
+    },
+    "ChargeDetails": {
+      "definition": "Frais de passation d'un ordre."
+    },
+    "CommissionDetails": {
+      "definition": "Informations relatives à la commission appliquée à un ordre, par exemple une commission de sortie ou d'entrée."
+    },
+    "SettlementCurrency": {
+      "definition": "Devise de règlement de l'opération."
+    }
+  }
+}

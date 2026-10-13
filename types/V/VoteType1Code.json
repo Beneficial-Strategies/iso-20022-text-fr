@@ -1,0 +1,14 @@
+{
+  "isoType": "VoteType1Code",
+  "definition": "Précise l'impact d'un vote sur une résolution de l'ordre du jour des assemblées générales.",
+  "isoCodes": {
+    "ADVI": {
+      "name": "Consultatif",
+      "definition": "Les résultats d'un vote sur une proposition sont donnés à titre consultatif uniquement."
+    },
+    "BNDG": {
+      "name": "Contraignant",
+      "definition": "Les résultats d'un vote sur une proposition sont contraignants."
+    }
+  }
+}

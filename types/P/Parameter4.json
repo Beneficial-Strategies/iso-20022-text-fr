@@ -1,0 +1,15 @@
+{
+  "isoType": "Parameter4",
+  "definition": "Paramètres de l'algorithme de chiffrement asymétrique.",
+  "isoElements": {
+    "EncryptionFormat": {
+      "definition": "Format des données avant chiffrement, si le format n'est ni en clair ni implicite."
+    },
+    "DigestAlgorithm": {
+      "definition": "Identification de l'algorithme de condensé."
+    },
+    "MaskGeneratorAlgorithm": {
+      "definition": "Algorithme cryptographique et paramètres de la fonction de génération de masque."
+    }
+  }
+}

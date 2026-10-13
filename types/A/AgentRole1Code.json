@@ -1,0 +1,14 @@
+{
+  "isoType": "AgentRole1Code",
+  "definition": "Précise le rôle de l'agent de l'émetteur.",
+  "isoCodes": {
+    "PRIN": {
+      "name": "Agent principal",
+      "definition": "Identification de l'agent agissant en tant qu'agent principal."
+    },
+    "SUBA": {
+      "name": "Sous-agent",
+      "definition": "Identification de l'agent agissant en tant que co-domicile ou sous-agent."
+    }
+  }
+}

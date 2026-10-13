@@ -1,0 +1,18 @@
+{
+  "isoType": "BranchData5",
+  "definition": "Informations permettant de localiser et d'identifier une agence précise d'un établissement financier.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et sans ambiguïté d'une agence d'un établissement financier."
+    },
+    "LEI": {
+      "definition": "Identification d'entité juridique de l'agence de l'établissement financier."
+    },
+    "Name": {
+      "definition": "Nom sous lequel un agent est connu et qui est habituellement utilisé pour identifier cet agent."
+    },
+    "PostalAddress": {
+      "definition": "Informations permettant de localiser et d'identifier une adresse précise, telles que définies par les services postaux."
+    }
+  }
+}

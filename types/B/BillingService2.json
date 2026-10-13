@@ -1,0 +1,30 @@
+{
+  "isoType": "BillingService2",
+  "definition": "Précise les valeurs utilisées pour chaque ligne de service du relevé.",
+  "isoElements": {
+    "ServiceDetail": {
+      "definition": "Précise des valeurs détaillées complémentaires pour ce service."
+    },
+    "Price": {
+      "definition": "Prix appliqué au service, exprimé dans la devise de tarification."
+    },
+    "PaymentMethod": {
+      "definition": "Code identifiant le sort des frais calculés."
+    },
+    "OriginalChargePrice": {
+      "definition": "Montant des frais calculés, exprimé dans la devise de tarification. Cette valeur n'inclut aucune taxe sur le service."
+    },
+    "OriginalChargeSettlementAmount": {
+      "definition": "Montant des frais calculés, exprimé dans la devise de règlement."
+    },
+    "BalanceRequiredAccountAmount": {
+      "definition": "Solde quotidien moyen encaissé requis pour compenser des frais de service compensables par le solde, hors taxes, exprimé dans la devise du compte."
+    },
+    "TaxDesignation": {
+      "definition": "Fournit les détails du statut d'imposition d'un service."
+    },
+    "TaxCalculation": {
+      "definition": "Fournit les valeurs liées à la taxe pour les méthodes de calcul de la taxe A, B ou D."
+    }
+  }
+}
