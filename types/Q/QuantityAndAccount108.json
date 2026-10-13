@@ -1,0 +1,65 @@
+{
+  "isoType": "QuantityAndAccount108",
+  "definition": "Détails sur une quantité, un compte et d'autres informations connexes.",
+  "isoElements": {
+    "SettledQuantity": {
+      "definition": "Quantité d'instruments financiers effectivement réglée."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Quantité d'instruments financiers précédemment réglée."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Quantité d'instruments financiers restant à régler."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Montant précédemment réglé."
+    },
+    "RemainingToBeSettledAmount": {
+      "definition": "Montant restant à régler."
+    },
+    "DenominationChoice": {
+      "definition": "Dénomination du titre à recevoir ou à livrer."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Adresse blockchain ou portefeuille dans lequel sont conservés les actifs numériques. Il s'agit de l'équivalent du compte de conservation pour les actifs numériques."
+    },
+    "CashAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de trésorerie est passée."
+    },
+    "QuantityBreakdown": {
+      "definition": "Ventilation d'une quantité en lots, tels que lots fiscaux ou séries d'instruments."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lieu où les titres sont conservés, physiquement ou de manière notionnelle. Ce lieu peut être, par exemple, un dépositaire local, un dépositaire central de titres (CSD) ou un dépositaire central de titres international (ICSD)."
+    }
+  },
+  "isoRules": {
+    "DenominationRule": {
+      "definition": "Sauf accord bilatéral entre le titulaire du compte et le teneur de compte, si DenominationChoice est utilisé, il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "La fonctionnalité SafekeepingPlace dans les instructions de règlement ne doit être utilisée que pour les conservateurs globaux qui permettent à leurs clients de préciser où les titres doivent être détenus, par exemple sur un compte ICSD plutôt que sur un compte auprès du CSD local."
+    },
+    "PartialSettlementGuideline": {
+      "definition": "Les informations de règlement partiel ne s'appliquent qu'aux marchés où le règlement partiel est autorisé.|Le champ SettledQuantity fournit la quantité de titres effectivement réglée.|Les autres quantités (PreviouslySettledQuantity et/ou RemainingToBeSettledQuantity) peuvent être fournies, mais ce n'est pas obligatoire.|Pour plus de détails, voir le document de pratique de marché correspondant sur www.smpg.info."
+    },
+    "SafekeepingPlaceGuideline": {
+      "definition": "Lorsqu'il est utilisé (voir la règle d'utilisation SafekeepingPlaceRule), sauf accord particulier entre le teneur de compte et le titulaire du compte, il est recommandé d'utiliser le champ lieu de conservation conformément à la pratique de marché décrite ci-dessous :|• SafekeepingPlaceType/SharesHeldAtNCSD : le BIC d'un NCSD sera utilisé pour les instructions de règlement domestiques et de NCSD à NCSD.|• SafekeepingPlaceType/SharesHeldAtICSD : le BIC d'un ICSD sera utilisé pour les instructions de règlement internes à l'ICSD, ICSD/local et d'ICSD à ICSD.|• SafekeepingPlaceType/SharesHeldAtLoaclCustodian : applicable, par exemple, lorsque le teneur de compte est un conservateur global et fournit au titulaire du compte un relevé de positions au niveau des agents du conservateur global. Lors de l'instruction, le gestionnaire de fonds mentionnerait donc, comme lieu de conservation, le BIC de l'agent du conservateur global sur le marché.|L'absence de SafekeepingPlace signifie que :|• L'information SafekeepingPlace est conservée par le teneur de compte (SLA, structure de compte, etc.) et ne doit pas être fournie par le titulaire du compte.|• Le SafekeepingPlace est le dépositaire de la contrepartie. L'opération est donc domestique (vers un NCSD) ou interne à un ICSD.|Pour plus de détails, voir le document de pratique de marché correspondant sur www.smpg.info (ETC)."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

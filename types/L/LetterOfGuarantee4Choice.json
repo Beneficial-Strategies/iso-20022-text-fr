@@ -1,0 +1,12 @@
+{
+  "isoType": "LetterOfGuarantee4Choice",
+  "definition": "Choix de format pour les informations sur la lettre de garantie.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indique si le règlement physique peut être exécuté au moyen d'une lettre de garantie ou si les certificats physiques doivent être utilisés."
+    },
+    "Proprietary": {
+      "definition": "Informations sur la lettre de garantie exprimées sous la forme d'un code propriétaire."
+    }
+  }
+}

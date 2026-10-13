@@ -1,0 +1,58 @@
+{
+  "isoType": "GrossDividendRateType6Code",
+  "definition": "Précise le type de taux de dividende.",
+  "isoCodes": {
+    "CAPO": {
+      "name": "Part en capital",
+      "definition": "Taux relatif au titre sous-jacent pour lequel du capital est distribué."
+    },
+    "FLFR": {
+      "name": "Entièrement imputé",
+      "definition": "Taux résultant d'un dividende entièrement imputé versé par une société ; le taux inclut un crédit d'impôt pour les sociétés ayant effectué des paiements d'impôt suffisants au cours de la période fiscale."
+    },
+    "INCO": {
+      "name": "Part de revenu",
+      "definition": "Taux relatif au titre sous-jacent pour lequel un revenu est distribué."
+    },
+    "INTR": {
+      "name": "Intérêts",
+      "definition": "Taux relatif au titre sous-jacent pour lequel des intérêts sont versés."
+    },
+    "LTCG": {
+      "name": "Plus-value en capital à long terme",
+      "definition": "Plus-value à long terme."
+    },
+    "REES": {
+      "name": "Part de revenu immobilier",
+      "definition": "Taux de distribution de revenu provenant d'un investissement immobilier."
+    },
+    "STCG": {
+      "name": "Plus-value en capital à court terme",
+      "definition": "Plus-value à court terme."
+    },
+    "SOIC": {
+      "name": "Revenus divers ou autres",
+      "definition": "Taux relatif au titre sous-jacent pour lequel un autre revenu est versé."
+    },
+    "TXBL": {
+      "name": "Part imposable",
+      "definition": "Taux relatif au titre sous-jacent pour lequel un impôt est prélevé."
+    },
+    "TXDF": {
+      "name": "Impôt différé",
+      "definition": "Taux relatif au titre sous-jacent pour lequel l'impôt est différé."
+    },
+    "TXFR": {
+      "name": "Exonéré d'impôt",
+      "definition": "Taux relatif au titre sous-jacent qui n'est pas imposable."
+    },
+    "UNFR": {
+      "name": "Non imputé",
+      "definition": "Taux résultant d'un dividende non imputé versé par une société ; le taux n'inclut pas de crédit d'impôt et est soumis à la retenue à la source."
+    },
+    "CDFI": {
+      "name": "Revenu de source étrangère",
+      "definition": "Taux relatif à un type de revenu étranger, tel qu'un revenu étranger transitant par une société relais."
+    }
+  }
+}

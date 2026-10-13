@@ -1,0 +1,45 @@
+{
+  "isoType": "CryptographicKey20",
+  "definition": "Composant de clé cryptographique.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom ou libellé de la clé."
+    },
+    "Identification": {
+      "definition": "Nom de la clé cryptographique."
+    },
+    "SecurityDomainIdentification": {
+      "definition": "Identification du domaine de sécurité."
+    },
+    "AdditionalIdentification": {
+      "definition": "Identification complémentaire de la clé, par exemple pour dériver la clé."
+    },
+    "Version": {
+      "definition": "Version de la clé cryptographique."
+    },
+    "SequenceCounter": {
+      "definition": "Compteur de séquence de la clé cryptographique."
+    },
+    "Type": {
+      "definition": "Type d'algorithme utilisé par la clé cryptographique."
+    },
+    "Function": {
+      "definition": "Usage autorisé de la clé."
+    },
+    "ActivationDate": {
+      "definition": "Date et heure auxquelles la clé doit être activée."
+    },
+    "DeactivationDate": {
+      "definition": "Date et heure auxquelles la clé doit être désactivée."
+    },
+    "KeyCheckValue": {
+      "definition": "Valeur permettant de contrôler une clé cryptographique."
+    },
+    "CurrentStatus": {
+      "definition": "Statut actuel de la clé."
+    },
+    "FailureReason": {
+      "definition": "Motif pour lequel la clé a été arrêtée."
+    }
+  }
+}

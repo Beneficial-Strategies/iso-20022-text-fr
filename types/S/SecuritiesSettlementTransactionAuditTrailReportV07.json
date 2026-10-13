@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesSettlementTransactionAuditTrailReportV07",
+  "definition": "Portée|Ce message est envoyé par l'infrastructure de marché au DCT pour informer de l'historique de tous les statuts, modifications, remplacements et annulations d'une opération spécifique pendant tout son cycle de vie, lorsque la partie instructrice est un participant direct à l'infrastructure de règlement.||Utilisation|Le message peut également être utilisé pour : |- renvoyer un message envoyé par l'infrastructure de marché au participant direct,|- fournir à un tiers une copie d'un message envoyé par l'infrastructure de marché, à titre d'information,|- renvoyer à un tiers une copie d'un message envoyé par l'infrastructure de marché, à titre d'information, en utilisant les éléments appropriés de l'en-tête applicatif métier (Business Application Header) (CSD).",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identification du message envoyé pour demander ce rapport."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

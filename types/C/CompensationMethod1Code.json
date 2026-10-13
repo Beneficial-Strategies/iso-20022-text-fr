@@ -1,0 +1,22 @@
+{
+  "isoType": "CompensationMethod1Code",
+  "definition": "Définit si et comment les frais et taxes dus sont payés à l'établissement financier.",
+  "isoCodes": {
+    "NOCP": {
+      "name": "Non",
+      "definition": "Le compte ne paie aucuns frais ni taxes dus."
+    },
+    "DBTD": {
+      "name": "Débité",
+      "definition": "Le compte est débité de tous les frais ou taxes dus."
+    },
+    "INVD": {
+      "name": "Facturé",
+      "definition": "Le compte ou le compte récapitulatif est facturé pour tous les frais ou taxes dus."
+    },
+    "DDBT": {
+      "name": "Débit différé",
+      "definition": "Le compte est débité automatiquement à une date future."
+    }
+  }
+}

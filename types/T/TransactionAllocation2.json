@@ -1,0 +1,29 @@
+{
+  "isoType": "TransactionAllocation2",
+  "definition": "Ensemble d'éléments utilisés pour identifier chaque allocation sous-jacente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant d'argent de l'allocation."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si l'allocation est un débit ou un crédit."
+    },
+    "Account": {
+      "definition": "Identification sans ambiguïté du compte auquel l'allocation est due ou duquel elle provient."
+    },
+    "Purpose": {
+      "definition": "Motif sous-jacent de l'allocation.||Utilisation : cela s'applique uniquement à l'allocation, il ne s'agit pas du motif sous-jacent du paiement."
+    },
+    "Reference": {
+      "definition": "Référence de l'allocation."
+    },
+    "RelatedReferences": {
+      "definition": "Référence relative à l'allocation, significative pour les deux parties (par exemple l'identification d'origine de l'opération de règlement-livraison de titres)."
+    }
+  },
+  "isoRules": {
+    "UnderlyingAllocationGuideline": {
+      "definition": "UnderlyingAllocation ne peut être présent que s'il a été convenu bilatéralement."
+    }
+  }
+}

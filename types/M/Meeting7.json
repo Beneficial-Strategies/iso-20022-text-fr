@@ -1,0 +1,29 @@
+{
+  "isoType": "Meeting7",
+  "definition": "Informations sur la date et le ou les lieux d'une assemblée générale.",
+  "isoElements": {
+    "DateAndTime": {
+      "definition": "Date et heure auxquelles l'assemblée aura lieu."
+    },
+    "DateStatus": {
+      "definition": "Statut de la date de l'assemblée."
+    },
+    "QuorumRequired": {
+      "definition": "Indique si un nombre minimal de titres représentés est requis pour tenir une assemblée."
+    },
+    "Location": {
+      "definition": "Lieu où l'assemblée aura lieu."
+    },
+    "QuorumQuantity": {
+      "definition": "Quantité minimale de titres requise pour tenir une assemblée."
+    },
+    "URLAddress": {
+      "definition": "Adresse de l'URL (Universal Resource Locator), par exemple, utilisée sur le service www (HTTP)."
+    }
+  },
+  "isoRules": {
+    "DateStatus1Rule": {
+      "definition": "Si DateAndTime/DateCode est « UKWN » (Unknown), alors DateStatus ne doit pas être présent."
+    }
+  }
+}

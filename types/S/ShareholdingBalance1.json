@@ -1,0 +1,21 @@
+{
+  "isoType": "ShareholdingBalance1",
+  "definition": "Fournit des informations détaillées sur le solde de détention d'actions d'un compte.",
+  "isoElements": {
+    "ShareholdingType": {
+      "definition": "Identifie la catégorie de détention d'actions."
+    },
+    "Quantity": {
+      "definition": "Nombre d'actions de ce type de détention ou ayant cette date de détention, détenues par le titulaire du compte."
+    },
+    "InitialDateOfShareholding": {
+      "definition": "Date à partir de laquelle les actions sont détenues par l'actionnaire sur son compte."
+    },
+    "ThirdParty": {
+      "definition": "Tiers autorisé à accomplir des actions précises au nom de l'actionnaire."
+    },
+    "SupplementaryData": {
+      "definition": "Informations complémentaires ne pouvant pas être saisies dans les champs structurés et/ou dans tout autre bloc spécifique."
+    }
+  }
+}

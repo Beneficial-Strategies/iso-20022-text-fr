@@ -1,0 +1,4 @@
+{
+  "isoType": "FundConfirmedCashForecastReportCancellationV03",
+  "definition": "Portée|Un fournisseur de rapport, tel qu'un agent de transfert, envoie le message FundConfirmedCashForecastReportCancellation à l'utilisateur du rapport, tel qu'un gestionnaire d'investissements ou un agent de valorisation, afin d'annuler un message FundConfirmedCashForecastReport précédemment envoyé.|Utilisation|Le message FundConfirmedCashForecastReportCancellation sert à annuler l'intégralité d'un message FundConfirmedCashForecastReport précédemment envoyé par le fournisseur de rapport. Ce message doit contenir la référence du message annulé.|Ce message peut également contenir des détails du message à annuler, mais cela n'est pas recommandé."
+}

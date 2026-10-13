@@ -1,0 +1,12 @@
+{
+  "isoType": "PairedOrTurnedQuantity6Choice",
+  "definition": "Choix entre une quantité de retournement et une quantité de compensation pour instruire une compensation ou un retournement (partiel) de un à plusieurs et de plusieurs à plusieurs.",
+  "isoElements": {
+    "PairedOffQuantity": {
+      "definition": "Quantité d’instruments financiers de l’opération liée à compenser."
+    },
+    "TurnedQuantity": {
+      "definition": "Quantité d’instruments financiers de l’opération liée à retourner."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader119",
+  "definition": "Ensemble de caractéristiques communes à toutes les opérations individuelles incluses dans le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de bout en bout, attribuée par la partie donneuse d'ordre et envoyée à la partie suivante de la chaîne, permettant d'identifier sans ambiguïté le message.|Utilisation : la partie donneuse d'ordre doit s'assurer que MessageIdentification est unique par partie destinataire de l'ordre pendant une période convenue au préalable."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "NumberOfTransactions": {
+      "definition": "Nombre d'opérations individuelles contenues dans le message."
+    },
+    "ControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le message, quelles que soient les devises."
+    },
+    "InstructingAgent": {
+      "definition": "Agent qui charge la partie suivante de la chaîne d'exécuter la ou les instructions."
+    },
+    "InstructedAgent": {
+      "definition": "Agent chargé par la partie précédente de la chaîne d'exécuter la ou les instructions."
+    }
+  }
+}

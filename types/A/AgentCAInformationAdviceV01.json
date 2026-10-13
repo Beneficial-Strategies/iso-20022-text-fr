@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAInformationAdviceV01",
+  "definition": "Portée|Ce message est envoyé par un CSD à un émetteur (ou à son agent) afin de fournir des informations sur la certification et/ou sur les détails de livraison à l'émetteur (ou à son agent).|Utilisation|Ce message peut être utilisé dans le cas d'un événement sur titres sans choix.|Ce message peut également être utilisé dans le cas d'un événement sur titres avec choix lorsque les détails du choix et les informations complémentaires ne peuvent pas être fournis dans le même message. Dans ce cas, l'identification de l'avis de choix de l'agent pour opération sur titres (Agent Corporate Action Election Advice Identification) doit être utilisée pour lier ce message à l'avis de choix pour lequel des informations complémentaires sont fournies."
+}

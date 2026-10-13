@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAInformationStatusAdviceV01",
+  "definition": "Portée|Ce message est envoyé par un émetteur (ou son agent) à un CSD afin de communiquer le statut, ou le changement de statut, d'un avis d'information.|Utilisation|Ce message doit être utilisé en réponse à un avis d'information d'agent pour opération sur titres (Agent Corporate Action Information Advice) en cas de rejet. Il peut toutefois aussi être utilisé pour communiquer d'autres statuts.|L'identification de l'avis d'information doit être présente afin de lier ce message à l'avis d'information pour lequel le statut est fourni."
+}

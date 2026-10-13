@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentIdentification8",
+  "definition": "Ensemble d'éléments fournissant des moyens supplémentaires de référencer une opération de paiement.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identification unique attribuée par une partie instructrice à une partie instruite pour identifier sans ambiguïté l'instruction.||Utilisation : l'identification de l'instruction est une référence de point à point qui peut être utilisée entre la partie instructrice et la partie instruite pour désigner l'instruction individuelle. Elle peut figurer dans plusieurs messages relatifs à l'instruction."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identification unique attribuée par la partie initiatrice pour identifier sans ambiguïté l'opération. Cette identification est transmise, sans modification, tout au long de la chaîne de bout en bout.||Utilisation : l'identification de bout en bout peut être utilisée pour le rapprochement ou pour relier des tâches relatives à l'opération. Elle peut figurer dans plusieurs messages relatifs à l'opération."
+    },
+    "TransactionIdentification": {
+      "definition": "Identification unique, attribuée par la première banque instructrice, pour identifier sans ambiguïté l'opération qui est transmise, sans modification, tout au long de la chaîne interbancaire. |Utilisation : l'identification de l'opération peut être utilisée pour le rapprochement, le suivi ou pour relier des tâches relatives à l'opération au niveau interbancaire. |Utilisation : la banque instructrice doit s'assurer que l'identification de l'opération est unique pendant une période convenue à l'avance."
+    },
+    "UETR": {
+      "definition": "Identifiant unique universel fournissant une référence de bout en bout d'une opération de paiement."
+    }
+  }
+}

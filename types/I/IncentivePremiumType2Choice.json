@@ -1,0 +1,15 @@
+{
+  "isoType": "IncentivePremiumType2Choice",
+  "definition": "Choix de la prime en numéraire versée au porteur de titres lors du vote.",
+  "isoElements": {
+    "PerSecurity": {
+      "definition": "Nombre de titres donnant droit à une prime."
+    },
+    "PerVote": {
+      "definition": "Quantité de votes par type de vote donnant droit à une prime."
+    },
+    "PerAttendee": {
+      "definition": "Indique que la prime est accordée par participant."
+    }
+  }
+}

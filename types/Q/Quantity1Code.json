@@ -1,0 +1,10 @@
+{
+  "isoType": "Quantity1Code",
+  "definition": "Précise la quantité d'un instrument financier.",
+  "isoCodes": {
+    "QALL": {
+      "name": "Tous les titres",
+      "definition": "L'instruction s'applique à la totalité du solde éligible des titres sous-jacents."
+    }
+  }
+}

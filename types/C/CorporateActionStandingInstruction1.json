@@ -1,0 +1,29 @@
+{
+  "isoType": "CorporateActionStandingInstruction1",
+  "definition": "Fournit des informations sur l'instruction permanente.",
+  "isoElements": {
+    "NetOrGross": {
+      "definition": "Précise si les titulaires du compte souhaitent que leur revenu soit payé net ou brut d'impôt sur le revenu (par défaut, brut)."
+    },
+    "CashDistributionDetails": {
+      "definition": "Fournit des informations sur l'instruction permanente de distribution en espèces."
+    },
+    "SecuritiesDistributionDetails": {
+      "definition": "Fournit des informations sur l'instruction permanente de distribution de titres."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur l'instruction permanente."
+    }
+  },
+  "isoRules": {
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRule": {
+      "definition": "NetOrGross, CashDistributionDetails ou SecuritiesDistributionDetails doit être présent."
+    },
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRuleNotBoth": {
+      "definition": "NetOrGross, CashDistributionDetails ou SecuritiesDistributionDetails doit être présent."
+    },
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRuleNotBoth2": {
+      "definition": "NetOrGross, CashDistributionDetails ou SecuritiesDistributionDetails doit être présent."
+    }
+  }
+}

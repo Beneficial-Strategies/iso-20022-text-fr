@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceQuantity1Choice",
+  "definition": "Choix entre les formats de l'information de solde.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantité totale d'instruments financiers du solde."
+    },
+    "QuantityAsDSS": {
+      "definition": "Quantité totale d'instruments financiers du solde."
+    }
+  }
+}

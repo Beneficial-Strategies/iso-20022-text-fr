@@ -1,0 +1,26 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactions2",
+  "definition": "Informations relatives à un relevé d'opérations sur fonds d'investissement.",
+  "isoElements": {
+    "StatementGeneralDetails": {
+      "definition": "Informations générales relatives au relevé d'opérations sur fonds d'investissement qui est annulé."
+    },
+    "InvestmentAccountDetails": {
+      "definition": "Informations relatives à un compte d'investissement du relevé qui est annulé."
+    },
+    "TransactionOnAccount": {
+      "definition": "Création/annulation de parts d'investissement dans les livres du fonds ou de son agent désigné, à la suite de l'exécution d'un ordre sur fonds d'investissement."
+    },
+    "SubAccountDetails": {
+      "definition": "Sous-compte du compte de conservation ou d'investissement."
+    },
+    "Extension": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  },
+  "isoRules": {
+    "TransactionOnAccountOrSubAccountDetailsRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator est \"true\" ou \"1\" (Oui), alors soit TransactionOnAccount soit SubAccountDetails doit être présent. Si StatementGeneralDetails/ActivityIndicator est \"false\" ou \"0\" (Non), alors TransactionOnAccount et SubAccountDetails ne sont pas autorisés."
+    }
+  }
+}

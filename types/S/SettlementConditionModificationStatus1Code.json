@@ -1,0 +1,26 @@
+{
+  "isoType": "SettlementConditionModificationStatus1Code",
+  "definition": "Précise le statut d'une demande de modification de condition de règlement de titres.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Accusé de réception et accepté",
+      "definition": "L'instruction a été reconnue/acceptée par le teneur de compte."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "L'instruction a été rejetée pour traitement ultérieur."
+    },
+    "MODP": {
+      "name": "En attente",
+      "definition": "La modification est en attente. À ce stade, on ne sait pas si la modification peut être effectuée."
+    },
+    "DEND": {
+      "name": "Refusé",
+      "definition": "La demande de modification ne sera pas exécutée."
+    },
+    "MODC": {
+      "name": "Terminé",
+      "definition": "La modification a été effectuée."
+    }
+  }
+}

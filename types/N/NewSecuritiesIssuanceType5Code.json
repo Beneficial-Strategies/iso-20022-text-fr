@@ -1,0 +1,34 @@
+{
+  "isoType": "NewSecuritiesIssuanceType5Code",
+  "definition": "Précise le type de produit en titres ; qu'il s'agisse ou non de nouvelles émissions, avec ou sans défaisance.",
+  "isoCodes": {
+    "DEFE": {
+      "name": "Indicateur de titre défaisé",
+      "definition": "Des fonds ont été placés sous séquestre par un fiduciaire ou un agent afin d'assurer le paiement d'une partie de l'encours du titre initial à la date d'échéance. Applicable uniquement dans le cadre d'un événement d'opération sur titres de défaisance partielle PDEF."
+    },
+    "EXIS": {
+      "name": "Émission existante",
+      "definition": "Le produit en titres ne constitue pas de nouvelles émissions."
+    },
+    "NEIS": {
+      "name": "Nouvelle émission",
+      "definition": "Le produit en titres est constitué de titres nouvellement émis."
+    },
+    "NDEF": {
+      "name": "Indicateur de titre non défaisé",
+      "definition": "Les fonds ne seront pas garantis à l'échéance par l'émetteur ou l'agent payeur pour ce titre nouvellement émis sans défaisance. Applicable uniquement dans le cadre d'un événement d'opération sur titres de défaisance partielle PDEF."
+    },
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "On ignore si le produit en titres est constitué de titres nouvellement émis ou non."
+    },
+    "NREF": {
+      "name": "Indicateur de titre non remboursé par anticipation",
+      "definition": "Nouveau titre émis qui n'a pas été remboursé et dont la date d'échéance du titre sous-jacent initial est inchangée. Applicable uniquement dans le cadre d'un événement d'opération sur titres de défaisance partielle PDEF."
+    },
+    "REFU": {
+      "name": "Indicateur de titre remboursé par anticipation",
+      "definition": "Nouveau titre émis qui a été refinancé jusqu'à une date d'échéance antérieure. Applicable uniquement dans le cadre d'un événement d'opération sur titres de défaisance partielle PDEF."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionFrequencyType1Code",
+  "definition": "Indique la fréquence d'un événement CA.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Paiement d'un dividende, déduction faite des montants déjà versés au titre d'acomptes sur dividende."
+    },
+    "INTE": {
+      "name": "Intermédiaire",
+      "definition": "Dividende déclaré et versé avant la détermination des résultats annuels."
+    },
+    "REGR": {
+      "name": "Ordinaire",
+      "definition": "Dividende versé à intervalle régulier, par exemple, trimestriellement."
+    },
+    "SPEC": {
+      "name": "Spécial",
+      "definition": "Dividende venant s'ajouter au dividende régulier versé par la société."
+    }
+  }
+}

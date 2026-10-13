@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesTransactionPenaltiesReportV01",
+  "definition": "Le message SecuritiesTransactionPenaltiesReport V01 est envoyé par la partie exécutante/gestionnaire à la partie donneuse d'ordre pour l'informer des pénalités en espèces : |- Pénalités en espèces nouvellement calculées. Par exemple, dans le cas d'un CSD, l'information inclut les pénalités en espèces imposées ou créditées à l'ensemble de ses participants et au CSD lui-même ; dans le cas d'un participant au CSD, l'information inclut les pénalités en espèces imposées ou créditées au participant au CSD lui-même.|- Pénalités modifiées : pour informer des modifications intervenues dans les pénalités en espèces existantes depuis la précédente déclaration.|- Montants agrégés des pénalités en espèces : pour informer des montants agrégés des pénalités en espèces calculées pour les jours ouvrés d'une période donnée, par exemple le mois précédent."
+}

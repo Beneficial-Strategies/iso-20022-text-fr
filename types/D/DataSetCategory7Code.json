@@ -1,0 +1,42 @@
+{
+  "isoType": "DataSetCategory7Code",
+  "definition": "Type de configuration d'un ATM.",
+  "isoCodes": {
+    "ATMC": {
+      "name": "Configuration du DAB",
+      "definition": "Paramètres de configuration de l'ATM."
+    },
+    "ATMP": {
+      "name": "Protocole du DAB",
+      "definition": "Paramètres du protocole de l'ATM, y compris la configuration des hôtes."
+    },
+    "APPR": {
+      "name": "Paramètres d'application",
+      "definition": "Paramètres de configuration propres à l'application de paiement pour le système du point d'interaction (POI)."
+    },
+    "CRAP": {
+      "name": "Application de carte",
+      "definition": "Paramètres de configuration de l'application de la carte."
+    },
+    "CPRC": {
+      "name": "Configuration de carte",
+      "definition": "Configuration des cartes acceptées par le terminal."
+    },
+    "OEXR": {
+      "name": "Taux de change hors ligne",
+      "definition": "Taux locaux pour les opérations de change."
+    },
+    "AMNT": {
+      "name": "Montant prédéfini",
+      "definition": "Montants prédéfinis à présenter au client."
+    },
+    "LOCC": {
+      "name": "Configuration de l'emplacement",
+      "definition": "Configuration de l'emplacement."
+    },
+    "MNOC": {
+      "name": "Opérateur mobile",
+      "definition": "Configuration des cartes d'opérateurs mobiles acceptées par le terminal."
+    }
+  }
+}

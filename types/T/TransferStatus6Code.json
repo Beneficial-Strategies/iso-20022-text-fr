@@ -1,0 +1,38 @@
+{
+  "isoType": "TransferStatus6Code",
+  "definition": "Indique le statut d’une instruction de transfert ou de règlement.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Accepté",
+      "definition": "L’instruction de transfert ou de règlement a été accusée réception / acceptée pour traitement ultérieur."
+    },
+    "COSE": {
+      "name": "Déjà exécuté",
+      "definition": "L’instruction de transfert ou de règlement est entièrement exécutée et la confirmation est envoyée."
+    },
+    "COMP": {
+      "name": "Complet",
+      "definition": "Le transfert de portefeuille est terminé."
+    },
+    "DELY": {
+      "name": "Retardé",
+      "definition": "L’instruction de transfert ou de règlement est retardée."
+    },
+    "MACH": {
+      "name": "Apparié",
+      "definition": "L’instruction de transfert ou de règlement est appariée."
+    },
+    "RECE": {
+      "name": "Reçu",
+      "definition": "L’instruction a été reçue, c’est-à-dire que la validation technique du message est correcte et que le message se trouve maintenant du côté du destinataire."
+    },
+    "STNP": {
+      "name": "Envoyé à la partie suivante",
+      "definition": "L’instruction de transfert ou de règlement a été envoyée à la partie suivante, c’est-à-dire à l’intermédiaire suivant."
+    },
+    "SETT": {
+      "name": "Réglé",
+      "definition": "L’instruction de transfert ou de règlement est réglée."
+    }
+  }
+}

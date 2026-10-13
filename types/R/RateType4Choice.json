@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType4Choice",
+  "definition": "Précise le taux sous forme de pourcentage ou de texte.",
+  "isoElements": {
+    "Percentage": {
+      "definition": "Rapport entre le montant des intérêts versés au cours d'une période donnée et le principal de l'instrument financier productif d'intérêts."
+    },
+    "Other": {
+      "definition": "Type de taux exprimé sous une autre forme."
+    }
+  }
+}

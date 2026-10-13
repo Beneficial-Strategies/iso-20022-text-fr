@@ -1,0 +1,24 @@
+{
+  "isoType": "CancellationStatusAndReason5",
+  "definition": "Statut d'une instruction d'annulation de transfert et motif du statut.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identifiant unique et non ambigu d'un groupe de transferts individuels, attribué par la partie donneuse d'ordre. Cet identifiant relie les transferts individuels entre eux."
+    },
+    "TransferReference": {
+      "definition": "Identification unique et non ambiguë du transfert, attribuée par la partie donneuse d'ordre."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert par l'investisseur. Cette référence peut généralement être utilisée dans un scénario de plateforme centrale (hub) pour fournir la référence du transfert telle qu'attribuée par le client sous-jacent."
+    },
+    "CancellationReference": {
+      "definition": "Identifiant unique et non ambigu d'une annulation de transfert, attribué par la partie donneuse d'ordre."
+    },
+    "Status": {
+      "definition": "Statut de l'annulation du transfert."
+    },
+    "StatusInitiator": {
+      "definition": "Partie qui initie le statut."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "TransferInFunction2Code",
+  "definition": "Indique la fonction de la confirmation de transfert entrant.",
+  "isoCodes": {
+    "CONF": {
+      "name": "Confirmation",
+      "definition": "Le transfert entrant est une confirmation (et non un avis)."
+    },
+    "ADVI": {
+      "name": "Avis",
+      "definition": "Le transfert entrant fournit un avis concernant les informations de compte pour un transfert."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "BalanceAdjustment1",
+  "definition": "Précise les ajustements de solde pour un service donné.",
+  "isoElements": {
+    "Type": {
+      "definition": "Identifie le type d'ajustement."
+    },
+    "Description": {
+      "definition": "Description libre et précisions sur l'ajustement."
+    },
+    "BalanceAmount": {
+      "definition": "Montant de l'ajustement. Si le montant réduit le solde sous-jacent, il doit être signé négativement. Exprimé dans la devise du compte."
+    },
+    "AverageAmount": {
+      "definition": "Montant net pondéré par les jours de l'ajustement du solde moyen collecté sur la période du relevé."
+    },
+    "ErrorDate": {
+      "definition": "Date à laquelle l'erreur s'est produite sur le compte de trésorerie sous-jacent."
+    },
+    "PostingDate": {
+      "definition": "Date à laquelle l'erreur a été corrigée sur le compte de trésorerie. Si la date n'est pas connue, utiliser le dernier jour du mois au cours duquel l'erreur a été corrigée."
+    },
+    "Days": {
+      "definition": "Nombre de jours de la période auxquels l'ajustement s'applique."
+    },
+    "EarningsAdjustmentAmount": {
+      "definition": "Ajustement du crédit d'intérêts (bonification), au débit ou au crédit, résultant de l'effet de cet ajustement sur le solde moyen collecté. Si le montant réduit le crédit dû, il doit être signé négativement."
+    }
+  }
+}

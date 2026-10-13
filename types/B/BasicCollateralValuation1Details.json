@@ -1,0 +1,12 @@
+{
+  "isoType": "BasicCollateralValuation1Details",
+  "definition": "Détails de base de la valorisation d'une position de garantie.",
+  "isoElements": {
+    "ValuationHaircut": {
+      "definition": "Pourcentage de décote appliqué à la valeur de marché des actifs sous-jacents utilisés comme garantie, en tant que mesure de maîtrise du risque. L'établissement qui valorise la garantie calcule la valeur des actifs sous-jacents sur la base de leur valeur de marché diminuée d'un certain pourcentage (la décote)."
+    },
+    "HaircutSource": {
+      "definition": "Lieu où la décote de valorisation a été calculée."
+    }
+  }
+}

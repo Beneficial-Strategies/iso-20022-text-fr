@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionNotificationAdvice1",
+  "definition": "Fournit des informations détaillées sur une annonce.",
+  "isoElements": {
+    "CorporateActionDetails": {
+      "definition": "Fournit des informations détaillées sur l'événement d'opération sur titres."
+    },
+    "CorporateActionOptionDetails": {
+      "definition": "Fournit des informations sur une option d'un événement d'opération sur titres (CA)."
+    }
+  }
+}

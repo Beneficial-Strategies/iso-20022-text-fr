@@ -1,0 +1,12 @@
+{
+  "isoType": "PercentagePrice1",
+  "definition": "Prix exprimé sous forme de prix en pourcentage.",
+  "isoElements": {
+    "PercentagePriceType": {
+      "definition": "Précise le type de prix en pourcentage."
+    },
+    "PriceValue": {
+      "definition": "Précise la valeur du prix."
+    }
+  }
+}

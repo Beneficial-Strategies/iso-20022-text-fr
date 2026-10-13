@@ -1,0 +1,14 @@
+{
+  "isoType": "TransferInFunction1Code",
+  "definition": "Indique la fonction du transfert entrant.",
+  "isoCodes": {
+    "ADRE": {
+      "name": "Avis et demande",
+      "definition": "Le transfert entrant est un avis et une demande, c'est-à-dire que le message sert à informer le destinataire qu'il doit s'attendre à une confirmation de transfert entrant non sollicitée et à demander des informations de compte pour le transfert."
+    },
+    "INST": {
+      "name": "Instruction",
+      "definition": "Le transfert entrant est une instruction."
+    }
+  }
+}

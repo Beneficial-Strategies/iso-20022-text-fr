@@ -1,0 +1,14 @@
+{
+  "isoType": "FormOfSecurity1Code",
+  "definition": "Forme d'un instrument financier.",
+  "isoCodes": {
+    "BEAR": {
+      "name": "Au porteur",
+      "definition": "L'instrument financier ne précise aucun enregistrement de propriété et est payable à quiconque détient le certificat."
+    },
+    "REGD": {
+      "name": "Nominatif",
+      "definition": "Le nom de l'actionnaire de l'instrument financier figure dans les livres de la société/du fonds."
+    }
+  }
+}

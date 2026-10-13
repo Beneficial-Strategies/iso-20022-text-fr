@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus15",
+  "definition": "Informations de statut et de quantité relatives à une demande d'instruction rejetée.",
+  "isoElements": {
+    "RejectedQuantity": {
+      "definition": "Quantité de titres instruits pour laquelle le traitement est rejeté."
+    },
+    "RejectedReason": {
+      "definition": "Motif du statut rejeté."
+    }
+  }
+}

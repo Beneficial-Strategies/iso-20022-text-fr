@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentCondition2",
+  "definition": "Précise les conditions d'exécution du paiement.",
+  "isoElements": {
+    "AmountModificationAllowed": {
+      "definition": "Indique si le débiteur est autorisé à payer un montant différent du montant demandé.||Utilisation : lorsque l'élément n'est pas présent, la valeur par défaut est « Sans objet »."
+    },
+    "EarlyPaymentAllowed": {
+      "definition": "Indique si le débiteur est autorisé à payer avant la date d'exécution demandée.||Utilisation : lorsque l'élément n'est pas présent, la valeur par défaut est « Sans objet »."
+    },
+    "DelayPenalty": {
+      "definition": "Pénalité à appliquer en cas de retard de paiement, c'est-à-dire lorsque le paiement est effectué après la date d'exécution demandée."
+    },
+    "ImmediatePaymentRebate": {
+      "definition": "Taux d'escompte appliqué en cas de paiement immédiat dès réception de la demande."
+    },
+    "GuaranteedPaymentRequested": {
+      "definition": "Indique si une garantie de paiement est demandée, en supposant qu'un contrat de garantie de paiement existe entre les différents acteurs.||Utilisation : lorsque l'élément n'est pas présent, la valeur par défaut est « Sans objet »."
+    }
+  }
+}

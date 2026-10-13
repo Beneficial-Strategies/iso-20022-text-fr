@@ -1,0 +1,21 @@
+{
+  "isoType": "UnderlyingData13Choice",
+  "definition": "Précise les détails d'une opération sous-jacente sur laquelle porte l'enquête.",
+  "isoElements": {
+    "Initiation": {
+      "definition": "Détails de référence sur l'initiation de paiement d'origine."
+    },
+    "Interbank": {
+      "definition": "Détails de référence sur l'opération de paiement interbancaire d'origine."
+    },
+    "StatementEntry": {
+      "definition": "Détails de référence sur l'écriture de trésorerie du relevé sous-jacent."
+    },
+    "Account": {
+      "definition": "Détails de référence sur le compte sous-jacent."
+    },
+    "Other": {
+      "definition": "Détails de référence sur toute autre référence propriétaire d'origine.||Utilisation : cet élément peut être utilisé pour une enquête sur toute autre donnée, par exemple un chèque."
+    }
+  }
+}

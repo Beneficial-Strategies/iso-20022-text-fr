@@ -1,0 +1,21 @@
+{
+  "isoType": "BalanceFormat12Choice",
+  "definition": "Choix entre les formats de solde, de solde éligible et de solde non éligible.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Fournit des informations sur le solde relatif à une opération sur titres."
+    },
+    "EligibleBalance": {
+      "definition": "Fournit les informations sur le solde éligible dans différents formats."
+    },
+    "NotEligibleBalance": {
+      "definition": "Fournit les informations sur le solde non éligible dans différents formats."
+    },
+    "FullPeriodUnits": {
+      "definition": "Nombre de parts d'un fonds qui ont été achetées lors d'une période de distribution précédente et/ou détenues au début d'une période de distribution, par exemple les parts du Groupe I au UK."
+    },
+    "PartWayPeriodUnits": {
+      "definition": "Nombre de parts d'un fonds qui ont été achetées en cours de période de distribution, par exemple les parts du Groupe II au U.K."
+    }
+  }
+}

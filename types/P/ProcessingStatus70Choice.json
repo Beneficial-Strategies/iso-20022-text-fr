@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingStatus70Choice",
+  "definition": "Choix du format du statut de traitement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Indique le statut de traitement de l'instruction sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Indique le statut de traitement de l'instruction sous un format propriétaire."
+    }
+  }
+}

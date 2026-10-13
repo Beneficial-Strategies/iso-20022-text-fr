@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType13Code",
+  "definition": "Précise le type de taux.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "Le taux est inconnu de l'expéditeur ou n'a pas été établi."
+    },
+    "NILP": {
+      "name": "Paiement nul",
+      "definition": "Le taux ne sera pas versé."
+    }
+  }
+}

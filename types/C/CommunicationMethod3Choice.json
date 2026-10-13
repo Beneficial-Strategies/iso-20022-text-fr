@@ -1,0 +1,12 @@
+{
+  "isoType": "CommunicationMethod3Choice",
+  "definition": "Choix de formats pour le mode de transmission.",
+  "isoElements": {
+    "Code": {
+      "definition": "Mode de transmission exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Mode de transmission exprimé sous forme de code propriétaire."
+    }
+  }
+}

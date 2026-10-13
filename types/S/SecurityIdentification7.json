@@ -1,0 +1,23 @@
+{
+  "isoType": "SecurityIdentification7",
+  "definition": "Choix entre l'ISIN et un autre format pour l'identification d'un titre. L'ISIN est le format privilégié.",
+  "isoElements": {
+    "ISIN": {
+      "definition": "Numéro international d'identification des valeurs mobilières (ISIN). Système de numérotation conçu par l'Organisation internationale de normalisation (ISO) des Nations Unies. L'ISIN est composé d'un préfixe de 2 caractères représentant le pays d'émission, suivi du numéro national du titre (s'il existe) et d'un chiffre de contrôle. Chaque pays dispose d'un organisme national de numérotation qui attribue les numéros ISIN aux titres de ce pays."
+    },
+    "OtherIdentification": {
+      "definition": "Identification propriétaire d'un titre attribuée par un établissement ou une organisation."
+    },
+    "Description": {
+      "definition": "Description textuelle d'un instrument de titre."
+    }
+  },
+  "isoRules": {
+    "ISINOrOtherIdentificationRule": {
+      "definition": "ISIN ou OtherIdentification doit être présent, mais pas les deux."
+    },
+    "ISINOrOtherIdentificationRuleNotBoth": {
+      "definition": "ISIN ou OtherIdentification doit être présent, mais pas les deux."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "PortfolioTransfer15",
+  "definition": "Type de produit et d’actifs à transférer.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identifiant unique et non ambigu d'un groupe de transferts individuels, attribué par la partie donneuse d'ordre. Cet identifiant relie les transferts individuels entre eux."
+    },
+    "TransferInstructionReference": {
+      "definition": "Identification attribuée au transfert d’actifs."
+    },
+    "TransferConfirmationIdentification": {
+      "definition": "Identification de la confirmation attribuée au transfert par le cédant."
+    },
+    "ActualTransferDate": {
+      "definition": "Date d’exécution de l’instruction de transfert de portefeuille."
+    },
+    "Portfolio": {
+      "definition": "Choix d’un produit fiscalement avantageux, d’un investissement général ou d’une retraite."
+    },
+    "AllOtherCash": {
+      "definition": "Précise si tous les actifs restants du portefeuille non listés pour le transfert doivent être liquidés et transférés sous forme d’espèces."
+    },
+    "CashAll": {
+      "definition": "Indique si tous les actifs du portefeuille doivent être liquidés et transférés en espèces."
+    },
+    "ResidualCash": {
+      "definition": "Précise comment traiter les espèces du compte en attente d’investissement."
+    },
+    "TaxDate": {
+      "definition": "Date fiscale applicable à tous les actifs."
+    },
+    "PaymentDetails": {
+      "definition": "Processus de paiement pour le transfert d’espèces du débiteur au créancier."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "definition": "Actif à transférer."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le transfert de produit."
+    }
+  }
+}

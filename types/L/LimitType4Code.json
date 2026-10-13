@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitType4Code",
+  "definition": "Spécifie le type de limite de gestion des risques.",
+  "isoCodes": {
+    "EXGT": {
+      "name": "Garantie externe",
+      "definition": "La limite est liée à un plafond accordé par une banque centrale nationale ou une banque de règlement."
+    },
+    "UCDT": {
+      "name": "Crédit non garanti",
+      "definition": "La limite est liée à un plafond accordé par une banque centrale nationale ou une banque de règlement, mais généralement non garanti en dehors de l'infrastructure de marché."
+    },
+    "ACOL": {
+      "name": "Auto-collatéralisation",
+      "definition": "La limite est liée à une opération de crédit qui est ou peut être déclenchée lorsqu'un acheteur ne dispose pas de fonds suffisants pour régler une opération sur titres, afin d'améliorer sa position de trésorerie pour le prochain cycle de règlement. Le crédit accordé peut être garanti par des titres déjà détenus par l'acheteur (« stocks de garantie ») ou par les titres en cours d'achat (« flux de garantie »)."
+    }
+  }
+}

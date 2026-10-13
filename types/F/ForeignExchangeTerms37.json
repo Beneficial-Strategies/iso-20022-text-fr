@@ -1,0 +1,27 @@
+{
+  "isoType": "ForeignExchangeTerms37",
+  "definition": "Informations nécessaires pour traiter un change ou une conversion de devise.",
+  "isoElements": {
+    "ToAmount": {
+      "definition": "Montant en numéraire résultant d'une opération de change."
+    },
+    "FromAmount": {
+      "definition": "Montant en numéraire pour lequel un change est requis."
+    },
+    "UnitCurrency": {
+      "definition": "Devise à partir de laquelle la devise cotée est convertie dans un calcul de taux de change.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotedCurrency": {
+      "definition": "Devise dans laquelle la devise unitaire est convertie dans un calcul de taux de change.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "ExchangeRate": {
+      "definition": "Facteur utilisé pour la conversion d'un montant d'une devise dans une autre. Il reflète le montant de la devise cotée pouvant être acheté avec une unité de la devise unitaire, comme suit : |1 x CUR1 = nnn x CUR2, |où : |CUR1 est la devise unitaire |CUR2 est la devise cotée |nnn est le taux de change.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotationDate": {
+      "definition": "Date et heure auxquelles un taux de change est coté."
+    },
+    "QuotingInstitution": {
+      "definition": "Partie qui propose le taux de change."
+    }
+  }
+}

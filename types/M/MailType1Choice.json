@@ -1,0 +1,12 @@
+{
+  "isoType": "MailType1Choice",
+  "definition": "Choix de formats pour le type de courrier.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de courrier exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de courrier exprimé sous forme de code propriétaire."
+    }
+  }
+}

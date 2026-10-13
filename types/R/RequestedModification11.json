@@ -1,0 +1,84 @@
+{
+  "isoType": "RequestedModification11",
+  "definition": "Fournit des précisions sur les modifications demandées de l'instruction de paiement sous-jacente.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identification unique attribuée par une partie instructrice à une partie instruite pour identifier sans ambiguïté l'instruction.||Utilisation : l'identification de l'instruction est une référence de point à point qui peut être utilisée entre la partie instructrice et la partie instruite pour désigner l'instruction individuelle. Elle peut figurer dans plusieurs messages relatifs à l'instruction."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice, permettant d'identifier sans ambiguïté l'opération. Cette identification est transmise sans changement tout au long de la chaîne de bout en bout.||Utilisation : l'identification de bout en bout peut servir au rapprochement ou à relier des tâches relatives à l'opération. Elle peut figurer dans plusieurs messages relatifs à l'opération."
+    },
+    "TransactionIdentification": {
+      "definition": "Identification unique, attribuée par la première banque donneuse d'ordre, permettant d'identifier sans ambiguïté l'opération, transmise sans changement tout au long de la chaîne interbancaire. |Utilisation : l'identification de l'opération peut servir au rapprochement, au suivi ou à relier des tâches relatives à l'opération au niveau interbancaire. La banque donneuse d'ordre doit s'assurer que l'identification de l'opération est unique pendant une période convenue au préalable."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments servant à préciser le type d'opération."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Date à laquelle la partie initiatrice demande à la banque de compensation de traiter le paiement. |Utilisation : il s'agit de la date à laquelle le compte du débiteur doit être débité. Pour un paiement par chèque, il s'agit de la date à laquelle le chèque doit être émis par la banque."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Date et heure auxquelles le créancier demande que le montant soit encaissé auprès du débiteur."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être à la disposition de l'agent qui le doit et devient disponible pour l'agent auquel il est dû."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Fournit des informations sur la ou les heures de règlement effectives de l'opération de paiement."
+    },
+    "Amount": {
+      "definition": "Montant d'argent à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise ordonnée par la partie initiatrice."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montant d'argent transféré entre la banque donneuse d'ordre et la banque destinataire de l'instruction."
+    },
+    "ChargeBearer": {
+      "definition": "Précise quelle(s) partie(s) supporteront les frais liés au traitement de l'opération de paiement."
+    },
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit un montant au créancier (final)."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit un montant au créancier (final). Dans le contexte du modèle de paiement, le débiteur est aussi le titulaire du compte débité."
+    },
+    "DebtorAccount": {
+      "definition": "Identification sans ambiguïté du compte du débiteur sur lequel une écriture de débit sera passée à la suite de l'opération."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identification sans ambiguïté du compte de la banque du débiteur auprès de son agent de service dans la chaîne de paiement."
+    },
+    "SettlementInformation": {
+      "definition": "Instruction entre deux banques de compensation stipulant les caractéristiques du transfert de fonds entre les deux parties."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification sans ambiguïté du compte de la banque du créancier auprès de son agent de service sur lequel une écriture de crédit sera passée à la suite de l'opération de paiement."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAccount": {
+      "definition": "Identification sans ambiguïté du compte du créancier sur lequel une écriture de crédit sera comptabilisée à la suite de l'opération de paiement."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant est dû."
+    },
+    "Purpose": {
+      "definition": "Raison sous-jacente de l'opération de paiement.|Utilisation : le motif est utilisé par les clients finaux, c'est-à-dire la partie initiatrice, le débiteur (final) et le créancier (final), pour fournir des informations sur la nature du paiement. Le motif est un élément de contenu qui n'est utilisé pour le traitement par aucune des banques intervenant dans la chaîne de paiement."
+    },
+    "InstructionForDebtorAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement, fournies par la partie initiatrice et destinées à la banque du débiteur."
+    },
+    "InstructionForNextAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement, auxquelles la banque suivante peut devoir donner suite. ||Utilisation : la banque suivante n'est pas nécessairement la banque du créancier.|L'instruction peut porter sur un niveau de service, être une instruction que la banque doit exécuter, ou être une information requise par la banque suivante."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement, fournies par la partie initiatrice et destinées à la banque du créancier."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fournit des informations relatives au traitement des informations de remise par l'une des banques de la chaîne de traitement de l'opération."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations structurées permettant la mise en correspondance, c'est-à-dire le rapprochement, d'un paiement avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptes clients."
+    }
+  }
+}

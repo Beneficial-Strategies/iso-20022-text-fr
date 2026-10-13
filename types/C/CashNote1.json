@@ -1,0 +1,21 @@
+{
+  "isoType": "CashNote1",
+  "definition": "Retrait ou dépôt d'une somme d'argent définie en billets.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type d'espèces."
+    },
+    "BoxReference": {
+      "definition": "Référence de la boîte contenant ces billets."
+    },
+    "NoteDenomination": {
+      "definition": "Indique la valeur faciale du billet, devise comprise, par exemple un billet de 50 euros."
+    },
+    "NumberOfNotes": {
+      "definition": "Indique le nombre de billets de même valeur faciale."
+    },
+    "Amount": {
+      "definition": "Indique le montant total pour cette valeur faciale de billet, c'est-à-dire la valeur faciale multipliée par le nombre de billets."
+    }
+  }
+}

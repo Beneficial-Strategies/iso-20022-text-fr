@@ -1,0 +1,14 @@
+{
+  "isoType": "Algorithm7Code",
+  "definition": "Algorithme de chiffrement asymétrique d'une clé de transport.",
+  "isoCodes": {
+    "ERSA": {
+      "name": "RSAEncryption",
+      "definition": "Algorithme de chiffrement RSA - (identifiant d'objet ASN.1 : rsaEncryption)."
+    },
+    "RSAO": {
+      "name": "RSAES-OAEP",
+      "definition": "Schéma de chiffrement RSA fondé sur le schéma Optimal Asymmetric Encryption (PKCS #1 version 2.1) - (identifiant d'objet ASN.1 : id-RSAES-OAEP)."
+    }
+  }
+}

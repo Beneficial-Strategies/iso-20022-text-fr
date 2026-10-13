@@ -1,0 +1,23 @@
+{
+  "isoType": "AdditionalBalanceInformation2",
+  "definition": "Position nette d'un avoir ségrégué d'un seul titre au sein de la position globale détenue sur le compte-titres, p. ex. le sous-solde par statut.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantité de titres dans le sous-solde."
+    },
+    "SubBalanceType": {
+      "definition": "Raison pour laquelle un titre n'est pas disponible, ou informations complémentaires sur l'instrument financier pour lequel le solde est donné, par exemple non enregistré, enregistré au nom d'un prête-nom."
+    },
+    "ExtendedSubBalanceType": {
+      "definition": "Raison pour laquelle un titre n'est pas disponible, ou informations complémentaires sur l'instrument financier pour lequel le solde est donné, par exemple non enregistré, enregistré au nom d'un prête-nom."
+    }
+  },
+  "isoRules": {
+    "SubBalanceTypeOrExtendedSubBalanceTypeRule": {
+      "definition": "SubBalanceType ou ExtendedSubBalanceType doit être présent, mais pas les deux."
+    },
+    "SubBalanceTypeOrExtendedSubBalanceTypeRuleNotBoth": {
+      "definition": "SubBalanceType ou ExtendedSubBalanceType doit être présent, mais pas les deux."
+    }
+  }
+}

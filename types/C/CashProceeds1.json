@@ -1,0 +1,15 @@
+{
+  "isoType": "CashProceeds1",
+  "definition": "Fournit des informations sur le produit en espèces.",
+  "isoElements": {
+    "PostingAmount": {
+      "definition": "Montant en espèces qui est comptabilisé."
+    },
+    "ReconciliationDetails": {
+      "definition": "Informations de rapprochement."
+    },
+    "AccountDetails": {
+      "definition": "Fournit des informations sur le compte titres débité."
+    }
+  }
+}

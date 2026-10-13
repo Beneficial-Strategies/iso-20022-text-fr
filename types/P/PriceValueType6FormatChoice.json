@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceValueType6FormatChoice",
+  "definition": "Choix de formats pour exprimer la valeur d'un prix.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard permettant de préciser la valeur d'un prix."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire permettant d'exprimer la valeur d'un prix."
+    }
+  }
+}

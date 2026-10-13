@@ -1,0 +1,12 @@
+{
+  "isoType": "Number23Choice",
+  "definition": "Choix du format du numéro.",
+  "isoElements": {
+    "Short": {
+      "definition": "Nombre de 3 chiffres au maximum, en texte numérique."
+    },
+    "Long": {
+      "definition": "Numéro de 35 caractères de texte au maximum, avec la possibilité d'indiquer un émetteur pour l'identification du numéro."
+    }
+  }
+}

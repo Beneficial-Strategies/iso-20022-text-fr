@@ -1,0 +1,27 @@
+{
+  "isoType": "IntraBalanceQueryCriteria10",
+  "definition": "Définit les critères selon lesquels les informations sont incluses.",
+  "isoElements": {
+    "CancellationRequestIdentification": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    },
+    "ProcessingStatus": {
+      "definition": "Fournit le statut de règlement d'une opération."
+    },
+    "CashAccount": {
+      "definition": "Compte dans lequel les espèces sont tenues."
+    },
+    "CashAccountOwner": {
+      "definition": "Partie titulaire du compte."
+    },
+    "CashAccountServicer": {
+      "definition": "Partie qui gère le compte espèces pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "MessageOriginator": {
+      "definition": "Partie à l'origine du message, si elle est distincte de l'émetteur."
+    },
+    "CreationDateTime": {
+      "definition": "Précise la date et l'heure de création du mouvement intra-solde."
+    }
+  }
+}

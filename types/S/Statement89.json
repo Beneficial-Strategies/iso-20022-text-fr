@@ -1,0 +1,15 @@
+{
+  "isoType": "Statement89",
+  "definition": "Définit les critères utilisés pour établir le rapport sur les positions des comptes-titres.",
+  "isoElements": {
+    "DateOrPeriod": {
+      "definition": "Date ou période du relevé."
+    },
+    "HistoricData": {
+      "definition": "Précise si les données sont historiques (vrai) ou actuelles (faux)."
+    },
+    "StatementType": {
+      "definition": "Type de solde sur lequel le relevé est établi."
+    }
+  }
+}

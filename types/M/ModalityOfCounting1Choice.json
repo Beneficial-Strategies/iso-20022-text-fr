@@ -1,0 +1,12 @@
+{
+  "isoType": "ModalityOfCounting1Choice",
+  "definition": "Modalité de comptabilisation sous forme de valeur de code prédéfinie ou propriétaire.",
+  "isoElements": {
+    "Code": {
+      "definition": "Modalité de comptabilisation exprimée sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Modalité de comptabilisation exprimée sous forme de code propriétaire."
+    }
+  }
+}

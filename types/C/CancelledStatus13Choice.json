@@ -1,0 +1,18 @@
+{
+  "isoType": "CancelledStatus13Choice",
+  "definition": "Motif du statut annulé.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    },
+    "Reason": {
+      "definition": "Motif du statut annulé."
+    },
+    "ExtendedReason": {
+      "definition": "Motif du statut annulé."
+    },
+    "DataSourceScheme": {
+      "definition": "Identification propriétaire du motif du statut annulé."
+    }
+  }
+}

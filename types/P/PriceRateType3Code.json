@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceRateType3Code",
+  "definition": "Précise le type de taux de prix.",
+  "isoCodes": {
+    "DISC": {
+      "name": "Décote",
+      "definition": "Prix exprimé en nombre de points de pourcentage en dessous du pair, par exemple, un prix avec décote de 2.0 % équivaut à un prix de 98 lorsque le pair est de 100."
+    },
+    "PREM": {
+      "name": "Prime",
+      "definition": "Prix exprimé en nombre de points de pourcentage au-dessus du pair, par exemple, un prix avec prime de 2.0 % équivaut à un prix de 102 lorsque le pair est de 100."
+    },
+    "PRCT": {
+      "name": "Pourcentage",
+      "definition": "Prix exprimé en pourcentage du pair."
+    },
+    "YIEL": {
+      "name": "Rendement",
+      "definition": "Prix exprimé sous forme de rendement."
+    }
+  }
+}

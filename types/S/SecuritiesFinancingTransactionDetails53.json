@@ -1,0 +1,134 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails53",
+  "definition": "Détails de la clôture de l'opération de financement sur titres.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "definition": "Identification non ambiguë de la transaction de financement sur titres sous-jacente, telle qu'attribuée par la partie instructrice. L'identification est commune à toutes les composantes de garantie (une ou plusieurs)."
+    },
+    "ClosingLegIdentification": {
+      "definition": "Identification non ambiguë de la seconde jambe de l'opération, telle que connue du titulaire du compte (ou de la partie instructrice agissant en son nom)."
+    },
+    "PoolIdentification": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identification attribuée par la banque teneur de compte permettant d'identifier sans ambiguïté un événement sur titres."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "definition": "Identification unique de l'opération de gestion tripartite des garanties du point de vue de l'agent tripartite/prestataire de services."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "definition": "Référence unique identifiant l'opération de gestion tripartite des garanties du point de vue du client."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Adresse blockchain ou portefeuille dans lequel sont conservés les actifs numériques. Il s'agit de l'équivalent du compte de conservation pour les actifs numériques."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lieu où les titres sont conservés, physiquement ou de manière notionnelle. Ce lieu peut être, par exemple, un dépositaire local, un dépositaire central de titres (CSD) ou un dépositaire central de titres international (ICSD)."
+    },
+    "PlaceOfTrade": {
+      "definition": "Marché sur lequel une opération de négociation a été exécutée."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrument financier représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantité totale de titres à régler."
+    },
+    "OpeningSettlementAmount": {
+      "definition": "Montant total à payer ou à recevoir en échange des titres à l'ouverture d'une opération de financement de titres."
+    },
+    "TerminationTransactionAmount": {
+      "definition": "Montant total à régler pour mettre fin à l'opération."
+    },
+    "OpeningSettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être livrés ou reçus."
+    },
+    "TerminationDate": {
+      "definition": "Date/heure de clôture ou date/heure d'échéance de l'opération."
+    },
+    "TradeDate": {
+      "definition": "Précise la date/l'heure d'exécution de la transaction."
+    },
+    "ExpectedSettlementDate": {
+      "definition": "Date/heure à laquelle l'expéditeur attend le règlement."
+    },
+    "ExpectedValueDate": {
+      "definition": "Pour les opérations contre paiement, date/heure de valeur à laquelle le teneur de compte s'attend à ce que le montant de règlement soit crédité ou débité."
+    },
+    "LateDeliveryDate": {
+      "definition": "Date et heure postérieures à la date de règlement spécifiée dans la transaction, utilisées pour les opérations de pool résultant des titres initiaux « To Be Assigned » (TBA)."
+    },
+    "RateChangeDate": {
+      "definition": "Date/heure à laquelle le changement de taux a eu lieu."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Précise le type d'opération de financement de titres, c'est-à-dire mise en pension, prise en pension, prêt de titres ou emprunt de titres."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Précise si le mouvement sur un compte-titres résulte d'une instruction de livraison ou de réception."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    },
+    "SettlementParameters": {
+      "definition": "Paramètres appliqués au règlement d'un transfert de titres."
+    },
+    "RateType": {
+      "definition": "Précise si le taux est fixe ou variable."
+    },
+    "VariableRateSupport": {
+      "definition": "Indice ou taux de référence utilisé avec la marge pour calculer le taux de rachat."
+    },
+    "RepurchaseRate": {
+      "definition": "Taux à utiliser pour recalculer le montant de rachat."
+    },
+    "StockLoanMargin": {
+      "definition": "Majoration en pourcentage sur la contrepartie d'un prêt, utilisée pour refléter le risque du prêteur."
+    },
+    "SecuritiesHaircut": {
+      "definition": "Décote ou facteur de valorisation du titre, exprimé en pourcentage."
+    },
+    "PricingRate": {
+      "definition": "Taux d'intérêt à payer sur le montant de l'opération, tel que convenu entre les contreparties."
+    },
+    "Spread": {
+      "definition": "Écart de rachat exprimé sous forme de taux ; marge au-dessus ou au-dessous d'un indice qui détermine le taux de rachat."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifie la chaîne des parties livreuses au règlement."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifie la chaîne des parties réceptrices au règlement."
+    },
+    "Investor": {
+      "definition": "Partie, personne physique ou organisation, dont les actifs sont investis."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires sur le traitement du règlement qui ne peuvent pas être incluses dans les champs structurés du message."
+    }
+  },
+  "isoRules": {
+    "TwoLegTransactionOpeningClosingRule": {
+      "definition": "Pour les opérations réglées en deux volets (financement de titres), les informations d'ouverture/initiation et de clôture/restitution de l'opération sont fournies par l'envoi de la combinaison suivante de codes SecuritiesMovementType et de codes SecuritiesFinancingTransactionType :||Ouverture de repo|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: Repo (REPU)|Clôture de repo|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: Repo (REPU)||Ouverture de reverse repo|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: ReverseRepo (RVPO)|Clôture de reverse repo|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: ReverseRepo (RVPO)||Initiation de prêt de titres|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)|Restitution de prêt de titres|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)||Initiation d'emprunt de titres|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)|Restitution d'emprunt de titres|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Sauf accord bilatéral entre l'expéditeur et le destinataire, si SettlementInstructionProcessingAdditionalDetails est présent, alors il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

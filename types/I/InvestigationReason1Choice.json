@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationReason1Choice",
+  "definition": "Précise le motif de l'enquête.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif d'ouverture de l'enquête, tel que publié dans l'ensemble externe de codes de motifs d'enquête."
+    },
+    "Proprietary": {
+      "definition": "Motif d'ouverture de l'enquête, sous une forme propriétaire."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "MeetingEntitlementNotificationV10",
+  "definition": "Portée|Le message MeetingEntitlementNotification est envoyé par un teneur de compte au titulaire du compte pour l'informer de son droit relatif à une assemblée.|Utilisation|Ce message est envoyé pour communiquer la quantité de titres détenue par un titulaire de compte. Le solde est indiqué pour les titres faisant l'objet de l'assemblée. Le message est également utilisé pour modifier un message MeetingEntitlementNotification envoyé précédemment. |Le message MeetingEntitlementNotification peut être envoyé soit avant la réception d'une instruction de vote pour confirmer le droit, soit après la réception d'une instruction de vote pour confirmer les détails de la personne qui assiste à l'assemblée. |Le message peut également être utilisé à la place d'une carte d'admission ou pour confirmer des droits dans le cas d'actions au porteur.|Cette définition de message est destinée à être utilisée avec le Business Application Header (BAH).",
+  "isoElements": {
+    "NotificationType": {
+      "definition": "Type de notification."
+    },
+    "PreviousEntitlementNotificationIdentification": {
+      "definition": "Identification du message de notification de droit à l'assemblée initial qui est modifié."
+    }
+  },
+  "isoRules": {
+    "PreviousEntitlementNotificationIdentificationRule": {
+      "definition": "Si NotificationType est REPL (Replacement), alors PreviousEntitlementNotificationIdentification doit être présent."
+    }
+  }
+}

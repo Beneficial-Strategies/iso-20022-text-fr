@@ -1,0 +1,18 @@
+{
+  "isoType": "MarketMakerProfile2",
+  "definition": "Profil de teneur de marché.",
+  "isoElements": {
+    "ContractPeriod": {
+      "definition": "Durée du contrat."
+    },
+    "Compliance": {
+      "definition": "Indique si le teneur de marché est tenu de respecter les exigences du contrat qu'il détient avec la bourse ou s'il est exempté de ces obligations."
+    },
+    "MaximumSpread": {
+      "definition": "Pourcentage de la variation entre la valeur minimale et la valeur maximale acceptées d'une action."
+    },
+    "Discount": {
+      "definition": "Taux d'escompte."
+    }
+  }
+}

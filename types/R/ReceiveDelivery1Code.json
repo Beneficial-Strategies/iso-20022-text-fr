@@ -1,0 +1,14 @@
+{
+  "isoType": "ReceiveDelivery1Code",
+  "definition": "Indique si l'opération de règlement est une livraison ou une réception.",
+  "isoCodes": {
+    "DELI": {
+      "name": "Livraison",
+      "definition": "Les instruments financiers seront débités du compte de conservation."
+    },
+    "RECE": {
+      "name": "Réception",
+      "definition": "Les instruments financiers seront crédités sur le compte de conservation."
+    }
+  }
+}

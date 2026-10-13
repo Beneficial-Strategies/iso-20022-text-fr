@@ -1,0 +1,9 @@
+{
+  "isoType": "IntraBalanceMovementCancellationRequestStatusAdviceV02",
+  "definition": "Le message IntraBalanceMovementCancellationRequestStatusAdvice est envoyé par une infrastructure de règlement à un titulaire de compte/demandeur pour l'informer du statut d'une demande d'annulation de mouvement intra-solde précédemment envoyée par le titulaire de compte/demandeur.||Utilisation :|Le message peut servir à :|- renvoyer un message précédemment envoyé (la sous-fonction du message est « Duplicate »)|- fournir à un tiers une copie d'un message à titre d'information (la sous-fonction du message est « Copy »)|- renvoyer à un tiers une copie d'un message à titre d'information (la sous-fonction du message est « CopyDuplicate »).",
+  "isoElements": {
+    "RequestReference": {
+      "definition": "Référence de la demande d'annulation du mouvement intra-solde initiale."
+    }
+  }
+}

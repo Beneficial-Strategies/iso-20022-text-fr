@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationServiceLevel1Choice",
+  "definition": "Précise le niveau de service d'une enquête.",
+  "isoElements": {
+    "Code": {
+      "definition": "Niveau de service de l'enquête, tel que publié dans un ensemble externe de codes de niveaux de service d'enquête."
+    },
+    "Proprietary": {
+      "definition": "Niveau de service de l'enquête, sous une forme propriétaire."
+    }
+  }
+}

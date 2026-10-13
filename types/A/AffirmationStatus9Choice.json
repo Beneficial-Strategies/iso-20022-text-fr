@@ -1,0 +1,12 @@
+{
+  "isoType": "AffirmationStatus9Choice",
+  "definition": "Choix de format pour le statut d'affirmation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fournit le statut de la transaction au niveau de la confirmation au moment où l'instruction de règlement a été envoyée."
+    },
+    "Proprietary": {
+      "definition": "Fournit le statut de la transaction au niveau de la confirmation au moment où l'instruction de règlement a été envoyée."
+    }
+  }
+}

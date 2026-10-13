@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDeactivationCancellationStatus1Choice",
+  "definition": "Choix entre les différents statuts d'une demande d'annulation de désactivation.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Fournit des informations sur le statut de traitement de la demande d'annulation."
+    },
+    "RejectedStatus": {
+      "definition": "Fournit des informations sur le statut de rejet."
+    }
+  }
+}

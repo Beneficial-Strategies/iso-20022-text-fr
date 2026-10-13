@@ -1,0 +1,114 @@
+{
+  "isoType": "PendingProcessingReason5Code",
+  "definition": "Précise le motif pour lequel l'opération/instruction est en attente ou en échec de règlement. Le règlement à la date de règlement instruite est encore possible, le statut est en attente. Le règlement à la date de règlement instruite n'est plus possible, le statut est en échec.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du teneur de compte. Elle sera traitée conformément à l'accord de service bilatéral entre le teneur de compte et le titulaire du compte."
+    },
+    "CAIS": {
+      "name": "En attente de titres",
+      "definition": "En attente d'instruments financiers provenant d'une opération sur titres ou d'une autre procédure, par exemple conversion, dématérialisation, échange, enregistrement, estampillage, fractionnement."
+    },
+    "DOCY": {
+      "name": "En attente de documents ou d'endossements de votre part",
+      "definition": "En attente de documents ou d'endossements de votre part."
+    },
+    "BLOC": {
+      "name": "Compte bloqué",
+      "definition": "Votre compte est bloqué ; aucune instruction ne peut être réglée sur le compte."
+    },
+    "MUNO": {
+      "name": "Montant de règlement multiple",
+      "definition": "La quantité instruite n'est pas un multiple d'un lot de règlement existant pour l'instrument financier."
+    },
+    "GLOB": {
+      "name": "Titres sous forme globale",
+      "definition": "Le règlement ne peut pas être exécuté ; les instruments financiers sont sous forme globale."
+    },
+    "PREA": {
+      "name": "Votre instruction est en suspens",
+      "definition": "Votre instruction est un préavis, c'est-à-dire uniquement pour appariement."
+    },
+    "YCOL": {
+      "name": "Insuffisance de garanties",
+      "definition": "Garanties insuffisantes sur votre compte pour exécuter l'instruction."
+    },
+    "COLL": {
+      "name": "Titres donnés en garantie",
+      "definition": "Les instruments financiers ne sont pas livrables car ils sont nantis en garantie."
+    },
+    "FLIM": {
+      "name": "Limite maximale pour l'étranger atteinte",
+      "definition": "Instruments financiers livrables insuffisants sur votre compte, la limite maximale applicable aux étrangers ayant été atteinte."
+    },
+    "NOFX": {
+      "name": "Aucune instruction de change",
+      "definition": "Une instruction de change de votre part est manquante."
+    },
+    "LACK": {
+      "name": "Défaut de titres",
+      "definition": "Instruments financiers insuffisants sur votre compte."
+    },
+    "LALO": {
+      "name": "Titres prêtés",
+      "definition": "Les instruments financiers sont prêtés."
+    },
+    "MONY": {
+      "name": "Fonds insuffisants",
+      "definition": "Fonds insuffisants sur votre compte."
+    },
+    "MINO": {
+      "name": "Montant de règlement minimal",
+      "definition": "La quantité instruite est inférieure à la quantité de règlement minimale existante pour l'instrument financier."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "DENO": {
+      "name": "Quantité livrable libellée indisponible",
+      "definition": "La quantité instruite ne correspond pas à la coupure disponible/livrable. Les titres physiques doivent être obtenus en quantités de coupures livrables."
+    },
+    "LIQU": {
+      "name": "Liquidité insuffisante en monnaie de banque centrale",
+      "definition": "La liquidité de la banque centrale est insuffisante."
+    },
+    "CERT": {
+      "name": "Numéros de certificats erronés",
+      "definition": "Erreur de numéro de certificat."
+    },
+    "NEXT": {
+      "name": "Traitement suivant",
+      "definition": "Le traitement suivant est lancé. Aucun problème de traitement en attente à signaler."
+    },
+    "PRSY": {
+      "name": "Système en suspens",
+      "definition": "L'opération a été suspendue/gelée par le système."
+    },
+    "CSDH": {
+      "name": "Blocage CSD",
+      "definition": "Le dépositaire central de titres place l'instruction en mode suspendu/gelé/préavis."
+    },
+    "CDEL": {
+      "name": "Livraison conditionnelle",
+      "definition": "L'instruction est en mode suspendu/gelé/préavis car elle remplit des règles prédéfinies de livraison conditionnelle de la plateforme de l'infrastructure de marché pour la livraison conditionnelle."
+    },
+    "CVAL": {
+      "name": "Validation CSD",
+      "definition": "L'instruction est en mode suspendu/gelé/préavis car elle remplit des conditions prédéfinies d'un type de traitement de restriction de la plateforme de l'infrastructure de marché."
+    },
+    "CDLR": {
+      "name": "Livraison conditionnelle en attente de libération",
+      "definition": "L'instruction est en mode suspendu/gelé/préavis. La plateforme de l'infrastructure de marché attend une libération."
+    },
+    "INBC": {
+      "name": "Décompte de numéros incomplet",
+      "definition": "Toutes les instructions faisant partie d'un groupe n'ont pas été reçues."
+    },
+    "CDAC": {
+      "name": "Livraison conditionnelle en attente d'annulation",
+      "definition": "En attente de l'annulation par l'une des parties."
+    }
+  }
+}

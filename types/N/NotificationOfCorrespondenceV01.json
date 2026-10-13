@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationOfCorrespondenceV01",
+  "definition": "Portée|Le message NotificationOfCorrespondence est envoyé par l'expéditeur au destinataire pour lui notifier un événement ou une information qui concerne les deux parties.||Utilisation|Le message NotificationOfCorrespondence ne doit être utilisé que pour communiquer des événements ou des informations lorsque l'expéditeur n'attend aucune réponse du destinataire."
+}

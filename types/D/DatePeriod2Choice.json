@@ -1,0 +1,15 @@
+{
+  "isoType": "DatePeriod2Choice",
+  "definition": "Période de temps définie par une date de début et une date de fin.",
+  "isoElements": {
+    "FromDate": {
+      "definition": "Date de début de la plage."
+    },
+    "ToDate": {
+      "definition": "Date de fin de la plage."
+    },
+    "FromToDate": {
+      "definition": "Période de temps comprise entre une date de début et une date de fin."
+    }
+  }
+}

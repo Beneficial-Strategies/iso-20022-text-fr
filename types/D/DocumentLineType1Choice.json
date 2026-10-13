@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentLineType1Choice",
+  "definition": "Précise le type d'identification de la ligne du document.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'identification de la ligne, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type du document de remise."
+    }
+  }
+}

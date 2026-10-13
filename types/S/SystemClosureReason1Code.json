@@ -1,0 +1,26 @@
+{
+  "isoType": "SystemClosureReason1Code",
+  "definition": "Précise le motif d'inactivité du système.",
+  "isoCodes": {
+    "BHOL": {
+      "name": "Jour férié bancaire",
+      "definition": "Le système est fermé en raison d'un jour férié bancaire."
+    },
+    "SMTN": {
+      "name": "Maintenance du système",
+      "definition": "Le système est fermé pour des raisons de maintenance."
+    },
+    "NOOP": {
+      "name": "Aucune opération",
+      "definition": "Le système ne traite aucune opération."
+    },
+    "RCVR": {
+      "name": "Reprise",
+      "definition": "Le système n'est pas opérationnel pendant les opérations de reprise."
+    },
+    "ADTW": {
+      "name": "Fenêtre d'indisponibilité autorisée",
+      "definition": "Le système n'est pas opérationnel pendant les fenêtres d'indisponibilité autorisées."
+    }
+  }
+}

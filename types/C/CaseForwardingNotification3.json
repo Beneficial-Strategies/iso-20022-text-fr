@@ -1,0 +1,9 @@
+{
+  "isoType": "CaseForwardingNotification3",
+  "definition": "Statut d'un dossier résultant d'une affectation de dossier.",
+  "isoElements": {
+    "Justification": {
+      "definition": "Justification de l'action de transmission."
+    }
+  }
+}

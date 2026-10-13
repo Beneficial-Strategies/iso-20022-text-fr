@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMTransaction30",
+  "definition": "Informations sur le rapprochement.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "definition": "Type d'opération logique ou physique sur le ATM pour laquelle les compteurs sont calculés."
+    },
+    "TransactionIdentification": {
+      "definition": "Identification de l'opération de rapprochement."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identification de la période de rapprochement attribuée par le ATM."
+    },
+    "Cassette": {
+      "definition": "Informations sur les cassettes du ATM."
+    }
+  }
+}

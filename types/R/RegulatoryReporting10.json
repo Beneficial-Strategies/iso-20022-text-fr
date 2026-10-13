@@ -1,0 +1,15 @@
+{
+  "isoType": "RegulatoryReporting10",
+  "definition": "Informations requises en raison d'exigences réglementaires et/ou légales.",
+  "isoElements": {
+    "DebitCreditReportingIndicator": {
+      "definition": "Identifie si les informations de déclaration réglementaire s'appliquent au côté débit, au côté crédit ou aux deux côtés, débit et crédit, de l'opération."
+    },
+    "Authority": {
+      "definition": "Entité exigeant les informations de déclaration réglementaire."
+    },
+    "Details": {
+      "definition": "Ensemble d'éléments servant à fournir des détails sur les informations de déclaration réglementaire."
+    }
+  }
+}

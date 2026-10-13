@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityOrCode1Choice",
+  "definition": "Choix entre une quantité ou une valeur de code.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantité exprimée sous forme de nombre."
+    },
+    "Code": {
+      "definition": "Quantité exprimée sous forme de code."
+    }
+  }
+}

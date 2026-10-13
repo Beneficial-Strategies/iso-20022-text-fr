@@ -1,0 +1,4 @@
+{
+  "isoType": "DuplicateV07",
+  "definition": "Portée|Le message Duplicate est utilisé par les établissements financiers, avec leurs propres agences et/ou avec d'autres établissements financiers avec lesquels ils ont conclu des accords bilatéraux. Il permet d'échanger des duplicata d'instructions de paiement.|Utilisation|Ce message doit être envoyé en réponse à un message RequestForDuplicate.|L'élément Duplicate Data doit contenir un document XML bien formé. Cela signifie que les caractères spéciaux XML tels que '<' doivent être utilisés conformément aux critères de bonne formation XML."
+}

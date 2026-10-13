@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason33Choice",
+  "definition": "Précise le motif de la demande d'annulation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif de la demande d'annulation, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Motif de la demande d'annulation, sous forme propriétaire."
+    }
+  }
+}

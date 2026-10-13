@@ -1,0 +1,82 @@
+{
+  "isoType": "InvestmentFundFee3Code",
+  "definition": "Précise le type de service pour lequel des frais sont demandés ou payés.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Commission de sortie",
+      "definition": "Frais payés par l'investisseur au fonds ou à la société de gestion du fonds lors du rachat."
+    },
+    "BRKF": {
+      "name": "Frais de courtage",
+      "definition": "Frais payés à un courtier pour les services fournis."
+    },
+    "CDSC": {
+      "name": "Frais de vente différés conditionnels",
+      "definition": "Frais de vente différés."
+    },
+    "CBCH": {
+      "name": "Frais de la banque correspondante",
+      "definition": "Dans les fonds d'investissement, frais de la banque correspondante pour le transfert de fonds."
+    },
+    "DLEV": {
+      "name": "Prélèvement de dilution",
+      "definition": "Dans les fonds d'investissement, charge à payer par l'investisseur couvrant les écarts entre cours acheteur et vendeur et les frais de négociation des investissements sous-jacents. Le prélèvement de dilution est versé au fonds au profit des autres porteurs de parts."
+    },
+    "FEND": {
+      "name": "Commission d'entrée",
+      "definition": "Frais payés par l'investisseur au fonds ou à la société de gestion du fonds lors de la souscription."
+    },
+    "INIT": {
+      "name": "Frais initiaux",
+      "definition": "Frais payés lors de la première souscription."
+    },
+    "PREM": {
+      "name": "Prime",
+      "definition": "Dans les fonds d'investissement, majoration convenue à l'avance du montant de la transaction, fondée sur la valeur liquidative publiée."
+    },
+    "CHAR": {
+      "name": "Frais de prestation de service",
+      "definition": "Frais payés par l'investisseur à un distributeur, un intermédiaire ou un autre prestataire de services pour la fourniture de services financiers."
+    },
+    "SWIT": {
+      "name": "Arbitrage",
+      "definition": "Dans les fonds d'investissement, frais liés à une opération d'arbitrage."
+    },
+    "UCIC": {
+      "name": "Commission UCITS",
+      "definition": "Frais payés par l'investisseur à la société du fonds pour les ordres de souscription et de rachat."
+    },
+    "COMM": {
+      "name": "Commission",
+      "definition": "Montant versé par le fonds à un tiers."
+    },
+    "SHIP": {
+      "name": "Frais d'expédition",
+      "definition": "Frais d'expédition, y compris l'assurance des titres."
+    },
+    "POST": {
+      "name": "Frais postaux",
+      "definition": "Frais payés pour l'affranchissement postal."
+    },
+    "CDPL": {
+      "name": "Commission de placement",
+      "definition": "Montant de trésorerie dû à un intermédiaire pour la vente d'un produit ou de services à un tiers."
+    },
+    "ADDF": {
+      "name": "Frais supplémentaires",
+      "definition": "Frais supplémentaires non couverts par un autre type de frais."
+    },
+    "REGF": {
+      "name": "Frais réglementaires",
+      "definition": "Frais prélevés par une autorité de régulation, par exemple les redevances des autorités boursières."
+    },
+    "PENA": {
+      "name": "Pénalité",
+      "definition": "Frais prélevés auprès de l'investisseur en cas de rachat anticipé du fonds."
+    },
+    "NTWK": {
+      "name": "Frais de réseau",
+      "definition": "Frais de réseau attribués à une transaction sur un réseau DLT."
+    }
+  }
+}

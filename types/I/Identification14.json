@@ -1,0 +1,9 @@
+{
+  "isoType": "Identification14",
+  "definition": "Identifiant unique d'un document, d'un message ou d'une opération.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiant unique d'un document, d'un message ou d'une opération."
+    }
+  }
+}

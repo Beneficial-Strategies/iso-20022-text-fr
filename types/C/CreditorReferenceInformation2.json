@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditorReferenceInformation2",
+  "definition": "Informations de référence fournies par le créancier pour permettre l'identification des documents sous-jacents.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type de référence du créancier."
+    },
+    "Reference": {
+      "definition": "Référence unique, attribuée par le créancier, permettant de désigner sans ambiguïté l'opération de paiement.||Utilisation : si elle est disponible, la partie initiatrice devrait fournir cette référence dans les informations de remise structurées, afin de permettre le rapprochement par le créancier à la réception du montant.||Si le contexte métier exige l'utilisation d'une référence du créancier ou d'une identification de remise de paiement, et qu'un seul identifiant peut être transmis tout au long de la chaîne, la référence du créancier ou l'identification de remise de paiement devrait être indiquée dans l'identification de bout en bout de l'opération."
+    }
+  }
+}

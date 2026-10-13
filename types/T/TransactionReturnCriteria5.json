@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionReturnCriteria5",
+  "definition": "Définit les critères utilisés pour établir un rapport sur une opération de paiement.",
+  "isoElements": {
+    "PaymentToReturnCriteria": {
+      "definition": "Destination du paiement (qu'il s'agisse d'un membre, d'un système ou des deux)."
+    },
+    "PaymentFromReturnCriteria": {
+      "definition": "Origine du paiement (qu'il s'agisse d'un membre, d'un système ou des deux)."
+    },
+    "AccountCashEntryReturnCriteria": {
+      "definition": "Définit les critères utilisés pour établir un rapport sur l'écriture de trésorerie."
+    },
+    "PaymentReturnCriteria": {
+      "definition": "Définit les critères utilisés pour établir un rapport sur le paiement."
+    }
+  }
+}

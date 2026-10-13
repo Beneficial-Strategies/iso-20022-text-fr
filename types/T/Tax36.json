@@ -1,0 +1,12 @@
+{
+  "isoType": "Tax36",
+  "definition": "Informations sur la fiscalité.",
+  "isoElements": {
+    "DateOrPeriod": {
+      "definition": "Date ou trimestre de l’année fiscale sur lequel repose ou est calculé l’impôt relatif à l’instrument financier."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur la fiscalité."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionDate5",
+  "definition": "Précise les dates d'une opération sur titres.",
+  "isoElements": {
+    "ForeignExchangeRateFixingDate": {
+      "definition": "Date et heure auxquelles un taux de change sera déterminé."
+    },
+    "ValueDate": {
+      "definition": "Date/heure à laquelle les actifs deviennent disponibles pour le titulaire du compte (dans une écriture de crédit), ou cessent d'être disponibles pour le titulaire du compte (dans une écriture de débit)."
+    },
+    "PaymentDate": {
+      "definition": "Date et heure à laquelle la distribution doit avoir lieu (numéraire et/ou titres)."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Date et heure à laquelle un paiement peut être effectué, par exemple si la date de paiement est un jour non ouvrable ou pour indiquer la date du premier paiement d'une offre."
+    }
+  }
+}

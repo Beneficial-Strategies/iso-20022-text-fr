@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemIdentification2Choice",
+  "definition": "Informations utilisées pour identifier un système de compensation de trésorerie.",
+  "isoElements": {
+    "MarketInfrastructureIdentification": {
+      "definition": "Service de compensation sélectionné pour une opération."
+    },
+    "Country": {
+      "definition": "Pays dans lequel le système est situé."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Role8Choice",
+  "definition": "Choix du format du rôle d'une partie.",
+  "isoElements": {
+    "Code": {
+      "definition": "Rôle de la partie dans l'activité exprimé sous la forme d'un code."
+    },
+    "Proprietary": {
+      "definition": "Rôle de la partie dans l'activité, exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

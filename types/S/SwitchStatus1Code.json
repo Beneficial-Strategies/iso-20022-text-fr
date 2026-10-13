@@ -1,0 +1,42 @@
+{
+  "isoType": "SwitchStatus1Code",
+  "definition": "Précise le statut d'un changement de compte donné.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Accepté",
+      "definition": "Le changement de compte est accepté.||Utilisation : le statut accepté doit être utilisé lorsque le service de changement de compte reçoit et valide une demande de réponse d'information acceptant le changement."
+    },
+    "BTRQ": {
+      "name": "Transfert de solde demandé",
+      "definition": "Le transfert du solde du compte est demandé.||Utilisation : le statut de transfert de solde demandé doit être utilisé lorsque le service de changement de compte reçoit et valide une demande de transfert de solde."
+    },
+    "BTRS": {
+      "name": "Réponse au transfert de solde",
+      "definition": "Le transfert de solde a reçu une réponse.||Utilisation : le statut de transfert de solde ayant reçu une réponse doit être utilisé lorsque le service de changement de compte reçoit et valide une demande d'accusé de réception de transfert de solde."
+    },
+    "COMP": {
+      "name": "Terminé",
+      "definition": "Le changement de compte est terminé.||Utilisation : le statut terminé doit être utilisé lorsque le service de changement de compte reçoit et valide une demande de notification de fin de changement de compte."
+    },
+    "REDT": {
+      "name": "Redirection",
+      "definition": "Demande de redirection. ||Utilisation : le statut de redirection doit être utilisé lorsque le service de changement de compte reçoit et valide la première demande de redirection."
+    },
+    "REDE": {
+      "name": "Fin de la redirection",
+      "definition": "Redirection terminée à la fin de la période de redirection. ||Utilisation : indique la cessation de la redirection de compte par un service particulier."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "Le changement de compte est rejeté. ||Utilisation : le statut rejeté doit être utilisé lorsque le service de changement de compte reçoit et valide une demande de réponse d'information rejetant le changement de compte."
+    },
+    "REQU": {
+      "name": "Demandé",
+      "definition": "Des informations sont demandées pour le changement de compte. ||Utilisation : le statut demandé doit être utilisé lorsque le service de changement de compte reçoit et valide une demande d'information."
+    },
+    "TMTN": {
+      "name": "Résiliation",
+      "definition": "Le changement de compte est résilié. ||Utilisation : le statut résilié doit être utilisé lorsque le service de changement de compte reçoit et valide une demande de résiliation du changement."
+    }
+  }
+}

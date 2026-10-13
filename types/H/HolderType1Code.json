@@ -1,0 +1,14 @@
+{
+  "isoType": "HolderType1Code",
+  "definition": "Indique un type de titulaire.",
+  "isoCodes": {
+    "TFEE": {
+      "name": "Cessionnaire",
+      "definition": "Le titulaire est la partie cessionnaire. La partie cessionnaire peut aussi être appelée partie acquéreuse."
+    },
+    "TFOR": {
+      "name": "Cédant",
+      "definition": "Le titulaire est la partie cédante. La partie cessionnaire peut aussi être appelée partie cédante."
+    }
+  }
+}

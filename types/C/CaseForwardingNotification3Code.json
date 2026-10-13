@@ -1,0 +1,30 @@
+{
+  "isoType": "CaseForwardingNotification3Code",
+  "definition": "Précise l'action demandée lors de la transmission d'un dossier.",
+  "isoCodes": {
+    "FTHI": {
+      "name": "Investigation complémentaire",
+      "definition": "Le dossier a été transmis à la partie suivante pour complément d'enquête."
+    },
+    "CANC": {
+      "name": "Demande d'annulation",
+      "definition": "Le dossier a été transmis à la partie suivante pour annulation."
+    },
+    "MODI": {
+      "name": "Demande de modification",
+      "definition": "Le dossier a été transmis à la partie suivante pour modification."
+    },
+    "DTAU": {
+      "name": "Demande d'autorisation de débit",
+      "definition": "Le dossier a été transmis afin d'obtenir l'autorisation de débiter."
+    },
+    "SAIN": {
+      "name": "Informations complémentaires envoyées",
+      "definition": "Des informations complémentaires ont été transmises au créancier."
+    },
+    "MINE": {
+      "name": "Dossier d'investigation interne",
+      "definition": "Le dossier est traité par la partie désignée."
+    }
+  }
+}

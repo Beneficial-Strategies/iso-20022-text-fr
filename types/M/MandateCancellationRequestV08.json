@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateCancellationRequestV08",
+  "definition": "Portée|Le message MandateCancellationRequest est envoyé par l'initiateur de la demande à sa banque. L'initiateur peut être soit le débiteur, soit le créancier.|Le message MandateCancellationRequest est transmis par la banque de l'initiateur à la banque de la contrepartie.|Un message MandateCancellationRequest sert à demander l'annulation d'un mandat existant. S'il est accepté, ce message MandateCancellationRequest, ainsi que le message MandateAcceptanceReport qui en confirme l'acceptation, sera considéré comme une annulation valide d'un mandat existant, convenue par toutes les parties.|Utilisation|Le message MandateCancellationRequest peut contenir une ou plusieurs demandes d'annulation d'un mandat donné.|Les messages peuvent être échangés entre le créancier et la banque du créancier, ou entre le débiteur et la banque du débiteur, ainsi qu'entre la banque du créancier et la banque du débiteur.|Le message peut également être utilisé par une partie initiatrice habilitée à envoyer le message pour le compte du créancier ou du débiteur.|Le message MandateCancellationRequest peut être utilisé dans des scénarios nationaux et transfrontaliers.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportItemStatus1Choice",
+  "definition": "Fournit le statut d'acceptation de l'élément d'avoir.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "Le relevé est accepté."
+    },
+    "AcceptedWithException": {
+      "definition": "Le relevé est accepté avec une ou plusieurs exceptions."
+    },
+    "Rejected": {
+      "definition": "Le relevé est rejeté."
+    }
+  }
+}

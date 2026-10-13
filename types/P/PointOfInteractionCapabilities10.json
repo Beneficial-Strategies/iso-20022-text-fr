@@ -1,0 +1,42 @@
+{
+  "isoType": "PointOfInteractionCapabilities10",
+  "definition": "Capacités du terminal de ATM.",
+  "isoElements": {
+    "CardReadData": {
+      "definition": "Capacités de lecture de carte du ATM effectuant l'opération."
+    },
+    "CardWriteData": {
+      "definition": "Capacités d'écriture de carte du terminal effectuant l'opération."
+    },
+    "Authentication": {
+      "definition": "Capacités d'authentification du client et de la carte disponibles sur le ATM."
+    },
+    "PINLengthCapabilities": {
+      "definition": "Nombre maximal de chiffres que le ATM peut accepter lorsque le titulaire de la carte saisit son code PIN."
+    },
+    "ApprovalCodeLength": {
+      "definition": "Nombre maximal de caractères du code d'approbation que le ATM peut gérer."
+    },
+    "MaxScriptLength": {
+      "definition": "Longueur maximale des données, en octets, qu'un émetteur de carte peut renvoyer à l'ICC au niveau du terminal."
+    },
+    "CardCaptureCapable": {
+      "definition": "Vrai si le ATM est capable de capturer la carte.|Utilisation : en l'absence de valeur, la valeur par défaut est Vrai."
+    },
+    "WithdrawalMedia": {
+      "definition": "Type de supports que le ATM est capable de distribuer."
+    },
+    "DepositedMedia": {
+      "definition": "Type de supports que le client peut déposer dans le ATM."
+    },
+    "MessageCapabilities": {
+      "definition": "Capacités du terminal à afficher les capacités d'opérations interactives telles que DCC, frais, comptes, etc. que le terminal peut prendre en charge, ou à imprimer des messages à l'intention du titulaire de la carte et du commerçant."
+    },
+    "InteractiveTransactions": {
+      "definition": "Capacités d'opérations interactives telles que DCC, frais, comptes, etc. que le terminal peut prendre en charge."
+    },
+    "ReceiptPrinting": {
+      "definition": "Indique si le terminal peut imprimer un reçu (c'est-à-dire que l'appareil est fonctionnel et qu'il dispose de papier).|Utilisation : en l'absence de valeur, la valeur par défaut est Vrai."
+    }
+  }
+}

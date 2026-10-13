@@ -1,0 +1,21 @@
+{
+  "isoType": "CashBalanceReturnCriteria2",
+  "definition": "Définit les critères utilisés pour établir le relevé du solde de trésorerie.",
+  "isoElements": {
+    "TypeIndicator": {
+      "definition": "Indique si le type de solde est demandé."
+    },
+    "StatusIndicator": {
+      "definition": "Indique si le statut du solde est demandé."
+    },
+    "ValueDateIndicator": {
+      "definition": "Indique si la date de valeur est demandée."
+    },
+    "ProcessingDateIndicator": {
+      "definition": "Indique si la date de traitement est demandée."
+    },
+    "NumberOfPaymentsIndicator": {
+      "definition": "Indique si le nombre de paiements est demandé."
+    }
+  }
+}

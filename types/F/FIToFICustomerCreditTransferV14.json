@@ -1,0 +1,36 @@
+{
+  "isoType": "FIToFICustomerCreditTransferV14",
+  "definition": "Portée|Le message FinancialInstitutionToFinancialInstitutionCustomerCreditTransfer est envoyé par la banque du débiteur à la banque du créancier, directement ou par l'intermédiaire d'autres agents et/ou d'un système de compensation et de règlement des paiements. Il est utilisé pour transférer des fonds d'un compte de débiteur à un créancier.|Utilisation|Le message FIToFICustomerCreditTransfer est échangé entre agents et peut contenir une ou plusieurs instructions de virement de client.|Le message FIToFICustomerCreditTransfer n'autorise pas le regroupement : un bloc CreditTransferTransactionInformation doit être présent pour chaque opération de virement.|Le message FIToFICustomerCreditTransfer peut être utilisé de différentes manières :|- Si l'agent instructeur et l'agent instruit souhaitent utiliser leur relation de compte directe dans la devise du virement, le message contient à la fois les fonds du ou des virements de client et les détails du paiement ;|- Si l'agent instructeur et l'agent instruit n'ont pas de relation de compte directe dans la devise du virement, ou ne souhaitent pas utiliser leur relation de compte, d'autres agents (de remboursement) interviendront pour couvrir le ou les virements de client. Le message FIToFICustomerCreditTransfer ne contient alors que les détails du paiement et l'agent instructeur doit couvrir le virement de client en envoyant un message FinancialInstitutionCreditTransfer à un agent de remboursement. Cette méthode de paiement est appelée méthode de couverture (Cover) ;|- Si plus de deux établissements financiers interviennent dans la chaîne de paiement et que le message FIToFICustomerCreditTransfer est envoyé d'un établissement financier au suivant dans la chaîne de paiement, la méthode de paiement est appelée méthode en série (Serial).|Le message FIToFICustomerCreditTransfer peut être utilisé dans des scénarios nationaux et transfrontaliers.",
+  "isoRules": {
+    "InstructedAgentRule": {
+      "definition": "Si GroupHeader/InstructedAgent est présent, CreditTransferTransactionInformation/InstructedAgent n'est pas autorisé."
+    },
+    "InstructingAgentRule": {
+      "definition": "Si GroupHeader/InstructingAgent est présent, CreditTransferTransactionInformation/InstructingAgent n'est pas autorisé."
+    },
+    "TotalInterbankSettlementAmountRule": {
+      "definition": "Si GroupHeader/TotalInterbankSettlementAmount est présent, toutes les occurrences de CreditTransferTransactionInformation/InterbankSettlementAmount doivent avoir la même devise que GroupHeader/TotalInterbankSettlementAmount."
+    },
+    "TotalInterbankSettlementAmountAndSumRule": {
+      "definition": "Si GroupHeader/TotalInterbankSettlementAmount est présent, il doit être égal à la somme de toutes les occurrences de CreditTransferTransactionInformation/InterbankSettlementAmount."
+    },
+    "GroupHeaderInterbankSettlementDateRule": {
+      "definition": "Si GroupHeader/InterbankSettlementDate est présent, CreditTransferTransactionInformation/InterbankSettlementDate n'est pas autorisé."
+    },
+    "TransactionInterbankSettlementDateRule": {
+      "definition": "Si GroupHeader/InterbankSettlementDate n'est pas présent, CreditTransferTransactionInformation/InterbankSettlementDate doit être présent."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "Si GroupHeader/PaymentTypeInformation est présent, CreditTransferTransactionInformation/PaymentTypeInformation n'est pas autorisé."
+    },
+    "NumberOfTransactionsAndCreditTransfersRule": {
+      "definition": "GroupHeader/NumberOfTransactions doit être égal au nombre d'occurrences de CreditTransferTransactionInformation."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    },
+    "GroupHeaderExpiryDateTimeRule": {
+      "definition": "Si GroupHeader/ExpiryDateTime est présent, CreditTransferTransactionInformation/AdditionalDateTime/ExpiryDateTime n'est pas autorisé."
+    }
+  }
+}

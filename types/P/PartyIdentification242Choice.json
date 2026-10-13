@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification242Choice",
+  "definition": "Choix entre un BIC, un nom et une adresse ou un LEI pour identifier une partie.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Identification de la partie exprimée par un nom, avec une adresse facultative et un identifiant alternatif facultatif."
+    },
+    "AnyBIC": {
+      "definition": "Identification de la partie exprimée sous la forme d'un BIC et d'un identifiant alternatif facultatif."
+    },
+    "PartyIdentification": {
+      "definition": "Identification de la partie spécifiée sous forme de liste de valeurs par élément."
+    }
+  }
+}

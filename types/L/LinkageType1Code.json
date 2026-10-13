@@ -1,0 +1,18 @@
+{
+  "isoType": "LinkageType1Code",
+  "definition": "Type de lien demandé.",
+  "isoCodes": {
+    "LINK": {
+      "name": "Lier",
+      "definition": "La demande vise à lier les opérations référencées."
+    },
+    "UNLK": {
+      "name": "Dissocier",
+      "definition": "La demande vise à délier les opérations référencées."
+    },
+    "SOFT": {
+      "name": "Souple",
+      "definition": "La demande vise à établir un lien souple entre les opérations référencées."
+    }
+  }
+}

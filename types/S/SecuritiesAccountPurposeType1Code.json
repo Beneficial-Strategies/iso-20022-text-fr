@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesAccountPurposeType1Code",
+  "definition": "Précise la finalité du compte-titres.",
+  "isoCodes": {
+    "MARG": {
+      "name": "Marge",
+      "definition": "Le compte est utilisé lorsque le financement est assuré par le courtier."
+    },
+    "SHOR": {
+      "name": "Vente à découvert",
+      "definition": "Le compte est utilisé pour les ordres de vente à découvert."
+    },
+    "ABRD": {
+      "name": "À l'étranger",
+      "definition": "Le compte est situé dans un établissement financier en dehors du pays où l'opération a lieu."
+    },
+    "CEND": {
+      "name": "Centralisé",
+      "definition": "Le compte et toutes ses positions associées sont détenus en un seul lieu."
+    },
+    "DVPA": {
+      "name": "Livraison contre paiement en espèces",
+      "definition": "Le compte est utilisé pour le règlement à la livraison, ou pour un encaissement sur la base d'une livraison."
+    },
+    "PHYS": {
+      "name": "Physique",
+      "definition": "Le compte est utilisé pour la conservation physique nationale."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionOption43Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type de l'option de l'événement sur titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type d'option de l'événement sur titres."
+    }
+  }
+}

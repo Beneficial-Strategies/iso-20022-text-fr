@@ -1,0 +1,26 @@
+{
+  "isoType": "InvestmentFundTransactionInType1Code",
+  "definition": "Précise le type d'opération sur fonds d'investissement qui entraîne un mouvement de trésorerie entrant dans un fonds.",
+  "isoCodes": {
+    "SUBS": {
+      "name": "Souscription",
+      "definition": "L'opération est une souscription à un fonds d'investissement."
+    },
+    "SWII": {
+      "name": "Arbitrage entrant",
+      "definition": "L'opération est la composante de souscription de l'exécution d'un ordre d'arbitrage."
+    },
+    "INSP": {
+      "name": "En nature",
+      "definition": "L'opération est un apport en nature (InSpecie)."
+    },
+    "CROI": {
+      "name": "Transfert entrant",
+      "definition": "L'opération est un transfert entrant entre fonds (cross-in)."
+    },
+    "RDIV": {
+      "name": "Réinvestissement du dividende",
+      "definition": "L'opération est un réinvestissement de dividende."
+    }
+  }
+}

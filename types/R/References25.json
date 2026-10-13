@@ -1,0 +1,15 @@
+{
+  "isoType": "References25",
+  "definition": "Fournit un ensemble d'identifications permettant de référencer une opération de règlement-livraison de titres.",
+  "isoElements": {
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la banque teneur de compte."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par le gestionnaire de l'opération autre que le titulaire du compte, le teneur de compte et l'infrastructure de marché autre qu'un CSD."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceOrOperationalError12Choice",
+  "definition": "Choix entre les données du relevé ou une erreur opérationnelle.",
+  "isoElements": {
+    "Modifications": {
+      "definition": "Précisions sur les modifications intra-solde individuelles."
+    },
+    "OperationalError": {
+      "definition": "Erreur opérationnelle résultant d'un rejet."
+    }
+  }
+}

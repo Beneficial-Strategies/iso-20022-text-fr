@@ -1,0 +1,48 @@
+{
+  "isoType": "CashWithdrawalRequest1",
+  "definition": "Indique le détail d'une demande de retrait d'espèces.",
+  "isoElements": {
+    "OrderReference": {
+      "definition": "Identification unique de l'ordre."
+    },
+    "CashReceiverReference": {
+      "definition": "Identification unique, attribuée par le destinataire des espèces pour le retrait d'espèces."
+    },
+    "AmendmentIndicator": {
+      "definition": "Indique si ce message modifie un message de demande antérieur.||Lorsque la valeur Yes est indiquée, OrderReference et CashReceiverReference doivent rester identiques à ceux du message d'origine.||Lorsque cet élément n'est pas utilisé, le message n'est pas considéré comme une modification."
+    },
+    "RequestedValueDate": {
+      "definition": "Date à laquelle le destinataire des espèces demande que les espèces soient retirées du compte."
+    },
+    "Account": {
+      "definition": "Identification non ambiguë du compte sur lequel les espèces seront retirées."
+    },
+    "CashWithdrawal": {
+      "definition": "Fournit le détail d'un retrait d'espèces pour une somme d'argent en billets et/ou en pièces."
+    },
+    "DeliveryMethod": {
+      "definition": "Indique le mode de livraison du retrait d'espèces."
+    },
+    "DeliveryAddress": {
+      "definition": "Indique l'adresse à laquelle le retrait d'espèces est livré."
+    },
+    "WithdrawalContact": {
+      "definition": "Partie qui récupère les espèces retirées."
+    },
+    "SecureCarrierName": {
+      "definition": "Identification du transporteur de fonds."
+    },
+    "SecureCarrierReference": {
+      "definition": "Identification unique, attribuée par le transporteur de fonds pour le retrait."
+    },
+    "InsuranceIndicator": {
+      "definition": "Indique si le retrait en transit est assuré.||Lorsque cet élément n'est pas utilisé, le retrait n'est pas assuré."
+    },
+    "WithdrawalAddress": {
+      "definition": "Indique l'adresse d'où le retrait d'espèces est expédié."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le retrait d'espèces."
+    }
+  }
+}

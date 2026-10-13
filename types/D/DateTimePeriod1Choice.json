@@ -1,0 +1,15 @@
+{
+  "isoType": "DateTimePeriod1Choice",
+  "definition": "Choix entre différents motifs de date et heure.",
+  "isoElements": {
+    "FromDateTime": {
+      "definition": "Date et heure de début de la plage."
+    },
+    "ToDateTime": {
+      "definition": "Date et heure de fin de la plage."
+    },
+    "DateTimeRange": {
+      "definition": "Plage de temps comprise entre une date et heure de début et une date et heure de fin."
+    }
+  }
+}

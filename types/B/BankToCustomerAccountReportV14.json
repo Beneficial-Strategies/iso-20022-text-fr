@@ -1,0 +1,12 @@
+{
+  "isoType": "BankToCustomerAccountReportV14",
+  "definition": "Domaine d'application|Le message BankToCustomerAccountReport est envoyé par le teneur de compte au titulaire du compte ou à une partie autorisée par celui-ci à recevoir le message. Il peut servir à informer le titulaire du compte, ou la partie autorisée, des écritures enregistrées sur le compte, et/ou à lui fournir des informations de solde du compte à un moment donné.|Utilisation|Le message BankToCustomerAccountReport peut contenir des relevés pour plus d'un compte. Il fournit des informations pour la gestion de trésorerie et/ou le rapprochement. Il peut servir à :|- communiquer les éléments en attente et comptabilisés ;|- fournir des informations de solde.|Il peut inclure les détails sous-jacents des opérations qui ont été incluses dans l'écriture.|Il est possible que le destinataire du message ne soit pas le titulaire du compte, mais une partie habilitée par le titulaire du compte à recevoir les informations de compte (également appelée destinataire).|Pour un relevé de compte, le message Bank-to-Customer Account Statement doit être utilisé.",
+  "isoRules": {
+    "MessageOrReportPaginationRule": {
+      "definition": "MessagePagination peut être présent ou ReportPagination peut être présent, mais pas les deux."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations complémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    }
+  }
+}

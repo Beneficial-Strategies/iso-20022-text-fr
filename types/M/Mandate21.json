@@ -1,0 +1,80 @@
+{
+  "isoType": "Mandate21",
+  "definition": "Informations servant de base au débit d'un compte.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identification unique, attribuée par la partie responsable (telle que le créancier) ou la banque (telle que la banque du débiteur), permettant d'identifier sans ambiguïté le mandat."
+    },
+    "MandateRequestIdentification": {
+      "definition": "Identification de la demande de mandat, attribuée par la partie initiatrice."
+    },
+    "Authentication": {
+      "definition": "Précise les détails d'authentification du transport relatifs au mandat."
+    },
+    "Type": {
+      "definition": "Précise le type de mandat, par exemple papier, électronique ou de schéma."
+    },
+    "Occurrences": {
+      "definition": "Fournit des précisions sur la durée du mandat et la survenance des opérations sous-jacentes."
+    },
+    "TrackingIndicator": {
+      "definition": "Précise si les instructions de prélèvement doivent être soumises à nouveau automatiquement et périodiquement lorsque cela a été convenu bilatéralement."
+    },
+    "FirstCollectionAmount": {
+      "definition": "Montant différent du montant à encaisser, car il inclut les coûts associés au premier montant débité."
+    },
+    "CollectionAmount": {
+      "definition": "Montant fixe à encaisser sur le compte du débiteur."
+    },
+    "MaximumAmount": {
+      "definition": "Montant maximum pouvant être encaissé sur le compte du débiteur, par instruction."
+    },
+    "Adjustment": {
+      "definition": "Précise les caractéristiques de l'ajustement appliqué au montant à encaisser d'une instruction de prélèvement."
+    },
+    "Reason": {
+      "definition": "Fournit le motif de la mise en place du mandat."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Partie créditrice qui signe le mandat."
+    },
+    "Creditor": {
+      "definition": "Partie qui signe le mandat et à laquelle une somme d'argent est due."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant est dû."
+    },
+    "Debtor": {
+      "definition": "Partie qui signe le mandat et qui doit une somme d'argent au créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture de débit sera passée à la suite de l'opération."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit un montant au créancier (final)."
+    },
+    "MandateReference": {
+      "definition": "Référence attribuée par un créancier ou un créancier final pour un usage interne concernant le mandat."
+    },
+    "ReferredDocument": {
+      "definition": "Fournit des informations permettant d'identifier les documents sous-jacents associés au mandat."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor ne peut être présent que s'il est différent de Debtor."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor ne peut être présent que s'il est différent de Creditor."
+    }
+  }
+}

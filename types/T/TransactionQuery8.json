@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionQuery8",
+  "definition": "Définit les critères de la requête.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Spécifie le type d'éléments correspondants à renvoyer dans la réponse à la requête."
+    },
+    "TransactionCriteria": {
+      "definition": "Définit les critères de requête sur les opérations de paiement."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingSubServiceIdentification1",
+  "definition": "Précise l'identification d'un sous-service de facturation.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Précise le qualificatif du sous-service."
+    },
+    "Identification": {
+      "definition": "Précise davantage un service de l'établissement financier en fournissant la valeur requise par le qualificatif de sous-service, par exemple le numéro de boîte de recouvrement (lockbox) ou le numéro de magasin effectif."
+    }
+  }
+}

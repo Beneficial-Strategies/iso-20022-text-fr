@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportParameter1",
+  "definition": "Nom et valeur d'un paramètre renvoyé.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom ou type du paramètre renvoyé."
+    },
+    "Value": {
+      "definition": "Valeur du paramètre renvoyé."
+    }
+  }
+}

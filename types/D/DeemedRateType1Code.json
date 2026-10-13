@@ -1,0 +1,22 @@
+{
+  "isoType": "DeemedRateType1Code",
+  "definition": "Précise le type d'un taux présumé.",
+  "isoCodes": {
+    "DEDI": {
+      "name": "Produit du dividende réputé",
+      "definition": "Taux présumé du produit de dividendes attribué au détenteur de titres."
+    },
+    "DEFP": {
+      "name": "Produit du fonds réputé",
+      "definition": "Taux présumé du produit du fonds attribué au détenteur de titres."
+    },
+    "DEIT": {
+      "name": "Produit des intérêts réputés",
+      "definition": "Taux présumé du produit d'intérêts attribué au détenteur de titres."
+    },
+    "DERY": {
+      "name": "Produit des redevances réputées",
+      "definition": "Taux présumé du produit de redevances attribué au détenteur de titres."
+    }
+  }
+}

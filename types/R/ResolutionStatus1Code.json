@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionStatus1Code",
+  "definition": "Précise si une résolution de l'ordre du jour est toujours active ou a été supprimée.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Actif",
+      "definition": "La résolution de l'assemblée doit être votée par les participants à une assemblée générale."
+    },
+    "WDRA": {
+      "name": "Retiré",
+      "definition": "La résolution de l'assemblée a été retirée."
+    }
+  }
+}

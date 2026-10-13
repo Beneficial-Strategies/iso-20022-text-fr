@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification137Choice",
+  "definition": "Choix entre différents formats d'identification d'une partie.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Code attribué à un établissement financier ou non financier par l'autorité d'enregistrement ISO 9362, tel que décrit dans la norme ISO 9362 \"Banque - Messages de télécommunication bancaire - Code d'identification d'entreprise (BIC)\"."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identifiant unique et non ambigu attribué à un établissement financier selon un schéma d'identification propriétaire."
+    },
+    "NameAndAddress": {
+      "definition": "Nom et adresse d'une partie."
+    }
+  }
+}

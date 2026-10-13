@@ -1,0 +1,24 @@
+{
+  "isoType": "TransferReference14",
+  "definition": "Référence d'un transfert et d'une annulation de transfert.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Identifiant unique et non ambigu de l’instruction de transfert de portefeuille, tel qu’attribué par la partie instructrice."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert de portefeuille par l’investisseur. Cette référence peut généralement être utilisée dans un scénario de hub pour fournir la référence du transfert attribuée par le client sous-jacent."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë du transfert de portefeuille attribuée par la contrepartie."
+    },
+    "TransferConfirmationReference": {
+      "definition": "Identifiant unique et non ambigu de l’exécution du transfert de portefeuille, tel qu’attribué par la partie confirmatrice."
+    },
+    "CancellationReference": {
+      "definition": "Identifiant unique et non ambigu de l’annulation du transfert de portefeuille, tel qu’attribué par la partie instructrice."
+    },
+    "CancellationReason": {
+      "definition": "Motif de l'annulation."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "RegistrationParameters7",
+  "definition": "Informations relatives à l'inscription de titres.",
+  "isoElements": {
+    "CertificationIdentification": {
+      "definition": "Identification attribuée à un dépôt."
+    },
+    "CertificationDateTime": {
+      "definition": "Date et heure auxquelles les certificats du dépôt ont été validés par l'agent."
+    },
+    "RegistrarAccount": {
+      "definition": "Compte auprès du teneur de registre où les instruments financiers sont inscrits."
+    },
+    "CertificateNumber": {
+      "definition": "Identifiant unique et non ambigu d'un certificat attribué par l'émetteur."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "isoType": "ClearingSystemMemberIdentification4Choice",
+  "definition": "Choix d'identifiants pour un membre d'un système de compensation, tels qu'attribués par le système de compensation. Dans certains systèmes de compensation, les comptes des membres du système se voient également attribuer un identifiant.",
+  "isoElements": {
+    "CHIPSUniversalIdentification": {
+      "definition": "(États-Unis) Identification universelle (UID) du Clearing House Interbank Payments System (CHIPS) - identifie les entités titulaires de comptes auprès des établissements financiers participant au CHIPS, par lesquels les paiements CHIPS sont effectués. L'UID CHIPS est attribuée par le New York Clearing House."
+    },
+    "NewZealandNCCIdentification": {
+      "definition": "New Zealand Bank/Branch Code - identifie les établissements néo-zélandais dans le système de compensation national néo-zélandais. Le code est attribué par la New Zealand Bankers' Association (NZBA)."
+    },
+    "IrishNSCIdentification": {
+      "definition": "Irish National Sorting Code - identifie les établissements financiers irlandais dans le système de compensation national irlandais. Le code est attribué par l'Irish Payments Services Organisation (IPSO)."
+    },
+    "UKDomesticSortCode": {
+      "definition": "United Kingdom (UK) Sort Code - identifie les établissements financiers britanniques dans les systèmes de compensation nationaux britanniques. Le sort code est attribué par l'Association for Payments and Clearing Services (APACS)."
+    },
+    "CHIPSParticipantIdentification": {
+      "definition": "(États-Unis) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) - identifie les établissements financiers participant au CHIPS. Le CHIPS Participant ID est attribué par le New York Clearing House."
+    },
+    "SwissBCIdentification": {
+      "definition": "Swiss Bank Code - identifie les établissements suisses dans le système de compensation national suisse."
+    },
+    "FedwireRoutingNumberIdentification": {
+      "definition": "Fedwire Routing Number - identifie les établissements financiers, aux US, dans le système FedWire. Le routing number est attribué par l'American Bankers Association (ABA)."
+    },
+    "PortugueseNCCIdentification": {
+      "definition": "Portuguese National Clearing Code - identifie les établissements financiers portugais dans le système de compensation national portugais."
+    },
+    "RussianCentralBankIdentificationCode": {
+      "definition": "Russian Central Bank Identification Code - identifie les établissements financiers russes dans le système de compensation national russe."
+    },
+    "ItalianDomesticIdentificationCode": {
+      "definition": "Italian Domestic Identification Code - identifie les établissements financiers italiens dans le système de compensation national italien. Le code est attribué par l'Associazione Bancaria Italiana (ABI)."
+    },
+    "AustrianBankleitzahlIdentification": {
+      "definition": "Austrian Bankleitzahl - identifie les établissements financiers autrichiens dans le système de compensation national autrichien."
+    },
+    "CanadianPaymentsAssociationRoutingNumberIdentification": {
+      "definition": "Canadian Payments Association Routing Number - identifie les établissements financiers canadiens dans le système de compensation national canadien."
+    },
+    "SwissSICIdentification": {
+      "definition": "Swiss Interbank Clearing (SIC) Code - identifie les établissements financiers suisses au niveau national, dans le système de compensation national suisse."
+    },
+    "GermanBankleitzahlIdentification": {
+      "definition": "German Bankleitzahl - identifie les établissements financiers allemands dans les systèmes de compensation nationaux allemands."
+    },
+    "SpanishDomesticInterbankingIdentification": {
+      "definition": "Spanish Domestic Interbanking Code - identifie les établissements financiers espagnols dans le système de compensation national espagnol. Le code est attribué par le Centro de Cooperacion Interbancaria (CCI)."
+    },
+    "SouthAfricanNCCIdentification": {
+      "definition": "South African National Clearing Code (NCC) - identifie les établissements financiers sud-africains dans le système de compensation national sud-africain. Le code est attribué par la South African Bankers Services Company Ltd. (BankServ)."
+    },
+    "HongKongBankCode": {
+      "definition": "Hong Kong Bank Code - identifie les établissements financiers de Hong Kong dans le système de compensation local de Hong Kong."
+    },
+    "AustralianExtensiveBranchNetworkIdentification": {
+      "definition": "Liste étendue du réseau d'agences du Australian Bank State Branch (BSB) Code. Les codes servent à identifier les établissements financiers australiens, tels qu'attribués par l'Australian Payments Clearing Association (APCA)."
+    },
+    "AustralianSmallNetworkIdentification": {
+      "definition": "Liste du petit réseau du Australian Bank State Branch (BSB) Code. Les codes servent à identifier les établissements financiers australiens, tels qu'attribués par l'Australian Payments Clearing Association (APCA)."
+    }
+  }
+}

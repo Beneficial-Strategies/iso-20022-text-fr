@@ -1,0 +1,12 @@
+{
+  "isoType": "AutomaticBorrowing8Choice",
+  "definition": "Choix du format des informations d'emprunt automatique.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condition d'emprunt automatique exprimée sous forme de code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Condition d'emprunt automatique exprimée sous forme de code propriétaire."
+    }
+  }
+}

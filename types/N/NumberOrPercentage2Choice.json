@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberOrPercentage2Choice",
+  "definition": "Choix entre un pourcentage et un nombre pour un seuil.",
+  "isoElements": {
+    "ThresholdPercentage": {
+      "definition": "Seuil fourni sous forme de taux en pourcentage."
+    },
+    "ThresholdNumber": {
+      "definition": "Seuil fourni sous forme de nombre décimal."
+    }
+  }
+}

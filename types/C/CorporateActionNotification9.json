@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionNotification9",
+  "definition": "Statut et contenu de la notification d'événement d'opération sur titres.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "definition": "Identification unique du groupe de messages de notification d'opération sur titres lorsque la notification est répartie sur plusieurs messages (paginés)."
+    },
+    "NotificationType": {
+      "definition": "Précise le type de notification."
+    },
+    "ProcessingStatus": {
+      "definition": "Précise le statut des détails de l'événement d'opération sur titres."
+    }
+  },
+  "isoRules": {
+    "NotificationTypeGuideline": {
+      "definition": "Le type de notification REPL (NotificationType) est utilisé pour remplacer un message CorporateActionNotification précédemment envoyé qui avait été communiqué avec un EventCompletenessStatus incomplet ou complet."
+    }
+  }
+}

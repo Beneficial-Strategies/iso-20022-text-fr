@@ -1,0 +1,35 @@
+{
+  "isoType": "ChargesPerType6",
+  "definition": "Fournit une ventilation détaillée des frais par type de frais.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Identification unique et sans ambiguïté des informations de frais à des fins de rapprochement.||Utilisation : cette identification doit être utilisée comme identification de bout en bout dans le message résultant pour le paiement des frais, afin de permettre un rapprochement automatisé."
+    },
+    "TotalChargesPerChargeType": {
+      "definition": "Total des frais réclamés pour le type de frais indiqué."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Agent qui tient le compte de frais.||Utilisation : cet élément doit être utilisé lorsque les frais réclamés ne sont pas liés au traitement d'une opération de paiement, par exemple lorsqu'ils concernent une recherche ou un autre processus. Il identifie l'agent qui tient le compte sur lequel les frais doivent être réglés."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Compte de l'agent qui tient le compte de frais.||Utilisation : cet élément doit être utilisé lorsque les frais réclamés ne sont pas liés au traitement d'une opération de paiement, par exemple lorsqu'ils concernent une recherche ou un autre processus. Il identifie le compte sur lequel les frais doivent être réglés."
+    },
+    "Type": {
+      "definition": "Précise le type de frais."
+    },
+    "Record": {
+      "definition": "Enregistrement détaillé des frais par type de frais."
+    },
+    "AdditionalInformation": {
+      "definition": "Précisions complémentaires sur le motif des frais."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountAgent2Rule": {
+      "definition": "Lorsque Record/ChargesAccountAgent est présent ou que Record/ChargesAccountAgentAccount est présent, ChargesAccountAgent doit être absent et ChargesAccountAgentAccount doit être absent."
+    },
+    "ChargesAccountAgentRule": {
+      "definition": "Lorsque ChargesAccountAgent est présent ou que ChargesAccountAgentAccount est présent, Record/ChargesAccountAgent doit être absent et Record/ChargesAccountAgentAccount doit être absent."
+    }
+  }
+}

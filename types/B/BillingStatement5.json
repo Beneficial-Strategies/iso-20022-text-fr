@@ -1,0 +1,45 @@
+{
+  "isoType": "BillingStatement5",
+  "definition": "Détails du relevé rendant compte de la facturation des services bancaires.",
+  "isoElements": {
+    "StatementIdentification": {
+      "definition": "Identification du relevé de facturation du client."
+    },
+    "FromToDate": {
+      "definition": "Période comprise entre la date de début et la date de fin pour laquelle le relevé est émis."
+    },
+    "CreationDateTime": {
+      "definition": "Date de création du message de relevé."
+    },
+    "Status": {
+      "definition": "Définit le statut du relevé."
+    },
+    "AccountCharacteristics": {
+      "definition": "Précise les détails des caractéristiques du compte."
+    },
+    "RateData": {
+      "definition": "Identifie les taux annuels hors taxes et les valeurs de facteur utilisés dans le relevé, ainsi que toute base de facturation dépendant du temps."
+    },
+    "CurrencyExchange": {
+      "definition": "Précise les détails relatifs aux données de change."
+    },
+    "Balance": {
+      "definition": "Identifie la valeur moyenne des soldes détenus pendant la période du relevé."
+    },
+    "Compensation": {
+      "definition": "Identifie l'ensemble des valeurs et des totaux utilisés pour fournir les informations de compensation ainsi que les totaux des services et des taxes."
+    },
+    "Service": {
+      "definition": "Précise les valeurs utilisées pour chaque ligne de service du relevé."
+    },
+    "TaxRegion": {
+      "definition": "Région fiscale qui prélève une taxe sur les services de ce relevé."
+    },
+    "BalanceAdjustment": {
+      "definition": "Une ou plusieurs sections identifiant les ajustements de solde ou de float du compte. Elles peuvent refléter des ajustements du relevé en cours ou de relevés de périodes de référence antérieures."
+    },
+    "ServiceAdjustment": {
+      "definition": "Une ou plusieurs sections identifiant les ajustements de lignes de service du compte. Elles reflètent des ajustements de relevés de périodes de référence antérieures."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "DistributionType1Code",
+  "definition": "Précise si le produit de l'événement sera distribué de manière continue plutôt qu'à une date précise.",
+  "isoCodes": {
+    "ROLL": {
+      "name": "Base glissante",
+      "definition": "L'événement comportera plusieurs dates d'acceptation et de paiement jusqu'à nouvelle annonce de l'émetteur ou de son agent."
+    }
+  }
+}

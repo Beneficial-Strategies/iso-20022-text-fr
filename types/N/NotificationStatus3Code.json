@@ -1,0 +1,18 @@
+{
+  "isoType": "NotificationStatus3Code",
+  "definition": "Spécifie le statut de la notification sous forme codée.",
+  "isoCodes": {
+    "RCBD": {
+      "name": "Reçu mais différent",
+      "definition": "Le ou les événements décrits dans la notification à recevoir se sont produits, mais les détails sont différents."
+    },
+    "RCVD": {
+      "name": "Reçu",
+      "definition": "Le ou les événements décrits dans la notification à recevoir se sont produits."
+    },
+    "NRCD": {
+      "name": "Non reçu",
+      "definition": "Le ou les événements décrits dans la notification à recevoir ne se sont pas produits."
+    }
+  }
+}

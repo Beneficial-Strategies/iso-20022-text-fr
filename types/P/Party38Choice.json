@@ -1,0 +1,12 @@
+{
+  "isoType": "Party38Choice",
+  "definition": "Nature ou utilisation du compte.",
+  "isoElements": {
+    "OrganisationIdentification": {
+      "definition": "Moyen unique et non ambigu d'identifier une organisation."
+    },
+    "PrivateIdentification": {
+      "definition": "Identification unique et non ambiguë d'une personne, par exemple un passeport."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "DividendRateType1Code",
+  "definition": "Précise le type de taux de dividende.",
+  "isoCodes": {
+    "TXBL": {
+      "name": "Part imposable",
+      "definition": "Taux relatif au titre sous-jacent pour lequel un impôt est prélevé."
+    }
+  }
+}

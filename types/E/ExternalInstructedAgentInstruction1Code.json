@@ -1,0 +1,10 @@
+{
+  "isoType": "ExternalInstructedAgentInstruction1Code",
+  "definition": "Précise des instructions complémentaires concernant le traitement d'une instruction de paiement ou d'un ajustement, telles que fournies à l'agent instruit.",
+  "isoCodes": {
+    "REMD": {
+      "name": "Rappel",
+      "definition": "Rappel. Un message de demande de frais a été envoyé précédemment."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "isoType": "FinancialInstrument87",
+  "definition": "Titre qui constitue un sous-ensemble d'un fonds de placement et qui est régi par la même politique de placement, par exemple l'option de dividende ou la devise de valorisation.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification du titre par un ISIN."
+    },
+    "Name": {
+      "definition": "Nom de l'instrument financier en texte libre."
+    },
+    "ShortName": {
+      "definition": "Financial Instrument Short Name (FISN) exprimé conformément à la norme ISO 18774."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Informations supplémentaires sur l'instrument financier permettant de l'identifier."
+    },
+    "ClassType": {
+      "definition": "Caractéristiques des parts proposées par le fonds. Par exemple, une part peut avoir une structure de commissions spécifique, par exemple à l'entrée ou à la sortie, une politique de revenus, par exemple distribution ou capitalisation, ou une politique de commission de suivi, par exemple avec ou sans. Les classes de fonds sont généralement désignées par un seul caractère, par exemple « Class A », « Class 2 »."
+    },
+    "SecuritiesForm": {
+      "definition": "Forme, c'est-à-dire propriété, du titre, c'est-à-dire nominatif ou au porteur."
+    },
+    "DistributionPolicy": {
+      "definition": "Politique de revenus relative au type de classe, c'est-à-dire si le revenu est distribué ou conservé dans le fonds."
+    },
+    "ProductGroup": {
+      "definition": "Description propre à la société d'un groupe de fonds."
+    },
+    "BlockedHoldingDetails": {
+      "definition": "Lorsqu'un compte au niveau d'un fonds ou d'un titre est bloqué, précise le détail de la manière dont la position est bloquée."
+    },
+    "Pledging": {
+      "definition": "Précise si les positions du compte sont éligibles au nantissement."
+    },
+    "Collateral": {
+      "definition": "Précise si les positions du compte sont utilisées comme garantie."
+    },
+    "ThirdPartyRights": {
+      "definition": "Détail des droits de tiers."
+    },
+    "FundOwnership": {
+      "definition": "Précise si la totalité des parts est détenue exclusivement par la société du fonds."
+    },
+    "FundIntention": {
+      "definition": "Précise si le fonds est destiné aux investisseurs qualifiés."
+    },
+    "OperationalStatus": {
+      "definition": "Statut opérationnel du fonds."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "Il est recommandé d'utiliser l'ISIN dans Identification.|Lorsqu'un code ISIN existe, il est fortement recommandé d'utiliser l'ISIN."
+    }
+  }
+}

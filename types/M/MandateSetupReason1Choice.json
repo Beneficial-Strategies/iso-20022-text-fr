@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateSetupReason1Choice",
+  "definition": "Précise le motif de la mise en place du mandat.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif de la mise en place du mandat, tel que publié dans une liste externe de codes de motif."
+    },
+    "Proprietary": {
+      "definition": "Motif de la mise en place du mandat, sous forme propriétaire."
+    }
+  }
+}

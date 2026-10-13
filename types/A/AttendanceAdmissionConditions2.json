@@ -1,0 +1,12 @@
+{
+  "isoType": "AttendanceAdmissionConditions2",
+  "definition": "Conditions d'admission pour la présence physique à une assemblée.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condition d'admission physique à l'assemblée générale."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur les conditions d'admission physique à l'assemblée générale."
+    }
+  }
+}

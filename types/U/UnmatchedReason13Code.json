@@ -1,0 +1,190 @@
+{
+  "isoType": "UnmatchedReason13Code",
+  "definition": "Précise le motif pour lequel l'opération, le transfert ou l'instruction de règlement n'est pas apparié.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Reçue après l'heure limite de l'établissement teneur de compte. Traitée au mieux."
+    },
+    "ACRU": {
+      "name": "Montant des intérêts courus 1",
+      "definition": "Le montant des intérêts courus ne correspond pas."
+    },
+    "TERM": {
+      "name": "Date et heure de clôture",
+      "definition": "La date ou l'heure de clôture ne correspond pas."
+    },
+    "IIND": {
+      "name": "Référence commune",
+      "definition": "La référence commune ne correspond pas."
+    },
+    "CPCA": {
+      "name": "Annulé par la contrepartie",
+      "definition": "La contrepartie a annulé son instruction."
+    },
+    "CLAT": {
+      "name": "Contrepartie trop tardive pour le rapprochement",
+      "definition": "L'instruction de la contrepartie est arrivée trop tard pour l'appariement."
+    },
+    "NCRR": {
+      "name": "Montant de règlement en devise",
+      "definition": "La devise du montant de règlement ne correspond pas."
+    },
+    "DDEA": {
+      "name": "Prix de la transaction",
+      "definition": "Le prix de la transaction ne correspond pas."
+    },
+    "DSEC": {
+      "name": "Instrument financier",
+      "definition": "L'identification de l'instrument financier ne correspond pas, par exemple l'ISIN ou les attributs de l'instrument financier diffèrent."
+    },
+    "DQUA": {
+      "name": "Quantité d'instruments financiers",
+      "definition": "La quantité d'instruments financiers ne correspond pas."
+    },
+    "FORF": {
+      "name": "Montant de rachat en cas de déchéance",
+      "definition": "Le montant de la pénalité ne correspond pas."
+    },
+    "INVE": {
+      "name": "Partie investisseur",
+      "definition": "La partie investisseur ne correspond pas."
+    },
+    "LEOG": {
+      "name": "Lettre de garantie",
+      "definition": "La contrepartie est en règlement par lettre de garantie, pas votre instruction, ou inversement."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Votre instruction est arrivée trop tard pour l'appariement."
+    },
+    "CMIS": {
+      "name": "Aucune correspondance",
+      "definition": "Aucune instruction correspondante de votre contrepartie n'a pu être trouvée."
+    },
+    "NMAS": {
+      "name": "Aucun rapprochement commencé",
+      "definition": "Le processus d'appariement n'a pas encore commencé."
+    },
+    "DTRA": {
+      "name": "Non reconnu",
+      "definition": "La contrepartie a été contactée ou nous a contactés, et ne reconnaît pas l'opération."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Code propriétaire de motif de non-appariement décrit dans un champ narratif."
+    },
+    "FRAP": {
+      "name": "Code de paiement",
+      "definition": "Le type de paiement ne correspond pas : votre instruction est franco de paiement, l'instruction de votre contrepartie est contre paiement, ou inversement."
+    },
+    "PHYS": {
+      "name": "Règlement physique",
+      "definition": "L'instruction de la contrepartie prévoit un règlement physique, pas la vôtre, ou inversement."
+    },
+    "PLIS": {
+      "name": "Lieu de cotation",
+      "definition": "Le lieu de cotation ne correspond pas."
+    },
+    "INPS": {
+      "name": "Lieu de conservation",
+      "definition": "Les informations sur le lieu de conservation ne permettent pas l'appariement."
+    },
+    "PLCE": {
+      "name": "Lieu de négociation",
+      "definition": "Le lieu de négociation ne correspond pas."
+    },
+    "PODU": {
+      "name": "Doublon possible",
+      "definition": "L'instruction n'a pas été appariée. Il s'agit d'un doublon possible d'instruction."
+    },
+    "DEPT": {
+      "name": "Dépositaire récepteur ou livreur",
+      "definition": "Le dépositaire ne correspond pas."
+    },
+    "ICAG": {
+      "name": "Partie réceptrice ou livreuse 1",
+      "definition": "Le participant du dépositaire livreur ou récepteur ne correspond pas."
+    },
+    "ICUS": {
+      "name": "Partie réceptrice ou livreuse 2",
+      "definition": "Le client de la partie livreuse ou réceptrice 1 ne correspond pas."
+    },
+    "IEXE": {
+      "name": "Partie réceptrice ou livreuse 3",
+      "definition": "Le client de la partie livreuse ou réceptrice 2 ne correspond pas."
+    },
+    "REGD": {
+      "name": "Détails d'enregistrement",
+      "definition": "Les détails d'inscription liés à l'opération sont incorrects."
+    },
+    "REPA": {
+      "name": "Montant de rachat",
+      "definition": "Le montant de l'opération de résiliation ne correspond pas."
+    },
+    "CADE": {
+      "name": "Délai d'appel de rachat",
+      "definition": "Le délai d'appel de l'opération ne correspond pas."
+    },
+    "REPP": {
+      "name": "Montant de la prime de rachat",
+      "definition": "Le montant de la prime ne correspond pas."
+    },
+    "REPO": {
+      "name": "Taux de rachat",
+      "definition": "Le taux du rachat ne correspond pas."
+    },
+    "RERT": {
+      "name": "Type de taux de rachat",
+      "definition": "Le type de taux du rachat ne correspond pas."
+    },
+    "RTGS": {
+      "name": "Système RTGS",
+      "definition": "La contrepartie relève d'un système de règlement brut en temps réel (RTGS), vous relevez d'un système non RTGS, ou inversement."
+    },
+    "SAFE": {
+      "name": "Compte de conservation",
+      "definition": "Le compte de conservation utilisé comme critère d'appariement sur le marché concerné ne correspond pas. Cela comprend le compte de l'acheteur/vendeur, le compte du client direct auprès de l'agent récepteur/livreur, ou le compte de l'agent récepteur/livreur auprès du CSD."
+    },
+    "DMON": {
+      "name": "Montant de règlement",
+      "definition": "Le montant de règlement ne correspond pas."
+    },
+    "DDAT": {
+      "name": "Date de règlement",
+      "definition": "La date/heure de règlement ne correspond pas."
+    },
+    "SETS": {
+      "name": "Méthode du système de règlement",
+      "definition": "Le système/mode de règlement ne correspond pas (par exemple, l'instruction est de régler via le système/mode de règlement A. La contrepartie s'attend à un règlement via le système/mode de règlement B)."
+    },
+    "SETR": {
+      "name": "Opération de règlement",
+      "definition": "Le type d'opération de règlement ne correspond pas (se rapporte aux codes de type d'opération de règlement disponibles pour le champ : 22F:: SETR.)."
+    },
+    "TXST": {
+      "name": "Statut fiscal",
+      "definition": "Désaccord sur le statut fiscal des instruments financiers à régler."
+    },
+    "DTRD": {
+      "name": "Date de négociation",
+      "definition": "La date de négociation ne correspond pas."
+    },
+    "DELN": {
+      "name": "Sens de l'opération",
+      "definition": "Le sens de l'opération ne correspond pas. La contrepartie attend une livraison de votre part, et non une réception, ou inversement."
+    },
+    "VASU": {
+      "name": "Support du taux variable",
+      "definition": "Le support de taux variable ne correspond pas (pension livrée)."
+    },
+    "DMCT": {
+      "name": "Génération automatique",
+      "definition": "Désaccord sur la génération automatique d'une réclamation de marché ou d'une transformation."
+    },
+    "DCMX": {
+      "name": "Coupon attaché",
+      "definition": "Désaccord sur le fait que l'opération a été exécutée coupon attaché ou détaché."
+    }
+  }
+}

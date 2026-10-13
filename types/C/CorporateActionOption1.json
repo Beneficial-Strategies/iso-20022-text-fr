@@ -1,0 +1,83 @@
+{
+  "isoType": "CorporateActionOption1",
+  "definition": "Fournit des informations sur l'option de l'opération sur titres (CA).",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "OptionAvailabilityStatus": {
+      "definition": "Précise le statut de l'option."
+    },
+    "CertificationIndicator": {
+      "definition": "Indique si une certification du titulaire du compte est requise ou non. |Oui : certification requise |Non : aucune certification requise."
+    },
+    "CertificationType": {
+      "definition": "Type de certification requise."
+    },
+    "AssentedLineSecurityIdentification": {
+      "definition": "Identification d'un titre temporaire utilisé pour des raisons de traitement, par exemple un titre de contrepartie utilisé aux US."
+    },
+    "AgentSecuritiesAccountIdentification": {
+      "definition": "Identification du compte-titres détenu par un agent auprès du CSD."
+    },
+    "AgentCashAccountIdentification": {
+      "definition": "Identification du compte espèces détenu par un agent auprès du CSD."
+    },
+    "OfferType": {
+      "definition": "Précise les conditions applicables à l'offre."
+    },
+    "IntermediateSecuritiesDistributionType": {
+      "definition": "Type de distribution de titres intermédiaires, par exemple dividende en actions, droit inversé."
+    },
+    "WithdrawalAllowedIndicator": {
+      "definition": "Indique si le retrait de l'instruction est autorisé."
+    },
+    "ChangeAllowedIndicator": {
+      "definition": "Indique si la modification de l'instruction est autorisée."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates liées à une option de l'opération sur titres (CA)."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fournit des informations sur les taux et montants liés à une option de l'opération sur titres (CA)."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix liés à une option de l'opération sur titres (CA)."
+    },
+    "PeriodDetails": {
+      "definition": "Fournit des informations sur les périodes liées à une option de l'opération sur titres (CA)."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement de titres lié à l'option de l'opération sur titres (CA)."
+    },
+    "CashMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement d'espèces lié à l'option de l'opération sur titres (CA)."
+    },
+    "CorporateActionOtherAgentDetails": {
+      "definition": "Fournit des informations sur les agents liés à l'option de l'opération sur titres (CA)."
+    },
+    "FractionDisposition": {
+      "definition": "Précise comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    },
+    "RedemptionChargesAppliedIndicator": {
+      "definition": "Indique si des frais de remboursement s'appliquent."
+    },
+    "OptionFeatures": {
+      "definition": "Précise les caractéristiques pouvant s'appliquer à une option d'opération sur titres."
+    },
+    "CorporateActionAdditionalInformation": {
+      "definition": "Fournit des informations supplémentaires."
+    }
+  },
+  "isoRules": {
+    "ChangeAllowedRule": {
+      "definition": "Si la valeur de ChangeAllowedIndicator est vraie, alors PerdioDetails/RevocabilityPeriod est obligatoire."
+    },
+    "WithdrawalAllowedRule": {
+      "definition": "Si la valeur de WithdrawalAllowedIndicator est vraie, alors PeriodDetails/RevocabilityPeriod est obligatoire."
+    }
+  }
+}

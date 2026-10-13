@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesCertificate4",
+  "definition": "Représentation physique d'un titre.",
+  "isoElements": {
+    "Number": {
+      "definition": "Identifiant unique et non ambigu d'un certificat attribué par l'émetteur."
+    },
+    "Issuer": {
+      "definition": "Instruments financiers représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "SchemeName": {
+      "definition": "Brève description textuelle du schéma."
+    }
+  },
+  "isoRules": {
+    "ISO8532AndIssuerSchemeNameRule": {
+      "definition": "Si Number est de type ISO 8532 (Format de transmission des numéros de certificat), Issuer et SchemeName ne doivent pas être utilisés."
+    }
+  }
+}

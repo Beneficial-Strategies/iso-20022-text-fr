@@ -1,0 +1,30 @@
+{
+  "isoType": "OriginalItemAndStatus9",
+  "definition": "Identifie l'élément de notification d'origine et fournit son statut.",
+  "isoElements": {
+    "OriginalItemIdentification": {
+      "definition": "Identification de l'élément de notification d'origine."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identification unique attribuée par le débiteur pour identifier sans ambiguïté l'opération sous-jacente d'origine auprès du créancier."
+    },
+    "OriginalUETR": {
+      "definition": "Identifiant unique universel fournissant la référence de bout en bout d'origine d'une opération de paiement."
+    },
+    "Amount": {
+      "definition": "Montant d'argent dont le crédit sur le compte était attendu, conformément à la notification à recevoir d'origine."
+    },
+    "ExpectedValueDate": {
+      "definition": "Date de valeur à laquelle le compte devait être crédité."
+    },
+    "ItemStatus": {
+      "definition": "Spécifie le statut de l'élément de notification."
+    },
+    "AdditionalStatusInformation": {
+      "definition": "Détails supplémentaires sur le statut de l'élément."
+    },
+    "OriginalItemReference": {
+      "definition": "Fournit des informations supplémentaires afin d'identifier une notification de paiement antérieure."
+    }
+  }
+}

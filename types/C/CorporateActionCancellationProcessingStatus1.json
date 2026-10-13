@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionCancellationProcessingStatus1",
+  "definition": "Fournit des informations sur le statut de traitement d'un avis d'option choisie.",
+  "isoElements": {
+    "Status": {
+      "definition": "Le statut de traitement."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

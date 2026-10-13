@@ -1,0 +1,54 @@
+{
+  "isoType": "SecurityIdentification46Choice",
+  "definition": "Choix de formats pour l'identification d'un instrument financier.",
+  "isoElements": {
+    "ISIN": {
+      "definition": "Numéro international d'identification des valeurs mobilières (ISIN). Système de numérotation conçu par l'Organisation internationale de normalisation (ISO) des Nations Unies. L'ISIN est composé d'un préfixe de 2 caractères représentant le pays d'émission, suivi du numéro national du titre (s'il existe) et d'un chiffre de contrôle. Chaque pays dispose d'un organisme national de numérotation qui attribue les numéros ISIN aux titres de ce pays."
+    },
+    "SEDOL": {
+      "definition": "Numéro Stock Exchange Daily Official List (SEDOL). Code utilisé par la Bourse de Londres pour identifier les actions étrangères, en particulier celles qui ne sont pas activement négociées aux États-Unis et n'ont pas de numéro CUSIP."
+    },
+    "CUSIP": {
+      "definition": "Committee on Uniform Securities and Identification Procedures (CUSIP). Organisme de normalisation qui a créé et gère le système de classification des titres aux États-Unis. Le CUSIP se compose d'un numéro de 9 caractères qui identifie de manière unique un titre donné. Les titres non américains disposent d'un numéro similaire appelé numéro CINS."
+    },
+    "RIC": {
+      "definition": "Reuters Identification Code (RIC). Système de numérotation utilisé au sein du système Reuters pour identifier les instruments dans le monde entier. Le RIC comprend un code propre au marché de X caractères (pouvant être le code CUSIP ou EPIC), suivi d'un point, puis du code pays ISO à deux caractères, par exemple IBM au Royaume-Uni est IBM.UK."
+    },
+    "TickerSymbol": {
+      "definition": "Lettres qui identifient une action négociée sur une bourse. Le symbole boursier (Ticker Symbol) est un moyen court et pratique d'identifier une action, par exemple RTR.L pour Reuters cotée à Londres."
+    },
+    "Bloomberg": {
+      "definition": "Identifiant d'un titre attribué par l'organisation Bloomberg."
+    },
+    "CTA": {
+      "definition": "Identifiant d'un titre attribué par la Consolidated Tape Association."
+    },
+    "QUICK": {
+      "definition": "Identifiant d'un titre attribué par le schéma d'identification japonais QUICK pour les instruments financiers."
+    },
+    "Wertpapier": {
+      "definition": "Wertpapier Kenn-nummer. Numéro émis en Allemagne par le Wertpapier Mitteilungen. Le Wertpapier Kenn-nummer, parfois appelé WPK, comporte 6 chiffres, mais pas de chiffre de contrôle. Il existe différentes plages de numéros représentant différentes catégories de titres."
+    },
+    "Dutch": {
+      "definition": "Identifiant des titres néerlandais."
+    },
+    "Valoren": {
+      "definition": "Identifiant des titres suisses attribué par Telekurs Financial, l'organisme suisse de numérotation."
+    },
+    "Sicovam": {
+      "definition": "Identifiant des titres français attribué par la Société Interprofessionnelle pour la Compensation des Valeurs Mobilières en France. Le Sicovam se compose de 5 chiffres."
+    },
+    "Belgian": {
+      "definition": "Identifiant des titres belges."
+    },
+    "Common": {
+      "definition": "Identifiant des titres émis au Luxembourg. Le code commun est un code à 9 chiffres qui remplace les codes CEDEL (Clearstream) et Euroclear."
+    },
+    "DTI": {
+      "definition": "Identifiant de jeton numérique (Digital Token Identifier), tel que défini dans la norme ISO 24165."
+    },
+    "OtherProprietaryIdentification": {
+      "definition": "Identification propriétaire du titre attribuée par un établissement ou une organisation."
+    }
+  }
+}

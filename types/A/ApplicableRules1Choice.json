@@ -1,0 +1,12 @@
+{
+  "isoType": "ApplicableRules1Choice",
+  "definition": "Choix de formats pour les règles applicables.",
+  "isoElements": {
+    "Code": {
+      "definition": "Règles applicables exprimées sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Règles applicables exprimées sous forme de code propriétaire."
+    }
+  }
+}

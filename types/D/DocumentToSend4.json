@@ -1,0 +1,15 @@
+{
+  "isoType": "DocumentToSend4",
+  "definition": "Type de document et type de mode de communication à utiliser pour notifier une partie.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de document."
+    },
+    "Recipient": {
+      "definition": "Partie devant recevoir le document."
+    },
+    "MethodOfTransmission": {
+      "definition": "Mode de communication à utiliser."
+    }
+  }
+}

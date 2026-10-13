@@ -1,0 +1,12 @@
+{
+  "isoType": "AdviceType1",
+  "definition": "Précise le type d'avis à rapporter pour l'opération.",
+  "isoElements": {
+    "CreditAdvice": {
+      "definition": "Type d'avis de crédit demandé."
+    },
+    "DebitAdvice": {
+      "definition": "Type d'avis de débit demandé."
+    }
+  }
+}

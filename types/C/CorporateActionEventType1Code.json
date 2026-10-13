@@ -1,0 +1,86 @@
+{
+  "isoType": "CorporateActionEventType1Code",
+  "definition": "Indique le type d'événement sur titres.",
+  "isoCodes": {
+    "DRIP": {
+      "name": "Réinvestissement du dividende",
+      "definition": "L'événement est un type de paiement de dividende où le dividende en espèces est converti en actions supplémentaires de la société émettrice."
+    },
+    "CAPG": {
+      "name": "Distribution de plus-values",
+      "definition": "L'événement est la distribution des bénéfices résultant de la vente de titres. Les actionnaires de fonds communs de placement, de fonds d'investissement ou de Sicav reçoivent des distributions de plus-values, qui sont souvent réinvesties dans des parts supplémentaires du fonds."
+    },
+    "DVCA": {
+      "name": "Dividende en espèces",
+      "definition": "L'événement est une distribution d'espèces aux actionnaires, proportionnelle à leur participation au capital. Les dividendes ordinaires sont récurrents et réguliers. L'actionnaire doit recevoir des espèces et ne se voit pas offrir de choix quant à la forme de la distribution."
+    },
+    "DVOP": {
+      "name": "Option de dividende",
+      "definition": "L'événement est une distribution de dividende aux actionnaires avec choix du mode de paiement. L'actionnaire doit choisir la forme de paiement : actions, espèces ou les deux."
+    },
+    "DVSE": {
+      "name": "Dividende en actions",
+      "definition": "L'événement est un dividende versé aux actionnaires sous forme d'actions de la société émettrice ou d'une autre société. L'actionnaire doit recevoir des actions et ne se voit pas offrir de choix quant à la forme de la distribution."
+    },
+    "LIQU": {
+      "name": "Liquidation",
+      "definition": "L'événement est un dividende de liquidation ou une liquidation consistant en une distribution d'espèces, d'actifs, ou des deux. Les dettes peuvent être payées selon un ordre de priorité fondé sur les droits préférentiels sur les actifs spécifiés par le titre. Le détenteur du titre peut être en mesure de choisir la forme de la distribution de liquidation."
+    },
+    "MRGR": {
+      "name": "Fusion",
+      "definition": "L'événement est un échange obligatoire ou volontaire de titres en circulation résultant du regroupement des actifs de deux sociétés ou plus. Des paiements en espèces peuvent accompagner l'échange d'actions."
+    },
+    "NAME": {
+      "name": "Changement de nom",
+      "definition": "L'événement est un changement de nom. La société émettrice change de dénomination. L'événement indique le passage de l'ancien nom au nouveau nom et peut impliquer la remise au teneur de registre des actions physiques portant l'ancien nom."
+    },
+    "SOFF": {
+      "name": "Scission",
+      "definition": "L'événement est une scission ou une distribution ou un dégroupement. Il s'agit d'une distribution d'actions d'une filiale aux actionnaires de la société mère sans remise d'actions. Une scission représente une forme de cession aboutissant à une société indépendante. Normalement, elle est sans frais pour les actionnaires de l'émission de la société mère."
+    },
+    "SPLF": {
+      "name": "Division d'actions",
+      "definition": "L'événement est une modification de la valeur nominale, une division. Il s'agit d'une augmentation du nombre d'actions en circulation d'une société sans modification des capitaux propres de l'actionnaire ni de la valeur de marché globale au moment de la division. Le cours de l'action et la valeur nominale sont réduits en conséquence."
+    },
+    "SPLR": {
+      "name": "Regroupement d'actions",
+      "definition": "L'événement est une modification de la valeur nominale, un regroupement. Il s'agit d'une diminution du nombre d'actions en circulation sans modification des capitaux propres de l'actionnaire ni de la valeur de marché globale au moment de la division. Le cours de l'action et la valeur nominale sont réduits en conséquence."
+    },
+    "TEND": {
+      "name": "Offre publique",
+      "definition": "L'événement est une acquisition ou une prise de contrôle ou une offre publique de retrait (FR) ou une offre d'achat ou un rachat. Il s'agit d'une offre faite aux actionnaires leur demandant de vendre (offrir) leurs actions à un prix déterminé, généralement supérieur au cours du marché en vigueur. En général, l'objectif d'une offre publique d'achat est de prendre le contrôle de la société visée."
+    },
+    "BONU": {
+      "name": "Attribution gratuite d'actions",
+      "definition": "L'événement est une émission gratuite ou une émission d'actions gratuites ou une incorporation de réserves au capital. Les détenteurs de titres se voient attribuer gratuitement par l'émetteur des actifs supplémentaires proportionnellement à leur détention. Une émission gratuite est généralement représentée par des actions, des droits ou des bons de souscription. La valeur nominale ne change pas. Le détenteur peut se voir offrir le choix de la forme."
+    },
+    "RHDI": {
+      "name": "Distribution de droits",
+      "definition": "L'événement est la distribution de droits aux actionnaires, proportionnellement à leur participation au capital."
+    },
+    "EXRI": {
+      "name": "Appel sur droits",
+      "definition": "L'événement est un appel de fonds ou un exercice sur des titres ou droits non libérés résultant d'une distribution de droits (RHDI). Il doit être utilisé pour le second événement dans les cas où l'émission de droits est traitée en deux événements, le premier événement étant la distribution de droits (RHDI)."
+    },
+    "CHAN": {
+      "name": "Changement",
+      "definition": "L'événement est une modification générique. Par exemple, une modification des conditions d'une émission, une modification de l'identification d'un titre, un changement de lot de négociation, un passage de global à définitif."
+    },
+    "REDO": {
+      "name": "Changement de dénomination",
+      "definition": "Événement par lequel l'unité (devise et/ou nominal) d'un instrument financier est redénommée, par exemple la dette dans une devise nationale est redénommée en euro."
+    },
+    "EXOP": {
+      "name": "Option d'échange",
+      "definition": "L'événement est une option offerte aux actionnaires d'échanger leurs titres contre d'autres titres et/ou des espèces. Les options d'échange sont mentionnées dans les conditions générales d'un titre et sont valables pendant toute la durée de vie du titre."
+    },
+    "EXOF": {
+      "name": "Offre d'échange",
+      "definition": "L'événement est une offre d'échange ou une réorganisation du capital.|Il s'agit d'une offre faite aux actionnaires d'échanger leurs titres contre d'autres titres et/ou des espèces. Les offres d'échange sont généralement volontaires et impliquent l'échange d'un titre en circulation contre un ou plusieurs titres différents et/ou des espèces."
+    },
+    "DECR": {
+      "name": "Diminution de valeur",
+      "definition": "L'événement est une réduction du capital social et de la valeur nominale d'une action. Le nombre d'actions en circulation reste inchangé. Il peut inclure un versement de capital à l'actionnaire."
+    }
+  }
+}

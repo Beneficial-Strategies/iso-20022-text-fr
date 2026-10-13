@@ -1,0 +1,107 @@
+{
+  "isoType": "CorporateActionOption252",
+  "definition": "Fournit des informations sur l'option de l'événement sur titres.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "FractionDisposition": {
+      "definition": "Précise comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    },
+    "OfferType": {
+      "definition": "Précise les conditions applicables à l'offre."
+    },
+    "OptionFeatures": {
+      "definition": "Précise les caractéristiques pouvant s'appliquer à une option d'opération sur titres."
+    },
+    "OptionAvailabilityStatus": {
+      "definition": "Précise le statut de l'option."
+    },
+    "CertificationBreakdownType": {
+      "definition": "Type de certification/ventilation."
+    },
+    "NonDomicileCountry": {
+      "definition": "Le titulaire du titre doit certifier, conformément aux conditions de l'opération sur titres, qu'il n'est pas domicilié dans le pays indiqué."
+    },
+    "ValidDomicileCountry": {
+      "definition": "Pays de domicile dans lequel l'option d'opération sur titres est valable. Le titulaire du titre doit certifier qu'il est domicilié dans le pays indiqué."
+    },
+    "CurrencyOption": {
+      "definition": "Devise dans laquelle le produit en espèces doit être crédité ou débité."
+    },
+    "DefaultProcessingOrStandingInstruction": {
+      "definition": "Indique si le mouvement de l'opération sur titres est un traitement par défaut ou une instruction permanente."
+    },
+    "ChargesAppliedIndicator": {
+      "definition": "Indique si des frais de remboursement s'appliquent."
+    },
+    "CertificationBreakdownIndicator": {
+      "definition": "Indique si une certification/ventilation est requise de la part du titulaire du compte. |Yes : certification requise |No : aucune certification requise."
+    },
+    "WithdrawalAllowedIndicator": {
+      "definition": "Indique si le retrait de l'instruction est autorisé."
+    },
+    "ChangeAllowedIndicator": {
+      "definition": "Indique si la modification de l'instruction est autorisée."
+    },
+    "AppliedOptionIndicator": {
+      "definition": "Indique si l'option, différente de celle par défaut, doit être appliquée par le titulaire du compte."
+    },
+    "SecurityIdentification": {
+      "definition": "Identifie l'instrument financier."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates relatives à une option d'événement sur titres."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fournit des informations sur les taux et montants relatifs à une option d'événement sur titres."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix relatifs à une option d'événement sur titres."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Fournit des informations sur la quantité de titres liée à une option d'opération sur titres."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement de titres lié à une option d'opération sur titres."
+    },
+    "CashMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement d'espèces lié à l'option de l'événement sur titres."
+    },
+    "AdditionalInformation": {
+      "definition": "Fournit des informations supplémentaires sur le mouvement d'opération sur titres."
+    }
+  },
+  "isoRules": {
+    "AdditionalTextRule": {
+      "definition": "Si OptionType/Code est OTHR (Autre), alors AdditionalInformation/AdditionalText/AdditionalInformation doit être présent.|(MT564 NVR C5)."
+    },
+    "OptionNumberGuideline": {
+      "definition": "Pour différencier les options, il est recommandé d'utiliser OptionNumber plutôt que OptionType, par exemple lorsque deux offres ou plus peuvent être décrites par le même code d'option d'événement sur titres."
+    },
+    "RevocabilityPeriodRule": {
+      "definition": "Si WithdrawalAllowedIndicator ou ChangeAllowedIndicator est présent et vaut 'true' ou '1' (Oui), PeriodDetails/RevocabilityPeriod doit être présent pour indiquer la période pendant laquelle la modification ou le retrait de l'instruction est autorisé."
+    },
+    "AppliedOptionRule": {
+      "definition": "Si DefaultProcessingOrStandingInstruction/DefaultOptionIndicator est présent et vaut '1' ou 'true' (Oui), la valeur de AppliedOptionIndicator ne doit pas être '1' ou 'true' (Oui)."
+    },
+    "InstructCashAmountRule": {
+      "definition": "Si OptionFeatures/Code QCAS (InstructCashAmount) n'est pas présent, alors aucun des éléments de message de la liste (PriceDetails/MaximumCashToInstruct, PriceDetails/MinimumCashToInstruct, PriceDetails/MinimumMutipleCashToInstruct) ne doit être présent.|(MT564 NVR C20)."
+    },
+    "DissenterRights1Rule": {
+      "definition": "Si la valeur de OfferType/Code est égale à DISS (DissenterRights), alors la valeur de OfferType/Code égale à NDIS (DissenterRightsNotApplicable) n'est pas autorisée dans aucune occurrence de OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2Rule": {
+      "definition": "Si la valeur de OfferType/Code est égale à NDISS (DissenterRightsNotApplicable), alors la valeur de OfferType/Code égale à DISS (DissenterRights) n'est pas autorisée dans aucune occurrence de OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights1UGRule": {
+      "definition": "Si la valeur de OfferType/Code est égale à DISS (DissenterRights), alors la valeur de OfferType/Code égale à NDIS (DissenterRightsNotApplicable) n'est pas autorisée dans aucune occurrence de OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2UGRule": {
+      "definition": "Si la valeur de OfferType/Code est égale à NDIS (DissenterRightsNotApplicable), alors la valeur de OfferType/Code égale à DISS (DissenterRights) n'est pas autorisée dans aucune occurrence de OfferType.|(MT 564 NVR C27)"
+    }
+  }
+}

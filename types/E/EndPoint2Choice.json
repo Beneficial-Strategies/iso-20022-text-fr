@@ -1,0 +1,12 @@
+{
+  "isoType": "EndPoint2Choice",
+  "definition": "Choix entre la date du dernier paiement ou le nombre de paiements à effectuer.",
+  "isoElements": {
+    "NumberOfPayments": {
+      "definition": "Nombre de paiements qui seront effectués pour achever cette séquence de fréquence, y compris ceux déjà exécutés depuis la date de début de la séquence."
+    },
+    "LastPaymentDate": {
+      "definition": "Dernier paiement de l'ordre permanent dû."
+    }
+  }
+}

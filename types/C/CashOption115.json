@@ -1,0 +1,62 @@
+{
+  "isoType": "CashOption115",
+  "definition": "Fournit des informations sur l'option en espèces.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indique si la valeur est un débit ou un crédit."
+    },
+    "NonEligibleProceedsIndicator": {
+      "definition": "Précise les informations relatives aux ressources de sortie qui ne peuvent pas être traitées par le dépositaire central de titres (CSD). Une instruction de livraison spéciale du titulaire du compte est requise pour que le résultat de l'événement sur titres soit crédité."
+    },
+    "IncomeType": {
+      "definition": "Précise le type de revenu."
+    },
+    "OtherIncomeType": {
+      "definition": "Type de revenu à utiliser dans le cadre d'un autre régime fiscal."
+    },
+    "ExemptionType": {
+      "definition": "Précise la base du taux réduit de retenue à la source."
+    },
+    "PriceCalculationMethod": {
+      "definition": "Précise la méthode appliquée pour le calcul du prix."
+    },
+    "CountryOfIncomeSource": {
+      "definition": "Indique le pays d'où provient le revenu."
+    },
+    "AmountDetails": {
+      "definition": "Fournit des informations sur les montants relatifs à un mouvement d'espèces."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates relatives à un mouvement d'espèces."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Taux de change entre le montant et le montant résultant."
+    },
+    "EstimatedRateIndicator": {
+      "definition": "Indique si le taux est approximatif.|Yes : applicable.|No : non applicable.|En cas d'absence, signifie No."
+    },
+    "NRATaxReportableIndicator": {
+      "definition": "Indique si l'événement de revenu est soumis à la retenue à la source s'il est versé à un étranger non résident des États-Unis (NRA).|Yes : applicable.|No : non applicable.|En cas d'absence, signifie No."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fournit des informations sur l'option de l'événement sur titres."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix relatifs à une option d'événement sur titres."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct et GenericCashPricePaidPerProduct sont des prix reçus ou payés au cours d'un événement. La signification précise (prix de remboursement, prix de souscription, prix de réinvestissement.) découle du type d'événement."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "Les listes des codes de type d'exemption à utiliser dans ExemptionType sont fournies dans le document « ETYP-ITYP Exemption & Income Type Codes » disponible sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "Les listes des codes de type de revenu à utiliser dans IncomeType sont fournies dans le document « ETYP-ITYP Exemption & Income Type Codes » disponible sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "IncomeType2Rule": {
+      "definition": "Si au moins une occurrence de OtherIncomeType est présente, alors IncomeType doit être présent."
+    }
+  }
+}

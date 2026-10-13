@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestmentFundTransactionInType1Choice",
+  "definition": "Choix de formats pour le type d'opération entrante.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'opération exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type d'opération exprimé sous forme de code propriétaire."
+    }
+  }
+}

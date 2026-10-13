@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryPrice2",
+  "definition": "Ensemble d'éléments permettant d'identifier un prix propriétaire.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type de prix."
+    },
+    "Price": {
+      "definition": "Spécification de prix propriétaire relative à l'opération sous-jacente."
+    }
+  }
+}

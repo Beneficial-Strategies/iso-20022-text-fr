@@ -1,0 +1,18 @@
+{
+  "isoType": "Entry2Code",
+  "definition": "Spécifie le type d'une entrée dans un rapport.",
+  "isoCodes": {
+    "TRIA": {
+      "name": "Essai",
+      "definition": "Échéancier de versement à titre d'essai."
+    },
+    "OFFI": {
+      "name": "Officiel",
+      "definition": "Échéancier de versement officiel."
+    },
+    "REQU": {
+      "name": "Demandé",
+      "definition": "Échéancier de versement sur demande."
+    }
+  }
+}

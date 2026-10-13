@@ -1,0 +1,18 @@
+{
+  "isoType": "GenericIdentification56",
+  "definition": "Informations propriétaires relatives à un solde.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Informations propriétaires, souvent un code, émises par l'émetteur du schéma de la source de données."
+    },
+    "Issuer": {
+      "definition": "Entité qui attribue l'identification."
+    },
+    "SchemeName": {
+      "definition": "Brève description textuelle du schéma."
+    },
+    "Balance": {
+      "definition": "Valeur du solde."
+    }
+  }
+}

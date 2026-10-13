@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentTypeInformation28",
+  "definition": "Fournit des précisions supplémentaires sur le type de paiement.",
+  "isoElements": {
+    "InstructionPriority": {
+      "definition": "Indicateur de l'urgence ou de l'ordre d'importance que la partie donneuse d'ordre souhaite voir appliqué par la partie destinataire de l'ordre au traitement de l'instruction."
+    },
+    "ClearingChannel": {
+      "definition": "Précise le canal de compensation à utiliser pour traiter l'instruction de paiement."
+    },
+    "ServiceLevel": {
+      "definition": "Accord ou règles selon lesquels l'opération doit être traitée."
+    },
+    "LocalInstrument": {
+      "definition": "Instrument propre à la communauté d'utilisateurs.||Utilisation : cet élément sert à préciser un instrument local, une option de compensation locale et/ou à qualifier davantage le service ou le niveau de service."
+    },
+    "CategoryPurpose": {
+      "definition": "Précise la finalité de haut niveau de l'instruction, selon un ensemble de catégories prédéfinies.|Utilisation : cet élément est utilisé par la partie initiatrice pour fournir des informations concernant le traitement du paiement. Il est susceptible de déclencher un traitement spécial par l'un des agents intervenant dans la chaîne de paiement."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "ConsolidationType1Code",
+  "definition": "Indique le type de consolidation.",
+  "isoCodes": {
+    "GENL": {
+      "name": "Général",
+      "definition": "La consolidation est générale."
+    },
+    "PART": {
+      "name": "Participation",
+      "definition": "La consolidation s'effectue au niveau du participant."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "GlobalDistributionStatus1",
+  "definition": "Fournit des informations sur le statut du mouvement global.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Fournit des informations sur le statut de traitement du mouvement global."
+    },
+    "RejectedStatus": {
+      "definition": "Fournit des informations sur le statut de rejet."
+    }
+  },
+  "isoRules": {
+    "ProcessedStatusOrRejectedStatusRule": {
+      "definition": "ProcessedStatus ou RejectedStatus."
+    },
+    "ProcessedStatusOrRejectedStatusRuleNotBoth": {
+      "definition": "ProcessedStatus ou RejectedStatus."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountContract4",
+  "definition": "Précise les dates cibles relatives à l'ouverture et à la clôture du compte.",
+  "isoElements": {
+    "TargetClosingDate": {
+      "definition": "Date à laquelle le compte et les services associés devraient cesser d'être opérationnels pour le titulaire du compte."
+    },
+    "UrgencyFlag": {
+      "definition": "Indicateur signalant que le processus d'ouverture/de maintenance/de clôture du compte doit être traité de manière urgente, c'est-à-dire plus rapidement que les délais fixés par le niveau de service convenu entre le client titulaire du compte et l'établissement teneur de compte."
+    },
+    "RemovalIndicator": {
+      "definition": "Indique la suppression du compte. Après suppression, un compte n'apparaîtra plus dans les relevés."
+    }
+  }
+}

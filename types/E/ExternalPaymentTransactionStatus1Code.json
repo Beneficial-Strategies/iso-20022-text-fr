@@ -1,0 +1,106 @@
+{
+  "isoType": "ExternalPaymentTransactionStatus1Code",
+  "definition": "Précise le statut d'une instruction de paiement individuelle, tel que publié dans un jeu de codes externe de statuts d'opérations de paiement.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "ACCC": {
+      "name": "Accepté, règlement effectué sur le compte du créancier",
+      "definition": "Le règlement sur le compte du créancier a été effectué."
+    },
+    "ACCP": {
+      "name": "Profil client accepté",
+      "definition": "Le contrôle préalable de validation technique a abouti. Le contrôle du profil du client a également abouti."
+    },
+    "ACFC": {
+      "name": "Accepté, fonds vérifiés",
+      "definition": "Le contrôle préalable de validation technique et du profil client a réussi et un contrôle automatique des fonds a été positif."
+    },
+    "ACIS": {
+      "name": "Accepté et chèque émis",
+      "definition": "L'instruction de paiement d'émission d'un chèque a été acceptée, et le chèque a été émis mais n'a pas encore été déposé ni compensé."
+    },
+    "ACSC": {
+      "name": "Accepté, règlement effectué sur le compte du débiteur",
+      "definition": "Règlement effectué.|Usage : peut être utilisé par une infrastructure de marché déclarant à un participant à l'infrastructure, ou par un teneur de compte déclarant au titulaire du compte, pour signaler que l'écriture de compte de l'opération a été effectuée.|Avertissement : ce statut est fourni pour les motifs de statut de l'opération, et non pour des informations financières. Il ne peut être utilisé qu'après accord bilatéral"
+    },
+    "ACSP": {
+      "name": "Accepté, règlement en cours",
+      "definition": "Tous les contrôles préalables, tels que la validation technique et le profil client, ont réussi et l'instruction de paiement a donc été acceptée pour exécution."
+    },
+    "ACTC": {
+      "name": "Validation technique acceptée",
+      "definition": "L'authentification et la validation syntaxique et sémantique ont réussi"
+    },
+    "ACWC": {
+      "name": "Accepté avec modification",
+      "definition": "L'instruction est acceptée, mais une modification sera apportée, par exemple la date ou la non-transmission de la remise."
+    },
+    "ACWP": {
+      "name": "Accepté sans comptabilisation",
+      "definition": "L'instruction de paiement incluse dans le virement est acceptée sans être comptabilisée sur le compte du client créancier."
+    },
+    "BLCK": {
+      "name": "Bloqué",
+      "definition": "L'opération de paiement précédemment déclarée avec le statut « ACWP » est bloquée ; par exemple, les fonds ne seront ni comptabilisés sur le compte du créancier, ni restitués au débiteur."
+    },
+    "CANC": {
+      "name": "Annulé",
+      "definition": "L'initiation du paiement a été annulée avec succès après réception d'une demande d'annulation.|Usage : code à utiliser uniquement dans le contexte des API."
+    },
+    "CPUC": {
+      "name": "Espèces retirées par le créancier",
+      "definition": "Les espèces ont été retirées par le créancier."
+    },
+    "PATC": {
+      "name": "Partiellement accepté, techniquement correct",
+      "definition": "L'initiation du paiement nécessite plusieurs authentifications, dont certaines, mais pas toutes, ont été effectuées. Les validations syntaxique et sémantique ont réussi."
+    },
+    "PDNG": {
+      "name": "En attente",
+      "definition": "L'instruction de paiement est en attente. Des contrôles complémentaires et une mise à jour du statut seront effectués."
+    },
+    "PRES": {
+      "name": "Présenté",
+      "definition": "La demande de paiement a été présentée au débiteur."
+    },
+    "RCVD": {
+      "name": "Reçu",
+      "definition": "L'instruction de paiement a été reçue."
+    },
+    "RJCT": {
+      "name": "Rejeté",
+      "definition": "L'instruction de paiement a été rejetée."
+    },
+    "ACPD": {
+      "name": "Accepté, compensation traitée",
+      "definition": "Statut de l'opération libérée par la banque du débiteur et acceptée par la compensation."
+    },
+    "RCVC": {
+      "name": "Reçu, vérification terminée",
+      "definition": "Le contrôle de vérification du bénéficiaire (Verification of Payee) a été appliqué à l'opération reçue et indique qu'il est complet, sans données discordantes."
+    },
+    "RVNA": {
+      "name": "Reçu, vérification terminée, non applicable",
+      "definition": "Le contrôle de vérification du bénéficiaire (Verification of Payee) a été appliqué à l'opération reçue et indique qu'il est complet, avec des données non applicables."
+    },
+    "RVNM": {
+      "name": "Reçu, vérification terminée, aucune correspondance",
+      "definition": "Le contrôle de vérification du bénéficiaire (Verification of Payee) a été appliqué à l'opération reçue et indique qu'il est complet, avec des données discordantes."
+    },
+    "RVMC": {
+      "name": "Reçu, vérification terminée, correspondance proche",
+      "definition": "Le contrôle de vérification du bénéficiaire (Verification of Payee) a été appliqué à l'opération reçue et indique qu'il est complet, avec des données correspondant de près."
+    },
+    "ACFW": {
+      "name": "Accepté, fonds vérifiés, en attente de confirmation",
+      "definition": "Le contrôle préalable de validation technique et du profil client a réussi, et un contrôle automatique des fonds a été positif, mais une confirmation explicite de la partie initiatrice est en attente."
+    },
+    "RVNC": {
+      "name": "Reçu, vérification non terminée",
+      "definition": "Le contrôle de vérification de la partie sur l'opération n'est pas encore terminé."
+    },
+    "RVCM": {
+      "name": "Reçu, vérification terminée avec discordances",
+      "definition": "Les contrôles de vérification du bénéficiaire (Verification of Payee) ont été appliqués à l'opération reçue et indiquent qu'ils sont terminés, avec des données discordantes."
+    }
+  }
+}

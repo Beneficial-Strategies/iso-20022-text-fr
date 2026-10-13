@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMMessageFunction2",
+  "definition": "Identifie le type de traitement lié à un message de l'ATM.",
+  "isoElements": {
+    "Function": {
+      "definition": "Type de fonction demandée."
+    },
+    "ATMServiceCode": {
+      "definition": "Codification du type de service pour l'ATM."
+    },
+    "HostServiceCode": {
+      "definition": "Codification du type de service pour l'hôte du gestionnaire de l'ATM."
+    }
+  }
+}

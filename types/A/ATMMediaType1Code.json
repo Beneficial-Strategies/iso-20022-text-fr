@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMMediaType1Code",
+  "definition": "Type de support contenu dans une cassette d'ATM.",
+  "isoCodes": {
+    "CARD": {
+      "name": "Cartes",
+      "definition": "Support carte."
+    },
+    "COIN": {
+      "name": "Pièces",
+      "definition": "Support pièces de monnaie."
+    },
+    "CMDT": {
+      "name": "Marchandise",
+      "definition": "Valeur non fixe du support, par exemple or, argent."
+    },
+    "CPNS": {
+      "name": "Coupons",
+      "definition": "Support coupons."
+    },
+    "NOTE": {
+      "name": "Billets",
+      "definition": "Support billets de banque."
+    },
+    "STMP": {
+      "name": "Timbres",
+      "definition": "Support timbres."
+    },
+    "UDTM": {
+      "name": "Indéterminé",
+      "definition": "Supports indéterminés."
+    }
+  }
+}

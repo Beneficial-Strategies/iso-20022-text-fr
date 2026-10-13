@@ -1,0 +1,27 @@
+{
+  "isoType": "UnitPrice23",
+  "definition": "Montant pour lequel des biens ou des services sont offerts, vendus ou achetés.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type et informations relatifs à un prix."
+    },
+    "Value": {
+      "definition": "Valeur du prix."
+    },
+    "PriceMethod": {
+      "definition": "Type de méthode de calcul du prix."
+    },
+    "AccruedInterestNAV": {
+      "definition": "Intérêts courus entre le dernier paiement d'intérêts et la vente de l'instrument financier."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Nombre de jours utilisé pour le calcul du montant des intérêts courus."
+    },
+    "TaxableIncomePerShare": {
+      "definition": "Montant inclus dans la valeur liquidative (VL) correspondant aux gains issus, directement ou indirectement, de paiements d'intérêts dans le champ d'application de la directive européenne relative à la fiscalité des revenus de l'épargne sous forme de paiements d'intérêts (NAV)."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "definition": "Précise si le fonds calcule un intérêt imposable par part (TIS)."
+    }
+  }
+}

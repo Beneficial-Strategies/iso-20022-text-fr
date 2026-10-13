@@ -1,0 +1,29 @@
+{
+  "isoType": "StructuredRegulatoryReporting5",
+  "definition": "Informations requises en raison d'exigences réglementaires et légales.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type des informations fournies dans les détails de la déclaration réglementaire."
+    },
+    "Date": {
+      "definition": "Date relative au type indiqué de détails de déclaration réglementaire."
+    },
+    "Country": {
+      "definition": "Pays relatif au type indiqué de détails de déclaration réglementaire."
+    },
+    "ReportingCode": {
+      "definition": "Précise, sous forme codée, la nature, la finalité et le motif de l'opération à déclarer au titre des exigences réglementaires et légales."
+    },
+    "Amount": {
+      "definition": "Montant à déclarer au titre des exigences réglementaires et légales."
+    },
+    "Information": {
+      "definition": "Détails supplémentaires répondant à des exigences réglementaires nationales spécifiques."
+    }
+  },
+  "isoRules": {
+    "ReportingCodeAndInformationRule": {
+      "definition": "Le code de déclaration ou l'information doit être présent. Les deux peuvent être présents."
+    }
+  }
+}

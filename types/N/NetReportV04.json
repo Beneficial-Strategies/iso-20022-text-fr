@@ -1,0 +1,9 @@
+{
+  "isoType": "NetReportV04",
+  "definition": "Le message Net Report est envoyé à un participant par un système central pour fournir le détail des obligations de paiement bilatérales, calculées par le système central pour chaque devise.",
+  "isoRules": {
+    "CounterpartyIdentificationRule": {
+      "definition": "NetServiceCounterpartyIdentification ne doit être utilisé à ce niveau que si toutes les obligations sous-jacentes concernent une seule contrepartie."
+    }
+  }
+}

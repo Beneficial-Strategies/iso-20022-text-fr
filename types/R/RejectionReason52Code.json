@@ -1,0 +1,18 @@
+{
+  "isoType": "RejectionReason52Code",
+  "definition": "Précise le motif pour lequel la réponse de divulgation de l'identité est rejetée.",
+  "isoCodes": {
+    "IDRI": {
+      "name": "Identification de la demande de divulgation invalide",
+      "definition": "L'identification de la demande de divulgation est invalide ou inconnue."
+    },
+    "IDRJ": {
+      "name": "Identification de la réponse de divulgation invalide",
+      "definition": "L'identification de la réponse de divulgation est invalide ou inconnue."
+    },
+    "SVNO": {
+      "name": "Service non proposé",
+      "definition": "Le service pour lequel l'information a été envoyée n'est pas proposé."
+    }
+  }
+}

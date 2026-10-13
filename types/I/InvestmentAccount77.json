@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestmentAccount77",
+  "definition": "Informations sur un compte-titres et ses caractéristiques.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "AccountName": {
+      "definition": "Nom du compte. Il constitue un moyen supplémentaire d'identification et est désigné par le teneur de compte en accord avec le titulaire du compte."
+    },
+    "AccountDesignation": {
+      "definition": "Informations d'enregistrement complémentaires s'appliquant à un bloc spécifique de parts à des fins de traitement et de déclaration. Ces informations d'enregistrement complémentaires peuvent être utilisées lorsque toutes les parts sont enregistrées, par exemple, auprès d'un supermarché de fonds, mais que les avoirs de chaque investisseur doivent être rapprochés individuellement."
+    },
+    "OwnerIdentification": {
+      "definition": "Identification du titulaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    }
+  }
+}

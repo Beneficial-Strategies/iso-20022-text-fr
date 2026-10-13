@@ -1,0 +1,22 @@
+{
+  "isoType": "FractionDispositionType10Code",
+  "definition": "Indique que la valeur fractionnaire doit être conservée ; aucun arrondi.",
+  "isoCodes": {
+    "BUYU": {
+      "name": "Rachat complémentaire",
+      "definition": "Acheter des titres jusqu'au nombre entier supérieur."
+    },
+    "CINL": {
+      "name": "Espèces en remplacement des fractions",
+      "definition": "Partie fractionnaire en espèces. Percevoir des espèces en lieu et place des fractions."
+    },
+    "EXPI": {
+      "name": "Expiration",
+      "definition": "Laisser les fractions expirer sans valeur."
+    },
+    "DIST": {
+      "name": "Émission de fraction",
+      "definition": "Recevoir la distribution des fractions sous forme de titres."
+    }
+  }
+}

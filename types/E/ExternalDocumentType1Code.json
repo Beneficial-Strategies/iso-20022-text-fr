@@ -1,0 +1,97 @@
+{
+  "isoType": "ExternalDocumentType1Code",
+  "isoCodes": {
+    "CINV": {
+      "name": "Facture commerciale",
+      "definition": "Le document est une facture."
+    },
+    "CNFA": {
+      "name": "Note de crédit liée à un ajustement financier",
+      "definition": "Le document est un avoir pour le montant final réglé dans le cadre d'une opération commerciale."
+    },
+    "CONT": {
+      "name": "Contrat",
+      "definition": "Le document est un contrat attestant un accord entre le vendeur et l'acheteur pour la fourniture de biens et/ou de services."
+    },
+    "CREN": {
+      "name": "Note de crédit",
+      "definition": "Le document est un avoir."
+    },
+    "DEBN": {
+      "name": "Note de débit",
+      "definition": "Le document est une note de débit."
+    },
+    "DISP": {
+      "name": "Avis d'expédition",
+      "definition": "Le document est un avis d'expédition des marchandises."
+    },
+    "DNFA": {
+      "name": "Note de débit liée à un ajustement financier",
+      "definition": "Le document est une note de débit pour le montant final réglé dans le cadre d'une opération commerciale."
+    },
+    "HIRI": {
+      "name": "Facture de location",
+      "definition": "Le document est une facture relative à la mise à disposition de ressources humaines ou à la location de biens ou d'équipements."
+    },
+    "INVS": {
+      "name": "Facture signée",
+      "definition": "Le document est une facture signée."
+    },
+    "MSIN": {
+      "name": "Facture de service mesuré",
+      "definition": "Le document est une facture réclamant le paiement de la fourniture de services mesurés, par exemple de gaz ou d'électricité, fournis à un compteur fixe."
+    },
+    "PROF": {
+      "name": "Facture proforma",
+      "definition": "Dans les opérations commerciales, une facture pro forma est un document qui énonce l'engagement du vendeur de vendre des marchandises à l'acheteur à des prix et conditions déterminés. Elle sert à déclarer la valeur de la transaction commerciale. Ce n'est pas une véritable facture, car elle ne sert pas à enregistrer les créances clients du vendeur ni les dettes fournisseurs de l'acheteur."
+    },
+    "PUOR": {
+      "name": "Bon de commande",
+      "definition": "Le document est un bon de commande."
+    },
+    "QUOT": {
+      "name": "Devis",
+      "definition": "Le document est un devis exposant les conditions dans lesquelles les biens et/ou services sont proposés."
+    },
+    "SBIN": {
+      "name": "Autofacture",
+      "definition": "Le document est un relevé des opérations comptabilisées sur le compte du débiteur chez le fournisseur."
+    },
+    "SPRR": {
+      "name": "Présentation par le vendeur",
+      "definition": "Le document est un document présenté par le vendeur à l'appui de l'acquisition de biens et/ou de services."
+    },
+    "TISH": {
+      "name": "Feuille de temps",
+      "definition": "Le document est une feuille de temps enregistrant les durées de prestation de services et/ou de livraison de biens."
+    },
+    "USAR": {
+      "name": "Rapport d'utilisation",
+      "definition": "Le document est un relevé d'utilisation indiquant le profil de consommation de biens et/ou de services désignés."
+    },
+    "AROI": {
+      "name": "Poste ouvert de compte client",
+      "definition": "Le document est un paiement qui s'applique à un document source précis."
+    },
+    "BOLD": {
+      "name": "Connaissement",
+      "definition": "Le document est un bordereau d'expédition."
+    },
+    "CMCN": {
+      "name": "Contrat commercial",
+      "definition": "Le document est un accord entre les parties, stipulant les conditions de livraison de biens ou de prestation de services."
+    },
+    "SOAC": {
+      "name": "Relevé de compte",
+      "definition": "Le document est un relevé des opérations comptabilisées sur le compte du débiteur chez le fournisseur."
+    },
+    "TSUT": {
+      "name": "Opération de service public de financement du commerce",
+      "definition": "Le document est un identifiant d'opération attribué par le Trade Services Utility."
+    },
+    "VCHR": {
+      "name": "Bon justificatif",
+      "definition": "Le document est un document de paiement électronique."
+    }
+  }
+}

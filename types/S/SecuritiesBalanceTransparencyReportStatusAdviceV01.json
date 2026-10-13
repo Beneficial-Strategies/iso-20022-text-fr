@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesBalanceTransparencyReportStatusAdviceV01",
+  "definition": "SCOPE||Un titulaire de compte, tel qu'un conservateur, un dépositaire central de titres, un dépositaire international de titres ou un agent de transfert, envoie le message SecuritiesBalanceTransparencyReportStatusAdvice en réponse à un SecuritiesBalanceTransparencyReport, pour accepter ou rejeter le relevé des avoirs tel qu'envoyé dans un SecuritiesBalanceTransparencyReport.||USAGE|Le SecuritiesBalanceTransparencyReportStatusAdvice est utilisé pour accepter (Accepted), accepter partiellement (Accepted With Exception) ou rejeter (Rejected) un SecuritiesBalanceTransparencyReport reçu précédemment."
+}

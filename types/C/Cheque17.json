@@ -1,0 +1,45 @@
+{
+  "isoType": "Cheque17",
+  "definition": "Caractéristiques d'une instruction de chèque, telles que le type de chèque ou le numéro de chèque.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identification unique, attribuée par une partie instructrice à une partie instruite, pour identifier sans ambiguïté l'instruction. ||Utilisation : l'identification de l'instruction est une référence de point à point pouvant être utilisée entre la partie instructrice et la partie instruite pour désigner l'instruction individuelle. Elle peut figurer dans plusieurs messages liés à l'instruction."
+    },
+    "ChequeNumber": {
+      "definition": "Identifiant unique et sans ambiguïté d'un chèque, attribué par l'agent."
+    },
+    "IssueDate": {
+      "definition": "Date à laquelle le chèque a été émis par le payeur."
+    },
+    "StaleDate": {
+      "definition": "Date après laquelle un chèque n'est plus valable. La durée de validité d'un chèque est calculée à partir de la date d'émission figurant sur le chèque.  La durée peut être indiquée sur le chèque lui-même, par exemple « Valable 90 jours », ou être déterminée conformément à la pratique bancaire nationale. |Tous les pays n'ont pas de durée de validité."
+    },
+    "Amount": {
+      "definition": "Indique le montant du chèque à payer au bénéficiaire."
+    },
+    "ValueDate": {
+      "definition": "Date et heure à laquelle le montant du chèque est disponible sur le compte du bénéficiaire."
+    },
+    "Payer": {
+      "definition": "Partie qui émet un chèque ordonnant à la banque tirée de payer un montant déterminé, à vue, au bénéficiaire."
+    },
+    "PayerAccount": {
+      "definition": "Indique le compte de trésorerie du payeur."
+    },
+    "DrawerAgent": {
+      "definition": "Indique la banque qui tient le compte du payeur du chèque."
+    },
+    "DrawerAgentAccount": {
+      "definition": "Indique le compte de trésorerie de la banque du tireur."
+    },
+    "Payee": {
+      "definition": "Partie qui reçoit une somme d'argent conformément au chèque."
+    },
+    "PayeeAccount": {
+      "definition": "Indique le compte de trésorerie du bénéficiaire."
+    },
+    "InstructionForChequeAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de chèque, qui peuvent nécessiter une action de la part de la banque qui traite le chèque."
+    }
+  }
+}

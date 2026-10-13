@@ -1,0 +1,10 @@
+{
+  "isoType": "ProxyNotAllowed1Code",
+  "definition": "Indique que la désignation d'un mandataire n'est pas autorisée pour l'assemblée.",
+  "isoCodes": {
+    "NPRO": {
+      "name": "Non autorisé",
+      "definition": "Mandataire non autorisé."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentType2Choice",
+  "definition": "Précise le type du document.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de document de remise, tel que publié dans un ensemble externe de codes de types de document."
+    },
+    "Proprietary": {
+      "definition": "Type de document de remise, sous forme propriétaire."
+    }
+  }
+}

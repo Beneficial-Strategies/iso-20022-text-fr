@@ -1,0 +1,86 @@
+{
+  "isoType": "SettlementDetails211",
+  "definition": "Détails du règlement d'une opération.",
+  "isoElements": {
+    "Priority": {
+      "definition": "Précise si l'opération a été exécutée avec une priorité élevée."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifie le type d'opération sur titres."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Conditions dans lesquelles l'ordre/la transaction devait être réglé(e)."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Précise si le règlement partiel était autorisé."
+    },
+    "BeneficialOwnership": {
+      "definition": "Précise s'il y a eu un changement de propriété effective."
+    },
+    "BlockTrade": {
+      "definition": "Précise si l'instruction de règlement était une instruction parente ou enfant d'un bloc."
+    },
+    "CCPEligibility": {
+      "definition": "Précise si l'opération de règlement était éligible à une CCP (contrepartie centrale)."
+    },
+    "CashClearingSystem": {
+      "definition": "Indique la catégorie de système de compensation en numéraire, par exemple la compensation de chèques."
+    },
+    "ExposureType": {
+      "definition": "Précise le domaine d'activité/type de transaction sous-jacent ayant provoqué le mouvement de garantie."
+    },
+    "MarketClientSide": {
+      "definition": "Précise si une instruction concernait une opération côté marché ou côté client."
+    },
+    "NettingEligibility": {
+      "definition": "Précise si l'opération de règlement était éligible à la compensation."
+    },
+    "Registration": {
+      "definition": "Précise si l'inscription devait avoir lieu à réception."
+    },
+    "RepurchaseType": {
+      "definition": "Indique le type d'opération de mise en pension."
+    },
+    "LegalRestrictions": {
+      "definition": "Restrictions réglementaires applicables à un titre."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Précise si l'opération de règlement devait être réglée par un système RTGS ou non RTGS."
+    },
+    "SettlingCapacity": {
+      "definition": "Rôle d'une partie dans le règlement de l'opération."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Précise si l'instruction de règlement devait être réglée par le système de règlement par défaut ou alternatif."
+    },
+    "TaxCapacity": {
+      "definition": "Rôle fiscal de la partie donneuse d'ordre."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Indique le type de droit de timbre ou le motif d'exonération applicable à l'opération de règlement."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Condition d'emprunt automatique."
+    },
+    "LetterOfGuarantee": {
+      "definition": "Précise si le règlement physique a été exécuté à l'aide d'une lettre de garantie ou si les certificats physiques ont été utilisés."
+    },
+    "EligibleForCollateral": {
+      "definition": "Précise s'il était demandé que les titres soient inclus dans le panier de titres éligibles à des fins de garantie."
+    },
+    "SecuritiesSubBalanceType": {
+      "definition": "Indique le type de sous-solde de titres (par exemple, type de restriction pour une infrastructure de marché)."
+    },
+    "CashSubBalanceType": {
+      "definition": "Précise l'indicateur de type de sous-solde espèces, par exemple le type de restriction pour une infrastructure de marché."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Si des éléments SettlementDetails sont utilisés, leurs conditions d'utilisation doivent être convenues au préalable entre le titulaire du compte et le teneur de compte."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Les codes CashSettlementSystem ne doivent être utilisés que par les agents directement impliqués dans le processus de règlement, tels que les agents de règlement locaux, les CSD et les banques centrales."
+    }
+  }
+}

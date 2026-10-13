@@ -1,0 +1,23 @@
+{
+  "isoType": "IntraPositionMovementInstruction002V06",
+  "definition": "Portée|Un titulaire de compte envoie un IntraPositionMovementInstruction à un teneur de compte pour instruire le mouvement de titres au sein de ses avoirs d'un sous-solde à un autre, par exemple le blocage de titres.||La relation titulaire/teneur de compte peut être :|- un conservateur global qui détient un compte auprès de son agent local (sous-conservateur), ou|- une société de gestion d'investissement qui gère un compte de fonds ouvert auprès d'un conservateur, ou|- un courtier qui détient un compte auprès d'un conservateur, ou|- un participant d'un dépositaire central de titres qui détient un compte auprès d'un dépositaire central de titres, ou|- un dépositaire central de titres qui détient un compte auprès d'un conservateur, d'un autre dépositaire central de titres ou d'une autre infrastructure de marché de règlement.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information.|en utilisant les éléments pertinents de l'en-tête applicatif métier (Business Application Header).",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la partie donneuse d'ordre."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identification attribuée par la banque teneur de compte permettant d'identifier sans ambiguïté un événement sur titres."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

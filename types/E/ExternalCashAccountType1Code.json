@@ -1,0 +1,117 @@
+{
+  "isoType": "ExternalCashAccountType1Code",
+  "isoCodes": {
+    "CACC": {
+      "name": "Courant",
+      "definition": "Compte utilisé pour enregistrer les débits et les crédits lorsqu'aucun compte spécifique n'a été désigné."
+    },
+    "CARD": {
+      "name": "Compte de carte",
+      "definition": "Compte utilisé pour les paiements par carte de crédit."
+    },
+    "CASH": {
+      "name": "Paiement en espèces",
+      "definition": "Compte utilisé pour le paiement en espèces."
+    },
+    "CHAR": {
+      "name": "Frais",
+      "definition": "Compte utilisé pour les frais s'il diffère du compte de|paiement."
+    },
+    "CISH": {
+      "name": "Revenu en espèces",
+      "definition": "Compte utilisé pour le paiement des revenus s'il diffère du compte espèces courant"
+    },
+    "COMM": {
+      "name": "Commission",
+      "definition": "Compte utilisé pour les commissions s'il diffère du compte de|paiement."
+    },
+    "CPAC": {
+      "name": "Compte de règlement du participant à la compensation",
+      "definition": "Compte utilisé pour enregistrer les écritures de règlement au débit et au crédit pour le compte d'un participant à la compensation désigné."
+    },
+    "LLSV": {
+      "name": "Compte d'épargne à liquidité limitée",
+      "definition": "Compte d'épargne assorti de conditions particulières d'intérêts et de retrait."
+    },
+    "LOAN": {
+      "name": "Prêt",
+      "definition": "Compte utilisé pour les prêts."
+    },
+    "MGLD": {
+      "name": "Facilité de prêt marginal",
+      "definition": "Compte utilisé pour une facilité de prêt marginal."
+    },
+    "MOMA": {
+      "name": "Marché monétaire",
+      "definition": "Compte utilisé pour les marchés monétaires s'il diffère du compte|espèces."
+    },
+    "NREX": {
+      "name": "Non-résident externe",
+      "definition": "Compte utilisé pour les comptes externes de non-résidents."
+    },
+    "ODFT": {
+      "name": "Découvert",
+      "definition": "Compte utilisé pour les découverts."
+    },
+    "ONDP": {
+      "name": "Dépôt à un jour",
+      "definition": "Compte utilisé pour les dépôts à un jour."
+    },
+    "OTHR": {
+      "name": "Autre compte",
+      "definition": "Compte non spécifié par ailleurs."
+    },
+    "SACC": {
+      "name": "Règlement",
+      "definition": "Compte utilisé pour enregistrer les écritures au débit et au crédit résultant d'opérations compensées et réglées par l'intermédiaire d'un système de compensation et de règlement donné."
+    },
+    "SLRY": {
+      "name": "Salaire",
+      "definition": "Comptes utilisés pour le paiement des salaires."
+    },
+    "SVGS": {
+      "name": "Épargne",
+      "definition": "Compte utilisé pour l'épargne."
+    },
+    "TAXE": {
+      "name": "Impôt",
+      "definition": "Compte utilisé pour les impôts et taxes s'il diffère du compte de|paiement."
+    },
+    "TRAN": {
+      "name": "Compte transactionnel",
+      "definition": "Un compte transactionnel est le type de compte bancaire le plus basique qui soit. La principale différence entre un compte transactionnel et un compte chèques est que, en général, aucun chéquier n'est remis avec le compte transactionnel et qu'aucune facilité de découvert n'est offerte."
+    },
+    "TRAS": {
+      "name": "Négociation au comptant",
+      "definition": "Compte utilisé pour la négociation s'il diffère du compte espèces courant."
+    },
+    "VACC": {
+      "name": "Compte virtuel",
+      "definition": "Compte créé de manière virtuelle pour faciliter l'encaissement et le rapprochement."
+    },
+    "NFCA": {
+      "name": "Compte en devises de non-résident",
+      "definition": "Compte en devise étrangère d'un particulier / d'une entité non résidents, détenu dans le pays."
+    },
+    "RFCA": {
+      "name": "Compte en devises de résident particulier",
+      "definition": "Compte en devise étrangère d'un particulier résident, détenu dans le pays."
+    },
+    "REFC": {
+      "name": "Devises d'entité résidente",
+      "definition": "Compte en devise étrangère d'une entité résidente, détenu dans le pays."
+    },
+    "NLCY": {
+      "name": "Compte en monnaie locale de non-résident",
+      "definition": "Compte en monnaie nationale de non-résident."
+    },
+    "RLCY": {
+      "name": "Monnaie locale de résident",
+      "definition": "Compte en monnaie nationale de résident."
+    },
+    "ODEP": {
+      "name": "Dépôt ordinaire",
+      "definition": "Compte utilisé comme dépôt ordinaire pour les dépôts et retraits courants."
+    }
+  }
+}

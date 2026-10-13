@@ -1,0 +1,24 @@
+{
+  "isoType": "ReservationSearchCriteria6",
+  "definition": "Définit les critères utilisés pour rechercher une réservation.",
+  "isoElements": {
+    "DateTime": {
+      "definition": "Motifs de recherche d'une date et heure."
+    },
+    "SystemIdentification": {
+      "definition": "Identification d'un système de compensation de trésorerie particulier."
+    },
+    "DefaultReservationType": {
+      "definition": "Type de réservation défini par défaut dans le système. La réservation par défaut est appliquée par le système, sauf instruction contraire."
+    },
+    "CurrentReservationType": {
+      "definition": "Type de réservation appliqué par le système à l'instant présent."
+    },
+    "AccountOwner": {
+      "definition": "Titulaire du compte faisant l'objet de la requête."
+    },
+    "AccountIdentification": {
+      "definition": "Identification unique et non ambiguë du compte entre le titulaire du compte et le teneur de compte."
+    }
+  }
+}

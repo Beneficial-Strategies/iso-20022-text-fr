@@ -1,0 +1,51 @@
+{
+  "isoType": "AccountNotification25",
+  "definition": "Fournit des détails supplémentaires sur la notification de compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique, attribuée par le teneur de compte, permettant d'identifier sans ambiguïté la notification de compte."
+    },
+    "NotificationPagination": {
+      "definition": "Fournit des détails sur le numéro de page de la notification.||Utilisation : la pagination de la notification n'est autorisée que si les parties en sont convenues."
+    },
+    "ElectronicSequenceNumber": {
+      "definition": "Numéro séquentiel de la notification, attribué par le teneur de compte. |Utilisation : le numéro séquentiel est incrémenté pour chaque notification envoyée par voie électronique."
+    },
+    "ReportingSequence": {
+      "definition": "Précise la plage de numéros de séquence d'identification, telle que fournie dans la demande."
+    },
+    "LegalSequenceNumber": {
+      "definition": "Numéro séquentiel légal de la notification, attribué par le teneur de compte. Il est incrémenté pour chaque notification envoyée."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure de création de la notification."
+    },
+    "FromToDate": {
+      "definition": "Période comprise entre une date de début et une date de fin pour laquelle la notification de compte est émise."
+    },
+    "CopyDuplicateIndicator": {
+      "definition": "Indique si le document est une copie, un duplicata ou un duplicata d'une copie."
+    },
+    "ReportingSource": {
+      "definition": "Précise l'application utilisée pour générer le reporting."
+    },
+    "Account": {
+      "definition": "Identification non équivoque du compte sur lequel les écritures de crédit et de débit sont passées."
+    },
+    "RelatedAccount": {
+      "definition": "Identifie le compte parent du compte pour lequel la notification a été émise."
+    },
+    "Interest": {
+      "definition": "Fournit des informations générales sur les intérêts qui s'appliquent au compte à un moment donné."
+    },
+    "TransactionsSummary": {
+      "definition": "Fournit des informations récapitulatives sur les écritures."
+    },
+    "Entry": {
+      "definition": "Précise une écriture de la notification de débit/crédit.|Utilisation : au moins une référence doit être fournie pour identifier l'écriture et la ou les opérations sous-jacentes.||Règle d'utilisation : dans le cas d'une opération de rejet de paiement (R-transaction), le créancier/débiteur référencé dans les messages d'initiation de paiement d'origine est également utilisé pour le reporting de l'opération de rejet. Le débiteur/créancier d'origine n'est pas inversé dans le reporting des opérations de rejet. |Les éléments suivants, tous définis dans TransactionDetails sous RelatedParties ou RelatedAgents, sont concernés par cette règle d'utilisation :|Creditor, UltimateCreditor, CreditorAccount, CreditorAgent, Debtor, UltimateDebtor, DebtorAccount et DebtorAgent."
+    },
+    "AdditionalNotificationInformation": {
+      "definition": "Détails supplémentaires de la notification de compte."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferCancellationStatus3",
+  "definition": "Le statut de l'annulation du transfert est accepté ou envoyé à la partie suivante.",
+  "isoElements": {
+    "Status": {
+      "definition": "Le statut de l'annulation du transfert est accepté ou envoyé à la partie suivante."
+    },
+    "Reason": {
+      "definition": "Motif du statut."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "AgentCADeactivationStatusAdviceV01",
+  "definition": "Portée|Ce message est envoyé par un CSD à un émetteur (ou à son agent) afin de communiquer le statut, ou un changement de statut, d'une instruction de désactivation d'opération sur titres ou le statut d'une demande d'annulation de désactivation.|Utilisation|Ce message est utilisé pour fournir un statut sur l'instruction de désactivation, notamment pour confirmer la désactivation d'un événement ou d'une option d'opération sur titres.",
+  "isoRules": {
+    "DeactivationInstructionIDOrDeactivationCancellationRequestIDRule": {
+      "definition": "AgentCADeactivationInstructionIdentification ou AgentCADeactivationCancellationRequestIdentification doit être présent."
+    },
+    "DeactivationInstructionIDOrDeactivationCancellationRequestIDRuleNotBoth": {
+      "definition": "AgentCADeactivationInstructionIdentification ou AgentCADeactivationCancellationRequestIdentification doit être présent."
+    },
+    "DeactivationInstructionStatusOrDeactivationCancellationRequestStatusRule": {
+      "definition": "DeactivationInstructionStatus ou DeactivationCancellationRequestStatus doit être présent."
+    },
+    "DeactivationInstructionStatusOrDeactivationCancellationRequestStatusRuleNotBoth": {
+      "definition": "DeactivationInstructionStatus ou DeactivationCancellationRequestStatus doit être présent."
+    },
+    "DeactivationInstructionStatusRule": {
+      "definition": "Si AgentCADeactivationInstructionIdentification est présent, au moins une occurrence de DeactivationInstructionStatus doit être présente."
+    },
+    "DeactivationCancellationRequestStatusRule": {
+      "definition": "Si AgentCADeactivationCancellationRequestIdentification est présent, DeactivationCancellationRequestStatus doit être présent."
+    }
+  }
+}

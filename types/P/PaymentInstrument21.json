@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstrument21",
+  "definition": "Parties au paiement pour le transfert d’espèces du débiteur au créancier.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Informations fournies pour permettre l'appariement d'une écriture avec les éléments que le transfert devait régler, tels que des factures commerciales dans un système de comptes clients."
+    },
+    "CreditTransferDetails": {
+      "definition": "Instrument de paiement entre un débiteur et un créancier qui transite par un ou plusieurs établissements financiers ou systèmes."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "isoType": "RejectionReason7Code",
+  "definition": "Précise le motif du rejet d'une demande d'annulation.",
+  "isoCodes": {
+    "DEAC": {
+      "name": "Événement déjà désactivé",
+      "definition": "Rejetée car la désactivation de l'événement est déjà terminée."
+    },
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "La validation de l'avis/de l'instruction/de la demande a échoué."
+    },
+    "PDEA": {
+      "name": "Aucune instruction de désactivation en attente",
+      "definition": "La demande d'annulation est rejetée car il n'existe aucune instruction de désactivation en attente."
+    },
+    "INID": {
+      "name": "Identification non valide",
+      "definition": "L'instruction contient un identifiant de message invalide ; l'identification est inconnue."
+    },
+    "REFI": {
+      "name": "Identification CA non valide",
+      "definition": "Identification d'opération sur titres fournie non valide."
+    },
+    "AGIN": {
+      "name": "Agent non valide",
+      "definition": "Identification d'agent fournie invalide."
+    },
+    "SAID": {
+      "name": "Même identification",
+      "definition": "Plusieurs messages portent la même identification."
+    },
+    "DEAO": {
+      "name": "Option déjà désactivée",
+      "definition": "Rejetée car la désactivation de l'option est déjà terminée."
+    },
+    "INET": {
+      "name": "Type d'événement non valide",
+      "definition": "Le CA Event Type ne correspond pas à l'opération sur titres concernée."
+    },
+    "INUS": {
+      "name": "Titre sous-jacent invalide",
+      "definition": "L'Underlying Security Identification ne correspond pas à la Corporate Action Reference fournie."
+    },
+    "INPT": {
+      "name": "Type de traitement d'événement invalide",
+      "definition": "L'Event Processing Type ne correspond pas à l'opération sur titres concernée."
+    },
+    "INMV": {
+      "name": "Type d'événement obligatoire ou volontaire invalide",
+      "definition": "Le Mandatory/Voluntary Event Type ne correspond pas à l'opération sur titres concernée."
+    },
+    "INDE": {
+      "name": "Informations d'opération sur titres invalides",
+      "definition": "Les détails spécifiés dans le bloc Corporate Action General Information sont incohérents avec ceux spécifiés dans le message d'origine concerné."
+    },
+    "INDT": {
+      "name": "Détails invalides",
+      "definition": "Les détails du message spécifiés dans l'instruction/la demande sont incohérents avec ceux spécifiés dans le message d'origine associé."
+    }
+  }
+}

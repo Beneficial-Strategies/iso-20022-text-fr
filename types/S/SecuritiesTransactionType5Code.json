@@ -1,0 +1,10 @@
+{
+  "isoType": "SecuritiesTransactionType5Code",
+  "definition": "Précise des informations sous-jacentes concernant le type d'opération.",
+  "isoCodes": {
+    "TRAD": {
+      "name": "Transaction",
+      "definition": "Se rapporte au règlement d'une transaction."
+    }
+  }
+}

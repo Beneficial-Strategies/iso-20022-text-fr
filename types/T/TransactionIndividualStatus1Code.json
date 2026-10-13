@@ -1,0 +1,38 @@
+{
+  "isoType": "TransactionIndividualStatus1Code",
+  "definition": "Précise le statut d'une opération de paiement unique.",
+  "isoCodes": {
+    "ACTC": {
+      "name": "Validation technique acceptée",
+      "definition": "L'authentification et la validation syntaxique et sémantique ont abouti."
+    },
+    "RJCT": {
+      "name": "Rejeté",
+      "definition": "L'initiation du paiement ou une opération individuelle incluse dans l'initiation du paiement a été rejetée."
+    },
+    "PDNG": {
+      "name": "En attente",
+      "definition": "L'initiation du paiement ou une opération individuelle incluse dans l'initiation du paiement est en attente. D'autres contrôles et une mise à jour du statut seront effectués."
+    },
+    "ACCP": {
+      "name": "Profil client accepté",
+      "definition": "Le contrôle préalable de validation technique a abouti. Le contrôle du profil du client a également abouti."
+    },
+    "ACSP": {
+      "name": "Accepté, règlement en cours",
+      "definition": "Tous les contrôles préalables, tels que la validation technique et le profil du client, ont abouti ; l'initiation du paiement a donc été acceptée pour exécution."
+    },
+    "ACSC": {
+      "name": "Accepté, règlement terminé",
+      "definition": "Le règlement sur le compte du débiteur a été effectué.||Utilisation : peut être utilisé par la première banque pour signaler au débiteur que l'opération a été effectuée. Attention : ce statut est fourni pour indiquer l'état de l'opération et non à titre d'information financière. Il ne peut être utilisé qu'après accord bilatéral"
+    },
+    "ACCR": {
+      "name": "Demande d'annulation acceptée",
+      "definition": "L'annulation est acceptée."
+    },
+    "ACWC": {
+      "name": "Accepté avec modification",
+      "definition": "L'instruction est acceptée, mais une modification sera apportée, par exemple la date ou la non-transmission de la remise."
+    }
+  }
+}

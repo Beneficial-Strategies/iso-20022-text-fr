@@ -1,0 +1,32 @@
+{
+  "isoType": "BreakdownByUserDefinedParameter3",
+  "definition": "Précise les flux de trésorerie entrants et sortants par paramètre(s) défini(s) par l'utilisateur.",
+  "isoElements": {
+    "Party": {
+      "definition": "Partie pour laquelle le flux de trésorerie est communiqué."
+    },
+    "Country": {
+      "definition": "Pays pour lequel le flux de trésorerie est communiqué."
+    },
+    "Currency": {
+      "definition": "Devise pour laquelle le flux de trésorerie est communiqué."
+    },
+    "UserDefined": {
+      "definition": "Paramètre pour lequel le flux de trésorerie est communiqué."
+    },
+    "CashInForecast": {
+      "definition": "Mouvement de trésorerie entrant dans le fonds à la suite d'opérations sur des parts d'un fonds d'investissement, par exemple des souscriptions ou des arbitrages entrants."
+    },
+    "CashOutForecast": {
+      "definition": "Mouvement de trésorerie sortant du fonds à la suite d'opérations sur des parts d'un fonds d'investissement, par exemple des rachats ou des arbitrages sortants."
+    },
+    "NetCashForecast": {
+      "definition": "Trésorerie nette résultant des flux de trésorerie entrants et sortants précisés pour le paramètre défini par l'utilisateur."
+    }
+  },
+  "isoRules": {
+    "UserDefinedRule": {
+      "definition": "Au moins un élément de message de la liste (Party, Country, Currency, UserDefined) doit être présent. Plusieurs éléments de la liste (Party, Country, Currency, UserDefined) peuvent être présents."
+    }
+  }
+}

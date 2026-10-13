@@ -1,0 +1,18 @@
+{
+  "isoType": "OrderOriginatorEligibility1Code",
+  "definition": "Indique le type d'éligibilité des contreparties tel que défini par l'article 24 de la directive EU MiFID, applicable aux opérations exécutées par des entreprises d'investissement pour des contreparties éligibles.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Éligible",
+      "definition": "Contrepartie éligible - classification MiFID des contreparties. Les clients éligibles constituent le niveau d'investisseur le plus averti, capable de renoncer à certaines des protections offertes par les règles de conduite définies par MiFID."
+    },
+    "RETL": {
+      "name": "Détail",
+      "definition": "Client de détail - classification MiFID des contreparties. Les clients de détail constituent le niveau d'investisseur le moins averti."
+    },
+    "PROF": {
+      "name": "Professionnel",
+      "definition": "Client professionnel - classification MiFID des contreparties. Les clients professionnels sont, par exemple, les entreprises d'investissement, les établissements de crédit, les compagnies d'assurance."
+    }
+  }
+}

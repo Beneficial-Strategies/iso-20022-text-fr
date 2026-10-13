@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingBalanceType1Choice",
+  "definition": "Définit le type du solde de facturation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Définit le type de solde de facturation, tel que publié dans une liste de codes externe de types de solde de facturation."
+    },
+    "Proprietary": {
+      "definition": "Définit le type de solde de facturation, dans un format propriétaire."
+    }
+  }
+}

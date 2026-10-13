@@ -1,0 +1,18 @@
+{
+  "isoType": "CashAccountIdentification1Choice",
+  "definition": "Choix entre des formats d'identification d'un compte espèces.",
+  "isoElements": {
+    "IBAN": {
+      "definition": "Numéro de compte bancaire international (IBAN) - identifiant utilisé internationalement par les établissements financiers pour identifier de manière unique le compte d'un client. Des spécifications supplémentaires sur le format et le contenu de l'IBAN figurent dans la norme ISO 13616 « Services bancaires et services financiers connexes - Numéro de compte bancaire international (IBAN) » version du 1997-10-01, ou révisions ultérieures."
+    },
+    "BBAN": {
+      "definition": "Numéro de compte bancaire de base (BBAN) - identifiant utilisé à l'échelle nationale par les établissements financiers, c'est-à-dire dans chaque pays, généralement dans le cadre d'un ou plusieurs systèmes nationaux de numérotation des comptes, pour identifier de manière unique le compte d'un client."
+    },
+    "UPIC": {
+      "definition": "Code d'identification universel de paiement (UPIC) - identifiant utilisé par le New York Clearing House pour masquer des données confidentielles, telles que les comptes bancaires et les numéros d'acheminement bancaires. Les numéros UPIC restent attachés aux clients entreprises, quels que soient les changements de relation bancaire."
+    },
+    "DomesticAccount": {
+      "definition": "Numéro de compte utilisé par les établissements financiers de chaque pays pour identifier le compte d'un client, mais qui n'identifie pas nécessairement la banque et l'agence de l'établissement financier où le compte est détenu."
+    }
+  }
+}

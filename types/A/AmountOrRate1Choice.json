@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountOrRate1Choice",
+  "definition": "Choix entre un montant ou un taux.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant exprimé sous la forme d'une somme d'argent."
+    },
+    "Rate": {
+      "definition": "Montant exprimé sous la forme d'un taux."
+    }
+  }
+}

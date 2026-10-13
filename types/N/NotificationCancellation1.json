@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellation1",
+  "definition": "Informations sur l'annulation d'un avis de notification ou le retrait d'un événement CA.",
+  "isoElements": {
+    "NotificationCancellationType": {
+      "definition": "La fonction de la notification, par exemple nouvelle notification."
+    },
+    "LinkedAgentCANotificationAdviceIdentification": {
+      "definition": "L'identification de l'avis de notification lié."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficiaryCertificationType9Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour spécifier le type de certification du bénéficiaire requis.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de certification du bénéficiaire effectif exprimé sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Type de certification du bénéficiaire effectif exprimé sous forme propriétaire."
+    }
+  }
+}

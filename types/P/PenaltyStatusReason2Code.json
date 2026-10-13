@@ -1,0 +1,58 @@
+{
+  "isoType": "PenaltyStatusReason2Code",
+  "definition": "Précise le motif du statut de la pénalité.",
+  "isoCodes": {
+    "UPDT": {
+      "name": "Mis à jour",
+      "definition": "La pénalité a été mise à jour."
+    },
+    "SUSP": {
+      "name": "Négociation suspendue",
+      "definition": "La pénalité a été supprimée en raison de la suspension de l'ISIN de la négociation."
+    },
+    "TECH": {
+      "name": "Impossibilités techniques",
+      "definition": "La pénalité a été supprimée en raison d'impossibilités techniques au niveau du CSD empêchant le règlement, telles que : une défaillance des composants de l'infrastructure, une cyberattaque, des problèmes de réseau."
+    },
+    "SWIC": {
+      "name": "Basculé",
+      "definition": "La pénalité a été basculée entre la partie défaillante et la partie non défaillante."
+    },
+    "SESU": {
+      "name": "Règlement suspendu",
+      "definition": "La pénalité a été supprimée en raison de la suspension de l'ISIN du règlement, due à un problème de réconciliation au titre de l'article 65 (2) et (6) des RTS relatives aux exigences applicables aux CSD."
+    },
+    "SEMP": {
+      "name": "Règlement sur plusieurs plateformes",
+      "definition": "Règlement sur plusieurs plateformes dont l'une est fermée au règlement (espèces ou titres)."
+    },
+    "RALO": {
+      "name": "Réalloué",
+      "definition": "Réaffectation d'une pénalité pour défaut d'appariement tardif de la partie donneuse d'ordre à la partie livreuse/réceptrice."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Voir le texte descriptif."
+    },
+    "NEWP": {
+      "name": "Nouvelle pénalité",
+      "definition": "La pénalité est nouvelle."
+    },
+    "INTS": {
+      "name": "Règlement internalisé",
+      "definition": "La pénalité n'est pas calculée car le règlement a été internalisé."
+    },
+    "INSO": {
+      "name": "Insolvabilité",
+      "definition": "La pénalité a été supprimée car une procédure d'insolvabilité est ouverte à l'encontre du participant défaillant."
+    },
+    "CORP": {
+      "name": "Opération sur titres",
+      "definition": "Précise qu'en raison d'une opération sur titres spécifique, le titre n'existe plus."
+    },
+    "NOSU": {
+      "name": "Non soumis",
+      "definition": "La pénalité n'est pas calculée ou est supprimée car le titre n'est pas soumis à des pénalités."
+    }
+  }
+}

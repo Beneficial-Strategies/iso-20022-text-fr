@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountOwnershipType5Code",
+  "definition": "Précise le type de propriété du compte.",
+  "isoCodes": {
+    "USUF": {
+      "name": "Usufruitier",
+      "definition": "Personne disposant du droit temporaire d'utiliser un bien appartenant à autrui et d'en tirer un revenu ou un avantage."
+    },
+    "OWNR": {
+      "name": "Propriétaire",
+      "definition": "Une personne détient la pleine propriété de l'actif."
+    },
+    "BOWN": {
+      "name": "Nu-propriétaire",
+      "definition": "Une personne détient la nue-propriété de l'actif."
+    }
+  }
+}

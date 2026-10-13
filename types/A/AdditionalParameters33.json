@@ -1,0 +1,33 @@
+{
+  "isoType": "AdditionalParameters33",
+  "definition": "Précise des paramètres supplémentaires du message ou de l'opération.",
+  "isoElements": {
+    "PartialSettlement": {
+      "definition": "Précise les informations de règlement partiel."
+    },
+    "PreviousPartialConfirmationIdentification": {
+      "definition": "Identification de la confirmation précédemment envoyée pour confirmer le règlement partiel d'une opération."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue du titulaire du compte (ou de la partie donneuse d'ordre gérant le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la banque teneur de compte."
+    },
+    "PoolIdentification": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identification attribuée par la banque teneur de compte permettant d'identifier sans ambiguïté un événement sur titres."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération de contrepartie attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par l'entité de traitement de l'instruction autre que le titulaire du compte, le teneur de compte et l'infrastructure de marché."
+    }
+  }
+}

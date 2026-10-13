@@ -1,0 +1,9 @@
+{
+  "isoType": "PayInCallV02",
+  "definition": "Le message PayInCall est envoyé par un système central de règlement pour demander un financement supplémentaire à un membre du règlement touché par une situation de défaillance.",
+  "isoElements": {
+    "SettlementSessionIdentifier": {
+      "definition": "Indique la session de règlement CLS demandée à laquelle appartient la transaction concernée."
+    }
+  }
+}

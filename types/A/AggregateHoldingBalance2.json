@@ -1,0 +1,15 @@
+{
+  "isoType": "AggregateHoldingBalance2",
+  "definition": "Position globale d'avoir, dans un seul instrument financier, détenue dans un compte-titres auprès d'un lieu de conservation spécifié.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identification de l'instrument financier pour lequel l'information de solde est spécifiée."
+    },
+    "BalanceForFinancialInstrument": {
+      "definition": "Ventilation du solde de la position nette d'un instrument financier."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  }
+}

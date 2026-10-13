@@ -1,0 +1,12 @@
+{
+  "isoType": "FractionDispositionType1FormatChoice",
+  "definition": "Choix de formats pour exprimer la manière dont les fractions résultant de titres dérivés seront traitées ou dont les décisions au prorata seront arrondies, si un taux de répartition au prorata est fourni.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire permettant d'exprimer la manière dont les fractions résultant de titres dérivés seront traitées ou dont les décisions au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "UnderlyingPaymentTransaction11",
+  "definition": "Fournit des détails complémentaires sur l'opération de paiement d'origine à laquelle se rapporte le message d'enquête.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Ensemble d'éléments utilisés pour fournir des informations sur le message d'origine."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identification unique, attribuée par la partie instructrice d'origine à la partie instruite d'origine, permettant d'identifier sans ambiguïté l'instruction d'origine."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice d'origine, permettant d'identifier sans ambiguïté l'opération d'origine."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identification unique, attribuée par le premier agent instructeur d'origine, permettant d'identifier sans ambiguïté l'opération."
+    },
+    "OriginalUETR": {
+      "definition": "Identifiant unique universel fournissant la référence de bout en bout d'origine d'une opération de paiement."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Montant d'argent transféré entre l'agent instructeur et l'agent instruit, tel que fourni dans l'instruction d'origine."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Date, telle que fournie dans l'opération d'origine, à laquelle le montant cesse d'être disponible pour l'agent qui le doit et devient disponible pour l'agent auquel il est dû."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Éléments clés utilisés pour identifier l'opération d'origine à laquelle il est fait référence."
+    },
+    "OriginalServiceLevel": {
+      "definition": "Accord ou règles selon lesquels l'opération doit être traitée."
+    }
+  },
+  "isoRules": {
+    "OriginalIdentificationRule": {
+      "definition": "OriginalInstructionIdentification, OriginalEndToEndIdentification, OriginalTransactionIdentification ou OriginalUETR doit être présent."
+    }
+  }
+}

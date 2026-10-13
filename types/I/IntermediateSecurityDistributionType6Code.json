@@ -1,0 +1,70 @@
+{
+  "isoType": "IntermediateSecurityDistributionType6Code",
+  "definition": "Précise le type de distribution de titres intermédiaires.",
+  "isoCodes": {
+    "BIDS": {
+      "name": "Droits inversés",
+      "definition": "Offre faite aux porteurs existants par la société émettrice de racheter ses propres titres. L'objectif de l'offre est de réduire le nombre de titres en circulation."
+    },
+    "DRIP": {
+      "name": "Réinvestissement du dividende",
+      "definition": "Paiement de dividende pour lequel les détenteurs peuvent conserver les espèces ou les faire réinvestir sur le marché par l'émetteur en actions supplémentaires de la société émettrice. À distinguer du DVOP, car la société investit le dividende sur le marché plutôt que de créer un nouveau capital social en échange du dividende."
+    },
+    "DVCA": {
+      "name": "Dividende en espèces",
+      "definition": "Distribution de numéraire aux actionnaires, proportionnellement à leur participation au capital. Les dividendes ordinaires sont récurrents et réguliers. L'actionnaire doit prendre le numéraire et peut se voir proposer un choix de devise."
+    },
+    "DVOP": {
+      "name": "Option de dividende",
+      "definition": "Distribution d'une option de dividende."
+    },
+    "EXRI": {
+      "name": "Droits de souscription",
+      "definition": "Appel de fonds ou exercice sur des titres non libérés ou des titres intermédiaires résultant d'une distribution de titres intermédiaires (RHDI). Ce code est utilisé pour le second événement, lorsque l'émission de titres intermédiaires (droits/coupons) se compose de deux événements, le premier événement étant la distribution de titres intermédiaires."
+    },
+    "PRIO": {
+      "name": "Droits d'offre ouverte",
+      "definition": "Forme d'offre ouverte ou publique où, en raison d'une quantité limitée de titres disponibles, la priorité est donnée aux actionnaires existants."
+    },
+    "DVSC": {
+      "name": "Dividende ou paiement en titres (scrip)",
+      "definition": "Dividende ou intérêt payé sous forme de scrip."
+    },
+    "DVSE": {
+      "name": "Dividende en actions",
+      "definition": "Dividende versé aux actionnaires sous forme de titres de participation de la société émettrice."
+    },
+    "INTR": {
+      "name": "Paiement d'intérêts",
+      "definition": "Paiement d'intérêts distribué aux détenteurs d'un actif productif d'intérêts."
+    },
+    "LIQU": {
+      "name": "Dividende ou paiement de liquidation",
+      "definition": "Distribution d'espèces, d'actifs ou des deux. Les dettes peuvent être payées selon un ordre de priorité fondé sur les droits préférentiels sur les actifs spécifiés par le titre."
+    },
+    "SOFF": {
+      "name": "Scission",
+      "definition": "Distribution aux actionnaires d'actions d'une filiale."
+    },
+    "SPLF": {
+      "name": "Division d'actions",
+      "definition": "Également appelé modification de la valeur nominale ou division.|Augmentation du nombre d'actions en circulation d'une société sans modification des capitaux propres de l'actionnaire ni de la valeur de marché totale au moment du fractionnement. Le cours de l'action et la valeur nominale sont réduits en conséquence."
+    },
+    "BONU": {
+      "name": "Droits d'attribution gratuite",
+      "definition": "Émission gratuite ou incorporation de réserves au capital. Les détenteurs de titres reçoivent gratuitement de l'émetteur des actifs supplémentaires, proportionnellement à leur détention."
+    },
+    "EXOF": {
+      "name": "Échange",
+      "definition": "Échange d'avoirs contre d'autres titres et/ou des espèces. L'échange peut être obligatoire ou volontaire et implique l'échange de titres en circulation contre des titres différents et/ou des espèces. Par exemple \"offre d'échange\", \"réorganisation du capital\" ou \"séparation de fonds\"."
+    },
+    "MRGR": {
+      "name": "Fusion",
+      "definition": "Échange de titres en circulation, à l'initiative de l'émetteur, pouvant comporter des options, résultant du regroupement des actifs de deux sociétés ou plus, c'est-à-dire d'une société tierce externe. Des paiements en espèces peuvent accompagner l'échange d'actions."
+    },
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "Les titres intermédiaires sont distribués avant que leur utilisation n'ait été établie."
+    }
+  }
+}

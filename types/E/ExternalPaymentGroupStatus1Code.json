@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalPaymentGroupStatus1Code",
+  "definition": "Précise le statut d'un groupe d'instructions de paiement, tel que publié dans un jeu de codes externe de statuts de groupe de paiements.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "ACCP": {
+      "name": "Profil client accepté",
+      "definition": "Le contrôle préalable de validation technique a abouti. Le contrôle du profil du client a également abouti."
+    },
+    "ACCC": {
+      "name": "Accepté, règlement effectué sur le compte du créancier",
+      "definition": "Le règlement sur le compte du créancier a été effectué."
+    },
+    "ACSC": {
+      "name": "Accepté, règlement effectué sur le compte du débiteur",
+      "definition": "Le règlement sur le compte du débiteur a été effectué.|Usage : peut être utilisé par la première banque pour signaler au débiteur que l'opération a été effectuée. |Avertissement : ce statut est fourni pour les motifs de statut de l'opération, et non pour des informations financières. Il ne peut être utilisé qu'après accord bilatéral"
+    },
+    "ACSP": {
+      "name": "Accepté, règlement en cours",
+      "definition": "Tous les contrôles préalables, tels que la validation technique et le profil du client, ont abouti ; l'initiation du paiement a donc été acceptée pour exécution."
+    },
+    "ACTC": {
+      "name": "Validation technique acceptée",
+      "definition": "L'authentification et la validation syntaxique et sémantique ont réussi"
+    },
+    "ACWC": {
+      "name": "Accepté avec modification",
+      "definition": "L'instruction est acceptée, mais une modification sera apportée, par exemple la date ou la non-transmission de la remise."
+    },
+    "PART": {
+      "name": "Partiellement accepté",
+      "definition": "Un certain nombre d'opérations ont été acceptées, tandis qu'un autre nombre d'opérations n'ont pas encore atteint le|statut « accepted »."
+    },
+    "PDNG": {
+      "name": "En attente",
+      "definition": "L'initiation du paiement ou une opération individuelle incluse dans l'initiation du paiement est en attente. Des contrôles complémentaires et une mise à jour du statut seront effectués."
+    },
+    "RCVD": {
+      "name": "Reçu",
+      "definition": "L'initiation du paiement a été reçue par la banque réceptrice"
+    },
+    "RJCT": {
+      "name": "Rejeté",
+      "definition": "L'initiation du paiement ou une opération individuelle incluse dans l'initiation du paiement a été rejetée."
+    },
+    "RCVC": {
+      "name": "Reçu, vérification terminée",
+      "definition": "Le contrôle de vérification du bénéficiaire (Verification of Payee) a été appliqué aux opérations reçues et indique qu'il est complet, sans données discordantes."
+    },
+    "RVCM": {
+      "name": "Reçu, vérification terminée avec discordances",
+      "definition": "Les contrôles de vérification du bénéficiaire (Verification of Payee) ont été appliqués aux opérations reçues et indiquent qu'ils sont terminés, avec des données discordantes."
+    },
+    "RVNC": {
+      "name": "Reçu, vérification non terminée",
+      "definition": "Le contrôle de vérification de la partie sur les opérations reçues n'est pas encore terminé."
+    }
+  }
+}

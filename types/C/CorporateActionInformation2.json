@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionInformation2",
+  "definition": "Fournit des informations sur l'événement sur titres.",
+  "isoElements": {
+    "AgentIdentification": {
+      "definition": "Identification de l'agent de l'émetteur ou de l'émetteur."
+    },
+    "IssuerCorporateActionIdentification": {
+      "definition": "Référence attribuée à l'événement par l'émetteur de l'événement CA (agent)."
+    },
+    "CorporateActionProcessingIdentification": {
+      "definition": "Référence attribuée par le (I)CSD pour identifier sans ambiguïté un événement sur titres."
+    },
+    "EventType": {
+      "definition": "Précise le type d'événement sur titres."
+    },
+    "EventProcessingType": {
+      "definition": "Type de traitement impliqué par une opération sur titres."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Précise si l'événement est obligatoire, obligatoire avec options ou volontaire."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Identification de l'instrument financier sous-jacent, c'est-à-dire l'instrument financier concerné par l'événement sur titres."
+    },
+    "OtherUnderlyingSecurity": {
+      "definition": "Identification de l'instrument financier sous-jacent secondaire, c'est-à-dire l'instrument financier non principal concerné par l'événement sur titres."
+    }
+  }
+}

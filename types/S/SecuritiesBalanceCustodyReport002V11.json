@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesBalanceCustodyReport002V11",
+  "definition": "Domaine d'application|Un teneur de compte envoie un message SecuritiesBalanceCustodyReport à un titulaire de compte pour lui fournir, à un instant donné, la quantité et l'identification des instruments financiers que le teneur de compte détient pour le titulaire du compte.||La relation teneur de compte/titulaire peut être celle d'un :|- dépositaire central de titres ou autre infrastructure de marché de règlement agissant pour le compte de ses participants, ou|- agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou |- conservateur agissant pour le compte d'une société de gestion d'investissements ou d'un courtier/négociateur, ou|- agent de transfert agissant pour le compte d'un gestionnaire de fonds ou de l'agent désigné d'un titulaire de compte.||Utilisation|Le message peut également inclure la disponibilité et la localisation des avoirs afin de faciliter la négociation et de réduire les problèmes de règlement. Le message déclare toutes les informations par instrument financier, c'est-à-dire que lorsqu'un instrument financier est détenu auprès de plusieurs lieux de conservation, les avoirs totaux pour l'ensemble des lieux peuvent être fournis. |Le message devrait être envoyé à une fréquence convenue bilatéralement entre le teneur de compte et le titulaire du compte. Le message peut être fourni sur la base de la date de négociation, de la date contractuelle ou de la date de règlement. |Une ou plusieurs parties intermédiaires peuvent intervenir, par exemple un intermédiaire ou un concentrateur entre le titulaire du compte et le teneur de compte.||Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments pertinents de l'en-tête d'application métier (Business Application Header).",
+  "isoRules": {
+    "BalanceForAccountOrSubAccountDetailsRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator est TRUE (Oui), BalanceForAccount ou SubAccountDetails doit être présent. Si StatementGeneralDetails/ActivityIndicator est FALSE (Non), BalanceForAccount et SubAccountDetails doivent être absents."
+    },
+    "BalanceForAccountReportingRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator est TRUE (Oui) et SubAccountIndicator est FALSE (NON), BalanceForAccount doit être présent et Sub Account Details doit être absent."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur l'utilisation de ce message.|Ces pratiques de marché sont disponibles sur www.smpg.info."
+    },
+    "SubAccountDetailsBalanceForAccountPresenceRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator est TRUE (Oui) et SubAccountIndicator est TRUE (OUI), SubAccountDetails doit être présent et BalanceForAccount doit être absent (YES)."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

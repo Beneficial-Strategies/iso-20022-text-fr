@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesFinancingConfirmationV13",
+  "definition": "Portée|Un teneur de compte d'opérations de financement de titres envoie un SecuritiesFinancingConfirmation à un titulaire de compte afin de confirmer ou d'aviser du règlement partiel ou total du volet d'ouverture ou de clôture d'une opération de financement de titres. ||La relation teneur de compte/titulaire peut être :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement gérant des opérations de financement de titres pour le compte de ses participants|- un agent (sous-conservateur) gérant des opérations de financement de titres pour le compte de son client conservateur global, ou|- un conservateur gérant des opérations de financement de titres pour le compte d'un établissement de gestion d'investissements ou d'un courtier/négociateur.|||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments pertinents du Business Application Header.",
+  "isoRules": {
+    "BuyerSSIRule": {
+      "definition": "Si une instruction de règlement permanente s'applique et que la confirmation porte sur une livraison, alors Buyer doit être présent."
+    },
+    "SellerSSIRule": {
+      "definition": "Si une instruction de règlement permanente s'applique et que la confirmation porte sur une réception, Seller doit être présent."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Si la confirmation porte sur une réception et qu'aucune instruction de règlement permanente ne s'applique, DeliveringDepository et Party1 doivent être présents."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Si la confirmation porte sur une livraison et qu'aucune instruction de règlement permanente ne s'applique, ReceivingDepository et Party1 doivent être présents."
+    },
+    "SettledAmountRule": {
+      "definition": "Si l'instruction est contre paiement, SettledAmount doit être présent."
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "isoType": "ExternalCancellationReason1Code",
+  "definition": "Précise le motif d'annulation, tel que publié dans une liste de codes externe des motifs d'annulation.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "AC02": {
+      "name": "Numéro de compte du débiteur non valide",
+      "definition": "Numéro de compte du débiteur invalide ou manquant."
+    },
+    "AC03": {
+      "name": "Numéro de compte du créancier non valide",
+      "definition": "Numéro de compte erroné dans le virement."
+    },
+    "AGNT": {
+      "name": "Agent incorrect",
+      "definition": "La banque intervenant dans le flux de paiement est incorrecte."
+    },
+    "AM09": {
+      "name": "Montant erroné",
+      "definition": "Le montant n'est pas celui convenu ou attendu."
+    },
+    "BE16": {
+      "name": "Code d'identification du débiteur non valide",
+      "definition": "Code d'identification du débiteur ou du débiteur final manquant ou invalide."
+    },
+    "COVR": {
+      "name": "Couverture annulée ou retournée",
+      "definition": "Le paiement de couverture a été retourné ou annulé."
+    },
+    "CURR": {
+      "name": "Devise incorrecte",
+      "definition": "La devise du paiement est incorrecte."
+    },
+    "CUST": {
+      "name": "Demandé par le client",
+      "definition": "Annulation demandée par le débiteur."
+    },
+    "CUTA": {
+      "name": "Annulation en cas d'impossibilité d'imputation",
+      "definition": "Annulation demandée car une demande d'enquête a été reçue et aucune régularisation n'est possible."
+    },
+    "DS24": {
+      "name": "Délai dépassé",
+      "definition": "Annulation demandée car l'ordre de paiement initial a expiré par dépassement du délai."
+    },
+    "DT01": {
+      "name": "Date non valide",
+      "definition": "Date invalide (par exemple, date de règlement erronée ou manquante)."
+    },
+    "DUPL": {
+      "name": "Paiement en double",
+      "definition": "Le paiement est un doublon d'un autre paiement."
+    },
+    "FRAD": {
+      "name": "Origine frauduleuse",
+      "definition": "Annulation demandée à la suite d'une opération initiée de manière frauduleuse. L'utilisation du code FraudulentOrigin doit être encadrée par les juridictions."
+    },
+    "FRNA": {
+      "name": "Transmettre à la banque suivante",
+      "definition": "Pour compléter une réponse de rejet, suggérant que la demande d'annulation soit transmise à la banque suivante dans la chaîne de l'opération de paiement."
+    },
+    "FRTR": {
+      "name": "Réponse finale",
+      "definition": "Suivi du prélèvement rappelé en raison de l'annulation du mandat."
+    },
+    "INDM": {
+      "name": "Indemnité requise",
+      "definition": "Pour exprimer le souhait de conclure un accord bilatéral d'indemnisation."
+    },
+    "MODT": {
+      "name": "Opération modifiée",
+      "definition": "L'opération sous-jacente liée à une demande de paiement (RTP) a été modifiée."
+    },
+    "PAID": {
+      "name": "Opération déjà payée",
+      "definition": "L'opération sous-jacente liée à une demande de paiement (RTP) a déjà été payée (par d'autres moyens)."
+    },
+    "SVNR": {
+      "name": "Service non rendu",
+      "definition": "Le paiement est annulé car un montant en espèces remis était incorrect ou des biens ou un service n'ont pas été fournis au client, par exemple dans une situation de commerce électronique."
+    },
+    "SYAD": {
+      "name": "Demande à l'administrateur du système de règlement",
+      "definition": "Annulation demandée par un membre du système à l'administrateur du système de règlement, pour indiquer que la demande d'annulation ne doit pas être transmise plus loin dans la chaîne."
+    },
+    "TECH": {
+      "name": "Problème technique",
+      "definition": "Annulation demandée à la suite de problèmes techniques ayant entraîné une opération erronée."
+    },
+    "UPAY": {
+      "name": "Paiement indu",
+      "definition": "Le paiement n'est pas justifié."
+    },
+    "ENUE": {
+      "name": "Erreur de l'utilisateur final",
+      "definition": "Annulation ou demande de retour demandée par le débiteur en raison spécifiquement d'une ou plusieurs erreurs commises par le débiteur dans le virement initial. Utilisation : ce code peut être utilisé pour toute erreur commise par le débiteur dans le virement initial. Il peut aussi être utilisé si plusieurs erreurs ont été commises dans le virement initial."
+    },
+    "UAPA": {
+      "name": "Paiement non autorisé",
+      "definition": "Le débiteur demande le retour du paiement car celui-ci n'a pas été dûment autorisé.|Utilisation : ce code peut être utilisé lorsqu'un virement a été effectué sans l'autorisation requise du débiteur. Cela peut résulter d'identifiants d'utilisateur final compromis."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Le motif est fourni sous forme d'information narrative dans les informations complémentaires sur le motif."
+    },
+    "INCR": {
+      "name": "Demande d'annulation non valide",
+      "definition": "Traiter une demande d'annulation comportant une référence incorrecte au lot initial."
+    },
+    "BIAS": {
+      "name": "Instruction de lot déjà réglée",
+      "definition": "Traiter une demande d'annulation alors que le lot est déjà réglé."
+    },
+    "DRTP": {
+      "name": "Demande de paiement en double",
+      "definition": "Doublon d'un message de demande de paiement."
+    },
+    "WNTB": {
+      "name": "Violation de garantie",
+      "definition": "Violation de la garantie fournie en lien avec une demande de paiement."
+    },
+    "MD06": {
+      "name": "Demande de remboursement par le client final",
+      "definition": "Retour de fonds demandé par le client final."
+    },
+    "PPRC": {
+      "name": "Annulation de RTP par le participant bénéficiaire",
+      "definition": "Annulation de la demande de paiement initiée car le bénéficiaire n'est pas en règle."
+    },
+    "ECAG": {
+      "name": "Erreur de la banque du créancier",
+      "definition": "Le bénéficiaire (créancier) annule la demande de paiement (RTP) en raison d'une erreur ou d'un accord d'ajustement avec le payeur/débiteur."
+    },
+    "NFNA": {
+      "name": "Ne jamais transmettre à la banque suivante",
+      "definition": "Pour compléter une demande d'annulation, indiquant à l'infrastructure de marché que la demande d'annulation ne doit pas être transmise à la banque suivante dans la chaîne de l'opération de paiement."
+    }
+  }
+}

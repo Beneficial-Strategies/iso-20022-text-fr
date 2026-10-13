@@ -1,0 +1,9 @@
+{
+  "isoType": "ATMTransaction36",
+  "definition": "Informations sur la demande de rapprochement.",
+  "isoElements": {
+    "ReconciliationOperation": {
+      "definition": "Ensemble d'opérations de rapprochement entre un ATM et un hôte de maintenance."
+    }
+  }
+}

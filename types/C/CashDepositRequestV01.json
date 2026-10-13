@@ -1,0 +1,4 @@
+{
+  "isoType": "CashDepositRequestV01",
+  "definition": "Le message CashDepositRequest est envoyé par un expéditeur d'espèces à un destinataire d'espèces pour demander que des espèces puissent être livrées en vue d'un dépôt sur un compte."
+}

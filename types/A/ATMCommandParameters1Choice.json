@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMCommandParameters1Choice",
+  "definition": "Paramètres spécifiques associés à une commande de l'ATM.",
+  "isoElements": {
+    "ATMRequiredGlobalStatus": {
+      "definition": "Statut requis de l'ATM, paramètres de la commande de mise à jour du statut."
+    },
+    "ExpectedMessageFunction": {
+      "definition": "Message à envoyer pour la commande d'envoi de message."
+    },
+    "RequiredConfigurationParameter": {
+      "definition": "Paramètres à utiliser par la commande de mise à jour de la configuration."
+    }
+  }
+}

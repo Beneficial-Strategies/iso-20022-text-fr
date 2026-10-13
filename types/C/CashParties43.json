@@ -1,0 +1,15 @@
+{
+  "isoType": "CashParties43",
+  "definition": "Indique les parties aux espèces dans le cadre d'un événement d'opération sur titres.",
+  "isoElements": {
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "MarketClaimCounterparty": {
+      "definition": "Partie qui a remboursé au titulaire de compte des fonds auxquels il avait légalement droit."
+    }
+  }
+}

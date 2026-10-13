@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionAmounts60",
+  "definition": "Précise les montants dans le cadre d'un événement d'opération sur titres.",
+  "isoElements": {
+    "WithholdingTaxAmount": {
+      "definition": "Montant d'une distribution en espèces qui sera retenu par les autorités fiscales de la juridiction de l'émetteur, et pour lequel un allègement à la source et/ou une demande de remboursement peut être possible."
+    },
+    "SecondLevelTaxAmount": {
+      "definition": "Montant d'argent retenu par une juridiction autre que celle du pays de constitution fiscale de l'émetteur, et pour lequel un allègement à la source et/ou une demande de remboursement peut être possible. Il est prélevé en complément ou en compensation du taux de retenue à la source prélevé par la juridiction du domicile fiscal de l'émetteur."
+    }
+  }
+}

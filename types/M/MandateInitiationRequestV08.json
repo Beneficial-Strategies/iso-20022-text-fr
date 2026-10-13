@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateInitiationRequestV08",
+  "definition": "Portée|Le message MandateInitiationRequest est envoyé par l'initiateur de la demande à sa banque. L'initiateur peut être soit le débiteur, soit le créancier.|Le message MandateInitiationRequest est transmis par la banque de l'initiateur à la banque de la contrepartie.|Le message MandateInitiationRequest sert à mettre en place l'instruction qui permet à la banque du débiteur d'accepter des instructions du créancier, par l'intermédiaire de la banque du créancier, afin de débiter le compte du débiteur.|Utilisation|Le message MandateInitiationRequest peut contenir une ou plusieurs demandes de mise en place d'un mandat donné.|Les messages peuvent être échangés entre le créancier et la banque du créancier, ou entre le débiteur et la banque du débiteur, ainsi qu'entre la banque du créancier et la banque du débiteur.|Le message peut également être utilisé par une partie initiatrice habilitée à envoyer le message pour le compte du créancier ou du débiteur.|Le message MandateInitiationRequest peut être utilisé dans des scénarios nationaux et transfrontaliers.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    }
+  }
+}

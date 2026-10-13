@@ -1,0 +1,4 @@
+{
+  "isoType": "RestrictedFINActiveOrHistoricCurrencyAndAmount",
+  "definition": "Nombre d'unités monétaires exprimées dans une devise active ou historique où l'unité monétaire est explicite et conforme à la norme ISO 4217."
+}

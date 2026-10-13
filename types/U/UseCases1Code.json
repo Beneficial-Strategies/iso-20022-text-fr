@@ -1,0 +1,22 @@
+{
+  "isoType": "UseCases1Code",
+  "definition": "Précise l'action sur le compte de trésorerie.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Ouverture",
+      "definition": "Code indiquant l'ouverture d'un compte."
+    },
+    "MNTN": {
+      "name": "Maintenance",
+      "definition": "Code indiquant la maintenance d'un compte."
+    },
+    "CLSG": {
+      "name": "Clôture",
+      "definition": "Code indiquant la clôture d'un compte."
+    },
+    "VIEW": {
+      "name": "Consultation",
+      "definition": "Code indiquant la consultation d'un compte."
+    }
+  }
+}

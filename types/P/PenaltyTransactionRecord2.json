@@ -1,0 +1,48 @@
+{
+  "isoType": "PenaltyTransactionRecord2",
+  "definition": "Précise des détails supplémentaires de la transaction à laquelle les pénalités s'appliquent.",
+  "isoElements": {
+    "SettlementTransactionOrCorporateActionEventType": {
+      "definition": "Choix du type pour l'opération déclarée."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être livrés ou reçus."
+    },
+    "CorporateActionRelatedDate": {
+      "definition": "Date liée à un événement d'opération sur titres."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Précise si le mouvement sur un compte-titres résulte d'une instruction de livraison ou de réception."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    },
+    "CashAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de trésorerie est passée."
+    },
+    "CashAccountOwner": {
+      "definition": "Partie qui doit un montant au créancier (final)."
+    },
+    "PostingAmount": {
+      "definition": "Montant d'argent à comptabiliser (ou comptabilisé) sur le compte."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Horodatage de l'accusé de réception de l'opération."
+    },
+    "MatchedStatusTimeStamp": {
+      "definition": "Horodatage de l'appariement de l'opération."
+    },
+    "SettlementStatusFailing": {
+      "definition": "L'instruction est en défaut. Le règlement à la date de règlement instruite n'est plus possible."
+    },
+    "BusinessDayEvent": {
+      "definition": "Événement système pertinent pour le calcul de la pénalité."
+    }
+  }
+}

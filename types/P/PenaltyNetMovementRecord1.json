@@ -1,0 +1,21 @@
+{
+  "isoType": "PenaltyNetMovementRecord1",
+  "definition": "Précise les attributs lorsque la pénalité s'applique à un mouvement de règlement net.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "SecuritiesShortfall": {
+      "definition": "Quantité totale de titres dont le règlement a échoué."
+    },
+    "ShortfallValuation": {
+      "definition": "Valorisation des titres dont le règlement a échoué."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indique les conditions dans lesquelles l'ordre ou la transaction doit être exécuté ou a été exécuté."
+    },
+    "NumberOfEntries": {
+      "definition": "Nombre d'écritures liées à la position nette."
+    }
+  }
+}

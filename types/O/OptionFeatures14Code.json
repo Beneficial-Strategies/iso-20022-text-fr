@@ -1,0 +1,38 @@
+{
+  "isoType": "OptionFeatures14Code",
+  "definition": "Précise la caractéristique d'une option.",
+  "isoCodes": {
+    "COND": {
+      "name": "Conditionnel",
+      "definition": "Caractéristique selon laquelle le porteur peut choisir d'assortir l'acceptation de l'option d'une condition."
+    },
+    "MAXC": {
+      "name": "Espèces maximales",
+      "definition": "Option espèces maximale, pouvant être soumise à réduction ; vous pouvez donc recevoir une combinaison d'espèces et de titres."
+    },
+    "MAXS": {
+      "name": "Titres maximaux",
+      "definition": "Option titres maximale, pouvant être soumise à réduction ; vous pouvez donc recevoir une combinaison de titres et d'espèces."
+    },
+    "OPLF": {
+      "name": "Préférence pour les rompus",
+      "definition": "Apport ou échange avec préférence pour les rompus."
+    },
+    "PROR": {
+      "name": "Répartition proportionnelle",
+      "definition": "Caractéristique selon laquelle l'option peut faire l'objet d'une répartition au prorata en cas, par exemple, de sursouscription."
+    },
+    "VVPR": {
+      "name": "Retenue à la source réduite",
+      "definition": "Un taux réduit de retenue à la source s'applique à l'option."
+    },
+    "RGRS": {
+      "name": "Réinvestissement du dividende brut",
+      "definition": "Le dividende brut est réinvesti."
+    },
+    "RNET": {
+      "name": "Réinvestissement du dividende net",
+      "definition": "Le réinvestissement du dividende est traité net de retenue à la source."
+    }
+  }
+}

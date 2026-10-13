@@ -1,0 +1,65 @@
+{
+  "isoType": "CorporateActionOption237",
+  "definition": "Fournit des informations sur l'option de l'événement sur titres.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "OptionFeatures": {
+      "definition": "Précise les caractéristiques pouvant s'appliquer à une option d'opération sur titres."
+    },
+    "FractionDisposition": {
+      "definition": "Précise comment sont traités les montants/quantités fractionnaires."
+    },
+    "ChangeType": {
+      "definition": "Type de modifications affectant la forme du titre."
+    },
+    "EligibleForCollateralIndicator": {
+      "definition": "Indique que l'instruction sur événement sur titres doit être traitée à l'aide du pool Available-for-Collateral."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "definition": "Indique s'il existe des frais de sollicitation sur l'événement. Ces frais sont payés par l'intermédiaire sollicitant."
+    },
+    "CurrencyToBuy": {
+      "definition": "Le teneur de compte reçoit l'instruction d'acheter la devise indiquée après réception du produit en espèces."
+    },
+    "CurrencyToSell": {
+      "definition": "Le teneur de compte reçoit l'instruction de vendre la devise indiquée afin d'obtenir la devise nécessaire pour financer l'opération dans ce message d'instruction."
+    },
+    "CurrencyOption": {
+      "definition": "Devise dans laquelle le produit en espèces doit être crédité ou débité."
+    },
+    "SecurityIdentification": {
+      "definition": "Identifie l'instrument financier."
+    },
+    "SecuritiesQuantityOrInstructedAmount": {
+      "definition": "Fournit des informations sur la quantité de titres liée à une option d'événement sur titres."
+    },
+    "ExecutionRequestedDateTime": {
+      "definition": "Date/heure à laquelle la partie donneuse d'ordre demande l'exécution de l'instruction."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fournit des informations sur les taux et montants relatifs à une option d'événement sur titres."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix relatifs à une option d'événement sur titres."
+    },
+    "ShareholderNumber": {
+      "definition": "Numéro de référence attribué pour identifier un investisseur ou un actionnaire auprès de l'émetteur ou du prestataire d'enregistrement (par exemple un code d'allocation)."
+    },
+    "AdditionalInformation": {
+      "definition": "Fournit des informations supplémentaires."
+    }
+  },
+  "isoRules": {
+    "OptionNumber1Rule": {
+      "definition": "Pour différencier les options, il faut utiliser OptionNumber plutôt que OptionType, par exemple lorsque deux offres ou plus peuvent être décrites par le même code d'option d'événement sur titres. Par conséquent, la valeur de OptionNumber doit être différente pour chaque option."
+    },
+    "OptionNumber2Rule": {
+      "definition": "Lorsque CorporateActionInstruction est non sollicitée, c'est-à-dire que l'instruction n'a pas été précédée d'une Corporate ActionNotification, OptionNumber/code doit être UNSO (unsolicited)."
+    }
+  }
+}

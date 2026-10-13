@@ -1,0 +1,58 @@
+{
+  "isoType": "TaxEfficientProductType2Code",
+  "definition": "Indique un type de produit à fiscalité avantageuse.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Espèces",
+      "definition": "Compte d’épargne individuel en espèces. Au Royaume-Uni (UK), il est appelé cash ISA."
+    },
+    "CLIS": {
+      "name": "LISA en espèces",
+      "definition": "Compte d’épargne individuel viager en espèces. Au Royaume-Uni (UK), il est appelé cash LISA."
+    },
+    "FISA": {
+      "name": "Flexible",
+      "definition": "Compte d’épargne individuel flexible. Au Royaume-Uni (UK), il est appelé FISA."
+    },
+    "GISK": {
+      "name": "Compte d'épargne d'investissement général",
+      "definition": "Compte d’épargne d’investissement général. (Connu sous le nom d’Investeringssparkonto (ISK) sur certains marchés.)"
+    },
+    "GASK": {
+      "name": "Compte d'épargne en actions général",
+      "definition": "Compte d’épargne général en actions. (Connu sous le nom d’ASK sur certains marchés.)"
+    },
+    "HISA": {
+      "name": "Aide à l'achat",
+      "definition": "Compte d’épargne individuel d’aide à l’achat immobilier. Au Royaume-Uni (UK), il est appelé HISA."
+    },
+    "INNF": {
+      "name": "Finance innovante",
+      "definition": "Compte d’épargne individuel de finance innovante. Au Royaume-Uni (UK), il est appelé innovative ISA."
+    },
+    "JCSH": {
+      "name": "Épargne junior en espèces",
+      "definition": "Compte d’épargne individuel junior en espèces. Au Royaume-Uni (UK), il est appelé cash JISA."
+    },
+    "JISA": {
+      "name": "ISA junior en actions et titres",
+      "definition": "Compte d’épargne individuel junior en actions et titres. Au Royaume-Uni (UK), il est appelé stocks and shares JISA."
+    },
+    "LISA": {
+      "name": "À vie",
+      "definition": "Compte d’épargne individuel viager en actions et titres. Au Royaume-Uni (UK), il est appelé stocks and shares LISA."
+    },
+    "CCTF": {
+      "name": "Fonds fiduciaire pour enfant hors Stakeholder",
+      "definition": "Compte d’épargne individuel de fonds fiduciaire pour enfant hors stakeholder. Au Royaume-Uni (UK), il est appelé non-stakeholder CTF ISA."
+    },
+    "SCTF": {
+      "name": "Fonds fiduciaire pour enfant Stakeholder",
+      "definition": "Compte d’épargne individuel de fonds fiduciaire pour enfant stakeholder. Au Royaume-Uni (UK), il est appelé stakeholder CTF ISA."
+    },
+    "EQUI": {
+      "name": "Actions et titres",
+      "definition": "Compte d’épargne individuel en actions et titres. Au Royaume-Uni (UK), il est appelé stocks and shares ISA."
+    }
+  }
+}

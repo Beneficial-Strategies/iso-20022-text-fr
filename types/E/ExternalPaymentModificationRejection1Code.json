@@ -1,0 +1,118 @@
+{
+  "isoType": "ExternalPaymentModificationRejection1Code",
+  "definition": "Précise le motif du rejet d'une modification, tel que publié dans une liste externe de codes de rejet de modification de paiement.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "UM01": {
+      "name": "Impossible de modifier la référence associée",
+      "definition": "La référence de l'opération liée ne peut pas être modifiée."
+    },
+    "UM02": {
+      "name": "Impossible de modifier le niveau de service de paiement",
+      "definition": "L'élément niveau de service du type de paiement ne peut pas être modifié (ancien UnableToModifyBankOperationCode)."
+    },
+    "UM03": {
+      "name": "Impossible de modifier la catégorie de motif",
+      "definition": "L'élément motif de catégorie du type de paiement ne peut pas être modifié (ancien UnableToModifyInstructionCode)."
+    },
+    "UM04": {
+      "name": "Impossible de modifier la date d'exécution demandée",
+      "definition": "RequestedExecutionDate ne peut pas être modifié."
+    },
+    "UM05": {
+      "name": "Impossible de modifier la date de règlement interbancaire",
+      "definition": "InterbankSettlementDate ne peut pas être modifié (ancien UnableToModifyValueDate)."
+    },
+    "UM06": {
+      "name": "Impossible de modifier le compte de règlement interbancaire",
+      "definition": "SettlementAccount ne peut pas être modifié (ancien UnableToModifyInterbankSettlementAccount)."
+    },
+    "UM07": {
+      "name": "Impossible de modifier le débiteur",
+      "definition": "Le débiteur ne peut pas être modifié."
+    },
+    "UM08": {
+      "name": "Impossible de modifier le compte du débiteur",
+      "definition": "DebtorAccount ne peut pas être modifié."
+    },
+    "UM09": {
+      "name": "Impossible de modifier la banque de remboursement destinataire de l'instruction",
+      "definition": "InstructedReimbursementAgent ne peut pas être modifié (ancien UnableToModifyReceiverCorrespondent)."
+    },
+    "UM10": {
+      "name": "Impossible de modifier la troisième banque de remboursement",
+      "definition": "ThirdReimbursementAgent ne peut pas être modifié (ancien UnableToModifyThirdReimbursementInstitution)."
+    },
+    "UM11": {
+      "name": "Impossible de modifier le canal de compensation du paiement",
+      "definition": "L'élément canal de compensation du type de paiement ne peut pas être modifié (ancien UnableToModifyPaymentScheme)"
+    },
+    "UM12": {
+      "name": "Impossible de modifier le compte de la banque du créancier",
+      "definition": "Le compte de la banque du créancier ne peut pas être modifié (ancien UnableToModifyAccountOfBeneficiaryInstitution)"
+    },
+    "UM13": {
+      "name": "Impossible de modifier le créancier",
+      "definition": "Le créancier ne peut pas être modifié."
+    },
+    "UM14": {
+      "name": "Impossible de modifier le compte du créancier",
+      "definition": "Le compte du créancier ne peut pas être modifié."
+    },
+    "UM15": {
+      "name": "Impossible de modifier les informations de remise",
+      "definition": "Les informations de remise ne peuvent pas être modifiées."
+    },
+    "UM16": {
+      "name": "Impossible de modifier le motif du paiement",
+      "definition": "PaymentPurpose ne peut pas être modifié."
+    },
+    "UM17": {
+      "name": "Impossible de modifier les frais",
+      "definition": "Le porteur des frais ne peut pas être modifié (ancien UnableToModifyDetailsOfCharges)."
+    },
+    "UM18": {
+      "name": "Impossible de modifier l'instruction pour la banque suivante",
+      "definition": "L'instruction pour la banque suivante ne peut pas être modifiée (ancien UnableToModifySenderToReceiver)."
+    },
+    "UM19": {
+      "name": "Impossible de modifier l'instruction pour la banque du créancier",
+      "definition": "L'instruction pour la banque du créancier ne peut pas être modifiée. (ancien UnableToModifyInstructionForFinalAgent)."
+    },
+    "UM20": {
+      "name": "Instruction annulée, soumettre une nouvelle instruction",
+      "definition": "Utilisé pour informer de l'annulation et demander une nouvelle instruction de paiement. Ne doit être utilisé que si une banque ne souhaite pas modifier un paiement en attente."
+    },
+    "UM21": {
+      "name": "Impossible de modifier, soumettre une annulation",
+      "definition": "La modification n'est pas possible et l'annulation est demandée."
+    },
+    "UM22": {
+      "name": "Impossible de modifier le compte de la banque du débiteur",
+      "definition": "Le compte de la banque du débiteur ne peut pas être modifié (applicable aux prélèvements)."
+    },
+    "UM23": {
+      "name": "Impossible de modifier le montant de règlement interbancaire",
+      "definition": "Le montant de règlement interbancaire ne peut pas être modifié."
+    },
+    "UM24": {
+      "name": "Impossible de modifier l'instruction pour la banque du débiteur",
+      "definition": "L'instruction pour la banque du débiteur ne peut pas être modifiée (applicable aux prélèvements)"
+    },
+    "UM25": {
+      "name": "Impossible de modifier la date de recouvrement demandée",
+      "definition": "La date d'encaissement demandée ne peut pas être modifiée (applicable aux prélèvements)"
+    },
+    "UM26": {
+      "name": "Impossible de modifier le type de paiement",
+      "definition": "Le type de paiement ne peut pas être modifié."
+    },
+    "UM27": {
+      "name": "Impossible de modifier le montant instruit",
+      "definition": "Le montant ordonné ou équivalent ne peut pas être modifié."
+    },
+    "UM28": {
+      "name": "Impossible de modifier la priorité",
+      "definition": "La priorité du message de paiement ne peut pas être modifiée."
+    }
+  }
+}

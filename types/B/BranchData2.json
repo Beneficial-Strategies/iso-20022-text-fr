@@ -1,0 +1,15 @@
+{
+  "isoType": "BranchData2",
+  "definition": "Informations qui localisent et identifient une succursale précise d'un établissement financier.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et non ambiguë d'une succursale d'un établissement financier."
+    },
+    "Name": {
+      "definition": "Nom sous lequel un agent est connu et qui sert habituellement à identifier cet agent."
+    },
+    "PostalAddress": {
+      "definition": "Informations permettant de localiser et d'identifier une adresse précise, telles que définies par les services postaux."
+    }
+  }
+}

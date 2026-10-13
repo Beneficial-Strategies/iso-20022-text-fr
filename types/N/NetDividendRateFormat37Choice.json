@@ -1,0 +1,15 @@
+{
+  "isoType": "NetDividendRateFormat37Choice",
+  "definition": "Choix entre un montant ou un taux non précisé.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Nombre d'unités monétaires exprimées dans une devise."
+    },
+    "AmountAndRateStatus": {
+      "definition": "Précise un montant et un statut de taux."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "Précise différents formats pour le taux de dividende net."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "DetailedInstructionCancellationStatus16",
+  "definition": "Statut applicable aux annulations d'instruction individuelles d'un message de demande d'annulation d'instruction de réunion.",
+  "isoElements": {
+    "SingleInstructionCancellationIdentification": {
+      "definition": "Identification de la demande d'annulation d'instruction individuelle spécifique, issue du message initial de demande d'annulation d'instruction de réunion identifié dans InstructionType/ InstructionCancellationIdentification, pour laquelle le statut est fourni."
+    },
+    "AccountIdentification": {
+      "definition": "Identification du compte-titres."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identification du sous-compte au sein du compte de conservation."
+    },
+    "InstructionCancellationStatus": {
+      "definition": "Statut d'une demande d'annulation d'instruction de réunion individuelle."
+    }
+  },
+  "isoRules": {
+    "SubAccount1Rule": {
+      "definition": "Si SubAccountIdentification est présent, alors AccountIdentification doit être présent."
+    }
+  }
+}

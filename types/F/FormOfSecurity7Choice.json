@@ -1,0 +1,12 @@
+{
+  "isoType": "FormOfSecurity7Choice",
+  "definition": "Choix du format de la forme des titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Forme du titre exprimée sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Forme du titre exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

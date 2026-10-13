@@ -1,0 +1,14 @@
+{
+  "isoType": "BusinessFlowDirectionType1Code",
+  "definition": "Identifie le flux métier, afin de déterminer le rôle des parties dans le processus métier. Cet indicateur est très important lorsqu’il y a plusieurs intermédiaires dans le processus d’échange d’informations.",
+  "isoCodes": {
+    "ADLV": {
+      "name": "Actifs à livrer",
+      "definition": "Actifs à livrer."
+    },
+    "ARCV": {
+      "name": "Actifs à recevoir",
+      "definition": "Actifs à recevoir."
+    }
+  }
+}

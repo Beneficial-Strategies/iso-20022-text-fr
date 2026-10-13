@@ -1,0 +1,15 @@
+{
+  "isoType": "MatchingStatus26Choice",
+  "definition": "Choix du format pour le statut d'appariement.",
+  "isoElements": {
+    "Matched": {
+      "definition": "Le statut est apparié."
+    },
+    "Unmatched": {
+      "definition": "Le statut est non apparié."
+    },
+    "Proprietary": {
+      "definition": "Statut propriétaire."
+    }
+  }
+}

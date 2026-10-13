@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalReservationType1Code",
+  "definition": "Précise le type de réservation, tel que publié dans un jeu de codes externe de types de réservation.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "BLKD": {
+      "name": "Bloqué",
+      "definition": "Montant bloqué ou gelé en raison de circonstances extérieures telles qu'une décision de justice, le décès du bénéficiaire ou du titulaire du compte, ou une faillite."
+    },
+    "CARE": {
+      "name": "Réservation de liquidités",
+      "definition": "Montant mis de côté par un participant pour réserver de la liquidité sur son propre compte, exclusivement ou pour l'exécution de retraits d'espèces."
+    },
+    "HPAR": {
+      "name": "Réservation pour paiement très urgent",
+      "definition": "Montant mis de côté par un participant pour réserver de la liquidité sur son propre compte, exclusivement pour l'exécution de paiements très urgents."
+    },
+    "NSSR": {
+      "name": "Réservation SSS nette",
+      "definition": "Montant mis de côté par un participant pour réserver de la liquidité sur son propre compte, exclusivement pour le règlement du solde multilatéral en espèces issu du Net Security Settlement System."
+    },
+    "THRE": {
+      "name": "Seuil de placement",
+      "definition": "Montant au-delà duquel les fonds seront destinés à l'investissement."
+    },
+    "UPAR": {
+      "name": "Réservation pour paiement urgent",
+      "definition": "Montant mis de côté par un participant pour réserver de la liquidité sur son propre compte, exclusivement pour l'exécution de paiements critiques dits paiements urgents."
+    }
+  }
+}

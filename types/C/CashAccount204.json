@@ -1,0 +1,42 @@
+{
+  "isoType": "CashAccount204",
+  "definition": "Compte au débit ou au crédit duquel une écriture de trésorerie est passée.",
+  "isoElements": {
+    "SettlementCurrency": {
+      "definition": "Devise associée à l'instrument de paiement."
+    },
+    "Identification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "AccountServicerBranch": {
+      "definition": "Informations identifiant une agence précise d'un établissement financier.||Utilisation : ce composant doit être utilisé lorsque les informations d'identification du composant établissement financier ne permettent pas une identification jusqu'au niveau de l'agence."
+    },
+    "AccountOwnerOtherIdentification": {
+      "definition": "Identification alternative, par exemple numéro national d'identification, numéro de passeport, numéro d'identification fiscale. Il peut s'agir d'un numéro de compte servant à identifier plus précisément le bénéficiaire effectif, par exemple un compte Central Provident Fund (CFP) comme requis pour Singapour."
+    },
+    "InvestmentAccountType": {
+      "definition": "Type de compte."
+    },
+    "CreditDebit": {
+      "definition": "Précise si le compte est destiné aux crédits ou aux débits."
+    },
+    "SettlementInstructionReason": {
+      "definition": "Type d'opération pour lequel le compte espèces est précisé."
+    },
+    "CashAccountPurpose": {
+      "definition": "Motif du compte espèces."
+    },
+    "CashAccountDesignation": {
+      "definition": "Précise si le compte est le compte principal ou secondaire lorsqu'il existe deux comptes pour le même motif."
+    },
+    "DividendPercentage": {
+      "definition": "Pourcentage du paiement du dividende à ne pas réinvestir, c'est-à-dire à verser en espèces."
+    }
+  }
+}

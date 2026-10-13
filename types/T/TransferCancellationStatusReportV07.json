@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferCancellationStatusReportV07",
+  "definition": "Portée|Le message TransferCancellationStatusReport est envoyé par une partie exécutante, par exemple un agent de transfert, à la partie donneuse d'ordre, par exemple un gestionnaire de placements ou l'un de ses représentants autorisés, afin de fournir le statut d'une instruction d'annulation de transfert reçue précédemment.|Utilisation|Le message TransferCancellationStatusReport est utilisé pour rendre compte du statut d'une demande d'annulation de transfert entrant ou sortant.|La référence de l'instruction de transfert pour laquelle le statut d'annulation est communiqué est identifiée dans TransferReference. L'identification du message de demande d'annulation de transfert dans lequel l'instruction de transfert a été transmise peut également être citée dans RelatedReference.|L'identification du message de demande d'instruction de transfert dans lequel l'instruction de transfert a été transmise peut également être citée dans RelatedReference.|L'un des statuts suivants peut être communiqué :|- l'annulation du transfert est acceptée, ou,|- l'annulation du transfert a été envoyée à la partie suivante, ou,|- l'annulation du transfert est complète, avec le motif du statut,|- l'annulation du transfert est en attente, avec le motif du statut,|- l'annulation du transfert est rejetée, avec le motif du statut.",
+  "isoRules": {
+    "OtherReferenceRule": {
+      "definition": "Reference/OtherReference doit être utilisé pour référencer un « message » de demande d'annulation de transfert envoyé de manière propriétaire ou utilisé comme référence de système. Si Reference/OtherReference est présent, References/OtherReference/MessageName doit contenir, par exemple, « fax », « phone » ou « email »."
+    },
+    "RelatedReferenceRule": {
+      "definition": "Si Reference/RelatedReference/MessageName est présent, il doit commencer par sese.002, sese.006, sese.009 ou sese.014."
+    }
+  }
+}

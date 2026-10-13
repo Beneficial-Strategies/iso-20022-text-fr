@@ -1,0 +1,35 @@
+{
+  "isoType": "CorporateActionGeneralInformation196",
+  "definition": "Informations générales sur l'événement d'opération sur titres.",
+  "isoElements": {
+    "AgentCorporateActionEventIdentification": {
+      "definition": "Référence attribuée par le teneur de compte pour identifier sans ambiguïté un événement sur titres."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Référence attribuée par le teneur de compte pour identifier sans ambiguïté un événement sur titres."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Référence officielle et unique attribuée par l'organisme ou l'entité central officiel de chaque marché au début d'un événement sur titres."
+    },
+    "EventProcessingType": {
+      "definition": "Type de traitement impliqué par une opération sur titres."
+    },
+    "EventType": {
+      "definition": "Type d'événement sur titres."
+    },
+    "SubEventType": {
+      "definition": "Le nom natif de type de sous-événement d'opération sur titres de DTCC (The Depository Trust and Clearing Corporation) précise davantage le type d'événement."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Précise si l'événement est obligatoire, obligatoire avec options ou volontaire."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Titre concerné par l'opération sur titres."
+    }
+  },
+  "isoRules": {
+    "OfficialCorporateActionEventReference": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur la structure et l'utilisation de la référence officielle d'événement d'opération sur titres (COAF). Ces recommandations sont disponibles dans le document SMPG Global Market Practices Part 1 sur www.smpg.info."
+    }
+  }
+}

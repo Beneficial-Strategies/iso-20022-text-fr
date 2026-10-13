@@ -1,0 +1,4 @@
+{
+  "isoType": "BuyerProtectionInstructionReportV01",
+  "definition": "Portée|Le message BuyerProtectionInstructionReport est envoyé par un teneur de compte à un titulaire de compte ou à son agent désigné pour communiquer le statut de toutes les instructions de protection de l'acheteur en réponse à une demande de relevé d'instructions de protection de l'acheteur.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé (la sous-fonction du message est Duplicate),|- fournir à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy),|- renvoyer à un tiers une copie d'un message à titre d'information (la sous-fonction du message est Copy Duplicate), en utilisant les éléments pertinents de l'en-tête applicatif métier (BAH)."
+}

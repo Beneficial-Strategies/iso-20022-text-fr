@@ -1,0 +1,17 @@
+{
+  "isoType": "ReportHeader6",
+  "definition": "Fournit les détails d'en-tête du relevé.",
+  "isoElements": {
+    "ReportIdentification": {
+      "definition": "Identification d'un relevé de facturation."
+    },
+    "MessagePagination": {
+      "definition": "Fournit des détails sur le numéro de page du message.||Usage : la pagination du message n'est autorisée que si les parties en sont convenues."
+    }
+  },
+  "isoRules": {
+    "MessagePaginationRule": {
+      "definition": "Si MessagePagination est présent, alors ReportIdentification doit être identique pour toutes les pages."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationStatus1Choice",
+  "definition": "Définit le type d'action à exécuter dans la demande.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de demande de transfert de liquidités, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Type de demande de transfert de liquidités, sous forme propriétaire."
+    }
+  }
+}

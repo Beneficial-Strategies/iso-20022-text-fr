@@ -1,0 +1,17 @@
+{
+  "isoType": "PreviousYear2Choice",
+  "definition": "Choix entre des plans d’investissement sélectionnés émis au cours des années précédentes ou tous les plans d’investissement.",
+  "isoElements": {
+    "AllPreviousYears": {
+      "definition": "Sélection de tous les plans d’investissement."
+    },
+    "SpecificPreviousYears": {
+      "definition": "Sélection des plans d’investissement émis au cours des années précédentes."
+    }
+  },
+  "isoRules": {
+    "SpecificPreviousYearsGuideline": {
+      "definition": "SpecificPreviousYears ne doit pas contenir l’année en cours."
+    }
+  }
+}

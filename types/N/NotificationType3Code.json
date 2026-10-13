@@ -1,0 +1,18 @@
+{
+  "isoType": "NotificationType3Code",
+  "definition": "Précise un type de notification.",
+  "isoCodes": {
+    "NEWM": {
+      "name": "Nouveau",
+      "definition": "Nouvelle notification."
+    },
+    "REPL": {
+      "name": "Remplacement",
+      "definition": "Notification remplaçant une notification envoyée précédemment."
+    },
+    "RMDR": {
+      "name": "Rappel",
+      "definition": "Notification envoyée comme rappel de la tenue d'un événement."
+    }
+  }
+}

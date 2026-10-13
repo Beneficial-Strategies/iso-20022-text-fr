@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyExchangeSearchCriteria1",
+  "definition": "Définit les critères utilisés pour rechercher des informations sur les taux de change.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Devise du montant à convertir lors d'une conversion de devises."
+    },
+    "TargetCurrency": {
+      "definition": "Devise dans laquelle un montant doit être converti lors d'une conversion de devises."
+    }
+  }
+}

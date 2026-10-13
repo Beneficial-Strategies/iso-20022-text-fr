@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountReportRequestV04",
+  "definition": "Le message AccountReportRequest est envoyé par une organisation à un établissement financier à des fins de reporting. Il s'agit d'une demande de relevé de compte. Ce message peut être envoyé à tout moment en dehors des processus d'ouverture, de maintenance ou de clôture de compte."
+}

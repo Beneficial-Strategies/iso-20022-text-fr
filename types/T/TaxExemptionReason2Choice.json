@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxExemptionReason2Choice",
+  "definition": "Choix de formats pour la spécification du motif d'exonération fiscale.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif d'exonération fiscale exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif d'exonération fiscale exprimé sous forme de code propriétaire."
+    }
+  }
+}

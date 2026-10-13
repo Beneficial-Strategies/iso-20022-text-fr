@@ -1,0 +1,12 @@
+{
+  "isoType": "ResidualCash1",
+  "definition": "Précise s’il y a des espèces sur le compte en attente d’investissement.",
+  "isoElements": {
+    "ResidualCashIndicator": {
+      "definition": "Indique s’il y a des espèces sur le compte en attente d’investissement."
+    },
+    "Currency": {
+      "definition": "Devise des espèces."
+    }
+  }
+}

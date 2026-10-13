@@ -1,0 +1,12 @@
+{
+  "isoType": "ReceivedByIssuerOrOfferorStatus1",
+  "definition": "L'instruction a été reçue et acceptée par l'émetteur ou l'offrant.",
+  "isoElements": {
+    "AcceptedByIssuerQuantity": {
+      "definition": "La quantité de titres instruits précédemment acceptée a maintenant été acceptée par l'émetteur."
+    },
+    "ReceivedByIssuerOrOfferorReason": {
+      "definition": "Motif du statut en attente."
+    }
+  }
+}

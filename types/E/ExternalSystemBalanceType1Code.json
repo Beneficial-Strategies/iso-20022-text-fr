@@ -1,0 +1,286 @@
+{
+  "isoType": "ExternalSystemBalanceType1Code",
+  "definition": "Spécifie le type de solde du système, tel que publié dans un jeu de codes externe des types de solde du système.|Les jeux de codes externes peuvent être téléchargés à l'adresse www.iso20022.org.",
+  "isoCodes": {
+    "ADJT": {
+      "name": "Ajustement",
+      "definition": "Solde moyen à détenir sur le compte de règlement à la fin de chaque journée afin de satisfaire à la réserve due.|L'approximation sera toujours arrondie à l'unité supérieure."
+    },
+    "ADWR": {
+      "name": "DMV disponible pour la pension livrée au guichet d'escompte",
+      "definition": "Le solde représente la valeur de marché décotée disponible pour la pension livrée au guichet d'escompte."
+    },
+    "AIDR": {
+      "name": "DMV disponible pour la pension livrée intrajournalière",
+      "definition": "Le solde représente la valeur de marché décotée disponible pour la pension livrée intrajournalière."
+    },
+    "AVLB": {
+      "name": "Disponible",
+      "definition": "Solde de fonds ou de titres dont dispose le titulaire du compte à la date indiquée."
+    },
+    "BLCK": {
+      "name": "Bloqué",
+      "definition": "Solde représentant la réserve réglementaire qu'un établissement financier doit détenir auprès de l'établissement teneur de compte, par exemple le solde créditeur minimal qu'un établissement financier doit maintenir auprès de sa banque centrale au titre des réserves obligatoires. Dans certains pays, un solde bloqué est appelé solde de « réserve »."
+    },
+    "BLOC": {
+      "name": "Transactions bloquées",
+      "definition": "Solde représentant le total projeté de toutes les jambes de trésorerie des opérations réglées par l'intermédiaire d'un dépositaire central de titres qui ont été appariées mais bloquées afin de ne pas être réglées. Ces opérations bloquées sont incluses dans le calcul du règlement (par exemple pour éviter les découverts).|Règle d'utilisation : le blocage peut être effectué par le titulaire du compte ou ses contreparties. Il est généralement utilisé pour enchaîner des opérations ou pour donner la priorité à d'autres transactions. Les opérations bloquées portent un indicateur qui empêche leur règlement. Une fois appariées, elles peuvent être réglées dès que le blocage est levé. Dans ce cas, elles passeront à FSET. La levée du blocage peut intervenir à tout moment de la journée et l'opération sera réglée lors du cycle de règlement suivant, qui peut être le jour même si le dépositaire central de titres (international) exploite plusieurs cycles de règlement par jour."
+    },
+    "BOOK": {
+      "name": "Comptable",
+      "definition": "Solde enregistré dans les livres du teneur de compte."
+    },
+    "BSCC": {
+      "name": "Crédit de règlement en bloc CMUP",
+      "definition": "Le solde représente le total du règlement en bloc et des crédits du processeur de l'unité centrale des marchés monétaires."
+    },
+    "BSCD": {
+      "name": "Débit de règlement en bloc CMUP",
+      "definition": "Le solde représente le total du règlement en bloc et des débits du processeur de l'unité centrale des marchés monétaires."
+    },
+    "CCPS": {
+      "name": "Contrepartie centrale",
+      "definition": "Solde représentant la prévision du total de toutes les jambes de trésorerie des opérations négociées en bourse qui exploitent une fonction de contrepartie centrale."
+    },
+    "CLSG": {
+      "name": "Clôture",
+      "definition": "Solde du compte à la fin de la journée ouvrée du teneur de compte. Il correspond à la somme du solde d'ouverture en début de journée et de toutes les écritures comptabilisées au compte pendant la journée ouvrée du teneur de compte."
+    },
+    "COHB": {
+      "name": "Crédit en suspens",
+      "definition": "Solde représentant le total des paiements entrants mis en attente parce que la limite de crédit a été dépassée."
+    },
+    "COLC": {
+      "name": "Encaissement de dividendes",
+      "definition": "Solde représentant le montant total projeté de toutes les obligations de paiement envers le participant (banque), en sa qualité d'agent payeur principal."
+    },
+    "CPBL": {
+      "name": "Crédit traité",
+      "definition": "Solde représentant le total des paiements entrants traités et en attente de règlement."
+    },
+    "CRDT": {
+      "name": "Crédit",
+      "definition": "Solde représentant la somme de toutes les écritures au crédit comptabilisées à un compte."
+    },
+    "CRRT": {
+      "name": "Courant",
+      "definition": "Solde du compte à un instant précis."
+    },
+    "CUSA": {
+      "name": "Conservation effective",
+      "definition": "Solde représentant le total effectif de toutes les opérations de service sur actifs, telles que les dividendes, les équivalents d'opérations sur titres générant un revenu, les remboursements d'impôt, les remboursements de capital, etc."
+    },
+    "CUST": {
+      "name": "Conservation",
+      "definition": "Solde représentant le total projeté de toutes les opérations de service sur actifs, telles que les dividendes, les équivalents d'opérations sur titres générant un revenu, les remboursements d'impôt, etc."
+    },
+    "DBIT": {
+      "name": "Débit",
+      "definition": "Solde représentant la somme de toutes les écritures au débit comptabilisées à un compte."
+    },
+    "DLOD": {
+      "name": "Découvert intrajournalier",
+      "definition": "Solde représentant le découvert intrajournalier accordé par la banque centrale aux établissements financiers participant à un système RTGS. Ce solde peut varier au fil du temps et doit être compensé à la fin de la journée."
+    },
+    "DOHB": {
+      "name": "Débit en suspens",
+      "definition": "Solde représentant le total des paiements sortants mis en attente parce que la limite de débit a été dépassée."
+    },
+    "DPBL": {
+      "name": "Débit traité",
+      "definition": "Solde représentant le total des paiements sortants traités et en attente de règlement."
+    },
+    "DSET": {
+      "name": "Titres réglés définitivement",
+      "definition": "Solde représentant la contre-valeur en numéraire de toutes les opérations sur titres réglées."
+    },
+    "DWRD": {
+      "name": "Tirages de pension livrée au guichet d'escompte",
+      "definition": "Le solde représente les tirages de pension livrée au guichet d'escompte."
+    },
+    "EAST": {
+      "name": "Actifs éligibles",
+      "definition": "Solde représentant le prêt potentiel qu'une banque centrale accorderait en numéraire si la garantie est nantie, par exemple les titres disponibles et éligibles comme garantie auprès de la banque centrale."
+    },
+    "EXRE": {
+      "name": "Tranche exemptée du seuil d'exemption des réserves excédentaires",
+      "definition": "Le code définit le seuil de la valeur du solde d'exemption des réserves excédentaires entre les tranches exonérée et non exonérée des réserves excédentaires."
+    },
+    "EXRR": {
+      "name": "Tranche non exemptée du solde de rémunération des réserves excédentaires",
+      "definition": "Le code définit le solde au-delà du seuil d'exemption des réserves excédentaires, au sein du solde moyen périodique pour la réserve minimale. Cette part des réserves excédentaires reste donc à rémunérer."
+    },
+    "FCOL": {
+      "name": "Collatéralisation ferme",
+      "definition": "Solde représentant la prévision de la contre-valeur en numéraire résultant de l'évaluation des avoirs existants auprès du CSD qui sont admissibles comme garantie."
+    },
+    "FCOU": {
+      "name": "Montants utilisés en collatéralisation ferme",
+      "definition": "Solde représentant la contre-valeur en numéraire résultant de l'évaluation des avoirs existants auprès du CSD qui sont admissibles comme garantie et ont été utilisés comme telle."
+    },
+    "FORC": {
+      "name": "Prévision de trésorerie",
+      "definition": "Solde représentant le total de tous les types de solde correspondant aux opérations à régler, aux éléments bloqués et aux opérations de conservation."
+    },
+    "FSET": {
+      "name": "Règlement prévisionnel",
+      "definition": "Solde représentant la prévision du total de toutes les jambes de trésorerie des opérations prêtes à être réglées par l'intermédiaire d'un dépositaire central de titres. Les montants indiqués restent soumis au traitement du règlement des titres."
+    },
+    "FUND": {
+      "name": "Financement net",
+      "definition": "Solde représentant le montant net à financer résultant de toutes les opérations ayant une incidence sur le besoin de financement."
+    },
+    "FUTB": {
+      "name": "Total futur",
+      "definition": "Solde représentant le total des paiements dont la date de traitement est future."
+    },
+    "INTM": {
+      "name": "Intermédiaire",
+      "definition": "Solde calculé en cours de journée ouvrée du teneur de compte, à l'heure indiquée, et susceptible de varier au cours de la journée ouvrée. Le solde intermédiaire est calculé sur la base des éléments de crédit et de débit comptabilisés pendant l'heure ou la période de calcul indiquée."
+    },
+    "IRDR": {
+      "name": "Tirages de pension livrée intrajournalière",
+      "definition": "Le solde représente les tirages de pension livrée intrajournaliers."
+    },
+    "IRLT": {
+      "name": "Limite de pension livrée intrajournalière",
+      "definition": "Le solde représente la limite de pension livrée intrajournalière."
+    },
+    "LACK": {
+      "name": "Opérations pour défaut de positions",
+      "definition": "Solde représentant la contre-valeur en numéraire des opérations pour lesquelles les avoirs sont insuffisants."
+    },
+    "LRLD": {
+      "name": "Lié à la limite",
+      "definition": "Solde d'une valeur limite déterminée, par exemple lorsqu'un solde bilatéral est calculé par rapport à une limite bilatérale donnée."
+    },
+    "LTSF": {
+      "name": "Transfert de liquidité",
+      "definition": "Solde composé de la somme de tous les transferts de liquidités effectués vers ou depuis un compte."
+    },
+    "MSTR": {
+      "name": "Principal",
+      "definition": "Solde du compte identifié augmenté du solde de l'ensemble de ses sous-comptes."
+    },
+    "NOTE": {
+      "name": "Pris en note",
+      "definition": "Solde représentant le montant qu'un établissement financier a mis de côté pour une raison déterminée et qui n'est donc pas disponible."
+    },
+    "NSET": {
+      "name": "Titres non réglés",
+      "definition": "Solde représentant la contre-valeur en numéraire de toutes les opérations sur titres non réglées."
+    },
+    "OPNG": {
+      "name": "Ouverture",
+      "definition": "Solde comptable du compte au début de la journée ouvrée du teneur de compte. Il est toujours égal au solde comptable de clôture de la journée ouvrée précédente. |Remarque : le solde disponible au début de la journée ouvrée du teneur de compte peut différer du solde comptable de clôture de la journée ouvrée précédente."
+    },
+    "OTCC": {
+      "name": "Transactions de gré à gré garanties par la contrepartie centrale",
+      "definition": "Solde représentant la prévision du total de toutes les jambes de trésorerie des opérations de gré à gré (OTC) transitant par les fonctions de contrepartie centrale (CCP)."
+    },
+    "OTCG": {
+      "name": "Transactions de gré à gré prévisionnelles",
+      "definition": "Solde représentant la prévision du total de toutes les jambes de trésorerie des opérations négociées de gré à gré (OTC)."
+    },
+    "OTCN": {
+      "name": "Transactions de gré à gré non garanties par la contrepartie centrale",
+      "definition": "Solde représentant la prévision du total de toutes les jambes de trésorerie des opérations négociées de gré à gré (OTC) ne transitant pas par les fonctions de contrepartie centrale (CCP)."
+    },
+    "OTHB": {
+      "name": "Autres transactions bloquées",
+      "definition": "Solde représentant le total projeté de toutes les jambes de trésorerie des opérations réglées par l'intermédiaire d'un dépositaire central de titres qui ont été appariées mais bloquées afin de ne pas être réglées. Ces opérations bloquées ne sont pas incluses dans le calcul du règlement."
+    },
+    "PDNG": {
+      "name": "En attente",
+      "definition": "Solde de titres en attente de livraison, par exemple lorsque les ordres de vente de titres ont été exécutés mais que le règlement des opérations ouvertes n'a pas été confirmé."
+    },
+    "PIPO": {
+      "name": "Versement et paiement",
+      "definition": "Solde représentant la prévision fictive des prélèvements automatiques ou des paiements fondés sur des accords permanents entre un dépositaire central de titres et l'utilisateur.||||Utilisation : les entrées et sorties de fonds peuvent différer selon les instructions de paiement individuelles ou les fonds disponibles."
+    },
+    "PRAV": {
+      "name": "Moyenne progressive",
+      "definition": "Moyenne des soldes quotidiens du compte utilisée pour satisfaire aux exigences de réserves, calculée depuis le début de la période de constitution."
+    },
+    "PYMT": {
+      "name": "Paiement",
+      "definition": "Solde représentant la somme des écritures résultant du traitement des paiements. Les écritures relatives aux frais, aux intérêts ou à d'autres mouvements ne résultant pas de paiements émis ou reçus par le titulaire du compte ne sont pas incluses."
+    },
+    "REJB": {
+      "name": "Total rejeté",
+      "definition": "Solde représentant le total des paiements rejetés."
+    },
+    "REPC": {
+      "name": "Crédit de pension livrée CMUP",
+      "definition": "Le solde représente le total des crédits de pension livrée du processeur de l'unité centrale des marchés monétaires."
+    },
+    "REPD": {
+      "name": "Débit de pension livrée CMUP",
+      "definition": "Le solde représente le total des débits de pension livrée du processeur de l'unité centrale des marchés monétaires."
+    },
+    "REST": {
+      "name": "Restreint",
+      "definition": "Solde de trésorerie qui ne peut être utilisé que sous certaines conditions.||Le type de solde sert à bloquer des titres/espèces sur le compte du client, par exemple lorsque, en lien avec certaines opérations sur titres, la position est placée sous le contrôle direct de l'agent payeur du système, seul habilité à transférer des titres hors de ce type de solde.|Également appelé « solde séquestre » ou « solde mis sous séquestre »."
+    },
+    "SAPC": {
+      "name": "Montant de virement direct SAP",
+      "definition": "Le solde représente le montant des virements au crédit du processeur du compte de règlement."
+    },
+    "SAPD": {
+      "name": "Montant de prélèvement direct SAP",
+      "definition": "Le solde représente le montant des prélèvements du processeur du compte de règlement."
+    },
+    "SAPP": {
+      "name": "Montant en file d'attente SAP",
+      "definition": "Le solde représente le montant en file d'attente du processeur du compte de règlement."
+    },
+    "SCOL": {
+      "name": "Auto-collatéralisation",
+      "definition": "Solde représentant la prévision de la contre-valeur en numéraire résultant de l'évaluation du solde net entrant de titres admissibles comme garantie et dont les instructions de règlement sont détenues auprès de."
+    },
+    "SCOU": {
+      "name": "Montants utilisés en auto-collatéralisation",
+      "definition": "Solde représentant la contre-valeur en numéraire résultant de l'évaluation des titres entrants, admissibles comme garantie et effectivement utilisés comme telle, qui ont été réglés au cours du processus de règlement."
+    },
+    "SELF": {
+      "name": "Soi-même",
+      "definition": "Solde du compte identifié (par opposition au solde principal)."
+    },
+    "THRE": {
+      "name": "Seuil",
+      "definition": "Solde représentant le montant qui sera destiné à l'investissement. Différence entre le solde disponible et le seuil de la limite d'investissement."
+    },
+    "TOHB": {
+      "name": "Total en suspens",
+      "definition": "Solde représentant le total des paiements mis en attente parce que les limites ont été dépassées."
+    },
+    "TPBL": {
+      "name": "Total traité",
+      "definition": "Solde représentant le total des paiements traités et en attente de règlement pendant la journée."
+    },
+    "XCHC": {
+      "name": "Prévision garantie par la contrepartie centrale",
+      "definition": "Solde représentant la prévision du total de toutes les jambes de trésorerie des opérations en bourse transitant par les fonctions CCP."
+    },
+    "XCHG": {
+      "name": "Prévision de change",
+      "definition": "Solde représentant la prévision du total de toutes les jambes de trésorerie des opérations négociées en bourse."
+    },
+    "XCHN": {
+      "name": "Prévision non garantie par la contrepartie centrale",
+      "definition": "Solde représentant la prévision du total de toutes les jambes de trésorerie des opérations négociées en bourse ne transitant pas par les fonctions de contrepartie centrale (CCP)."
+    },
+    "XCRD": {
+      "name": "Crédit attendu",
+      "definition": "Solde, composé des écritures comptabilisées et des éléments en attente connus au moment du calcul, qui projette le solde créditeur de fin de journée si tout est comptabilisé au compte et si aucune autre écriture au crédit n'est passée."
+    },
+    "XDBT": {
+      "name": "Débit attendu",
+      "definition": "Solde, composé des écritures comptabilisées et des éléments en attente connus au moment du calcul, qui projette le solde débiteur de fin de journée si tout est comptabilisé au compte et si aucune autre écriture au débit n'est passée."
+    },
+    "XPCD": {
+      "name": "Attendu",
+      "definition": "Solde, composé des écritures comptabilisées et des éléments en attente connus au moment du calcul, qui projette le solde de fin de journée si tout est comptabilisé au compte et si aucune autre écriture n'est passée."
+    }
+  }
+}

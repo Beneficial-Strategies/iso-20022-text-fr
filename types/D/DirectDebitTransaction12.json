@@ -1,0 +1,18 @@
+{
+  "isoType": "DirectDebitTransaction12",
+  "definition": "Fournit des précisions supplémentaires sur l'opération de prélèvement et le mandat correspondant.",
+  "isoElements": {
+    "MandateRelatedInformation": {
+      "definition": "Fournit des précisions supplémentaires sur le mandat de prélèvement signé entre le créancier et le débiteur."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Partie créditrice qui signe le mandat."
+    },
+    "PreNotificationIdentification": {
+      "definition": "Identification unique et non ambiguë de la pré-notification envoyée séparément de l'instruction de prélèvement.||Utilisation : la pré-notification de prélèvement sert à rapprocher les informations d'encaissement envoyées séparément et les informations de l'opération de prélèvement."
+    },
+    "PreNotificationDate": {
+      "definition": "Date à laquelle le créancier informe le débiteur du montant et de la date auxquels l'instruction de prélèvement sera présentée à la banque du débiteur."
+    }
+  }
+}

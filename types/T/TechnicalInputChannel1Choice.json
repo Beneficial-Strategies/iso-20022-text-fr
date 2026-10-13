@@ -1,0 +1,12 @@
+{
+  "isoType": "TechnicalInputChannel1Choice",
+  "definition": "Précise le canal de saisie technique.",
+  "isoElements": {
+    "Code": {
+      "definition": "Canal de saisie technique, tel que publié dans une liste de codes externe des canaux de saisie techniques."
+    },
+    "Proprietary": {
+      "definition": "Canal technique utilisé pour saisir l'instruction, sous forme propriétaire."
+    }
+  }
+}

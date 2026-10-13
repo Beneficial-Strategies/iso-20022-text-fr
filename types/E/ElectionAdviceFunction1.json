@@ -1,0 +1,23 @@
+{
+  "isoType": "ElectionAdviceFunction1",
+  "definition": "Fournit des informations sur le type d'avis d'option choisie et les messages liés.",
+  "isoElements": {
+    "ElectionType": {
+      "definition": "Type d'avis d'option choisie."
+    },
+    "PreviousAgentCAElectionAdviceIdentification": {
+      "definition": "Identification de l'Agent Corporate Action Election Advice précédent qui est modifié."
+    },
+    "AgentCAElectionStatusAdviceIdentification": {
+      "definition": "Identification de l'Agent Corporate Action Election Status Advice par lequel l'émetteur (agent) accepte la demande de modification de l'option choisie."
+    },
+    "AgentCAElectionAmendmentRequestIdentification": {
+      "definition": "Identification de l'Agent Corporate Action Election Amendment Request par laquelle le CSD demande l'autorisation de modifier une option choisie."
+    }
+  },
+  "isoRules": {
+    "ElectionTypeRule": {
+      "definition": "Si ElectionType est CHAN, alors PreviousAgentCAElectionAdviceIdentification et AgentCAElectionStatusAdviceIdentification sont obligatoires."
+    }
+  }
+}

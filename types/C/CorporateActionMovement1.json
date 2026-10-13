@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionMovement1",
+  "definition": "Fournit des informations sur l'instruction de mouvement.",
+  "isoElements": {
+    "OrderType": {
+      "definition": "Type d'instruction de mouvement."
+    },
+    "HighPriorityIndicator": {
+      "definition": "Indique si le mouvement est de haute priorité ou non.|Signification si vrai : haute priorité|Signification si faux : standard."
+    },
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Date à laquelle le mouvement de distribution doit être exécuté."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identification de la partie qui détient le compte."
+    },
+    "AccountIdentification": {
+      "definition": "Identification du compte."
+    },
+    "ConfirmedBalanceSecuritiesQuantity": {
+      "definition": "Quantité de titres dans le solde confirmé, c.-à-d. le solde auquel s'applique le crédit des ressources livrées."
+    }
+  }
+}

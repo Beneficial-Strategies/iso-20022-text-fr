@@ -1,0 +1,14 @@
+{
+  "isoType": "InterestType1Code",
+  "definition": "Indique le type d'intérêt appliqué à un solde laissé sur un compte.",
+  "isoCodes": {
+    "INDY": {
+      "name": "Intrajournalier",
+      "definition": "Pendant ou au cours d'un jour ouvrable."
+    },
+    "OVRN": {
+      "name": "De nuit",
+      "definition": "Période comprise entre la fin d'un jour ouvrable et le début du jour ouvrable suivant (généralement le lendemain)."
+    }
+  }
+}

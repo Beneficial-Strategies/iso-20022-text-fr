@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateCopy4",
+  "definition": "Identifie le mandat dont une copie des détails est demandée.",
+  "isoElements": {
+    "OriginalMessageInformation": {
+      "definition": "Fournit des informations sur le message d'origine."
+    },
+    "OriginalMandate": {
+      "definition": "Fournit les données du mandat d'origine."
+    },
+    "MandateStatus": {
+      "definition": "Indique le statut du mandat."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  }
+}

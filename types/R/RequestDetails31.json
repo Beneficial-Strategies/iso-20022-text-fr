@@ -1,0 +1,56 @@
+{
+  "isoType": "RequestDetails31",
+  "definition": "Détails de la demande de modification des conditions de règlement.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Références de l'opération pour laquelle la modification des conditions de règlement de titres est demandée."
+    },
+    "RestrictionReference": {
+      "definition": "Références de restriction appliquées à l'opération pour laquelle la modification des conditions de règlement de titres est demandée."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Condition d'emprunt automatique."
+    },
+    "RetainIndicator": {
+      "definition": "Indique si l'instruction arrivant à expiration est confirmée pour le règlement."
+    },
+    "Linkage": {
+      "definition": "Précise le type de lien demandé."
+    },
+    "Priority": {
+      "definition": "Précise si l'opération doit être exécutée avec une priorité élevée."
+    },
+    "OtherProcessing": {
+      "definition": "Précise un autre type de demande de modification du traitement."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Précise si le règlement partiel est autorisé."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Indique si l'opération de règlement doit être réglée par l'intermédiaire d'un système RTGS ou non RTGS."
+    },
+    "HoldIndicator": {
+      "definition": "Précise si l'opération est suspendue/bloquée/gelée."
+    },
+    "MatchingDenial": {
+      "definition": "Précise la modification demandée du traitement d'appariement."
+    },
+    "UnilateralSplit": {
+      "definition": "Précise qu'il est demandé de fractionner unilatéralement l'opération."
+    },
+    "Linkages": {
+      "definition": "Informations relatives au lien demandé."
+    }
+  },
+  "isoRules": {
+    "ModificationRequestPresenceRule": {
+      "definition": "Au moins un type de demande de modification des conditions de règlement de titres doit être présent."
+    },
+    "OtherProcessingRule": {
+      "definition": "Si OtherProcessing est utilisé, son usage doit être convenu au préalable entre l'expéditeur et le destinataire."
+    },
+    "SettlementConditionModificationApplicabilityRule": {
+      "definition": "Tous les types de demande de modification des conditions de règlement ne s'appliquent pas à tous les teneurs de compte."
+    }
+  }
+}

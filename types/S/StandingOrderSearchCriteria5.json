@@ -1,0 +1,45 @@
+{
+  "isoType": "StandingOrderSearchCriteria5",
+  "definition": "Définit les critères utilisés pour rechercher les ordres permanents définis dans le système.",
+  "isoElements": {
+    "KeyAttributesIndicator": {
+      "definition": "Indique si les champs clés ou les attributs métier définis dans le système doivent être renvoyés."
+    },
+    "StandingOrderIdentification": {
+      "definition": "Identification unique permettant d'identifier sans ambiguïté l'ordre permanent utilisé pour initier le transfert de liquidités."
+    },
+    "Type": {
+      "definition": "Type de l'ordre permanent."
+    },
+    "Account": {
+      "definition": "Compte d'origine ou de destination du transfert de liquidités au sein du groupe de comptes gérés par le demandeur."
+    },
+    "Currency": {
+      "definition": "Identification unique et non ambiguë d'un ordre permanent, attribuée par l'établissement teneur de compte ou par le titulaire du compte."
+    },
+    "ValidityPeriod": {
+      "definition": "Dates pendant lesquelles l'ordre permanent est en vigueur."
+    },
+    "SystemMember": {
+      "definition": "Précise si le compte est débité ou crédité par l'ordre permanent."
+    },
+    "ResponsibleParty": {
+      "definition": "Entité impliquée dans une activité."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Compte d'origine ou de destination du transfert de liquidités au sein du groupe de comptes gérés par le demandeur."
+    },
+    "LinkSetIdentification": {
+      "definition": "Identification unique permettant d'identifier sans ambiguïté l'ensemble lié dans lequel l'ordre permanent est défini. L'ensemble lié est un regroupement d'ordres permanents définis selon une séquence précise."
+    },
+    "LinkSetOrderIdentification": {
+      "definition": "Identification unique permettant d'identifier sans ambiguïté l'ordre permanent de transfert de liquidités au sein de l'ensemble lié."
+    },
+    "LinkSetOrderSequence": {
+      "definition": "Précise la séquence dans laquelle le système exécutera les ordres permanents de transfert de liquidités au sein de l'ensemble lié lorsque des liquidités supplémentaires sont nécessaires."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Indique si la requête doit renvoyer tous les ordres permanents de transfert de liquidités définis comme ordres de balayage à zéro.|Lorsque l'indicateur est positionné à vrai, l'ordre permanent de transfert de liquidités transfère la totalité des fonds hors du compte, de sorte que le solde obtenu soit nul."
+    }
+  }
+}

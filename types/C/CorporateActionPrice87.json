@@ -1,0 +1,33 @@
+{
+  "isoType": "CorporateActionPrice87",
+  "definition": "Précise les prix liés à une option d'opération sur titres.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Versement en espèces en lieu et place d'actions ; généralement en lieu et place d'une quantité fractionnaire."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Montant requis par action sursouscrite, tel que défini par l'émetteur."
+    },
+    "MaximumCashToInstruct": {
+      "definition": "Montant maximal en espèces pouvant être instruit."
+    },
+    "MinimumCashToInstruct": {
+      "definition": "Montant minimal en espèces pouvant être instruit."
+    },
+    "MinimumMultipleCashToInstruct": {
+      "definition": "Multiple minimal d'un montant en espèces pouvant être instruit."
+    },
+    "MaximumPrice": {
+      "definition": "Prix maximum ou plafond auquel un détenteur peut soumissionner, par exemple, lors d'une offre aux enchères hollandaises."
+    },
+    "MinimumPrice": {
+      "definition": "Prix minimum ou plancher auquel un détenteur peut soumissionner, par exemple, lors d'une offre aux enchères hollandaises."
+    },
+    "FirstBidIncrementPrice": {
+      "definition": "Premier prix acceptable après le prix minimum auquel un détenteur peut soumissionner, par exemple lors d'une offre aux enchères hollandaises."
+    },
+    "LastBidIncrementPrice": {
+      "definition": "Dernier prix acceptable avant le prix maximum auquel un détenteur peut soumissionner, par exemple lors d'une offre aux enchères hollandaises."
+    }
+  }
+}

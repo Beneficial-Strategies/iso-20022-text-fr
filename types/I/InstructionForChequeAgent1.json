@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForChequeAgent1",
+  "definition": "Informations complémentaires relatives au traitement de l'instruction de chèque, auxquelles l'agent destinataire peut devoir donner suite.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informations codées relatives au traitement du chèque, destinées à l'agent destinataire."
+    },
+    "InstructionInformation": {
+      "definition": "Informations complémentaires au code d'instruction ou à l'instruction destinée à l'agent chargé des chèques, convenues bilatéralement ou propres à une communauté d'utilisateurs."
+    }
+  }
+}

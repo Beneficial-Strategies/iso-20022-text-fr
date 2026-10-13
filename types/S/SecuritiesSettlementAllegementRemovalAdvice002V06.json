@@ -1,0 +1,23 @@
+{
+  "isoType": "SecuritiesSettlementAllegementRemovalAdvice002V06",
+  "definition": "Portée|Un teneur de compte envoie un SecuritiesSettlementAllegementRemovalAdvice à un titulaire de compte afin de confirmer qu'une allégation précédemment envoyée n'est plus en suspens, parce que la partie alléguée a envoyé son instruction.|La relation teneur de compte/titulaire peut être :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement agissant pour le compte de ses participants|- un agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou|- un conservateur agissant pour le compte d'un établissement de gestion d'investissements ou d'un courtier/négociateur.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information|en utilisant les éléments pertinents du Business Application Header.",
+  "isoElements": {
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération de contrepartie attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

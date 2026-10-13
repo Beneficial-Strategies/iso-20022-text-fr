@@ -1,0 +1,12 @@
+{
+  "isoType": "ResponseDetails1",
+  "definition": "Détails complémentaires destinés à clarifier les codes de réponse.",
+  "isoElements": {
+    "ResponseCode": {
+      "definition": "Code pour les avertissements, rejets, réponses de paiement/non-paiement et rejets techniques du teneur de compte."
+    },
+    "AdditionalDetails": {
+      "definition": "Informations complémentaires destinées à préciser les codes de réponse."
+    }
+  }
+}

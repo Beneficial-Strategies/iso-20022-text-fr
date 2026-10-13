@@ -1,0 +1,12 @@
+{
+  "isoType": "AlternateSecurityIdentification7",
+  "definition": "Schéma d'identification propriétaire ou national qui identifie un titre de manière unique.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiant unique et non ambigu d'un titre."
+    },
+    "IdentificationSource": {
+      "definition": "Source de l'identification, c'est-à-dire nationale ou propriétaire."
+    }
+  }
+}

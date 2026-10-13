@@ -1,0 +1,9 @@
+{
+  "isoType": "BalanceTransferFundingLimit1",
+  "definition": "Valeur maximale que la nouvelle banque paiera à l'ancienne banque lorsque le solde de clôture de l'ancienne banque est négatif.",
+  "isoElements": {
+    "CurrencyAmount": {
+      "definition": "Valeur maximale et devise associée pouvant être envoyées par la nouvelle banque tenant le compte à l'ancienne banque tenant le compte en cas de solde de clôture négatif."
+    }
+  }
+}

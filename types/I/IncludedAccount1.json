@@ -1,0 +1,12 @@
+{
+  "isoType": "IncludedAccount1",
+  "definition": "Fournit des informations sur le compte concerné ou non par l'instruction permanente.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "definition": "Identification du compte-titres."
+    },
+    "IncludedIndicator": {
+      "definition": "Indique si le compte est concerné ou non par l'instruction permanente.||Oui = Le compte est concerné par l'instruction permanente.|Non = Le compte n'est pas concerné par l'instruction permanente."
+    }
+  }
+}

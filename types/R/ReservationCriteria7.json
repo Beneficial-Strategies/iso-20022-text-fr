@@ -1,0 +1,20 @@
+{
+  "isoType": "ReservationCriteria7",
+  "definition": "Définit les critères d'extraction des informations de réservation et le rapport de réservation attendu. Un nom peut être donné à la nouvelle requête.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nom de la requête définie par les critères de recherche et les critères de retour."
+    },
+    "SearchCriteria": {
+      "definition": "Définit les critères d'extraction des informations de réservation."
+    },
+    "ReturnCriteria": {
+      "definition": "Définit le rapport de réservation attendu."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Si ReturnCriteria n'est pas présent, au moins une occurrence de SearchCriteria doit être présente. Si ReturnCriteria est présent, toute occurrence de SearchCriteria est facultative."
+    }
+  }
+}

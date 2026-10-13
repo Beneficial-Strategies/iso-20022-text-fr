@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementFrequency1Choice",
+  "definition": "Choix de formats pour la fréquence de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fréquence de règlement exprimée sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Fréquence de règlement exprimée sous forme de code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ExtendedParty14",
+  "definition": "Informations sur la partie et le compte.",
+  "isoElements": {
+    "ExtendedPartyRole": {
+      "definition": "Autre type de rôle de la partie."
+    },
+    "OtherPartyDetails": {
+      "definition": "Informations détaillées sur la propriété relative à une partie."
+    }
+  }
+}

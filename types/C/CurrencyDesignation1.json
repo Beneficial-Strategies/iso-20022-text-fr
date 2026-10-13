@@ -1,0 +1,15 @@
+{
+  "isoType": "CurrencyDesignation1",
+  "definition": "Informations sur la désignation d'une devise.",
+  "isoElements": {
+    "CurrencyDesignation": {
+      "definition": "Précise si la devise est réglée offshore ou onshore."
+    },
+    "Location": {
+      "definition": "Localisation offshore de la devise."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur la devise offshore."
+    }
+  }
+}

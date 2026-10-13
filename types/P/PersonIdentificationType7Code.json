@@ -1,0 +1,18 @@
+{
+  "isoType": "PersonIdentificationType7Code",
+  "definition": "Indique un type de référence fiscale.",
+  "isoCodes": {
+    "ATIN": {
+      "name": "Numéro d'identification fiscale d'adoption",
+      "definition": "Numéro de traitement fiscal temporaire (utilisé lors de l'adoption nationale d'un enfant)."
+    },
+    "GTIN": {
+      "name": "Numéro d'identification fiscale générique",
+      "definition": "Numéro d'identification fiscale générique."
+    },
+    "ITIN": {
+      "name": "Numéro d'identification fiscale individuel",
+      "definition": "Numéro de traitement fiscal."
+    }
+  }
+}

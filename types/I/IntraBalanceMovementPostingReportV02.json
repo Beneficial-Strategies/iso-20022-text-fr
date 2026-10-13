@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceMovementPostingReportV02",
+  "definition": "Ce message IntraBalanceMovementPostingReport est envoyé par une infrastructure de règlement à un titulaire de compte/demandeur pour signaler les instructions de mouvement intra-solde, précédemment envoyées par le titulaire du compte, qui ont un statut réglé.||Le message peut également servir à : |- renvoyer un message envoyé par le titulaire du compte à la banque tenant le compte (la sous-fonction du message est « Duplicate ») |- fournir à un tiers une copie d'un message envoyé par le titulaire du compte, à titre d'information (la sous-fonction du message est « Copy ») |- renvoyer à un tiers une copie d'un message envoyé par le titulaire du compte, à titre d'information (la sous-fonction du message est « Copy Duplicate »).",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Si ActivityIndicator est égal à Yes (true ou 1), SubBalances doit être présent."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Si ActivityIndicator est égal à No (false ou 0), SubBalances doit être absent."
+    }
+  }
+}

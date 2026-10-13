@@ -1,0 +1,12 @@
+{
+  "isoType": "RelatedTransactionData1",
+  "definition": "Fournit des informations sur les opérations individuelles en lesquelles l'instruction de paiement a été scindée.",
+  "isoElements": {
+    "MasterUETR": {
+      "definition": "Identifiant unique universel fournissant une référence de bout en bout d'une opération de paiement principale, à laquelle une ou plusieurs opérations de paiement secondaires peuvent être rattachées."
+    },
+    "SubUETR": {
+      "definition": "Identifiant unique universel fournissant une référence de bout en bout d'une opération de paiement secondaire pouvant être rattachée à une opération de paiement principale."
+    }
+  }
+}

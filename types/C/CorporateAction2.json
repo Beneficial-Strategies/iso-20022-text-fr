@@ -1,0 +1,123 @@
+{
+  "isoType": "CorporateAction2",
+  "definition": "Fournit des informations sur l'événement CA.",
+  "isoElements": {
+    "EventStage": {
+      "definition": "Étape du cycle de vie de l'événement d'opération sur titres."
+    },
+    "DefaultOptionType": {
+      "definition": "Identifie l'option qui sera retenue par défaut si le titulaire du compte ne donne aucune instruction."
+    },
+    "DefaultOptionNumber": {
+      "definition": "Identifie le numéro d'option qui sera retenu par défaut si le titulaire du compte ne donne aucune instruction."
+    },
+    "CalculationMethod": {
+      "definition": "La méthode de calcul des tirages au sort et des remboursements partiels."
+    },
+    "BackEndOddLotSecuritiesQuantity": {
+      "definition": "Représente la présence d'une disposition de rompus de fin de traitement et la quantité d'actions requise après répartition au prorata pour bénéficier de ce privilège."
+    },
+    "FrontEndOddLotSecuritiesQuantity": {
+      "definition": "Précise que, si un ordre est réparti au prorata, les porteurs de rompus qui apportent la totalité de leur position ne verront pas leur position apportée répartie au prorata mais acceptée en totalité."
+    },
+    "MinimumExercisableSecuritiesQuantity": {
+      "definition": "Quantité minimale d'instrument financier ou lot de droits/bons de souscription qui doit être exercée."
+    },
+    "MinimumExercisableMultipleSecuritiesQuantity": {
+      "definition": "Quantité multiple minimale d'instrument financier ou lot de droits/bons de souscription qui doit être exercée."
+    },
+    "IncrementalDenomination": {
+      "definition": "Montant utilisé lorsque le montant rappelé n'est pas atteint en effectuant le tirage au sort avec la dénomination de base."
+    },
+    "NewDenominationSecuritiesQuantity": {
+      "definition": "Nouvelle dénomination de l'action à la suite, par exemple, d'une augmentation ou d'une diminution de la valeur nominale."
+    },
+    "NewBoardLotSecuritiesQuantity": {
+      "definition": "Quantité de titres constituant le nouveau lot de négociation."
+    },
+    "SecuritiesQuantitySought": {
+      "definition": "Quantité de titres que l'offrant ou l'émetteur achètera ou remboursera selon les conditions de l'événement. Il peut s'agir d'un nombre ou de la mention « any and all » (la totalité)."
+    },
+    "BaseDenomination": {
+      "definition": "Montant entier minimal de titres que chaque titulaire de compte doit conserver après application des montants appelés."
+    },
+    "ChangeType": {
+      "definition": "Précise le type de modification annoncée."
+    },
+    "OfferType": {
+      "definition": "Précise les conditions applicables à l'offre."
+    },
+    "RestrictionIndicator": {
+      "definition": "Indique si des restrictions s'appliquent ou non à l'événement CA.||Yes = Il y a des restrictions.|No = Il n'y a pas de restrictions."
+    },
+    "PartialElectionIndicator": {
+      "definition": "Précise si l'émetteur autorisera l'agent à accepter des élections partielles. Cela permet le vote fractionné entre options. Cela permet au client d'élire plus d'une option pour une même position désignée."
+    },
+    "ElectionType": {
+      "definition": "Indique l'effet sur les avoirs de l'élection d'une option d'opération sur titres."
+    },
+    "LotteryType": {
+      "definition": "Précise le type de tirage au sort annoncé."
+    },
+    "IncomeType": {
+      "definition": "Précise le type de revenu.|Les listes des codes de type de revenu à utiliser sont disponibles sur le site web du SMPG à l'adresse www.smpg.info."
+    },
+    "DividendType": {
+      "definition": "Précise les conditions dans lesquelles un dividende est versé."
+    },
+    "IntermediateSecuritiesDistributionType": {
+      "definition": "Type de distribution de titres intermédiaires, par exemple dividende en actions, droit inversé."
+    },
+    "CouponNumber": {
+      "definition": "Numéro du coupon rattaché ou associé à un titre."
+    },
+    "InterestAccruedNumberOfDays": {
+      "definition": "Nombre de jours utilisé pour le calcul du montant des intérêts courus."
+    },
+    "NewDenominationCurrency": {
+      "definition": "Nouvelle devise de dénomination de l'instrument financier."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates liées à un événement CA."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix liés à un événement CA."
+    },
+    "PeriodDetails": {
+      "definition": "Fournit des informations sur les périodes liées à un événement CA."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fournit des informations sur les taux et montants liés à un événement CA."
+    },
+    "CorporateActionAdditionalInformation": {
+      "definition": "Fournit des informations supplémentaires."
+    },
+    "CertificationRequiredIndicator": {
+      "definition": "Indique si une certification du titulaire du compte est requise."
+    },
+    "CertificationType": {
+      "definition": "Type de certification requise."
+    },
+    "CapitalGain": {
+      "definition": "Précise si la plus-value relève de la directive européenne sur l'épargne pour le revenu réalisé lors de la vente, du remboursement ou du rachat d'actions et de parts (.) (article 6(1d)) (EU)."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "definition": "Précise si l'instrument financier calcule le revenu imposable par dividende/le revenu imposable par action."
+    },
+    "NewPlaceOfIncorporation": {
+      "definition": "Lieu d'incorporation de la nouvelle société."
+    },
+    "RenounceableEntitlementStatusType": {
+      "definition": "Précise si les conditions de l'événement autorisent la revente des droits."
+    },
+    "ConversionType": {
+      "definition": "Précise le type de conversion d'un instrument."
+    },
+    "RedemptionChargesAppliedIndicator": {
+      "definition": "Indique si des frais de remboursement s'appliquent."
+    },
+    "DistributionType": {
+      "definition": "Précise si le produit de l'événement sera distribué de manière continue plutôt qu'à une date précise."
+    }
+  }
+}

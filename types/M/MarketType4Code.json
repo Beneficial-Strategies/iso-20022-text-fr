@@ -1,0 +1,22 @@
+{
+  "isoType": "MarketType4Code",
+  "definition": "Précise le type de lieu où une opération a été exécutée, d'où un prix a été obtenu ou où un instrument est coté.",
+  "isoCodes": {
+    "FUND": {
+      "name": "Fonds",
+      "definition": "Le lieu est un fonds (agent de transfert, fonds lui-même, etc.)."
+    },
+    "LMAR": {
+      "name": "Marché local",
+      "definition": "Le lieu est un marché local."
+    },
+    "THEO": {
+      "name": "Théorique",
+      "definition": "Le lieu est théorique."
+    },
+    "VEND": {
+      "name": "Fournisseur",
+      "definition": "Le lieu est un fournisseur de données."
+    }
+  }
+}

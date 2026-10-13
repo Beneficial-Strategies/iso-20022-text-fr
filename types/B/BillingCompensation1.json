@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingCompensation1",
+  "definition": "Précise les données de compensation d'une facturation erronée.",
+  "isoElements": {
+    "Type": {
+      "definition": "Définit le type de compensation de facturation."
+    },
+    "Value": {
+      "definition": "Définit la valeur de la compensation."
+    },
+    "CurrencyType": {
+      "definition": "Identifie, sous forme codée, le type de devise utilisé pour déclarer la valeur ou le total, par exemple Settlement (STLM)."
+    }
+  }
+}

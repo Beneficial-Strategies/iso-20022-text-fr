@@ -1,0 +1,24 @@
+{
+  "isoType": "PaymentIdentification8Choice",
+  "definition": "Choix entre différentes manières d'identifier une instruction de paiement par ses références et son identification métier.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identification unique, attribuée par la première banque donneuse d'ordre, permettant d'identifier de manière non ambiguë l'opération qui est transmise, sans modification, tout au long de la chaîne interbancaire.|Utilisation : l'identification de l'opération peut servir au rapprochement, au suivi ou à la liaison de tâches relatives à l'opération au niveau interbancaire. La banque donneuse d'ordre doit s'assurer que l'identification de l'opération est unique pendant une période convenue au préalable.|Utilisation : il s'agit de l'ancien élément PaymentInstructionReference."
+    },
+    "UETR": {
+      "definition": "Identifiant unique universel fournissant une référence de bout en bout d'une opération de paiement."
+    },
+    "QueueIdentification": {
+      "definition": "Identification de l'instruction de paiement par sa position dans une file d'attente gérée par l'agent de compensation."
+    },
+    "LongBusinessIdentification": {
+      "definition": "Identification métier de l'instruction de paiement attribuée par l'agent de compensation."
+    },
+    "ShortBusinessIdentification": {
+      "definition": "Identification métier de l'instruction de paiement attribuée par l'agent de compensation."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Référence propriétaire unique de l'instruction de paiement sous-jacente, attribuée par le système."
+    }
+  }
+}

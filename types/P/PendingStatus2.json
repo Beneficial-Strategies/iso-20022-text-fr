@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus2",
+  "definition": "Informations de statut et de quantité relatives à une demande d'instruction en attente.",
+  "isoElements": {
+    "PendingQuantity": {
+      "definition": "Quantité de titres instruits pour laquelle le traitement est en attente."
+    },
+    "PendingReason": {
+      "definition": "Motif du statut en attente."
+    }
+  }
+}

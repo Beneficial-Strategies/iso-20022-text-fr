@@ -1,0 +1,4 @@
+{
+  "isoType": "IdentificationVerificationRequestV04",
+  "definition": "Portée|Le message IdentificationVerificationRequest est envoyé par un assignateur à un destinataire de l'attribution. Il est utilisé pour demander la vérification des informations d'identification de la partie et/ou du compte.|Utilisation|Le message IdentificationVerificationRequest est envoyé avant l'envoi d'un ou de plusieurs messages d'opération.|Le message IdentificationVerificationRequest peut contenir une ou plusieurs demandes de vérification."
+}

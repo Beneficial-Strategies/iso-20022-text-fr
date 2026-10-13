@@ -1,0 +1,15 @@
+{
+  "isoType": "TransactionQuantities4Choice",
+  "definition": "Précise les quantités (telles que les titres) de l'opération sous-jacente.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Précise la quantité (telle que les titres) de l'opération sous-jacente."
+    },
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Valeur nominale et valeur amortie du titre."
+    },
+    "Proprietary": {
+      "definition": "Spécification de quantités propriétaires définie dans l'opération sous-jacente."
+    }
+  }
+}

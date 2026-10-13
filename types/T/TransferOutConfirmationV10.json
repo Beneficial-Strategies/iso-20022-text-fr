@@ -1,0 +1,17 @@
+{
+  "isoType": "TransferOutConfirmationV10",
+  "definition": "Le message TransferOutConfirmation est envoyé par une partie exécutante, par exemple un agent de transfert, à la partie donneuse d'ordre, par exemple un gestionnaire de placements ou son représentant autorisé, afin de confirmer la livraison d'un instrument financier, franco de paiement, à une date donnée, à une partie spécifiée.|Ce message peut également être utilisé pour confirmer la livraison d'un instrument financier, franco de paiement, vers un autre compte propre de la partie donneuse d'ordre ou vers un tiers.|Utilisation|Le message TransferOutConfirmation est utilisé pour confirmer que le retrait d'un instrument financier du compte du propriétaire et sa livraison vers un autre compte propre, ou vers un tiers, a eu lieu.|La référence de la confirmation de transfert est identifiée dans TransferConfirmationReference. La référence de l'instruction de transfert d'origine est indiquée dans TransferReference. L'identification du message TransferOutInstruction dans lequel l'instruction de transfert a été transmise peut également être citée dans RelatedReference, mais cela n'est pas recommandé.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identifiant unique et non ambigu d'un groupe de transferts individuels, attribué par la partie donneuse d'ordre. Cet identifiant relie les transferts individuels entre eux."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Soit TransferDetails/RequestedSettlementDate peut être présent dans une ou plusieurs occurrences de TransferDetails, soit SettlementDetails/RequestedSettlementDate peut être présent, mais pas les deux."
+    },
+    "EffectiveSettlementDateRule": {
+      "definition": "Soit TransferDetails/EffectiveSettlementDate peut être présent dans une ou plusieurs occurrences de TransferDetails, soit SettlementDetails/EffectiveSettlementDate peut être présent, mais pas les deux."
+    }
+  }
+}

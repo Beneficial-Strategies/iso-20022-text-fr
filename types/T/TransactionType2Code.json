@@ -1,0 +1,46 @@
+{
+  "isoType": "TransactionType2Code",
+  "definition": "Précise le type d'opération.",
+  "isoCodes": {
+    "REDM": {
+      "name": "Rachat",
+      "definition": "L'opération est un rachat d'un fonds d'investissement."
+    },
+    "SUBS": {
+      "name": "Souscription",
+      "definition": "L'opération est une souscription à un fonds d'investissement."
+    },
+    "SSPL": {
+      "name": "Souscription par plan d'épargne",
+      "definition": "L'opération est une souscription à un plan d'épargne, c'est-à-dire de l'argent mis de côté par des particuliers dans le cadre d'un plan structuré à une fin particulière, par exemple la retraite."
+    },
+    "RWPL": {
+      "name": "Remboursement par plan de retrait",
+      "definition": "L'opération est un retrait effectué par des particuliers dans le cadre d'un plan structuré pour des investissements réalisés par le passé."
+    },
+    "TRIN": {
+      "name": "Transfert entrant",
+      "definition": "L'opération est un crédit entrant sur un compte du registre des actionnaires, et n'est pas liée à un changement d'investissement (souscription ou transfert), mais à la gestion du compte."
+    },
+    "TOUT": {
+      "name": "Transfert sortant",
+      "definition": "L'opération est un débit sur un compte du registre des actionnaires, et n'est pas liée à un changement d'investissement (rachat ou transfert), mais à la gestion du compte."
+    },
+    "SWII": {
+      "name": "Arbitrage entrant",
+      "definition": "L'opération est la composante de souscription de l'exécution d'un ordre d'arbitrage."
+    },
+    "SWIO": {
+      "name": "Arbitrage sortant",
+      "definition": "L'opération est la composante de souscription de l'exécution d'un ordre d'arbitrage."
+    },
+    "SUAA": {
+      "name": "Souscription par répartition d'actifs",
+      "definition": "L'opération est une souscription à un plan d'allocation d'actifs permettant aux investisseurs d'affecter, en pourcentage, un certain montant en espèces à plusieurs compartiments d'une même structure à compartiments multiples."
+    },
+    "REAA": {
+      "name": "Remboursement par répartition d'actifs",
+      "definition": "L'opération est un rachat dans un plan d'allocation d'actifs permettant aux investisseurs de retirer, en pourcentage, un certain montant en espèces de plusieurs compartiments d'une même structure à compartiments multiples."
+    }
+  }
+}

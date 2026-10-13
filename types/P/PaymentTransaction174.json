@@ -1,0 +1,36 @@
+{
+  "isoType": "PaymentTransaction174",
+  "definition": "Fournit des informations détaillées sur la référence et le statut des opérations d'origine, incluses dans l'instruction d'origine, auxquelles le message d'annulation s'applique.",
+  "isoElements": {
+    "ReversalIdentification": {
+      "definition": "Identification unique, attribuée par une partie instructrice à une partie instruite, pour identifier sans ambiguïté l'opération annulée.|Utilisation : la partie instructrice est la partie qui envoie le message d'annulation, et non la partie qui a envoyé l'instruction d'origine faisant l'objet de l'annulation."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identification unique, attribuée par la partie donneuse d'ordre d'origine à la partie destinataire de l'ordre d'origine, permettant d'identifier sans ambiguïté l'instruction d'origine."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice d'origine, permettant d'identifier sans ambiguïté l'opération d'origine."
+    },
+    "OriginalUETR": {
+      "definition": "Identifiant universellement unique fournissant la référence de bout en bout d'origine d'une opération de paiement."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Montant d'argent, tel que fourni dans l'opération d'origine, à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise ordonnée par la partie initiatrice d'origine.|Utilisation : ce montant doit être transporté sans modification tout au long de la chaîne de l'opération."
+    },
+    "ReversedInstructedAmount": {
+      "definition": "Montant d'argent à transférer entre le débiteur et le créancier, avant déduction des frais, dans l'opération annulée.|Utilisation : ce montant doit être transmis sans modification tout au long de la chaîne d'opérations."
+    },
+    "ChargeBearer": {
+      "definition": "Précise si le créancier et/ou le débiteur supporteront les frais associés au traitement de l'opération de paiement.||Utilisation : ChargeBearer s'applique au message d'annulation, et non à l'instruction d'origine."
+    },
+    "ReversalReasonInformation": {
+      "definition": "Fournit des informations détaillées sur le motif de l'annulation."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Éléments clés servant à identifier l'opération d'origine à laquelle il est fait référence."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "ATMReconciliationOperation1",
+  "definition": "Informations relatives à un rapprochement entre un ATM et un hôte de maintenance.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "definition": "Opération logique ou physique à effectuer sur un ATM."
+    },
+    "TransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par le ATM."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identification de la période de rapprochement attribuée par le ATM."
+    },
+    "ATMTotals": {
+      "definition": "Totaux actuels de l'ATM."
+    },
+    "Cassette": {
+      "definition": "Informations sur les cassettes du ATM."
+    },
+    "TransactionTotals": {
+      "definition": "Compteurs d'opérations remis à zéro après un rapprochement avec commande de réinitialisation des compteurs."
+    },
+    "RetainedCard": {
+      "definition": "Nombre total de cartes retenues."
+    },
+    "AdditionalTransactionInformation": {
+      "definition": "Informations supplémentaires sur le rapprochement."
+    },
+    "Incident": {
+      "definition": "Incident survenu pendant le traitement de l'opération."
+    }
+  }
+}

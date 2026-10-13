@@ -1,0 +1,26 @@
+{
+  "isoType": "AccountHoldingInformationV10",
+  "definition": "Périmètre|Le message AccountHoldingInformation est envoyé par une partie exécutante, par exemple un (ancien) gestionnaire de plan (cédant), à la partie instructrice, par exemple un (nouveau) gestionnaire de plan (cessionnaire), afin de fournir des informations sur les instruments financiers détenus pour le compte d’un client.|Utilisation|Le message AccountHoldingInformation est utilisé pour fournir des informations sur les actifs individuels détenus sur le compte d’un client. Les actifs peuvent faire partie d’un produit fiscalement avantageux, d’une retraite ou d’un produit d’investissement général.",
+  "isoElements": {
+    "BusinessFlowDirectionType": {
+      "definition": "Sens du flux métier (actifs à livrer ou à recevoir)."
+    }
+  },
+  "isoRules": {
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer doit être présent si et seulement s’il est différent de TransferorAccount/Servicer."
+    },
+    "Investor1Rule": {
+      "definition": "Si PrimaryIndividualInvestor n’est pas présent, alors SecondaryIndividualInvestor n’est pas autorisé.|Si PrimaryIndividualInvestor est présent, alors SecondaryIndividualInvestor peut être présent."
+    },
+    "Investor2Rule": {
+      "definition": "Si PrimaryIndividualInvestor n’est pas présent, alors OtherIndividualInvestor n’est pas autorisé. |Si PrimaryIndividualInvestor est présent, alors OtherIndividualInvestor peut être présent."
+    },
+    "Corporate2Rule": {
+      "definition": "Si PrimaryCorporateInvestor n’est pas présent, alors OtherCorporateInvestor n’est pas autorisé.|Si PrimaryCorporateInvestor est présent, alors OtherCorporateInvestor peut être présent."
+    },
+    "Corporate1Rule": {
+      "definition": "Si PrimaryCorporateInvestor n’est pas présent, alors SecondaryCorporateInvestor n’est pas autorisé.|Si PrimaryCorporateInvestor est présent, alors SecondaryCorporateInvestor peut être présent."
+    }
+  }
+}

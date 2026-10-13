@@ -1,0 +1,12 @@
+{
+  "isoType": "QueryReference2",
+  "definition": "Donne le nom et la référence de la requête.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identification unique et non ambiguë de la requête."
+    },
+    "QueryName": {
+      "definition": "Nom de la requête."
+    }
+  }
+}

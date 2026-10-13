@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingReportOrError6Choice",
+  "definition": "Choix entre un relevé de données de facturation, les détails d'une demande d'annulation de facturation ou une erreur opérationnelle.",
+  "isoElements": {
+    "BillingReport": {
+      "definition": "Relevé de données de facturation."
+    },
+    "CancellationReport": {
+      "definition": "Relevé de données de facturation annulées."
+    },
+    "OperationalError": {
+      "definition": "Indique qu'une erreur opérationnelle a été émise lors du traitement de la demande associée."
+    }
+  }
+}

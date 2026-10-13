@@ -1,0 +1,18 @@
+{
+  "isoType": "ExternalInvestigationStatus1Code",
+  "definition": "Précise le statut de l'enquête, tel que publié dans une liste de codes externe des statuts d'enquête.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "CLSD": {
+      "name": "Enquête clôturée",
+      "definition": "L'enquête est close."
+    },
+    "PDNG": {
+      "name": "Enquête en cours",
+      "definition": "L'enquête est ouverte/en attente."
+    },
+    "RJCT": {
+      "name": "Enquête rejetée",
+      "definition": "L'enquête est rejetée."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "NamePrefix2Code",
+  "definition": "Précise les termes utilisés pour s'adresser formellement à une personne.",
+  "isoCodes": {
+    "DOCT": {
+      "name": "Docteur",
+      "definition": "Le titre de la personne est Docteur ou Dr."
+    },
+    "MADM": {
+      "name": "Madame",
+      "definition": "Le titre de la personne est Madame."
+    },
+    "MISS": {
+      "name": "Mademoiselle",
+      "definition": "Le titre de la personne est Mademoiselle."
+    },
+    "MIST": {
+      "name": "Monsieur",
+      "definition": "Le titre de la personne est Monsieur ou M."
+    },
+    "MIKS": {
+      "name": "Neutre",
+      "definition": "Le titre de la personne est neutre du point de vue du genre (Mx)."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalMessageAndIssuer1",
+  "definition": "Références métier à un ou plusieurs messages pertinents précédemment envoyés par d'autres parties, ou par la partie qui émet le présent message.||.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identification non ambiguë du message d'origine auquel le message se réfère."
+    },
+    "MessageNameIdentification": {
+      "definition": "Précise l'identifiant du nom du message d'origine auquel le message se réfère."
+    },
+    "OriginatorName": {
+      "definition": "Nom de la partie d'origine qui a attribué l'identification du message d'origine."
+    }
+  }
+}

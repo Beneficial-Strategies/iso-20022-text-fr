@@ -1,0 +1,30 @@
+{
+  "isoType": "VotingParticipationMethod3Code",
+  "definition": "Précise les différentes méthodes autorisées pour participer au vote des résolutions de l'ordre du jour d'une assemblée générale.",
+  "isoCodes": {
+    "MAIL": {
+      "name": "Correspondance",
+      "definition": "La participation au vote se fait par des documents envoyés par courrier postal."
+    },
+    "EVOT": {
+      "name": "Vote électronique",
+      "definition": "La participation au vote se fait par des moyens électroniques, tels que la messagerie normalisée dédiée ou des applications de vote en ligne."
+    },
+    "PHYS": {
+      "name": "En personne",
+      "definition": "La participation au vote se fait par présence physique."
+    },
+    "PHNV": {
+      "name": "Sans vote",
+      "definition": "La participation à l'assemblée se fait en personne, mais la personne ne vote pas."
+    },
+    "PRXY": {
+      "name": "Procuration",
+      "definition": "La participation au vote se fait par l'intermédiaire d'un mandataire."
+    },
+    "VIRT": {
+      "name": "Virtuel",
+      "definition": "La participation au vote se fait par une méthode de présence à une assemblée virtuelle, telle que la vidéoconférence ou la conférence audio multimédia et en ligne."
+    }
+  }
+}

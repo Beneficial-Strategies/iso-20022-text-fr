@@ -1,0 +1,14 @@
+{
+  "isoType": "TradeTransactionCondition5Code",
+  "definition": "Précise les conditions dans lesquelles l'ordre/la transaction doit être ou a été exécuté(e).",
+  "isoCodes": {
+    "XCPN": {
+      "name": "Coupon détaché",
+      "definition": "Indique si l'opération est exécutée coupon détaché (ex coupon)."
+    },
+    "CCPN": {
+      "name": "Coupon attaché",
+      "definition": "Indique si l'opération est exécutée coupon attaché (cum coupon)."
+    }
+  }
+}

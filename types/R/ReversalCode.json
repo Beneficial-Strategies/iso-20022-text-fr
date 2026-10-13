@@ -1,0 +1,14 @@
+{
+  "isoType": "ReversalCode",
+  "definition": "Indique si une opération résulte d'une opération d'annulation.",
+  "isoCodes": {
+    "RVCD": {
+      "name": "Annulation de crédit",
+      "definition": "Écriture au débit utilisée pour annuler une écriture au crédit précédemment comptabilisée."
+    },
+    "RVDB": {
+      "name": "Annulation de débit",
+      "definition": "Écriture au crédit utilisée pour annuler une écriture au débit précédemment comptabilisée."
+    }
+  }
+}

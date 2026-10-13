@@ -1,0 +1,21 @@
+{
+  "isoType": "QuantityRange1Choice",
+  "definition": "Choix entre des plages de valeurs dans lesquelles une quantité est considérée comme valide, ou une valeur de quantité spécifiée qui doit correspondre ou non pour être valide.",
+  "isoElements": {
+    "FromQuantity": {
+      "definition": "Limite inférieure d'une plage de valeurs de quantité."
+    },
+    "ToQuantity": {
+      "definition": "Limite supérieure d'une plage de valeurs de quantité."
+    },
+    "FromToQuantity": {
+      "definition": "Plage de valeurs de quantité valides."
+    },
+    "EqualQuantity": {
+      "definition": "Valeur exacte à laquelle une quantité doit correspondre pour être considérée comme valide."
+    },
+    "NotEqualQuantity": {
+      "definition": "Valeur à laquelle une quantité ne doit pas correspondre pour être considérée comme valide."
+    }
+  }
+}

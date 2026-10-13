@@ -1,0 +1,46 @@
+{
+  "isoType": "HoldingAccountLevel1Code",
+  "definition": "Indique le niveau auquel le compte d'avoirs de conservation a été défini.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Compte de conservation",
+      "definition": "Le compte d'avoirs est défini comme le compte de conservation (niveau 0)."
+    },
+    "LVL1": {
+      "name": "Niveau 1",
+      "definition": "Le compte d'avoirs est défini comme le compte de sous-niveau 1."
+    },
+    "LVL2": {
+      "name": "Niveau 2",
+      "definition": "Le compte d'avoirs est défini comme le compte de sous-niveau 2."
+    },
+    "LVL3": {
+      "name": "Niveau 3",
+      "definition": "Le compte d'avoirs est défini comme le compte de sous-niveau 3."
+    },
+    "LVL4": {
+      "name": "Niveau 4",
+      "definition": "Le compte d'avoirs est défini comme le compte de sous-niveau 4."
+    },
+    "LVL5": {
+      "name": "Niveau 5",
+      "definition": "Le compte d'avoirs est défini comme le compte de sous-niveau 5."
+    },
+    "LVL6": {
+      "name": "Niveau 6",
+      "definition": "Le compte d'avoirs est défini comme le compte de sous-niveau 6."
+    },
+    "LVL7": {
+      "name": "Niveau 7",
+      "definition": "Le compte d'avoirs est défini comme le compte de sous-niveau 7."
+    },
+    "LVL8": {
+      "name": "Niveau 8",
+      "definition": "Le compte d'avoirs est défini comme le compte de sous-niveau 8."
+    },
+    "LVL9": {
+      "name": "Niveau 9",
+      "definition": "Le compte d'avoirs est défini comme le compte de sous-niveau 9."
+    }
+  }
+}

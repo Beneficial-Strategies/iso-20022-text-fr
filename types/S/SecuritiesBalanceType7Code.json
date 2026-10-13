@@ -1,0 +1,42 @@
+{
+  "isoType": "SecuritiesBalanceType7Code",
+  "definition": "Précise la nature du solde de titres ou de parts de fonds de placement.",
+  "isoCodes": {
+    "COLA": {
+      "name": "Éligible à titre de garantie",
+      "definition": "Solde de titres éligibles à une utilisation à des fins de garantie."
+    },
+    "OTHR": {
+      "name": "Non classé",
+      "definition": "Autre. Voir Narrative."
+    },
+    "CLEN": {
+      "name": "Exonéré d'impôt",
+      "definition": "Les instruments financiers exonérés d'impôt doivent être réglés."
+    },
+    "DIRT": {
+      "name": "Non exonéré d'impôt",
+      "definition": "Les instruments financiers imposables doivent être réglés."
+    },
+    "NOMI": {
+      "name": "Nominatif",
+      "definition": "Solde d'instruments financiers enregistrés (au nom d'un prête-nom ou au nom du bénéficiaire effectif)."
+    },
+    "SPOS": {
+      "name": "Position en circulation",
+      "definition": "Solde d'instruments financiers qui restent enregistrés au nom du titulaire effectif précédent."
+    },
+    "UNRG": {
+      "name": "Non enregistré",
+      "definition": "Solde de titres n'ayant pu être enregistrés en raison d'une limitation de la détention par des étrangers."
+    },
+    "ISSU": {
+      "name": "Émis",
+      "definition": "Dans la communication entre l'agent émetteur et le dépositaire, solde d'instruments financiers émis pour lesquels la documentation juridique a été reçue."
+    },
+    "QUAS": {
+      "name": "Quasi émis",
+      "definition": "Dans la communication entre l'agent émetteur et le dépositaire, solde d'instruments financiers émis pour lesquels la documentation juridique n'a pas encore été reçue."
+    }
+  }
+}

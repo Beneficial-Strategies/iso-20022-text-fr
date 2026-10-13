@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationQuery6",
+  "definition": "Définit les critères de requête de réservation.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Spécifie le type d'éléments correspondants à renvoyer dans la réponse à la requête."
+    },
+    "ReservationCriteria": {
+      "definition": "Définit les critères de requête de réservation."
+    }
+  }
+}

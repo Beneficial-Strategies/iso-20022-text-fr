@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentRole1Choice",
+  "definition": "Précise le rôle associé à une partie donnée par rapport à une instruction de paiement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Rôle de la partie au paiement, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Rôle de la partie au paiement, sous forme propriétaire."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "EventInformation18",
+  "definition": "Fournit des informations sur l'événement d'une opération sur titres.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Référence attribuée par le teneur de compte pour identifier sans ambiguïté un événement sur titres."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Fournit la référence de l'événement officiel d'opération sur titres lié."
+    },
+    "EventType": {
+      "definition": "Type d'événement sur titres."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Précise si l'événement est obligatoire, obligatoire avec options ou volontaire."
+    },
+    "LastNotificationIdentification": {
+      "definition": "Fournit des informations sur l'identification de la dernière notification."
+    }
+  }
+}

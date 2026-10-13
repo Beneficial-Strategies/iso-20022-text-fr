@@ -1,0 +1,15 @@
+{
+  "isoType": "CashSettlementSystemPlace1Choice",
+  "definition": "Lieu où le paiement a ou aura lieu.",
+  "isoElements": {
+    "DigitalLedgerIdentification": {
+      "definition": "Lieu de conservation exprimé au moyen d'un identifiant de registre numérique (Digital Ledger Identifier). Il identifie un registre numérique ou un système de registre distribué (par exemple une blockchain ou des plateformes similaires)."
+    },
+    "AnyBIC": {
+      "definition": "Moyen unique et non ambigu d'identifier une organisation."
+    },
+    "LEI": {
+      "definition": "Identification de l'entité juridique comme identification alternative d'un lieu de conservation."
+    }
+  }
+}

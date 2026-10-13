@@ -1,0 +1,12 @@
+{
+  "isoType": "SequenceRange1",
+  "definition": "Précise une plage de séquences allant d'une séquence de début à une séquence de fin.",
+  "isoElements": {
+    "FromSequence": {
+      "definition": "Séquence de début de la plage."
+    },
+    "ToSequence": {
+      "definition": "Séquence de fin de la plage."
+    }
+  }
+}

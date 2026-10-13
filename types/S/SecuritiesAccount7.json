@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAccount7",
+  "definition": "Fournit des informations sur l'identification du compte et le titulaire du compte.",
+  "isoElements": {
+    "AccountOwnerIdentification": {
+      "definition": "Identification de la partie qui détient le compte."
+    },
+    "AccountIdentification": {
+      "definition": "Identification du compte où les instruments financiers sont conservés."
+    }
+  }
+}

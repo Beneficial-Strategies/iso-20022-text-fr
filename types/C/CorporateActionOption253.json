@@ -1,0 +1,39 @@
+{
+  "isoType": "CorporateActionOption253",
+  "definition": "Fournit des informations sur l'option de l'événement sur titres.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "OptionFeatures": {
+      "definition": "Précise les caractéristiques pouvant s'appliquer à une option d'opération sur titres."
+    },
+    "FractionDisposition": {
+      "definition": "Précise comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    },
+    "CurrencyOption": {
+      "definition": "Devise dans laquelle le produit en espèces doit être crédité ou débité."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates relatives à une option d'événement sur titres."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fournit des informations sur les taux et montants relatifs à une option d'événement sur titres."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix relatifs à une option d'événement sur titres."
+    },
+    "PlaceOfTrade": {
+      "definition": "Lieu où la transaction a été exécutée."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement de titres lié à l'option de l'événement sur titres."
+    },
+    "CashMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement d'espèces lié à une option d'opération sur titres."
+    }
+  }
+}

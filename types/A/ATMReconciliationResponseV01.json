@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationResponseV01",
+  "definition": "Le message ATMReconciliationResponse est envoyé par un hôte de maintenance à un ATM pour identifier les totaux qui doivent être mis à jour."
+}

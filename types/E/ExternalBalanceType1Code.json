@@ -1,0 +1,46 @@
+{
+  "isoType": "ExternalBalanceType1Code",
+  "definition": "Précise le type de solde, tel que publié dans une liste externe de codes de type de solde.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "CLAV": {
+      "name": "Solde de clôture disponible",
+      "definition": "Solde de clôture du montant dont dispose le titulaire du compte à la date indiquée."
+    },
+    "CLBD": {
+      "name": "Solde de clôture comptabilisé",
+      "definition": "Solde du compte à la fin de la période de reporting du compte convenue au préalable. Il est égal à la somme du solde comptabilisé d'ouverture au début de la période et de toutes les écritures comptabilisées sur le compte pendant la période de reporting convenue."
+    },
+    "FWAV": {
+      "name": "Solde prévisionnel disponible",
+      "definition": "Solde disponible à terme dont dispose le titulaire du compte à la date indiquée."
+    },
+    "INFO": {
+      "name": "Information",
+      "definition": "Solde à titre d'information."
+    },
+    "ITAV": {
+      "name": "Solde intermédiaire disponible",
+      "definition": "Solde disponible calculé au cours de la journée ouvrable du teneur de compte, à l'heure indiquée, et susceptible de modifications ultérieures au cours de la journée ouvrable. Le solde intermédiaire est calculé sur la base des opérations de crédit et de débit comptabilisées pendant l'heure ou la période de calcul indiquée."
+    },
+    "ITBD": {
+      "name": "Solde intermédiaire comptabilisé",
+      "definition": "Solde calculé en cours de journée ouvrée du teneur de compte, à l'heure indiquée, et susceptible de varier au cours de la journée ouvrée. Le solde intermédiaire est calculé sur la base des éléments de crédit et de débit comptabilisés pendant l'heure ou la période de calcul indiquée."
+    },
+    "OPAV": {
+      "name": "Solde d'ouverture disponible",
+      "definition": "Solde d'ouverture du montant dont dispose le titulaire du compte à la date indiquée."
+    },
+    "OPBD": {
+      "name": "Solde d'ouverture comptabilisé",
+      "definition": "Solde comptable du compte au début de la période de reporting du compte. Il est toujours égal au solde comptable de clôture du rapport précédent."
+    },
+    "PRCD": {
+      "name": "Solde comptabilisé de la clôture précédente",
+      "definition": "Solde du compte à la clôture de la période de reporting précédente. Le solde comptabilisé d'ouverture de la nouvelle période doit être égal à ce solde.|Usage : le solde de clôture précédemment comptabilisé doit être égal (date incluse) au solde de clôture comptabilisé à la date à laquelle il se réfère et égal au solde d'ouverture comptabilisé effectif de la date courante."
+    },
+    "XPCD": {
+      "name": "Attendu",
+      "definition": "Solde, composé des écritures comptabilisées et des éléments en attente connus au moment du calcul, qui projette le solde de fin de journée si tout est comptabilisé au compte et si aucune autre écriture n'est passée."
+    }
+  }
+}

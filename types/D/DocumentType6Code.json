@@ -1,0 +1,70 @@
+{
+  "isoType": "DocumentType6Code",
+  "definition": "Précise un type de document financier ou commercial.",
+  "isoCodes": {
+    "MSIN": {
+      "name": "Facture de service mesuré",
+      "definition": "Le document est une facture réclamant le paiement de la fourniture de services mesurés, par exemple du gaz ou de l'électricité fournis à un compteur fixe."
+    },
+    "CNFA": {
+      "name": "Note de crédit liée à un ajustement financier",
+      "definition": "Le document est un avoir pour le montant final réglé dans le cadre d'une opération commerciale."
+    },
+    "DNFA": {
+      "name": "Note de débit liée à un ajustement financier",
+      "definition": "Le document est une note de débit pour le montant final réglé dans le cadre d'une opération commerciale."
+    },
+    "CINV": {
+      "name": "Facture commerciale",
+      "definition": "Le document est une facture."
+    },
+    "CREN": {
+      "name": "Note de crédit",
+      "definition": "Le document est un avoir."
+    },
+    "DEBN": {
+      "name": "Note de débit",
+      "definition": "Le document est une note de débit."
+    },
+    "HIRI": {
+      "name": "Facture de location",
+      "definition": "Le document est une facture relative à la mise à disposition de ressources humaines ou à la location de biens ou d'équipements."
+    },
+    "SBIN": {
+      "name": "Autofacture",
+      "definition": "Le document est une facture émise par le débiteur."
+    },
+    "CMCN": {
+      "name": "Contrat commercial",
+      "definition": "Le document est un accord entre les parties, stipulant les conditions de livraison de biens ou de prestation de services."
+    },
+    "SOAC": {
+      "name": "Relevé de compte",
+      "definition": "Le document est un relevé des opérations comptabilisées sur le compte du débiteur chez le fournisseur."
+    },
+    "DISP": {
+      "name": "Avis d'expédition",
+      "definition": "Le document est un avis d'expédition."
+    },
+    "BOLD": {
+      "name": "Connaissement",
+      "definition": "Le document est un bordereau d'expédition."
+    },
+    "VCHR": {
+      "name": "Bon justificatif",
+      "definition": "Le document est un document de paiement électronique."
+    },
+    "AROI": {
+      "name": "Poste ouvert de compte client",
+      "definition": "Le document est un paiement qui s'applique à un document source précis."
+    },
+    "TSUT": {
+      "name": "Opération de service public de financement du commerce",
+      "definition": "Le document est un identifiant d'opération attribué par le Trade Services Utility."
+    },
+    "PUOR": {
+      "name": "Bon de commande",
+      "definition": "Le document est un bon de commande."
+    }
+  }
+}

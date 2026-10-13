@@ -1,0 +1,14 @@
+{
+  "isoType": "MeetingDateStatus2Code",
+  "definition": "Précise un statut pour une date d'assemblée.",
+  "isoCodes": {
+    "CNFR": {
+      "name": "Confirmé",
+      "definition": "La date de l'assemblée est confirmée."
+    },
+    "TNTA": {
+      "name": "Provisoire",
+      "definition": "La date de l'assemblée est provisoire."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "MandateSuspensionReason3",
+  "definition": "Fournit des informations détaillées sur le motif de la suspension.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partie qui émet la demande de suspension."
+    },
+    "Reason": {
+      "definition": "Précise le motif de la demande de suspension."
+    },
+    "AdditionalInformation": {
+      "definition": "Précisions supplémentaires sur le motif de la demande de suspension."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "isoType": "SettlementTransactionCondition4Code",
+  "definition": "Précise les conditions dans lesquelles l'ordre/la transaction commerciale doit être réglé(e).",
+  "isoCodes": {
+    "CLEN": {
+      "name": "Net",
+      "definition": "Les instruments financiers exonérés d'impôt doivent être réglés."
+    },
+    "DIRT": {
+      "name": "Brut",
+      "definition": "Les instruments financiers imposables doivent être réglés."
+    },
+    "DLWM": {
+      "name": "Livraison sans appariement",
+      "definition": "Instruction de réception correspondante non requise (uniquement pour les dépositaires centraux de titres internationaux ou nationaux concernés)."
+    },
+    "PHYS": {
+      "name": "Physique",
+      "definition": "Les titres doivent être réglés physiquement."
+    },
+    "SPDL": {
+      "name": "Livraison spéciale",
+      "definition": "Opérations de règlement à régler avec livraison spéciale."
+    },
+    "SPST": {
+      "name": "Règlement fractionné",
+      "definition": "L'argent et les instruments financiers sont réglés à des endroits différents."
+    },
+    "NOMC": {
+      "name": "Pas de réclamation de marché automatique",
+      "definition": "Aucune réclamation de marché ne doit être générée automatiquement."
+    }
+  }
+}

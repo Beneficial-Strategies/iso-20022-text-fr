@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalInformation15",
+  "definition": "Informations supplémentaires.",
+  "isoElements": {
+    "InformationType": {
+      "definition": "Type d'informations supplémentaires."
+    },
+    "InformationValue": {
+      "definition": "Valeur des informations supplémentaires."
+    }
+  }
+}

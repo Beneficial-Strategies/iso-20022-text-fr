@@ -1,0 +1,4 @@
+{
+  "isoType": "CustodyStatementOfHoldingsCancellationV02",
+  "definition": "Domaine d'application|Un teneur de compte, par exemple un agent de transfert, envoie le message CustodyStatementOfHoldingsCancellation au titulaire du compte, par exemple un gestionnaire d'investissements ou son représentant autorisé, pour annuler un message CustodyStatementOfHoldings envoyé précédemment.|Utilisation|Le message CustodyStatementOfHoldingsCancellation sert à annuler un message CustodyStatementOfHoldings envoyé précédemment. Ce message doit contenir la référence du message à annuler.|Ce message peut également contenir le détail du message à annuler, mais cela n'est pas recommandé."
+}

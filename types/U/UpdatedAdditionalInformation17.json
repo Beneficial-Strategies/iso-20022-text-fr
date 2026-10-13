@@ -1,0 +1,9 @@
+{
+  "isoType": "UpdatedAdditionalInformation17",
+  "definition": "Informations complémentaires avec description de la mise à jour et date.",
+  "isoElements": {
+    "AdditionalInformation": {
+      "definition": "Fournit des informations textuelles supplémentaires."
+    }
+  }
+}

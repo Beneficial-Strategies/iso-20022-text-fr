@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestShareHeldDate1Choice",
+  "definition": "Choix entre différentes manières de préciser la méthode permettant de déterminer depuis quand des actions sont détenues par un investisseur.",
+  "isoElements": {
+    "DateCalculationMethod": {
+      "definition": "Indique la méthode logique à utiliser pour déterminer et communiquer la date à partir de laquelle les actions sont détenues."
+    },
+    "DateCalculationDescription": {
+      "definition": "Fournit la description de la manière dont la date à partir de laquelle les actions sont détenues doit être déterminée et communiquée."
+    }
+  }
+}

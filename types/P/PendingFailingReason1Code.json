@@ -1,0 +1,10 @@
+{
+  "isoType": "PendingFailingReason1Code",
+  "definition": "Précise le motif pour lequel l'opération/instruction est en attente ou en échec de règlement. Le règlement à la date de règlement instruite est encore possible, le statut est en attente. Le règlement à la date de règlement instruite n'est plus possible, le statut est en échec.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    }
+  }
+}

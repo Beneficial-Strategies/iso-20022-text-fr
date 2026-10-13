@@ -1,0 +1,15 @@
+{
+  "isoType": "BlockChainAddressWallet7",
+  "definition": "Compte numérique où des actifs numériques ou des jetons numériques peuvent être stockés et où une inscription est effectuée.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "Type": {
+      "definition": "Précise le type de compte-titres."
+    },
+    "Name": {
+      "definition": "Description du compte."
+    }
+  }
+}

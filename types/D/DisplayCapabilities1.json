@@ -1,0 +1,15 @@
+{
+  "isoType": "DisplayCapabilities1",
+  "definition": "Capacités des composants d'affichage effectuant l'opération.",
+  "isoElements": {
+    "DisplayType": {
+      "definition": "Type d'affichage (par exemple commerçant ou porteur de la carte)."
+    },
+    "NumberOfLines": {
+      "definition": "Nombre de lignes du composant d'affichage."
+    },
+    "LineWidth": {
+      "definition": "Nombre de colonnes du composant d'affichage."
+    }
+  }
+}

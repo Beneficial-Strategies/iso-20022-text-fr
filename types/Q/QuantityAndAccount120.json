@@ -1,0 +1,47 @@
+{
+  "isoType": "QuantityAndAccount120",
+  "definition": "Détails sur une quantité, un compte et d'autres informations connexes.",
+  "isoElements": {
+    "SettledQuantity": {
+      "definition": "Quantité d'instruments financiers effectivement réglée."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Quantité d'instruments financiers précédemment réglée."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Quantité d'instruments financiers restant à régler."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Montant précédemment réglé."
+    },
+    "RemainingToBeSettledAmount": {
+      "definition": "Montant restant à régler."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Adresse blockchain ou portefeuille dans lequel sont conservés les actifs numériques. Il s'agit de l'équivalent du compte de conservation pour les actifs numériques."
+    },
+    "CashAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de trésorerie est passée."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lieu où les titres sont conservés, physiquement ou de manière notionnelle. Ce lieu peut être, par exemple, un dépositaire local, un dépositaire central de titres (CSD) ou un dépositaire central de titres international (ICSD)."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

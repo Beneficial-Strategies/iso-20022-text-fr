@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountCashEntryReturnCriteria3",
+  "definition": "Définit les critères utilisés pour établir un rapport sur l'écriture de trésorerie.",
+  "isoElements": {
+    "EntryReferenceIndicator": {
+      "definition": "Indique si la référence de l'écriture est demandée."
+    },
+    "AccountTypeIndicator": {
+      "definition": "Indique si le type de compte est demandé."
+    },
+    "EntryAmountIndicator": {
+      "definition": "Indique si le montant de l'écriture est demandé."
+    },
+    "AccountCurrencyIndicator": {
+      "definition": "Indique si la devise du compte est demandée."
+    },
+    "EntryStatusIndicator": {
+      "definition": "Indique si le statut de l'écriture est demandé."
+    },
+    "EntryDateIndicator": {
+      "definition": "Indique si la date de l'écriture est demandée."
+    },
+    "AccountServicerIndicator": {
+      "definition": "Indique si le teneur de compte est demandé."
+    },
+    "AccountOwnerIndicator": {
+      "definition": "Indique si le titulaire du compte est demandé."
+    }
+  }
+}

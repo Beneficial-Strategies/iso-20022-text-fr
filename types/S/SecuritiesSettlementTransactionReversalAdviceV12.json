@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesSettlementTransactionReversalAdviceV12",
+  "definition": "Portée|Un teneur de compte envoie un SecuritiesSettlementTransactionReversalAdvice à un titulaire de compte afin d'annuler la confirmation d'une livraison ou d'une réception, partielle ou totale, d'instruments financiers, libre de paiement ou contre paiement, de manière physique ou par inscription en compte.|La relation teneur de compte/titulaire peut être :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement agissant pour le compte de ses participants|- un agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou|- un conservateur agissant pour le compte d'un établissement de gestion d'investissements ou d'un courtier/négociateur.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments pertinents du Business Application Header.",
+  "isoElements": {
+    "ConfirmationReference": {
+      "definition": "Référence à l'identification non ambiguë de la confirmation selon le teneur de compte."
+    }
+  },
+  "isoRules": {
+    "BuyerSSIRule": {
+      "definition": "Si une instruction permanente de règlement s'applique et que l'instruction est une livraison, Buyer doit être présent."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Si l'instruction est une livraison et qu'aucune instruction permanente de règlement ne s'applique, ReceivingDepository et Party1 doivent être présents."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Si l'instruction est une réception et qu'aucune instruction permanente de règlement ne s'applique, DeliveringDepository et Party1 doivent être présents."
+    },
+    "SettledAmountRule": {
+      "definition": "Si l'instruction est contre paiement, SettledAmount doit être présent."
+    },
+    "SellerSSIRule": {
+      "definition": "Si une instruction permanente de règlement s'applique et que l'instruction est une réception, Seller doit être présent."
+    }
+  }
+}

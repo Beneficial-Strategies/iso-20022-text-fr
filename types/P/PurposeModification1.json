@@ -1,0 +1,12 @@
+{
+  "isoType": "PurposeModification1",
+  "definition": "Précise le type de modification du motif.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Précise le type de modification."
+    },
+    "Purpose": {
+      "definition": "Motif."
+    }
+  }
+}

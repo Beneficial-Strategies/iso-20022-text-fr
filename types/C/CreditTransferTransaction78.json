@@ -1,0 +1,89 @@
+{
+  "isoType": "CreditTransferTransaction78",
+  "definition": "Fournit des informations détaillées propres à chaque opération incluse dans le message.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Ensemble d'éléments servant à référencer une instruction de paiement."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments servant à préciser davantage le type d'opération."
+    },
+    "TaxRateMarker": {
+      "definition": "Précise le taux de l'impôt prélevé."
+    },
+    "Amount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise demandée par la partie initiatrice."
+    },
+    "ChargeBearer": {
+      "definition": "Précise quelle(s) partie(s) supportera(ont) les frais associés au traitement de l'opération de paiement."
+    },
+    "ChequeInstruction": {
+      "definition": "Ensemble d'éléments nécessaires à l'émission d'un chèque."
+    },
+    "Frequency": {
+      "definition": "L'échéancier d'un accord de paiement de type virement."
+    },
+    "TransferInstruction": {
+      "definition": "Fournit des informations complémentaires sur le statut du ou des paiements programmés transférés."
+    },
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit un montant au créancier (final)."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si plusieurs banques intermédiaires sont présentes, IntermediaryAgent1 identifie l'agent situé entre DebtorAgent et IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si plus de deux banques intermédiaires sont présentes, IntermediaryAgent2 identifie l'agent situé entre IntermediaryAgent1 et IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si IntermediaryAgent3 est présent, il identifie l'agent situé entre IntermediaryAgent 2 et CreditorAgent."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant est dû."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement, fournies par la partie initiatrice et destinées à la banque du créancier."
+    },
+    "Purpose": {
+      "definition": "Raison sous-jacente de l'opération de paiement.||Usage : le motif est utilisé par les clients finaux, c'est-à-dire la partie initiatrice, le débiteur (final), le créancier (final), pour fournir des informations concernant la nature du paiement. Le motif est un élément de contenu qui n'est utilisé pour le traitement par aucun des agents intervenant dans la chaîne de paiement."
+    },
+    "RegulatoryReporting": {
+      "definition": "Informations requises en raison d'exigences réglementaires et légales."
+    },
+    "Tax": {
+      "definition": "Fournit des informations sur la taxe."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fournit des informations relatives au traitement des informations de remise par l'un des agents de la chaîne de traitement de l'opération."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le virement est destiné à régler, tels que des factures commerciales dans un système de comptes clients."
+    }
+  },
+  "isoRules": {
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor ne peut être présent que s'il est différent de Creditor."
+    },
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor ne peut être présent que s'il est différent de Debtor."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "Si IntermediaryAgent2 est présent, alors IntermediaryAgent1 doit être présent."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "Si IntermediaryAgent3 est présent, alors IntermediaryAgent2 doit être présent."
+    },
+    "InstructionForCreditorAgentRule": {
+      "definition": "Si InstructionForCreditorAgent/Code contient CHQB, alors CreditorAccount n'est pas autorisé."
+    }
+  }
+}

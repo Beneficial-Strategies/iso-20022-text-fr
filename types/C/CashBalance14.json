@@ -1,0 +1,29 @@
+{
+  "isoType": "CashBalance14",
+  "definition": "Détails du solde d'un compte de trésorerie.",
+  "isoElements": {
+    "Type": {
+      "definition": "Spécifie la nature d'un solde."
+    },
+    "CounterpartyType": {
+      "definition": "Spécifie le type de contrepartie pour laquelle le solde est calculé."
+    },
+    "CounterpartyIdentification": {
+      "definition": "Spécifie la contrepartie pour laquelle le solde est calculé."
+    },
+    "ValueDate": {
+      "definition": "Date et heure auxquelles le solde est ou sera disponible."
+    },
+    "ProcessingDate": {
+      "definition": "Date ou date et heure de la dernière mise à jour du solde à la suite d'une écriture passée sur le compte, dans les livres de l'établissement teneur de compte."
+    }
+  },
+  "isoRules": {
+    "CounterpartyIdentification1Rule": {
+      "definition": "Si au moins une occurrence de CounterpartyType est présente et est égale à Multilateral (MULT), aucune occurrence de CounterpartyIdentification n'est autorisée.|Si CounterpartyType n'est pas présent, toute occurrence de CounterpartyIdentification est facultative."
+    },
+    "CounterpartyIdentification2Rule": {
+      "definition": "Si au moins une occurrence de CounterpartyType est présente et est égale à Bilateral (BILA), au moins une occurrence de CounterpartyIdentification doit être présente.|Si CounterpartyType n'est pas présent, toute occurrence de CounterpartyIdentification est facultative."
+    }
+  }
+}

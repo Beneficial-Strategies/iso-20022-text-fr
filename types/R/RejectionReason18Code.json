@@ -1,0 +1,18 @@
+{
+  "isoType": "RejectionReason18Code",
+  "definition": "Précise le motif de rejet d'un avis d'option choisie.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "La validation de l'avis/de l'instruction/de la demande a échoué."
+    },
+    "INHO": {
+      "name": "Solde insuffisant",
+      "definition": "Solde insuffisant."
+    },
+    "LATT": {
+      "name": "En retard",
+      "definition": "L'instruction/la demande arrive trop tard."
+    }
+  }
+}

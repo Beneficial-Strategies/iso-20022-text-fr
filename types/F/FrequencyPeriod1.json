@@ -1,0 +1,12 @@
+{
+  "isoType": "FrequencyPeriod1",
+  "definition": "Définit une fréquence en nombre d'occurrences par période pour un type de période donné.",
+  "isoElements": {
+    "Type": {
+      "definition": "Période pour laquelle le nombre d'instructions doit être créé et traité."
+    },
+    "CountPerPeriod": {
+      "definition": "Nombre d'instructions à créer et à traiter pendant la période indiquée."
+    }
+  }
+}

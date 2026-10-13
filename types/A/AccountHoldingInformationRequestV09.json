@@ -1,0 +1,26 @@
+{
+  "isoType": "AccountHoldingInformationRequestV09",
+  "definition": "Périmètre|Le message AccountHoldingInformationRequest est envoyé par une partie instructrice, par exemple un (nouveau) gestionnaire de plan (cessionnaire), à la partie exécutante, par exemple un (ancien) gestionnaire de plan (cédant), pour le compte de la partie initiatrice, par exemple un investisseur (client), afin de demander des informations sur les instruments financiers détenus pour le compte du client.|Utilisation|Le message AccountHoldingInformationRequest est utilisé pour demander des informations sur les actifs détenus pour le compte du client pour lesquels il a l’intention d’instruire ultérieurement un transfert de portefeuille.",
+  "isoElements": {
+    "BusinessFlowDirectionType": {
+      "definition": "Sens du flux métier (actifs à livrer ou à recevoir)."
+    }
+  },
+  "isoRules": {
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer doit être présent si et seulement s’il est différent de TransferorAccount/Servicer."
+    },
+    "Investor1Rule": {
+      "definition": "Si PrimaryIndividualInvestor n’est pas présent, alors SecondaryIndividualInvestor n’est pas autorisé.|Si PrimaryIndividualInvestor est présent, alors SecondaryIndividualInvestor peut être présent."
+    },
+    "Investor2Rule": {
+      "definition": "Si PrimaryIndividualInvestor n’est pas présent, alors OtherIndividualInvestor n’est pas autorisé. |Si PrimaryIndividualInvestor est présent, alors OtherIndividualInvestor peut être présent."
+    },
+    "Corporate2Rule": {
+      "definition": "Si PrimaryCorporateInvestor n’est pas présent, alors OtherCorporateInvestor n’est pas autorisé.|Si PrimaryCorporateInvestor est présent, alors OtherCorporateInvestor peut être présent."
+    },
+    "Corporate1Rule": {
+      "definition": "Si PrimaryCorporateInvestor n’est pas présent, alors SecondaryCorporateInvestor n’est pas autorisé.|Si PrimaryCorporateInvestor est présent, alors SecondaryCorporateInvestor peut être présent."
+    }
+  }
+}

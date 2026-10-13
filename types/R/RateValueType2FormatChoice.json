@@ -1,0 +1,12 @@
+{
+  "isoType": "RateValueType2FormatChoice",
+  "definition": "Choix de formats pour exprimer la valeur d'un taux.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard pour préciser la valeur d'un taux."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire pour exprimer la valeur d'un taux."
+    }
+  }
+}

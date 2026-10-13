@@ -1,0 +1,24 @@
+{
+  "isoType": "SafekeepingAccount17",
+  "definition": "Informations détaillées sur le compte-titres, ses positions et les comptes de sous-niveau.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel les instruments financiers sont tenus. Compte détenu par l'intermédiaire répondant auprès de son teneur de compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "ShareholdingBalanceOnOwnAccount": {
+      "definition": "Nombre d'actions détenues par l'intermédiaire répondant pour son propre compte."
+    },
+    "ShareholdingBalanceOnClientAccount": {
+      "definition": "Nombre d'actions détenues par l'intermédiaire répondant pour le compte d'un tiers."
+    },
+    "TotalShareholdingBalance": {
+      "definition": "Nombre total d'actions détenues par l'intermédiaire répondant."
+    },
+    "AccountSubLevel": {
+      "definition": "Informations sur les détentions d'actions au niveau des sous-comptes."
+    }
+  }
+}

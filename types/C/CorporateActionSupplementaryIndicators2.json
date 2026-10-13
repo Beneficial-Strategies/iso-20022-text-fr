@@ -1,0 +1,38 @@
+{
+  "isoType": "CorporateActionSupplementaryIndicators2",
+  "definition": "Identification d'un élément de données supplémentaire.",
+  "isoElements": {
+    "ConditionalPaymentApplicableIndicator": {
+      "definition": "Indique si le paiement effectué par l'émetteur est fondé sur une condition énoncée.|Oui : applicable.|Non : non applicable.|En cas d'absence, signifie Non."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "definition": "Indique s'il existe des frais de sollicitation sur l'événement. Ces frais sont payés par le courtier solliciteur.|Oui : applicable.|Non : non applicable.|En cas d'absence, signifie Non."
+    },
+    "SurrenderSharesToAgentIndicator": {
+      "definition": "Indique si les actions détenues en dehors de DTC doivent être livrées à l'agent afin de recevoir le droit.|Oui : applicable.|Non : non applicable.|En cas d'absence, signifie Non."
+    },
+    "StepUpPrivilegeIndicator": {
+      "definition": "Indique que le détenteur a le privilège d'acheter des droits supplémentaires. En exerçant ce privilège, le détenteur peut souscrire une action supplémentaire du nouveau titre en lieu et place des fractions d'actions auxquelles il pourrait autrement avoir droit.|Oui : applicable.|Non : non applicable.|En cas d'absence, signifie Non."
+    },
+    "RightsOversubscriptionIndicator": {
+      "definition": "Indique si les détenteurs de droits auront la possibilité de souscrire pour acheter des actions supplémentaires qui ne sont pas reprises par les autres détenteurs.|Oui : applicable.|Non : non applicable.|En cas d'absence, signifie Non."
+    },
+    "RightsRoundUpPrivilegeIndicator": {
+      "definition": "Indique si l'actionnaire pourra arrondir à la hausse sa souscription dans le cas où ses droits sont inférieurs à l'exigence.|Oui : applicable.|Non : non applicable.|En cas d'absence, signifie Non."
+    },
+    "RightsTransferableIndicator": {
+      "definition": "Indique si les droits peuvent être transférés.|Oui : applicable.|Non : non applicable.|En cas d'absence, signifie Non."
+    },
+    "EscrowToMaturityIndicator": {
+      "definition": "Pour les événements de défaisance partielle, indique s'il existe une convention de séquestre en place."
+    },
+    "ConcurrentCallIndicator": {
+      "definition": "Indique la présence d'un événement de remboursement supplémentaire survenant avec la même date de publication, la même date de paiement et le même titre sous-jacent que l'événement annoncé."
+    }
+  },
+  "isoRules": {
+    "ConcurrentCallRule": {
+      "definition": "Si ConcurrentCallIndicator est Oui, alors Lottery FeatureType doit être présent."
+    }
+  }
+}

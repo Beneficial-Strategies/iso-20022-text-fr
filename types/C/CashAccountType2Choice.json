@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAccountType2Choice",
+  "definition": "Nature ou utilisation du compte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de compte, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Nature ou utilisation du compte sous forme propriétaire."
+    }
+  }
+}

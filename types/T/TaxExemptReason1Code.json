@@ -1,0 +1,122 @@
+{
+  "isoType": "TaxExemptReason1Code",
+  "definition": "Précise la raison pour laquelle un impôt donné n'a pas été prélevé/déduit sur une opération donnée.",
+  "isoCodes": {
+    "NONE": {
+      "name": "Aucun",
+      "definition": "Le compte n'est pas exonéré d'impôt."
+    },
+    "MASA": {
+      "name": "ISA maxi",
+      "definition": "Maxi Individual Savings Account (ISA). Le compte est un ISA auprès d'un seul gestionnaire d'ISA, pouvant contenir des liquidités, des actions, des fonds de placement et une assurance vie jusqu'à la limite annuelle de souscription prescrite (requis pour le UK). Le Maxi ISA permet à un investisseur de constituer, auprès d'un seul établissement d'épargne et dans un seul compte, les trois types d'investissements ISA autorisés."
+    },
+    "MISA": {
+      "name": "ISA mini en espèces",
+      "definition": "Mini Cash Individual Savings Account (ISA). Le compte est un ISA auprès d'un seul gestionnaire d'ISA, pouvant contenir des liquidités, des actions, des fonds de placement et une assurance vie jusqu'à la limite annuelle de souscription prescrite (requis pour le UK). Un investisseur peut détenir plusieurs Mini ISA afin d'utiliser la limite globale d'investissement des Mini ISA, et peut investir auprès de plusieurs établissements d'épargne ; toutefois, un seul des trois types d'investissement ISA est autorisé dans un même compte."
+    },
+    "SISA": {
+      "name": "ISA mini en actions et parts",
+      "definition": "Mini Stocks and Shares Individual Savings Account (ISA). Le compte est un ISA auprès d'un gestionnaire d'ISA, ne pouvant contenir que des actions, des parts et des placements collectifs jusqu'à la limite annuelle de souscription prescrite (requis pour le UK)."
+    },
+    "IISA": {
+      "name": "ISA mini en assurance",
+      "definition": "Mini Insurance Individual Savings Account (ISA). Le compte est un ISA auprès d'un gestionnaire d'ISA, ne pouvant contenir que des placements en assurance vie jusqu'à la limite annuelle de souscription prescrite (requis pour le UK)."
+    },
+    "CUYP": {
+      "name": "Versement de l'année en cours",
+      "definition": "Le compte concerne les versements de l'année en cours sur un compte de retraite d'investissement (requis pour les US)."
+    },
+    "PRYP": {
+      "name": "Versement de l'année précédente",
+      "definition": "Le compte concerne un versement d'une année antérieure sur un compte de retraite d'investissement (requis pour les US)."
+    },
+    "ASTR": {
+      "name": "Transfert d'actifs",
+      "definition": "Le compte concerne un transfert d'actifs vers un compte de retraite d'investissement (requis pour les US)."
+    },
+    "EMPY": {
+      "name": "Salarié, année précédente",
+      "definition": "Le compte concerne les cotisations du salarié pour l'année antérieure sur un compte de retraite d'investissement (requis pour les US)."
+    },
+    "EMCY": {
+      "name": "Salarié, année en cours",
+      "definition": "Le compte concerne les cotisations du salarié pour l'année en cours sur un compte de retraite d'investissement (requis pour les US)."
+    },
+    "EPRY": {
+      "name": "Employeur, année précédente",
+      "definition": "Le compte concerne les cotisations de l'employeur pour l'année antérieure sur un compte de retraite d'investissement (requis pour les US)."
+    },
+    "ECYE": {
+      "name": "Employeur, année en cours",
+      "definition": "Le compte concerne les cotisations de l'employeur pour l'année en cours sur un compte de retraite d'investissement (requis pour les US)."
+    },
+    "NFPI": {
+      "name": "IRA prototype hors fonds",
+      "definition": "Le compte concerne un compte de retraite individuel (IRA) prototype hors fonds, sur un compte de retraite d'investissement (requis pour les US)."
+    },
+    "NFQP": {
+      "name": "Plan qualifié hors fonds",
+      "definition": "Le compte concerne un plan qualifié hors fonds, sur un compte de retraite d'investissement (requis pour les US)."
+    },
+    "DECP": {
+      "name": "Plan à cotisations définies",
+      "definition": "Le compte concerne un régime à cotisations définies (requis pour les US)."
+    },
+    "IRAC": {
+      "name": "Compte de retraite individuel",
+      "definition": "Le compte est un compte de retraite individuel (IRA) (requis pour les US)."
+    },
+    "IRAR": {
+      "name": "Transfert de compte de retraite individuel",
+      "definition": "Le compte est un compte de retraite individuel (IRA) - Rollover (requis pour les US)."
+    },
+    "KEOG": {
+      "name": "KEOGH",
+      "definition": "KEOGH. Le compte est un régime de retraite à imposition différée conçu pour aider les travailleurs indépendants ou les personnes percevant un revenu d'activité indépendante à constituer un programme d'épargne retraite (requis pour les US)."
+    },
+    "PFSP": {
+      "name": "Plan de participation aux bénéfices",
+      "definition": "Le compte est un plan de participation aux bénéfices (requis pour les US)."
+    },
+    "401K": {
+      "name": "401(k)",
+      "definition": "401k. Le compte est un régime de retraite facultatif proposé par de nombreuses entreprises, dans lequel le revenu est investi avant d'être imposé (requis pour les US)."
+    },
+    "SIRA": {
+      "name": "IRA autogéré",
+      "definition": "Compte de retraite individuel (IRA) autogéré (requis pour les US)."
+    },
+    "403B": {
+      "name": "403(b)",
+      "definition": "403(b). Le compte est un programme d'investissement et d'épargne à imposition différée destiné aux employés des hôpitaux, des établissements d'enseignement et d'autres organisations à but non lucratif, pour épargner et investir en vue de leur propre retraite. Le nom renvoie à la section correspondante du code des impôts américain (US Internal Revenue Code) (requis pour les États-Unis)."
+    },
+    "457X": {
+      "name": "457",
+      "definition": "457. Le compte est un programme de rémunération différée non qualifié, accessible aux gouvernements des États et des collectivités locales ainsi qu'aux employeurs à but non lucratif (requis pour les US)."
+    },
+    "RIRA": {
+      "name": "Roth IRA prototype de fonds",
+      "definition": "Roth Individual Retirement Account (IRA) Fund Prototype. Le compte est un compte de retraite à imposition différée fondé sur le principe inverse de l'IRA traditionnel. Les cotisations de retraite sont imposées d'emblée, mais les retraits peuvent être effectués sans impôt à partir d'un certain âge, à condition que le Roth IRA ait été ouvert depuis une certaine durée (requis pour les US)."
+    },
+    "RIAN": {
+      "name": "Roth IRA hors prototype",
+      "definition": "Roth Individual Retirement Account (IRA) Non-Prototype. Le compte est un compte de retraite à imposition différée fondé sur le principe inverse de l'IRA traditionnel. Les cotisations de retraite sont imposées d'emblée, mais les retraits peuvent être effectués sans impôt à partir d'un certain âge, à condition que le Roth IRA ait été ouvert depuis une certaine durée (requis pour les US)."
+    },
+    "RCRF": {
+      "name": "IRA de conversion Roth prototype de fonds",
+      "definition": "Roth Conversion Individual Retirement Account (IRA) Fund Prototype. Le compte est un compte de retraite créé lorsqu'une partie passe d'un IRA classique à ce type de compte ( requis pour les US)."
+    },
+    "RCIP": {
+      "name": "IRA de conversion Roth hors prototype",
+      "definition": "Roth Conversion Individual Retirement Account (IRA) Non-Prototype. Le compte est un compte de retraite créé lorsqu'une partie passe d'un IRA classique à ce type de compte (requis pour les US)."
+    },
+    "EIFP": {
+      "name": "IRA éducation prototype de fonds",
+      "definition": "Education Individual Retirement Account Fund Prototype (également appelé Education Savings Account). Le compte est un plan d'épargne ouvert à toute personne de moins de 18 ans. Lorsque le titulaire du compte retire des fonds pour payer des frais d'enseignement supérieur admissibles, les retraits sont généralement exonérés d'impôt (requis pour les US)."
+    },
+    "EIOP": {
+      "name": "IRA éducation hors prototype",
+      "definition": "Education Individual Retirement Account Non-Prototype (également appelé Education Savings Account). Le compte est un plan d'épargne ouvert à toute personne de moins de 18 ans. Lorsque le titulaire du compte retire des fonds pour payer des frais d'enseignement supérieur admissibles, les retraits sont généralement exonérés d'impôt (requis aux US)."
+    }
+  }
+}

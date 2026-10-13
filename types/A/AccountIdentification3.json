@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountIdentification3",
+  "definition": "Identification du compte exprimée au moyen d'un schéma de source de données.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "Issuer": {
+      "definition": "Entité qui attribue l'information."
+    },
+    "Information": {
+      "definition": "Informations propriétaires, souvent un code, émises par l'émetteur du schéma de la source de données."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "AttendanceAdmissionConditions2Code",
+  "definition": "Précise les conditions d'admission physique à une assemblée générale.",
+  "isoCodes": {
+    "MASH": {
+      "name": "Autorisé pour l'actionnaire",
+      "definition": "Tout participant doit être lui-même actionnaire."
+    },
+    "MASL": {
+      "name": "Autorisé si inscrit au registre des titres",
+      "definition": "Le participant doit être un actionnaire inscrit dans le registre des actions de la société."
+    },
+    "MAPO": {
+      "name": "Autorisé pour le compte d'un tiers",
+      "definition": "Les participants agissant au nom du porteur inscrit doivent disposer d'une procuration (POA) valide et/ou d'une preuve de détention."
+    },
+    "MAAL": {
+      "name": "Autorisé avec liste des participants",
+      "definition": "Les participants seront inscrits sur une liste des participants et doivent se munir d'une pièce d'identité avec photographie."
+    },
+    "MALR": {
+      "name": "Autorisé avec lettre de représentation",
+      "definition": "Les participants seront inscrits sur une liste des participants ou recevront une lettre de représentation, et doivent se munir d'une pièce d'identité avec photographie."
+    },
+    "MAHI": {
+      "name": "Autorisé avec justificatif",
+      "definition": "Les participants doivent demander une preuve de détention et s'inscrire à l'assemblée directement auprès de l'émetteur."
+    },
+    "MATK": {
+      "name": "Autorisé avec billet",
+      "definition": "Les participants recevront un billet d'admission et doivent se munir d'une pièce d'identité avec photographie."
+    },
+    "MADS": {
+      "name": "Délégué autorisé si inscrit au registre des titres",
+      "definition": "Le participant doit être un délégué de l'actionnaire inscrit dans le registre des actions de la société."
+    },
+    "MANP": {
+      "name": "Impossible",
+      "definition": "La participation à l'assemblée n'est pas possible."
+    }
+  }
+}

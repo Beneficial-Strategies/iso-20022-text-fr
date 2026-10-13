@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentTransactionStatus1",
+  "definition": "Précise le statut d'une opération de paiement.",
+  "isoElements": {
+    "Status": {
+      "definition": "Statut d'une opération."
+    },
+    "StatusReasonInformation": {
+      "definition": "Fournit des informations détaillées sur le motif du statut."
+    }
+  }
+}

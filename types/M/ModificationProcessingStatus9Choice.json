@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationProcessingStatus9Choice",
+  "definition": "Choix du statut de traitement de la modification.",
+  "isoElements": {
+    "Code": {
+      "definition": "Indique le statut d'une demande de modification."
+    },
+    "Proprietary": {
+      "definition": "Indique le statut d'une demande de modification."
+    }
+  }
+}

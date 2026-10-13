@@ -1,0 +1,12 @@
+{
+  "isoType": "DatePeriod5",
+  "definition": "Période définie par une date de valeur actuelle et une date de valeur demandée.",
+  "isoElements": {
+    "CurrentValueDate": {
+      "definition": "Date de valeur actuelle de l'opération ou de l'écriture sous-jacente."
+    },
+    "RequestedValueDate": {
+      "definition": "Date de valeur demandée de l'opération ou de l'écriture sous-jacente."
+    }
+  }
+}

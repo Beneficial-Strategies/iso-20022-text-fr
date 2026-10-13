@@ -1,0 +1,18 @@
+{
+  "isoType": "FinancialInstitutionIdentification10Choice",
+  "definition": "Choix entre des formats pour l’identification d’un établissement financier.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nom et adresse de la partie."
+    },
+    "BICFI": {
+      "definition": "Identification de l'établissement financier exprimée sous forme de BIC."
+    },
+    "ClearingSystemMemberIdentification": {
+      "definition": "Choix d'identifiant pour un membre d'un système de compensation, tel qu'attribué par le système de compensation. Dans certains systèmes de compensation, les comptes des membres du système se voient également attribuer un identifiant."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identifiant unique et non ambigu attribué à un établissement financier selon un schéma d'identification propriétaire."
+    }
+  }
+}

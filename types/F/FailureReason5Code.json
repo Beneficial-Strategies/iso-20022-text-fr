@@ -1,0 +1,14 @@
+{
+  "isoType": "FailureReason5Code",
+  "definition": "Incident survenant sur un dispositif.",
+  "isoCodes": {
+    "SECR": {
+      "name": "Titre",
+      "definition": "Erreur de sécurité générale."
+    },
+    "HRDW": {
+      "name": "Matériel",
+      "definition": "Erreur matérielle sur le dispositif."
+    }
+  }
+}

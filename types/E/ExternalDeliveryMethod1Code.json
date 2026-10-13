@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalDeliveryMethod1Code",
+  "definition": "Indique le code externe de mode de livraison, sous la forme d'une chaîne de caractères d'une longueur maximale de 4 caractères.|La liste des codes valides est une liste de codes externe publiée séparément.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "CITC": {
+      "name": "Espèces en transit",
+      "definition": "Les espèces sont livrées par un transporteur sécurisé."
+    },
+    "AUPE": {
+      "name": "Personne autorisée",
+      "definition": "Les espèces sont livrées par une personne autorisée."
+    }
+  }
+}

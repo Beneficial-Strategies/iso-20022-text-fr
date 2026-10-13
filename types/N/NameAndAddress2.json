@@ -1,0 +1,12 @@
+{
+  "isoType": "NameAndAddress2",
+  "definition": "Entité impliquée dans une activité.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "Address": {
+      "definition": "Informations permettant de localiser et d'identifier une adresse précise, telles que définies par les services postaux."
+    }
+  }
+}

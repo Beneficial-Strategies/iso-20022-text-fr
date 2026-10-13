@@ -1,0 +1,51 @@
+{
+  "isoType": "CustomerAccount4",
+  "definition": "Compte détenu par un client.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification du compte."
+    },
+    "Name": {
+      "definition": "Nom du compte. Il constitue un moyen supplémentaire d'identification et est désigné par le teneur de compte en accord avec le titulaire du compte."
+    },
+    "Status": {
+      "definition": "Précise l'état actuel d'un compte, par exemple activé ou supprimé."
+    },
+    "Type": {
+      "definition": "Type du compte."
+    },
+    "Currency": {
+      "definition": "Moyen d'échange de valeur."
+    },
+    "MonthlyPaymentValue": {
+      "definition": "Moyenne mensuelle des montants des paiements (c'est-à-dire des paiements sortants) sur une année."
+    },
+    "MonthlyReceivedValue": {
+      "definition": "Moyenne mensuelle des montants reçus sur une année (c'est-à-dire des paiements entrants)."
+    },
+    "MonthlyTransactionNumber": {
+      "definition": "Moyenne mensuelle du nombre de paiements (entrants et sortants) sur une année."
+    },
+    "AverageBalance": {
+      "definition": "Somme des soldes de fin de journée sur un mois divisée par le nombre de jours ouvrables du mois."
+    },
+    "AccountPurpose": {
+      "definition": "Précise le motif du compte."
+    },
+    "FloorNotificationAmount": {
+      "definition": "Précise la valeur du solde en dessous de laquelle une notification sera envoyée au titulaire du compte."
+    },
+    "CeilingNotificationAmount": {
+      "definition": "Précise la valeur du solde au-dessus de laquelle une notification sera envoyée au titulaire du compte."
+    },
+    "StatementFrequencyAndFormat": {
+      "definition": "Précise à quelle fréquence les relevés (à des fins d'audit) seront envoyés, dans quel format et à quelle adresse."
+    },
+    "ClosingDate": {
+      "definition": "Date à laquelle le compte sera ou a été clôturé."
+    },
+    "Restriction": {
+      "definition": "Restriction portant sur une capacité ou des opérations autorisées."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateAcceptanceReportV08",
+  "definition": "Portée|Le message MandateAcceptanceReport est envoyé par la banque du destinataire (débiteur ou créancier) du message MandateRequest (initiation, modification ou annulation) à la banque de l'initiateur du message MandateRequest (débiteur ou créancier).|Un message MandateAcceptanceReport sert à confirmer l'acceptation ou le rejet d'un message MandateRequest. Lorsque l'acceptation fait partie du flux complet du processus, un message MandateRequest ne devient valide qu'après réception d'une confirmation d'acceptation par un message MandateAcceptanceReport de la banque du destinataire.|Utilisation|Le message MandateAcceptanceReport peut contenir une ou plusieurs confirmations d'acceptation ou de rejet d'une demande de mandat donnée.|Les messages peuvent être échangés entre la banque du débiteur et la banque du créancier, entre la banque du débiteur et le débiteur, ainsi qu'entre la banque du créancier et le créancier.|Le message MandateAcceptanceReport peut être utilisé dans des scénarios nationaux et transfrontaliers.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    }
+  }
+}

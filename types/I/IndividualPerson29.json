@@ -1,0 +1,21 @@
+{
+  "isoType": "IndividualPerson29",
+  "definition": "Entité humaine, par opposition à une entité juridique (parfois qualifiée de « personne morale »).",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Terme utilisé pour s'adresser à la personne."
+    },
+    "GivenName": {
+      "definition": "Prénom de la personne."
+    },
+    "MiddleName": {
+      "definition": "Deuxième prénom de la personne."
+    },
+    "Name": {
+      "definition": "Nom sous lequel la partie est connue et qui est habituellement utilisé pour identifier cette personne."
+    },
+    "PostalAddress": {
+      "definition": "Adresse de la personne."
+    }
+  }
+}

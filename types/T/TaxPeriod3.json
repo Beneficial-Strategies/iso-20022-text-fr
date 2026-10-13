@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxPeriod3",
+  "definition": "Détails de la période se rapportant au paiement de l'impôt.",
+  "isoElements": {
+    "Year": {
+      "definition": "Année à laquelle se rapporte le paiement de l'impôt."
+    },
+    "Type": {
+      "definition": "Identification de la période à laquelle se rapporte le paiement de l'impôt."
+    },
+    "FromToDate": {
+      "definition": "Intervalle de temps entre une date de début et une date de fin pour lequel la déclaration fiscale est fournie."
+    }
+  }
+}

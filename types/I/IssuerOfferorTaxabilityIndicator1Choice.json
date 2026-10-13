@@ -1,0 +1,12 @@
+{
+  "isoType": "IssuerOfferorTaxabilityIndicator1Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le statut d'imposition de l'émetteur / offrant.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant les informations relatives au statut d'imposition de l'émetteur / offrant."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire précisant les informations relatives au statut d'imposition de l'émetteur / offrant."
+    }
+  }
+}

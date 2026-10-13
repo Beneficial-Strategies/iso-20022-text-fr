@@ -1,0 +1,12 @@
+{
+  "isoType": "CRSForm1Choice",
+  "definition": "Choix de formats pour le type de formulaire de la norme commune de déclaration (CRS).",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de formulaire du Foreign Account Tax Compliance Act (FATCA) exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de formulaire du Foreign Account Tax Compliance Act (FATCA) exprimé sous forme de code propriétaire."
+    }
+  }
+}

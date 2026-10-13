@@ -1,0 +1,27 @@
+{
+  "isoType": "SafekeepingAccount7",
+  "definition": "Compte sur lequel une écriture de titres est passée.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "BeneficialOwner": {
+      "definition": "Personne ou entité qui a droit en dernier ressort au bénéfice des revenus et des droits attachés à un instrument financier, par opposition à un propriétaire nominal ou légal."
+    },
+    "BalanceDetails": {
+      "definition": "Relevé de la position nette d'un instrument financier sur le compte, à une date donnée. L'agent, par exemple un intermédiaire de négociation, peut également être spécifié."
+    },
+    "AccountSubLevel1": {
+      "definition": "Avoirs du niveau 1."
+    },
+    "AccountSubLevel1Difference": {
+      "definition": "Différence d'avoirs entre le compte de conservation et les sous-comptes de niveau 1."
+    }
+  }
+}

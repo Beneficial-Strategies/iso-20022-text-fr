@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderQuery5",
+  "definition": "Spécification des critères de la requête.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Spécifie le type d'éléments correspondants à renvoyer dans la réponse à la requête."
+    },
+    "StandingOrderCriteria": {
+      "definition": "Définition des critères de requête sur les ordres permanents."
+    }
+  }
+}

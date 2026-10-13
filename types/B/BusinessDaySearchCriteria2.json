@@ -1,0 +1,21 @@
+{
+  "isoType": "BusinessDaySearchCriteria2",
+  "definition": "Définit les critères utilisés pour rechercher des informations sur le jour ouvré du système.",
+  "isoElements": {
+    "SystemDate": {
+      "definition": "Date pour laquelle les informations de disponibilité sont fournies."
+    },
+    "SystemIdentification": {
+      "definition": "Identification unique et non ambiguë du système, attribuée par l'administrateur du système."
+    },
+    "SystemCurrency": {
+      "definition": "Devise pouvant être traitée par le système. Un système peut traiter des opérations dans une seule devise ou dans plusieurs devises."
+    },
+    "EventType": {
+      "definition": "Nature de l'événement survenu."
+    },
+    "ClosurePeriod": {
+      "definition": "Période pendant laquelle le système est fermé ou hors service."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndPeriod3Choice",
+  "definition": "Choix entre une date et une période.",
+  "isoElements": {
+    "StatementDate": {
+      "definition": "Date du relevé."
+    },
+    "StatementPeriod": {
+      "definition": "Période couverte par le relevé."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "AdditionalBusinessProcess12Code",
+  "definition": "Indique le processus métier supplémentaire lié à un événement d'opération sur titres, tel qu'une réclamation de marché automatique.",
+  "isoCodes": {
+    "CLFT": {
+      "name": "Transfert intégral du produit reçu",
+      "definition": "La réclamation de marché consiste à transférer le produit reçu de l'émetteur à la partie ayant droit."
+    },
+    "CLAI": {
+      "name": "Réclamation ou compensation",
+      "definition": "Se rapporte à une réclamation sur l'événement d'opération sur titres associé."
+    },
+    "CLNT": {
+      "name": "Transfert partiel du produit reçu",
+      "definition": "La réclamation de marché consiste à transférer à la partie ayant droit le produit partiellement reçu de l'émetteur. Une partie est compensée en espèces par la partie qui n'a pas rempli son obligation."
+    },
+    "CLPT": {
+      "name": "Aucun transfert du produit reçu",
+      "definition": "La réclamation de marché consiste à indemniser en espèces la partie ayant droit par la partie qui n'a pas rempli son obligation. Aucun produit n'a été reçu de l'émetteur."
+    },
+    "TAXR": {
+      "name": "Remboursement d'impôt",
+      "definition": "Se rapporte à un remboursement d'impôt par les autorités sur l'événement d'opération sur titres associé."
+    },
+    "CONS": {
+      "name": "Consentement",
+      "definition": "Se rapporte à un consentement dans un événement d'opération sur titres autre qu'un événement de consentement (: 22F:: CAEV//CONS)."
+    },
+    "FPRE": {
+      "name": "Préfinancement intégral",
+      "definition": "Préfinancement intégral d'un instrument de dette par l'émetteur avant l'échéance initiale, lorsque l'émetteur dépose des actifs en fiducie. Applicable uniquement dans le cadre d'un événement sur titres de défaisance partielle."
+    },
+    "INCP": {
+      "name": "Paiement de prime incitative",
+      "definition": "L'événement est un paiement d'une prime d'incitation liée aux conditions de vote prescrites lors d'une assemblée générale."
+    },
+    "NPLE": {
+      "name": "Aucun choix fractionné",
+      "definition": "L'émetteur n'autorise qu'une seule option par position désignée."
+    },
+    "PPUT": {
+      "name": "Remboursement partiel sur exercice obligatoire de l'option de vente",
+      "definition": "Échange obligatoire partiel d'une partie des obligations, dont les titres échangés sont habituellement recommercialisés. L'émetteur peut offrir aux détenteurs le droit de conserver leurs titres au lieu de les échanger. Un tirage au sort sera utilisé pour déterminer l'éligibilité à l'événement."
+    },
+    "PPRE": {
+      "name": "Préfinancement partiel",
+      "definition": "Préfinancement partiel d'un instrument de dette avant l'échéance, désigné par tirage au sort. Un nouveau titre est émis avec une date d'échéance antérieure pour la partie refinancée (partie rappelée) et l'autre nouveau titre est émis avec la date d'échéance d'origine pour la partie non refinancée (partie restante). Applicable uniquement dans le cadre d'un événement d'opération sur titres de défaisance partielle."
+    },
+    "SCHM": {
+      "name": "Plan d'arrangement",
+      "definition": "Événement composant d'un plan d'arrangement : une réorganisation d'une société ou d'un groupe de sociétés, et de leur capital."
+    }
+  }
+}

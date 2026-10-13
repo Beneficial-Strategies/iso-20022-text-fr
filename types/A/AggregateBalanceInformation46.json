@@ -1,0 +1,80 @@
+{
+  "isoType": "AggregateBalanceInformation46",
+  "definition": "Position globale, dans un seul titre, détenue sur un compte-titres auprès d'un lieu de conservation déterminé.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrument financier représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Éléments caractérisant un instrument financier autre qu'un fonds d'investissement."
+    },
+    "InvestmentFundsFinancialInstrumentAttributes": {
+      "definition": "Éléments caractérisant un instrument financier de type fonds d'investissement."
+    },
+    "ValuationHaircutDetails": {
+      "definition": "Éléments utilisés pour calculer la décote de valorisation."
+    },
+    "AggregateBalance": {
+      "definition": "Quantité totale d'instruments financiers du solde."
+    },
+    "AvailableBalance": {
+      "definition": "Quantité totale d'instruments financiers du solde qui est disponible."
+    },
+    "NotAvailableBalance": {
+      "definition": "Quantité totale d'instruments financiers du solde qui n'est pas disponible."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lieu où les titres sont conservés, physiquement ou de manière notionnelle. Ce lieu peut être, par exemple, un dépositaire local, un dépositaire central de titres (CSD) ou un dépositaire central de titres international (ICSD)."
+    },
+    "CorporateActionOptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "PriceDetails": {
+      "definition": "Prix de l'instrument financier dans une ou plusieurs devises."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Informations nécessaires pour traiter un change ou une conversion de devises."
+    },
+    "DaysAccrued": {
+      "definition": "Précise le nombre de jours utilisé pour le calcul du montant des intérêts courus."
+    },
+    "AccountBaseCurrencyAmounts": {
+      "definition": "Montants de valorisation fournis dans la devise de base du compte."
+    },
+    "InstrumentCurrencyAmounts": {
+      "definition": "Montants de valorisation fournis dans la devise de l'instrument financier."
+    },
+    "QuantityBreakdown": {
+      "definition": "Ventilation de la quantité agrégée déclarée en lots significatifs, par exemple des lots fiscaux."
+    },
+    "BalanceBreakdown": {
+      "definition": "Ventilation du solde agrégé par sous-soldes significatifs et par disponibilité."
+    },
+    "AdditionalBalanceBreakdown": {
+      "definition": "Fournit des informations complémentaires sur le sous-solde d'instrument, pour tout ou partie de l'instrument financier déclaré (non enregistré, exonéré d'impôt, etc.)."
+    },
+    "BalanceAtSafekeepingPlace": {
+      "definition": "Ventilation des positions par lieu de conservation (et éventuellement par lieu de cotation)."
+    },
+    "HoldingAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires sur l'avoir."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  },
+  "isoRules": {
+    "BalanceAtSafekeepingPlaceRule": {
+      "definition": "Si SafekeepingPlace est présent, BalanceAtSafekeepingPlace n'est pas autorisé."
+    },
+    "AggregateBalanceGuideline": {
+      "definition": "Si AvailableQuantity et NotAvailableQuantity sont tous deux présents, AggregateQuantity devrait être la somme de AvailableQuantity et de NotAvailableQuantity."
+    },
+    "HoldingAdditionalDetailsRule": {
+      "definition": "Sauf accord bilatéral entre l'expéditeur et le destinataire, si SubBalanceAdditionnalDetails est présent, il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    },
+    "FinancialInstrumentAttributesRule": {
+      "definition": "Si InvestmentFundsFinancialInstrumentAttributes est présent, FinancialInstrumentAttributes n'est pas autorisé."
+    }
+  }
+}

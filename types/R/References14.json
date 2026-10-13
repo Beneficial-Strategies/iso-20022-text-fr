@@ -1,0 +1,21 @@
+{
+  "isoType": "References14",
+  "definition": "Références de l'instruction d'origine pour laquelle une action a été demandée.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification non ambiguë de l'opération telle que connue du titulaire du compte (ou de la partie donneuse d'ordre qui gère le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification non ambiguë de l'opération telle que connue de l'établissement teneur de compte."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par l'entité de traitement."
+    },
+    "PoolIdentification": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    }
+  }
+}

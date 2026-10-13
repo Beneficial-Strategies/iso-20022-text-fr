@@ -1,0 +1,10 @@
+{
+  "isoType": "SafekeepingAccountIdentification1Code",
+  "definition": "Précise l'identification du compte au moyen d'un code.",
+  "isoCodes": {
+    "GENR": {
+      "name": "Général",
+      "definition": "L'annonce s'applique à tous les comptes-titres qui détiennent l'instrument financier sous-jacent. (Utilisé pour les annonces générales ou préliminaires.)."
+    }
+  }
+}

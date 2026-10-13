@@ -1,0 +1,26 @@
+{
+  "isoType": "CaseStatus2Code",
+  "definition": "Précise le statut d'un dossier d'enquête.||Remarque : |Les dossiers qui ont été rejetés (non acceptés) sont inconnus de la partie qui rapporte le statut des dossiers. Ils seront signalés avec CaseStatusCode = Unknown.",
+  "isoCodes": {
+    "CLSD": {
+      "name": "Clôturé",
+      "definition": "Le dossier a été clos."
+    },
+    "ASGN": {
+      "name": "Affecté",
+      "definition": "Le dossier a été affecté à une autre partie."
+    },
+    "INVE": {
+      "name": "En cours d'investigation",
+      "definition": "Le dossier fait actuellement l'objet d'une enquête."
+    },
+    "UKNW": {
+      "name": "Inconnu",
+      "definition": "Le dossier n'a jamais été affecté auparavant."
+    },
+    "ODUE": {
+      "name": "En retard",
+      "definition": "L'enquête prend trop de temps."
+    }
+  }
+}

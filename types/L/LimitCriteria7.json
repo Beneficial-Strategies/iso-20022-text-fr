@@ -1,0 +1,23 @@
+{
+  "isoType": "LimitCriteria7",
+  "definition": "Définit les critères pour extraire les informations sur la limite et le rapport attendu sur la limite. Un nom peut être attribué à la nouvelle requête.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nom de la requête définie par les critères de recherche et les critères de retour."
+    },
+    "SearchCriteria": {
+      "definition": "Définit les critères pour extraire les informations sur la limite."
+    },
+    "ReturnCriteria": {
+      "definition": "Définit le rapport attendu sur la limite."
+    }
+  },
+  "isoRules": {
+    "LimitCriteriaGuideline": {
+      "definition": "Si une limite bilatérale concernant des membres spécifiques du système est requise, l'identification de la contrepartie bilatérale doit être fournie.|Par défaut, en l'absence d'identification de la contrepartie bilatérale et si la limite bilatérale courante ou par défaut est requise, toutes les limites bilatérales avec les identifications de contrepartie correspondantes sont renvoyées."
+    },
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Si ReturnCriteria n'est pas présent, au moins une occurrence de SearchCriteria doit être présente. Si ReturnCriteria est présent, toute occurrence de SearchCriteria est facultative."
+    }
+  }
+}

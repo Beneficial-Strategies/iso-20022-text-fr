@@ -1,0 +1,26 @@
+{
+  "isoType": "PriceCalculationMethod1Code",
+  "definition": "Code standard précisant la méthode appliquée pour le calcul du prix.",
+  "isoCodes": {
+    "VWAP": {
+      "name": "Prix moyen pondéré par les volumes",
+      "definition": "Le prix est fondé sur un prix moyen pondéré par les volumes, qui est le rapport entre le cours cumulé de l'action et le volume cumulé négocié sur une période donnée."
+    },
+    "NAVF": {
+      "name": "Valeur finale de l'actif",
+      "definition": "Valeur d'actif finale lors de la liquidation du fonds."
+    },
+    "MIMP": {
+      "name": "Prix moyen du marché",
+      "definition": "Prix à un certain délai avant la date de son annonce."
+    },
+    "NAVA": {
+      "name": "Valeur liquidative",
+      "definition": "Valeur nette des actifs d'un fonds d'investissement, déduction faite de son passif, divisée par le nombre de parts en circulation."
+    },
+    "AVCL": {
+      "name": "Cours de clôture moyen",
+      "definition": "Prix de l'actif à la clôture d'un jour donné."
+    }
+  }
+}

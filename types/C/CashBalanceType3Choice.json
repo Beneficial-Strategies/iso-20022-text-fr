@@ -1,0 +1,12 @@
+{
+  "isoType": "CashBalanceType3Choice",
+  "definition": "Choix de format pour le type de solde.",
+  "isoElements": {
+    "Code": {
+      "definition": "Solde espèces exprimé sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Solde espèces exprimé sous forme propriétaire."
+    }
+  }
+}

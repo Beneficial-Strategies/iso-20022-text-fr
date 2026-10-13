@@ -1,0 +1,29 @@
+{
+  "isoType": "BlockedHoldingDetails2",
+  "definition": "Informations sur une position bloquée.",
+  "isoElements": {
+    "BlockedHolding": {
+      "definition": "Précise comment la position bloquée du compte est définie."
+    },
+    "PartialHoldingUnits": {
+      "definition": "Lorsqu'un compte est bloqué partiellement au niveau d'un fonds ou d'un titre, nombre de parts bloquées."
+    },
+    "HoldingCertificateNumber": {
+      "definition": "Lorsqu'un compte est bloqué au niveau d'un fonds ou d'un titre, précise le numéro de certificat des parts bloquées."
+    }
+  },
+  "isoRules": {
+    "PartialHoldingUnits1Rule": {
+      "definition": "Si BlockHolding est NPRH (NonPartialHolding), PartialHoldingUnits ne doit pas être présent."
+    },
+    "PartialHoldingUnits2Rule": {
+      "definition": "Si BlockHolding est PRTH (PartialHolding), PartialHoldingUnits est obligatoire."
+    },
+    "PartialHoldingUnits3Rule": {
+      "definition": "Si BlockHolding est CERT (Certificate), PartialHoldingUnits ne doit pas être présent."
+    },
+    "HoldingCertificateNumberRule": {
+      "definition": "Si BlockHolding est CERT (Certificate), HoldingCertificateNumber est obligatoire."
+    }
+  }
+}

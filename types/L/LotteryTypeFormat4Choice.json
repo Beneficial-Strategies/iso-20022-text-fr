@@ -1,0 +1,12 @@
+{
+  "isoType": "LotteryTypeFormat4Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type de tirage.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type de tirage annoncé."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de tirage annoncé."
+    }
+  }
+}

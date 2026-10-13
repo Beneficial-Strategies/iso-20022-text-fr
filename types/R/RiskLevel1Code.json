@@ -1,0 +1,18 @@
+{
+  "isoType": "RiskLevel1Code",
+  "definition": "Indique le niveau de risque.",
+  "isoCodes": {
+    "HIGH": {
+      "name": "Élevé",
+      "definition": "Élevé."
+    },
+    "LOWW": {
+      "name": "Basse",
+      "definition": "Faible."
+    },
+    "MEDM": {
+      "name": "Moyen",
+      "definition": "Moyen."
+    }
+  }
+}

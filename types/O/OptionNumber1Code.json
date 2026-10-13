@@ -1,0 +1,10 @@
+{
+  "isoType": "OptionNumber1Code",
+  "definition": "Code identifiant des numéros d'option spéciaux d'événement sur titres.",
+  "isoCodes": {
+    "UNSO": {
+      "name": "Non sollicité",
+      "definition": "L'instruction sur événement sur titres est non sollicitée, c'est-à-dire qu'elle n'a pas été précédée d'une notification d'événement sur titres."
+    }
+  }
+}

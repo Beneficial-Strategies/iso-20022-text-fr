@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceCalculationMethod1Choice",
+  "definition": "Choix entre un code standard et un code propriétaire pour préciser la méthode appliquée pour le calcul du prix.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant la méthode appliquée pour le calcul du prix."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire pour préciser la méthode appliquée pour le calcul du prix."
+    }
+  }
+}

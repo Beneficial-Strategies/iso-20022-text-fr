@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInformationStatus1Choice",
+  "definition": "Choix entre les différents statuts d'un avis d'information sur opération sur titres.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Fournit des informations sur le statut de traitement de l'avis."
+    },
+    "RejectedStatus": {
+      "definition": "Fournit des informations sur le statut de rejet."
+    }
+  }
+}

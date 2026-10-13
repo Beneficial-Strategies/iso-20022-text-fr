@@ -1,0 +1,15 @@
+{
+  "isoType": "ResponseStatus8Choice",
+  "definition": "Choix de statut de réponse.",
+  "isoElements": {
+    "Consented": {
+      "definition": "Motif fourni pour le statut."
+    },
+    "Rejected": {
+      "definition": "Statut rejeté d'une instruction, d'un avis ou d'une demande."
+    },
+    "Pending": {
+      "definition": "Statut en attente d'une instruction, d'un avis ou d'une demande."
+    }
+  }
+}

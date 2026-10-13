@@ -1,0 +1,201 @@
+{
+  "isoType": "ExternalCategoryPurpose1Code",
+  "isoCodes": {
+    "BONU": {
+      "name": "Paiement de prime",
+      "definition": "L'opération est le paiement d'une prime."
+    },
+    "CASH": {
+      "name": "Virement de gestion de trésorerie",
+      "definition": "L'opération est une instruction générale de gestion de trésorerie."
+    },
+    "CBLK": {
+      "name": "Compensation de cartes en masse",
+      "definition": "Service qui règle les fonds correspondant à un ensemble d'opérations par carte, en faisant référence à un fichier d'opérations spécifique ou à d'autres informations telles que l'identifiant du terminal, l'identifiant de l'accepteur de carte ou d'autres détails de l'opération (ID)."
+    },
+    "CCRD": {
+      "name": "Paiement par carte de crédit",
+      "definition": "L'opération se rapporte à un paiement par carte de crédit."
+    },
+    "CORT": {
+      "name": "Paiement de règlement de transaction",
+      "definition": "L'opération se rapporte au règlement d'une transaction commerciale, par exemple une opération de change ou une opération sur titres."
+    },
+    "DCRD": {
+      "name": "Paiement par carte de débit",
+      "definition": "L'opération se rapporte à un paiement par carte de débit."
+    },
+    "DIVI": {
+      "name": "Dividende",
+      "definition": "L'opération est le paiement de dividendes."
+    },
+    "DVPM": {
+      "name": "Livraison contre paiement",
+      "definition": "Code utilisé pour préavertir le teneur de compte d'une prochaine instruction de livraison contre paiement."
+    },
+    "EPAY": {
+      "name": "Paiement électronique",
+      "definition": "L'opération se rapporte à un ePayment."
+    },
+    "FCIN": {
+      "name": "Perception de frais et intérêts",
+      "definition": "L'opération se rapporte au paiement de frais et d'intérêts."
+    },
+    "FCOL": {
+      "name": "Perception de frais",
+      "definition": "Service qui règle les frais liés aux opérations par carte entre deux parties."
+    },
+    "GP2P": {
+      "name": "Paiement de personne à personne",
+      "definition": "Paiement général de particulier à particulier. Le débiteur et le créancier sont des personnes physiques."
+    },
+    "GOVT": {
+      "name": "Paiement public",
+      "definition": "L'opération est un paiement à destination ou en provenance d'une administration publique."
+    },
+    "HEDG": {
+      "name": "Couverture",
+      "definition": "L'opération se rapporte au paiement d'une opération de couverture."
+    },
+    "ICCP": {
+      "name": "Paiement irrévocable par carte de crédit",
+      "definition": "L'opération est le remboursement d'un paiement par carte de crédit."
+    },
+    "IDCP": {
+      "name": "Paiement irrévocable par carte de débit",
+      "definition": "L'opération est le remboursement d'un paiement par carte de débit."
+    },
+    "INTC": {
+      "name": "Paiement intra-entreprise",
+      "definition": "L'opération est un paiement intragroupe, c'est-à-dire un paiement entre deux sociétés appartenant au même groupe."
+    },
+    "INTE": {
+      "name": "Intérêts",
+      "definition": "L'opération est le paiement d'intérêts."
+    },
+    "LBOX": {
+      "name": "Opérations de boîte postale (lockbox)",
+      "definition": "L'opération se rapporte à l'identification d'un traitement d'espèces via un coffre de nuit ou une boîte de dépôt (Lockbox) par une banque ou un prestataire pour le compte d'un point de vente physique."
+    },
+    "LOAN": {
+      "name": "Prêt",
+      "definition": "L'opération se rapporte au transfert d'un prêt à un emprunteur."
+    },
+    "MP2B": {
+      "name": "Commercial",
+      "definition": "Paiement mobile P2B"
+    },
+    "MP2P": {
+      "name": "Consommateur",
+      "definition": "Paiement mobile P2P"
+    },
+    "OTHR": {
+      "name": "Autre paiement",
+      "definition": "Autre motif de paiement."
+    },
+    "PENS": {
+      "name": "Paiement de pension",
+      "definition": "L'opération est le paiement d'une pension."
+    },
+    "RPRE": {
+      "name": "Représenté",
+      "definition": "Prélèvement utilisé pour représenter des opérations de prélèvement précédemment annulées ou retournées."
+    },
+    "RRCT": {
+      "name": "Virement de remboursement reçu",
+      "definition": "L'opération se rapporte à un remboursement, pour des raisons commerciales, d'un virement correctement reçu."
+    },
+    "RVPM": {
+      "name": "Réception contre paiement",
+      "definition": "Code utilisé pour préavertir le teneur de compte d'une prochaine instruction de réception contre paiement."
+    },
+    "SALA": {
+      "name": "Paiement de salaire",
+      "definition": "L'opération est le paiement de salaires."
+    },
+    "SECU": {
+      "name": "Titres",
+      "definition": "L'opération est le paiement de titres."
+    },
+    "SSBE": {
+      "name": "Prestation de sécurité sociale",
+      "definition": "L'opération est une prestation de sécurité sociale, c'est-à-dire un paiement effectué par une administration publique pour soutenir des personnes."
+    },
+    "SUPP": {
+      "name": "Paiement fournisseur",
+      "definition": "L'opération se rapporte à un paiement à un fournisseur."
+    },
+    "TAXS": {
+      "name": "Paiement d'impôt",
+      "definition": "L'opération est le paiement d'impôts et taxes."
+    },
+    "TRAD": {
+      "name": "Transaction",
+      "definition": "L'opération se rapporte au paiement d'une opération de financement du commerce."
+    },
+    "TREA": {
+      "name": "Paiement de trésorerie",
+      "definition": "L'opération se rapporte à des opérations de trésorerie, par exemple le règlement d'un contrat financier."
+    },
+    "VATX": {
+      "name": "Paiement de TVA",
+      "definition": "L'opération est le paiement de la taxe sur la valeur ajoutée."
+    },
+    "WHLD": {
+      "name": "Retenue à la source",
+      "definition": "L'opération est le paiement d'une retenue à la source."
+    },
+    "SWEP": {
+      "name": "Compte de balayage de gestion de trésorerie",
+      "definition": "Classification : gestion de trésorerie. L'opération se rapporte à une instruction de gestion de trésorerie demandant le balayage du compte du débiteur au-delà d'un montant plancher convenu, jusqu'à un solde cible ou nul.|L'objectif est de transférer les fonds de plusieurs comptes vers un compte bancaire unique. Les fonds peuvent circuler au niveau national ou à l'international, et plusieurs banques peuvent être utilisées."
+    },
+    "TOPG": {
+      "name": "Compte principal de gestion de trésorerie",
+      "definition": "Classification : gestion de trésorerie. L'opération se rapporte à une instruction de gestion de trésorerie demandant d'alimenter le compte du créancier au-delà d'un certain montant plancher, jusqu'à un solde cible ou nul. |Le montant plancher, s'il n'a pas été convenu au préalable entre les parties concernées, peut être précisé."
+    },
+    "ZABA": {
+      "name": "Compte à solde nul de gestion de trésorerie",
+      "definition": "L'opération se rapporte à une instruction de gestion de trésorerie demandant la remise à zéro du solde du compte du débiteur.|Les comptes à solde zéro vident ou alimentent chaque jour les soldes de comptes tenus dans la même banque, dans le même pays, vers ou depuis un compte principal."
+    },
+    "VOST": {
+      "name": "Paiements MI transfrontaliers",
+      "definition": "L'opération doit être traitée comme une instruction de paiement national émanant d'une banque étrangère."
+    },
+    "FCDT": {
+      "name": "Virement national en devises",
+      "definition": "Opération en devise étrangère traitée entre deux établissements financiers nationaux."
+    },
+    "CIPC": {
+      "name": "Dépôt d'espèces avec crédit préalable",
+      "definition": "L'opération est un prélèvement pour une commande d'espèces en billets et/ou en pièces."
+    },
+    "CONC": {
+      "name": "Retrait d'espèces (billets et pièces)",
+      "definition": "L'opération est un prélèvement pour une commande d'espèces en billets et/ou en pièces."
+    },
+    "CGWV": {
+      "name": "Valeurs de gros sous garde du transporteur",
+      "definition": "L'opération est un paiement à une partie pour la collecte d'espèces par la société de transport de fonds."
+    },
+    "SAVG": {
+      "name": "Épargne",
+      "definition": "Transfert vers ou depuis un compte d'épargne ou un compte de retraite."
+    },
+    "CTDF": {
+      "name": "Paiement Dodd-Frank 1073",
+      "definition": "Opération transfrontalière initiée par une personne physique US et soumise à la conformité avec Dodd Frank 1073."
+    },
+    "CPAY": {
+      "name": "Paiement de sinistre",
+      "definition": "L'opération se rapporte au paiement d'une indemnisation via un système de paiement des sinistres."
+    },
+    "CDIS": {
+      "name": "Règlement de sinistre complémentaire",
+      "definition": "Traitement complémentaire faisant suite à un paiement d'indemnisation effectué via un système de paiement des sinistres."
+    },
+    "CRYP": {
+      "name": "Crypto-actifs",
+      "definition": "L'opération se rapporte à l'achat ou à la vente de crypto-actifs."
+    }
+  }
+}

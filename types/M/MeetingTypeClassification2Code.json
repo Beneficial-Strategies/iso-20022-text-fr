@@ -1,0 +1,26 @@
+{
+  "isoType": "MeetingTypeClassification2Code",
+  "definition": "Classifie le type d'assemblée.",
+  "isoCodes": {
+    "AMET": {
+      "name": "Annuel",
+      "definition": "Assemblée tenue périodiquement pour approuver les états financiers et élire les membres du conseil d'administration et les commissaires aux comptes."
+    },
+    "CLAS": {
+      "name": "Catégorie",
+      "definition": "Assemblée des porteurs d'un type d'actif particulier, par exemple des actions de préférence ou des obligations."
+    },
+    "ISSU": {
+      "name": "Initiée par l'émetteur",
+      "definition": "L'assemblée résulte d'une obligation ou d'une décision de l'émetteur, par opposition à une assemblée convoquée à l'initiative des détenteurs de droits de vote, par exemple une assemblée contestée."
+    },
+    "OMET": {
+      "name": "Ordinaire",
+      "definition": "Assemblée prévue par les statuts."
+    },
+    "VRHI": {
+      "name": "Initiée par le titulaire de droits de vote",
+      "definition": "L'assemblée résulte d'une demande ou d'une action d'un ou de plusieurs détenteurs de droits de vote, par exemple une assemblée contestée."
+    }
+  }
+}

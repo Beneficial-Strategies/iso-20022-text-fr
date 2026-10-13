@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason81Choice",
+  "definition": "Choix entre un code standard et un code propriétaire pour préciser le motif pour lequel l'instruction ou l'événement a un statut en attente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif d'attente précisé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif d'attente précisé sous forme de code propriétaire."
+    }
+  }
+}

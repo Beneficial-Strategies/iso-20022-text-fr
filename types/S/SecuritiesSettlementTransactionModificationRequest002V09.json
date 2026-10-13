@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesSettlementTransactionModificationRequest002V09",
+  "definition": "Périmètre|Le SecuritiesSettlementTransactionModificationRequest est envoyé par un titulaire de compte à un teneur de compte. ||Le titulaire de compte sera généralement :|- un participant d'un dépositaire central de titres qui détient un compte auprès d'un dépositaire central de titres ou d'une infrastructure de marché|- un gestionnaire d'investissements qui détient un compte auprès d'un conservateur agissant comme agent comptable et/ou de règlement.||Il sert à demander la modification de données métier non essentielles (d'appariement ou non) d'une instruction en attente ou réglée. Il peut aussi servir à enrichir une opération incomplète.||Utilisation|La modification ne doit contenir que les données à modifier.|Le message peut aussi servir à :|- renvoyer un message envoyé par le titulaire de compte au teneur de compte,|- fournir à un tiers, à titre d'information, une copie d'un message envoyé par le titulaire de compte,|- renvoyer à un tiers, à titre d'information, une copie d'un message envoyé par le titulaire de compte en utilisant les éléments pertinents de l'en-tête applicatif métier (Business Application Header).",
+  "isoRules": {
+    "PhysicalInstructionDetailsUsageRule": {
+      "definition": "AdditionalPhysicalOrRegistrationDetails ne peut être utilisé qu'avec des instructions franco de paiement."
+    },
+    "SecuritiesFinancingSettlementUsageRule": {
+      "definition": "Dans le cadre du financement sur titres (repo, reverse repo, prêt de titres, emprunt de titres), SettlementInstruction ne peut être utilisé que pour le règlement standard de la jambe d'ouverture et de la jambe de clôture."
+    },
+    "LinkagesUsageRule": {
+      "definition": "Les liens ne peuvent être utilisés que pour modifier la quantité appariée ou retournée (Paired or Turned Quantity). Les changements de liaison et de déliaison doivent être effectués avec le SecuritiesSettlementConditionsModificationRequest."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesBalanceType9Code",
+  "definition": "Précise le type de solde de titres.",
+  "isoCodes": {
+    "AVLB": {
+      "name": "Disponible",
+      "definition": "Solde de fonds ou de titres dont dispose le titulaire du compte à la date indiquée."
+    },
+    "ELEC": {
+      "name": "Choisi",
+      "definition": "Solde de la position instruite."
+    },
+    "UNEL": {
+      "name": "Non choisi",
+      "definition": "Solde de la position non instruite."
+    },
+    "RDIS": {
+      "name": "Réservé pour distribution",
+      "definition": "Solde d'instruments financiers réservés pour la distribution du produit."
+    },
+    "RREM": {
+      "name": "Réservé pour retrait",
+      "definition": "Solde de titres réservés temporairement sur le compte du SPA avant d'être effectivement échangés."
+    }
+  }
+}

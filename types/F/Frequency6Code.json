@@ -1,0 +1,42 @@
+{
+  "isoType": "Frequency6Code",
+  "definition": "Précise la régularité d'un événement.",
+  "isoCodes": {
+    "YEAR": {
+      "name": "Annuelle",
+      "definition": "L'événement a lieu tous les ans ou une fois par an."
+    },
+    "MNTH": {
+      "name": "Mensuelle",
+      "definition": "L'événement a lieu tous les mois ou une fois par mois."
+    },
+    "QURT": {
+      "name": "Trimestrielle",
+      "definition": "L'événement a lieu tous les trois mois ou quatre fois par an."
+    },
+    "MIAN": {
+      "name": "Semestrielle",
+      "definition": "L'événement a lieu tous les six mois ou deux fois par an."
+    },
+    "WEEK": {
+      "name": "Hebdomadaire",
+      "definition": "L'événement a lieu une fois par semaine."
+    },
+    "DAIL": {
+      "name": "Quotidienne",
+      "definition": "L'événement a lieu tous les jours."
+    },
+    "ADHO": {
+      "name": "Ponctuelle",
+      "definition": "L'événement a lieu sur demande ou en cas de besoin."
+    },
+    "INDA": {
+      "name": "Intrajournalière",
+      "definition": "L'événement a lieu plusieurs fois par jour."
+    },
+    "FRTN": {
+      "name": "Bimensuelle",
+      "definition": "L'événement a lieu toutes les deux semaines."
+    }
+  }
+}

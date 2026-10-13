@@ -1,0 +1,12 @@
+{
+  "isoType": "Acquirer7",
+  "definition": "Acquéreur de l'opération de retrait, chargé du règlement des fonds avec l'émetteur.",
+  "isoElements": {
+    "AcquiringInstitution": {
+      "definition": "Identification de l'acquéreur."
+    },
+    "Branch": {
+      "definition": "Identification de l'agence de l'acquéreur."
+    }
+  }
+}

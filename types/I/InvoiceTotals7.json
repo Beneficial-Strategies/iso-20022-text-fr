@@ -1,0 +1,21 @@
+{
+  "isoType": "InvoiceTotals7",
+  "definition": "Précise les totaux relatifs à la facture.",
+  "isoElements": {
+    "Tax": {
+      "definition": "Informations détaillées sur la taxe appliquée."
+    },
+    "Adjustment": {
+      "definition": "Écart sur le montant de la facture, compte tenu des remises, des déductions et des frais."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Montant total de la facture, égal à la somme des montants totaux des lignes de facture, du montant total des ajustements de la facture (remises, déductions et frais) et des montants totaux de taxes."
+    },
+    "PaymentDueDate": {
+      "definition": "Date d'échéance du paiement de la facture."
+    },
+    "CashAccount": {
+      "definition": "Compte espèces duquel les frais sont payés."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "MultilateralSettlementRequestV02",
+  "definition": "Le message MultilateralSettlementRequest est envoyé par un agent instructeur à une infrastructure de marché pour régler les obligations entre leurs participants au moyen de comptes détenus dans un service de règlement.||Utilisation : le message MultilateralSettlementRequest peut contenir une ou plusieurs instructions de règlement comportant plusieurs mouvements entre comptes. Par défaut, tous les mouvements présents dans une instruction individuelle sont traités comme une écriture groupée plutôt que comme une écriture unique par mouvement individuel."
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAElectionCancellationRequestV01",
+  "definition": "Portée|Ce message est envoyé par un CSD à l'émetteur (ou à son agent) pour demander l'annulation d'un message Agent Corporate Action Election Advice envoyé précédemment.|Utilisation|Ce message ne peut être utilisé que pour annuler dans son intégralité un message Agent Corporate Action Election Advice précédemment envoyé par le CSD. Aucune annulation partielle n'est autorisée.|Ce message doit contenir l'identification de l'Agent Corporate Action Election Advice à annuler, l'identification de l'agent et les références de l'opération sur titres. Ce message peut également contenir des détails de l'avis d'option à annuler, mais cela n'est pas recommandé."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification15",
+  "definition": "Structure organisée constituée à une fin particulière, par exemple une entreprise, un organisme public, un service, une organisation caritative ou un établissement financier.",
+  "isoElements": {
+    "Country": {
+      "definition": "Pays dans lequel l'organisation est immatriculée."
+    },
+    "Identification": {
+      "definition": "Description d'une organisation."
+    }
+  }
+}

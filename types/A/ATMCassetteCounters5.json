@@ -1,0 +1,48 @@
+{
+  "isoType": "ATMCassetteCounters5",
+  "definition": "Compteurs de supports à l'intérieur d'une cassette d'ATM.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de compteurs."
+    },
+    "AddedNumber": {
+      "definition": "Nombre de supports ajoutés lors des opérations de maintenance."
+    },
+    "RemovedNumber": {
+      "definition": "Nombre de supports retirés lors des opérations de maintenance."
+    },
+    "RemovedAmount": {
+      "definition": "Montant des supports retirés lors des opérations de maintenance."
+    },
+    "DispensedNumber": {
+      "definition": "Nombre total de supports sortis de la cassette."
+    },
+    "DepositedNumber": {
+      "definition": "Nombre total de supports déposés dans la cassette."
+    },
+    "DepositedAmount": {
+      "definition": "Montant de supports déposés dans la cassette."
+    },
+    "RecycledNumber": {
+      "definition": "Nombre total de supports recyclés provenant de la cassette."
+    },
+    "RetractedNumber": {
+      "definition": "Nombre total de supports rétractés provenant de la cassette."
+    },
+    "RetractedAmount": {
+      "definition": "Montant total rétracté pendant l'opération. À utiliser uniquement lorsque les éléments de la cassette n'ont pas tous la même valeur (par exemple pour la rétraction de chèques)."
+    },
+    "RejectedNumber": {
+      "definition": "Nombre total de supports de cette cassette qui se trouvent dans le bac de rejet."
+    },
+    "PresentedNumber": {
+      "definition": "Nombre total de supports présentés au client."
+    },
+    "InitialNumber": {
+      "definition": "Nombre initial ajouté lors d'une opération de maintenance."
+    },
+    "InitialAmount": {
+      "definition": "Montant initial ajouté lors d'une opération de maintenance."
+    }
+  }
+}

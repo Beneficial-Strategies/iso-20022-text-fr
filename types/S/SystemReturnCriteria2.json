@@ -1,0 +1,18 @@
+{
+  "isoType": "SystemReturnCriteria2",
+  "definition": "Définit les critères utilisés pour établir un rapport sur un système ou un membre du système.",
+  "isoElements": {
+    "SystemIdentificationIndicator": {
+      "definition": "Indique si l'identification du système est demandée."
+    },
+    "MemberIdentificationIndicator": {
+      "definition": "Indique si l'identification du membre est demandée."
+    },
+    "CountryIdentificationIndicator": {
+      "definition": "Indique si l'identification du pays est demandée."
+    },
+    "AccountIdentificationIndicator": {
+      "definition": "Indique si l'identification du compte est demandée."
+    }
+  }
+}

@@ -1,7 +1,0 @@
-{
- "AmountConsistencyType1Code/CONS": "Les informations sur le montant correspondent à l'enregistrement de données de référence.",
- "AmountConsistencyType1Code/ICFA": "Les informations sur le montant confirmé au créancier ne correspondent pas à l'enregistrement de données de référence.",
- "AmountConsistencyType1Code/ICGA": "Les informations sur le montant des frais ne correspondent pas à l'enregistrement de données de référence.",
- "AmountConsistencyType1Code/ICNS": "Les informations sur le montant ne correspondent pas à l'enregistrement de données de référence.",
- "AmountConsistencyType1Code/IISA": "Les informations sur le montant de règlement interbancaire ne correspondent pas à l'enregistrement de données de référence."
-}

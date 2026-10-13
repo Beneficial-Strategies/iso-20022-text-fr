@@ -1,0 +1,18 @@
+{
+  "isoType": "KnowYourCustomerCheckType1Code",
+  "definition": "Indique le type de diligence raisonnable « Know Your Customer » (KYC) ou de lutte contre le blanchiment d'argent auquel l'investisseur a été soumis.",
+  "isoCodes": {
+    "ENHA": {
+      "name": "Renforcé",
+      "definition": "Vérification renforcée, généralement effectuée sur les comptes considérés comme à haut risque."
+    },
+    "ORDN": {
+      "name": "Ordinaire",
+      "definition": "Vérification ordinaire, généralement effectuée sur les comptes standard."
+    },
+    "SIMP": {
+      "name": "Simple",
+      "definition": "Vérification simplifiée, généralement effectuée sur les comptes présentant un faible risque de blanchiment d'argent, tels qu'un compte détenu par un établissement financier."
+    }
+  }
+}

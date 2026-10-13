@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountManagementType2Code",
+  "definition": "Renvoie à une instruction de gestion de compte, c'est-à-dire soit une instruction d'ouverture de compte, soit une instruction de modification de compte, soit un message de demande de détails de compte.",
+  "isoCodes": {
+    "ACCO": {
+      "name": "Ouverture de compte",
+      "definition": "Renvoie à un message d'instruction d'ouverture de compte."
+    },
+    "ACCM": {
+      "name": "Modification de compte",
+      "definition": "Renvoie à un message d'instruction de modification de compte."
+    },
+    "GACC": {
+      "name": "Obtention des détails du compte",
+      "definition": "Renvoie à un message de demande de détails de compte."
+    }
+  }
+}

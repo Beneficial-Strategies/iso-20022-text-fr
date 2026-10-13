@@ -1,0 +1,17 @@
+{
+  "isoType": "ProprietaryReason4",
+  "definition": "Identification propriétaire du motif lié à un statut.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Identification propriétaire du motif lié à un statut."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur l'instruction traitée."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "L'élément AdditionalReasonInformation ne doit pas contenir d'informations pouvant être fournies dans un champ structuré, sauf accord bilatéral."
+    }
+  }
+}

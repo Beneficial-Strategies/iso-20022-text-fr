@@ -1,0 +1,12 @@
+{
+  "isoType": "ReturnedStatus1",
+  "definition": "Les unités instruites sont retournées ou partiellement retournées à la partie donneuse d'ordre.",
+  "isoElements": {
+    "ReturnedQuantity": {
+      "definition": "Quantité de titres qui ont été retournés."
+    },
+    "ReturnedReason": {
+      "definition": "Motif du statut en attente."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchInformationRequestV06",
+  "definition": "Le message AccountSwitchInformationRequest est envoyé par la nouvelle banque tenant le compte à la banque qui tenait précédemment le compte, afin de lancer le processus de changement de compte. Il fournit des informations suffisantes pour que l'ancienne banque tenant le compte identifie l'ancien compte et valide les parties au compte. La nouvelle banque tenant le compte peut informer l'ancienne banque du financement maximal que le nouveau compte fournira pour régler un solde de clôture négatif et de la fenêtre de transfert de solde proposée."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason23",
+  "definition": "Précise le motif pour lequel l'instruction ou la demande est annulée.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction est annulée."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Fournit l’identification de l’événement sur titres à l’origine de l’annulation."
+    }
+  }
+}

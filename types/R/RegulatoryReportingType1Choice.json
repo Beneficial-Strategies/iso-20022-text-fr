@@ -1,0 +1,12 @@
+{
+  "isoType": "RegulatoryReportingType1Choice",
+  "definition": "Type de déclaration réglementaire.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de déclaration réglementaire, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Type de déclaration réglementaire, sous forme propriétaire."
+    }
+  }
+}

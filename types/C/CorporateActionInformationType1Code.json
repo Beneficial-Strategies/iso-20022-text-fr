@@ -1,0 +1,10 @@
+{
+  "isoType": "CorporateActionInformationType1Code",
+  "definition": "Précise le type d'événement d'information.",
+  "isoCodes": {
+    "CONF": {
+      "name": "Conférence téléphonique",
+      "definition": "L'information concerne un appel informel lorsqu'un émetteur, un fiduciaire ou un agent souhaite s'entretenir avec les porteurs de titres afin de discuter d'une question donnée ou d'une modification potentielle des titres ; aucun propos tenu n'étant contraignant."
+    }
+  }
+}

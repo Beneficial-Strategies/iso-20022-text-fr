@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesAccount6",
+  "definition": "Fournit des informations sur le compte-titres.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identification de l'instrument financier."
+    },
+    "SecuritiesAccountIdentification": {
+      "definition": "Identification du compte où les instruments financiers sont conservés."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identification de la partie qui détient le compte."
+    },
+    "SafekeepingPlace": {
+      "definition": "Identification du lieu de conservation."
+    },
+    "RegistrationDetails": {
+      "definition": "Fournit les informations requises pour l'enregistrement du titre."
+    }
+  }
+}

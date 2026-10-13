@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalPaymentMethode1Code",
+  "definition": "Précise le mode de paiement du règlement du facturier au destinataire de la facture.|La liste des codes valides est une liste de codes externe publiée séparément.|Les listes de codes externes peuvent être téléchargées depuis www.iso20022.org."
+}

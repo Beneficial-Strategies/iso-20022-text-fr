@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentAmount1",
+  "definition": "Fournit des détails sur le montant et le type du document visé.",
+  "isoElements": {
+    "Type": {
+      "definition": "Définit le type de montant."
+    },
+    "Amount": {
+      "definition": "Montant du document visé."
+    }
+  }
+}

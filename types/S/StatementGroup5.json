@@ -1,0 +1,24 @@
+{
+  "isoType": "StatementGroup5",
+  "definition": "Groupe de l'en-tête du relevé rendant compte de la facturation des services bancaires et du relevé de facturation.",
+  "isoElements": {
+    "GroupIdentification": {
+      "definition": "Identification d'un groupe de relevés de facturation de clients."
+    },
+    "Sender": {
+      "definition": "Établissement financier d'origine qui envoie le relevé."
+    },
+    "SenderIndividualContact": {
+      "definition": "Précise la personne à contacter en cas de problème technique sur le site de l'expéditeur."
+    },
+    "Receiver": {
+      "definition": "Client de l'établissement financier qui reçoit le relevé."
+    },
+    "ReceiverIndividualContact": {
+      "definition": "Précise la personne à contacter en cas de problème technique sur le site du destinataire."
+    },
+    "BillingStatement": {
+      "definition": "Fournit le relevé de facturation des services bancaires récapitulant tous les événements facturables survenus au cours d'un cycle de déclaration, tel que le relevé de fin de mois."
+    }
+  }
+}

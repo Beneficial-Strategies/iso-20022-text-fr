@@ -1,0 +1,14 @@
+{
+  "isoType": "AmountPriceType3Code",
+  "definition": "Précise le type de prix en montant.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Montant réel",
+      "definition": "Prix exprimé sous forme de devise et de montant par unité ou par action."
+    },
+    "PLOT": {
+      "name": "Lot",
+      "definition": "Prix exprimé sous forme de montant d'argent par lot."
+    }
+  }
+}

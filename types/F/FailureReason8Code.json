@@ -1,0 +1,38 @@
+{
+  "isoType": "FailureReason8Code",
+  "definition": "Exception survenant en dehors du service.",
+  "isoCodes": {
+    "CDRT": {
+      "name": "Carte retenue",
+      "definition": "La carte a été retenue par le ATM ou le terminal."
+    },
+    "CDCP": {
+      "name": "Carte avalée",
+      "definition": "Le gestionnaire de ATM a demandé la capture de la carte."
+    },
+    "CUCL": {
+      "name": "Annulation par le client",
+      "definition": "Annulation par le client, par exemple retrait de la carte avant la fin de l'opération."
+    },
+    "CDFG": {
+      "name": "Carte oubliée",
+      "definition": "Le client a laissé la carte dans le ATM ou dans un lecteur de cartes motorisé."
+    },
+    "MALF": {
+      "name": "Dysfonctionnement",
+      "definition": "Dysfonctionnement suspecté."
+    },
+    "SECU": {
+      "name": "Erreur de sécurité",
+      "definition": "Une erreur de sécurité s'est produite dans le message de réponse d'autorisation envoyé par l'acquéreur."
+    },
+    "SFRD": {
+      "name": "Fraude suspectée",
+      "definition": "L'opération de paiement par carte échoue car le commerçant soupçonne une fraude."
+    },
+    "UCPT": {
+      "name": "Impossible de capturer",
+      "definition": "Impossible de capturer la carte comme demandé."
+    }
+  }
+}

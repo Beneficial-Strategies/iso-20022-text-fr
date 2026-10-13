@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingType1Choice",
+  "definition": "Type de restrictions de traitement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de restrictions de traitement, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Type de restrictions de traitement, sous forme propriétaire."
+    }
+  }
+}

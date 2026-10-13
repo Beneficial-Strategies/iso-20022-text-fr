@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatusReason14",
+  "definition": "Motif d'un statut en attente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut en attente du compte."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le motif du statut en attente du compte."
+    }
+  }
+}

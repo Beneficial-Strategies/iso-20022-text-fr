@@ -1,0 +1,74 @@
+{
+  "isoType": "PINFormat4Code",
+  "definition": "Format d'un bloc PIN d'ATM avant chiffrement.",
+  "isoCodes": {
+    "ANSI": {
+      "name": "ANSI0",
+      "definition": "Format de bloc PIN ANSI 0."
+    },
+    "BNCM": {
+      "name": "Bancomat",
+      "definition": "Format de bloc PIN Bancomat italien."
+    },
+    "BKSY": {
+      "name": "Banksys",
+      "definition": "Format de bloc PIN Banksys."
+    },
+    "DBLD": {
+      "name": "Diebold",
+      "definition": "Format de bloc PIN Diebold."
+    },
+    "DBLC": {
+      "name": "DieboldCO",
+      "definition": "Format de bloc PIN Diebold CO."
+    },
+    "ECI2": {
+      "name": "ECI2",
+      "definition": "Format de bloc PIN ECI2."
+    },
+    "ECI3": {
+      "name": "ECI3",
+      "definition": "Format de bloc PIN ECI3."
+    },
+    "EMVS": {
+      "name": "EMVRSA",
+      "definition": "Format de bloc PIN EMV ISO2 chiffré avec la clé cryptographique RSA EMV pour le PIN."
+    },
+    "IBM3": {
+      "name": "IBM3624",
+      "definition": "Format de bloc PIN IBM 3624."
+    },
+    "ISO0": {
+      "name": "ISO0",
+      "definition": "PIN diversifié avec le numéro de compte de la carte, conformément à la norme ISO 9564-2."
+    },
+    "ISO1": {
+      "name": "ISO1",
+      "definition": "PIN complété par des caractères de remplissage aléatoires, conformément à la norme ISO 9564-2."
+    },
+    "ISO2": {
+      "name": "ISO2",
+      "definition": "PIN sans caractères de diversification, conformément à la norme ISO 9564-2."
+    },
+    "ISO3": {
+      "name": "ISO3",
+      "definition": "PIN diversifié avec le numéro de compte de la carte et des caractères aléatoires, conformément à la norme ISO 9564-2."
+    },
+    "ISO4": {
+      "name": "ISO4",
+      "definition": "Format de PIN utilisé avec le chiffrement AES, conforme au nouveau format ISO SC2."
+    },
+    "ISO5": {
+      "name": "ISO5",
+      "definition": "Autre format de PIN utilisé avec le chiffrement AES, conforme au nouveau format ISO SC2."
+    },
+    "VIS2": {
+      "name": "VISA2",
+      "definition": "Format de bloc PIN VISA2."
+    },
+    "VIS3": {
+      "name": "VISA3",
+      "definition": "Format de bloc PIN VISA3."
+    }
+  }
+}

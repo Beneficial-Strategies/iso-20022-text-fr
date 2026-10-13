@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessedStatus6Code",
+  "definition": "Précise le statut de traitement d'une instruction de désactivation.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Reçu",
+      "definition": "L'instruction/la demande a été reçue."
+    },
+    "DEAC": {
+      "name": "En attente de la date de désactivation",
+      "definition": "En attente de la date de désactivation."
+    },
+    "COMP": {
+      "name": "Terminé",
+      "definition": "La demande a été traitée."
+    }
+  }
+}

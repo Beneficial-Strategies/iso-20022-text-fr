@@ -1,0 +1,18 @@
+{
+  "isoType": "CharacterSearch1Choice",
+  "definition": "Ensemble de caractères à faire correspondre pour être considéré comme valide.",
+  "isoElements": {
+    "Equal": {
+      "definition": "Ensemble exact de caractères devant correspondre pour être considéré comme valide."
+    },
+    "NotEqual": {
+      "definition": "Ensemble exact de caractères ne devant pas correspondre pour être considéré comme valide."
+    },
+    "Contain": {
+      "definition": "Ensemble de caractères devant correspondre pour être considéré comme valide."
+    },
+    "NotContain": {
+      "definition": "Ensemble de caractères ne devant pas correspondre pour être considéré comme valide."
+    }
+  }
+}

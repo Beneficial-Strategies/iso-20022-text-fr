@@ -1,0 +1,30 @@
+{
+  "isoType": "PaymentRole1Code",
+  "definition": "Rôle associé à une partie donnée en relation avec une instruction de paiement. Le rôle identifie soit la fonction spécifique de la partie, soit ses droits relatifs à la gestion de l'instruction.",
+  "isoCodes": {
+    "LQMG": {
+      "name": "Gestionnaire de liquidité",
+      "definition": "Partie d'un établissement financier responsable de la gestion des liquidités de l'établissement financier. Cette partie a accès à certaines fonctions disponibles sur le système, telles que les transferts de liquidités ou la gestion des instructions permanentes de contrôle des liquidités."
+    },
+    "LMMG": {
+      "name": "Gestionnaire de limites",
+      "definition": "Partie d'un établissement financier responsable de la gestion des limites. Cette partie est chargée de fixer, de modifier ou de suspendre les limites, selon les besoins de la gestion du risque de contrepartie ou de la maîtrise du risque systémique."
+    },
+    "PYMG": {
+      "name": "Gestionnaire de paiements",
+      "definition": "Partie d'un établissement financier responsable de la gestion du traitement des paiements de l'établissement financier. Cela comprend l'autorisation, le recyclage et la modification des opérations de paiement."
+    },
+    "REDR": {
+      "name": "Lecteur",
+      "definition": "Partie d'un établissement financier habilitée à obtenir des informations du système, mais sans pouvoir agir sur ces informations ni les modifier."
+    },
+    "BKMG": {
+      "name": "Gestionnaire de secours",
+      "definition": "Partie responsable de la gestion des fonctions de reprise liées à un système."
+    },
+    "STMG": {
+      "name": "Gestionnaire de règlement",
+      "definition": "Partie d'un établissement financier responsable de la gestion du traitement du règlement."
+    }
+  }
+}

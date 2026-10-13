@@ -1,0 +1,14 @@
+{
+  "isoType": "AllegementStatus1Code",
+  "definition": "Précise le statut d'une allégation.",
+  "isoCodes": {
+    "CANC": {
+      "name": "Annulé",
+      "definition": "L'allégation a été annulée depuis le relevé delta précédent. L'allégation a été annulée en raison d'une erreur de l'expéditeur ou parce que la partie alléguante a annulé son instruction."
+    },
+    "REMO": {
+      "name": "Supprimé",
+      "definition": "L'allégation a été retirée depuis le relevé delta précédent. L'allégation a été retirée parce que la partie visée par l'allégation a envoyé son instruction."
+    }
+  }
+}

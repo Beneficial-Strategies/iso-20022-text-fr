@@ -1,0 +1,12 @@
+{
+  "isoType": "InitialAmount1Choice",
+  "definition": "Choix d'un montant initial ou d'un nombre d'échéances prépayées.",
+  "isoElements": {
+    "InitialNumberOfInstalments": {
+      "definition": "Nombre de périodes d'échéance prépayées au moment de la création du plan d'investissement."
+    },
+    "Amount": {
+      "definition": "Montant à payer ou à racheter au moment de la création du plan d'investissement."
+    }
+  }
+}

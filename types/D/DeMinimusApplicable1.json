@@ -1,0 +1,12 @@
+{
+  "isoType": "DeMinimusApplicable1",
+  "definition": "Conditions applicables lorsque l'investisseur est couvert par l'exemption « de minimis ».",
+  "isoElements": {
+    "NewIssuePermission": {
+      "definition": "Indique si l'investisseur autorise ses bénéficiaires effectifs qui sont des personnes soumises à restriction, le cas échéant, à participer aux profits et pertes alloués à l'investisseur et attribuables aux titres de nouvelle émission."
+    },
+    "Percentage": {
+      "definition": "Pourcentage des profits et pertes sur nouvelles émissions que l'investisseur reçoit et qui revient aux bénéficiaires effectifs qui sont des personnes soumises à restriction."
+    }
+  }
+}

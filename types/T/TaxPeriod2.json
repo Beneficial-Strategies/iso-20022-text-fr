@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxPeriod2",
+  "definition": "Détails de la période relative au paiement de la taxe.",
+  "isoElements": {
+    "Year": {
+      "definition": "Année relative au paiement de la taxe."
+    },
+    "Type": {
+      "definition": "Identification de la période relative au paiement de la taxe."
+    },
+    "FromToDate": {
+      "definition": "Intervalle de temps entre une date de début et une date de fin pour lequel la déclaration fiscale est fournie."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DateFormat42Choice",
+  "definition": "Choix de formats pour une date.",
+  "isoElements": {
+    "YearMonth": {
+      "definition": "Année et mois."
+    },
+    "YearMonthDay": {
+      "definition": "Année, mois et jour."
+    }
+  }
+}

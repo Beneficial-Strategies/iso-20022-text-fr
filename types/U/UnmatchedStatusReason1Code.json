@@ -1,0 +1,154 @@
+{
+  "isoType": "UnmatchedStatusReason1Code",
+  "definition": "Précise la raison pour laquelle l'opération ou l'instruction n'est pas appariée.",
+  "isoCodes": {
+    "CMIS": {
+      "name": "Instruction de rapprochement introuvable",
+      "definition": "L'instruction correspondante de la contrepartie est introuvable."
+    },
+    "DDAT": {
+      "name": "Désaccord sur la date de règlement",
+      "definition": "La contrepartie n'est pas d'accord avec la date ou l'heure de règlement."
+    },
+    "DELN": {
+      "name": "Désaccord sur le sens de la transaction",
+      "definition": "La contrepartie attend une livraison et non une réception, ou une réception et non une livraison."
+    },
+    "DEPT": {
+      "name": "Désaccord sur le lieu de règlement",
+      "definition": "La contrepartie n'est pas d'accord avec le lieu de règlement."
+    },
+    "DMON": {
+      "name": "Désaccord sur le montant du règlement",
+      "definition": "La contrepartie n'est pas d'accord avec le montant du règlement."
+    },
+    "DDEA": {
+      "name": "Désaccord sur le prix de la transaction",
+      "definition": "La contrepartie n'est pas d'accord avec le prix de l'opération."
+    },
+    "DQUA": {
+      "name": "Désaccord sur la quantité",
+      "definition": "La contrepartie n'est pas d'accord avec la quantité de l'instrument financier."
+    },
+    "CADE": {
+      "name": "Désaccord sur le délai de rappel du rachat",
+      "definition": "Le délai de rappel du rachat ne correspond pas."
+    },
+    "SETR": {
+      "name": "Désaccord sur l'opération de règlement",
+      "definition": "Le type d'opération de règlement ne correspond pas."
+    },
+    "DSEC": {
+      "name": "Désaccord sur le titre",
+      "definition": "La contrepartie n'est pas d'accord avec le titre ou l'émission, par exemple l'ISIN ou un attribut de l'instrument financier diffère."
+    },
+    "VASU": {
+      "name": "Désaccord sur le support à taux variable",
+      "definition": "Le support de taux variable ne correspond pas."
+    },
+    "DTRA": {
+      "name": "Non reconnu",
+      "definition": "La contrepartie ne reconnaît pas l'opération."
+    },
+    "RSPR": {
+      "name": "Désaccord sur la marge de taux de rachat",
+      "definition": "Le taux de marge du rachat ne correspond pas."
+    },
+    "REPO": {
+      "name": "Désaccord sur le taux de rachat",
+      "definition": "Le taux du rachat ne correspond pas."
+    },
+    "CLAT": {
+      "name": "Contrepartie trop tardive pour le rapprochement",
+      "definition": "L'instruction de la contrepartie est arrivée trop tard."
+    },
+    "RERT": {
+      "name": "Désaccord sur le type de taux de rachat",
+      "definition": "Le type de taux du rachat ne correspond pas."
+    },
+    "REPA": {
+      "name": "Désaccord sur le montant du rachat",
+      "definition": "Le montant du rachat ne correspond pas."
+    },
+    "REPP": {
+      "name": "Désaccord sur le montant de la prime de rachat",
+      "definition": "Le montant de la prime de rachat ne correspond pas."
+    },
+    "PHYS": {
+      "name": "Désaccord sur le règlement physique",
+      "definition": "L'instruction de la contrepartie porte sur un règlement physique, et la vôtre non, ou inversement."
+    },
+    "IIND": {
+      "name": "Désaccord sur la référence commune",
+      "definition": "La contrepartie n'est pas d'accord avec la référence commune."
+    },
+    "FRAP": {
+      "name": "Désaccord sur le code de paiement",
+      "definition": "L'instruction de la contrepartie porte sur un règlement libre de paiement, et la vôtre sur un règlement contre paiement, ou inversement."
+    },
+    "PLCE": {
+      "name": "Désaccord sur le lieu de négociation",
+      "definition": "Le lieu de négociation ne correspond pas."
+    },
+    "PODU": {
+      "name": "Instruction éventuellement en double",
+      "definition": "L'instruction est un doublon possible."
+    },
+    "FORF": {
+      "name": "Désaccord sur le montant de rachat forfaitaire",
+      "definition": "Le montant de déchéance du rachat ne correspond pas."
+    },
+    "REGD": {
+      "name": "Désaccord sur les détails d'inscription",
+      "definition": "Il existe des divergences dans les détails d'enregistrement liés à l'opération."
+    },
+    "RTGS": {
+      "name": "Désaccord sur le système RTGS",
+      "definition": "La contrepartie indique un règlement via un système RTGS et vous indiquez un règlement hors RTGS, ou inversement."
+    },
+    "ICAG": {
+      "name": "Agent incorrect",
+      "definition": "La contrepartie a indiqué un agent de livraison ou de réception incorrect."
+    },
+    "CPCA": {
+      "name": "Instruction annulée par la contrepartie",
+      "definition": "La contrepartie a annulé l'opération ou l'instruction."
+    },
+    "CHAR": {
+      "name": "Désaccord sur le montant des frais",
+      "definition": "La contrepartie n'est pas d'accord sur le montant des frais."
+    },
+    "IEXE": {
+      "name": "Acheteur ou vendeur incorrect",
+      "definition": "L'instruction indique un acheteur (receveur) ou un vendeur (livreur) incorrect."
+    },
+    "NCRR": {
+      "name": "Désaccord sur la devise du montant de règlement",
+      "definition": "La contrepartie n'est pas d'accord avec la devise du montant du règlement."
+    },
+    "NMAS": {
+      "name": "Aucun rapprochement commencé",
+      "definition": "Le processus d'appariement n'a pas encore commencé."
+    },
+    "SAFE": {
+      "name": "Désaccord sur le compte de conservation",
+      "definition": "Le compte de conservation utilisé comme critère d'appariement sur le marché concerné ne correspond pas."
+    },
+    "DTRD": {
+      "name": "Désaccord sur la date de transaction",
+      "definition": "La contrepartie n'est pas d'accord avec la date de négociation."
+    },
+    "LATE": {
+      "name": "Votre instruction est trop tardive pour le rapprochement",
+      "definition": "L'instruction a été reçue trop tard pour l'appariement."
+    },
+    "TERM": {
+      "name": "Désaccord sur la date et l'heure de clôture",
+      "definition": "La date ou l'heure de clôture ne correspond pas."
+    },
+    "ICUS": {
+      "name": "Désaccord sur le conservateur récepteur ou livreur",
+      "definition": "Conservateur livreur ou receveur incorrect."
+    }
+  }
+}

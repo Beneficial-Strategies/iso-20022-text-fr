@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementBasisCodeAndDSSCodeChoice",
+  "definition": "Choix entre les formats de la base du relevé.",
+  "isoElements": {
+    "StatementBasisAsCode": {
+      "definition": "Base du relevé exprimée sous la forme d'un code."
+    },
+    "StatementBasisAsDSS": {
+      "definition": "Base du relevé exprimée sous la forme d'un schéma de source de données et d'un code utilisé dans ce schéma."
+    }
+  }
+}

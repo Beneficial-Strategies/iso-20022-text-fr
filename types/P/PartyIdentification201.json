@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification201",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nom et adresse de la partie."
+    },
+    "Identification": {
+      "definition": "Identification de la partie."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "isoType": "SettlementInstructionReason1Code",
+  "definition": "Précise le type d'opération.",
+  "isoCodes": {
+    "CSHI": {
+      "name": "Tous les crédits",
+      "definition": "Règlement de tous les montants au crédit."
+    },
+    "ALLL": {
+      "name": "Tous les crédits et débits",
+      "definition": "Règlement de tous les montants au crédit et au débit."
+    },
+    "CSHO": {
+      "name": "Tous les débits",
+      "definition": "Règlement de tous les montants au débit."
+    },
+    "CHAR": {
+      "name": "Frais",
+      "definition": "Règlement des frais."
+    },
+    "DIVI": {
+      "name": "Dividende",
+      "definition": "Règlement des dividendes."
+    },
+    "INTE": {
+      "name": "Intérêts",
+      "definition": "Règlement des intérêts."
+    },
+    "SAVP": {
+      "name": "Plan d'épargne-investissement",
+      "definition": "Règlement des investissements dans un plan d'épargne."
+    },
+    "REDM": {
+      "name": "Rachat",
+      "definition": "Règlement des rachats ou des volets de rachat d'une opération de transfert."
+    },
+    "SAVE": {
+      "name": "Plan d'épargne",
+      "definition": "Règlement des investissements dans un plan d'épargne et des retraits d'un plan d'épargne."
+    },
+    "BUYI": {
+      "name": "Achat de titres",
+      "definition": "Règlement des achats de titres."
+    },
+    "SELL": {
+      "name": "Vente de titres",
+      "definition": "Règlement des ventes de titres."
+    },
+    "SUBS": {
+      "name": "Souscription",
+      "definition": "Règlement des souscriptions ou des volets de souscription d'une opération de transfert."
+    },
+    "WTHP": {
+      "name": "Retrait du plan d'épargne",
+      "definition": "Règlement des retraits d'un plan d'épargne."
+    },
+    "CORP": {
+      "name": "Opération sur titres",
+      "definition": "Règlement des opérations sur titres."
+    }
+  }
+}

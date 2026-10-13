@@ -1,0 +1,9 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactionsV02",
+  "definition": "Portée|Un teneur de compte, par exemple un agent de transfert, envoie le message StatementOfInvestmentFundTransactions au titulaire du compte, par exemple un gestionnaire d'investissement ou son représentant autorisé, pour fournir le détail des opérations (augmentations et diminutions) sur les avoirs intervenues pendant une période déterminée.|Utilisation|Le message StatementOfInvestmentFundTransactions est utilisé pour lister les opérations sur avoirs d'un compte unique (principal) ou de plusieurs sous-comptes.|Ce message doit être utilisé à une fréquence convenue bilatéralement entre le teneur de compte et le titulaire du compte.|Ce message ne doit pas être utilisé à la place de messages de confirmation.",
+  "isoRules": {
+    "TransactionOnAccountOrSubAccountDetailsRule": {
+      "definition": "Si StatementGeneralDetails/ActivityIndicator est \"true\" ou \"1\" (Oui), alors soit TransactionOnAccount soit SubAccountDetails est obligatoire. Si StatementGeneralDetails/ActivityIndicator est \"false\" ou \"0\" (Non), alors TransactionOnAccount et SubAccountDetails ne sont pas autorisés."
+    }
+  }
+}

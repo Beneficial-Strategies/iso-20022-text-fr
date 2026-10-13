@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentInstrument23",
+  "definition": "Parties au paiement pour le transfert d’espèces du débiteur au créancier.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le virement est destiné à régler, tels que des factures commerciales dans un système de comptes clients."
+    },
+    "Amount": {
+      "definition": "Montant du paiement."
+    },
+    "PaymentDate": {
+      "definition": "Date du paiement."
+    },
+    "CashSettlementDetails": {
+      "definition": "Processus de paiement pour le transfert d’espèces du débiteur au créancier."
+    }
+  }
+}

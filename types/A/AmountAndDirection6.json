@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection6",
+  "definition": "Imputation d'un élément sur un compte de trésorerie, dans le contexte d'une opération de trésorerie, entraînant une augmentation ou une diminution du solde du compte.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant d'argent de l'écriture de trésorerie."
+    },
+    "Sign": {
+      "definition": "Indique que la valeur du montant est positive ou négative."
+    }
+  }
+}

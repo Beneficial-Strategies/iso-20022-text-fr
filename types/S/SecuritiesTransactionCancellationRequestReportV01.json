@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesTransactionCancellationRequestReportV01",
+  "definition": "Le message SecuritiesTransactionCancellationRequestReport est envoyé par une infrastructure de règlement à un titulaire de compte/demandeur pour fournir le détail complet ou les valeurs de statut actuelles des demandes d'annulation de règlement ou de mouvement intra-position, telles que définies dans l'interrogation.|||Le message peut également servir à : ||- renvoyer un message précédemment envoyé (la sous-fonction du message est « Duplicate ») ||- fournir à un tiers une copie d'un message, à titre d'information (la sous-fonction du message est « Copy ») ||- renvoyer à un tiers une copie d'un message, à titre d'information (la sous-fonction du message est « Copy Duplicate »).",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator est égal à Yes (true ou 1), alors Cancellations doit être présent."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator est égal à No (false ou 0), alors Cancellations doit être absent."
+    }
+  }
+}

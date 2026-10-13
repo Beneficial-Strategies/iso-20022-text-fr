@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance1",
+  "definition": "Position agrégée des avoirs détenus dans un compte-titres pour un instrument financier spécifié.",
+  "isoElements": {
+    "ItemDate": {
+      "definition": "Date de la ligne d'avoir dans le relevé."
+    },
+    "Holdings": {
+      "definition": "Soldes et sous-soldes attribués à l'avoir."
+    },
+    "Price": {
+      "definition": "Détails sur la valeur, le type et la source du prix."
+    }
+  }
+}

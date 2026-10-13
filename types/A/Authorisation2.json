@@ -1,0 +1,15 @@
+{
+  "isoType": "Authorisation2",
+  "definition": "Autorisation du titulaire du mandat.",
+  "isoElements": {
+    "MaximumAmountByTransaction": {
+      "definition": "Montant maximal autorisé par le mandat pour chaque opération."
+    },
+    "MaximumAmountByPeriod": {
+      "definition": "Montant maximal autorisé sur une période donnée."
+    },
+    "MaximumAmountByBulkSubmission": {
+      "definition": "Précise le montant maximal pour chaque remise groupée."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TerminalHosting1",
+  "definition": "Entité hébergeant le terminal de l'ATM.",
+  "isoElements": {
+    "Category": {
+      "definition": "Type d'hébergement du terminal de l'ATM."
+    },
+    "Identification": {
+      "definition": "Identifie l'entité hébergeant l'ATM."
+    }
+  }
+}

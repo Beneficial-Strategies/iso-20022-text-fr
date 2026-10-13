@@ -1,0 +1,12 @@
+{
+  "isoType": "BranchAndFinancialInstitutionIdentification6",
+  "definition": "Identification unique et non ambiguë d'un établissement financier ou d'une succursale d'un établissement financier.",
+  "isoElements": {
+    "FinancialInstitutionIdentification": {
+      "definition": "Identification unique et non ambiguë d'un établissement financier, attribuée selon un schéma d'identification internationalement reconnu ou propriétaire."
+    },
+    "BranchIdentification": {
+      "definition": "Identifie une succursale précise d'un établissement financier.||Utilisation : ce composant doit être utilisé lorsque les informations d'identification du composant établissement financier ne permettent pas d'identifier jusqu'au niveau de la succursale."
+    }
+  }
+}

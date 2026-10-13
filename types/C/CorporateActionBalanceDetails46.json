@@ -1,0 +1,68 @@
+{
+  "isoType": "CorporateActionBalanceDetails46",
+  "definition": "Solde de titres éligible et non éligible pour un événement sur titres.",
+  "isoElements": {
+    "TotalEligibleBalance": {
+      "definition": "Solde total de titres éligibles à cet événement sur titres. Le calcul des droits est fondé sur ce solde."
+    },
+    "BlockedBalance": {
+      "definition": "Solde d'instruments financiers bloqués."
+    },
+    "BorrowedBalance": {
+      "definition": "Solde d'instruments financiers empruntés auprès d'une autre partie."
+    },
+    "CollateralInBalance": {
+      "definition": "Solde de titres appartenant à un tiers et détenus à des fins de garantie."
+    },
+    "CollateralOutBalance": {
+      "definition": "Solde de titres appartenant au compte-titres indiqué dans ce message et déposés auprès d'un tiers à des fins de garantie."
+    },
+    "OnLoanBalance": {
+      "definition": "Solde d'instruments financiers prêtés à un tiers."
+    },
+    "PendingDeliveryBalance": {
+      "definition": "Solde d'instruments financiers en attente de livraison."
+    },
+    "PendingReceiptBalance": {
+      "definition": "Solde d'instruments financiers en attente de réception."
+    },
+    "OutForRegistrationBalance": {
+      "definition": "Solde d'instruments financiers en cours de traitement par l'établissement chargé d'enregistrer le nouveau titulaire effectif (ou prête-nom)."
+    },
+    "SettlementPositionBalance": {
+      "definition": "Solde de titres représentant uniquement des opérations dénouées ; les opérations en attente ne sont pas incluses."
+    },
+    "StreetPositionBalance": {
+      "definition": "Solde d'instruments financiers qui restent enregistrés au nom du titulaire effectif précédent."
+    },
+    "TradeDatePositionBalance": {
+      "definition": "Solde de titres fondé sur la date de négociation, par exemple incluant toutes les opérations en attente en plus du solde des opérations dénouées."
+    },
+    "InTransshipmentBalance": {
+      "definition": "Solde de titres physiques en cours de transfert d'un dépositaire/agent à un autre."
+    },
+    "RegisteredBalance": {
+      "definition": "Solde d'instruments financiers enregistrés (au nom d'un prête-nom ou du titulaire effectif)."
+    },
+    "ObligatedBalance": {
+      "definition": "Position que les titulaires de compte doivent restituer au teneur de compte pour participer à l'événement ou pour remplir leur obligation afin que l'événement soit complet, par exemple la restitution de titres pour un tirage annoncé tardivement."
+    },
+    "UninstructedBalance": {
+      "definition": "Solde de la position non instruite."
+    },
+    "InstructedBalance": {
+      "definition": "Solde de la position instruite."
+    },
+    "AffectedBalance": {
+      "definition": "Solde ayant été affecté par le traitement exécuté dans le cadre de l'événement."
+    },
+    "UnaffectedBalance": {
+      "definition": "Solde n'ayant pas été affecté par le traitement exécuté dans le cadre de l'événement."
+    }
+  },
+  "isoRules": {
+    "AffectedAndUnaffectedBalanceRule": {
+      "definition": "UnaffectedBalance et AffectedBalance ne doivent être mentionnés qu'à la suite du traitement exécuté dans le cadre de l'événement. Par exemple les résultats d'un tirage au sort, d'une enchère hollandaise ou d'une offre publique d'achat."
+    }
+  }
+}

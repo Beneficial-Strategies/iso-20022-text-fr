@@ -1,0 +1,14 @@
+{
+  "isoType": "ReturnedStatus1Code",
+  "definition": "Précise le motif pour lequel l'instruction/la demande d'annulation a le statut retourné.",
+  "isoCodes": {
+    "NARR": {
+      "name": "Motif narratif",
+      "definition": "Voir le champ narratif pour le motif."
+    },
+    "PROR": {
+      "name": "Au prorata",
+      "definition": "Actions retournées en raison d'une acceptation proportionnelle."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "isoType": "SecuritiesSettlementTransactionInstructionV13",
+  "definition": "Portée|Un titulaire de compte envoie un SecuritiesSettlementTransactionInstruction à un teneur de compte pour instruire la réception ou la livraison d'instruments financiers avec ou sans paiement, physiquement ou par inscription en compte.|La relation titulaire/teneur de compte peut être :|- un conservateur global qui détient un compte auprès d'un conservateur local, ou|- une société de gestion de placements qui gère un compte de fonds ouvert auprès d'un conservateur, ou|- un courtier qui détient un compte auprès d'un conservateur, ou|- un participant à un dépositaire central de titres qui détient un compte auprès d'un dépositaire central de titres, ou|- un dépositaire central de titres qui détient un compte auprès d'un conservateur, d'un autre dépositaire central de titres ou d'une autre infrastructure de marché de règlement, ou|- une contrepartie centrale, une bourse ou un service d'appariement d'opérations qui doit instruire le règlement d'opérations auprès d'un dépositaire central de titres ou d'une autre infrastructure de marché de règlement.||Utilisation|L'instruction peut être liée à d'autres instructions de règlement, par exemple pour un retournement ou un back-to-back, ou à d'autres opérations, par exemple une opération de change, à l'aide de la fonctionnalité de liaison.|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments appropriés de l'en-tête applicatif métier (Business Application Header).",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la partie donneuse d'ordre."
+    }
+  },
+  "isoRules": {
+    "AdditionalPhysicalOrRegistrationDetailsRule": {
+      "definition": "Si AdditionalPhysicalOrRegistrationDetails est présent, l'instruction doit être franco de paiement."
+    },
+    "CurrencyToBuyRule": {
+      "definition": "Si CurrencyToBuy est présent, l'instruction doit être une livraison."
+    },
+    "CurrencyToSellRule": {
+      "definition": "Si CurrencyToSell est présent, l'instruction doit être une réception."
+    },
+    "SettlementAmountRule": {
+      "definition": "Si l'instruction est contre paiement, SettlementAmount doit être présent."
+    },
+    "PairOffTurnRule": {
+      "definition": "Si LinkedQuantity est présent dans au moins une occurrence de Linkages, le type d'opération de règlement doit être un appariement (pair-off) ou un retournement (turnaround), c'est-à-dire que SettlementParameters/SecuritiesTransactionType doit être PAIR ou TURN."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Si l'instruction est une livraison et qu'aucune instruction permanente de règlement ne s'applique, ReceivingDepository et Party1 doivent être présents."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Si l'instruction est une réception et qu'aucune instruction permanente de règlement ne s'applique, DeliveringDepository et Party1 doivent être présents."
+    },
+    "SellerSSIRule": {
+      "definition": "Si une instruction permanente de règlement s'applique et que l'instruction est une réception, Seller doit être présent."
+    },
+    "BuyerSSIRule": {
+      "definition": "Si une instruction permanente de règlement s'applique et que l'instruction est une livraison, Buyer doit être présent."
+    },
+    "SecuritiesFinancingSettlementRule": {
+      "definition": "Dans le cadre des financements sur titres (repo, reverse repo, prêt de titres, emprunt de titres), SettlementInstruction ne peut être utilisé que pour le règlement simple (plain vanilla) de la phase d'ouverture et de la phase de clôture."
+    },
+    "BuyToCoverRule": {
+      "definition": "Si SettlementParameters/SettlementTransactionCondition BuyToCover (BUTC) est présent, au moins un Linkage doit être présent avec la référence de l'instruction de vente (il peut y en avoir plusieurs) à couvrir par l'achat concerné."
+    },
+    "RegistrationDetailsRule": {
+      "definition": "Si SettlementParameters/Registration est présent avec le code YREG (inscription à effectuer), des détails d'inscription supplémentaires doivent être précisés dans le champ AdditonalInformation/RegistrationDetails de la partie (Receiving ou DeliveringSettlementParties) auprès de laquelle l'inscription doit être effectuée, sauf si cette information est déjà disponible auprès du teneur de compte via une instruction permanente/SLA."
+    },
+    "LinkageGuideline": {
+      "definition": "Il existe des règles de pratique de marché globales sur l'utilisation des liaisons pour divers scénarios métier tels que les annulations, la confirmation de règlement, mais aussi des processus plus complexes comme le pair-off, le back-to-back, les opérations en bloc, le sell-buy back, le buy-sell back, le prêt et l'emprunt de titres.|Pour plus de détails, voir les documents de pratique de marché correspondants sur www.smpg.info."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur l'utilisation de ce message.|Ces pratiques de marché sont disponibles sur www.smpg.info."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "Pour le règlement d'opérations en deux parties (buy-sell back, sell buy-back, entrée et sortie de garanties), l'ouverture/initiation et la clôture/retour de l'opération sont instruits en envoyant la combinaison suivante de codes SettlementTypeAndAdditionalParameters/SecuritiesMovementType et de codes SettlementParameters/SecuritiesTransactionType :||Sell-Buy Back : Vente|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Sell-Buy Back : Rachat|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Buy-Sell Back : Achat|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Buy-Sell Back : Revente|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Initiation de sortie de garantie (constituant)|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Retour de sortie de garantie (constituant)|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Initiation d'entrée de garantie (bénéficiaire)|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Retour d'entrée de garantie (bénéficiaire)|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "Pour le règlement d'opérations en deux parties (financement sur titres), l'ouverture/initiation et la clôture/retour de l'opération sont confirmés en envoyant la combinaison suivante de codes TransactionIdentificationDetails/SecuritiesMovementType et de codes SettlementParameters/SecuritiesTransactionType :||Ouverture de repo|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Clôture de repo|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Ouverture de reverse repo|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Clôture de reverse repo|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||Ouverture de repo triparties|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|Clôture de repo triparties|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||Ouverture de reverse repo triparties|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|Clôture de reverse repo triparties|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Initiation de prêt de titres|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Retour de prêt de titres|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Initiation d'emprunt de titres|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Retour d'emprunt de titres|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "NetworkFeeCashSettlementQuantityRule": {
+      "definition": "La quantité de frais de réseau ne peut apparaître que dans une seule occurrence de Digital Cash Payment.|La quantité de règlement en espèces ne peut apparaître que dans une seule occurrence de Digital Cash Payment."
+    }
+  }
+}

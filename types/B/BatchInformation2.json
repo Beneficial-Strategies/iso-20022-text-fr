@@ -1,0 +1,21 @@
+{
+  "isoType": "BatchInformation2",
+  "definition": "Ensemble d'éléments servant à identifier les lots sous-jacents.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par la partie émettrice, permettant d'identifier sans ambiguïté le lot d'opérations."
+    },
+    "PaymentInformationIdentification": {
+      "definition": "Identification unique, attribuée par une partie émettrice, permettant d'identifier sans ambiguïté le groupe d'informations de paiement au sein du message."
+    },
+    "NumberOfTransactions": {
+      "definition": "Nombre d'opérations individuelles incluses dans le lot."
+    },
+    "TotalAmount": {
+      "definition": "Montant total déclaré dans l'écriture du lot."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si l'écriture du lot est une écriture au crédit ou au débit."
+    }
+  }
+}

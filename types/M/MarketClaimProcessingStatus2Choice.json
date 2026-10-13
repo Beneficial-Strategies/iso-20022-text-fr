@@ -1,0 +1,24 @@
+{
+  "isoType": "MarketClaimProcessingStatus2Choice",
+  "definition": "Choix entre différents statuts de traitement de l'instruction.",
+  "isoElements": {
+    "Cancelled": {
+      "definition": "Fournit des informations de statut relatives à une demande d'instruction annulée."
+    },
+    "AcceptedForFurtherProcessing": {
+      "definition": "Fournit des informations de statut relatives à une demande d'instruction acceptée. Cela signifie que l'instruction a été reçue, est traitable et a été validée pour traitement ultérieur."
+    },
+    "Rejected": {
+      "definition": "Fournit des informations de statut relatives à une demande d'instruction rejetée pour traitement ultérieur pour des raisons liées au système."
+    },
+    "Pending": {
+      "definition": "Fournit des informations de statut relatives à une instruction en attente."
+    },
+    "MatchingStatus": {
+      "definition": "Fournit le statut d'appariement de l'instruction."
+    },
+    "ProprietaryStatus": {
+      "definition": "Statut propriétaire lié à une instruction."
+    }
+  }
+}

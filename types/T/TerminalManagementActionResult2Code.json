@@ -1,0 +1,42 @@
+{
+  "isoType": "TerminalManagementActionResult2Code",
+  "definition": "Résultat final de la commande traitée sur l'ATM.",
+  "isoCodes": {
+    "CNTE": {
+      "name": "Erreur de connexion",
+      "definition": "Problème de connexion lors de l'exécution de l'action."
+    },
+    "FMTE": {
+      "name": "Erreur de format",
+      "definition": "Les données transférées ont un format erroné."
+    },
+    "HRDW": {
+      "name": "Matériel",
+      "definition": "Erreur matérielle."
+    },
+    "NSUP": {
+      "name": "Non pris en charge",
+      "definition": "L'action n'est pas prise en charge."
+    },
+    "SECR": {
+      "name": "Titre",
+      "definition": "Erreur de sécurité."
+    },
+    "SUCC": {
+      "name": "Succès",
+      "definition": "L'action a été exécutée avec succès."
+    },
+    "SYNE": {
+      "name": "Erreur de syntaxe",
+      "definition": "Les données transférées ont une syntaxe erronée."
+    },
+    "TIMO": {
+      "name": "Délai dépassé",
+      "definition": "Délai d'attente dépassé pendant le transfert de données."
+    },
+    "UKRF": {
+      "name": "Référence de clé inconnue",
+      "definition": "La référence de la clé cryptographique utilisée pour la signature des données n'est pas valide."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PendingCancellationReason10Code",
+  "definition": "Précise le motif pour lequel la demande d'annulation est en attente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du teneur de compte. Elle sera traitée conformément à l'accord de service bilatéral entre le teneur de compte et le titulaire du compte."
+    },
+    "CONF": {
+      "name": "En attente de confirmation",
+      "definition": "En attente de confirmation de la contrepartie."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    }
+  }
+}

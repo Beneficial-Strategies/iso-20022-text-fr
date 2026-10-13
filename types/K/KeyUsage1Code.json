@@ -1,0 +1,74 @@
+{
+  "isoType": "KeyUsage1Code",
+  "definition": "Usages autorisés de la clé.",
+  "isoCodes": {
+    "ENCR": {
+      "name": "Chiffrement",
+      "definition": "La clé peut chiffrer."
+    },
+    "DCPT": {
+      "name": "Déchiffrement",
+      "definition": "La clé peut déchiffrer."
+    },
+    "DENC": {
+      "name": "Chiffrement de données",
+      "definition": "La clé peut chiffrer des données."
+    },
+    "DDEC": {
+      "name": "Déchiffrement de données",
+      "definition": "La clé peut déchiffrer des données."
+    },
+    "TRNI": {
+      "name": "Traduction en entrée",
+      "definition": "La clé peut chiffrer des informations avant traduction."
+    },
+    "TRNX": {
+      "name": "Traduction en sortie",
+      "definition": "La clé peut chiffrer des informations après traduction."
+    },
+    "MACG": {
+      "name": "Génération de code d'authentification de message",
+      "definition": "La clé peut générer des codes d'authentification de message (MAC)."
+    },
+    "MACV": {
+      "name": "Vérification de code d'authentification de message",
+      "definition": "La clé peut vérifier des codes d'authentification de message (MAC)."
+    },
+    "SIGG": {
+      "name": "Génération de signature",
+      "definition": "La clé peut générer des signatures numériques."
+    },
+    "SUGV": {
+      "name": "Vérification de signature",
+      "definition": "La clé peut vérifier des signatures numériques."
+    },
+    "PINE": {
+      "name": "Chiffrement de PIN",
+      "definition": "La clé peut chiffrer des numéros d'identification personnels (PIN)."
+    },
+    "PIND": {
+      "name": "Déchiffrement de PIN",
+      "definition": "La clé peut déchiffrer des numéros d'identification personnels (PIN)."
+    },
+    "PINV": {
+      "name": "Vérification de PIN",
+      "definition": "La clé peut vérifier des numéros d'identification personnels (PIN)."
+    },
+    "KEYG": {
+      "name": "Génération de clé",
+      "definition": "La clé peut générer des clés."
+    },
+    "KEYI": {
+      "name": "Importation de clé",
+      "definition": "La clé peut importer des clés."
+    },
+    "KEYX": {
+      "name": "Exportation de clé",
+      "definition": "La clé peut exporter des clés."
+    },
+    "KEYD": {
+      "name": "Dérivation de clé",
+      "definition": "La clé peut dériver des clés."
+    }
+  }
+}

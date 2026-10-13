@@ -1,0 +1,14 @@
+{
+  "isoType": "PartyRole1Code",
+  "definition": "Indique le rôle de la partie dans l'opération.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Conservateur",
+      "definition": "Partie qui conserve et administre des actifs pour le compte du propriétaire."
+    },
+    "INVS": {
+      "name": "Investisseur",
+      "definition": "Partie, personne physique ou organisation, dont les actifs sont investis."
+    }
+  }
+}

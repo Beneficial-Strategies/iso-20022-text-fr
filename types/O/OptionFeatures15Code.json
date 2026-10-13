@@ -1,0 +1,70 @@
+{
+  "isoType": "OptionFeatures15Code",
+  "definition": "Précise les caractéristiques pouvant s'appliquer à une option d'opération sur titres.",
+  "isoCodes": {
+    "NOSE": {
+      "name": "Aucun service offert",
+      "definition": "Caractéristique selon laquelle le porteur doit faire son choix directement auprès de l'agent de l'émetteur (option prise en charge uniquement par l'émetteur)."
+    },
+    "CAOS": {
+      "name": "Applicabilité de l'option",
+      "definition": "L'applicabilité de l'option ne dépend pas de la décision du titulaire du compte mais des conditions définies par l'émetteur, par exemple dans le cas de titres liés à des actions ou de bons de souscription."
+    },
+    "COND": {
+      "name": "Conditionnel",
+      "definition": "Caractéristique selon laquelle le porteur peut choisir d'assortir l'acceptation de l'option d'une condition."
+    },
+    "MAXC": {
+      "name": "Espèces maximales",
+      "definition": "Option espèces maximale, pouvant être soumise à réduction ; vous pouvez donc recevoir une combinaison d'espèces et de titres."
+    },
+    "MAXS": {
+      "name": "Titres maximaux",
+      "definition": "Option titres maximale, pouvant être soumise à réduction ; vous pouvez donc recevoir une combinaison de titres et d'espèces."
+    },
+    "OPLF": {
+      "name": "Préférence pour les rompus",
+      "definition": "Apport ou échange avec préférence pour les rompus."
+    },
+    "PROR": {
+      "name": "Répartition proportionnelle",
+      "definition": "Caractéristique selon laquelle l'option peut faire l'objet d'une répartition au prorata en cas, par exemple, de sursouscription."
+    },
+    "VVPR": {
+      "name": "Retenue à la source réduite",
+      "definition": "Un taux réduit de retenue à la source s'applique à l'option."
+    },
+    "PINS": {
+      "name": "Invalidité de l'instruction précédente",
+      "definition": "Indique que les instructions envoyées précédemment deviennent invalides. Cela ne s'applique qu'après une prolongation de l'échéance de marché."
+    },
+    "ASVO": {
+      "name": "Option du teneur de compte",
+      "definition": "L'option est offerte uniquement par le teneur de compte."
+    },
+    "BOIS": {
+      "name": "Instruction du bénéficiaire effectif",
+      "definition": "Indique que le porteur doit donner ses instructions uniquement au niveau du bénéficiaire effectif."
+    },
+    "QCAS": {
+      "name": "Instruction du montant en espèces",
+      "definition": "Caractéristique selon laquelle le porteur ne doit instruire qu'un montant en espèces."
+    },
+    "SHAR": {
+      "name": "Numéro d'actionnaire",
+      "definition": "Indique l'utilisation d'un numéro de référence pour identifier un investisseur ou un actionnaire auprès de l'émetteur ou du prestataire d'enregistrement (par exemple, code d'allocation)."
+    },
+    "RGRS": {
+      "name": "Réinvestissement du dividende brut",
+      "definition": "Le dividende brut est réinvesti."
+    },
+    "RNET": {
+      "name": "Réinvestissement du dividende net",
+      "definition": "Le réinvestissement du dividende est traité net de retenue à la source."
+    },
+    "FCFS": {
+      "name": "Premier arrivé, premier servi",
+      "definition": "Les titres seront acceptés dans l'ordre où ils ont été soumis jusqu'à ce que la quantité cible recherchée soit atteinte."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "Status11Code",
+  "definition": "Précise le statut d'une instruction.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Accepté",
+      "definition": "L'instruction a été acceptée et validée pour la suite du traitement."
+    },
+    "ATTC": {
+      "name": "Présence confirmée",
+      "definition": "La participation à l'assemblée est confirmée."
+    },
+    "CAND": {
+      "name": "Annulé",
+      "definition": "L'instruction a été annulée."
+    },
+    "CSUB": {
+      "name": "Annulé par le sous-conservateur",
+      "definition": "L'instruction a été annulée par l'agent, par exemple en raison d'une prolongation de la date limite de l'événement."
+    },
+    "FRWD": {
+      "name": "Transmis",
+      "definition": "Acceptée et transmise le long de la chaîne."
+    },
+    "RCIS": {
+      "name": "Reçu par l'émetteur ou le teneur de registre",
+      "definition": "L'instruction a été reçue par l'émetteur, ce qui équivaut à la confirmation de réception des votes exprimés par voie électronique."
+    },
+    "REGM": {
+      "name": "Inscrit pour participer à l'assemblée",
+      "definition": "Le titulaire de droits a été enregistré pour participer à l'assemblée."
+    },
+    "STIN": {
+      "name": "Instruction permanente",
+      "definition": "L'instruction permanente est appliquée."
+    },
+    "DREG": {
+      "name": "Radiation terminée",
+      "definition": "Le titulaire de droits a été retiré de la liste des participants à l'assemblée."
+    }
+  }
+}

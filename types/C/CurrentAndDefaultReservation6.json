@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrentAndDefaultReservation6",
+  "definition": "Fournit un rapport sur les réservations.",
+  "isoElements": {
+    "CurrentReservation": {
+      "definition": "Le rapport est établi pour une réservation courante."
+    },
+    "DefaultReservation": {
+      "definition": "Le rapport est établi pour une réservation par défaut."
+    }
+  }
+}

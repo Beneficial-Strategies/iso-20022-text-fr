@@ -1,0 +1,50 @@
+{
+  "isoType": "ExtendedOptionFeature2Code",
+  "definition": "Précise les options spécifiques à DTCC (The Depository Trust and Clearing Corporation).",
+  "isoCodes": {
+    "FORU": {
+      "name": "Impôt étranger défavorable",
+      "definition": "Option réservée à DTC (The Depository Trust Company). L'événement et le titre sont éligibles au service Foreign Tax Relief de DTC. Option permettant de sélectionner le taux d'imposition défavorable. L'option Foreign Tax Unfavourable est l'option par défaut."
+    },
+    "FORF": {
+      "name": "Impôt étranger favorable",
+      "definition": "Option réservée à DTC (The Depository Trust Company). L'événement et le titre sont éligibles au service Foreign Tax Relief de DTC. Un choix de cette option garantit que le participant reçoit son paiement à un taux de retenue à la source favorable."
+    },
+    "FORX": {
+      "name": "Impôt étranger exonéré",
+      "definition": "Option réservée à DTC (The Depository Trust Company). L'événement et le titre sont éligibles au service Foreign Tax Relief de DTC. Un choix de cette option garantit que le participant est exonéré de toute retenue à la source."
+    },
+    "DRPU": {
+      "name": "DRIP défavorable",
+      "definition": "Option réservée à DTC (The Depository Trust Company). L'événement et le titre sont éligibles à la fois aux services Dividend Reinvestment et Foreign Tax de DTC. Les participants choisissant cette option recevront des actions supplémentaires et la retenue à la source sur ces actions sera appliquée au taux d'imposition défavorable."
+    },
+    "DRPF": {
+      "name": "DRIP favorable",
+      "definition": "Option réservée à DTC (The Depository Trust Company). L'événement et le titre sont éligibles à la fois aux services Dividend Reinvestment et Foreign Tax Relief de DTC. Les participants choisissant cette option recevront des actions supplémentaires et la retenue à la source sur ces actions sera appliquée au taux d'imposition favorable."
+    },
+    "DRPX": {
+      "name": "DRIP exonéré",
+      "definition": "Option réservée à DTC (The Depository Trust Company). L'événement et le titre sont éligibles à la fois aux services Dividend Reinvestment et Foreign Tax Relief de DTC. Les participants choisissant cette option recevront des actions supplémentaires et seront exonérés de toute retenue à la source."
+    },
+    "FCPP": {
+      "name": "Paiement en devise étrangère",
+      "definition": "Option réservée à DTC (The Depository Trust Company). L'événement et le titre sont éligibles au service Foreign Currency Payment de DTC. Les participants choisissant cette option recevront leur distribution dans la devise étrangère indiquée."
+    },
+    "FCPU": {
+      "name": "Paiement en devise étrangère défavorable",
+      "definition": "Option réservée à DTC (The Depository Trust Company). L'événement et le titre sont éligibles à la fois aux services Foreign Currency et Foreign Tax de DTC. Les participants choisissant cette option recevront leur distribution dans une devise étrangère et la retenue à la source sur cette distribution sera soumise à une retenue à la source défavorable."
+    },
+    "FCPF": {
+      "name": "Paiement en devise étrangère favorable",
+      "definition": "Option réservée à DTC (The Depository Trust Company). L'événement et le titre sont éligibles à la fois aux services Foreign Currency et Foreign Tax de DTC. Les participants choisissant l'option recevront leur distribution en devise étrangère et la retenue à la source sur cette distribution sera soumise à une retenue à la source favorable."
+    },
+    "FCPX": {
+      "name": "Paiement en devise étrangère exonéré",
+      "definition": "Option réservée à DTC (The Depository Trust Company). L'événement et le titre sont éligibles à la fois aux services Foreign Currency et Foreign Tax de DTC. Les participants choisissant cette option recevront leur distribution dans une devise étrangère et seront exonérés de toute retenue à la source."
+    },
+    "NSHR": {
+      "name": "Numéro d'actionnaire non autorisé",
+      "definition": "Indique l'option dans laquelle les porteurs ne doivent pas fournir de numéro d'actionnaire ; s'il est fourni, il sera rejeté."
+    }
+  }
+}

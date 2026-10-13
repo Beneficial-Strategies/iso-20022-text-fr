@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMSecurityContext6",
+  "definition": "Informations relatives aux commandes de sécurité.",
+  "isoElements": {
+    "CurrentSecurityScheme": {
+      "definition": "Schéma de sécurité d'échange de clés activé sur l'ATM pour le gestionnaire hôte."
+    },
+    "SecuritySchemeCapabilities": {
+      "definition": "Schémas de sécurité d'échange de clés mis en œuvre dans le module matériel de sécurité de l'ATM."
+    },
+    "SecurityDevice": {
+      "definition": "Module matériel de sécurité de l'ATM."
+    },
+    "Key": {
+      "definition": "Clés cryptographiques stockées dans le module matériel de sécurité de l'ATM."
+    },
+    "HostChallenge": {
+      "definition": "Valeur aléatoire de l'hôte fournie lors d'un échange précédent."
+    }
+  }
+}

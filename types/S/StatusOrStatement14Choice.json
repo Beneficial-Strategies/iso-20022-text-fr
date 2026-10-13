@@ -1,0 +1,12 @@
+{
+  "isoType": "StatusOrStatement14Choice",
+  "definition": "Précise le statut ou le relevé demandé.",
+  "isoElements": {
+    "StatusAdvice": {
+      "definition": "Identifie l’avis de statut et l’opération pour lesquels l’avis de statut a été demandé."
+    },
+    "Statement": {
+      "definition": "Identifie le relevé/rapport qui a été demandé."
+    }
+  }
+}

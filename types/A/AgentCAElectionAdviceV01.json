@@ -1,0 +1,15 @@
+{
+  "isoType": "AgentCAElectionAdviceV01",
+  "definition": "Portée|Ce message est envoyé par un CSD à l'émetteur (ou à son agent) pour fournir des informations sur l'instruction d'option des clients, les détails d'enregistrement, les détails de livraison, etc. Dans le cas d'une option impliquant des mouvements de ressources sous-jacentes, il confirme également que ceux-ci ont été effectués. Ce message peut également être envoyé en cas de modification d'une option, une fois que le CSD a effectué les mouvements de ressources requis.|Utilisation|Ce message peut être utilisé pour un nouvel avis d'option choisie ou un avis d'option choisie modifié.|Si ce message est utilisé pour un nouvel avis d'option choisie, la fonction du message doit être « nouvelle option ».|Si ce message est utilisé pour un avis d'option choisie modifié, la fonction du message doit être « changement d'option » et l'identification de l'avis d'option précédemment envoyé doit être présente.|Ce message peut inclure les mouvements d'espèces et/ou de titres dans le cas d'une option impliquant des mouvements de ressources sous-jacentes. De plus, ce message peut inclure des détails de livraison, de certification et de bénéficiaire effectif.|Remarque : ces informations peuvent également être envoyées séparément dans le message Agent Corporate Action Information advice.",
+  "isoRules": {
+    "OptionTypeRule": {
+      "definition": "Si ElectionDetails/OptionType est présent, alors OptionType n'est autorisé dans aucune occurrence de ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails et/ou ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails.||Si ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionType est présent au moins une fois et/ou ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionType est présent au moins une fois, alors ElectionDetails/CorporateActionOptionType n'est pas autorisé."
+    },
+    "OptionNumberRule": {
+      "definition": "Si ElectionDetails/OptionNumber est présent, alors OptionNumber n'est autorisé dans aucune occurrence de ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails et/ou ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails.||Si ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionNumber est présent au moins une fois et/ou ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionNumber est présent au moins une fois, alors ElectionDetails/CorporateActionOptionNumber n'est pas autorisé."
+    },
+    "ElectionType2Rule": {
+      "definition": "Si ElectionAdviceTypeAndLinkages/ElectionType est CHAN, alors ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionNumber, ElectionDetails/SecuritiesMovementDetails/CreditAccountDetails/OptionType, ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionNumber et ElectionDetails/SecuritiesMovementDetails/DebitAccountDetails/OptionType doivent être présents."
+    }
+  }
+}

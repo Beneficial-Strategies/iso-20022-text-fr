@@ -1,0 +1,12 @@
+{
+  "isoType": "TradeDateCode4Choice",
+  "definition": "Choix de format pour le code de la date de négociation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Date de négociation exprimée sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Date de négociation exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "InstructionProcessingStatus61Choice",
+  "definition": "Choix de formats pour un statut de traitement d'instruction.",
+  "isoElements": {
+    "PendingProcessing": {
+      "definition": "L'instruction a été accusée réception par le teneur de compte, mais son traitement est en attente."
+    },
+    "CancellationRequested": {
+      "definition": "La demande d'annulation de votre contrepartie pour cette opération est en attente de votre demande d'annulation."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "L'instruction a été acquittée par la banque teneur de compte."
+    },
+    "Cancelled": {
+      "definition": "L'instruction a été annulée."
+    },
+    "Generated": {
+      "definition": "L'opération a été créée par le teneur de compte ou un tiers. Elle n'a pas été instruite directement par le titulaire du compte."
+    },
+    "Repair": {
+      "definition": "L'instruction a été accusée réception par le teneur de compte mais est en réparation."
+    },
+    "PendingCancellation": {
+      "definition": "Votre demande d'annulation de cette instruction est en attente de traitement ultérieur."
+    },
+    "ModificationRequested": {
+      "definition": "La demande de modification de votre contrepartie pour cette opération est en attente de votre demande d'annulation ou de votre accord."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "SettlementParties125",
+  "definition": "Chaîne de parties impliquées dans le règlement d'une opération, y compris réceptions et livraisons, virements internes, opérations de trésorerie ou autres activités, entraînant le mouvement d'un titre ou d'une somme d'argent d'un compte à un autre.",
+  "isoElements": {
+    "Depository": {
+      "definition": "Première partie de la chaîne de règlement. Dans un règlement simple (plain vanilla), il s'agit du dépositaire central de titres auprès duquel la contrepartie demande à recevoir l'instrument financier ou à partir duquel la contrepartie livre les instruments financiers."
+    },
+    "Party1": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec le dépositaire."
+    },
+    "Party2": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec la partie 1."
+    },
+    "Party3": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec la partie 2."
+    },
+    "Party4": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec la partie 3."
+    },
+    "Party5": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec la partie 4."
+    }
+  },
+  "isoRules": {
+    "Party2PresenceRule": {
+      "definition": "Si Party2 est présent, Party1 doit être présent."
+    },
+    "Party3PresenceRule": {
+      "definition": "Si Party3 est présent, Party2 doit être présent."
+    },
+    "Party4PresenceRule": {
+      "definition": "Si Party4 est présent, Party3 doit être présent."
+    },
+    "Party5PresenceRule": {
+      "definition": "Si Party5 est présent, Party4 doit être présent."
+    }
+  }
+}

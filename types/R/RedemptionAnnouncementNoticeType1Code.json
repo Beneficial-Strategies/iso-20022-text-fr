@@ -1,0 +1,14 @@
+{
+  "isoType": "RedemptionAnnouncementNoticeType1Code",
+  "definition": "Précise si l'annonce de l'événement de remboursement se rapporte aux certificats détenus uniquement auprès du dépositaire ou en dehors du dépositaire.",
+  "isoCodes": {
+    "DEPT": {
+      "name": "Dépositaire",
+      "definition": "L'annonce de l'événement se rapportera uniquement aux certificats détenus auprès du dépositaire. Utilisé uniquement pour les événements de remboursement."
+    },
+    "UNVL": {
+      "name": "Universel",
+      "definition": "L'annonce de l'événement se rapportera aux certificats détenus en dehors du dépositaire."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMConfigurationReportV01",
+  "definition": "Le message ATMConfigurationReport est envoyé par un ATM à un hôte de maintenance pour signaler la version de la configuration active."
+}

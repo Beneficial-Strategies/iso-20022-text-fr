@@ -1,0 +1,26 @@
+{
+  "isoType": "CashAccountType5Code",
+  "definition": "Précise le type de compte espèces.",
+  "isoCodes": {
+    "LEND": {
+      "name": "Prêt",
+      "definition": "Le compte sert à la couverture de prêts."
+    },
+    "COLL": {
+      "name": "Garantie",
+      "definition": "Le compte sert de garantie."
+    },
+    "SETT": {
+      "name": "Règlement financier",
+      "definition": "Le compte sert aux règlements financiers."
+    },
+    "MARR": {
+      "name": "Restitution de marge",
+      "definition": "Le compte sert aux restitutions de marge."
+    },
+    "SEGT": {
+      "name": "Ségrégué",
+      "definition": "Le compte est un compte ségrégué."
+    }
+  }
+}

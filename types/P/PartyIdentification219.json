@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification219",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nom et adresse de la partie."
+    },
+    "Identification": {
+      "definition": "Identification de la partie."
+    },
+    "ContactPerson": {
+      "definition": "Identifie la personne à contacter par son nom, son prénom et son adresse."
+    }
+  }
+}

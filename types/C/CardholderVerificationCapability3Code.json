@@ -1,0 +1,38 @@
+{
+  "isoType": "CardholderVerificationCapability3Code",
+  "definition": "Capacités d'authentification du client disponibles sur un ATM.",
+  "isoCodes": {
+    "NPIN": {
+      "name": "PIN en ligne",
+      "definition": "Code PIN en ligne (numéro d'identification personnel)."
+    },
+    "FCPN": {
+      "name": "PIN en clair hors ligne",
+      "definition": "Code PIN hors ligne en clair (numéro d'identification personnel)."
+    },
+    "FEPN": {
+      "name": "PIN chiffré hors ligne",
+      "definition": "Code PIN hors ligne chiffré (numéro d'identification personnel)."
+    },
+    "FDSG": {
+      "name": "Signature numérique hors ligne",
+      "definition": "Analyse hors ligne de la signature numérique."
+    },
+    "FBIO": {
+      "name": "Biométrie hors ligne",
+      "definition": "Données biométriques hors ligne."
+    },
+    "FBIG": {
+      "name": "Données biographiques hors ligne",
+      "definition": "Données biographiques hors ligne."
+    },
+    "PKIS": {
+      "name": "Signature PKI",
+      "definition": "Signature numérique fondée sur une PKI (infrastructure à clé publique)."
+    },
+    "PCOD": {
+      "name": "Code personnel",
+      "definition": "Code personnel du client pour les services bancaires."
+    }
+  }
+}

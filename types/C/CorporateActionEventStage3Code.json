@@ -1,0 +1,46 @@
+{
+  "isoType": "CorporateActionEventStage3Code",
+  "definition": "Précise l'étape de l'événement d'opération sur titres (CA).",
+  "isoCodes": {
+    "APPD": {
+      "name": "Approuvé",
+      "definition": "Approuvé lors de la réunion concernée, par exemple, dividende."
+    },
+    "CLDE": {
+      "name": "Désactivé",
+      "definition": "L'offre est close pour acceptation."
+    },
+    "FULL": {
+      "name": "Annulation et nouvelle exécution",
+      "definition": "Annulation et nouveau tirage d'un tirage au sort initial ou d'un tirage initial et complémentaire. Un tirage ultérieur sera effectué dans le cadre d'un nouvel événement."
+    },
+    "LAPS": {
+      "name": "Caduc",
+      "definition": "Les conditions de l'événement/de l'offre n'ont pas été remplies et l'événement/l'offre prend fin ou devient caduc."
+    },
+    "PART": {
+      "name": "Annulation et nouvelle exécution complémentaires",
+      "definition": "Annulation et nouvelle exécution d'un tirage complémentaire uniquement. Un nouveau tirage complémentaire ultérieur sera effectué dans le cadre de l'événement initial."
+    },
+    "PWAL": {
+      "name": "Période d'action",
+      "definition": "Ouvert à l'acceptation jusqu'à la prochaine échéance indiquée dans l'annonce (le cas échéant)."
+    },
+    "RESC": {
+      "name": "Annulation complémentaire",
+      "definition": "Un tirage complémentaire est annulé par l'émetteur. Aucun tirage ultérieur ne sera effectué."
+    },
+    "SUAP": {
+      "name": "Sous réserve d'approbation",
+      "definition": "Sous réserve d'approbation lors de l'assemblée concernée, par exemple, dividende."
+    },
+    "UNAC": {
+      "name": "Inconditionnel quant à l'acceptation",
+      "definition": "Le niveau d'acceptations requis, précisé dans les conditions de l'offre, a été atteint mais il reste des conditions à remplir."
+    },
+    "WHOU": {
+      "name": "Entièrement inconditionnel",
+      "definition": "Entièrement inconditionnel ; toutes les conditions précisées dans le document d'offre ont été satisfaites."
+    }
+  }
+}

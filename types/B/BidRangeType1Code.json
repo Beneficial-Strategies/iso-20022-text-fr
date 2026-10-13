@@ -1,0 +1,18 @@
+{
+  "isoType": "BidRangeType1Code",
+  "definition": "Types de valeurs acceptables pour une fourchette d'offres.",
+  "isoCodes": {
+    "DIVI": {
+      "name": "Divisible",
+      "definition": "Toutes les valeurs (y compris les prix minimum et maximum) sont divisibles par l'intervalle d'offre."
+    },
+    "INCR": {
+      "name": "Incrémental",
+      "definition": "Aucune valeur de la fourchette d'offres n'est divisible par l'intervalle d'offre, y compris les prix minimum et maximum.  Chaque valeur comprise entre les prix minimum et maximum est incrémentée de l'intervalle d'offre."
+    },
+    "MULT": {
+      "name": "Par multiples",
+      "definition": "Les prix minimum et maximum ne sont pas divisibles par l'intervalle d'offre.  Toutes les valeurs successives comprises entre les prix minimum et maximum sont des multiples de l'intervalle d'offre."
+    }
+  }
+}

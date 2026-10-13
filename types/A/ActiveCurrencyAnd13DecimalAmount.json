@@ -1,0 +1,4 @@
+{
+  "isoType": "ActiveCurrencyAnd13DecimalAmount",
+  "definition": "Un nombre d'unités monétaires exprimé dans une devise active, où l'unité monétaire est explicite et conforme à la norme ISO 4217. Le nombre de décimales (ou unité mineure de la devise) n'est pas contrôlé conformément à la norme ISO 4217 : il doit être inférieur ou égal à 13.|Remarque : le séparateur décimal est le point."
+}

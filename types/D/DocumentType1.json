@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentType1",
+  "definition": "Précise le type du document visé dans les informations de remise.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Type de document visé, sous forme codée ou propriétaire."
+    },
+    "Issuer": {
+      "definition": "Identification de l'émetteur du type de document de référence."
+    }
+  }
+}

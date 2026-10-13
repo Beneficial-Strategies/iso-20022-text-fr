@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMOperation2Code",
+  "definition": "Type d'opération logique ou physique sur un ATM.",
+  "isoCodes": {
+    "ADJU": {
+      "name": "Ajustement",
+      "definition": "Ajuster les compteurs logiques de la cassette."
+    },
+    "INSR": {
+      "name": "Insertion de support",
+      "definition": "Ajouter physiquement des supports à la cassette."
+    },
+    "LOAD": {
+      "name": "Chargement",
+      "definition": "Chargement de la cassette."
+    },
+    "REMV": {
+      "name": "Retrait de support",
+      "definition": "Retirer physiquement des supports de la cassette."
+    },
+    "UNLD": {
+      "name": "Déchargement",
+      "definition": "Déchargement de la cassette."
+    },
+    "RCUP": {
+      "name": "Mise à jour du compteur à distance",
+      "definition": "Mise à jour à distance d'un compteur de ATM."
+    },
+    "SWAP": {
+      "name": "Échange",
+      "definition": "Décharger toutes les cassettes et charger un nouveau jeu de cassettes pour les remplacer. Les structures de cassette déterminent ce qui a été retiré et ce qui a été ajouté."
+    }
+  }
+}

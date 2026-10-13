@@ -1,0 +1,57 @@
+{
+  "isoType": "Vote20",
+  "definition": "Résultats du vote pour une résolution.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Numéro de la résolution tel que précisé par l'émetteur ou son agent."
+    },
+    "Description": {
+      "definition": "Langue, titre et description textuelle d'une résolution de l'ordre du jour."
+    },
+    "ResolutionStatus": {
+      "definition": "Statut d'acceptation de la résolution."
+    },
+    "SubStatus": {
+      "definition": "Précise si la résolution est une résolution nouvelle ou modifiée."
+    },
+    "For": {
+      "definition": "Nombre de votes favorables à une résolution."
+    },
+    "Against": {
+      "definition": "Nombre de votes contre une résolution."
+    },
+    "Abstain": {
+      "definition": "Nombre de votes d'abstention."
+    },
+    "Withhold": {
+      "definition": "Total des votes retenus, par exemple, lorsqu'un actionnaire souhaite ne pas approuver l'élection d'un membre du conseil d'administration."
+    },
+    "WithManagement": {
+      "definition": "Nombre de votes conformes aux votes de la direction."
+    },
+    "AgainstManagement": {
+      "definition": "Nombre de votes contraires à la recommandation de vote de la direction."
+    },
+    "Discretionary": {
+      "definition": "Nombre de votes pour lesquels la décision est laissée à la partie qui exercera le droit de vote."
+    },
+    "OneYear": {
+      "definition": "Nombre de votes favorables pour une durée d'un an pour une résolution de type « say on pay »."
+    },
+    "TwoYears": {
+      "definition": "Nombre de votes favorables pour une durée de deux ans pour une résolution de type « say on pay »."
+    },
+    "ThreeYears": {
+      "definition": "Nombre de votes favorables pour une durée de trois ans pour une résolution de type « say on pay »."
+    },
+    "NoAction": {
+      "definition": "Nombre de votes pour lesquels aucune action n'a été entreprise."
+    },
+    "Blank": {
+      "definition": "Le vote est exprimé comme vide, mais il est comptabilisé."
+    },
+    "Proprietary": {
+      "definition": "Autre type de vote exprimé sous forme de code propriétaire."
+    }
+  }
+}

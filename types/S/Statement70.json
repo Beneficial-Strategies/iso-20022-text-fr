@@ -1,0 +1,35 @@
+{
+  "isoType": "Statement70",
+  "definition": "Caractéristiques du relevé.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Numéro séquentiel du relevé."
+    },
+    "QueryReference": {
+      "definition": "Identification du message de demande de relevé envoyé pour demander ce relevé."
+    },
+    "StatementIdentification": {
+      "definition": "Référence commune à toutes les pages d'un relevé."
+    },
+    "StatementDateTime": {
+      "definition": "Date et heure du relevé."
+    },
+    "Frequency": {
+      "definition": "Fréquence du relevé."
+    },
+    "UpdateType": {
+      "definition": "Indique si le relevé est complet ou ne contient que des modifications."
+    },
+    "StatementStructure": {
+      "definition": "Précise si le relevé est trié par statut ou par opération."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique si le relevé signale une activité ou une mise à jour d'informations."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "Si Long number (Exact5NumericTest) est utilisé, alors le rapport doit être un rapport delta (UpdateType : DELT).|Si le rapport comporte plusieurs pages, alors ReportNumber doit rester identique sur toutes les pages. Il s'agit d'un numéro unique pour le rapport.|Deux rapports du même type envoyés l'un après l'autre au même destinataire pour le même compte de conservation doivent avoir des ReportNumber différents. Par exemple, un rapport quotidien envoyé le jour 1 aurait le ReportNumber 001, le jour 2, 002 (ReportNumbers)."
+    }
+  }
+}

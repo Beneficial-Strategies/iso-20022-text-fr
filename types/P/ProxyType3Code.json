@@ -1,0 +1,22 @@
+{
+  "isoType": "ProxyType3Code",
+  "definition": "Précise le type de mandataire.",
+  "isoCodes": {
+    "CHRM": {
+      "name": "Président",
+      "definition": "Le président de l'assemblée est le mandataire."
+    },
+    "DISC": {
+      "name": "Discrétionnaire",
+      "definition": "Tout type de mandataire est autorisé."
+    },
+    "NEPR": {
+      "name": "Procuration neutre",
+      "definition": "Mandataire neutre désigné par l'émetteur pour exercer les votes au nom des investisseurs lors de l'assemblée."
+    },
+    "HLDR": {
+      "name": "Détenteur de titres",
+      "definition": "Le mandataire ne peut être qu'un porteur de titres."
+    }
+  }
+}

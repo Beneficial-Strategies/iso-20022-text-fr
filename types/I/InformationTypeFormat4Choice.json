@@ -1,0 +1,12 @@
+{
+  "isoType": "InformationTypeFormat4Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le format du type d'information requis.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type d'information requis."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type d'information."
+    }
+  }
+}

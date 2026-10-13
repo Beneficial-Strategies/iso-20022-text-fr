@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionStatementReportingType1Code",
+  "definition": "Type de relevé rendant compte des positions de compte pour des événements d'opérations sur titres, par exemple un relevé portant sur plusieurs comptes ou plusieurs événements.",
+  "isoCodes": {
+    "MASE": {
+      "name": "Comptes multiples",
+      "definition": "Le relevé porte sur un seul événement et sur plusieurs comptes."
+    },
+    "SAME": {
+      "name": "Événements multiples",
+      "definition": "Le relevé porte sur plusieurs événements pour un seul compte."
+    }
+  }
+}

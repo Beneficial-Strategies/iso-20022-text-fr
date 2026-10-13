@@ -1,0 +1,14 @@
+{
+  "isoType": "ClosurePendingStatusReason1Code",
+  "definition": "Précise le motif du statut de clôture en attente.",
+  "isoCodes": {
+    "CLOS": {
+      "name": "Clôture du compte en cours",
+      "definition": "La clôture du compte est en cours."
+    },
+    "PEND": {
+      "name": "Conditions en attente",
+      "definition": "Le compte sera clos lorsque les conditions seront remplies."
+    }
+  }
+}

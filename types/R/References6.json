@@ -1,0 +1,24 @@
+{
+  "isoType": "References6",
+  "definition": "Ensemble d'éléments permettant l'identification du message et des références associées.",
+  "isoElements": {
+    "RejectedRequestType": {
+      "definition": "Identifie le type de demande rejetée."
+    },
+    "RejectionReason": {
+      "definition": "Motif du rejet du message."
+    },
+    "RejectedRequestIdentification": {
+      "definition": "Identification du message de demande rejeté."
+    },
+    "MessageIdentification": {
+      "definition": "Identifie un message par un identifiant unique ainsi que la date et l'heure auxquelles le message a été créé par l'expéditeur."
+    },
+    "ProcessIdentification": {
+      "definition": "Identifie un processus par un identifiant unique ainsi que la date et l'heure auxquelles le premier message appartenant au processus a été créé par l'expéditeur. L'identification du processus reste la même dans tous les messages appartenant au même processus, du message de demande initial jusqu'au relevé de compte final clôturant le processus."
+    },
+    "AttachedDocumentName": {
+      "definition": "Nom de fichier d'un document logiquement lié à la demande."
+    }
+  }
+}

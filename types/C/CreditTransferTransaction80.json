@@ -1,0 +1,173 @@
+{
+  "isoType": "CreditTransferTransaction80",
+  "definition": "Fournit des informations détaillées propres à chaque opération incluse dans le message.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Ensemble d'éléments servant à référencer une instruction de paiement."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments servant à préciser davantage le type d'opération."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montant transféré entre la banque donneuse d'ordre et la banque destinataire de l'ordre."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour la banque qui le doit et devient disponible pour la banque à laquelle il est dû."
+    },
+    "SettlementPriority": {
+      "definition": "Indicateur de l'urgence ou de l'ordre d'importance que la partie donneuse d'ordre souhaite voir appliqué par la partie destinataire de l'ordre au traitement de l'instruction de règlement."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Fournit des informations sur le ou les horaires de règlement effectifs de l'opération de paiement."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Fournit des informations sur le ou les horaires de règlement demandés pour l'instruction de paiement."
+    },
+    "ExpiryDateTime": {
+      "definition": "Date et heure auxquelles le paiement doit expirer s'il n'a pas été réglé."
+    },
+    "PaymentSignature": {
+      "definition": "Clé cryptographique identifiant les conditions convenues entre les agents de la chaîne de paiement avant le règlement. Cette clé peut également être utilisée après le règlement pour confirmer que le paiement a été crédité comme prévu."
+    },
+    "PreviousInstructingAgent1": {
+      "definition": "Agent situé entre la banque du débiteur et l'agent instructeur. ||Utilisation : si plusieurs agents instructeurs précédents sont présents, PreviousInstructingAgent1 identifie l'agent situé entre DebtorAgent et PreviousInstructingAgent2."
+    },
+    "PreviousInstructingAgent1Account": {
+      "definition": "Identification sans ambiguïté du compte de l'agent instructeur précédent auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "PreviousInstructingAgent2": {
+      "definition": "Agent situé entre la banque du débiteur et l'agent instructeur. ||Utilisation : si plus de deux agents instructeurs précédents sont présents, PreviousInstructingAgent2 identifie l'agent situé entre PreviousInstructingAgent1 et PreviousInstructingAgent3."
+    },
+    "PreviousInstructingAgent2Account": {
+      "definition": "Identification sans ambiguïté du compte de l'agent instructeur précédent auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "PreviousInstructingAgent3": {
+      "definition": "Agent situé entre la banque du débiteur et l'agent instructeur. ||Utilisation : si PreviousInstructingAgent3 est présent, PreviousInstructingAgent3 identifie l'agent situé entre PreviousInstructingAgent2 et InstructingAgent."
+    },
+    "PreviousInstructingAgent3Account": {
+      "definition": "Identification sans ambiguïté du compte de l'agent instructeur précédent auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "InstructingAgent": {
+      "definition": "Agent qui charge la partie suivante de la chaîne d'exécuter la ou les instructions."
+    },
+    "InstructedAgent": {
+      "definition": "Agent chargé par la partie précédente de la chaîne d'exécuter la ou les instructions."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si plusieurs banques intermédiaires sont présentes, IntermediaryAgent1 identifie l'agent situé entre DebtorAgent et IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 1 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si plus de deux banques intermédiaires sont présentes, IntermediaryAgent2 identifie l'agent situé entre IntermediaryAgent1 et IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 2 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si IntermediaryAgent3 est présent, il identifie l'agent situé entre IntermediaryAgent 2 et CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 3 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "UltimateDebtor": {
+      "definition": "Établissement financier final qui doit un montant d'argent au créancier institutionnel (final)."
+    },
+    "Debtor": {
+      "definition": "Établissement financier qui doit un montant d'argent à l'établissement financier créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture au débit sera passée à la suite de l'opération."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du débiteur auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du créancier auprès de son agent teneur de compte, sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "Creditor": {
+      "definition": "Établissement financier qui reçoit un montant d'argent de l'établissement financier débiteur."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "UltimateCreditor": {
+      "definition": "Établissement financier final auquel un montant d'argent est dû."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement, fournies par la partie initiatrice et destinées à la banque du créancier."
+    },
+    "InstructionForNextAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement, auxquelles l'agent suivant peut devoir donner suite. ||Utilisation : l'agent suivant n'est pas nécessairement la banque du créancier.|L'instruction peut porter sur un niveau de service, peut être une instruction que l'agent doit exécuter, ou peut être une information requise par l'agent suivant."
+    },
+    "Purpose": {
+      "definition": "Motif sous-jacent de l'opération de paiement.|Utilisation : le motif est utilisé par les clients finaux, c'est-à-dire la partie initiatrice, le débiteur (final) et le créancier (final), pour fournir des informations concernant la nature du paiement. Le motif est un élément de contenu qui n'est utilisé pour le traitement par aucun des agents intervenant dans la chaîne de paiement."
+    },
+    "RegulatoryReporting": {
+      "definition": "Informations requises en raison d'exigences réglementaires et légales."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le virement est destiné à régler, tels que des factures commerciales dans un système de comptes clients."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Fournit des informations sur les allocations sous-jacentes qui composent le paiement.||Utilisation : utilisé uniquement par le secteur des titres."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor ne peut être présent que s'il est différent de Debtor."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor ne peut être présent que s'il est différent de Creditor."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "Si IntermediaryAgent2 est présent, alors IntermediaryAgent1 doit être présent."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "Si IntermediaryAgent3 est présent, alors IntermediaryAgent2 doit être présent."
+    },
+    "IntermediaryAgent1Rule": {
+      "definition": "Si IntermediaryAgent1 est présent, CreditorAgent doit être présent."
+    },
+    "IntermediaryAgent1AccountRule": {
+      "definition": "Si IntermediaryAgent1Account est présent, alors IntermediaryAgent1 doit être présent."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "Si IntermediaryAgent2Account est présent, alors IntermediaryAgent2 doit être présent."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "Si IntermediaryAgent3Account est présent, alors IntermediaryAgent3 doit être présent."
+    },
+    "DebtorAgentAccountRule": {
+      "definition": "Si DebtorAgentAccount est présent, DebtorAgent doit être présent."
+    },
+    "CreditorAgentAccountRule": {
+      "definition": "Si CreditorAgentAccount est présent, CreditorAgent doit être présent."
+    },
+    "PreviousInstructingAgent1AccountRule": {
+      "definition": "Si PreviousInstructingAgent1Account est présent, PreviousInstructingAgent1 doit être présent."
+    },
+    "PreviousInstructingAgent2AccountRule": {
+      "definition": "Si PreviousInstructingAgent2Account est présent, PreviousInstructingAgent2 doit être présent."
+    },
+    "PreviousInstructingAgent3AccountRule": {
+      "definition": "Si PreviousInstructingAgent3Account est présent, PreviousInstructingAgent3 doit être présent."
+    },
+    "PreviousInstructingAgent2Rule": {
+      "definition": "Si PreviousInstructingAgent2 est présent, PreviousInstructingAgent1 doit être présent."
+    },
+    "PreviousInstructingAgent3Rule": {
+      "definition": "Si PreviousInstructingAgent3 est présent, PreviousInstructingAgent2 doit être présent."
+    },
+    "PreviousInstructingAgent1Guideline": {
+      "definition": "Il est recommandé que, lorsqu'il est présent, PreviousInstructingAgent1 soit l'agent le plus proche de DebtorAgent dans la chaîne de paiement."
+    }
+  }
+}

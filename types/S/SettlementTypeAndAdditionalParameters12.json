@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndAdditionalParameters12",
+  "definition": "Fournit le type d'opération et des informations d'identification.",
+  "isoElements": {
+    "SecuritiesMovementType": {
+      "definition": "Précise si le mouvement sur un compte-titres résulte d'une instruction de livraison ou de réception."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    },
+    "CommonIdentification": {
+      "definition": "Référence unique convenue entre les deux contreparties de la transaction commerciale pour identifier celle-ci."
+    }
+  }
+}

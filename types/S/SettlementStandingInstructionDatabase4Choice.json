@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementStandingInstructionDatabase4Choice",
+  "definition": "Choix du format des informations d'instruction permanente de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Base de données d'instructions permanentes de règlement exprimée sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Base de données d'instructions permanentes de règlement exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

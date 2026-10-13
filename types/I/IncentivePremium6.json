@@ -1,0 +1,18 @@
+{
+  "isoType": "IncentivePremium6",
+  "definition": "Prime en numéraire mise à disposition si le porteur de titres consent à un événement ou y participe.",
+  "isoElements": {
+    "Description": {
+      "definition": "Description de la prime."
+    },
+    "Amount": {
+      "definition": "Prime en espèces versée par titre, par vote ou par participant."
+    },
+    "Type": {
+      "definition": "Précise quels critères liés au vote donnent droit à une prime incitative."
+    },
+    "PaymentDate": {
+      "definition": "Date et heure du paiement de la prime."
+    }
+  }
+}

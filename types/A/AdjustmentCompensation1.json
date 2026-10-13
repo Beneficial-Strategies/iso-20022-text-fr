@@ -1,0 +1,30 @@
+{
+  "isoType": "AdjustmentCompensation1",
+  "definition": "Précise l'indemnisation pour une demande de valorisation.",
+  "isoElements": {
+    "InitialAmount": {
+      "definition": "Indemnisation calculée pour la demande avant ajout des frais."
+    },
+    "DueCharges": {
+      "definition": "Frais ajoutés au montant initial."
+    },
+    "AmountDue": {
+      "definition": "Indemnisation due pour la demande après ajout des frais."
+    },
+    "CompensationAgent": {
+      "definition": "Établissement financier qui tient un compte pour la partie ou la banque à laquelle l'indemnisation est due."
+    },
+    "CompensationAccount": {
+      "definition": "Compte auquel l'indemnisation est due."
+    },
+    "Period": {
+      "definition": "Période à laquelle s'applique l'indemnisation."
+    },
+    "InterestRate": {
+      "definition": "Taux d'intérêt d'un instrument financier utilisé pour calculer l'indemnisation."
+    },
+    "Reason": {
+      "definition": "Précise le motif de la réponse à la valorisation."
+    }
+  }
+}

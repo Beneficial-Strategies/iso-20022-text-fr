@@ -1,0 +1,34 @@
+{
+  "isoType": "InvestmentFundFee2Code",
+  "definition": "Type de service pour lequel des frais sont demandés ou payés.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Commission de sortie",
+      "definition": "Frais payés par l'investisseur au fonds ou à la société de gestion du fonds lors du rachat."
+    },
+    "FEND": {
+      "name": "Commission d'entrée",
+      "definition": "Frais payés par l'investisseur au fonds ou à la société de gestion du fonds lors de la souscription."
+    },
+    "TRAN": {
+      "name": "Frais de transfert",
+      "definition": "Pour les fonds d'investissement, frais prélevés pour le transfert de propriété d'un fonds d'investissement."
+    },
+    "POST": {
+      "name": "Frais postaux",
+      "definition": "Frais payés pour l'affranchissement postal."
+    },
+    "REGF": {
+      "name": "Frais réglementaires",
+      "definition": "Frais prélevés par une autorité de régulation, par exemple les redevances des autorités boursières."
+    },
+    "SHIP": {
+      "name": "Frais d'expédition",
+      "definition": "Frais d'expédition, y compris l'assurance des titres."
+    },
+    "SPCN": {
+      "name": "Concessions spéciales",
+      "definition": "Frais, tirage ou autre réduction ou ajout au prix de la transaction."
+    }
+  }
+}

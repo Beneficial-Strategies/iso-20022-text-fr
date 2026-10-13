@@ -1,0 +1,26 @@
+{
+  "isoType": "StandingOrderQueryType1Code",
+  "definition": "Définit le type de requête pour les requêtes sur les ordres permanents, qui identifie les attributs clés prédéfinis attendus dans la réponse à la requête.",
+  "isoCodes": {
+    "SLST": {
+      "name": "Liste des ordres permanents",
+      "definition": "Sert à interroger la liste des ordres permanents de transfert de liquidités définis dans le système."
+    },
+    "SDTL": {
+      "name": "Détails des ordres permanents",
+      "definition": "Sert à interroger un ordre permanent de transfert de liquidités précis, selon un ensemble de critères de recherche."
+    },
+    "TAPS": {
+      "name": "Montant total par ordre permanent",
+      "definition": "Sert à interroger les montants totaux des ordres permanents de transfert de liquidités prédéfinis et définis par l'utilisateur, qu'ils soient définis ou non encore exécutés."
+    },
+    "SLSL": {
+      "name": "Liste des ensembles de liens d'ordres permanents",
+      "definition": "Sert à interroger la liste des ordres permanents de transfert de liquidités définis dans un ensemble lié précis d'ordres permanents séquencés. L'ensemble lié est un regroupement d'ordres permanents définis selon une séquence précise."
+    },
+    "SWLS": {
+      "name": "Détails des ordres permanents au sein de l'ensemble de liens",
+      "definition": "Sert à interroger un ordre permanent précis au sein d'un ensemble lié d'ordres permanents de transfert de liquidités séquencés. L'ensemble lié est un regroupement d'ordres permanents définis selon une séquence précise."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "GenericIdentification82",
+  "definition": "Informations relatives à l'identification d'une partie.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Nom ou numéro attribué par une entité pour permettre sa reconnaissance."
+    },
+    "Type": {
+      "definition": "Type d'identification."
+    },
+    "Issuer": {
+      "definition": "Entité qui attribue l'identification."
+    },
+    "IssueDate": {
+      "definition": "Date à laquelle l'identification a été délivrée."
+    },
+    "ExpiryDate": {
+      "definition": "Date à laquelle l'identification expire."
+    },
+    "State": {
+      "definition": "Nom de l'État, du comté ou de la subdivision du pays qui a délivré le document d'identification."
+    },
+    "IssuerCountry": {
+      "definition": "Pays qui a délivré le document d'identification."
+    }
+  }
+}

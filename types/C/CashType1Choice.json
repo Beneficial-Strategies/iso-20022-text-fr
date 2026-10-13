@@ -1,0 +1,12 @@
+{
+  "isoType": "CashType1Choice",
+  "definition": "Indique le type d'espèces.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'espèces tel que publié dans un jeu de codes externe de types d'espèces."
+    },
+    "Proprietary": {
+      "definition": "Type d'espèces, sous forme propriétaire."
+    }
+  }
+}

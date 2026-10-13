@@ -1,0 +1,90 @@
+{
+  "isoType": "PendingReason37Code",
+  "definition": "Précise le motif pour lequel l'opération/instruction est en attente ou en échec de règlement. Le règlement à la date de règlement instruite est encore possible, le statut est en attente. Le règlement à la date de règlement instruite n'est plus possible, le statut est en échec.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du teneur de compte. Elle sera traitée conformément à l'accord de service bilatéral entre le teneur de compte et le titulaire du compte."
+    },
+    "WCTF": {
+      "name": "En attente de la réponse de la contrepartie",
+      "definition": "Une allégation a été envoyée à la contrepartie. En attente de sa réponse."
+    },
+    "BSTR": {
+      "name": "Avant la période d'instruction",
+      "definition": "L'instruction est soumise avant la date de début des instructions."
+    },
+    "BUMM": {
+      "name": "Non-concordance de la protection de l'acheteur",
+      "definition": "Désaccord de la contrepartie sur le résultat choisi de l'événement sur titres."
+    },
+    "DQCS": {
+      "name": "Désaccord sur le montant en espèces",
+      "definition": "Montant en espèces instruit non reconnu ou invalide."
+    },
+    "ECRD": {
+      "name": "Échéance de réponse du choix à la contrepartie dépassée",
+      "definition": "Reçue après l'échéance de la réponse de la contrepartie au choix."
+    },
+    "NTAX": {
+      "name": "Taux d'imposition incohérent",
+      "definition": "Le taux d'imposition n'est pas cohérent avec la documentation en place."
+    },
+    "ITAX": {
+      "name": "Taux d'imposition incorrect",
+      "definition": "Le taux d'imposition fourni est incorrect. Il se situe en dehors des valeurs acceptables pour ce pays d'investissement."
+    },
+    "IPED": {
+      "name": "Instruction antérieure à la date de détermination des droits",
+      "definition": "L'instruction a été reçue avant la date de droit."
+    },
+    "MONY": {
+      "name": "Fonds insuffisants",
+      "definition": "Fonds insuffisants sur votre compte."
+    },
+    "IPAW": {
+      "name": "Documents invalides",
+      "definition": "Les documents requis sont invalides, incomplets ou manquants."
+    },
+    "LACK": {
+      "name": "Défaut de titres",
+      "definition": "Instruments financiers insuffisants sur votre compte."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "L'instruction a été reçue après l'heure limite du marché."
+    },
+    "MCER": {
+      "name": "Certification manquante",
+      "definition": "En attente de réception d'une certification adéquate."
+    },
+    "MTAX": {
+      "name": "Taux d'imposition manquant",
+      "definition": "Le taux d'imposition est manquant."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "FULL": {
+      "name": "Détails du bénéficiaire effectif en attente",
+      "definition": "En attente de réception des détails du propriétaire bénéficiaire."
+    },
+    "PENR": {
+      "name": "Réception en attente",
+      "definition": "L'instruction est en attente de réception de titres, par exemple à la suite d'un achat ou d'un prêt."
+    },
+    "DQUA": {
+      "name": "Désaccord sur la quantité",
+      "definition": "La quantité d'instruments financiers ne correspond pas."
+    },
+    "SNAV": {
+      "name": "Système non disponible",
+      "definition": "Le système n'est pas disponible. L'instruction est envoyée en dehors des heures ouvrables."
+    },
+    "CERT": {
+      "name": "Numéros de certificats erronés",
+      "definition": "Erreur de numéro de certificat."
+    }
+  }
+}

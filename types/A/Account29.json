@@ -1,0 +1,12 @@
+{
+  "isoType": "Account29",
+  "definition": "Relation commerciale entre deux entités ; l'une des entités est le titulaire du compte, l'autre est le teneur de compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    }
+  }
+}

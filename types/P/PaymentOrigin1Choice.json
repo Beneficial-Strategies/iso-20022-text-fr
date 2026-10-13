@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentOrigin1Choice",
+  "definition": "Spécifie le format sous lequel le paiement ayant généré l'écriture a été transmis.",
+  "isoElements": {
+    "FINMessageType": {
+      "definition": "Spécifie que le paiement était inclus dans un message au format SWIFT FIN, par exemple MT 103."
+    },
+    "XMLMessageName": {
+      "definition": "Spécifie que le paiement était inclus dans un message SWIFT XML."
+    },
+    "Proprietary": {
+      "definition": "Spécifie que le paiement était inclus dans un message au format propriétaire."
+    },
+    "Instrument": {
+      "definition": "Spécifie le type de paiement lorsqu'il n'est pas inclus dans un format SWIFT ou propriétaire."
+    }
+  }
+}

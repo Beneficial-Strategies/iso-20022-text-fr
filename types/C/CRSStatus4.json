@@ -1,0 +1,15 @@
+{
+  "isoType": "CRSStatus4",
+  "definition": "Informations sur le statut au regard de la norme commune de déclaration (CRS).",
+  "isoElements": {
+    "Type": {
+      "definition": "Statut au regard de la norme commune de déclaration (CRS)."
+    },
+    "Source": {
+      "definition": "Source du statut au regard de la norme commune de déclaration (CRS)."
+    },
+    "ExceptionalReportingCountry": {
+      "definition": "Pays déclarant pour le statut CRS lorsqu'il existe une exception au niveau du pays."
+    }
+  }
+}

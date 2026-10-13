@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneratedStatus7Choice",
+  "definition": "Choix du statut généré.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    },
+    "Reason": {
+      "definition": "Précise le motif du statut généré."
+    }
+  }
+}

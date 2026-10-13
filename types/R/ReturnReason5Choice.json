@@ -1,0 +1,12 @@
+{
+  "isoType": "ReturnReason5Choice",
+  "definition": "Précise le motif du retour de l'opération.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du retour, tel que publié dans une liste externe de codes de motifs."
+    },
+    "Proprietary": {
+      "definition": "Motif du retour, sous forme propriétaire."
+    }
+  }
+}

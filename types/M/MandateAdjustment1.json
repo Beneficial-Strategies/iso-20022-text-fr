@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateAdjustment1",
+  "definition": "Précise les détails de l'ajustement du mandat.",
+  "isoElements": {
+    "DateAdjustmentRuleIndicator": {
+      "definition": "Précise si un ajustement doit être appliqué ou non à la date d'encaissement convenue au préalable."
+    },
+    "Category": {
+      "definition": "Définit la catégorie d'ajustement."
+    },
+    "Amount": {
+      "definition": "Montant convenu au préalable pour augmenter ou diminuer le montant du mandat, justifié selon les informations de la catégorie."
+    },
+    "Rate": {
+      "definition": "Taux d'augmentation ou de diminution convenu au préalable qui sera appliqué au montant à encaisser."
+    }
+  }
+}

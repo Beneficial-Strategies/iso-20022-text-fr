@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType80Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser un type de taux.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type de taux de dividende brut."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de taux de dividende brut."
+    }
+  }
+}

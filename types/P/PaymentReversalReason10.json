@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentReversalReason10",
+  "definition": "Fournit des informations détaillées sur le motif de l'annulation de l'opération.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partie qui émet l'annulation."
+    },
+    "Reason": {
+      "definition": "Précise le motif de l'annulation."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations détaillées sur le motif de l'annulation."
+    }
+  }
+}

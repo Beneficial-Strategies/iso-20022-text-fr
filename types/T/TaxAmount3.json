@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxAmount3",
+  "definition": "Ensemble d'éléments servant à fournir des informations sur le ou les montants d'impôt de l'enregistrement fiscal.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Taux utilisé pour calculer l'impôt."
+    },
+    "TaxableBaseAmount": {
+      "definition": "Montant sur lequel l'impôt est assis."
+    },
+    "TotalAmount": {
+      "definition": "Montant total résultant du calcul de l'impôt pour l'enregistrement."
+    },
+    "Details": {
+      "definition": "Ensemble d'éléments servant à fournir des détails sur la période et le montant de l'impôt."
+    }
+  }
+}

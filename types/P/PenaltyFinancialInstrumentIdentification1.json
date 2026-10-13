@@ -1,0 +1,27 @@
+{
+  "isoType": "PenaltyFinancialInstrumentIdentification1",
+  "definition": "Précise les détails de l'instrument financier soumis à des pénalités.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification de l'instrument financier."
+    },
+    "SubjectToPenalties": {
+      "definition": "Indique si l'instrument financier est soumis à des pénalités ce jour ouvré.||Utilisation : si l'indicateur n'est pas fourni, le titre est soumis à des pénalités ce jour ouvré."
+    },
+    "ClassificationType": {
+      "definition": "Type de classification de l'instrument financier, selon la codification de la classification des instruments financiers ISO (CFI), par exemple action ordinaire avec droit de vote, entièrement libérée ou nominative."
+    },
+    "Liquidity": {
+      "definition": "Précise si le titre est liquide ou illiquide.||Utilisation : si l'indicateur n'est pas fourni, la liquidité n'est pas pertinente."
+    },
+    "PriceData": {
+      "definition": "Précisions supplémentaires sur le prix de l'instrument financier."
+    },
+    "ForeignExchangeData": {
+      "definition": "Précisions supplémentaires sur le taux de change."
+    },
+    "SecuritiesPenaltyRateData": {
+      "definition": "Données relatives au taux de pénalité fournies si le titre est soumis à des pénalités et si le code de la méthode de calcul est titres ou les deux."
+    }
+  }
+}

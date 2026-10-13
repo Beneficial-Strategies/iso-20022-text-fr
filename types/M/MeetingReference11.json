@@ -1,0 +1,30 @@
+{
+  "isoType": "MeetingReference11",
+  "definition": "Identification d'une assemblée.",
+  "isoElements": {
+    "MeetingIdentification": {
+      "definition": "Identification attribuée à l'assemblée générale par la partie qui fournit la convocation à l'assemblée. Elle doit être unique pour la partie qui fournit la notification."
+    },
+    "IssuerMeetingIdentification": {
+      "definition": "Identification attribuée à l'assemblée par l'émetteur. Elle doit être unique pour l'émetteur."
+    },
+    "MeetingDateAndTime": {
+      "definition": "Date et heure auxquelles l'assemblée aura lieu."
+    },
+    "EntitlementFixingDate": {
+      "definition": "Date à laquelle les positions sont arrêtées pour consigner quelles parties recevront le droit, par exemple date d'arrêté, date de clôture des registres."
+    },
+    "Type": {
+      "definition": "Type d'assemblée pour laquelle les instructions sont envoyées."
+    },
+    "Classification": {
+      "definition": "Type de classification de l'assemblée."
+    },
+    "Location": {
+      "definition": "Lieu de l'assemblée de la société à la date prévue de l'assemblée."
+    },
+    "Issuer": {
+      "definition": "Établissement qui est l'émetteur du titre auquel s'applique l'assemblée."
+    }
+  }
+}

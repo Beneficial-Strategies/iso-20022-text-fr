@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMDiagnosticResponseV02",
+  "definition": "Le message ATMDiagnosticResponse est envoyé par un acquéreur à un ATM en réponse à un message ATMDiagnosticRequest, afin de garantir la disponibilité et la validité des paramètres."
+}

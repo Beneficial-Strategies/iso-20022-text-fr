@@ -1,0 +1,27 @@
+{
+  "isoType": "InvestigationDataRecord12Choice",
+  "definition": "Précise les éléments de données relatifs à la réponse à une demande d'enquête.",
+  "isoElements": {
+    "DebitAuthorisation": {
+      "definition": "Indique si l'autorisation de débit est accordée ou non."
+    },
+    "Compensation": {
+      "definition": "Indique l'indemnisation due pour la demande."
+    },
+    "Valuation": {
+      "definition": "Indique l'indemnisation due pour la demande."
+    },
+    "Confirmation": {
+      "definition": "Confirme qu'un paiement a débité ou crédité un compte."
+    },
+    "TransactionStatus": {
+      "definition": "Fournit le statut d'un paiement qui n'a pas encore débité ni crédité un compte."
+    },
+    "TransactionData": {
+      "definition": "Fournit des données relatives à une demande."
+    },
+    "ResponseNarrative": {
+      "definition": "Fournit des informations complémentaires sur la réponse sous forme de texte libre."
+    }
+  }
+}

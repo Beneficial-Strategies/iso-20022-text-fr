@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification6",
+  "definition": "Solde exprimé au moyen d'un schéma de source de données.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Entité qui attribue l'identification."
+    },
+    "Information": {
+      "definition": "Informations propriétaires, souvent un code, émises par l'émetteur du schéma de la source de données."
+    },
+    "Balance": {
+      "definition": "Valeur du solde."
+    }
+  }
+}

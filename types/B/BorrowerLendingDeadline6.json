@@ -1,0 +1,12 @@
+{
+  "isoType": "BorrowerLendingDeadline6",
+  "definition": "Échéance de prêt de titres attribuée à un emprunteur des titres.",
+  "isoElements": {
+    "StockLendingDeadline": {
+      "definition": "Date/heure fixée comme échéance pour répondre, avec des instructions, à un événement en cours pour lequel le titre sous-jacent est prêté."
+    },
+    "Borrower": {
+      "definition": "Partie ayant emprunté des titres."
+    }
+  }
+}

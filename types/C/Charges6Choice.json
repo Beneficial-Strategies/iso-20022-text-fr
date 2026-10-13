@@ -1,0 +1,15 @@
+{
+  "isoType": "Charges6Choice",
+  "definition": "Fournit des informations sur les frais à payer par le ou les débiteurs des frais, liés au traitement de l'opération sous-jacente.",
+  "isoElements": {
+    "Single": {
+      "definition": "Frais liés à une seule opération de paiement."
+    },
+    "PerTransaction": {
+      "definition": "Frais ventilés par opération de paiement."
+    },
+    "PerType": {
+      "definition": "Frais ventilés par type de frais."
+    }
+  }
+}

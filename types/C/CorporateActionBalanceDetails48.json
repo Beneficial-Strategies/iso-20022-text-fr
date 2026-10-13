@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionBalanceDetails48",
+  "definition": "Soldes de comptes partagés avec l'agent de l'émetteur.",
+  "isoElements": {
+    "SecurityCalledAmount": {
+      "definition": "Montant total du titre qui a été rappelé pour remboursement à une date de paiement spécifique. Cela peut inclure des soldes détenus en dehors du dépositaire."
+    },
+    "TotalAmountOutstanding": {
+      "definition": "Montant total en circulation du titre sous-jacent, pouvant être détenu ou non auprès du dépositaire."
+    }
+  }
+}

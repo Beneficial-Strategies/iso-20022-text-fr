@@ -1,0 +1,18 @@
+{
+  "isoType": "Charges14",
+  "definition": "Fournit des informations sur les frais liés à l'opération de paiement.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Frais d'opération à payer par la partie qui supporte les frais."
+    },
+    "Agent": {
+      "definition": "Banque qui perçoit les frais de l'opération ou à laquelle ces frais sont dus."
+    },
+    "AgentAccount": {
+      "definition": "Identification sans ambiguïté du compte de la banque sur lequel sera passée une écriture au crédit au titre des frais."
+    },
+    "Type": {
+      "definition": "Définit le type de frais."
+    }
+  }
+}

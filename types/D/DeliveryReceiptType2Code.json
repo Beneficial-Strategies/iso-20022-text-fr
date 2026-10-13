@@ -1,0 +1,14 @@
+{
+  "isoType": "DeliveryReceiptType2Code",
+  "definition": "Précise comment l'opération doit être réglée.",
+  "isoCodes": {
+    "FREE": {
+      "name": "Règlement séparé",
+      "definition": "Le règlement de l'instrument financier et celui du numéraire sont distincts."
+    },
+    "APMT": {
+      "name": "Règlement contre paiement",
+      "definition": "Le règlement de l'instrument financier et du numéraire s'effectue dans un environnement de livraison contre paiement (DVP), c'est-à-dire par l'intermédiaire d'un dépositaire central de titres international (ICSD) ou d'un dépositaire central de titres (CSD)."
+    }
+  }
+}

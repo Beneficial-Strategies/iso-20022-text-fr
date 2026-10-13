@@ -1,0 +1,17 @@
+{
+  "isoType": "OpeningBalance6",
+  "definition": "Solde d'ouverture de la période du relevé (premier solde d'ouverture) ou de cette page (solde d'ouverture intermédiaire).",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "definition": "Indication que la position est courte ou longue."
+    },
+    "OpeningBalance": {
+      "definition": "Solde d'ouverture de la période du relevé (premier solde d'ouverture) ou de cette page (solde d'ouverture intermédiaire)."
+    }
+  },
+  "isoRules": {
+    "ShortLongDefaultRule": {
+      "definition": "Si Shortlong est absent, la valeur par défaut est long, c'est-à-dire que le solde est positif."
+    }
+  }
+}

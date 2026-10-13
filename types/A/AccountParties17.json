@@ -1,0 +1,48 @@
+{
+  "isoType": "AccountParties17",
+  "definition": "Informations sur le compte d'une partie.",
+  "isoElements": {
+    "PrincipalAccountParty": {
+      "definition": "Partie principale associée au compte."
+    },
+    "SecondaryOwner": {
+      "definition": "Entité qui n'est pas le propriétaire principal lorsque la propriété du compte d'investissement est répartie entre plusieurs propriétaires."
+    },
+    "Beneficiary": {
+      "definition": "Partie ultime ayant droit soit de recevoir les avantages de la propriété d'un instrument financier, soit d'être payée/créditée à la suite d'un transfert."
+    },
+    "PowerOfAttorney": {
+      "definition": "Entité à laquelle une autre entité a donné le pouvoir d'agir en son nom."
+    },
+    "LegalGuardian": {
+      "definition": "Entité désignée par une autorité légale pour agir au nom d'une personne jugée incapable."
+    },
+    "CustodianForMinor": {
+      "definition": "Entité qui détient des actions/parts pour le compte d'un mineur. Bien que le compte soit enregistré au nom du mineur, le dépositaire conserve le contrôle du compte."
+    },
+    "SuccessorOnDeath": {
+      "definition": "Succession du défunt, ou successeur, à qui le pourcentage de propriété respectif sera transféré au décès de l'un des propriétaires."
+    },
+    "Administrator": {
+      "definition": "Entité désignée par une autorité légale pour agir au nom d'une personne ou d'une organisation en faillite."
+    },
+    "OtherParty": {
+      "definition": "Autre type de partie."
+    },
+    "Granter": {
+      "definition": "Rôle de constituant dans le secteur des fonds spéculatifs."
+    },
+    "Settlor": {
+      "definition": "Entité qui crée une fiducie ou y apporte des actifs."
+    },
+    "SeniorManagingOfficial": {
+      "definition": "Partie qui prend, ou participe à la prise de, décisions affectant l'ensemble ou une partie substantielle de l'activité d'un client d'une entité déclarante, ou qui a la capacité d'affecter de manière significative la situation financière d'un client d'une entité déclarante. Il s'agit typiquement d'une personne détenant le contrôle d'une société (type de propriété CORP)."
+    },
+    "Protector": {
+      "definition": "Personne désignée dans l'acte de fiducie pour diriger ou limiter les fiduciaires dans l'administration de la fiducie. Il s'agit typiquement d'une personne détenant le contrôle d'une fiducie (type de propriété TRUS) ou d'une autre organisation non individuelle (type de propriété ONIS)."
+    },
+    "RegisteredShareholderName": {
+      "definition": "Partie qui enregistre son nom auprès de l'émetteur et nom utilisé pour l'enregistrement."
+    }
+  }
+}

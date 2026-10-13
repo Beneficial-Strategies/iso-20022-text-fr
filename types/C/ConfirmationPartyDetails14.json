@@ -1,0 +1,27 @@
+{
+  "isoType": "ConfirmationPartyDetails14",
+  "definition": "Parties utilisées pour les parties agissantes, qui s'appliquent soit à l'ensemble du message, soit à des côtés individuels.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiant unique et non ambigu d'une organisation, attribué par un établissement, par exemple l'identification Dun & Bradstreet."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "CashDetails": {
+      "definition": "Relation commerciale entre deux entités ; l'une des entités est le titulaire du compte, l'autre est le teneur de compte."
+    },
+    "AlternateIdentification": {
+      "definition": "Identification alternative d'une partie."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identification non ambiguë de l'opération pour la partie identifiée."
+    },
+    "AdditionalInformation": {
+      "definition": "Fournit des informations supplémentaires sur l'identification d'une partie."
+    },
+    "PartyCapacity": {
+      "definition": "Qualité du client qui passe l'ordre. Utilisé principalement par les bourses de contrats à terme pour indiquer le code CTI (customer type indicator, indicateur de type de client) exigé par la CFTC US (Commodity Futures Trading Commission)."
+    }
+  }
+}

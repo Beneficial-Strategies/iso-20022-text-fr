@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementParties120",
+  "definition": "Fournit une partie au règlement par un choix entre un BIC, un nom et une adresse ou une identification de partie.",
+  "isoElements": {
+    "DeliveryAgent": {
+      "definition": "Établissement financier à partir duquel la trésorerie sera transférée."
+    },
+    "Intermediary": {
+      "definition": "Partie, au sein de la chaîne de règlement, située entre les agents de livraison et de réception."
+    },
+    "ReceivingAgent": {
+      "definition": "Établissement financier où le bénéficiaire recevra les fonds."
+    },
+    "BeneficiaryInstitution": {
+      "definition": "Établissement final qui recevra les fonds lorsqu'il diffère de la partie négociatrice ou de la contrepartie."
+    }
+  }
+}

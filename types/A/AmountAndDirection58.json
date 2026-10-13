@@ -1,0 +1,18 @@
+{
+  "isoType": "AmountAndDirection58",
+  "definition": "Montant d'argent débité ou crédité dans les livres d'un établissement gestionnaire de compte.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant d'argent de l'écriture de trésorerie."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si une écriture est un crédit ou un débit."
+    },
+    "OriginalCurrencyAndOrderedAmount": {
+      "definition": "Montant de comptabilisation/règlement dans sa devise d'origine lorsqu'une conversion depuis/vers une autre devise a eu lieu."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Informations nécessaires pour traiter un change ou une conversion de devises."
+    }
+  }
+}

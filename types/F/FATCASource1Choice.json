@@ -1,0 +1,12 @@
+{
+  "isoType": "FATCASource1Choice",
+  "definition": "Choix de formats pour la source du Foreign Account Tax Compliance Act (FATCA).",
+  "isoElements": {
+    "Code": {
+      "definition": "Source du statut FATCA (Foreign Account Tax Compliance Act) exprimée sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Source du statut FATCA (Foreign Account Tax Compliance Act) exprimée sous forme de code propriétaire."
+    }
+  }
+}

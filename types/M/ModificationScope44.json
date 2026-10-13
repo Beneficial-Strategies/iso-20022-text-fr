@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope44",
+  "definition": "Portée de la modification à appliquer à un ensemble d'informations identifié.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Précise le type de modification à appliquer."
+    },
+    "ServiceLevelAgreement": {
+      "definition": "Identification d'informations faisant partie d'un accord de niveau de service."
+    }
+  }
+}

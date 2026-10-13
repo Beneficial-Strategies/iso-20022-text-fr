@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxRecordDetails3",
+  "definition": "Fournit des informations sur le ou les montants d'impôt individuels par période de l'enregistrement fiscal.",
+  "isoElements": {
+    "Period": {
+      "definition": "Ensemble d'éléments servant à fournir des détails sur la période se rapportant au paiement de l'impôt."
+    },
+    "Amount": {
+      "definition": "Montant d'impôt sous-jacent relatif à la période indiquée."
+    }
+  }
+}

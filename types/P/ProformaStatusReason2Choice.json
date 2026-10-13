@@ -1,0 +1,12 @@
+{
+  "isoType": "ProformaStatusReason2Choice",
+  "definition": "Choix de formats pour un code de motif de statut pro forma.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut activé du compte exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif du statut activé du compte exprimé sous forme de code propriétaire."
+    }
+  }
+}

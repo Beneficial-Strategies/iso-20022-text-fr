@@ -1,0 +1,56 @@
+{
+  "isoType": "GroupHeader123",
+  "definition": "Ensemble de caractéristiques communes à toutes les opérations individuelles incluses dans le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par la partie instructrice et envoyée à la partie suivante de la chaîne, pour identifier le message sans ambiguïté.|Utilisation : la partie instructrice doit s'assurer que MessageIdentification est unique par partie instruite pendant une période convenue au préalable."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "Authorisation": {
+      "definition": "Identification de l'utilisateur ou toute clé d'utilisateur à utiliser pour vérifier si la partie initiatrice est autorisée à initier des opérations à partir du compte indiqué dans le message.||Utilisation : le contenu n'est pas de nature technique, mais reflète l'organisation de la partie initiatrice.|L'élément d'autorisation peut généralement être utilisé dans des scénarios de relais, d'initiations de paiement, de retours de paiement ou d'annulations de paiement initiés pour le compte d'une partie différente de la partie initiatrice."
+    },
+    "BatchBooking": {
+      "definition": "Indique si une écriture unique par opération individuelle ou une écriture groupée pour la somme des montants de toutes les opérations du groupe d'un message est demandée.|Utilisation : la remise groupée sert à demander, et non à ordonner, une éventuelle remise groupée."
+    },
+    "NumberOfTransactions": {
+      "definition": "Nombre d'opérations individuelles contenues dans le message."
+    },
+    "ControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le message, quelles que soient les devises."
+    },
+    "GroupReturn": {
+      "definition": "Indique si le retour s'applique à l'ensemble du groupe d'opérations ou à des opérations individuelles du ou des groupes d'origine."
+    },
+    "TotalReturnedInterbankSettlementAmount": {
+      "definition": "Montant total d'argent transféré entre l'agent instructeur et l'agent instruit dans le message de retour."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour la banque qui le doit et devient disponible pour la banque à laquelle il est dû."
+    },
+    "SettlementInformation": {
+      "definition": "Précise les détails de la manière dont le règlement de la ou des opérations entre la banque donneuse d'ordre et la banque destinataire de l'ordre est effectué."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Précise le type de l'opération de retour."
+    },
+    "InstructingAgent": {
+      "definition": "Agent qui charge la partie suivante de la chaîne d'exécuter l'instruction ou l'ensemble d'instructions.|Utilisation : l'agent instructeur est la partie qui envoie le message de retour, et non la partie qui a envoyé l'instruction d'origine faisant l'objet du retour."
+    },
+    "InstructedAgent": {
+      "definition": "Agent chargé par la partie précédente de la chaîne d'exécuter l'instruction ou l'ensemble d'instructions.|Utilisation : l'agent instruit est la partie qui reçoit le message de retour, et non la partie qui a reçu l'instruction d'origine faisant l'objet du retour."
+    }
+  },
+  "isoRules": {
+    "GroupReturnAndNumberOfTransactionsGuideline": {
+      "definition": "Si GroupReturn est vrai, NumberOfTransactions est égal au nombre d'opérations du message d'origine."
+    },
+    "TotalInterbankSettlementAmountAndDateRule": {
+      "definition": "Si TotalReturnedInterbankSettlementAmount est présent, InterbankSettlementDate doit être présent."
+    },
+    "ControlSumAndGroupReturnRule": {
+      "definition": "Si GroupReturn est vrai, ControlSum n'est pas autorisé."
+    }
+  }
+}

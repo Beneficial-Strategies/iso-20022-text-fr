@@ -1,0 +1,12 @@
+{
+  "isoType": "Drawdown3",
+  "definition": "Informations sur un retrait échelonné.",
+  "isoElements": {
+    "EmploymentDetails": {
+      "definition": "Informations sur l’emploi précédent."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le retrait échelonné."
+    }
+  }
+}

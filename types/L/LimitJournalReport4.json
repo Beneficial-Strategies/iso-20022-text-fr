@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitJournalReport4",
+  "definition": "Rend compte soit de la limite de gestion des risques, soit d'une erreur métier.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identification de la limite pour laquelle des informations sont demandées."
+    },
+    "LimitReport": {
+      "definition": "Précise le rapport commercial comme étant soit un journal d'utilisation des limites, soit une erreur fonctionnelle."
+    }
+  }
+}

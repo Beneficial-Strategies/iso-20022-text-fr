@@ -1,0 +1,30 @@
+{
+  "isoType": "MessageFunction8Code",
+  "definition": "Identifie le type de traitement demandé par l'hôte à un ATM.",
+  "isoCodes": {
+    "BALN": {
+      "name": "Solde du DAB",
+      "definition": "Fournir les compteurs de l'ATM en réinitialisant ceux qui sont applicables."
+    },
+    "GSTS": {
+      "name": "Statut global du DAB",
+      "definition": "Statut global de l'ATM."
+    },
+    "DSEC": {
+      "name": "Détails de sécurité",
+      "definition": "Rapport détaillé de sécurité."
+    },
+    "INQC": {
+      "name": "Consultation des compteurs",
+      "definition": "Demander la valeur des compteurs de l'ATM."
+    },
+    "KEYQ": {
+      "name": "Demande d'échange de clé",
+      "definition": "Demande d'échange de clés."
+    },
+    "SSTS": {
+      "name": "Statut de clé de sécurité",
+      "definition": "Statut des clés cryptographiques."
+    }
+  }
+}

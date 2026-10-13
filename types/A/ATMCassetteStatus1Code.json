@@ -1,0 +1,46 @@
+{
+  "isoType": "ATMCassetteStatus1Code",
+  "definition": "Statut d'une cassette dans un ATM.",
+  "isoCodes": {
+    "CUOK": {
+      "name": "OK",
+      "definition": "L'unité d'espèces est en bon état."
+    },
+    "CUFL": {
+      "name": "Plein",
+      "definition": "L'unité d'espèces est pleine."
+    },
+    "CUHG": {
+      "name": "Élevé",
+      "definition": "L'unité d'espèces est haute, c'est-à-dire qu'elle a atteint ou dépassé le seuil défini pour cette cassette."
+    },
+    "CULW": {
+      "name": "Faible",
+      "definition": "L'unité d'espèces est basse, c'est-à-dire qu'elle a atteint le seuil défini pour cette cassette ou est en dessous."
+    },
+    "CUMT": {
+      "name": "Vide",
+      "definition": "L'unité d'espèces est vide."
+    },
+    "CUNP": {
+      "name": "Inopérant",
+      "definition": "L'unité d'espèces est inopérante."
+    },
+    "CUMS": {
+      "name": "Manquant",
+      "definition": "L'unité d'espèces est manquante."
+    },
+    "CUNA": {
+      "name": "Non disponible",
+      "definition": "Les valeurs de cette unité d'espèces ne sont pas disponibles."
+    },
+    "CUNR": {
+      "name": "Sans référence",
+      "definition": "Aucune valeur de référence n'est disponible pour cette unité d'espèces."
+    },
+    "CUMP": {
+      "name": "Manipulé",
+      "definition": "Le dispositif a été inséré alors qu'il n'était pas dans un état d'échange."
+    }
+  }
+}

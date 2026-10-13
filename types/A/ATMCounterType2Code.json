@@ -1,0 +1,22 @@
+{
+  "isoType": "ATMCounterType2Code",
+  "definition": "Type de compteurs de cassette d'ATM.",
+  "isoCodes": {
+    "BDAY": {
+      "name": "Jour ouvré",
+      "definition": "Compteurs depuis le début de la journée ouvrée."
+    },
+    "INQU": {
+      "name": "Consultation des compteurs",
+      "definition": "Compteurs depuis la dernière consultation des compteurs."
+    },
+    "CTOF": {
+      "name": "Heure limite",
+      "definition": "Compteurs depuis la dernière clôture."
+    },
+    "OPER": {
+      "name": "Ajustement par l'opérateur",
+      "definition": "Compteurs depuis la dernière mise à jour par un opérateur sur l'ATM."
+    }
+  }
+}

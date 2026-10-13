@@ -1,0 +1,9 @@
+{
+  "isoType": "AccountModificationInstructionV08",
+  "definition": "Portée|Le message AccountModificationInstruction est envoyé par un titulaire de compte, par exemple un investisseur ou son agent désigné, au teneur de compte, par exemple un registraire, un agent de transfert, une banque dépositaire ou un dépositaire central de titres, pour modifier, c'est-à-dire créer, mettre à jour ou supprimer, des détails précis d'un compte existant.|Utilisation|Le message AccountModificationInstruction est utilisé pour modifier les détails d'un compte existant.|Le message AccountModificationInstruction peut être utilisé pour :|- maintenir/mettre à jour tout détail existant du compte, par exemple pour mettre à jour l'adresse du bénéficiaire ou modifier la préférence de revenu de distribution en capitalisation, ou,|- ajouter/créer des détails précis dans le compte existant lorsque ces détails n'avaient pas encore été enregistrés lors de la création du compte, par exemple pour ajouter une seconde adresse ou établir de nouvelles instructions permanentes de règlement en espèces, ou,|- supprimer des détails précis du compte, par exemple supprimer des instructions permanentes en espèces, ou,|- donner instruction de modifier le statut du compte, par exemple donner instruction de clore le compte.|L'utilisation de ce message peut être soumise à un accord de niveau de service (SLA) entre les contreparties.|L'exécution de l'AccountModificationInstruction est confirmée par un message AccountDetailsConfirmation.",
+  "isoRules": {
+    "UnitRule": {
+      "definition": "Si ModifiedSavingsInvestmentPlan est présent, alors ModifiedSavingsInvestmentPlan/InvestmentPlan/Quantity/Unit n'est pas autorisé."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "FromToAmountRange1",
+  "definition": "Fourchette de valeurs de montant.",
+  "isoElements": {
+    "FromAmount": {
+      "definition": "Limite inférieure d'une fourchette de valeurs de montant."
+    },
+    "ToAmount": {
+      "definition": "Limite supérieure d'une fourchette de valeurs de montant."
+    }
+  }
+}

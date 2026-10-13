@@ -1,0 +1,10 @@
+{
+  "isoType": "SafekeepingPlace3Code",
+  "definition": "Précise le type de lieu de conservation.",
+  "isoCodes": {
+    "SHHE": {
+      "name": "Titres détenus ailleurs",
+      "definition": "Utilisé pour certains instruments financiers, par exemple les fonds communs de placement US, dont le règlement est uniquement interne, c'est-à-dire sans mouvement externe de titres."
+    }
+  }
+}

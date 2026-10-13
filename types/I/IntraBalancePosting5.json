@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalancePosting5",
+  "definition": "Fournit les opérations du relevé.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Solde à partir duquel le montant est déplacé."
+    },
+    "Movement": {
+      "definition": "Précisions sur le mouvement intra-solde individuel."
+    }
+  }
+}

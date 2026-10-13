@@ -1,0 +1,33 @@
+{
+  "isoType": "BillingTaxRegion3",
+  "definition": "Région fiscale qui prélève une taxe sur les services d'un relevé.",
+  "isoElements": {
+    "RegionNumber": {
+      "definition": "Précise une zone fiscale unique particulière attribuée par les autorités fiscales. Un numéro de région fiscale est unique. Chaque compte est réputé résider dans une région fiscale, bien que certaines régions fiscales puissent ne prélever aucune taxe sur les services."
+    },
+    "RegionName": {
+      "definition": "Nom associé à un numéro de région fiscale donné."
+    },
+    "CustomerTaxIdentification": {
+      "definition": "Précise le numéro d'identification fiscale du client de l'établissement financier. ||Usage : |il s'agit du numéro transmis par l'établissement financier à l'autorité fiscale pour indiquer le client précis rattaché aux taxes calculées pour cette région fiscale et ce groupe de services fournis. Il s'agit généralement de l'identification fiscale rattachée au compte d'un client."
+    },
+    "PointDate": {
+      "definition": "Date à laquelle le calcul de la taxe a été effectué. ||Usage : |cette date peut servir à vérifier la valeur du taux de taxe à la date du calcul."
+    },
+    "SendingFinancialInstitution": {
+      "definition": "Informations fiscales relatives à l'établissement financier émetteur."
+    },
+    "InvoiceNumber": {
+      "definition": "Numéro unique à utiliser par le client pour établir un renvoi entre les informations de la région fiscale et une facture ou un avis de taxe."
+    },
+    "MethodC": {
+      "definition": "Les valeurs de taxe reposent sur la méthode C de calcul de la taxe."
+    },
+    "SettlementAmount": {
+      "definition": "Montant total de la taxe exprimé dans la devise de règlement (ou de facturation) du compte. ||Usage : ce total additionne les taxes individuelles au niveau du service, calculées pour chaque service selon les méthodes A, B et D. La somme de ces montants pour toutes les régions fiscales du relevé est affichée comme somme totale de la taxe dans la section de compensation."
+    },
+    "TaxDueToRegion": {
+      "definition": "Montant total de toutes les taxes pour un client donné au sein de la région fiscale, exprimé dans la devise d'accueil de la région fiscale. ||Usage : il s'agit de la même valeur que le montant total de la taxe, incluse pour l'usage spécifique des méthodes de calcul de la taxe A, B et D."
+    }
+  }
+}

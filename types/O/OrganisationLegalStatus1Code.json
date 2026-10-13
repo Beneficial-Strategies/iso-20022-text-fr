@@ -1,0 +1,58 @@
+{
+  "isoType": "OrganisationLegalStatus1Code",
+  "definition": "Précise le statut d'une entité juridique.",
+  "isoCodes": {
+    "CIOC": {
+      "name": "Organisme caritatif constitué en société",
+      "definition": "Organisme de bienfaisance constitué en société (CIO)"
+    },
+    "CHAR": {
+      "name": "Organisme de bienfaisance",
+      "definition": "Organisme de bienfaisance"
+    },
+    "CICC": {
+      "name": "Société d'intérêt communautaire",
+      "definition": "Société d'intérêt communautaire (CIC)"
+    },
+    "GENP": {
+      "name": "Société en nom collectif",
+      "definition": "Société en nom collectif"
+    },
+    "IAPS": {
+      "name": "Société coopérative et de prévoyance",
+      "definition": "Par exemple une coopérative, qui comprend Ltd. ou un organisme de bienfaisance."
+    },
+    "LLPP": {
+      "name": "Société à responsabilité limitée de personnes",
+      "definition": "Société à responsabilité limitée de personnes (LLP)"
+    },
+    "PCLG": {
+      "name": "Société privée limitée par garantie",
+      "definition": "Société privée limitée par garantie (Ltd.)"
+    },
+    "LIMP": {
+      "name": "Société en commandite",
+      "definition": "Société en commandite (LP)"
+    },
+    "PCLS": {
+      "name": "Société privée limitée par actions",
+      "definition": "Société privée limitée par actions (Ltd.)"
+    },
+    "PCLC": {
+      "name": "Société anonyme",
+      "definition": "Société anonyme (Plc.)"
+    },
+    "SOLE": {
+      "name": "Entreprise individuelle",
+      "definition": "Entreprise individuelle/Commerçant individuel"
+    },
+    "UNLC": {
+      "name": "Société à responsabilité illimitée",
+      "definition": "Société à responsabilité illimitée"
+    },
+    "UNLT": {
+      "name": "Fiducie à responsabilité illimitée",
+      "definition": "Fiducie à responsabilité illimitée"
+    }
+  }
+}

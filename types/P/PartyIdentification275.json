@@ -1,0 +1,30 @@
+{
+  "isoType": "PartyIdentification275",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nom et adresse de la partie."
+    },
+    "EmailAddress": {
+      "definition": "Adresse de courrier électronique (e-mail)."
+    },
+    "Identification": {
+      "definition": "Identification de la partie."
+    },
+    "CountryOfIncorporation": {
+      "definition": "Pays dans lequel la société est constituée ou légalement enregistrée."
+    },
+    "YearOfIncorporation": {
+      "definition": "Année au cours de laquelle la personne morale a été officiellement constituée."
+    },
+    "ActivityIndicator": {
+      "definition": "Activité économique de l'investisseur."
+    },
+    "InvestorType": {
+      "definition": "Type d'investisseur."
+    },
+    "Ownership": {
+      "definition": "Informations sur la propriété d'un actif."
+    }
+  }
+}

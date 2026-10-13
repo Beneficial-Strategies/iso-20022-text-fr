@@ -1,0 +1,30 @@
+{
+  "isoType": "IntraBalanceCancellation8",
+  "definition": "Fournit les détails des demandes d'annulation.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de trésorerie est passée."
+    },
+    "CashAccountOwner": {
+      "definition": "Partie titulaire du compte."
+    },
+    "CashAccountServicer": {
+      "definition": "Partie qui gère le compte espèces pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "ProcessingStatus": {
+      "definition": "Statut et motif du statut de l'opération."
+    },
+    "RequestReference": {
+      "definition": "Identification non ambiguë de la demande d'annulation."
+    },
+    "StatusDate": {
+      "definition": "Date et heure auxquelles le statut a été attribué."
+    },
+    "TransactionIdentification": {
+      "definition": "Références de l'opération pour laquelle la modification intra-solde est demandée."
+    },
+    "UnderlyingIntraBalance": {
+      "definition": "Identifie des détails supplémentaires de l'opération."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingInstructionStatusV12",
+  "definition": "Portée|Le message MeetingInstructionStatus est envoyé par un intermédiaire à l'émetteur d'une instruction pour confirmer le statut de cette instruction. Le message indique le statut d'un message complet ou d'une ou plusieurs instructions spécifiques au sein du message.|Le message peut également être envoyé par l'émetteur ou l'intermédiaire pour confirmer qu'un vote a été exprimé.|Utilisation|Le message MeetingInstructionStatus est utilisé à quatre fins.|Premièrement, il sert à fournir un statut global de traitement ou de rejet d'un message MeetingInstruction.|Deuxièmement, il fournit le statut du traitement d'un message MeetingInstructionCancellationRequest, par exemple, si le message de demande est rejeté ou accepté.|Troisièmement, il sert à fournir un statut détaillé de traitement ou de rejet d'une ou plusieurs instructions au sein du message MeetingInstruction, par exemple, pour chaque instruction du message MeetingInstruction, le statut de traitement ou de rejet est indiqué individuellement à l'aide de l'élément SingleInstructionIdentification. Cette identification permet au destinataire du message de statut de relier la confirmation de statut à son instruction d'origine.|Quatrièmement, il sert à confirmer que l'instruction de vote correspondante a été confirmée comme exprimée par l'émetteur ou son agent.|Cette définition de message est destinée à être utilisée avec le Business Application Header (BAH).",
+  "isoRules": {
+    "Status1Rule": {
+      "definition": "Si InstructionType/InstructionIdentification est présent, alors InstructionTypeStatus/InstructionStatus doit être présent."
+    },
+    "Status2Rule": {
+      "definition": "Si InstructionType/InstructionCancellationIdentification est présent, alors InstructionTypeStatus/CancellationStatus doit être présent."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventProcessingStatus4Choice",
+  "definition": "Choix de statut de traitement d'un événement sur titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut d'un événement sur titres ou statut d'un paiement exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Statut d'un événement sur titres ou statut d'un paiement exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

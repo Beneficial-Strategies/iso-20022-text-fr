@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionFrequencyType1FormatChoice",
+  "definition": "Choix de formats pour exprimer la fréquence d'un événement CA.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard pour préciser la fréquence d'un événement CA."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire pour exprimer la fréquence d'un événement CA."
+    }
+  }
+}

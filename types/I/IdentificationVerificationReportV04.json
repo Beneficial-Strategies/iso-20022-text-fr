@@ -1,0 +1,4 @@
+{
+  "isoType": "IdentificationVerificationReportV04",
+  "definition": "Portée|Le message IdentificationVerificationReport est envoyé par un assignateur à un destinataire de l'attribution. Il est utilisé pour confirmer si les informations d'identification de la partie et/ou du compte présentées sont correctes ou non.|Utilisation|Le message IdentificationVerificationReport est envoyé en réponse à un message IdentificationVerificationRequest.|Le message IdentificationVerificationReport peut contenir un ou plusieurs rapports.|Le message IdentificationVerificationReport peut inclure un motif si les informations d'identification de la partie et/ou du compte présentées sont confirmées comme incorrectes.|Le message IdentificationVerificationReport peut inclure les informations d'identification correctes de la partie et/ou du compte."
+}

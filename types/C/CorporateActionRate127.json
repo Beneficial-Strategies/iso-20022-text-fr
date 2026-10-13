@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionRate127",
+  "definition": "Précise les taux relatifs à une option d'événement sur titres.",
+  "isoElements": {
+    "ProposedRate": {
+      "definition": "Taux proposé lors d'un remarketing de titres à taux variable."
+    },
+    "OversubscriptionRate": {
+      "definition": "Taux de sursouscription autorisé."
+    },
+    "RequestedWithholdingTaxRate": {
+      "definition": "Taux d'imposition demandé qui sera retenu par les autorités fiscales de la juridiction de l'émetteur, pour lequel un allègement à la source et/ou un remboursement peut être possible."
+    },
+    "RequestedSecondLevelTaxRate": {
+      "definition": "Taux demandé auquel le revenu sera retenu par une juridiction autre que celle du pays de constitution fiscale de l'émetteur, pour lequel un allègement à la source et/ou un remboursement peut être possible."
+    }
+  }
+}

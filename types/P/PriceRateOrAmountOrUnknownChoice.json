@@ -1,0 +1,15 @@
+{
+  "isoType": "PriceRateOrAmountOrUnknownChoice",
+  "definition": "Choix de formats pour le prix.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Prix exprimé sous la forme d'un taux, c'est-à-dire d'un pourcentage."
+    },
+    "Amount": {
+      "definition": "Prix exprimé sous forme de devise et de valeur."
+    },
+    "UnknownIndicator": {
+      "definition": "Indique si le prix de marché est inconnu."
+    }
+  }
+}

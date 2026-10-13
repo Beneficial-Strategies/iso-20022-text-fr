@@ -1,0 +1,12 @@
+{
+  "isoType": "RateTypeAndPercentageRate19",
+  "definition": "Précise la valeur exprimée sous forme d'un type de taux présumé et d'un taux en pourcentage.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Valeur exprimée sous forme de type de taux."
+    },
+    "Rate": {
+      "definition": "Valeur exprimée sous forme de taux."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "isoType": "SecuritiesTradeDetails151",
+  "definition": "Détails de la transaction sur titres.",
+  "isoElements": {
+    "TradeIdentification": {
+      "definition": "Référence attribuée à l'opération par l'investisseur ou la partie négociatrice. Cette référence sera utilisée tout au long du cycle de vie de l'opération pour accéder aux détails de celle-ci ou les mettre à jour."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Identifiant unique d'opération (UTI) tel que convenu avec l'autre contrepartie."
+    },
+    "CollateralTransactionIdentification": {
+      "definition": "Identification non ambiguë d'une opération de garantie telle qu'attribuée par la partie instructrice."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification d'une opération du titulaire du compte pouvant potentiellement correspondre à l'allégation notifiée."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par le responsable du traitement de l'instruction autre que le titulaire de compte, le teneur de compte et l'infrastructure de marché."
+    },
+    "PlaceOfTrade": {
+      "definition": "Marché sur lequel une opération de négociation a été exécutée."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infrastructure qui peut faire partie d'une chambre de compensation et qui facilite la compensation et le règlement pour ses membres en s'interposant entre l'acheteur et le vendeur. Elle peut netter les opérations et se substitue comme contrepartie de règlement pour chaque position."
+    },
+    "TradeDate": {
+      "definition": "Précise la date/l'heure d'exécution de la transaction."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être livrés ou reçus."
+    },
+    "DealPrice": {
+      "definition": "Précise le prix de l'instrument financier négocié.|Il s'agit du prix de la transaction individuelle.|S'il n'y a qu'une seule transaction pour l'exécution de l'opération boursière, le prix de la transaction peut être égal au prix d'exécution (sauf si, par exemple, le prix inclut des commissions ou des arrondis, ou si un autre facteur a été appliqué au prix de la transaction, au prix d'exécution, ou aux deux)."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Nombre de jours pendant lesquels le taux d'intérêt court (titre à intérêts courus quotidiens)."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indique les conditions dans lesquelles l'ordre ou la transaction doit être exécuté ou a été exécuté."
+    },
+    "TypeOfPrice": {
+      "definition": "Précise le type de prix et les informations relatives au prix."
+    }
+  },
+  "isoRules": {
+    "PlaceOfTradeRule": {
+      "definition": "Si PlaceOfTrade est utilisé et qu'un MIC ISO 10383 existe pour le marché à identifier, le code d'identification de marché (MIC) ISO 10383 doit être utilisé."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "Si Trade Date/Time est utilisé avec une heure ou une heure + indicateur UTC, il doit s'agir de l'heure locale du lieu de la transaction, par exemple de la bourse ou du courtier vendeur pour les opérations de gré à gré (OTC)."
+    },
+    "LateDeliveryDateRule": {
+      "definition": "Si LateDeliveryDate est utilisé, l'opération doit être une opération de pool résultant du TBA (To Be Announced) d'origine. Le TBA d'origine serait compensé par une opération inverse et remplacé par des achats ou ventes de pools individuels. Il s'agit d'une date postérieure à la date de règlement indiquée dans la transaction, pour les pools conçus pour être réglés tardivement."
+    }
+  }
+}

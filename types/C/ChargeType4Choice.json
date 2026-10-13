@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType4Choice",
+  "definition": "Choix de formats pour le type de frais.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de frais exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de frais exprimé sous forme de code propriétaire."
+    }
+  }
+}

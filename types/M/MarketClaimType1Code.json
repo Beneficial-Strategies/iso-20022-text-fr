@@ -1,0 +1,14 @@
+{
+  "isoType": "MarketClaimType1Code",
+  "definition": "Précise le type de réclamation de marché dans le contexte d'un événement de distribution d'opération sur titres.",
+  "isoCodes": {
+    "MKTC": {
+      "name": "Réclamation de marché",
+      "definition": "Réclamation de marché créée en raison d'une opération de règlement-livraison en attente ou en défaut, afin de garantir que le produit de l'événement est remis du vendeur à l'acheteur."
+    },
+    "RVMC": {
+      "name": "Réclamation de marché inversée",
+      "definition": "Réclamation de marché créée en raison d'une opération de règlement-livraison réglée, afin de garantir que le produit de l'événement est remis de l'acheteur au vendeur."
+    }
+  }
+}

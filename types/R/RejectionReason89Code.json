@@ -1,0 +1,194 @@
+{
+  "isoType": "RejectionReason89Code",
+  "definition": "Précise le motif pour lequel la demande d'instruction a le statut rejeté.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Opération ou instruction reçue après l'heure limite précisée par l'établissement teneur de compte."
+    },
+    "CERT": {
+      "name": "Certification incorrecte",
+      "definition": "L'instruction est rejetée car la certification fournie est incorrecte ou incomplète."
+    },
+    "INVA": {
+      "name": "Non valide pour les autorités fiscales",
+      "definition": "Pour une réclamation fiscale, la réclamation n'est pas valide pour les autorités fiscales."
+    },
+    "OPTY": {
+      "name": "Type d'option non valide",
+      "definition": "Type d'option invalide."
+    },
+    "ULNK": {
+      "name": "Référence non valide",
+      "definition": "La référence liée est inconnue."
+    },
+    "LACK": {
+      "name": "Manque de titres",
+      "definition": "La position instruite dépasse le solde éligible."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "NMTY": {
+      "name": "Non-concordance",
+      "definition": "Non-concordance entre le numéro d'option et le type d'option."
+    },
+    "FULL": {
+      "name": "Détails du bénéficiaire propriétaire manquants",
+      "definition": "Rejeté en raison de l'absence des détails du bénéficiaire effectif."
+    },
+    "CANC": {
+      "name": "Option annulée",
+      "definition": "L'option n'est pas valide ; elle a été annulée par le marché ou le prestataire de services et ne peut plus recevoir de réponse. Toute réponse déjà traitée pour cette option est considérée comme nulle et de nouvelles réponses seront requises."
+    },
+    "INTV": {
+      "name": "Option inactive",
+      "definition": "L'option n'est pas active et ne peut plus recevoir de réponse. Toute réponse déjà traitée pour cette option reste valide, par exemple une option expirée."
+    },
+    "OPNM": {
+      "name": "Rejet du numéro d'option",
+      "definition": "Numéro d'option non reconnu."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "DQUA": {
+      "name": "Rejet de la quantité",
+      "definition": "Quantité instruite non reconnue ou invalide."
+    },
+    "REFT": {
+      "name": "Refusé par les autorités fiscales",
+      "definition": "La réclamation est refusée par les autorités fiscales."
+    },
+    "SAFE": {
+      "name": "Rejet du compte de conservation",
+      "definition": "Compte de conservation de l'émetteur du message non reconnu ou invalide."
+    },
+    "EVNM": {
+      "name": "Identification non reconnue",
+      "definition": "Numéro d'événement non reconnu."
+    },
+    "DQCS": {
+      "name": "Rejet du montant",
+      "definition": "Montant en espèces instruit non reconnu ou invalide."
+    },
+    "DQCC": {
+      "name": "Rejet de la devise",
+      "definition": "Devise instruite invalide."
+    },
+    "DQAM": {
+      "name": "Rejet du type d'instruction",
+      "definition": "Utilisation invalide des qualificateurs de montant instruit (QCAS) ou de quantité instruite (QINS)."
+    },
+    "IRDQ": {
+      "name": "Utilisation invalide de la quantité d'arrondi supérieur",
+      "definition": "L'instruction est rejetée en raison d'une utilisation invalide de la quantité supplémentaire d'arrondi supérieur."
+    },
+    "DQBV": {
+      "name": "Valeur d'offre invalide",
+      "definition": "Le prix de l'offre / les points de base / le pourcentage se situe en dehors de la fourchette d'offres de l'événement (généralement utilisé dans les enchères hollandaises ou les appels d'offres)."
+    },
+    "DQBI": {
+      "name": "Incrément d'offre invalide",
+      "definition": "Les incréments du prix de l'offre / des points de base / du pourcentage sont rejetés en raison d'un incrément d'offre invalide pour l'événement (généralement utilisé dans les enchères hollandaises ou les appels d'offres)."
+    },
+    "SHAR": {
+      "name": "Rejet du numéro d'actionnaire",
+      "definition": "Numéro d'actionnaire non reconnu, manquant ou invalide."
+    },
+    "ITAX": {
+      "name": "Taux d'imposition incorrect",
+      "definition": "Le taux d'imposition fourni est incorrect. Il se situe en dehors des valeurs acceptables pour ce pays d'investissement."
+    },
+    "NTAX": {
+      "name": "Taux d'imposition incohérent",
+      "definition": "Le taux d'imposition n'est pas cohérent avec la documentation en place."
+    },
+    "MTAX": {
+      "name": "Taux d'imposition manquant",
+      "definition": "Le taux d'imposition est manquant."
+    },
+    "ISOL": {
+      "name": "Utilisation invalide des frais de courtier de sollicitation",
+      "definition": "Utilisation invalide de l'indicateur de frais de l'intermédiaire sollicitant."
+    },
+    "BSTR": {
+      "name": "Avant la période d'instruction",
+      "definition": "L'instruction est soumise avant la date de début des instructions."
+    },
+    "CTCT": {
+      "name": "Contact manquant",
+      "definition": "Les coordonnées de contact sont manquantes."
+    },
+    "DUPL": {
+      "name": "Instruction en double",
+      "definition": "L'instruction est rejetée en raison d'un identifiant de message métier en double."
+    },
+    "PROI": {
+      "name": "Identification de protection manquante",
+      "definition": "L'identification de la protection est requise pour les instructions de couverture de protection."
+    },
+    "PRON": {
+      "name": "Aucun privilège de protection",
+      "definition": "Aucun privilège de protection pour cet événement."
+    },
+    "PROT": {
+      "name": "Date de protection manquante",
+      "definition": "La date de protection est requise pour les instructions de couverture de protection."
+    },
+    "TRTI": {
+      "name": "Type d'opération manquant",
+      "definition": "Le type d'opération est manquant ou invalide pour les instructions de protection ou de couverture de protection."
+    },
+    "IPAW": {
+      "name": "Documents invalides",
+      "definition": "Les documents requis sont invalides, incomplets ou manquants."
+    },
+    "REJA": {
+      "name": "Rejeté par l'agent de l'émetteur",
+      "definition": "Instruction rejetée par l'agent de l'émetteur."
+    },
+    "IPED": {
+      "name": "Instruction antérieure à la date de détermination des droits",
+      "definition": "L'instruction a été reçue avant la date de droit."
+    },
+    "BUMM": {
+      "name": "Non-concordance de la protection de l'acheteur",
+      "definition": "Désaccord de la contrepartie sur le résultat choisi de l'événement sur titres."
+    },
+    "TRTY": {
+      "name": "Type d'opération incorrect",
+      "definition": "Le type d'opération est incorrect."
+    },
+    "DSNA": {
+      "name": "Protection de l'acheteur non autorisée",
+      "definition": "Le type/statut de l'opération sous-jacente ne permet pas de protection de l'acheteur."
+    },
+    "DUCK": {
+      "name": "Opération sous-jacente annulée",
+      "definition": "Instruction de protection de l'acheteur rejetée car l'opération de règlement sous-jacente a été annulée."
+    },
+    "DUST": {
+      "name": "Opération sous-jacente déjà réglée",
+      "definition": "L'instruction de protection de l'acheteur a été rejetée, car l'opération de règlement sous-jacente a déjà été réglée."
+    },
+    "ECMD": {
+      "name": "Échéance de marché du choix à la contrepartie dépassée",
+      "definition": "Reçue après l'échéance de marché du choix auprès de la contrepartie."
+    },
+    "ECRD": {
+      "name": "Échéance de réponse du choix à la contrepartie dépassée",
+      "definition": "Reçue après l'échéance de marché de la réponse de la contrepartie au choix."
+    },
+    "INSA": {
+      "name": "Instruction non prise en charge ou non autorisée",
+      "definition": "L'instruction n'est pas prise en charge ou n'est pas autorisée."
+    },
+    "DSEC": {
+      "name": "Titre non valide",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    }
+  }
+}

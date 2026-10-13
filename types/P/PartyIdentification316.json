@@ -1,0 +1,20 @@
+{
+  "isoType": "PartyIdentification316",
+  "definition": "Fournit des informations sur l'identification de la partie.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification d'une partie."
+    },
+    "ProcessingIdentification": {
+      "definition": "Référence significative pour la partie identifiée."
+    },
+    "AlternateIdentification": {
+      "definition": "Fournit une identification alternative pour une partie à l'aide d'un type d'identifiant, d'un code pays et d'un champ de texte."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "Le champ AdditionalInformation de tous les éléments ne doit pas contenir d'informations pouvant être fournies dans un champ structuré, sauf accord bilatéral ou indication contraire dans la définition de l'élément, comme dans NarrativeVersion."
+    }
+  }
+}

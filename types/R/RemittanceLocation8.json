@@ -1,0 +1,12 @@
+{
+  "isoType": "RemittanceLocation8",
+  "definition": "Fournit des informations sur l'avis de remise.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice, permettant d'identifier sans ambiguïté les informations de remise envoyées séparément de l'instruction de paiement, telles qu'un avis de remise."
+    },
+    "RemittanceLocationDetails": {
+      "definition": "Ensemble d'éléments servant à fournir des informations sur la localisation et/ou la livraison des informations de remise."
+    }
+  }
+}

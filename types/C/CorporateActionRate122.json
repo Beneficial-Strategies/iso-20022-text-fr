@@ -1,0 +1,47 @@
+{
+  "isoType": "CorporateActionRate122",
+  "definition": "Précise les taux d'une opération sur titres.",
+  "isoElements": {
+    "InterestRate": {
+      "definition": "Taux d'intérêt annualisé d'un instrument financier utilisé pour calculer le taux d'intérêt effectif du coupon ou des intérêts courus."
+    },
+    "PercentageSought": {
+      "definition": "Pourcentage de titres que l'offrant/émetteur achètera ou remboursera selon les conditions de l'événement."
+    },
+    "RelatedIndex": {
+      "definition": "Taux d'indice lié au taux d'intérêt du prochain paiement d'intérêts."
+    },
+    "Spread": {
+      "definition": "Marge autorisée au-dessus ou en dessous d'un taux donné."
+    },
+    "BidInterval": {
+      "definition": "Incrément de prix acceptable utilisé pour soumettre une offre."
+    },
+    "PreviousFactor": {
+      "definition": "Facteur utilisé pour calculer la valeur du principal restant dû de l'instrument financier (pour les titres à facteur) jusqu'à la prochaine date de remboursement (facteur)."
+    },
+    "NextFactor": {
+      "definition": "Facteur utilisé pour calculer la valeur du principal restant dû de l'instrument financier (pour les titres à facteur) qui sera applicable après la date de remboursement (facteur)."
+    },
+    "ReinvestmentDiscountRateToMarket": {
+      "definition": "Taux de décote des titres achetés dans le cadre d'un plan de réinvestissement par rapport au cours actuel du titre sur le marché."
+    },
+    "InterestShortfall": {
+      "definition": "Pour les émissions de titres structurés dont le calendrier de paiement du principal et des intérêts est fixé pour la durée de l'émission, il s'agit de la différence entre le taux effectif du paiement d'intérêts et le taux attendu ou prévu du paiement d'intérêts."
+    },
+    "RealisedLoss": {
+      "definition": "Pour les émissions de titres structurés dont le calendrier de paiement du principal et des intérêts est fixé pour la durée de l'émission, il s'agit de la différence entre le taux effectif du remboursement du capital ou du principal et le remboursement de capital prévu."
+    },
+    "DeclaredRate": {
+      "definition": "Taux de dividende ou d'intérêt déclaré par l'émetteur."
+    },
+    "IndexFactor": {
+      "definition": "Taux d'indice public appliqué au montant payé pour l'ajuster à l'inflation."
+    }
+  },
+  "isoRules": {
+    "DeclaredRateRule": {
+      "definition": "DeclaredRate ne peut être utilisé que si le dividende ou l'intérêt déclaré par l'émetteur est effectivement payé dans une devise différente de celle déclarée ou si l'événement de dividende ou d'intérêt permet de choisir parmi plusieurs options de devise."
+    }
+  }
+}

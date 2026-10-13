@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountSubLevel25",
+  "definition": "Fournit des informations sur les détentions d'actions au niveau des sous-comptes.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel les instruments financiers sont tenus. Compte géré par l'intermédiaire répondant pour un titulaire de compte."
+    },
+    "AccountHolder": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "ShareholdingBalance": {
+      "definition": "Informations détaillées sur le solde de détention d'actions d'un compte."
+    }
+  }
+}

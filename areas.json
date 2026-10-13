@@ -1,0 +1,50 @@
+{
+  "isoAreas": {
+    "acmt": {
+      "name": "Gestion de comptes",
+      "definition": "Messages qui prennent en charge la gestion des activités liées aux comptes, telles que l'ouverture et la tenue d'un compte."
+    },
+    "admi": {
+      "definition": "Messages génériques, c.-à-d. notifications d'événements système, rejets génériques, etc."
+    },
+    "caam": {
+      "name": "Gestion des distributeurs automatiques",
+      "definition": "Messages qui prennent en charge les services de gestion de terminaux liés aux cartes entre un distributeur automatique de billets (DAB) et un acquéreur."
+    },
+    "camt": {
+      "name": "Gestion de trésorerie",
+      "definition": "Messages qui prennent en charge le reporting et l’avis du volet trésorerie de toute opération financière, y compris les mouvements de trésorerie, les opérations et les soldes, ainsi que les exceptions et enquêtes liées aux opérations de trésorerie."
+    },
+    "head": {
+      "name": "En-tête d'application métier",
+      "definition": "En-tête qui contient des informations métier pertinentes avant le traitement d'un message."
+    },
+    "pacs": {
+      "name": "Compensation et règlement des paiements",
+      "definition": "Messages qui prennent en charge les processus de compensation et de règlement des opérations de paiement entre établissements financiers."
+    },
+    "pain": {
+      "name": "Initiation de paiements",
+      "definition": "Messages qui prennent en charge l’initiation d’un paiement par le client donneur d’ordre auprès d’un établissement financier qui tient un compte de trésorerie, et la communication de son statut."
+    },
+    "remt": {
+      "name": "Avis de remise de paiements",
+      "definition": "Messages qui prennent en charge la communication entre créanciers et débiteurs au sujet des détails de remise associés aux paiements."
+    },
+    "seev": {
+      "name": "Événements sur titres",
+      "definition": "Messages qui prennent en charge la gestion des actifs, y compris le vote par procuration, les revenus et les opérations sur titres."
+    },
+    "semt": {
+      "name": "Gestion de titres",
+      "definition": "Messages qui prennent en charge les processus post-règlement pour les titres (y compris l'information sur les mouvements, les opérations et les positions en titres), les processus nécessaires à la protection des droits du bénéficiaire effectif tout au long du règlement, ainsi que les exceptions et enquêtes liées aux opérations sur titres."
+    },
+    "sese": {
+      "name": "Règlement-livraison de titres",
+      "definition": "Messages qui prennent en charge le processus de règlement-livraison des titres et en rapportent l'état et la confirmation."
+    },
+    "trck": {
+      "name": "Suivi des transactions"
+    }
+  }
+}

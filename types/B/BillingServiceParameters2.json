@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingServiceParameters2",
+  "definition": "Précise les paramètres détaillés d'un service à facturer.",
+  "isoElements": {
+    "BankService": {
+      "definition": "Précise les détails permettant d'identifier complètement le service bancaire."
+    },
+    "Volume": {
+      "definition": "Nombre ou quantité d'éléments (volume) concernés par les frais."
+    },
+    "UnitPrice": {
+      "definition": "Prix par élément ou unité utilisé pour calculer les frais, exprimé dans la devise de tarification."
+    },
+    "ServiceChargeAmount": {
+      "definition": "Montant des frais calculés exprimé dans la devise de tarification, hors toute taxe."
+    }
+  }
+}

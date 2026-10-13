@@ -1,0 +1,18 @@
+{
+  "isoType": "TransferUnmatchedStatus4Choice",
+  "definition": "Motif du statut non apparié.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    },
+    "Reason": {
+      "definition": "Motif du statut non apparié."
+    },
+    "ExtendedReason": {
+      "definition": "Motif du statut non apparié."
+    },
+    "DataSourceScheme": {
+      "definition": "Identification propriétaire du motif du statut non apparié."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "LegalFramework4Choice",
+  "definition": "Choix du format pour le cadre juridique.",
+  "isoElements": {
+    "Code": {
+      "definition": "Cadre juridique exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Cadre juridique exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

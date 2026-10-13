@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateAction74",
+  "definition": "Fournit des informations sur l'événement sur titres.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates relatives à un événement sur titres."
+    },
+    "EventStage": {
+      "definition": "Étape du cycle de vie de l'événement d'opération sur titres."
+    },
+    "AdditionalBusinessProcessIndicator": {
+      "definition": "Indique le type du processus métier supplémentaire lié à un événement d'opération sur titres, tel qu'une indemnisation de réclamation ou un remboursement d'impôt."
+    },
+    "LotteryType": {
+      "definition": "Précise le type de tirage au sort annoncé."
+    }
+  }
+}

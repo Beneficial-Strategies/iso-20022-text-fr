@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementStatusAdviceV02",
+  "definition": "Le message IntraBalanceMovementStatusAdvice est envoyé par une infrastructure de règlement à un titulaire de compte/donneur d'ordre pour l'informer du statut d'une instruction de mouvement intra-solde précédemment envoyée par ce dernier.||Utilisation : |Le message peut être utilisé pour : |- renvoyer un message précédemment envoyé (la sous-fonction du message est « Duplicate »)|- fournir à un tiers une copie d'un message à titre d'information (la sous-fonction du message est « Copy »)|- renvoyer à un tiers une copie d'un message à titre d'information (la sous-fonction du message est « CopyDuplicate »)."
+}

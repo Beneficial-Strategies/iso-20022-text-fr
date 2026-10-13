@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionEventType101Choice",
+  "definition": "Choix de format pour le motif de réparation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'événement sur titres exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Type d'événement sur titres exprimé sous la forme d'un code propriétaire."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "L'utilisation d'un code de type d'événement sur titres spécifique n'est autorisée que si cet événement déclenche un mouvement de titres selon la grille d'interprétation des événements (Event Interpretation Grid) publiée par le Securities Market Practice Group (SMPG).||Le code d'indicateur d'événement sur titres OTHR ne doit être utilisé que si aucun autre code d'événement sur titres n'est approprié.||Le code d'indicateur d'événement sur titres CHAN ne doit être utilisé que si aucun autre code d'événement sur titres n'est approprié et uniquement pour un événement lié à un changement.||Le code d'indicateur d'événement sur titres REDM ne doit être utilisé que lorsque le remboursement est décidé par l'émetteur et non par les porteurs."
+    }
+  }
+}

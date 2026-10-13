@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingMethod3",
+  "definition": "Fournit les détails de la méthode D de calcul de la taxe.",
+  "isoElements": {
+    "ServiceTaxPriceAmount": {
+      "definition": "Montant équivalent au montant de la taxe de service en devise d'accueil, mais permettant à l'émetteur d'exprimer facultativement la valeur dans la devise de tarification."
+    },
+    "TaxIdentification": {
+      "definition": "Prévoit l'identification de taxe spécifique au sein de la même région fiscale. ||Usage : cet élément autorise un maximum de trois taxes régionales sur un même service."
+    }
+  }
+}

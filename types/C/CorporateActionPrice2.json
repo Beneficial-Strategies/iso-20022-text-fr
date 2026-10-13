@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionPrice2",
+  "definition": "Précise des prix.",
+  "isoElements": {
+    "MaximumPrice": {
+      "definition": "Prix maximum ou plafond auquel un porteur peut enchérir, par exemple lors d'une offre d'enchère hollandaise."
+    },
+    "MinimumPrice": {
+      "definition": "Prix minimum ou plancher auquel un porteur peut enchérir, par exemple lors d'une offre d'enchère hollandaise."
+    }
+  }
+}

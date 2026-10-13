@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionActivity3Choice",
+  "definition": "Choix de format pour l'identification de l'activité de l'opération.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'opération exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Type d'opération exprimé sous forme de code propriétaire."
+    }
+  }
+}

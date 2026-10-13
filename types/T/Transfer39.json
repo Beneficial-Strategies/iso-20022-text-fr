@@ -1,0 +1,68 @@
+{
+  "isoType": "Transfer39",
+  "definition": "Paramètres appliqués au règlement d'un transfert de titres.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Identifiant unique et non ambigu de l'instruction de transfert, attribué par la partie instructrice."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert par l'investisseur. Cette référence peut généralement être utilisée dans un scénario de plateforme centrale (hub) pour fournir la référence du transfert telle qu'attribuée par le client sous-jacent."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë du transfert attribuée par la contrepartie."
+    },
+    "BusinessFlowType": {
+      "definition": "Identifie le processus métier dans lequel les acteurs sont impliqués. Cela est important pour déclencher le bon processus métier, selon le modèle d'activité du marché, qui peut exiger l'appariement des instructions dans un environnement CSD (processus à deux volets) ou non (processus à un seul volet)."
+    },
+    "RequestedTransferDate": {
+      "definition": "Date pour laquelle la partie instructrice demande le transfert."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être échangés auprès du dépositaire central international de titres (ICSD) ou du dépositaire central de titres (CSD)."
+    },
+    "TransferOrderDateForm": {
+      "definition": "Date à laquelle l'investisseur a signé le formulaire d'ordre de transfert."
+    },
+    "TransferReason": {
+      "definition": "Motif du transfert."
+    },
+    "HoldingsPlanType": {
+      "definition": "Précise les informations sur les plans d'investissement inclus dans la position."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Informations relatives à l'instrument financier à transférer."
+    },
+    "Quantity": {
+      "definition": "Quantité totale de titres à transférer, exprimée en nombre de parts ou en taux de pourcentage."
+    },
+    "UnitsDetails": {
+      "definition": "Ventilation des parts à transférer."
+    },
+    "Rounding": {
+      "definition": "Sens d'arrondi appliqué à l'unité la plus proche."
+    },
+    "OriginalCost": {
+      "definition": "Montant initial payé pour l'actif au moment de l'achat. Peut aussi être appelé coût comptable."
+    },
+    "AveragePrice": {
+      "definition": "Valeur du titre telle que comptabilisée dans le compte. La valeur comptable est souvent différente de la valeur de marché actuelle du titre."
+    },
+    "TransferCurrency": {
+      "definition": "Devise à utiliser pour transférer les positions. Certains agents de transfert enregistrent les positions regroupées par devise en plus d'utiliser l'ISIN pour les parts de fonds multidevises."
+    },
+    "OwnAccountTransferIndicator": {
+      "definition": "Indique si le transfert entraîne un changement de bénéficiaire effectif."
+    },
+    "NonStandardSettlementInformation": {
+      "definition": "Informations de règlement spécifiques supplémentaires pour le fonds."
+    },
+    "TransferExpensesPaymentType": {
+      "definition": "Précise comment le paiement des frais et impôts résultant du transfert est couvert, c'est-à-dire en numéraire ou par le rachat de parts."
+    }
+  },
+  "isoRules": {
+    "TotalUnitsNumberRule": {
+      "definition": "Quantity/TotalUnitsNumber doit être la somme de toutes les occurrences de UnitsDetails/UnitsNumber lorsque UnitsDetails est présent."
+    }
+  }
+}

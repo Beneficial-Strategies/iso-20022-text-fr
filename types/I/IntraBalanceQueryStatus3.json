@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceQueryStatus3",
+  "definition": "Définit les critères d'interrogation du statut des mouvements intra-solde, y compris la période du statut.",
+  "isoElements": {
+    "Type": {
+      "definition": "Définit le type de statut des critères d'interrogation."
+    },
+    "DatePeriod": {
+      "definition": "Période de dates précisée pour le statut."
+    }
+  }
+}

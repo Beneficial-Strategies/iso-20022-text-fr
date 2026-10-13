@@ -1,0 +1,33 @@
+{
+  "isoType": "BookingConfirmation8",
+  "definition": "Précise les détails de comptabilisation de l'opération ou de l'écriture sous-jacente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant de l'opération ou de l'écriture qui a débité ou crédité un compte."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si la comptabilisation est un crédit ou un débit."
+    },
+    "ExchangeRate": {
+      "definition": "Fournit des informations sur le taux de change utilisé pour l'opération ou l'écriture."
+    },
+    "Account": {
+      "definition": "Compte que l'opération ou l'écriture a débité ou crédité."
+    },
+    "BookingDate": {
+      "definition": "Date et heure auxquelles une écriture est passée sur un compte dans les livres de la banque teneuse de compte."
+    },
+    "ValueDate": {
+      "definition": "Date et heure auxquelles les avoirs deviennent disponibles pour le titulaire du compte dans le cas d'une écriture au crédit, ou cessent de lui être disponibles dans le cas d'une écriture au débit."
+    },
+    "References": {
+      "definition": "Fournit l'identification de l'opération ou de l'écriture. Elle peut être utilisée par l'initiateur de l'enquête pour retrouver désormais l'opération ou l'écriture."
+    },
+    "Charges": {
+      "definition": "Fournit des informations sur les frais liés à l'opération ou à l'écriture."
+    },
+    "Reason": {
+      "definition": "Précise le motif de la réponse de confirmation."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "ElectionType1Code",
+  "definition": "Précise le type d'option choisie.",
+  "isoCodes": {
+    "NEWM": {
+      "name": "Nouveau choix",
+      "definition": "Nouvel avis d'option choisie."
+    },
+    "CHAN": {
+      "name": "Changement d'option",
+      "definition": "Avis d'option choisie résultant d'un changement d'option."
+    }
+  }
+}

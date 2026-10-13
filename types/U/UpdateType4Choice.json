@@ -1,0 +1,12 @@
+{
+  "isoType": "UpdateType4Choice",
+  "definition": "Choix de format pour les informations de mise à jour.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de mise à jour exprimé sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Type de mise à jour exprimé sous forme de code propriétaire."
+    }
+  }
+}

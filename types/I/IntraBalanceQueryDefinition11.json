@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceQueryDefinition11",
+  "definition": "Définit les informations recherchées au moyen de critères spécifiques.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Définit le type d'interrogation."
+    },
+    "SearchCriteria": {
+      "definition": "Définit les critères d'extraction des informations d'instruction de mouvement intra-solde."
+    }
+  }
+}

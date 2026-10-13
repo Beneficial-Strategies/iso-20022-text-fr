@@ -1,0 +1,42 @@
+{
+  "isoType": "Frequency2Code",
+  "definition": "Précise la régularité d'un événement.",
+  "isoCodes": {
+    "YEAR": {
+      "name": "Annuel",
+      "definition": "L'événement a lieu chaque année ou une fois par an."
+    },
+    "MNTH": {
+      "name": "Mensuel",
+      "definition": "L'événement a lieu chaque mois ou une fois par mois."
+    },
+    "QURT": {
+      "name": "Trimestriel",
+      "definition": "L'événement a lieu tous les trois mois ou quatre fois par an."
+    },
+    "MIAN": {
+      "name": "Semestriel",
+      "definition": "L'événement a lieu tous les six mois ou deux fois par an."
+    },
+    "WEEK": {
+      "name": "Hebdomadaire",
+      "definition": "L'événement a lieu une fois par semaine."
+    },
+    "DAIL": {
+      "name": "Quotidien",
+      "definition": "L'événement a lieu chaque jour."
+    },
+    "ADHO": {
+      "name": "Ponctuel",
+      "definition": "L'événement a lieu sur demande ou en cas de besoin."
+    },
+    "INDA": {
+      "name": "Intrajournalier",
+      "definition": "L'événement a lieu plusieurs fois par jour."
+    },
+    "OVNG": {
+      "name": "Nuitée",
+      "definition": "L'événement a lieu pendant la nuit."
+    }
+  }
+}

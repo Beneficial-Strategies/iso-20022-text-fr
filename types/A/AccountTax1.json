@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountTax1",
+  "definition": "Décrit les paramètres de taxation du compte.",
+  "isoElements": {
+    "CalculationMethod": {
+      "definition": "Définit la méthode de calcul selon laquelle les taxes sont appliquées au compte."
+    },
+    "Region": {
+      "definition": "Identifie la région fiscale dans laquelle le compte est situé."
+    },
+    "NonResidenceCountry": {
+      "definition": "Indique le pays de résidence lorsque le titulaire du compte ne réside pas dans la région fiscale du compte.||Usage : s'il est présent, le titulaire du compte ne réside pas dans la région fiscale du compte."
+    }
+  }
+}

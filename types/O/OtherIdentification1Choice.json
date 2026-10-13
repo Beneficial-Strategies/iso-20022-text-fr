@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherIdentification1Choice",
+  "definition": "Choix de formats pour la spécification d'une autre identification.",
+  "isoElements": {
+    "Code": {
+      "definition": "Autre identification exprimée sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Autre identification exprimée sous forme de code propriétaire."
+    }
+  }
+}

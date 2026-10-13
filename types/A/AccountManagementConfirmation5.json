@@ -1,0 +1,21 @@
+{
+  "isoType": "AccountManagementConfirmation5",
+  "definition": "Informations sur le type de demande ou d'instruction.",
+  "isoElements": {
+    "ConfirmationType": {
+      "definition": "Précise le type de confirmation."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Identifiant unique et non ambigu de l'instruction d'ouverture ou de modification de compte au niveau applicatif."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë d'une opération, par exemple un transfert, telle qu'attribuée par l'investisseur ou le titulaire du compte."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë de l'opération, par exemple un transfert, telle qu'attribuée par la contrepartie."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Compte auquel se rapporte l'ouverture de compte."
+    }
+  }
+}

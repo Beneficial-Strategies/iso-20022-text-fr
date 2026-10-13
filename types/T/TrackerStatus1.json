@@ -1,0 +1,18 @@
+{
+  "isoType": "TrackerStatus1",
+  "definition": "Fournit des informations détaillées sur le statut de l'opération à mettre à jour dans le système de suivi.",
+  "isoElements": {
+    "Status": {
+      "definition": "Précise le statut d'une opération, sous forme codée."
+    },
+    "Date": {
+      "definition": "Date du statut."
+    },
+    "StatusReason": {
+      "definition": "Fournit des informations détaillées sur le motif du statut."
+    },
+    "RejectReturnReason": {
+      "definition": "Fournit des informations détaillées sur le motif du retour."
+    }
+  }
+}

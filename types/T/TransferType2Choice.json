@@ -1,0 +1,17 @@
+{
+  "isoType": "TransferType2Choice",
+  "definition": "Choix de formats pour un type de transfert.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de transfert exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de transfert exprimé sous forme de code propriétaire."
+    }
+  },
+  "isoRules": {
+    "SECUGuideline": {
+      "definition": "Le code SECU (Asset) est utilisé lorsqu’un instrument financier tel que des parts d’un fonds doit être transféré. |Le code SECU est également utilisé lorsque des actifs tels que des actions ou des obligations doivent être transférés. Le code SECU est également utilisé pour des actifs tels que des biens immobiliers, des biens meubles et d’autres types similaires d’autres actifs."
+    }
+  }
+}

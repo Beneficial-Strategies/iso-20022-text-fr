@@ -1,0 +1,56 @@
+{
+  "isoType": "DirectDebitTransactionInformation33",
+  "definition": "Fournit des précisions supplémentaires propres à la ou aux opérations de prélèvement individuelles incluses dans le message.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Références utilisées pour une instruction de paiement."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Précise le type d'opération."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montant transféré entre la banque donneuse d'ordre et la banque destinataire de l'ordre."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour la banque qui le doit et devient disponible pour la banque à laquelle il est dû."
+    },
+    "SettlementPriority": {
+      "definition": "Indicateur de l'urgence ou de l'ordre d'importance que la partie donneuse d'ordre souhaite voir appliqué par la partie destinataire de l'ordre au traitement de l'instruction de règlement."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Fournit des informations sur le ou les horaires de règlement effectifs de l'opération de paiement."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Fournit des informations sur le ou les horaires de règlement demandés pour l'instruction de paiement."
+    },
+    "UltimateDebtor": {
+      "definition": "Établissement financier final qui doit un montant d'argent au créancier institutionnel (final)."
+    },
+    "Debtor": {
+      "definition": "Établissement financier qui doit un montant d'argent à l'établissement financier créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture au débit sera passée à la suite de l'opération."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du débiteur auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "InstructionForDebtorAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement, auxquelles la banque du débiteur peut devoir donner suite, selon l'accord entre le débiteur et la banque du débiteur."
+    },
+    "Purpose": {
+      "definition": "Motif sous-jacent de l'opération de paiement.|Utilisation : le motif est utilisé par les clients finaux, c'est-à-dire la partie initiatrice, le débiteur (final) et le créancier (final), pour fournir des informations concernant la nature du paiement. Le motif est un élément de contenu qui n'est utilisé pour le traitement par aucun des agents intervenant dans la chaîne de paiement."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le virement est destiné à régler, tels que des factures commerciales dans un système de comptes clients."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor ne peut être présent que s'il est différent de Debtor."
+    }
+  }
+}

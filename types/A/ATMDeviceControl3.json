@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMDeviceControl3",
+  "definition": "Informations relatives au contrôle d'un dispositif de l'ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Environnement de l'opération."
+    },
+    "Command": {
+      "definition": "Commande de maintenance que l'ATM doit exécuter."
+    }
+  }
+}

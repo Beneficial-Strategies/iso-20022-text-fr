@@ -1,0 +1,4 @@
+{
+  "isoType": "HostToATMAcknowledgementV01",
+  "definition": "Le message HostToATMAcknowledgement est envoyé par un ATM à un hôte pour accuser réception d'un message HostToATMRequest."
+}

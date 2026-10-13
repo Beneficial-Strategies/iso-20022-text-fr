@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingOpeningStatusReason1Choice",
+  "definition": "Choix de formats pour un motif de statut d'ouverture de compte en attente.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Aucun motif n'est disponible ou à signaler pour le statut d'ouverture de compte en attente."
+    },
+    "Reason": {
+      "definition": "Motif du statut d'ouverture de compte en attente."
+    }
+  }
+}

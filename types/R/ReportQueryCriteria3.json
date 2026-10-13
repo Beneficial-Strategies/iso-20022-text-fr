@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportQueryCriteria3",
+  "definition": "Définit les critères utilisés pour rechercher un rapport généré.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nom de la requête définie par les critères de recherche et les critères de retour."
+    },
+    "SearchCriteria": {
+      "definition": "Définit les critères à utiliser pour extraire les informations du compte."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CashAccount38",
+  "definition": "Fournit les détails permettant d'identifier un compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "Type": {
+      "definition": "Précise la nature ou l'usage du compte."
+    },
+    "Currency": {
+      "definition": "Identification de la devise dans laquelle le compte est tenu. ||Utilisation : la devise ne doit être utilisée que si un même numéro de compte couvre plusieurs devises|et que la partie initiatrice doit identifier la devise à utiliser pour le règlement sur le compte."
+    },
+    "Name": {
+      "definition": "Nom du compte, attribué par l'établissement teneur de compte en accord avec le titulaire du compte, afin de fournir un moyen supplémentaire d'identification du compte.||Utilisation : le nom du compte est différent du nom du titulaire du compte. Il est utilisé dans certaines communautés d'utilisateurs pour identifier le compte, en plus de l'identité du titulaire du compte et du numéro de compte."
+    },
+    "Proxy": {
+      "definition": "Précise un autre nom présumé pour l'identification du compte."
+    }
+  }
+}

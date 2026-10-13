@@ -1,0 +1,26 @@
+{
+  "isoType": "OtherAsset2Code",
+  "definition": "Indique un type d'actif.",
+  "isoCodes": {
+    "DIMA": {
+      "name": "Discrétionnaire",
+      "definition": "L'actif est un compte de gestion discrétionnaire de placements"
+    },
+    "EXIA": {
+      "name": "Compte externe",
+      "definition": "L'actif est un compte de placement externe."
+    },
+    "MOVE": {
+      "name": "Bien meuble",
+      "definition": "Bien qui n'est pas un bien immobilier. Également connu sous le nom de « biens meubles corporels »."
+    },
+    "PROP": {
+      "name": "Bien immobilier",
+      "definition": "Bien qui est un bien immobilier."
+    },
+    "TIPP": {
+      "name": "Plan d'investissement du fiduciaire",
+      "definition": "L'actif est un plan de placement fiduciaire (TIP)."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "LimitUtilisationJournalQueryV01",
+  "definition": "Le message LimitUtilisationJournalQuery est échangé entre un dépositaire central de titres ou un participant au système directement connecté (le participant du dépositaire central de titres bénéficiant d'un accès direct, comme une banque ou une contrepartie centrale) et le système central. Il a pour objet d'interroger les informations relatives au journal des opérations ayant un impact sur l'utilisation des limites définies par le participant au système."
+}

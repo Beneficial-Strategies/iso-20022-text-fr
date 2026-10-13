@@ -1,0 +1,21 @@
+{
+  "isoType": "CashWithdrawal1",
+  "definition": "Retrait d'une somme d'argent définie en billets et/ou en pièces.",
+  "isoElements": {
+    "AmendmentIndicator": {
+      "definition": "Indique si les valeurs faciales de la demande de retrait d'espèces d'origine ont été modifiées.||Utilisation : lorsque cet élément n'est pas utilisé, les valeurs faciales correspondent à la demande de retrait d'espèces d'origine ou aucune valeur faciale n'était incluse dans la demande de retrait d'espèces d'origine."
+    },
+    "NoteDetails": {
+      "definition": "Indique le détail du retrait demandé en billets."
+    },
+    "CoinDetails": {
+      "definition": "Indique le détail du retrait demandé en pièces."
+    },
+    "TotalAmount": {
+      "definition": "Montant total de tous les billets et pièces retirés."
+    },
+    "DiscrepancyIdentification": {
+      "definition": "Identification unique de tout écart."
+    }
+  }
+}

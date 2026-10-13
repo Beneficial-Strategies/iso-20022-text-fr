@@ -1,0 +1,12 @@
+{
+  "isoType": "VotingRightsThreshold2",
+  "definition": "Précise un niveau de seuil et une base de seuil pour l'adoption des résolutions lors des assemblées générales.",
+  "isoElements": {
+    "Threshold": {
+      "definition": "Seuil de droits de vote requis pour l'adoption d'une résolution, en pourcentage ou en quantité."
+    },
+    "ThresholdBasis": {
+      "definition": "Nature de la quantité utilisée comme base pour fixer un seuil de vote sur les résolutions des assemblées générales."
+    }
+  }
+}

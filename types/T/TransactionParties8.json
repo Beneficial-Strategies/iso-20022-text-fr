@@ -1,0 +1,95 @@
+{
+  "isoType": "TransactionParties8",
+  "definition": "Fournit des informations détaillées sur les parties propres à chaque opération.",
+  "isoElements": {
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit un montant au créancier (final)."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit un montant au créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture au débit sera passée à la suite de l'opération."
+    },
+    "InitiatingParty": {
+      "definition": "Partie qui initie le paiement.|Utilisation : il peut s'agir du débiteur ou d'une partie qui initie le virement pour le compte du débiteur."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du débiteur auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "PreviousInstructingAgent1": {
+      "definition": "Banque immédiatement antérieure à la banque donneuse d'ordre."
+    },
+    "PreviousInstructingAgent1Account": {
+      "definition": "Identification sans ambiguïté du compte de l'agent instructeur précédent auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "PreviousInstructingAgent2": {
+      "definition": "Banque immédiatement antérieure à la banque donneuse d'ordre."
+    },
+    "PreviousInstructingAgent2Account": {
+      "definition": "Identification sans ambiguïté du compte de l'agent instructeur précédent auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "PreviousInstructingAgent3": {
+      "definition": "Banque immédiatement antérieure à la banque donneuse d'ordre."
+    },
+    "PreviousInstructingAgent3Account": {
+      "definition": "Identification sans ambiguïté du compte de l'agent instructeur précédent auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si plusieurs banques intermédiaires sont présentes, IntermediaryAgent1 identifie l'agent situé entre DebtorAgent et IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 1 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si plus de deux banques intermédiaires sont présentes, IntermediaryAgent2 identifie l'agent situé entre IntermediaryAgent1 et IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 2 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si IntermediaryAgent3 est présent, il identifie l'agent situé entre IntermediaryAgent 2 et CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 3 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du créancier auprès de son agent teneur de compte, sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant est dû."
+    }
+  },
+  "isoRules": {
+    "IntermediaryAgent1AccountRule": {
+      "definition": "Si IntermediaryAgent1Account est présent, alors IntermediaryAgent1 doit être présent."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "Si IntermediaryAgent2Account est présent, alors IntermediaryAgent2 doit être présent."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "Si IntermediaryAgent3Account est présent, alors IntermediaryAgent3 doit être présent."
+    },
+    "PreviousInstructingAgent1AccountRule": {
+      "definition": "Si PreviousInstructingAgent1Account est présent, PreviousInstructingAgent1 doit être présent."
+    },
+    "PreviousInstructingAgent2AccountRule": {
+      "definition": "Si PreviousInstructingAgent2Account est présent, PreviousInstructingAgent2 doit être présent."
+    },
+    "PreviousInstructingAgent3AccountRule": {
+      "definition": "Si PreviousInstructingAgent3Account est présent, PreviousInstructingAgent3 doit être présent."
+    }
+  }
+}

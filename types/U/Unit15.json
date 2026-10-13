@@ -1,0 +1,24 @@
+{
+  "isoType": "Unit15",
+  "definition": "Informations sur les parts à transférer.",
+  "isoElements": {
+    "Units": {
+      "definition": "Quantité de parts ou de jetons numériques."
+    },
+    "OrderDate": {
+      "definition": "Date à laquelle l'investisseur ou son agent a passé l'ordre initial."
+    },
+    "AcquisitionDate": {
+      "definition": "Date à laquelle l'investisseur a acheté l'instrument financier."
+    },
+    "CertificateNumber": {
+      "definition": "Certificat représentant le titre."
+    },
+    "Group1Or2Units": {
+      "definition": "Groupe fiscal auquel appartiennent les parts de fonds d'investissement achetées. L'investisseur indique à l'intermédiaire gérant des comptes de prête-noms groupés quel type de part doit être vendu."
+    },
+    "Reference": {
+      "definition": "Référence au numéro des parts. Il peut s'agir de la référence de l'ordre de l'acquisition initiale, de l'identification d'un lot, d'une référence client, d'une référence de sous-position ou d'une autre référence apparentée."
+    }
+  }
+}

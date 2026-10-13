@@ -1,0 +1,14 @@
+{
+  "isoType": "StampDutyType2Code",
+  "definition": "Précise si le droit de timbre est applicable.",
+  "isoCodes": {
+    "ASTD": {
+      "name": "Applicable",
+      "definition": "Les droits de timbre s'appliquent."
+    },
+    "SDRN": {
+      "name": "Sans objet",
+      "definition": "Droit de timbre non applicable."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchBalanceTransferAcknowledgementV06",
+  "definition": "Le message AccountSwitchBalanceTransferAcknowledgement est envoyé par l'ancienne banque tenant le compte à la nouvelle banque tenant le compte en réponse au message AccountSwitchRequestBalanceTransfer. Il confirme le statut de l'ancien compte et le solde du compte à la clôture. En cas de solde de clôture négatif, l'ancienne banque tenant le compte fournit les détails du compte désigné sur lequel le paiement doit être effectué par la nouvelle banque tenant le compte."
+}

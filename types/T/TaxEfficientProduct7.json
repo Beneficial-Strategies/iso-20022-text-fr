@@ -1,0 +1,75 @@
+{
+  "isoType": "TaxEfficientProduct7",
+  "definition": "Caractéristiques d’un produit à fiscalité avantageuse.",
+  "isoElements": {
+    "TaxEfficientProductType": {
+      "definition": "Type de produit à fiscalité avantageuse, par exemple un compte d’épargne individuel (ISA) au Royaume-Uni (UK)."
+    },
+    "CurrentYear": {
+      "definition": "Indique que tous les produits de l’exercice fiscal en cours sont inclus."
+    },
+    "CashComponentIndicator": {
+      "definition": "Indique si, pour l’année en cours, le produit contient un actif en espèces à transférer."
+    },
+    "PreviousYears": {
+      "definition": "Plans d’investissement émis au cours des années précédentes."
+    },
+    "PreviousYearSubscriptionAmount": {
+      "definition": "Souscriptions de l’année de souscription précédente."
+    },
+    "PreviousYearsSubscriptionAmount": {
+      "definition": "Montant souscrit au cours de toutes les années précédentes."
+    },
+    "DateOfFirstSubscription": {
+      "definition": "Date de début du plan d’investissement."
+    },
+    "CurrentYearSubscriptionDetails": {
+      "definition": "Montants déjà souscrits pour l’année en cours."
+    },
+    "BonusOrWithdrawal": {
+      "definition": "Prime versée ou retirée."
+    },
+    "WithdrawalForResidentialPurchaseProgress": {
+      "definition": "Indique si un achat immobilier lié est en cours au moment du transfert. Peut s’appliquer à des produits tels que les produits Lifetime Individual Savings Account (LISA)."
+    },
+    "TransferorAlternateIdentification": {
+      "definition": "Identification alternative du cédant (partie cédante), par exemple la « référence gestionnaire ISA Z » au UK."
+    },
+    "TotalSubscriptionAmount": {
+      "definition": "Montant total souscrit sur la durée de vie du produit."
+    },
+    "OtherAmount": {
+      "definition": "Autre montant tel que le total des ajouts éligibles de l’année du transfert, les intérêts capitalisés de l’année en cours, le total des dividendes en suspens, etc."
+    },
+    "DateFirstQualifyingAddition": {
+      "definition": "Date à laquelle le premier montant supplémentaire éligible a été versé sur le produit.  Des montants supplémentaires éligibles peuvent être versés sur un produit Lifetime Individual Savings Account (LISA)."
+    },
+    "InvestorTaxReference": {
+      "definition": "Identification de l’investisseur attribuée par une autorité fiscale."
+    },
+    "InvestmentsToFollowValue": {
+      "definition": "Valeur des investissements à venir."
+    },
+    "InnovativeFinance": {
+      "definition": "Informations sur un produit de finance innovante."
+    },
+    "LowestInvestedAmountCurrentYear": {
+      "definition": "Montant d’investissement le plus bas de l’année en cours, utilisé pour calculer un montant de déduction fiscale."
+    },
+    "TaxCalculationBase": {
+      "definition": "Montant à partir duquel la déduction fiscale est calculée."
+    },
+    "UnusedTaxDeduction": {
+      "definition": "Montant de déduction fiscale non utilisé."
+    },
+    "CurrentInvestmentAmount": {
+      "definition": "Montant d’argent investi."
+    },
+    "EstimatedValue": {
+      "definition": "Valeur estimée des actifs du produit fiscalement avantageux à transférer."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le produit à fiscalité avantageuse."
+    }
+  }
+}

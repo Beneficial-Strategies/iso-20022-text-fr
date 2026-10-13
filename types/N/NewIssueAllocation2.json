@@ -1,0 +1,15 @@
+{
+  "isoType": "NewIssueAllocation2",
+  "definition": "Informations sur la propriété du compte d'investissement relatives à l'allocation de nouvelles émissions pour un fonds spéculatif.",
+  "isoElements": {
+    "Restricted": {
+      "definition": "Indique si l'investisseur est éligible pour participer aux profits et pertes d'une nouvelle émission."
+    },
+    "ExemptPersonReason": {
+      "definition": "Motif de l'exemption."
+    },
+    "DeMinimus": {
+      "definition": "Conditions applicables lorsque l'investisseur est couvert par l'exemption « de minimis »."
+    }
+  }
+}

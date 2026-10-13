@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification215",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "Identification": {
+      "definition": "Identification de la partie."
+    }
+  }
+}

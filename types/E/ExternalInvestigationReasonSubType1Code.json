@@ -1,0 +1,378 @@
+{
+  "isoType": "ExternalInvestigationReasonSubType1Code",
+  "definition": "Précise le sous-type de motif d'enquête, tel que publié dans un ensemble externe de codes de sous-types de motifs d'enquête.|Les ensembles de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "MMNA": {
+      "name": "Discordance entre le nom et le compte",
+      "definition": "Le nom et le compte ne correspondent pas."
+    },
+    "RQAC": {
+      "name": "Demande de compte",
+      "definition": "Le compte est demandé."
+    },
+    "RQPP": {
+      "name": "Demande de copie du passeport",
+      "definition": "Une copie du passeport est demandée."
+    },
+    "RQIN": {
+      "name": "Demande de copie de la facture",
+      "definition": "Une copie de la facture est demandée."
+    },
+    "RQOW": {
+      "name": "Demande de confirmation de propriété",
+      "definition": "La confirmation de la propriété est demandée."
+    },
+    "RQDB": {
+      "name": "Demande de la date de naissance",
+      "definition": "La date de naissance est demandée."
+    },
+    "RQCB": {
+      "name": "Demande de la ville de naissance",
+      "definition": "La ville de naissance est demandée."
+    },
+    "RQPO": {
+      "name": "Demande de la province de naissance",
+      "definition": "La province de naissance est demandée."
+    },
+    "RQCO": {
+      "name": "Demande du pays de naissance",
+      "definition": "Le pays de naissance est demandé."
+    },
+    "RQAT": {
+      "name": "Demande du type d'adresse postale",
+      "definition": "Le type d'adresse postale est demandé."
+    },
+    "RQDE": {
+      "name": "Demande du service de l'adresse postale",
+      "definition": "Le service de l'adresse postale est demandé."
+    },
+    "RQAS": {
+      "name": "Demande du sous-service de l'adresse postale",
+      "definition": "Le sous-service de l'adresse postale est demandé."
+    },
+    "RQSN": {
+      "name": "Demande du nom de rue de l'adresse postale",
+      "definition": "Le nom de la rue de l'adresse postale est demandé."
+    },
+    "RQB1": {
+      "name": "Demande du numéro de bâtiment de l'adresse postale",
+      "definition": "Le numéro de bâtiment de l'adresse postale est demandé."
+    },
+    "RQBN": {
+      "name": "Demande du nom de bâtiment de l'adresse postale",
+      "definition": "Le nom du bâtiment de l'adresse postale est demandé."
+    },
+    "RQFL": {
+      "name": "Demande de l'étage de l'adresse postale",
+      "definition": "L'étage de l'adresse postale est demandé."
+    },
+    "RQPB": {
+      "name": "Demande de la boîte postale de l'adresse postale",
+      "definition": "La boîte postale de l'adresse postale est demandée."
+    },
+    "RQRO": {
+      "name": "Demande de la pièce de l'adresse postale",
+      "definition": "Le numéro de pièce de l'adresse postale est demandé."
+    },
+    "RQPC": {
+      "name": "Demande du code postal de l'adresse postale",
+      "definition": "Le code postal de l'adresse postale est demandé."
+    },
+    "RQTN": {
+      "name": "Demande du nom de la ville de l'adresse postale",
+      "definition": "Le nom de la ville de l'adresse postale est demandé."
+    },
+    "RQTL": {
+      "name": "Demande du nom de la localité de l'adresse postale",
+      "definition": "Le nom de la localité de l'adresse postale est demandé."
+    },
+    "RQDN": {
+      "name": "Demande du nom du district de l'adresse postale",
+      "definition": "Le nom du district de l'adresse postale est demandé."
+    },
+    "RQCS": {
+      "name": "Demande de la subdivision du pays de l'adresse postale",
+      "definition": "La subdivision du pays de l'adresse postale est demandée."
+    },
+    "RQCC": {
+      "name": "Demande du pays de l'adresse postale",
+      "definition": "Le pays de l'adresse postale est demandé."
+    },
+    "RQAL": {
+      "name": "Demande de la ligne d'adresse postale",
+      "definition": "La ligne d'adresse postale est demandée."
+    },
+    "RQPA": {
+      "name": "Demande de l'adresse postale complète",
+      "definition": "L'adresse postale complète est demandée."
+    },
+    "RQNM": {
+      "name": "Demande du nom complet",
+      "definition": "Le nom complet est demandé."
+    },
+    "ARNU": {
+      "name": "Demande du numéro d'enregistrement d'étranger",
+      "definition": "Le numéro d'enregistrement d'étranger (Alien Registration Number) est demandé."
+    },
+    "CCPT": {
+      "name": "Demande du numéro de passeport",
+      "definition": "Le numéro de passeport est demandé."
+    },
+    "DRLC": {
+      "name": "Demande du numéro de permis de conduire",
+      "definition": "Le numéro de permis de conduire est demandé."
+    },
+    "EMPL": {
+      "name": "Demande du numéro d'identification de l'employé",
+      "definition": "Le numéro d'identification de l'employé est demandé."
+    },
+    "NIDN": {
+      "name": "Demande du numéro d'identité nationale",
+      "definition": "Le numéro d'identité nationale est demandé."
+    },
+    "SOSE": {
+      "name": "Demande du numéro de sécurité sociale",
+      "definition": "Le numéro de sécurité sociale est demandé."
+    },
+    "TELE": {
+      "name": "Demande du numéro de téléphone",
+      "definition": "Le numéro de téléphone est demandé."
+    },
+    "TXID": {
+      "name": "Demande du numéro d'identification fiscale",
+      "definition": "Le numéro d'identification fiscale est demandé."
+    },
+    "POID": {
+      "name": "Demande de l'identification commerciale de la personne",
+      "definition": "L'identification commerciale de la personne est demandée."
+    },
+    "BANK": {
+      "name": "Demande de l'identification de la partie bancaire",
+      "definition": "L'identification de partie bancaire est demandée. Il s'agit d'une attribution unique et sans ambiguïté, faite par une banque ou un établissement financier similaire, pour identifier une relation définie entre la banque et son client."
+    },
+    "CBID": {
+      "name": "Demande du numéro d'identification de la banque centrale",
+      "definition": "Le numéro d'identification de la banque centrale est demandé. Il s'agit d'un numéro d'identification unique attribué par une banque centrale pour identifier une organisation."
+    },
+    "CHID": {
+      "name": "Demande du numéro d'identification de compensation",
+      "definition": "Le numéro d'identification de compensation est demandé. Il s'agit d'un numéro d'identification unique attribué par une chambre de compensation pour identifier une organisation"
+    },
+    "CINC": {
+      "name": "Demande du numéro du certificat de constitution",
+      "definition": "Le numéro de certificat de constitution est demandé. Il s'agit d'un numéro d'identification unique attribué par une autorité désignée à un certificat de constitution et utilisé pour identifier une organisation."
+    },
+    "COID": {
+      "name": "Demande du code d'identification du pays",
+      "definition": "Le code d'identification du pays est demandé. Il s'agit d'une identification d'organisation attribuée par une autorité nationale (par exemple, un numéro d'immatriculation de société)"
+    },
+    "CUST": {
+      "name": "Demande du numéro de client",
+      "definition": "Le numéro de client est demandé. Il s'agit d'un numéro attribué par un émetteur pour identifier un client, ou d'un numéro attribué par une partie pour identifier une relation de créancier ou de débiteur."
+    },
+    "DUNS": {
+      "name": "Demande du Data Universal Numbering System",
+      "definition": "Le numéro universel de données (Data Universal Number) est demandé. Il s'agit d'un numéro d'identification unique fourni par Dun & Bradstreet pour identifier une organisation."
+    },
+    "GS1G": {
+      "name": "Demande de l'identifiant GS1 GLN",
+      "definition": "L'identifiant GS1GLN (Global location number) est demandé. Il s'agit d'un numéro de référence non significatif utilisé pour identifier des entités juridiques, des entités fonctionnelles ou des entités physiques selon les règles du schéma de numérotation GS1. Le numéro sert à récupérer les informations détaillées qui y sont liées."
+    },
+    "SREN": {
+      "name": "Demande du SIREN",
+      "definition": "Le numéro SIREN est demandé. Il s'agit d'un code à 9 chiffres attribué par l'INSEE, l'Institut national de la statistique et des études économiques français, pour identifier une organisation en France."
+    },
+    "SRET": {
+      "name": "Demande du SIRET",
+      "definition": "Le numéro SIRET est demandé. Il s'agit d'un code à 14 chiffres attribué par l'INSEE, l'Institut national de la statistique et des études économiques français, pour identifier une unité d'organisation en France. Il se compose du numéro SIREN, suivi d'un numéro de classification à cinq chiffres, pour identifier l'unité géographique locale de cette entité"
+    },
+    "BDID": {
+      "name": "Demande de l'identifiant de domaine d'activité",
+      "definition": "L'identifiant du domaine d'activité dans lequel l'organisation exerce est demandé."
+    },
+    "BOID": {
+      "name": "Demande d'une autre identification d'entreprise",
+      "definition": "Une autre identification de l'organisation est demandée."
+    },
+    "RQLE": {
+      "name": "Demande du LEI",
+      "definition": "L'identifiant d'entité juridique est demandé."
+    },
+    "RQNA": {
+      "name": "Demande de la nationalité",
+      "definition": "La nationalité est demandée."
+    },
+    "RQCZ": {
+      "name": "Demande de la citoyenneté",
+      "definition": "La citoyenneté est demandée."
+    },
+    "RQRE": {
+      "name": "Demande de la relation entre le débiteur et le créancier",
+      "definition": "La relation entre le débiteur et le créancier est demandée."
+    },
+    "RQOC": {
+      "name": "Demande de la profession",
+      "definition": "La profession est demandée."
+    },
+    "RQID": {
+      "name": "Demande du secteur d'activité",
+      "definition": "Le secteur d'activité est demandé."
+    },
+    "RICD": {
+      "name": "Demande de la date de constitution",
+      "definition": "La date de constitution est demandée."
+    },
+    "RICC": {
+      "name": "Demande du pays de constitution",
+      "definition": "Le pays de constitution/d'immatriculation est demandé."
+    },
+    "RCBL": {
+      "name": "Demande des pays de tous les sites d'activité",
+      "definition": "Les pays de tous les lieux d'activité/d'exploitation sont demandés."
+    },
+    "RQLB": {
+      "name": "Demande de la ligne d'activité",
+      "definition": "La ligne d'activité est demandée."
+    },
+    "RQON": {
+      "name": "Demande du lieu de toute revente ultérieure de biens ou de services",
+      "definition": "Le lieu de tout commerce ultérieur de biens ou de services est demandé."
+    },
+    "RQCI": {
+      "name": "Demande des pays impliqués dans l'opération",
+      "definition": "Le détail de tous les pays impliqués dans l'opération est demandé."
+    },
+    "RQDS": {
+      "name": "Demande de détails sur les services",
+      "definition": "Le détail des services est demandé."
+    },
+    "RQDG": {
+      "name": "Demande de détails sur les biens",
+      "definition": "Le détail des biens est demandé."
+    },
+    "RQLS": {
+      "name": "Demande du lieu des services",
+      "definition": "Le lieu d'exécution des services est demandé."
+    },
+    "RQGF": {
+      "name": "Demande de la destination finale des biens",
+      "definition": "La destination finale des biens est demandée."
+    },
+    "RQSD": {
+      "name": "Demande de la date des services",
+      "definition": "La date d'exécution des services est demandée."
+    },
+    "RQGD": {
+      "name": "Demande de la date des biens",
+      "definition": "La date à laquelle la propriété des biens change officiellement est demandée."
+    },
+    "RQUS": {
+      "name": "Demande du statut de lien avec les US",
+      "definition": "La confirmation que les US constituent un lien (nexus) avec l'opération est demandée."
+    },
+    "RQBL": {
+      "name": "Demande du connaissement",
+      "definition": "Le connaissement est demandé."
+    },
+    "RQCD": {
+      "name": "Demande de la déclaration en douane",
+      "definition": "La déclaration en douane est demandée."
+    },
+    "RQTD": {
+      "name": "Demande de la documentation de transport",
+      "definition": "La documentation de transport est demandée."
+    },
+    "RQHS": {
+      "name": "Demande des codes HS des biens fournis",
+      "definition": "Le code HS des biens est demandé."
+    },
+    "RQAB": {
+      "name": "Demande de la lettre de transport aérien",
+      "definition": "La lettre de transport aérien est demandée."
+    },
+    "RQIM": {
+      "name": "Demande du navire IMO impliqué",
+      "definition": "Le numéro IMO du navire est demandé."
+    },
+    "RQTA": {
+      "name": "Demande de l'immatriculation de l'aéronef impliqué",
+      "definition": "Le numéro d'immatriculation de l'aéronef est demandé."
+    },
+    "RCOO": {
+      "name": "Demande du pays d'origine",
+      "definition": "Le pays d'origine est demandé."
+    },
+    "RQUO": {
+      "name": "Demande du propriétaire sous-jacent",
+      "definition": "Le propriétaire sous-jacent est demandé."
+    },
+    "RQCT": {
+      "name": "Demande des pays de transit entre le débiteur et le créancier dans l'opération",
+      "definition": "Les pays de transit entre le débiteur et le créancier sont demandés."
+    },
+    "RQDV": {
+      "name": "Demande des dates de voyage pour les biens ou services référencés dans l'opération",
+      "definition": "Les dates du voyage des biens ou services sont demandées."
+    },
+    "RPOC": {
+      "name": "Demande des ports d'escale",
+      "definition": "Les ports d'escale sont demandés."
+    },
+    "RQCM": {
+      "name": "Demande de précision sur la nature civile ou militaire du paiement",
+      "definition": "La confirmation que l'opération est de nature civile ou militaire est demandée."
+    },
+    "RQUP": {
+      "name": "Demande des parties finales impliquées, y compris l'origine des fonds",
+      "definition": "Les parties finales et l'origine des fonds sont demandées."
+    },
+    "RQLP": {
+      "name": "Demande de précision sur l'applicabilité ou l'exigence d'une licence pour le paiement",
+      "definition": "La licence applicable ou requise pour le paiement est demandée."
+    },
+    "RQIC": {
+      "name": "Demande de précision sur l'implication du secteur caritatif",
+      "definition": "La confirmation de l'implication du secteur caritatif dans l'opération est demandée."
+    },
+    "RQKC": {
+      "name": "Demande de la certification Kimberley",
+      "definition": "La certification Kimberley est demandée."
+    },
+    "RQGL": {
+      "name": "Demande de copie de la licence générale",
+      "definition": "Une copie de la licence générale est demandée."
+    },
+    "RQSL": {
+      "name": "Demande de copie de la licence spécifique",
+      "definition": "Une copie de la licence spécifique est demandée."
+    },
+    "RQDP": {
+      "name": "Demande du motif détaillé du paiement",
+      "definition": "Le motif détaillé du paiement est demandé."
+    },
+    "RQBW": {
+      "name": "Demande du site web de l'entreprise",
+      "definition": "Le site web de l'entreprise est demandé."
+    },
+    "RQOG": {
+      "name": "Demande de l'origine des biens",
+      "definition": "L'origine des biens est demandée."
+    },
+    "RQUU": {
+      "name": "Demande de l'utilisateur final et de l'usage des biens ou des services",
+      "definition": "L'utilisateur final et l'usage des biens ou services sont demandés."
+    },
+    "MISS": {
+      "name": "Manquant",
+      "definition": "L'information est manquante."
+    },
+    "INVA": {
+      "name": "Invalide",
+      "definition": "L'information est invalide."
+    },
+    "ICOM": {
+      "name": "Incomplet",
+      "definition": "L'information est incomplète."
+    }
+  }
+}

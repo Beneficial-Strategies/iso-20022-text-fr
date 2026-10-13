@@ -1,0 +1,14 @@
+{
+  "isoType": "CardType1Code",
+  "definition": "Précise le type de carte de paiement.",
+  "isoCodes": {
+    "CRDT": {
+      "name": "Carte de crédit",
+      "definition": "Carte dont le titulaire s'est vu accorder une ligne de crédit. La carte permet au titulaire d'effectuer des achats et de retirer des espèces jusqu'à un plafond préétabli."
+    },
+    "DBIT": {
+      "name": "Carte de débit",
+      "definition": "Carte permettant au titulaire de faire débiter directement ses achats de son compte. La carte peut également combiner d'autres fonctions, par exemple, carte de retrait ou carte de garantie de chèque."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "isoType": "TaxType16Code",
+  "definition": "Précise le type d'impôt.",
+  "isoCodes": {
+    "COAX": {
+      "name": "Taxe à la consommation",
+      "definition": "Impôt prélevé sur les biens et services achetés par les clients et ajouté au prix de détail."
+    },
+    "CTAX": {
+      "name": "Crédit d'impôt",
+      "definition": "Réduction directe de la charge fiscale d'une personne."
+    },
+    "EUTR": {
+      "name": "Retenue fiscale EU",
+      "definition": "Impôt retenu à la source dans le cadre de la directive européenne relative à la fiscalité de l'épargne sous forme de paiements d'intérêts."
+    },
+    "LEVY": {
+      "name": "Taxe de prélèvement sur paiement",
+      "definition": "Impôt prélevé sur un paiement."
+    },
+    "LOCL": {
+      "name": "Impôt local",
+      "definition": "Impôt prélevé par un système de règlement local ou une juridiction locale."
+    },
+    "NATI": {
+      "name": "Impôt national",
+      "definition": "L'impôt est un impôt national."
+    },
+    "PROV": {
+      "name": "Provincial",
+      "definition": "L'impôt est un impôt provincial."
+    },
+    "STAM": {
+      "name": "Droit de timbre",
+      "definition": "L'impôt porte sur certains documents et opérations."
+    },
+    "STAT": {
+      "name": "Impôt d'État",
+      "definition": "L'impôt est un impôt d'État."
+    },
+    "STEX": {
+      "name": "Taxe boursière",
+      "definition": "Impôt perçu par une bourse."
+    },
+    "TRAN": {
+      "name": "Droits de mutation",
+      "definition": "Impôt prélevé sur un transfert."
+    },
+    "TRAX": {
+      "name": "Taxe sur les opérations",
+      "definition": "Impôt prélevé sur une opération."
+    },
+    "VATA": {
+      "name": "Taxe sur la valeur ajoutée",
+      "definition": "L'impôt est une taxe sur la valeur ajoutée."
+    },
+    "WITH": {
+      "name": "Retenue à la source",
+      "definition": "L'impôt porte sur des revenus prélevés à la source, que l'agent payeur est légalement tenu de déduire de ses paiements d'intérêts sur dépôts et autres produits d'un instrument financier."
+    },
+    "NKAP": {
+      "name": "Crédit de moins-values",
+      "definition": "La récupération d'impôt est due à une moins-value."
+    },
+    "KAPA": {
+      "name": "Impôt sur les plus-values",
+      "definition": "L'impôt porte sur une plus-value (réalisée et latente), c'est-à-dire le profit réalisé lors de la vente d'un instrument financier."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "Balance30",
+  "definition": "Rapport sur la position nette d'un titre, sur un seul compte-titres, pour une date donnée.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "BalanceForAccount": {
+      "definition": "Rapport sur la position nette d'un titre, sur un seul compte-titres, pour une date donnée."
+    },
+    "SubAccountDetails": {
+      "definition": "Sous-compte du compte de conservation ou d'investissement."
+    },
+    "AccountBaseCurrencyTotalAmounts": {
+      "definition": "Montants de valorisation totaux fournis dans la devise de base du compte."
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountRule": {
+      "definition": "BalanceForAccount doit être présent ou SubAccountDetails doit être présent, les deux pouvant être présents."
+    }
+  }
+}

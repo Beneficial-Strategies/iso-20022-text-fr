@@ -1,0 +1,90 @@
+{
+  "isoType": "ExternalInvestigationStatusReason1Code",
+  "definition": "Précise le motif du statut de l'enquête, tel que publié dans une liste de codes externe des motifs de statut d'enquête.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "AGNT": {
+      "name": "Banque ou partie incorrecte",
+      "definition": "Le message de demande a été adressé à une banque ou une partie incorrecte."
+    },
+    "DU01": {
+      "name": "Demande en double",
+      "definition": "Le message de demande est un doublon ; le message de demande en double est rejeté."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Voir l'élément ResponseData pour des informations complémentaires."
+    },
+    "FTNA": {
+      "name": "Demande d'enquête transmise à une banque ou à une partie",
+      "definition": "Message de demande transmis à une autre banque ou partie, lesquelles peuvent être indiquées dans l'élément NextResponder."
+    },
+    "CAPR": {
+      "name": "Clôturé conformément à la demande",
+      "definition": "Enquête close conformément au message de demande."
+    },
+    "CACR": {
+      "name": "Clôturé, demande d'annulation envoyée",
+      "definition": "Enquête close car une demande d'annulation de l'opération sous-jacente a été envoyée."
+    },
+    "ADAC": {
+      "name": "En attente de l'autorisation de débit du client",
+      "definition": "En attente de l'autorisation de débit du client."
+    },
+    "ARPL": {
+      "name": "En attente de la réponse du client",
+      "definition": "En attente de la réponse du client."
+    },
+    "NOAS": {
+      "name": "Aucune réponse du client",
+      "definition": "Pas de réponse du client."
+    },
+    "INPO": {
+      "name": "En cours",
+      "definition": "Le rassemblement des données de réponse est toujours en cours."
+    },
+    "NOOR": {
+      "name": "Aucune opération initiale reçue",
+      "definition": "Opération sous-jacente jamais reçue."
+    },
+    "ARJT": {
+      "name": "Opération déjà rejetée",
+      "definition": "Opération sous-jacente déjà rejetée."
+    },
+    "ARDT": {
+      "name": "Déjà retourné",
+      "definition": "Demande d'enquête non acceptée car l'opération a déjà été retournée."
+    },
+    "RR04": {
+      "name": "Motif réglementaire",
+      "definition": "Motif réglementaire."
+    },
+    "LEGL": {
+      "name": "Décision judiciaire",
+      "definition": "Signalé lorsque la demande ne peut pas être acceptée en raison de règles réglementaires."
+    },
+    "ESCA": {
+      "name": "Escalade",
+      "definition": "Un suivi spécial est en cours."
+    },
+    "INIT": {
+      "name": "Type d'enquête incorrect",
+      "definition": "Type d'enquête incorrect utilisé dans le message de demande."
+    },
+    "PARE": {
+      "name": "Réponse partielle",
+      "definition": "Le message de réponse traite la demande en partie ; un autre message de réponse suivra."
+    },
+    "NOAD": {
+      "name": "Aucune information supplémentaire disponible",
+      "definition": "Aucune information supplémentaire relative à la demande ne peut être fournie."
+    },
+    "G004": {
+      "name": "En attente de la couverture",
+      "definition": "Indique que l'enquête sur la non-réception d'une créance est en attente, le créancier de la couverture attendant le crédit de la couverture."
+    },
+    "CMPI": {
+      "name": "Correction effectuée conformément à la demande",
+      "definition": "Se rapporte à une procédure de correction effectuée suite à une demande de renseignements (Correction Made as Per Inquiry) pour le statut d'enquête Closed (CLSD)."
+    }
+  }
+}

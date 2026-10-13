@@ -1,0 +1,18 @@
+{
+  "isoType": "AutoBorrowing1Code",
+  "definition": "Précise la condition dans laquelle l'emprunt automatique est autorisé.",
+  "isoCodes": {
+    "LAMI": {
+      "name": "Dernier recours",
+      "definition": "Seul un emprunt en dernier recours doit être envisagé pour permettre le règlement."
+    },
+    "NBOR": {
+      "name": "Non automatique",
+      "definition": "Aucun emprunt automatique ne doit avoir lieu."
+    },
+    "YBOR": {
+      "name": "Automatique",
+      "definition": "Un emprunt automatique doit avoir lieu."
+    }
+  }
+}

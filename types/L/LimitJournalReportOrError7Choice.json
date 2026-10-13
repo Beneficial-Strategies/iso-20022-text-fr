@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitJournalReportOrError7Choice",
+  "definition": "Définit le rapport sur les limites comme étant soit une erreur opérationnelle, soit un rapport commercial.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Précise le rapport commercial comme étant soit un journal d'utilisation des limites, soit une erreur fonctionnelle."
+    },
+    "OperationalError": {
+      "definition": "Précise l'erreur opérationnelle résultant du traitement d'une demande."
+    }
+  }
+}

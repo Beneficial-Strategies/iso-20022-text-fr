@@ -1,0 +1,18 @@
+{
+  "isoType": "InstructionQueryType1Code",
+  "definition": "Précise le type d'instruction interrogée.",
+  "isoCodes": {
+    "SETT": {
+      "name": "Instruction de règlement",
+      "definition": "L'interrogation porte sur des opérations de règlement."
+    },
+    "IPOS": {
+      "name": "Mouvement intra-position",
+      "definition": "L'interrogation porte sur des mouvements intra-position."
+    },
+    "BOTH": {
+      "name": "Règlement et intra-position",
+      "definition": "L'interrogation porte à la fois sur des opérations de règlement et sur des mouvements intra-position."
+    }
+  }
+}

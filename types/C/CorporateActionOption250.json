@@ -1,0 +1,110 @@
+{
+  "isoType": "CorporateActionOption250",
+  "definition": "Fournit des informations sur l'option de l'événement sur titres.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "FractionDisposition": {
+      "definition": "Précise comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    },
+    "OptionFeatures": {
+      "definition": "Précise les caractéristiques pouvant s'appliquer à une option d'opération sur titres."
+    },
+    "SupplementaryOptionFeatures": {
+      "definition": "Utilisé pour les options présentant des caractéristiques propriétaires particulières."
+    },
+    "OptionAvailabilityStatus": {
+      "definition": "Précise le statut de l'option."
+    },
+    "CertificationBreakdownType": {
+      "definition": "Type de certification/ventilation."
+    },
+    "CurrencyOption": {
+      "definition": "Devise dans laquelle le produit en espèces doit être crédité/débité."
+    },
+    "DefaultOptionIndicator": {
+      "definition": "Indique si l'option, par exemple une option de devise, sera sélectionnée par défaut si aucune instruction n'est fournie par le titulaire du compte."
+    },
+    "CertificationBreakdownIndicator": {
+      "definition": "Indique si une certification/ventilation est requise de la part du titulaire du compte. |Yes : certification requise |No : aucune certification requise."
+    },
+    "WithdrawalAllowedIndicator": {
+      "definition": "Indique si le retrait de l'instruction est autorisé."
+    },
+    "OversubscriptionChargeIndicator": {
+      "definition": "Indique si le débit en espèces des frais de sursouscription est effectué au moment de la soumission de l'instruction.|Yes : applicable.|No : non applicable.|En cas d'absence, signifie No."
+    },
+    "ProtectChargeIndicator": {
+      "definition": "Indique si le débit en espèces des frais de protection est effectué au moment de la soumission de l'instruction.|Yes : applicable.|No : non applicable.|En cas d'absence, signifie No."
+    },
+    "SubscriptionChargeIndicator": {
+      "definition": "Indique si le débit en espèces des frais de souscription est effectué au moment de la soumission de l'instruction.|Yes : applicable.|No : non applicable.|En cas d'absence, signifie No."
+    },
+    "StepUpChargeIndicator": {
+      "definition": "Indique si le débit en espèces des frais de step-up est effectué au moment de la soumission de l'instruction.|Yes : applicable.|No : non applicable.|En cas d'absence, signifie No."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifie l'instrument financier."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates relatives à une option d'événement sur titres."
+    },
+    "PeriodDetails": {
+      "definition": "Fournit des informations sur les périodes relatives à une option d'événement sur titres."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fournit des informations sur les taux et montants relatifs à une option d'événement sur titres."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix relatifs à une option d'événement sur titres."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Fournit des informations sur la quantité de titres liée à une option d'événement sur titres."
+    },
+    "TaxCategory": {
+      "definition": "Identification de la catégorie fiscale, car les émetteurs, leurs agents ou les autorités fiscales peuvent exiger une ventilation, au niveau de la catégorie, des porteurs ayant demandé à recevoir une distribution à un taux d'imposition favorable."
+    },
+    "ProrationBelowMinimumQuantity": {
+      "definition": "Précise comment seront traitées les instructions réparties au prorata en dessous de la quantité minimale à instruire."
+    },
+    "ProrationRoundingIndicator": {
+      "definition": "Indique comment les positions fractionnaires seront traitées pour les événements comportant des options réparties au prorata."
+    },
+    "ProrationFraction": {
+      "definition": "Décimale au-dessus de laquelle les nombres sont arrondis pour les options réparties au prorata. Par exemple, si le facteur d'arrondi est de 0,5, les nombres de 0,5 et plus seront arrondis à l'unité supérieure (0.5)."
+    },
+    "ProrationReturnMinimumQuantityTreatment": {
+      "definition": "Indique comment les instructions au prorata seront traitées lorsque le droit au prorata aboutit à un montant inférieur à la coupure minimale."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement de titres lié à l'option de l'événement sur titres."
+    },
+    "CashMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement d'espèces lié à l'option de l'événement sur titres."
+    },
+    "AdditionalInformation": {
+      "definition": "Fournit des informations supplémentaires."
+    }
+  },
+  "isoRules": {
+    "AdditionalTextRule": {
+      "definition": "Si OptionType/Code est OTHR (Other), alors au moins une occurrence de AdditionalInformation/AdditionalText/AdditionalInformation doit être présente.|(MT564 NVR C5)."
+    },
+    "OptionNumberGuideline": {
+      "definition": "Pour différencier les options, il est recommandé d'utiliser OptionNumber plutôt que OptionType, par exemple lorsque deux offres ou plus peuvent être décrites par le même code d'option d'événement sur titres."
+    },
+    "RevocabilityPeriodRule": {
+      "definition": "Si WithdrawalAllowedIndicator est présent et vaut 'true' ou '1' (Yes), alors PeriodDetails/RevocabilityPeriod doit être présent pour indiquer la période pendant laquelle le retrait de l'instruction est autorisé."
+    },
+    "OptionTypeUnknownProceedsUsageRule": {
+      "definition": "Lorsqu'il est utilisé, le code de type d'option d'événement sur titres PRUN (Unknown Proceeds) devrait être maintenu pendant tout le cycle de vie de l'événement."
+    },
+    "InstructCashAmountRule": {
+      "definition": "Si OptionFeatures/Code QCAS (InstructCashAmount) n'est pas présent, alors aucun des éléments de message de la liste (PriceDetails/MaximumCashToInstruct, PriceDetails/MinimumCashToInstruct, PriceDetails/MinimumMutipleCashToInstruct) ne doit être présent.|(MT564 NVR C20)."
+    }
+  }
+}

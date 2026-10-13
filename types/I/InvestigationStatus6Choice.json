@@ -1,0 +1,18 @@
+{
+  "isoType": "InvestigationStatus6Choice",
+  "definition": "Précise le statut d'un dossier d'enquête.",
+  "isoElements": {
+    "Confirmation": {
+      "definition": "Précise le statut de l'enquête, sous forme codée."
+    },
+    "RejectedModification": {
+      "definition": "Motif du rejet d'une demande de modification, sous forme codée."
+    },
+    "DuplicateOf": {
+      "definition": "Indique un dossier en double.|Utilisation : lorsqu'il est présent, le dossier identifié dans le message doit être clôturé. Le dossier identifié comme doublon (dans ce composant) sera traité."
+    },
+    "AssignmentCancellationConfirmation": {
+      "definition": "Indique si l'annulation de l'affectation est confirmée ou rejetée.|Utilisation : si oui, l'annulation de l'affectation est confirmée.|Si non, l'annulation de l'affectation est rejetée et le processus d'enquête se poursuit."
+    }
+  }
+}

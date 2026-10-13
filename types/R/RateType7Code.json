@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType7Code",
+  "definition": "Précise le type de taux.",
+  "isoCodes": {
+    "SCHD": {
+      "name": "Planifié",
+      "definition": "Taux du paiement programmé."
+    },
+    "USCD": {
+      "name": "Non planifié",
+      "definition": "Taux du paiement non programmé."
+    }
+  }
+}

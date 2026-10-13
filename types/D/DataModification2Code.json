@@ -1,0 +1,14 @@
+{
+  "isoType": "DataModification2Code",
+  "definition": "Précise le type de modification à appliquer à un ensemble de données.",
+  "isoCodes": {
+    "INSE": {
+      "name": "Insertion d'un nouveau jeu de données",
+      "definition": "Insérer un nouvel ensemble de données."
+    },
+    "DELT": {
+      "name": "Suppression d'un jeu de données",
+      "definition": "Supprimer un ensemble de données existant."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "TransactionReferences10",
+  "definition": "Identifie l'opération sous-jacente.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par la partie instructrice du message sous-jacent."
+    },
+    "AccountServicerReference": {
+      "definition": "Référence unique, attribuée par l'établissement teneur de compte, permettant d'identifier sans ambiguïté l'instruction."
+    },
+    "PaymentInformationIdentification": {
+      "definition": "Identification unique, attribuée par une partie émettrice, permettant d'identifier sans ambiguïté le groupe d'informations de paiement au sein du message."
+    },
+    "InstructionIdentification": {
+      "definition": "Identification unique, attribuée par une partie instructrice à une partie instruite, permettant d'identifier sans ambiguïté l'instruction.||Utilisation : l'identification de l'instruction est une référence de point à point qui peut être utilisée entre la partie instructrice et la partie instruite pour se référer à l'instruction individuelle. Elle peut figurer dans plusieurs messages relatifs à l'instruction."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice, permettant d'identifier sans ambiguïté l'opération. Cette identification est transmise, sans modification, tout au long de la chaîne de bout en bout.||Utilisation : l'identification de bout en bout peut servir au rapprochement ou à la liaison de tâches relatives à l'opération. Elle peut figurer dans plusieurs messages relatifs à l'opération.||Utilisation : en cas de limitations techniques pour transmettre plusieurs références, l'identification de bout en bout doit être transmise tout au long de la chaîne de bout en bout."
+    },
+    "UETR": {
+      "definition": "Identifiant universel unique fournissant une référence de bout en bout d'une opération de paiement."
+    },
+    "TransactionIdentification": {
+      "definition": "Identification unique, attribuée par la première banque instructrice, permettant d'identifier sans ambiguïté l'opération, transmise sans modification tout au long de la chaîne interbancaire. |Utilisation : l'identification de l'opération peut servir au rapprochement, au suivi ou à la liaison de tâches relatives à l'opération au niveau interbancaire. |Utilisation : la banque instructrice doit s'assurer que l'identification de l'opération est unique pendant une période convenue au préalable."
+    },
+    "MandateIdentification": {
+      "definition": "Identification unique, attribuée par le créancier, permettant d'identifier sans ambiguïté le mandat."
+    },
+    "ChequeNumber": {
+      "definition": "Identifiant unique et non équivoque d'un chèque, attribué par la banque."
+    },
+    "ClearingSystemReference": {
+      "definition": "Référence unique, attribuée par un système de compensation, permettant d'identifier sans ambiguïté l'instruction.|Utilisation : en cas de limitations techniques pour transmettre plusieurs références, l'identification de bout en bout doit être transmise tout au long de la chaîne de bout en bout."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification non équivoque de l'opération sur titres telle que connue du titulaire du compte-titres (ou de la partie instructrice gérant le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification non équivoque de l'opération sur titres telle que connue du teneur du compte-titres."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération sur titres attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identification de l'opération sur titres attribuée par le responsable du traitement de l'instruction autre que le titulaire du compte-titres, le teneur du compte-titres et l'infrastructure de marché."
+    },
+    "ReturnIdentification": {
+      "definition": "Identification unique, attribuée par une partie instructrice à une partie instruite, permettant d'identifier sans ambiguïté l'opération retournée.|Utilisation : la partie instructrice est la partie qui envoie le message de retour et non celle qui a envoyé l'instruction d'origine faisant l'objet du retour."
+    },
+    "Proprietary": {
+      "definition": "Référence propriétaire relative à l'opération sous-jacente."
+    }
+  }
+}

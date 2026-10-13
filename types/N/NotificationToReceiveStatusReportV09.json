@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationToReceiveStatusReportV09",
+  "definition": "Champ d'application|Le message NotificationToReceiveStatusReport est envoyé par un établissement teneur de compte à un titulaire de compte ou à une partie agissant pour son compte. Il est utilisé pour notifier au titulaire du compte le statut d'un ou plusieurs paiements attendus qui avaient été annoncés dans un message NotificationToReceive précédent.|Utilisation|Le message NotificationToReceiveStatusReport est envoyé en réponse à un message NotificationToReceive et peut être utilisé dans un scénario direct ou dans un scénario avec relais. Il est utilisé pour aviser le titulaire du compte de la réception des fonds comme prévu. Il est également utilisé pour notifier au titulaire du compte la non-réception de fonds ou des écarts dans les fonds reçus."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType36Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser un type de taux.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type de taux d'imposition."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de taux d'imposition."
+    }
+  }
+}

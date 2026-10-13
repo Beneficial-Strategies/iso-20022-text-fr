@@ -1,0 +1,23 @@
+{
+  "isoType": "LimitStructure5",
+  "definition": "Détails d'une limite particulière fixée par le membre et gérée par l'administrateur des opérations.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identification de la limite par défaut."
+    },
+    "NewLimitValueSet": {
+      "definition": "Nouvelles valeurs de la limite."
+    },
+    "OldLimitValueSet": {
+      "definition": "Anciennes valeurs de la limite."
+    },
+    "LimitValueAmendment": {
+      "definition": "Différence entre la nouvelle valeur et l'ancienne valeur de la limite."
+    }
+  },
+  "isoRules": {
+    "OldLimitOrLimitAmendmentPresenceRule": {
+      "definition": "OldLimitValueSet ou LimitValueAmendment doit être absent ; les deux peuvent être absents."
+    }
+  }
+}

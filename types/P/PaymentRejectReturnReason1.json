@@ -1,0 +1,17 @@
+{
+  "isoType": "PaymentRejectReturnReason1",
+  "definition": "Fournit des informations détaillées sur le motif du retour de l'opération.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Précise le motif du retour."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations détaillées sur le motif du retour."
+    }
+  },
+  "isoRules": {
+    "RejectReturnReasonRule": {
+      "definition": "Si Reason/Code est égal à NARR, AddititionalInformation doit être présent."
+    }
+  }
+}

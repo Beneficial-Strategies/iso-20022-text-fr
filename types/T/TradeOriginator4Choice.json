@@ -1,0 +1,12 @@
+{
+  "isoType": "TradeOriginator4Choice",
+  "definition": "Choix du format de la capacité de négociation de la partie.",
+  "isoElements": {
+    "Code": {
+      "definition": "Capacité de la partie négociatrice exprimée sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Capacité de la partie négociatrice exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

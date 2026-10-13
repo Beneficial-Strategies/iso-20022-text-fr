@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraPositionQueryStatus3",
+  "definition": "Définit les critères d'interrogation du statut des mouvements intra-position, y compris la période de statut.",
+  "isoElements": {
+    "Type": {
+      "definition": "Définit le type de statut des critères d'interrogation."
+    },
+    "DatePeriod": {
+      "definition": "Période de dates précisée pour le statut."
+    }
+  }
+}

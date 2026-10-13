@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionNarrative1Code",
+  "definition": "Indique le type de texte narratif d'une opération sur titres.",
+  "isoCodes": {
+    "TAXE": {
+      "name": "Conditions d'imposition",
+      "definition": "Fournit des conditions fiscales qui ne peuvent pas être incluses dans les champs structurés de ce message."
+    },
+    "REGI": {
+      "name": "Détails d'enregistrement",
+      "definition": "Fournit les informations requises pour l'enregistrement."
+    },
+    "WTRC": {
+      "name": "Certification d'allègement de la retenue à la source",
+      "definition": "Processus de certification pour la réduction ou l'exonération de la retenue à la source en fonction du statut fiscal du détenteur."
+    },
+    "RFMC": {
+      "name": "Refus par l'ICSD de la confirmation de majoration ou minoration",
+      "definition": "Dans le cadre d'une opération sur titres, un dépositaire central de titres international (ICSD) refuse une confirmation de majoration/minoration envoyée par le teneur de compte."
+    },
+    "PAUT": {
+      "name": "Relance d'une autorisation préalable",
+      "definition": "Le dépositaire central de titres international (ICSD) relance le teneur de compte pour obtenir l'autorisation de procéder à l'échange du titre global temporaire en titre global permanent."
+    },
+    "CTIN": {
+      "name": "Confirmation du transfert de position",
+      "definition": "Confirmation du transfert de participations entre dépositaires centraux de titres internationaux (ICSD) à la suite d'une opération sur titres."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditorReferenceType1Choice",
+  "definition": "Précise le type de document référencé par le créancier.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de référence du créancier, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Type de référence du créancier, sous forme propriétaire."
+    }
+  }
+}

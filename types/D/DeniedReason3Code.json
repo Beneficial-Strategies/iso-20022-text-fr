@@ -1,0 +1,26 @@
+{
+  "isoType": "DeniedReason3Code",
+  "definition": "Précise le motif du refus.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Reçue après l'heure limite de l'établissement teneur de compte."
+    },
+    "DCAL": {
+      "name": "Appel refusé car déjà appliqué",
+      "definition": "La demande d'appel de pension a été refusée car un autre appel s'applique déjà."
+    },
+    "DFOR": {
+      "name": "Refusé car non autorisé",
+      "definition": "La demande d'appel de pension a été refusée. Appel non autorisé sur la pension concernée, par exemple hors délai."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    }
+  }
+}

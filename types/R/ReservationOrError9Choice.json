@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationOrError9Choice",
+  "definition": "Fournit un rapport soit sur la réservation, soit sur une erreur métier.",
+  "isoElements": {
+    "Reservation": {
+      "definition": "Informations demandées sur la limite."
+    },
+    "BusinessError": {
+      "definition": "Raison pour laquelle les informations fonctionnelles demandées ne sont pas fournies."
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "isoType": "ExternalUnableToApplyIncorrectData1Code",
+  "definition": "Précise le motif d'une impossibilité d'imputation due à des données incorrectes, tel que publié dans une liste de codes externe des données incorrectes pour l'impossibilité d'imputation.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "IN01": {
+      "name": "Référence associée incorrecte",
+      "definition": "La référence de l'opération liée est incorrecte."
+    },
+    "IN02": {
+      "name": "Niveau de service de paiement incorrect",
+      "definition": "Le niveau de service du type de paiement est incorrect (ancien IncorrectBankOperationCode)."
+    },
+    "IN03": {
+      "name": "Catégorie de motif incorrecte",
+      "definition": "Le motif de catégorie du type de paiement est incorrect (ancien IncorrectInstructionCode)."
+    },
+    "IN04": {
+      "name": "Date d'exécution demandée incorrecte",
+      "definition": "RequestedExecutionDate est incorrect."
+    },
+    "IN05": {
+      "name": "Date de règlement interbancaire incorrecte",
+      "definition": "La date de règlement interbancaire est incorrecte (ancien IncorrectValueDate)."
+    },
+    "IN06": {
+      "name": "Montant de règlement interbancaire incorrect",
+      "definition": "Le montant de règlement interbancaire est incorrect (ancien IncorrectSettledAmount)."
+    },
+    "IN07": {
+      "name": "Débiteur incorrect",
+      "definition": "Le débiteur est incorrect."
+    },
+    "IN08": {
+      "name": "Compte du débiteur incorrect",
+      "definition": "DebtorAccount est incorrect."
+    },
+    "IN09": {
+      "name": "Banque de remboursement destinataire de l'instruction incorrecte",
+      "definition": "InstructedReimbursementAgent est incorrect (ancien IncorrectReceiverCorrespondent)."
+    },
+    "IN10": {
+      "name": "Troisième banque de remboursement incorrecte",
+      "definition": "ThirdReimbursementAgent est incorrect (ancien IncorrectThirdReimbursementInstitution)."
+    },
+    "IN11": {
+      "name": "Canal de compensation du paiement incorrect",
+      "definition": "Le canal de compensation du type de paiement est incorrect (ancien PaymentScheme)."
+    },
+    "IN12": {
+      "name": "Compte de la banque du créancier incorrect",
+      "definition": "CreditorAgentAccount est incorrect (ancien IncorrectAccountOfBeneficiaryInstitution)."
+    },
+    "IN13": {
+      "name": "Créancier incorrect",
+      "definition": "Le créancier est incorrect."
+    },
+    "IN14": {
+      "name": "Compte du créancier incorrect",
+      "definition": "Le compte du créancier est incorrect."
+    },
+    "IN15": {
+      "name": "Informations de remise incorrectes",
+      "definition": "RemittanceInformation est incorrect."
+    },
+    "IN16": {
+      "name": "Motif du paiement incorrect",
+      "definition": "Le motif de paiement de l'opération est incorrect."
+    },
+    "IN17": {
+      "name": "Frais incorrects",
+      "definition": "ChargeBearer est incorrect (ancien IncorrectDetailsOfCharges)."
+    },
+    "IN18": {
+      "name": "Instruction pour la banque suivante incorrecte",
+      "definition": "L'instruction pour la banque suivante est incorrecte (ancien IncorrectSenderToReceiverInformation)."
+    },
+    "IN19": {
+      "name": "Instruction pour la banque du créancier incorrecte",
+      "definition": "L'instruction pour la banque du créancier est incorrecte (ancien IncorrectInstructionForFinalAgent)."
+    },
+    "IN33": {
+      "name": "Montant de l'écriture du relevé incorrect",
+      "definition": "Le montant de l'écriture du relevé est incorrect."
+    },
+    "IN36": {
+      "name": "Compte de règlement incorrect",
+      "definition": "SettlementAccount est incorrect."
+    },
+    "IN37": {
+      "name": "Banque de remboursement donneuse d'ordre incorrecte",
+      "definition": "L'agent de remboursement donneur d'ordre est incorrect."
+    },
+    "IN38": {
+      "name": "Adresse du débiteur incorrecte",
+      "definition": "L'adresse du débiteur est incorrecte."
+    },
+    "IN39": {
+      "name": "Adresse du créancier incorrecte",
+      "definition": "L'adresse du créancier est incorrecte."
+    },
+    "IN40": {
+      "name": "Informations de remise associées incorrectes",
+      "definition": "RelatedRemittanceInformation est incorrect."
+    },
+    "MM20": {
+      "name": "Nom du créancier et compte discordants",
+      "definition": "Le nom et le compte du créancier ne correspondent pas."
+    },
+    "MM21": {
+      "name": "Nom du débiteur et compte discordants",
+      "definition": "Le nom et le compte du débiteur ne correspondent pas."
+    },
+    "MM22": {
+      "name": "Nom de la banque du créancier et compte discordants",
+      "definition": "Le nom et le compte de la banque du créancier (anciennement FinalAgent) ne correspondent pas."
+    },
+    "MM23": {
+      "name": "Détails du débiteur insuffisants",
+      "definition": "Détails insuffisants ou incohérents sur le débiteur au regard des exigences réglementaires."
+    },
+    "MM24": {
+      "name": "Détails du créancier insuffisants",
+      "definition": "Détails insuffisants ou incohérents sur le créancier au regard des exigences réglementaires."
+    },
+    "MM25": {
+      "name": "Exécution en attente : compte ou identification du débiteur",
+      "definition": "Le paiement est en attente d'exécution. Pour des raisons réglementaires, nous demandons des informations complémentaires sur le numéro de compte ou l'identification unique du débiteur."
+    },
+    "MM26": {
+      "name": "Exécution en attente : nom ou adresse du débiteur",
+      "definition": "Le paiement est en attente d'exécution. Pour des raisons réglementaires, nous demandons des informations complémentaires sur le nom et/ou l'adresse du débiteur."
+    },
+    "MM27": {
+      "name": "Paiement exécuté : compte ou identification du débiteur",
+      "definition": "Le paiement a été exécuté. Pour des raisons réglementaires, nous demandons des informations complémentaires sur le numéro de compte ou l'identification unique du débiteur."
+    },
+    "MM28": {
+      "name": "Paiement exécuté : nom ou adresse du débiteur",
+      "definition": "Le paiement a été exécuté. Pour des raisons réglementaires, nous demandons des informations complémentaires sur le nom et/ou l'adresse du débiteur."
+    },
+    "MM29": {
+      "name": "Exécution en attente : compte ou identification du créancier",
+      "definition": "Le paiement est en attente d'exécution. Pour des raisons réglementaires, nous demandons des informations complémentaires sur le numéro de compte ou l'identification unique du créancier."
+    },
+    "MM30": {
+      "name": "Exécution en attente : nom ou adresse du créancier",
+      "definition": "Le paiement est en attente d'exécution. Pour des raisons réglementaires, nous demandons des informations complémentaires sur le nom et/ou l'adresse du créancier."
+    },
+    "MM31": {
+      "name": "Paiement exécuté : compte ou identification du créancier",
+      "definition": "Le paiement a été exécuté. Pour des raisons réglementaires, nous demandons des informations complémentaires sur le numéro de compte ou l'identification unique du créancier."
+    },
+    "MM32": {
+      "name": "Paiement exécuté : nom ou adresse du créancier",
+      "definition": "Le paiement a été exécuté. Pour des raisons réglementaires, nous demandons des informations complémentaires sur le nom et/ou l'adresse du créancier."
+    },
+    "MM34": {
+      "name": "Détails des frais insuffisants",
+      "definition": "Détails des frais fournis insuffisants."
+    },
+    "MM35": {
+      "name": "Motif du paiement insuffisant",
+      "definition": "Le motif du paiement doit être précisé davantage."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Voir le champ narratif pour des informations complémentaires."
+    }
+  }
+}

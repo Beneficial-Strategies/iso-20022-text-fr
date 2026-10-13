@@ -1,0 +1,12 @@
+{
+  "isoType": "CRSStatus3Choice",
+  "definition": "Choix de formats pour le statut au regard de la norme commune de déclaration (CRS).",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut au regard de la norme commune de déclaration (CRS) exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Statut au regard de la norme commune de déclaration (CRS) exprimé sous forme de code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalSecuritiesStatementType1Code",
+  "definition": "Précise si le relevé est un relevé comptable ou un relevé de conservation.|La liste des codes valides est un jeu de codes externe publié séparément.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "RGAD": {
+      "name": "Noms et adresse du titulaire enregistré",
+      "definition": "Le relevé est un relevé des noms et adresses des titulaires inscrits."
+    },
+    "SRNR": {
+      "name": "Numéro de référence du détenteur de titres et enregistrement",
+      "definition": "Le relevé est un relevé des numéros de référence des titulaires de titres et de l'inscription."
+    }
+  }
+}

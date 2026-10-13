@@ -1,0 +1,15 @@
+{
+  "isoType": "AgentNotificationIdentificationAndStatus2",
+  "definition": "Identification et statut de l'avis de notification d'opération sur titres envoyé par l'agent.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique du document."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure de création du document."
+    },
+    "Status": {
+      "definition": "Statut de l'avis de notification d'opération sur titres envoyé par l'agent."
+    }
+  }
+}

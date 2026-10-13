@@ -1,0 +1,15 @@
+{
+  "isoType": "GroupHeader121",
+  "definition": "Fournit des détails supplémentaires sur le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par l'établissement teneur de compte et envoyée au titulaire du compte ou à la partie autorisée à recevoir le message, pour identifier sans ambiguïté le message.||Utilisation : l'établissement teneur de compte doit s'assurer que 'MessageIdentification' est unique par titulaire de compte pendant une période convenue à l'avance."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure de création du message."
+    },
+    "MessageRecipient": {
+      "definition": "Identification de la partie qui reçoit le message, lorsqu'elle est différente du titulaire du compte."
+    }
+  }
+}

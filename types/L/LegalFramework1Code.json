@@ -1,0 +1,10 @@
+{
+  "isoType": "LegalFramework1Code",
+  "definition": "Identifie le cadre juridique de l'opération.",
+  "isoCodes": {
+    "FRAN": {
+      "name": "Pension livrée",
+      "definition": "Se rapporte au cadre juridique français des pensions, c'est-à-dire à une « Pension Livrée »."
+    }
+  }
+}

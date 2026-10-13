@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionCalculationMethod1Code",
+  "definition": "Indique la méthode de calcul des tirages au sort.",
+  "isoCodes": {
+    "PROR": {
+      "name": "Au prorata",
+      "definition": "Au prorata pour les tirages au sort."
+    },
+    "LOTT": {
+      "name": "Tirage au sort",
+      "definition": "Tirage au sort par loterie pour les tirages au sort."
+    },
+    "NOMI": {
+      "name": "Réduction du nominal",
+      "definition": "Réduction du nominal pour remboursement partiel."
+    },
+    "NNOM": {
+      "name": "Sans réduction du nominal",
+      "definition": "Sans réduction du nominal (via le facteur de pool) pour remboursement partiel."
+    }
+  }
+}

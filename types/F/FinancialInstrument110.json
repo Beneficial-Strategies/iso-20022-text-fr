@@ -1,0 +1,77 @@
+{
+  "isoType": "FinancialInstrument110",
+  "definition": "Identification d’un titre ou d’un autre actif.",
+  "isoElements": {
+    "LineIdentification": {
+      "definition": "Identification de la ligne de position du portefeuille."
+    },
+    "Instrument": {
+      "definition": "Identification de l'actif."
+    },
+    "Quantity": {
+      "definition": "Précise la quantité d’actifs à transférer en parts ou en taux de pourcentage."
+    },
+    "UnitsDetails": {
+      "definition": "Ventilation des parts."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert par l'investisseur. Cette référence peut généralement être utilisée dans un scénario de plateforme centrale (hub) pour fournir la référence du transfert telle qu'attribuée par le client sous-jacent."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë du transfert attribuée par la contrepartie."
+    },
+    "BusinessFlowType": {
+      "definition": "Processus métier dans lequel les acteurs sont impliqués. Cela permettra de déclencher le processus métier approprié, selon le modèle économique du marché, qui peut exiger un rapprochement des instructions (processus à double volet) ou non (processus à volet unique)."
+    },
+    "AverageAcquisitionPrice": {
+      "definition": "Coût moyen par action du titre, frais compris."
+    },
+    "TransferCurrency": {
+      "definition": "Devise à utiliser pour transférer les positions. Certains agents de transfert enregistrent les positions regroupées par devise en plus d'utiliser l'ISIN pour les parts de fonds multidevises."
+    },
+    "TotalBookValue": {
+      "definition": "Actif net au bilan, soit la valeur totale du portefeuille diminuée ou augmentée du gain ou de la perte latent(e)."
+    },
+    "LatestValuation": {
+      "definition": "Date et valeur de marché de l’actif."
+    },
+    "OriginalCost": {
+      "definition": "Montant initial payé pour l'actif au moment de l'achat. Peut aussi être appelé coût comptable."
+    },
+    "TransfereeAccount": {
+      "definition": "Compte détenu au nom de la partie qui n’est pas le nom du propriétaire effectif des actions.|(Partie et compte sur lesquels le cessionnaire reçoit l’instrument financier du cédant.)"
+    },
+    "Transferor": {
+      "definition": "Partie et compte à partir desquels le cédant livre l’instrument financier au cessionnaire."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identification d'une partie liée ou d'un intermédiaire."
+    },
+    "CrystallisationDetails": {
+      "definition": "Nombre de parts qui ont été reçues (cristallisées) ou non encore reçues (non cristallisées) du fonds. Cela concerne généralement un fonds de pension."
+    },
+    "TaxValuationPoint": {
+      "definition": "Date ou trimestre fiscal utilisé pour le calcul de l’impôt sur l’actif."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Chaîne de parties impliquées dans le règlement d'une transaction."
+    },
+    "AssetsHeldInOwnName": {
+      "definition": "Indique si les actifs sont détenus au nom propre d’une personne physique."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "definition": "Indique si le transfert entraîne un changement de bénéficiaire effectif."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur l'instrument financier."
+    }
+  },
+  "isoRules": {
+    "AssetQuantity1Guideline": {
+      "definition": "Si Instrument/Security est présent, alors Quantity/Unit ou Quantity/FaceAmount ou Quantity/AmortisedValue doit être présent."
+    },
+    "AssetQuantity2Guideline": {
+      "definition": "Si Instrument/CashAsset est présent, alors Quantity/CashAmount doit être présent."
+    }
+  }
+}

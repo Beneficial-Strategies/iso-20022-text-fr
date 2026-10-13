@@ -1,0 +1,18 @@
+{
+  "isoType": "UnderlyingGroupInformation1",
+  "definition": "Identification unique, attribuée par le premier agent instructeur, pour identifier sans ambiguïté le groupe d'opérations.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Référence de point à point, attribuée par la partie instructrice d'origine, pour identifier sans ambiguïté le message d'origine."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Précise l'identifiant du nom du message d'origine auquel le message se rapporte."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Date et heure de création du message d'origine."
+    },
+    "OriginalMessageDeliveryChannel": {
+      "definition": "Canal d'origine utilisé pour la remise du message, afin de permettre au destinataire de la demande de localiser plus facilement le paiement."
+    }
+  }
+}

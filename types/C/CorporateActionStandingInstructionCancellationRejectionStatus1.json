@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionStandingInstructionCancellationRejectionStatus1",
+  "definition": "Fournit le motif du rejet d'une demande d'annulation d'instruction permanente.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Le motif du rejet."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

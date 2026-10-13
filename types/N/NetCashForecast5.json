@@ -1,0 +1,18 @@
+{
+  "isoType": "NetCashForecast5",
+  "definition": "Mouvement net de trésorerie d'un fonds à la suite d'opérations sur fonds d'investissement.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Date à laquelle la trésorerie est disponible."
+    },
+    "NetAmount": {
+      "definition": "Montant net du flux de trésorerie, exprimé sous forme de montant."
+    },
+    "NetUnitsNumber": {
+      "definition": "Montant net, exprimé en nombre de parts."
+    },
+    "FlowDirection": {
+      "definition": "Précise le sens du flux de trésorerie du point de vue du fonds."
+    }
+  }
+}

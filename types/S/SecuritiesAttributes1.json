@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAttributes1",
+  "definition": "Fournit des informations sur les opérations sur titres qui composent le paiement.",
+  "isoElements": {
+    "UniqueTransactionIdentifier": {
+      "definition": "L'identifiant unique d'opération est créé lors de la première exécution d'une opération, partagé avec toutes les entités enregistrées et contreparties qui y participent, et utilisé pour suivre cette opération pendant toute sa durée de vie. Cet identifiant peut aussi être appelé Unique Swap Identifier (USI)."
+    },
+    "Amount": {
+      "definition": "Montant de l'opération sur titres."
+    }
+  }
+}

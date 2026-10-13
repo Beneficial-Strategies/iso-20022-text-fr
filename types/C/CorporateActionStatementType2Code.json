@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionStatementType2Code",
+  "definition": "Indique si le relevé contient uniquement les instructions manquantes ou toutes les instructions.",
+  "isoCodes": {
+    "MISS": {
+      "name": "Manquant",
+      "definition": "Le relevé contient les instructions manquantes."
+    },
+    "ALLL": {
+      "name": "Tous",
+      "definition": "Le relevé contient toutes les instructions."
+    },
+    "BALO": {
+      "name": "Notification de solde uniquement",
+      "definition": "Information de solde sans détail des instructions."
+    },
+    "BALI": {
+      "name": "Informations de solde",
+      "definition": "Information de solde avec détail des instructions."
+    }
+  }
+}

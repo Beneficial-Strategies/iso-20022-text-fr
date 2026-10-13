@@ -1,0 +1,18 @@
+{
+  "isoType": "EventProcessingStatus7Choice",
+  "definition": "Fournit des informations sur le statut d'un événement sur titres ou le statut d'un paiement.",
+  "isoElements": {
+    "Complete": {
+      "definition": "Précise que le traitement d'un événement sur titres est terminé."
+    },
+    "Reconciled": {
+      "definition": "Traitement de l'événement sur titres précisant que les fonds payés ont été rapprochés des fonds reçus de l'agent (ce qui signifie qu'il n'y a plus de risque d'annulation du paiement)."
+    },
+    "Pending": {
+      "definition": "Précise que le traitement d'un événement sur titres n'est pas entièrement terminé et est donc en attente."
+    },
+    "ProprietaryStatus": {
+      "definition": "Statut propriétaire lié au traitement de l'événement."
+    }
+  }
+}

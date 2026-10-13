@@ -1,0 +1,12 @@
+{
+  "isoType": "SpecificInstructionRequest4",
+  "definition": "Méthode de participation au vote lors d'une assemblée générale.",
+  "isoElements": {
+    "ParticipationMethod": {
+      "definition": "Méthode de participation au vote à l'assemblée générale."
+    },
+    "SecuritiesRegistration": {
+      "definition": "Indique une demande d'enregistrement des titres pour l'assemblée."
+    }
+  }
+}

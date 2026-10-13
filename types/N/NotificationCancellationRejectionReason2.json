@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellationRejectionReason2",
+  "definition": "Fournit le motif du rejet d'une demande d'annulation de notification.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Le motif du rejet."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "AmountAndCurrencyExchange4",
+  "definition": "Ensemble d'éléments fournissant des informations sur le montant d'origine.",
+  "isoElements": {
+    "InstructedAmount": {
+      "definition": "Identifie le montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise ordonnée par la partie initiatrice, et fournit les informations de change lorsque le montant ou la devise instruit(e) diffère du montant ou de la devise de l'écriture."
+    },
+    "TransactionAmount": {
+      "definition": "Montant de l'opération sous-jacente."
+    },
+    "CounterValueAmount": {
+      "definition": "Ensemble d'éléments fournissant le montant en contre-valeur et les informations de change.|Utilisation : il peut s'agir soit du contre-montant coté dans une opération de change (FX), soit du résultat de l'application des informations de devise à un montant instruit, avant déduction des frais."
+    },
+    "AnnouncedPostingAmount": {
+      "definition": "Montant, fondé sur les conditions de l'opération sur titres et sur le solde des titres sous-jacents, auquel le titulaire du compte a droit ou qui lui est dû.|Dans certains cas, ce montant peut aussi être appelé montant des droits."
+    },
+    "ProprietaryAmount": {
+      "definition": "Ensemble d'éléments fournissant des informations sur le montant d'origine et le change."
+    }
+  }
+}

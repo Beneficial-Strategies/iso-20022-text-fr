@@ -1,0 +1,27 @@
+{
+  "isoType": "PartyIdentificationAndAccount194",
+  "definition": "Détails de la partie et du compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification de la partie."
+    },
+    "LEI": {
+      "definition": "Identification d'entité juridique (LEI) comme identification alternative de la partie."
+    },
+    "AlternateIdentification": {
+      "definition": "Identification alternative de la partie."
+    },
+    "SafekeepingAccount": {
+      "definition": "Identification du compte détenu par la partie."
+    },
+    "ProcessingDate": {
+      "definition": "Date et heure auxquelles l'instruction a été traitée par la partie indiquée."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identification non ambiguë de l'opération pour la partie identifiée."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur la partie."
+    }
+  }
+}

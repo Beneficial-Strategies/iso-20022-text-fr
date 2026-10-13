@@ -1,0 +1,14 @@
+{
+  "isoType": "UKTaxGroupUnit1Code",
+  "definition": "Précise le groupe fiscal britannique (UK) auquel appartiennent les parts. Pour la fiscalité britannique (UK), le premier dividende qu'un investisseur reçoit d'un investissement dans un fonds est réputé constituer pour partie un revenu et pour partie un remboursement de capital. L'élément de capital est l'« égalisation » (equalisation) et est exonéré de l'impôt sur le revenu.",
+  "isoCodes": {
+    "GRP1": {
+      "name": "Groupe 1",
+      "definition": "Les parts achetées avant la dernière date de détachement du dividende."
+    },
+    "GRP2": {
+      "name": "Groupe 2",
+      "definition": "Les parts achetées depuis la date de détachement du dividende et qui bénéficient de l'exonération fiscale."
+    }
+  }
+}

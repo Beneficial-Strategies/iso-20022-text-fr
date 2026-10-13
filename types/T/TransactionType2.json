@@ -1,0 +1,15 @@
+{
+  "isoType": "TransactionType2",
+  "definition": "Ensemble d'éléments servant à identifier les opérations à inclure dans le relevé.",
+  "isoElements": {
+    "Status": {
+      "definition": "Précise le statut, dans les livres de l'établissement teneur de compte, des opérations à inclure dans le relevé."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si la demande de relevé concerne des écritures de crédit ou de débit."
+    },
+    "FloorLimit": {
+      "definition": "Précise la valeur minimale des écritures à communiquer dans le message demandé."
+    }
+  }
+}

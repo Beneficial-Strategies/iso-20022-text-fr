@@ -1,0 +1,20 @@
+{
+  "isoType": "MemberCriteria4",
+  "definition": "Définit les critères utilisés pour rechercher un membre et pour établir un rapport sur le membre. Un nom peut être attribué à la nouvelle requête.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nom de la requête définie par les critères de recherche et les critères de retour."
+    },
+    "SearchCriteria": {
+      "definition": "Définit les critères selon lesquels les informations sont extraites."
+    },
+    "ReturnCriteria": {
+      "definition": "Définit le rapport attendu."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Si ReturnCriteria n'est pas présent, au moins une occurrence de SearchCriteria doit être présente. Si ReturnCriteria est présent, toute occurrence de SearchCriteria est facultative."
+    }
+  }
+}

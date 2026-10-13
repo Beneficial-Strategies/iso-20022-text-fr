@@ -1,0 +1,15 @@
+{
+  "isoType": "Organisation23",
+  "definition": "Structure organisée constituée à une fin particulière, par exemple une entreprise, un organisme public, un service, une organisation caritative ou un établissement financier.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom sous lequel une partie est connue et qui sert habituellement à l'identifier."
+    },
+    "ShortName": {
+      "definition": "Nom abrégé de l'organisation."
+    },
+    "PostalAddress": {
+      "definition": "Informations permettant de localiser et d'identifier une adresse précise, telles que définies par les services postaux."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAccount2Choice",
+  "definition": "Précise un compte-titres ou une plage de comptes-titres.",
+  "isoElements": {
+    "Range": {
+      "definition": "Plage d'identifications des comptes-titres."
+    },
+    "Account": {
+      "definition": "Identification unique du compte-titres."
+    }
+  }
+}

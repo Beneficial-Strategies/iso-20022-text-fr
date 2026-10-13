@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesSettlementConditionsModificationRequestV10",
+  "definition": "Portée|Un titulaire de compte envoie un SecuritiesSettlementConditionsModificationRequest à un teneur de compte afin de demander la modification d'un indicateur de traitement ou d'une autre information non appariée.||La relation titulaire/teneur de compte peut être :|- un participant à un dépositaire central de titres qui détient un compte auprès d'un dépositaire central de titres.|Il peut également s'agir, si cela est convenu dans un accord de niveau de service :|- d'un conservateur global qui détient un compte auprès de son agent local (sous-conservateur), ou|- d'un établissement de gestion d'investissements qui gère un compte de fonds ouvert auprès d'un conservateur, ou|- d'un courtier qui détient un compte auprès d'un conservateur, ou|- d'un dépositaire central de titres qui détient un compte auprès d'un conservateur, d'un autre dépositaire central de titres ou d'une autre infrastructure de marché de règlement.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments pertinents du Business Application Header.||Sur les marchés où cela s'applique (par exemple, les infrastructures de marché de titres sans processus d'appariement avant règlement), il est utilisé par une partie pour approuver, annuler ou rejeter une opération instruite par la contrepartie.||Ce message ne peut pas être utilisé pour demander la modification des détails d'une transaction commerciale ou d'un événement.|L'utilisation de AdditionalInformation et de ses champs doit être convenue au préalable entre le teneur de compte et le titulaire de compte. Les champs de cette séquence ne peuvent pas être utilisés pour modifier un détail de transaction commerciale ou d'événement, sauf autorisation par la pratique de marché du pays.",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur l'utilisation de ce message.|Ces pratiques de marché sont disponibles sur www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "SafekeepingAccount ou BlockChainAddressOrWallet doit être présent, mais pas les deux."
+    }
+  }
+}

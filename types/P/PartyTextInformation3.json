@@ -1,0 +1,20 @@
+{
+  "isoType": "PartyTextInformation3",
+  "definition": "Fournit des informations supplémentaires concernant la partie, par exemple l'unité de contact ou la personne responsable de l'opération identifiée dans le message.",
+  "isoElements": {
+    "DeclarationDetails": {
+      "definition": "Fournit le texte narratif des détails de déclaration relatif à la partie."
+    },
+    "PartyContactDetails": {
+      "definition": "Fournit des informations supplémentaires concernant la partie, par exemple l'unité de contact ou la personne responsable de l'opération identifiée dans le message."
+    },
+    "RegistrationDetails": {
+      "definition": "Fournit les informations requises pour l'enregistrement."
+    }
+  },
+  "isoRules": {
+    "AdditonalDetailsGuideline": {
+      "definition": "Sauf accord bilatéral entre l'expéditeur et le destinataire, DeclarationlDetails, RegistrationDetails et PartyContactDetails ne doivent pas contenir d'informations pouvant être fournies dans un champ structuré."
+    }
+  }
+}

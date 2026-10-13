@@ -1,0 +1,14 @@
+{
+  "isoType": "EventConfirmationStatus1Code",
+  "definition": "Indique le statut de la survenance d'un événement.",
+  "isoCodes": {
+    "CONF": {
+      "name": "Confirmé",
+      "definition": "La survenance de l'événement a été confirmée."
+    },
+    "UCON": {
+      "name": "Non confirmé",
+      "definition": "La survenance de l'événement n'a pas été confirmée."
+    }
+  }
+}

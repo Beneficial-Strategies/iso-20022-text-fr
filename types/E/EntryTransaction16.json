@@ -1,0 +1,98 @@
+{
+  "isoType": "EntryTransaction16",
+  "definition": "Identifie l'opération sous-jacente.",
+  "isoElements": {
+    "References": {
+      "definition": "Fournit l'identification de l'opération sous-jacente."
+    },
+    "Amount": {
+      "definition": "Montant d'argent de l'opération de trésorerie."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si l'opération est une opération de crédit ou de débit."
+    },
+    "AmountDetails": {
+      "definition": "Fournit des informations détaillées sur le montant d'origine.||Utilisation : ce composant (au niveau de l'opération) doit être utilisé lorsque la comptabilisation concerne une seule opération et que le montant d'origine diffère du montant de l'écriture. Il peut également être utilisé lorsque des montants d'origine individuels sont fournis dans le cas d'une remise groupée ou d'une comptabilisation agrégée."
+    },
+    "Availability": {
+      "definition": "Indique le moment où le montant comptabilisé deviendra disponible, c'est-à-dire accessible et producteur d'intérêts. ||Utilisation : ce type d'information est utilisé aux US et est lié à des instruments particuliers tels que les chèques.|Exemple : lorsqu'un chèque est déposé, il est comptabilisé le jour du dépôt, mais le montant ne sera accessible qu'à partir du jour de disponibilité indiqué (conformément à la réglementation bancaire nationale)."
+    },
+    "BankTransactionCode": {
+      "definition": "Ensemble d'éléments permettant d'identifier complètement le type d'opération sous-jacente donnant lieu à une écriture."
+    },
+    "Charges": {
+      "definition": "Fournit des informations sur les frais, préavisés ou inclus dans le montant de l'écriture.||Utilisation : ce composant (au niveau de l'opération) peut être utilisé lorsque la comptabilisation concerne une seule opération et que les frais sont inclus dans le montant de l'écriture. Il peut également être utilisé lorsque des montants de frais individuels sont appliqués à des opérations individuelles dans le cas d'une remise groupée ou d'une comptabilisation d'un montant agrégé."
+    },
+    "Interest": {
+      "definition": "Fournit des détails sur le montant d'intérêts inclus dans le montant de l'écriture.||Utilisation : ce composant (au niveau de l'opération) peut être utilisé si la comptabilisation concerne une seule opération et que le montant d'intérêts est inclus dans le montant de l'écriture. Il peut également être utilisé si des montants d'intérêts individuels sont appliqués à des opérations individuelles dans le cas d'une remise groupée ou d'une comptabilisation d'un montant agrégé."
+    },
+    "RelatedParties": {
+      "definition": "Ensemble d'éléments permettant d'identifier les parties liées à l'opération sous-jacente."
+    },
+    "RelatedAgents": {
+      "definition": "Ensemble d'éléments permettant d'identifier les banques liées à l'opération sous-jacente."
+    },
+    "LocalInstrument": {
+      "definition": "Instrument propre à la communauté d'utilisateurs.|Utilisation : cet élément sert à préciser un instrument local, une option de compensation locale et/ou à qualifier plus précisément le service ou le niveau de service."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments utilisés pour préciser plus en détail le type d'opération."
+    },
+    "Purpose": {
+      "definition": "Motif sous-jacent de l'opération de paiement.|Utilisation : le motif est utilisé par les clients finals, c'est-à-dire la partie initiatrice, le débiteur (final) et le créancier (final), pour fournir des informations sur la nature du paiement. Le motif est un élément de contenu, qui n'est utilisé pour le traitement par aucune des banques intervenant dans la chaîne de paiement."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fournit des informations relatives au traitement des informations de remise par l'une des banques de la chaîne de traitement de l'opération."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations structurées permettant le rapprochement d'un paiement avec les éléments que ce paiement est destiné à régler, tels que des factures commerciales dans un système de comptabilité clients."
+    },
+    "RelatedDates": {
+      "definition": "Ensemble d'éléments permettant d'identifier les dates liées aux opérations sous-jacentes."
+    },
+    "RelatedPrice": {
+      "definition": "Ensemble d'éléments permettant d'identifier les informations de prix liées à l'opération sous-jacente."
+    },
+    "RelatedQuantities": {
+      "definition": "Ensemble d'éléments permettant d'identifier les quantités associées, telles que les titres, de l'opération sous-jacente."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identification d'un titre, attribuée selon un schéma d'identification formel ou propriétaire."
+    },
+    "Tax": {
+      "definition": "Fournit des détails sur la taxe."
+    },
+    "ReturnInformation": {
+      "definition": "Fournit les informations de retour."
+    },
+    "RelatedCorporateAction": {
+      "definition": "Ensemble d'éléments permettant d'identifier l'opération sur titres sous-jacente."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte de conservation ou d'investissement. Un compte de conservation est un compte sur lequel une écriture de titres est passée. Un compte d'investissement est un compte entre un ou plusieurs investisseurs et un gestionnaire de fonds ou un fonds. Le compte peut contenir des avoirs dans tout fonds d'investissement ou toute catégorie de fonds d'investissement géré (ou distribué) par le gestionnaire de fonds, au sein de la même famille de fonds."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Fournit des informations sur les allocations sous-jacentes qui composent le paiement.||Utilisation : uniquement utilisé par le secteur des titres."
+    },
+    "CashDeposit": {
+      "definition": "Fournit les détails d'un dépôt d'espèces d'un montant en billets et/ou en pièces."
+    },
+    "CardTransaction": {
+      "definition": "Fournit les données relatives à la carte (numéro, schéma), au terminal (numéro, identification) et à l'opération, utilisées pour identifier de manière unique une opération de carte."
+    },
+    "InstructionCopy": {
+      "definition": "Copie de l'instruction d'origine, en texte libre.||Utilisation : lorsque l'instruction copiée est un message ISO 20022 utilisant la syntaxe XML, un format CDATA doit être utilisé."
+    },
+    "AdditionalTransactionInformation": {
+      "definition": "Détails supplémentaires de l'opération."
+    },
+    "SupplementaryData": {
+      "definition": "Informations complémentaires ne pouvant être saisies dans les éléments structurés et/ou dans tout autre bloc spécifique."
+    }
+  },
+  "isoRules": {
+    "PaymentTypeOrLocalInstrumentRule": {
+      "definition": "PaymentTypeInformation ou LocalInstrument doit être absent ; les deux peuvent être absents."
+    }
+  }
+}

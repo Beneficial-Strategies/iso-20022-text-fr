@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionStatus20Choice",
+  "definition": "Choix de statut de rejet.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    },
+    "Reason": {
+      "definition": "Précise le motif du statut de rejet ou de réparation."
+    }
+  }
+}

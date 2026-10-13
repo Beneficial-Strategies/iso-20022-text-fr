@@ -1,0 +1,102 @@
+{
+  "isoType": "InvestmentAccountOwnershipInformation17",
+  "definition": "Caractéristiques de la propriété d'un compte d'investissement.",
+  "isoElements": {
+    "Party": {
+      "definition": "Informations sur l'organisation ou la personne physique."
+    },
+    "MoneyLaunderingCheck": {
+      "definition": "Statut d'un contrôle d'identité visant à prévenir le blanchiment d'argent. Cela inclut le contrôle de lutte contre le terrorisme."
+    },
+    "ModifiedInvestorProfileValidation": {
+      "definition": "Informations relatives au profil de la partie à insérer ou supprimer."
+    },
+    "OwnershipBeneficiaryRate": {
+      "definition": "Pourcentage de propriété ou de propriété effective des actions/parts du compte. Toutes les souscriptions ou tous les achats et/ou rachats ou ventes ultérieurs seront alloués selon le même pourcentage."
+    },
+    "ClientIdentification": {
+      "definition": "Identification unique, attribuée par un organisme, permettant d'identifier sans ambiguïté une partie."
+    },
+    "FiscalExemption": {
+      "definition": "Indique si un propriétaire du compte peut bénéficier d'une exonération fiscale ou d'une amnistie, par exemple, lors de la déclaration d'investissements à l'étranger."
+    },
+    "SignatoryRightIndicator": {
+      "definition": "Indique si la signature du propriétaire du compte est requise pour autoriser les opérations sur le compte."
+    },
+    "MiFIDClassification": {
+      "definition": "Détails sur la classification MiFID du propriétaire du compte."
+    },
+    "Notification": {
+      "definition": "Type d'informations devant être fournies au titulaire du compte."
+    },
+    "FATCAFormType": {
+      "definition": "Type de formulaire FATCA (Foreign Account Tax Compliance Act) soumis par l'investisseur ou le propriétaire du compte."
+    },
+    "FATCAStatus": {
+      "definition": "Statut FATCA (Foreign Account Tax Compliance Act) de l'investisseur ou du propriétaire du compte."
+    },
+    "FATCAReportingDate": {
+      "definition": "Date fournie par le propriétaire du compte pour informer le teneur de compte de la date à laquelle les avoirs doivent être déclarés avant la clôture ultérieure du compte."
+    },
+    "CRSFormType": {
+      "definition": "Type de formulaire de la norme commune de déclaration (CRS) soumis par l'investisseur ou le propriétaire du compte."
+    },
+    "CRSStatus": {
+      "definition": "Statut au regard de la norme commune de déclaration (CRS) de l'investisseur ou du propriétaire du compte."
+    },
+    "CRSReportingDate": {
+      "definition": "Date fournie par le propriétaire du compte pour informer le teneur de compte de la date à laquelle les avoirs doivent être déclarés avant la clôture ultérieure du compte."
+    },
+    "OtherIdentification": {
+      "definition": "Identification alternative, par exemple numéro national d'identification, numéro de passeport, numéro d'identification fiscale. Il peut s'agir d'un numéro de compte servant à identifier plus précisément le bénéficiaire effectif, par exemple un compte Central Provident Fund (CFP) comme requis pour Singapour."
+    },
+    "TaxExemption": {
+      "definition": "Avantage fiscal propre à la partie au compte."
+    },
+    "TaxReporting": {
+      "definition": "Détails pour la déclaration fiscale, par exemple, le pays d'imposition."
+    },
+    "Language": {
+      "definition": "Langue dans laquelle l'organisation ou la personne communique."
+    },
+    "MailType": {
+      "definition": "Méthode utilisée pour l'envoi postal."
+    },
+    "CountryAndResidentialStatus": {
+      "definition": "Pays et statut de résidence de l'organisation ou de la personne physique."
+    },
+    "MonetaryWealth": {
+      "definition": "Patrimoine annuel de la personne physique ou valeur du capital social de la personne morale et date à laquelle le patrimoine annuel de la personne physique a été enregistré ou déclaré, ou date à laquelle la valeur des actions de l'organisation a été enregistrée."
+    },
+    "EquityValue": {
+      "definition": "Montant du total des actifs moins les passifs de la personne physique, ou montant de la différence entre les actifs et les passifs augmentés des droits sur les obligations (capitaux propres) de l'organisation, et date à laquelle la valeur des capitaux propres a été enregistrée."
+    },
+    "WorkingCapital": {
+      "definition": "Ressource ou valeur détenue ou utilisée par une société tierce et date à laquelle le montant du fonds de roulement a été enregistré."
+    },
+    "CompanyLink": {
+      "definition": "Lien du propriétaire du compte avec la partie négociatrice ou le courtier."
+    },
+    "ElectronicMailingServiceReference": {
+      "definition": "Référence à indiquer lorsqu'une lettre, par exemple, une confirmation d'ordre, est envoyée par un système d'envoi postal automatisé."
+    },
+    "PrimaryCommunicationAddress": {
+      "definition": "Numéro d'appareil de communication ou adresse électronique utilisés pour la communication."
+    },
+    "SecondaryCommunicationAddress": {
+      "definition": "Numéro d'appareil de communication ou adresse électronique utilisés pour la communication."
+    },
+    "AdditionalRegulatoryInformation": {
+      "definition": "Informations réglementaires supplémentaires sur l'investisseur ou le propriétaire du compte, requises sur certains marchés à l'appui des lois de lutte contre le blanchiment d'argent."
+    },
+    "AccountingStatus": {
+      "definition": "Précise si la partie au compte est considérée comme nationale ou non nationale à des fins de déclaration."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires telles que remarques ou notes devant être communiquées au sujet de la partie et/ou des limitations et restrictions."
+    },
+    "ControllingParty": {
+      "definition": "La partie est la personne détenant le contrôle. |(Pour une entité qui est une personne morale, le terme « personnes détenant le contrôle » désigne la ou les personnes physiques qui exercent le contrôle sur l'entité. Le « contrôle » d'une entité est généralement exercé par la ou les personnes physiques qui détiennent en dernier ressort une participation de contrôle dans l'entité. Une « participation de contrôle » dépend de la structure de propriété de la personne morale et est généralement identifiée sur la base d'un seuil appliquant une approche fondée sur les risques (par exemple, toute personne détenant plus d'un certain pourcentage de la personne morale, tel que 25 %). Lorsqu'aucune personne physique n'exerce le contrôle par le biais de participations, les personnes détenant le contrôle de l'entité seront la ou les personnes physiques qui exercent le contrôle de l'entité par d'autres moyens. Lorsqu'aucune personne physique n'est identifiée comme exerçant le contrôle de l'entité, les personnes détenant le contrôle de l'entité seront la ou les personnes physiques qui occupent le poste de cadre dirigeant.)."
+    }
+  }
+}

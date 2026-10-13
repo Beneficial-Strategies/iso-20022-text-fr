@@ -1,0 +1,18 @@
+{
+  "isoType": "FIToFIPaymentStatusRequestV07",
+  "definition": "Portée|Le message FinancialInstitutionToFinancialInstitutionPaymentStatusRequest est envoyé par la banque du débiteur à la banque du créancier, directement ou par l'intermédiaire d'autres agents et/ou d'un système de compensation et de règlement des paiements. Il est utilisé pour demander un message FIToFIPaymentStatusReport contenant des informations sur le statut d'une instruction précédemment envoyée. |Utilisation|Le message FIToFIPaymentStatusRequest est échangé entre agents pour demander des informations de statut sur des instructions précédemment envoyées. Son utilisation est toujours régie par un accord bilatéral entre les agents.|Le message FIToFIPaymentStatusRequest peut être utilisé pour demander des informations sur le statut (tel que rejet, acceptation) d'une instruction de virement, d'une instruction de prélèvement, ainsi que d'autres instructions entre agents (par exemple FIToFIPaymentCancellationRequest).|Le message FIToFIPaymentStatusRequest fait référence à l'instruction ou aux instructions d'origine au moyen de références uniquement ou au moyen de références et d'un ensemble d'éléments de l'instruction d'origine.|Le message FIToFIPaymentStatusRequest peut être utilisé dans des scénarios nationaux et transfrontaliers.",
+  "isoRules": {
+    "OriginalGroupInformationAbsenceRule": {
+      "definition": "Si OriginalGroupInformation est absent, TransactionInformation[*]/OriginalGroupInformation doit être présent."
+    },
+    "OriginalGroupInformationMultiplePresenceRule": {
+      "definition": "Si OriginalGroupInformation est présent plusieurs fois (occurrence > 1), TransactionInformation[*]/OriginalGroupInformation doit être présent."
+    },
+    "OriginalGroupInformationSinglePresenceRule": {
+      "definition": "Si OriginalGroupInformationAndStatus est présent une seule fois, alors TransactionInformationAndStatus[*]/OriginalGroupInformation doit être absent."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    }
+  }
+}

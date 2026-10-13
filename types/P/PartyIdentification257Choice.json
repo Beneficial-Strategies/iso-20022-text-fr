@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyIdentification257Choice",
+  "definition": "Choix de formats pour l'identification d'une partie.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Moyen unique et non ambigu d'identifier une organisation."
+    },
+    "NameAndAddress": {
+      "definition": "Moyen unique et non ambigu d'identifier une organisation."
+    },
+    "Country": {
+      "definition": "Moyen unique et non ambigu d'identifier une organisation."
+    },
+    "DigitalLedgerIdentification": {
+      "definition": "Lieu de règlement exprimé au moyen d'un identifiant de registre numérique (Digital Ledger Identifier). Il identifie un registre numérique ou un système de registre distribué (par exemple, une blockchain ou des plateformes similaires)."
+    }
+  }
+}

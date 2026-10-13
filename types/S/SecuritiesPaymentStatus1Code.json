@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesPaymentStatus1Code",
+  "definition": "Précise l'état de paiement d'un titre à un moment donné.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Entièrement libéré",
+      "definition": "Le titre est entièrement libéré."
+    },
+    "NILL": {
+      "name": "Non libéré",
+      "definition": "Le titre n'est pas libéré."
+    },
+    "PART": {
+      "name": "Partiellement libéré",
+      "definition": "Le titre est partiellement libéré."
+    }
+  }
+}

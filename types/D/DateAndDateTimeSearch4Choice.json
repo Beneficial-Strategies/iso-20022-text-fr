@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndDateTimeSearch4Choice",
+  "definition": "Choix entre une date ou un motif de date et heure comme critère de sélection de la recherche.",
+  "isoElements": {
+    "DateTime": {
+      "definition": "Motifs de recherche d'une date et heure."
+    },
+    "Date": {
+      "definition": "Motifs de recherche d'une date."
+    }
+  }
+}

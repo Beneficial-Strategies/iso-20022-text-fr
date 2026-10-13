@@ -1,0 +1,98 @@
+{
+  "isoType": "ExternalBillingBalanceType1Code",
+  "definition": "Précise le solde du service de facturation, tel que publié dans une liste de codes externe de soldes de facturation.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "ABRR": {
+      "name": "Réserve obligatoire de solde supplémentaire",
+      "definition": "Différence entre le solde investissable excédentaire/(déficitaire) et le solde encaissé excédentaire/(déficitaire) due à l'exigence de réserve. Ce solde n'est pas utilisé si le taux de bonification du compte est net de réserves. Il peut être utilisé lorsque le taux de bonification n'est pas ajusté des réserves. Il se peut que les réserves aient été déduites du solde encaissé pour déterminer le solde investissable. Elles doivent donc être rajoutées au solde investissable excédentaire/(déficitaire) pour déterminer la position du solde encaissé. La présentation de ce calcul est facultative. Code AFP=00 04 21"
+    },
+    "BEQU": {
+      "name": "Solde équivalent",
+      "definition": "Solde requis pour compenser les frais de service compensables par le solde de la période d'analyse en cours. L'équivalent en solde peut être calculé de deux manières. La première multiplie simplement le total des frais de service compensables par le solde par le multiplicateur. La seconde intègre tous les éléments du calcul du multiplicateur. Notez que ce calcul peut donner une valeur légèrement différente en raison de la précision décimale et des arrondis utilisés dans le calcul : code AFP=00 04 00"
+    },
+    "CBAM": {
+      "name": "Solde encaissé moyen négatif",
+      "definition": "Somme des seuls soldes encaissés NÉGATIFS de clôture quotidiens divisée par le nombre de jours de la période de relevé. Le solde négatif moyen, s'il est présent, porte toujours un signe positif. Les soldes sont nets des ajustements de la période en cours. Notez qu'un solde NÉGATIF est égal au solde POSITIF moins le solde NET. Notez qu'un taux d'intérêt de solde encaissé NÉGATIF peut être appliqué à ce solde pour déterminer des intérêts de découvert (OD). Code AFP=00 00 13 (NEGATIVE) (POSITIVE)"
+    },
+    "CBAN": {
+      "name": "Solde encaissé moyen net",
+      "definition": "Somme des soldes encaissés de clôture quotidiens (positifs et négatifs) divisée par le nombre de jours de la période de relevé.  Une valeur de signe négatif indique un solde NET moyen négatif.  Si un taux de bonification/crédit ajusté des réserves est utilisé, ce solde peut être identique au solde investissable (00 00 40).  Les soldes sont nets des ajustements de la période en cours. Les soldes encaissés représentent les fonds de dépôt qui ont été encaissés et excluent tout montant en float. Notez qu'un solde NET est égal au solde POSITIF moins le solde NÉGATIF. Notez qu'un taux d'intérêt de découvert sur solde encaissé NET (00 01 43) peut être appliqué à ce solde, s'il est négatif, pour déterminer des intérêts de découvert (OD).  Code AFP=00 00 10 (POSITIVE) (NEGATIVE)"
+    },
+    "CBAP": {
+      "name": "Solde encaissé moyen positif",
+      "definition": "Somme des seuls soldes encaissés POSITIFS de clôture quotidiens divisée par le nombre de jours de la période de relevé.  Les soldes sont nets des ajustements de la période en cours. Les soldes encaissés représentent les fonds de dépôt qui ont été encaissés et excluent tout montant en float. Notez qu'un solde POSITIF est égal au solde NET plus le solde NÉGATIF. Code AFP=00 00 11 (POSITIVE) (NEGATIVE)"
+    },
+    "DABR": {
+      "name": "Réserve obligatoire sur solde de compte de dépôt à vue",
+      "definition": "Part du solde du compte de dépôt à vue que la banque doit mettre de côté pour satisfaire aux exigences de réserve. Code AFP=00 04 20"
+    },
+    "EDCB": {
+      "name": "Excédent ou déficit du solde encaissé",
+      "definition": "Solde encaissé restant après déduction du solde requis pour compenser les frais de service compensables par le solde de la période d'analyse en cours.  S'il est négatif (déficit), il représente le solde encaissé supplémentaire requis pour compenser intégralement les frais de service compensables par le solde de la période en cours.  S'il est positif (excédent), il représente l'excédent de solde encaissé après compensation des frais de service compensables par le solde de la période en cours. Code AFP=00 04 12"
+    },
+    "EDIB": {
+      "name": "Excédent ou déficit du solde investissable",
+      "definition": "Solde investissable restant après déduction du solde requis pour compenser les frais de service compensables par le solde de la période d'analyse en cours.  S'il est négatif (déficit), il représente le solde investissable supplémentaire requis pour compenser intégralement les frais de service compensables par le solde de la période en cours.  S'il est positif (excédent), il représente l'excédent de solde investissable après compensation des frais de service compensables par le solde de la période en cours. Selon le type de compte sous-jacent, un taux d'intérêt ferme peut être appliqué à un excédent de solde, donnant lieu à un crédit d'intérêts ferme sur le compte sous-jacent. Code AFP=00 04 10"
+    },
+    "FDIC": {
+      "name": "Solde d'évaluation FDIC",
+      "definition": "Solde de compte servant à calculer les frais d'évaluation FDIC. Code AFP=00 00 50"
+    },
+    "FLBA": {
+      "name": "Solde flottant moyen",
+      "definition": "Somme des montants quotidiens en dollars des éléments en cours de recouvrement divisée par le nombre de jours de la période de relevé.  Code AFP=00 00 30"
+    },
+    "FLPP": {
+      "name": "Ajustement de solde du flottant moyen de la période précédente",
+      "definition": "Somme des ajustements du float moyen d'une ou de plusieurs périodes antérieures.  Une valeur de signe négatif indique une réduction de solde. Ce solde peut également servir à ajuster les soldes encaissés moyens, car les fonds en float ont une incidence directe sur les soldes encaissés. Code AFP=00 00 61"
+    },
+    "IBAL": {
+      "name": "Solde investissable",
+      "definition": "Solde auquel est appliqué le taux de bonification/crédit.  Cette valeur peut être signée positive ou négative.  Un solde de signe négatif indique une insuffisance de fonds investissables et peut entraîner des frais. Code AFP=00 00 40"
+    },
+    "IBIB": {
+      "name": "Solde investissable productif d'intérêts",
+      "definition": "Solde investissable moyen pouvant servir à indiquer le solde de base pour le calcul d'un intérêt ferme crédité. Il s'agit d'un crédit d'intérêts ferme et non d'un crédit de bonification. Code AFP=00 00 75"
+    },
+    "IBLB": {
+      "name": "Solde comptable productif d'intérêts",
+      "definition": "Solde comptable moyen pouvant servir à indiquer le solde de base pour le calcul d'un intérêt ferme crédité. Il s'agit d'un crédit d'intérêts ferme et non d'un crédit de bonification. Code AFP=00 00 70"
+    },
+    "IBNC": {
+      "name": "Solde net encaissé productif d'intérêts",
+      "definition": "Solde encaissé net moyen pouvant servir à indiquer le solde de base pour le calcul d'un intérêt ferme crédité. Il s'agit d'un crédit d'intérêts ferme et non d'un crédit de bonification. Code AFP=00 00 71"
+    },
+    "IBNG": {
+      "name": "Solde encaissé négatif productif d'intérêts",
+      "definition": "Solde encaissé négatif moyen pouvant servir à indiquer le solde de base pour le calcul d'un intérêt ferme débité. Il s'agit d'un débit d'intérêts ferme et non d'un débit de crédit de bonification. Code AFP=00 00 73"
+    },
+    "IBPC": {
+      "name": "Solde encaissé positif productif d'intérêts",
+      "definition": "Solde encaissé positif moyen pouvant servir à indiquer le solde de base pour le calcul d'un intérêt ferme crédité. Il s'agit d'un crédit d'intérêts ferme et non d'un crédit de bonification. Code AFP=00 00 72"
+    },
+    "IBRR": {
+      "name": "Solde de réserve obligatoire productif d'intérêts",
+      "definition": "Solde moyen d'exigence de réserve pouvant servir à indiquer le solde de base pour le calcul d'un intérêt ferme crédité. Il s'agit d'un crédit d'intérêts ferme et non d'un crédit de bonification. Code AFP=00 00 74"
+    },
+    "LBAN": {
+      "name": "Solde comptable moyen net",
+      "definition": "Somme des soldes comptables de clôture quotidiens (positifs et négatifs) divisée par le nombre de jours de la période de relevé.  Une valeur de signe négatif indique un solde NET moyen négatif. Les soldes sont nets des ajustements de la période en cours. Le solde comptable inclut tous les fonds de dépôt non encaissés, c'est-à-dire les fonds en float. Notez qu'un solde NET est égal au solde POSITIF moins le solde NÉGATIF. Notez qu'un taux d'intérêt de découvert sur solde comptable NET peut être appliqué à ce solde, s'il est négatif, pour déterminer des intérêts de découvert (OD).  Code AFP=00 00 00 (POSITIVE) (NEGATIVE)"
+    },
+    "LBAP": {
+      "name": "Solde comptable moyen positif",
+      "definition": "Somme des seuls soldes comptables POSITIFS de clôture quotidiens divisée par le nombre de jours de la période de relevé.  Les soldes sont nets des ajustements de la période en cours. Le solde comptable inclut tous les fonds de dépôt non encaissés, c'est-à-dire les fonds en float. Notez qu'un solde POSITIF est égal au solde NET plus le solde NÉGATIF. Code AFP=00 00 01 (POSITIVE) (NEGATIVE)"
+    },
+    "LBME": {
+      "name": "Solde comptable de fin de mois",
+      "definition": "Valeur du solde comptable ou du grand livre à la fin du mois civil. Code AFP=00 00 05"
+    },
+    "LBNM": {
+      "name": "Solde comptable moyen négatif",
+      "definition": "Somme des seuls soldes comptables NÉGATIFS de clôture quotidiens divisée par le nombre de jours de la période de relevé. Le solde négatif moyen, s'il est présent, porte toujours un signe positif. Les soldes sont nets des ajustements de la période en cours. Notez qu'un solde NÉGATIF est égal au solde POSITIF moins le solde NET. Notez qu'un taux d'intérêt de solde comptable NÉGATIF peut être appliqué à ce solde pour déterminer des intérêts de découvert (OD). Code AFP=00 00 03 (NEGATIVE) (POSITIVE)"
+    },
+    "UCFU": {
+      "name": "Fonds non encaissés utilisés",
+      "definition": "Part du solde correspondant à la différence entre le solde encaissé négatif moyen et le solde comptable négatif moyen.  Elle sert à isoler la part du solde encaissé négatif qui représente l'utilisation de fonds non encaissés.  Les soldes sont nets des ajustements de la période en cours. Notez que le taux d'utilisation de fonds non encaissés peut être appliqué à ce solde pour déterminer des intérêts de découvert (OD) sur fonds non encaissés.  Code AFP=00 00 15"
+    }
+  }
+}

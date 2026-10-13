@@ -1,0 +1,48 @@
+{
+  "isoType": "ConfirmationParties7",
+  "definition": "Parties utilisées pour les parties agissantes, qui s'appliquent soit à l'ensemble du message, soit à des côtés individuels.",
+  "isoElements": {
+    "Buyer": {
+      "definition": "Partie qui achète des biens ou des services, ou un instrument financier."
+    },
+    "Borrower": {
+      "definition": "Partie qui a fait une demande, satisfait à des exigences spécifiques et reçu un prêt d'espèces ou de titres de la part d'un prêteur. La partie à l'origine de la demande signe un billet à ordre par lequel elle s'engage à rembourser le détenteur du privilège dans un délai déterminé, pour la totalité du montant du prêt majoré de tous frais supplémentaires. L'emprunteur est légalement responsable du remboursement du prêt et est passible de toute pénalité en cas de non-remboursement, selon les conditions de prêt convenues."
+    },
+    "Seller": {
+      "definition": "Partie qui vend des biens ou des services, ou un instrument financier."
+    },
+    "Lender": {
+      "definition": "Entité privée, publique ou institutionnelle qui met des fonds à la disposition d'autres parties pour qu'elles les empruntent."
+    },
+    "BrokerOfCredit": {
+      "definition": "Société de courtage qui est le courtier mandaté dans une opération impliquant plusieurs courtiers."
+    },
+    "IntroducingFirm": {
+      "definition": "Courtier ou autre intermédiaire ayant le lien le plus étroit avec l'investisseur."
+    },
+    "StepInFirm": {
+      "definition": "Société de courtage désignée pour recevoir le crédit de l'opération de la part de la société de courtage de transfert (step-out)."
+    },
+    "StepOutFirm": {
+      "definition": "Société de courtage qui exécute un ordre, mais accorde à d'autres sociétés le crédit et une partie de la commission de l'opération."
+    },
+    "ClearingFirm": {
+      "definition": "Partie, également appelée courtier preneur (take up broker), qui règle des opérations sur titres d'un autre courtier moyennant une rémunération."
+    },
+    "ExecutingBroker": {
+      "definition": "Partie responsable de l'exécution d'un ordre (par exemple, un courtier exécutant ou un courtier cédant). Une commission est généralement facturée au client pour l'exécution d'un ordre."
+    },
+    "CMUParty": {
+      "definition": "Partie envoyant le message à la CMU (Central Matching Utility) afin d'identifier l'unité commerciale réelle telle qu'elle est connue de la CMU (Central Matching Utility)."
+    },
+    "CMUCounterparty": {
+      "definition": "Unité commerciale réelle de la contrepartie de l'expéditeur du message à la CMU (Central Matching Utility), telle qu'elle est connue de la CMU (Central Matching Utility)."
+    },
+    "AffirmingParty": {
+      "definition": "Partie (acheteur ou vendeur) qui affirme positivement les détails d'une confirmation d'opération sur titres convenue précédemment."
+    },
+    "TradeBeneficiaryParty": {
+      "definition": "Partie impliquée dans une procédure judiciaire, un accord ou une autre opération."
+    }
+  }
+}

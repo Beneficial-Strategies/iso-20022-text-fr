@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionChannelType1Choice",
+  "definition": "Choix de formats pour la spécification du type de canal de l'opération.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de canal de l'opération exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de canal de l'opération exprimé sous forme de code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalTechnicalInputChannel1Code",
+  "definition": "Précise le canal de saisie technique, tel que publié dans une liste de codes externe des canaux de saisie techniques.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "FAXI": {
+      "name": "Télécopie",
+      "definition": "Le canal d'entrée technique est le télécopieur ou la télécopie."
+    },
+    "PAPR": {
+      "name": "Papier",
+      "definition": "Le canal d'entrée technique est le papier."
+    },
+    "TAPE": {
+      "name": "Bande magnétique",
+      "definition": "Le canal d'entrée technique est la bande magnétique."
+    },
+    "WEBI": {
+      "name": "Internet",
+      "definition": "Le canal d'entrée technique est l'internet."
+    }
+  }
+}

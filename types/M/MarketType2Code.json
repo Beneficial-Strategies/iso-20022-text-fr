@@ -1,0 +1,26 @@
+{
+  "isoType": "MarketType2Code",
+  "definition": "Indique le type de marché sur lequel les opérations ont lieu, par exemple primaire.",
+  "isoCodes": {
+    "PRIM": {
+      "name": "Marché primaire",
+      "definition": "Le lieu est un marché primaire."
+    },
+    "SECM": {
+      "name": "Marché secondaire",
+      "definition": "Le lieu est un marché secondaire."
+    },
+    "OTCO": {
+      "name": "Gré à gré",
+      "definition": "Le lieu est un marché de gré à gré."
+    },
+    "VARI": {
+      "name": "Divers",
+      "definition": "Lieux divers."
+    },
+    "EXCH": {
+      "name": "Bourse",
+      "definition": "Le lieu est une bourse."
+    }
+  }
+}

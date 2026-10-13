@@ -1,0 +1,38 @@
+{
+  "isoType": "IntraBalanceReport5",
+  "definition": "Caractéristiques du relevé.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Numéro séquentiel du relevé."
+    },
+    "QueryReference": {
+      "definition": "Identification du message de requête envoyé pour demander ce relevé."
+    },
+    "ReportIdentification": {
+      "definition": "Référence commune à toutes les pages d'un relevé."
+    },
+    "ReportDateTime": {
+      "definition": "Date et heure de création du relevé."
+    },
+    "ReportPeriod": {
+      "definition": "Période couverte par le relevé."
+    },
+    "QueryType": {
+      "definition": "Définit le type de requête."
+    },
+    "Frequency": {
+      "definition": "Fréquence du relevé."
+    },
+    "UpdateType": {
+      "definition": "Indique si le relevé est complet ou ne contient que les modifications."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique si le relevé rapporte une activité ou une mise à jour d'informations."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "Si le nombre long (Exact5NumericTest) est utilisé, le relevé doit être un relevé différentiel (UpdateType : DELT).|Si le relevé comporte plusieurs pages, le ReportNumber doit rester identique sur toutes les pages. Il s'agit d'un numéro unique pour le relevé.|Deux relevés du même type envoyés l'un après l'autre au même destinataire pour le même compte de conservation doivent avoir des ReportNumbers différents. Par exemple, un relevé quotidien envoyé le jour 1 aurait le ReportNumber 001, le jour 2, 002, etc."
+    }
+  }
+}

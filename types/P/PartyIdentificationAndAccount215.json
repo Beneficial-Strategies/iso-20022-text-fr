@@ -1,0 +1,29 @@
+{
+  "isoType": "PartyIdentificationAndAccount215",
+  "definition": "Détails de la partie et du compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification de la partie."
+    },
+    "LEI": {
+      "definition": "Identification de l'entité juridique utilisée comme identification alternative d'une partie."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Adresse blockchain ou portefeuille dans lequel sont conservés les actifs numériques. Il s'agit de l'équivalent du compte de conservation pour les actifs numériques."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identification non ambiguë de l'opération pour la partie identifiée."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    }
+  }
+}

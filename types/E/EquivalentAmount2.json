@@ -1,0 +1,12 @@
+{
+  "isoType": "EquivalentAmount2",
+  "definition": "Montant à transférer entre le débiteur et le créancier, exprimé dans la devise du compte du débiteur et dans la devise dans laquelle le montant doit être transféré.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise du compte du débiteur et à transférer dans une autre devise.|Utilisation : le premier agent convertira le montant équivalent en montant à transférer."
+    },
+    "CurrencyOfTransfer": {
+      "definition": "Précise la devise du montant à transférer, qui est différente de la devise du compte du débiteur."
+    }
+  }
+}

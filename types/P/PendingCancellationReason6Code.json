@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingCancellationReason6Code",
+  "definition": "Précise un motif pour lequel la demande d'annulation a un statut en attente.",
+  "isoCodes": {
+    "DQUA": {
+      "name": "Rejet de la quantité",
+      "definition": "Quantité instruite non reconnue ou invalide."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Opération ou instruction reçue après l'heure limite précisée par l'établissement teneur de compte."
+    }
+  }
+}

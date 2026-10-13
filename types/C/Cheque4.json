@@ -1,0 +1,9 @@
+{
+  "isoType": "Cheque4",
+  "definition": "Ensemble de caractéristiques relatives à une instruction de chèque, telles que le type de chèque ou le numéro de chèque.",
+  "isoElements": {
+    "PayeeIdentification": {
+      "definition": "Partie à laquelle un chèque est payable."
+    }
+  }
+}

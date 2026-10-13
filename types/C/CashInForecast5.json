@@ -1,0 +1,29 @@
+{
+  "isoType": "CashInForecast5",
+  "definition": "Mouvements de trésorerie entrant dans un fonds à la suite d'opérations sur fonds d'investissement, par exemple des souscriptions ou des échanges entrants.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Date à laquelle la trésorerie est disponible."
+    },
+    "SubTotalAmount": {
+      "definition": "Sous-total du flux de trésorerie entrant, exprimé sous forme de montant."
+    },
+    "SubTotalUnitsNumber": {
+      "definition": "Sous-total du flux de trésorerie entrant, exprimé sous forme de nombre de parts."
+    },
+    "ExceptionalCashFlowIndicator": {
+      "definition": "Indique si le flux de trésorerie entrant estimé est exceptionnel."
+    },
+    "CashInBreakdownDetails": {
+      "definition": "Ventilation des montants entrants de trésorerie par type d'opération et type d'ordre."
+    },
+    "AdditionalBalance": {
+      "definition": "Soldes supplémentaires pour les montants de trésorerie et les nombres de parts. |Dans un rapport estimatif, la trésorerie totale issue des ordres passés en nombre de parts est un montant de trésorerie estimé et le nombre total de parts issues des ordres passés en montant de trésorerie est un nombre de parts estimé."
+    }
+  },
+  "isoRules": {
+    "AdditionalBalanceRule": {
+      "definition": "Si AdditionalBalance est présent, au moins un des éléments de la liste (AdditionalBalance/TotalUnitsFromUnitOrders, AdditionalBalance/TotalUnitsFromCashOrders, AdditionalBalance/TotalCashFromUnitOrders, AdditionalBalance/TotalCashFromCashOrders) doit être présent."
+    }
+  }
+}

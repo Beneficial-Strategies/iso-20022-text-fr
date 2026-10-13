@@ -1,0 +1,12 @@
+{
+  "isoType": "Linkages50",
+  "definition": "Informations relatives à une opération liée.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Quand l'opération doit être exécutée par rapport à une opération liée - à titre d'information uniquement."
+    },
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Identification sans ambiguïté d'une opération de règlement-livraison de titres telle que connue du titulaire du compte (ou de la partie donneuse d'ordre agissant en son nom)."
+    }
+  }
+}

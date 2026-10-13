@@ -1,0 +1,22 @@
+{
+  "isoType": "InvestmentFundTransactionOutType1Code",
+  "definition": "Précise le type d'opération sur fonds d'investissement qui entraîne un mouvement de trésorerie sortant d'un fonds.",
+  "isoCodes": {
+    "REDM": {
+      "name": "Rachat",
+      "definition": "L'opération est un rachat d'un fonds d'investissement."
+    },
+    "SWIO": {
+      "name": "Arbitrage sortant",
+      "definition": "L'opération est la composante de souscription de l'exécution d'un ordre d'arbitrage."
+    },
+    "INSP": {
+      "name": "En nature",
+      "definition": "L'opération est un apport en nature (InSpecie)."
+    },
+    "CROO": {
+      "name": "Transfert sortant",
+      "definition": "L'opération est un transfert sortant entre fonds (cross out)."
+    }
+  }
+}

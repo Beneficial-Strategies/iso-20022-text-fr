@@ -1,0 +1,83 @@
+{
+  "isoType": "FinancialInstrumentAttributes135",
+  "definition": "Description de l'instrument financier.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identification de l'instrument financier."
+    },
+    "PlaceOfListing": {
+      "definition": "Lieu où l'instrument financier référencé est coté."
+    },
+    "DayCountBasis": {
+      "definition": "Précise la méthode de calcul des intérêts (courus) de l'instrument financier."
+    },
+    "ClassificationType": {
+      "definition": "Type de classification de l'instrument financier, selon la Classification des instruments financiers ISO (CFI)."
+    },
+    "OptionStyle": {
+      "definition": "Précise la manière dont une option peut être exercée."
+    },
+    "DenominationCurrency": {
+      "definition": "Devise dans laquelle un instrument financier est actuellement libellé."
+    },
+    "NextCouponDate": {
+      "definition": "Prochaine date de paiement d'un instrument financier portant intérêts."
+    },
+    "FloatingRateFixingDate": {
+      "definition": "Date à laquelle le taux d'intérêt ou le prix de remboursement sera ou a été calculé selon les conditions de l'émission."
+    },
+    "MaturityDate": {
+      "definition": "Date à laquelle un instrument financier arrive à échéance et les actifs doivent être remboursés."
+    },
+    "IssueDate": {
+      "definition": "Date à laquelle le titre a été rendu disponible."
+    },
+    "NextCallableDate": {
+      "definition": "Date à laquelle un instrument financier est rappelé ou remboursé avant son échéance prévue."
+    },
+    "PutableDate": {
+      "definition": "Date à laquelle le détenteur d'un instrument financier a le droit de demander le remboursement du principal avant sa date d'échéance prévue."
+    },
+    "DatedDate": {
+      "definition": "Date à laquelle un instrument financier productif d'intérêts commence à porter intérêt."
+    },
+    "ConversionDate": {
+      "definition": "Date limite avant laquelle un titre convertible doit être converti, selon les conditions de l'émission."
+    },
+    "PreviousFactor": {
+      "definition": "Facteur utilisé pour calculer la valeur du principal restant dû de l'instrument financier (pour les titres à facteur) jusqu'à la prochaine date de remboursement (facteur)."
+    },
+    "NextFactor": {
+      "definition": "Facteur utilisé pour calculer la valeur du principal restant dû de l'instrument financier (pour les titres à facteur) qui sera applicable après la date de remboursement (facteur)."
+    },
+    "InterestRate": {
+      "definition": "Taux d'intérêt annualisé d'un instrument financier utilisé pour calculer le taux d'intérêt effectif du coupon ou des intérêts courus."
+    },
+    "NextInterestRate": {
+      "definition": "Taux d'intérêt applicable à la prochaine période de paiement d'intérêts pour les instruments à taux variable."
+    },
+    "MinimumNominalQuantity": {
+      "definition": "Quantité nominale minimale d'instrument financier."
+    },
+    "MinimumQuantityToInstruct": {
+      "definition": "Quantité minimale d'instrument financier pouvant être instruite."
+    },
+    "MinimumMultipleQuantityToInstruct": {
+      "definition": "Quantité multiple minimale d'instrument financier pouvant être instruite."
+    },
+    "ContractSize": {
+      "definition": "Ratio ou facteur multiplicateur utilisé pour convertir un contrat en une quantité d'instrument financier."
+    },
+    "IssuePrice": {
+      "definition": "Prix d'émission/de valorisation initial d'un titre résultant d'un événement sur titres."
+    }
+  },
+  "isoRules": {
+    "PreviousNextFactorRule": {
+      "definition": "En cas de remboursement partiel par facteur de pool, PreviousFactor fournit le facteur applicable avant le remboursement et NextFactor fournit le facteur applicable après le remboursement."
+    },
+    "MaturityDateRule": {
+      "definition": "La date d'échéance ne peut fournir que des informations génériques sur l'échéance finale de l'instrument sous-jacent."
+    }
+  }
+}

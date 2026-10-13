@@ -1,0 +1,22 @@
+{
+  "isoType": "RejectionReason81Code",
+  "definition": "Précise le motif pour lequel la demande d'annulation de notification d'opération sur titres a le statut rejeté.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "Échec de la validation de l'avis/de l'instruction/de la demande."
+    },
+    "REFI": {
+      "name": "Identification CA non valide",
+      "definition": "Identification d'opération sur titres fournie non valide."
+    },
+    "DCAN": {
+      "name": "Rejeté car déjà annulé",
+      "definition": "La demande d'annulation a été rejetée car l'instruction a déjà été annulée."
+    },
+    "DPRG": {
+      "name": "Rejeté car en cours",
+      "definition": "La demande d'annulation a été rejetée car le traitement de l'instruction est en cours ou a été effectué."
+    }
+  }
+}

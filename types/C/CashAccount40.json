@@ -1,0 +1,29 @@
+{
+  "isoType": "CashAccount40",
+  "definition": "Fournit les détails permettant d'identifier un compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique et sans ambiguïté du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "Type": {
+      "definition": "Précise la nature ou l'utilisation du compte."
+    },
+    "Currency": {
+      "definition": "Identification de la devise dans laquelle le compte est tenu. ||Utilisation : la devise ne doit être utilisée que si un même numéro de compte couvre plusieurs devises|et que la partie initiatrice doit identifier la devise à utiliser pour le règlement sur le compte."
+    },
+    "Name": {
+      "definition": "Nom du compte, attribué par l'établissement teneur de compte, en accord avec le titulaire du compte afin de fournir un moyen supplémentaire d'identification du compte.||Utilisation : le nom du compte est différent du nom du titulaire du compte. Le nom du compte est utilisé dans certaines communautés d'utilisateurs pour fournir un moyen d'identifier le compte, en plus de l'identité du titulaire du compte et du numéro de compte."
+    },
+    "Proxy": {
+      "definition": "Précise un autre nom supposé pour l'identification du compte."
+    }
+  },
+  "isoRules": {
+    "IdentificationOrProxyPresenceRule": {
+      "definition": "Identification doit être présent ou Proxy doit être présent. Les deux peuvent être présents."
+    },
+    "IdentificationAndProxyGuideline": {
+      "definition": "Si l'identification du compte n'est pas définie par une identification conventionnelle telle qu'une adresse e-mail ou un numéro de mobile, l'élément proxy doit être utilisé pour l'identification du compte."
+    }
+  }
+}

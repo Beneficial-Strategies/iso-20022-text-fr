@@ -1,0 +1,12 @@
+{
+  "isoType": "CardTransaction3Choice",
+  "definition": "Choix entre une opération de carte globalisée de l'acquéreur ou une opération de carte individuelle.",
+  "isoElements": {
+    "Aggregated": {
+      "definition": "Détails des opérations de carte, fondés sur les données agrégées des opérations de carte effectuées par l'acquéreur de la carte."
+    },
+    "Individual": {
+      "definition": "Détails de l'opération de carte individuelle, tels qu'enregistrés au POI (point d'interaction)."
+    }
+  }
+}

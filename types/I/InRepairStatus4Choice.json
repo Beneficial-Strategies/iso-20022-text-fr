@@ -1,0 +1,15 @@
+{
+  "isoType": "InRepairStatus4Choice",
+  "definition": "Motif du statut en réparation.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motif du statut en réparation."
+    },
+    "DataSourceScheme": {
+      "definition": "Identification propriétaire du motif du statut en réparation."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    }
+  }
+}

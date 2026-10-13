@@ -1,0 +1,58 @@
+{
+  "isoType": "SecuritiesBalanceType13Code",
+  "definition": "Précise la nature du solde de titres ou de parts de fonds de placement.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqué",
+      "definition": "Solde d'instruments financiers bloqués."
+    },
+    "AWAS": {
+      "name": "Disponible sans statut supplémentaire",
+      "definition": "Solde d'instruments financiers librement disponibles, sans statut supplémentaire spécifique."
+    },
+    "AVAI": {
+      "name": "Disponible",
+      "definition": "Solde d'instruments financiers qui sont disponibles."
+    },
+    "NOMI": {
+      "name": "Nominatif",
+      "definition": "Solde d'instruments financiers enregistrés (au nom d'un prête-nom ou au nom du bénéficiaire effectif)."
+    },
+    "PLED": {
+      "name": "Nanti",
+      "definition": "Solde de titres appartenant au compte de conservation indiqué dans ce message et conservés sur celui-ci, qui sont nantis."
+    },
+    "REGO": {
+      "name": "En cours d'enregistrement",
+      "definition": "Solde d'instruments financiers en cours de traitement par l'établissement chargé d'enregistrer le nouveau titulaire effectif (ou prête-nom)."
+    },
+    "RSTR": {
+      "name": "Restreint",
+      "definition": "Solde d'instruments financiers qui ne peuvent être vendus que sous certaines conditions ou qui nécessitent des documents juridiques."
+    },
+    "OTHR": {
+      "name": "Non classé",
+      "definition": "Autre. Voir Narrative."
+    },
+    "SPOS": {
+      "name": "Position en circulation",
+      "definition": "Solde d'instruments financiers qui restent enregistrés au nom du titulaire effectif précédent."
+    },
+    "UNRG": {
+      "name": "Non enregistré",
+      "definition": "Solde de titres n'ayant pu être enregistrés en raison d'une limitation de la détention par des étrangers."
+    },
+    "ISSU": {
+      "name": "Émis",
+      "definition": "Dans la communication entre l'agent émetteur et le dépositaire, solde d'instruments financiers émis pour lesquels la documentation juridique a été reçue."
+    },
+    "QUAS": {
+      "name": "Quasi émis",
+      "definition": "Dans la communication entre l'agent émetteur et le dépositaire, solde d'instruments financiers émis pour lesquels la documentation juridique n'a pas encore été reçue."
+    },
+    "COLA": {
+      "name": "Éligible à titre de garantie",
+      "definition": "Solde de titres éligibles à une utilisation à des fins de garantie."
+    }
+  }
+}

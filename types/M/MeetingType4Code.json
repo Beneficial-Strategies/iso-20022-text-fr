@@ -1,0 +1,30 @@
+{
+  "isoType": "MeetingType4Code",
+  "definition": "Précise un type d'assemblée des porteurs de titres.",
+  "isoCodes": {
+    "XMET": {
+      "name": "Extraordinaire",
+      "definition": "Assemblée qui se tient en cas de besoin, en plus des assemblées générales, et qui est extraordinaire selon les statuts. Les résolutions portent sur les affaires inhabituelles de la société, par exemple l'approbation d'offres publiques d'achat, de fusions ou de scissions. Ces assemblées sont toujours convoquées à l'initiative de l'émetteur."
+    },
+    "GMET": {
+      "name": "Général",
+      "definition": "Comprend les assemblées annuelles et ordinaires. Assemblée(s) statutaire(s) tenue(s) en général au moins une fois par an. Les résolutions portent sur les affaires courantes de la société, par exemple l'approbation des dividendes et des administrateurs. Ces assemblées sont toujours convoquées à l'initiative de l'émetteur."
+    },
+    "MIXD": {
+      "name": "Mixte",
+      "definition": "Assemblée comportant à la fois des résolutions ordinaires et extraordinaires."
+    },
+    "SPCL": {
+      "name": "Spécial",
+      "definition": "Assemblée qui se tient en cas de besoin et qui n'est ni ordinaire ni extraordinaire."
+    },
+    "BMET": {
+      "name": "Assemblée des porteurs d'obligations",
+      "definition": "Assemblée physique des porteurs d'obligations."
+    },
+    "CMET": {
+      "name": "Assemblée judiciaire",
+      "definition": "L'assemblée résulte d'une procédure judiciaire."
+    }
+  }
+}

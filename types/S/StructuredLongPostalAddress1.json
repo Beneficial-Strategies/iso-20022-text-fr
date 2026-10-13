@@ -1,0 +1,47 @@
+{
+  "isoType": "StructuredLongPostalAddress1",
+  "definition": "Adresse d'une partie exprimée selon une structure formelle, généralement conforme aux spécifications des services postaux du pays.",
+  "isoElements": {
+    "BuildingName": {
+      "definition": "Nom du bâtiment ou de la maison."
+    },
+    "StreetName": {
+      "definition": "Nom d'une rue ou d'une voie."
+    },
+    "StreetBuildingIdentification": {
+      "definition": "Numéro qui identifie la position d'un bâtiment dans une rue."
+    },
+    "Floor": {
+      "definition": "Étage ou niveau au sein d'un bâtiment."
+    },
+    "TownName": {
+      "definition": "Nom d'une zone urbanisée, aux limites définies, dotée d'une administration locale."
+    },
+    "DistrictName": {
+      "definition": "Nom d'un quartier, c'est-à-dire une partie d'une ville ou d'une région."
+    },
+    "RegionIdentification": {
+      "definition": "Identification d'une division administrative d'un pays, d'un État ou d'un territoire."
+    },
+    "State": {
+      "definition": "Communauté politique organisée ou zone faisant partie d'une fédération."
+    },
+    "CountyIdentification": {
+      "definition": "Identifiant d'un comté."
+    },
+    "Country": {
+      "definition": "Nation dotée de son propre gouvernement."
+    },
+    "PostCodeIdentification": {
+      "definition": "Identifiant constitué d'un groupe de lettres et/ou de chiffres qui est ajouté à une adresse postale pour faciliter le tri du courrier."
+    },
+    "PostOfficeBox": {
+      "definition": "Boîte numérotée dans un bureau de poste, attribuée à une personne ou à une organisation, où le courrier est conservé jusqu'à son retrait."
+    }
+  },
+  "isoRules": {
+    "StreetNameAndOrPostOfficeBoxRule": {
+      "definition": "Si StreetName n'est pas présent, alors PostOfficeBox est obligatoire. Si StreetName est présent, alors PostOfficeBox est facultatif."
+    }
+  }
+}

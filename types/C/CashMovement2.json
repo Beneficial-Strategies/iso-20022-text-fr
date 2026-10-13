@@ -1,0 +1,12 @@
+{
+  "isoType": "CashMovement2",
+  "definition": "Fournit des informations sur le mouvement d'espèces.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant en espèces."
+    },
+    "AccountDetails": {
+      "definition": "Fournit des informations sur le compte qui est débité/crédité."
+    }
+  }
+}

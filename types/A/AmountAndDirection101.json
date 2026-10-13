@@ -1,0 +1,33 @@
+{
+  "isoType": "AmountAndDirection101",
+  "definition": "Imputation d'un élément sur un compte de trésorerie, dans le contexte d'une opération de trésorerie, entraînant une augmentation ou une diminution du solde du compte.",
+  "isoElements": {
+    "AccruedInterestIndicator": {
+      "definition": "Indique si le produit net inclut les intérêts courus sur l'instrument financier."
+    },
+    "StampDutyIndicator": {
+      "definition": "Indique si le produit net inclut le montant des droits de timbre."
+    },
+    "BrokerageAmountIndicator": {
+      "definition": "Indique si le produit net inclut les frais de courtage de l'opération. S'il est absent, l'élément n'est pas requis."
+    },
+    "ResearchFeeIndicator": {
+      "definition": "Indique si le produit net inclut les frais de recherche de l'opération."
+    },
+    "Amount": {
+      "definition": "Montant d'argent de l'écriture de trésorerie."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si une écriture est un crédit ou un débit."
+    },
+    "OriginalCurrencyAndOrderedAmount": {
+      "definition": "Montant de comptabilisation/règlement dans sa devise d'origine lorsqu'une conversion depuis/vers une autre devise a eu lieu."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Informations nécessaires pour traiter un change ou une conversion de devises."
+    },
+    "ValueDate": {
+      "definition": "Date et heure auxquelles les fonds sont à la disposition du titulaire du compte crédité, ou cessent d'être à la disposition du titulaire du compte débité."
+    }
+  }
+}

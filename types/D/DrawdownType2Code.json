@@ -1,0 +1,18 @@
+{
+  "isoType": "DrawdownType2Code",
+  "definition": "Indique un type de retrait.",
+  "isoCodes": {
+    "BOTH": {
+      "name": "Les deux",
+      "definition": "Le type de retrait est à la fois flexi-access et plafonné."
+    },
+    "CAPP": {
+      "name": "Retrait de revenu plafonné",
+      "definition": "Le type de retrait est plafonné."
+    },
+    "FLEX": {
+      "name": "Retrait à accès flexible",
+      "definition": "Le type de retrait est flexi-access."
+    }
+  }
+}

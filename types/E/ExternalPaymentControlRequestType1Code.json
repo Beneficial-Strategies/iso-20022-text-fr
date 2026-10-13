@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalPaymentControlRequestType1Code",
+  "definition": "Spécifie le code externe du type de demande pour une commande de contrôle de paiement, sous forme de chaîne de caractères de 4 caractères au maximum.|La liste des codes valides est un jeu de codes externe publié séparément.|Les jeux de codes externes peuvent être téléchargés à l'adresse www.iso20022.org.",
+  "isoCodes": {
+    "RT01": {
+      "name": "Libération en attente",
+      "definition": "Le type est une demande de libération des opérations en attente."
+    },
+    "RT02": {
+      "name": "Mise en attente normale",
+      "definition": "Le type est une demande de blocage des opérations normales."
+    },
+    "RT03": {
+      "name": "Annulation",
+      "definition": "Le type est une demande d'annulation d'une opération."
+    },
+    "RT04": {
+      "name": "Remise en séquence",
+      "definition": "Le type est une demande de modification de l'ordre des opérations."
+    },
+    "RT05": {
+      "name": "Libération suspecte",
+      "definition": "Le type est une demande de libération des opérations suspectes."
+    }
+  }
+}

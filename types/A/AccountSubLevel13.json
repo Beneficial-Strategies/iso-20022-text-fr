@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountSubLevel13",
+  "definition": "Compte et avoir du sous-niveau suivant (niveau 3).",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique et non ambiguë du sous-compte entre le titulaire du compte et le teneur de compte."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui détient légalement le sous-compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte de sous-niveau pour le compte du titulaire du compte, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "BeneficialOwner": {
+      "definition": "Personne ou entité qui a droit en dernier ressort au bénéfice des revenus et des droits attachés à un instrument financier, par opposition à un propriétaire nominal ou légal."
+    },
+    "BalanceDetails": {
+      "definition": "Relevé de la position nette d'un instrument financier sur le sous-compte (sous-compte de niveau 3), à une date donnée. L'agent, par exemple un intermédiaire de négociation, peut également être spécifié."
+    },
+    "AccountSubLevel4": {
+      "definition": "Avoirs du niveau 4."
+    },
+    "AccountSubLevel4Difference": {
+      "definition": "Différence d'avoirs entre le sous-compte de niveau 3 et les sous-comptes de niveau 4."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  }
+}

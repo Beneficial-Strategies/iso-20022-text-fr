@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestorProfileStatus1Choice",
+  "definition": "Choix de formats pour le statut du profil de l'investisseur.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut du profil de l'investisseur exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Statut du profil de l'investisseur exprimé sous forme de code propriétaire."
+    }
+  }
+}

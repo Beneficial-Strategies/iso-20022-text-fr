@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesQuantityOrAmount7Choice",
+  "definition": "Choix entre des quantités de titres ou un montant.",
+  "isoElements": {
+    "SecuritiesQuantity": {
+      "definition": "Fournit des informations sur la quantité de titres liée à une option d'événement sur titres."
+    },
+    "InstructedAmount": {
+      "definition": "Montant en espèces à instruire."
+    }
+  }
+}

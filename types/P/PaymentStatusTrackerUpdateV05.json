@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentStatusTrackerUpdateV05",
+  "definition": "Le message PaymentStatusTrackerUpdate est envoyé par une banque à un service de suivi pour surveiller l'avancement d'une opération commerciale et mettre à jour son statut à des fins de suivi et de transparence.||Utilisation :|Plusieurs statuts d'opérations commerciales peuvent être signalés dans un seul message, et chaque statut peut comprendre toutes les informations pertinentes d'une seule opération ou de plusieurs opérations des paiements suivis échangés.",
+  "isoRules": {
+    "TrackerInformingPartyRule": {
+      "definition": "GroupHeader/TrackerInformingParty ou TrackerStatusAndTransaction/TrackerInformingParty doit être présent."
+    },
+    "TrackerInformedPartyRule": {
+      "definition": "GroupHeader/TrackerInformedParty doit être absent ou TrackerStatusAndTransaction/Transaction/TrackerInformedParty doit être absent."
+    },
+    "TrackerInformingParty2Rule": {
+      "definition": "Si GroupHeader/TrackerInformingParty est présent, TrackerStatusAndTransaction/TrackerInformingParty n'est pas autorisé."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingTaxRecord2",
+  "definition": "Fournit des précisions sur les taxes.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Taux utilisé pour calculer la taxe."
+    },
+    "Description": {
+      "definition": "Nom utilisé pour décrire la taxe (par exemple la taxe sur la valeur ajoutée nationale)."
+    },
+    "TaxableAmount": {
+      "definition": "Montant soumis à la taxe."
+    },
+    "TaxExemption": {
+      "definition": "Montant exonéré de taxe."
+    },
+    "Amount": {
+      "definition": "Montant de taxe calculé."
+    },
+    "ChargesAndFees": {
+      "definition": "Précisions complémentaires sur les frais et commissions liés aux données fiscales."
+    }
+  }
+}

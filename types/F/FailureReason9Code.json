@@ -1,0 +1,130 @@
+{
+  "isoType": "FailureReason9Code",
+  "definition": "Incident survenu pendant le traitement d'une opération de ATM.",
+  "isoCodes": {
+    "CDCP": {
+      "name": "Carte avalée",
+      "definition": "Le gestionnaire de ATM a demandé la capture de la carte."
+    },
+    "CDCL": {
+      "name": "Carte refusée",
+      "definition": "La carte à puce refuse l'opération avant ou après l'autorisation."
+    },
+    "CDER": {
+      "name": "Erreur de carte",
+      "definition": "Impossible de mener l'opération à terme avec la carte."
+    },
+    "CUCL": {
+      "name": "Annulation par le client",
+      "definition": "Annulation par le client, par exemple retrait de la carte avant la fin de l'opération."
+    },
+    "CUDC": {
+      "name": "Refus par le client",
+      "definition": "Le client a refusé des frais supplémentaires ou un montant inférieur, l'opération échoue."
+    },
+    "CDFG": {
+      "name": "Carte oubliée",
+      "definition": "Le client a laissé la carte dans le ATM ou dans un lecteur de cartes motorisé."
+    },
+    "FILL": {
+      "name": "Erreur d'exécution",
+      "definition": "Impossible d'exécuter l'opération, par exemple la distribution d'espèces."
+    },
+    "MALF": {
+      "name": "Dysfonctionnement",
+      "definition": "Dysfonctionnement suspecté."
+    },
+    "NDCL": {
+      "name": "Refusé en ligne",
+      "definition": "L'autorisation en ligne a refusé l'opération."
+    },
+    "SECU": {
+      "name": "Erreur de sécurité",
+      "definition": "Une erreur de sécurité s'est produite dans le message de réponse d'autorisation envoyé par l'acquéreur."
+    },
+    "SFRD": {
+      "name": "Fraude suspectée",
+      "definition": "L'opération de paiement par carte échoue car le commerçant soupçonne une fraude."
+    },
+    "TIMO": {
+      "name": "Délai dépassé",
+      "definition": "Délai dépassé en attendant une réponse à un message de demande, ou aucune réponse n'a été reçue (par exemple libération de la connexion avant la réception de la réponse)."
+    },
+    "LATE": {
+      "name": "Réponse trop tardive",
+      "definition": "La réponse au message précédent a été reçue trop tard."
+    },
+    "UCPT": {
+      "name": "Impossible de capturer",
+      "definition": "Impossible de capturer la carte comme demandé."
+    },
+    "UCMP": {
+      "name": "Impossible de terminer",
+      "definition": "Impossible de mener l'opération à terme après la réponse d'autorisation."
+    },
+    "USND": {
+      "name": "Impossible d'envoyer",
+      "definition": "Impossible de remettre le message de demande à la partie destinataire."
+    },
+    "CSRV": {
+      "name": "Hors service pour les clients",
+      "definition": "Le gestionnaire de ATM a demandé au ATM d'arrêter les services aux clients."
+    },
+    "CDRT": {
+      "name": "Carte retenue",
+      "definition": "La carte a été retenue par le ATM ou le terminal."
+    },
+    "CUTO": {
+      "name": "Délai dépassé par le client",
+      "definition": "Le client n'a pas effectué une action dans le délai imparti."
+    },
+    "RJCT": {
+      "name": "Rejet",
+      "definition": "Le gestionnaire de ATM a envoyé un message ATMReject en réponse à une demande d'autorisation."
+    },
+    "FMTE": {
+      "name": "Erreur de format",
+      "definition": "Le gestionnaire de ATM a envoyé un message de réponse à une demande d'autorisation dont certains éléments obligatoires étaient mal formatés (par exemple une valeur entière à la place d'une valeur dateTime)."
+    },
+    "VLTE": {
+      "name": "Erreur de validation",
+      "definition": "Le gestionnaire de ATM a envoyé un message de réponse à une demande d'autorisation dont certains éléments obligatoires étaient invalides (par exemple un ExchangeIdentifier incorrect)."
+    },
+    "CHFG": {
+      "name": "Avalement du distributeur de billets",
+      "definition": "À la suite d'une distribution d'espèces, le consommateur a oublié de prendre les billets, qui ont ensuite été rétractés après expiration du délai de présentation. Le nombre de billets rétractés est inconnu."
+    },
+    "DCFG": {
+      "name": "Avalement de dépôt d'espèces",
+      "definition": "À la suite d'une restitution d'espèces lors d'une opération de dépôt, le consommateur a oublié de prendre les billets restitués, ce qui a entraîné leur rétraction. Le nombre de billets rétractés est inconnu."
+    },
+    "CQFG": {
+      "name": "Avalement de dépôt de chèques",
+      "definition": "À la suite de la restitution de chèques lors d'une opération de dépôt de chèques, le consommateur a oublié de prendre les chèques restitués, ce qui a entraîné leur rétraction. Le nombre de chèques rétractés est inconnu."
+    },
+    "DFGC": {
+      "name": "Avalement de dépôt d'espèces comptabilisé",
+      "definition": "À la suite d'une restitution d'espèces lors d'une opération de dépôt, le consommateur a oublié de prendre les billets restitués, ce qui a entraîné leur rétraction. Le nombre de billets rétractés est connu car le dispositif a pu les compter."
+    },
+    "CFGC": {
+      "name": "Avalement du distributeur de billets comptabilisé",
+      "definition": "À la suite d'une distribution d'espèces, le consommateur a oublié de prendre les billets restitués, qui ont ensuite été rétractés après expiration du délai de présentation. Le nombre de billets rétractés est connu car le dispositif a pu les compter."
+    },
+    "QFGC": {
+      "name": "Avalement de dépôt de chèques comptabilisé",
+      "definition": "À la suite de la restitution de chèques lors d'une opération de dépôt de chèques, le consommateur a oublié de prendre les chèques restitués, ce qui a entraîné leur rétraction. Le nombre de chèques rétractés est connu car le dispositif a pu les compter."
+    },
+    "CQRT": {
+      "name": "Chèques retenus",
+      "definition": "Les chèques ont été retenus par le terminal, faute d'avoir pu les restituer."
+    },
+    "DCRT": {
+      "name": "Dépôts retenus",
+      "definition": "Les espèces ont été retenues par le terminal, faute d'avoir pu les restituer."
+    },
+    "RSTR": {
+      "name": "Redémarrage",
+      "definition": "Le ATM a redémarré."
+    }
+  }
+}

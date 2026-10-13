@@ -1,0 +1,21 @@
+{
+  "isoType": "BreakdownByParty3",
+  "definition": "Précise les flux de trésorerie entrants et sortants par partie.",
+  "isoElements": {
+    "Party": {
+      "definition": "Partie, par exemple la société de gestion, pour laquelle le flux de trésorerie est communiqué."
+    },
+    "AdditionalParameters": {
+      "definition": "Paramètre(s) supplémentaire(s) appliqué(s) au flux de trésorerie par partie."
+    },
+    "CashInForecast": {
+      "definition": "Mouvement de trésorerie entrant dans le fonds à la suite d'opérations sur des parts d'un fonds d'investissement, par exemple des souscriptions ou des arbitrages entrants."
+    },
+    "CashOutForecast": {
+      "definition": "Mouvement de trésorerie sortant du fonds à la suite d'opérations sur des parts d'un fonds d'investissement, par exemple des rachats ou des arbitrages sortants."
+    },
+    "NetCashForecast": {
+      "definition": "Trésorerie nette résultant des flux de trésorerie entrants et sortants précisés pour la partie."
+    }
+  }
+}

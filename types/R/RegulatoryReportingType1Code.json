@@ -1,0 +1,18 @@
+{
+  "isoType": "RegulatoryReportingType1Code",
+  "definition": "Identifie si les informations de déclaration réglementaire s'appliquent au côté débit, au côté crédit ou aux deux côtés, débit et crédit, de l'opération.",
+  "isoCodes": {
+    "CRED": {
+      "name": "Crédit",
+      "definition": "Les informations réglementaires s'appliquent au côté crédit."
+    },
+    "DEBT": {
+      "name": "Débit",
+      "definition": "Les informations réglementaires s'appliquent au côté débit."
+    },
+    "BOTH": {
+      "name": "Les deux",
+      "definition": "Les informations réglementaires s'appliquent aux côtés crédit et débit."
+    }
+  }
+}

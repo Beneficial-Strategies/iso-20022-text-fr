@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesEntryType3Code",
+  "definition": "Précise le type d'écriture de titres sur un compte.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Éligible",
+      "definition": "Nombre total de titres éligibles à cet événement."
+    },
+    "UNBA": {
+      "name": "Solde non instruit",
+      "definition": "Solde de la position non instruite."
+    },
+    "INBA": {
+      "name": "Solde instruit",
+      "definition": "Solde de la position instruite."
+    }
+  }
+}

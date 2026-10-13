@@ -1,0 +1,30 @@
+{
+  "isoType": "Garnishment4",
+  "definition": "Fournit des informations de remise relatives à un paiement effectué à des fins de saisie-arrêt.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type de saisie-arrêt."
+    },
+    "Garnishee": {
+      "definition": "Partie finale qui doit un montant au créancier (final), en l'occurrence au saisissant."
+    },
+    "GarnishmentAdministrator": {
+      "definition": "Partie du côté crédit de l'opération qui administre la saisie-arrêt pour le compte du bénéficiaire final."
+    },
+    "ReferenceNumber": {
+      "definition": "Informations de référence propres à l'organisme qui reçoit la saisie-arrêt."
+    },
+    "Date": {
+      "definition": "Date du paiement sur lequel la saisie-arrêt a été prélevée."
+    },
+    "RemittedAmount": {
+      "definition": "Montant remis pour le document visé."
+    },
+    "FamilyMedicalInsuranceIndicator": {
+      "definition": "Indique si la personne visée par la saisie-arrêt (c'est-à-dire le débiteur final) dispose d'une couverture d'assurance maladie familiale."
+    },
+    "EmployeeTerminationIndicator": {
+      "definition": "Indique s'il a été mis fin à l'emploi de la personne visée par la saisie-arrêt (c'est-à-dire le débiteur final)."
+    }
+  }
+}

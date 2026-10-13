@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason31",
+  "definition": "Informations sur un statut rejeté.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motif du statut rejeté."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informations complémentaires sur le motif du statut rejeté."
+    }
+  }
+}

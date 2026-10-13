@@ -1,0 +1,12 @@
+{
+  "isoType": "ResponseProcessingStatus1Choice",
+  "definition": "Choix entre un statut accepté et un statut rejeté pour l'acceptation d'un message.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "Le message reçu ou le relevé reçu en plusieurs parties (envoyé avec pagination sur plusieurs messages) est accepté."
+    },
+    "Rejected": {
+      "definition": "Le message reçu ou le relevé reçu en plusieurs parties (envoyé avec pagination sur plusieurs messages) est rejeté."
+    }
+  }
+}

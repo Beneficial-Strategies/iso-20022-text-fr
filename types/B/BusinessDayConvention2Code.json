@@ -1,0 +1,30 @@
+{
+  "isoType": "BusinessDayConvention2Code",
+  "definition": "Précise la manière dont une date est ajustée lorsqu'elle tombe un jour non ouvré.",
+  "isoCodes": {
+    "FWNG": {
+      "name": "Suivant",
+      "definition": "La date sera le premier jour ouvré suivant."
+    },
+    "FRNC": {
+      "name": "Convention des obligations à taux variable",
+      "definition": "Convention des obligations à taux variable."
+    },
+    "MODF": {
+      "name": "Suivant modifié",
+      "definition": "La date sera le premier jour ouvré suivant, sauf si ce jour tombe dans le mois civil suivant, auquel cas la date sera le premier jour ouvré précédent."
+    },
+    "NEAR": {
+      "name": "Le plus proche",
+      "definition": "La date sera le premier jour ouvré précédent, sauf si ce jour tombe un jour autre qu'un dimanche ou un lundi, et sera le premier jour ouvré suivant si la date concernée tombe par ailleurs un dimanche ou un lundi."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre convention de jour ouvré."
+    },
+    "PREC": {
+      "name": "Précédent",
+      "definition": "Le jour non ouvré sera ajusté au premier jour ouvré précédent."
+    }
+  }
+}

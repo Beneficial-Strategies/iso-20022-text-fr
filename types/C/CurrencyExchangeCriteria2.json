@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyExchangeCriteria2",
+  "definition": "Définit les critères utilisés pour rechercher des informations sur les taux de change. Un nom peut être attribué à la nouvelle requête.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nom de la requête définie par les critères de recherche et les critères de retour."
+    },
+    "SearchCriteria": {
+      "definition": "Définit les critères selon lesquels les informations sont extraites."
+    }
+  }
+}

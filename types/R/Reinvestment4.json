@@ -1,0 +1,15 @@
+{
+  "isoType": "Reinvestment4",
+  "definition": "Informations sur le réinvestissement.",
+  "isoElements": {
+    "FinancialInstrumentDetails": {
+      "definition": "Fonds de placement destiné au réinvestissement."
+    },
+    "RequestedNAVCurrency": {
+      "definition": "Devise à utiliser pour la valorisation du fonds. Cette devise doit figurer parmi l'ensemble des devises dans lesquelles le prix peut être exprimé, comme indiqué dans le prospectus."
+    },
+    "ReinvestmentPercentage": {
+      "definition": "Pourcentage du réinvestissement."
+    }
+  }
+}

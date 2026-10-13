@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyIdentificationAndAccount170",
+  "definition": "Détails de la partie et du compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification de la partie."
+    },
+    "LEI": {
+      "definition": "Identification de l'entité juridique utilisée comme identification alternative d'une partie."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identification non ambiguë de l'opération pour la partie identifiée."
+    }
+  }
+}

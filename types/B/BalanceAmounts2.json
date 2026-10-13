@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceAmounts2",
+  "definition": "Montants liés à un solde de titres, par exemple la valeur de la position.",
+  "isoElements": {
+    "HoldingValue": {
+      "definition": "Valeur d'une position individuelle en instrument financier au sein d'un compte de conservation."
+    },
+    "BookValue": {
+      "definition": "Valeur d'un instrument financier, telle que comptabilisée/acquise sur un compte. Elle peut servir à établir l'assujettissement à l'impôt sur les plus-values."
+    },
+    "UnrealisedGainLoss": {
+      "definition": "Différence entre la valeur de l'avoir et la valeur comptable."
+    }
+  }
+}

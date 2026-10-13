@@ -1,0 +1,38 @@
+{
+  "isoType": "OptionFeatures1Code",
+  "definition": "Précise la caractéristique d'une option.",
+  "isoCodes": {
+    "COND": {
+      "name": "Conditionnel",
+      "definition": "Caractéristique selon laquelle le porteur peut choisir d'assortir l'acceptation de l'option d'une condition."
+    },
+    "MAXC": {
+      "name": "Espèces maximales",
+      "definition": "Option espèces maximale, pouvant être soumise à réduction ; vous pouvez donc recevoir une combinaison d'espèces et de titres."
+    },
+    "MAXS": {
+      "name": "Titres maximaux",
+      "definition": "Option titres maximale, pouvant être soumise à réduction ; vous pouvez donc recevoir une combinaison de titres et d'espèces."
+    },
+    "OPLF": {
+      "name": "Préférence pour les rompus",
+      "definition": "Apport ou échange avec préférence pour les rompus."
+    },
+    "PROR": {
+      "name": "Répartition proportionnelle",
+      "definition": "Caractéristique selon laquelle l'option peut faire l'objet d'une répartition au prorata en cas, par exemple, de sursouscription."
+    },
+    "QOVE": {
+      "name": "Au-delà",
+      "definition": "Caractéristique selon laquelle le détenteur peut choisir de recevoir une quantité en sus du droit normal garanti."
+    },
+    "QREC": {
+      "name": "Quantité à recevoir",
+      "definition": "Caractéristique selon laquelle le détenteur peut choisir une quantité à recevoir."
+    },
+    "VVPR": {
+      "name": "Retenue à la source réduite",
+      "definition": "Un taux réduit de retenue à la source s'applique à l'option."
+    }
+  }
+}

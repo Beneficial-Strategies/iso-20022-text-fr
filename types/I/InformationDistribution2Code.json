@@ -1,0 +1,18 @@
+{
+  "isoType": "InformationDistribution2Code",
+  "definition": "Indique comment les informations doivent être distribuées.",
+  "isoCodes": {
+    "ELEC": {
+      "name": "Électronique",
+      "definition": "Distribution électronique."
+    },
+    "NONE": {
+      "name": "Aucune distribution",
+      "definition": "Aucune distribution."
+    },
+    "PAPR": {
+      "name": "Papier",
+      "definition": "Distribution sur papier."
+    }
+  }
+}

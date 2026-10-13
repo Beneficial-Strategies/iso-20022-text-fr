@@ -1,0 +1,114 @@
+{
+  "isoType": "ExternalPaymentCancellationRejection1Code",
+  "definition": "Précise le motif du rejet d'une annulation, tel que publié dans une liste externe de codes de rejet d'annulation de paiement.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "AC04": {
+      "name": "Numéro de compte clôturé",
+      "definition": "Le numéro de compte indiqué a été clôturé dans les livres du destinataire."
+    },
+    "ADAC": {
+      "name": "En attente de l'autorisation de débit du client",
+      "definition": "Signalé lorsque la demande d'annulation ne peut pas être traitée car le client n'a pas encore fourni l'autorisation de débit sur son compte."
+    },
+    "AGNT": {
+      "name": "Décision de la banque",
+      "definition": "Signalé lorsque l'annulation ne peut pas être acceptée car une banque refuse d'annuler."
+    },
+    "AM04": {
+      "name": "Provision insuffisante",
+      "definition": "Le montant des fonds disponibles pour couvrir le montant du message indiqué est insuffisant."
+    },
+    "ARDT": {
+      "name": "Déjà retourné",
+      "definition": "Annulation non acceptée car l'opération a déjà été retournée."
+    },
+    "ARPL": {
+      "name": "En attente de réponse",
+      "definition": "Signalé lorsque la demande d'annulation ne peut pas être traitée car aucune réponse n'a encore été reçue du destinataire du message de demande."
+    },
+    "CUST": {
+      "name": "Décision du client",
+      "definition": "Signalé lorsque l'annulation ne peut pas être acceptée en raison d'une décision du client (créancier)."
+    },
+    "LEGL": {
+      "name": "Décision judiciaire",
+      "definition": "Signalé lorsque l'annulation ne peut pas être acceptée en raison de règles réglementaires."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Le motif est fourni sous forme d'information narrative dans les informations complémentaires sur le motif."
+    },
+    "NOAS": {
+      "name": "Aucune réponse du client",
+      "definition": "Aucune réponse du bénéficiaire (à la demande d'annulation)."
+    },
+    "NOOR": {
+      "name": "Aucune opération initiale reçue",
+      "definition": "L'opération d'origine (objet de l'annulation) n'a jamais été reçue."
+    },
+    "PTNA": {
+      "name": "Transmis à la banque suivante",
+      "definition": "Signalé lorsque la demande d'annulation ne peut pas être acceptée car l'instruction de paiement a été transmise à la banque suivante."
+    },
+    "RQDA": {
+      "name": "Demande d'autorisation de débit",
+      "definition": "Signalé lorsqu'une autorisation est requise par le créancier pour retourner le paiement."
+    },
+    "WSEQ": {
+      "name": "Séquence erronée",
+      "definition": "Signalé lorsque la demande d'annulation ne peut pas être traitée car la séquence référencée dans la demande n'est pas valide."
+    },
+    "INDM": {
+      "name": "Indemnité d'annulation requise",
+      "definition": "Complète un statut En attente ou Rejet. La demande d'annulation du paiement ne peut pas être acceptée tant qu'un accord d'indemnisation n'est pas établi."
+    },
+    "ACLR": {
+      "name": "RTP déjà annulée",
+      "definition": "La demande de paiement a déjà été annulée."
+    },
+    "AEXR": {
+      "name": "RTP déjà expirée",
+      "definition": "La date et l'heure d'expiration de la demande de paiement sont déjà dépassées."
+    },
+    "ARFR": {
+      "name": "RTP déjà refusée",
+      "definition": "La demande de paiement a déjà été refusée par le débiteur."
+    },
+    "ARJR": {
+      "name": "RTP déjà rejetée",
+      "definition": "La demande de paiement a déjà été rejetée."
+    },
+    "PATE": {
+      "name": "Paiement déjà transmis pour exécution",
+      "definition": "Le paiement lié à la demande de paiement a déjà été transmis pour exécution."
+    },
+    "RR04": {
+      "name": "Motif réglementaire",
+      "definition": "Motif réglementaire."
+    },
+    "RCAR": {
+      "name": "RfC déjà rejetée",
+      "definition": "La demande d'annulation de la demande de paiement a déjà été rejetée."
+    },
+    "RCNR": {
+      "name": "RfC jamais reçue",
+      "definition": "La demande d'annulation de la demande de paiement n'a jamais été reçue."
+    },
+    "RCPR": {
+      "name": "RfC reçue et traitée",
+      "definition": "La demande d'annulation de la demande de paiement a déjà été reçue et traitée."
+    },
+    "URTP": {
+      "name": "RTP inconnue",
+      "definition": "La demande de paiement est inconnue."
+    },
+    "AACR": {
+      "name": "RTP déjà acceptée",
+      "definition": "La demande de paiement (RTP) a déjà été acceptée."
+    },
+    "ARJT": {
+      "name": "Opération déjà rejetée",
+      "definition": "Opération sous-jacente déjà rejetée."
+    }
+  }
+}

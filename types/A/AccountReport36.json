@@ -1,0 +1,38 @@
+{
+  "isoType": "AccountReport36",
+  "definition": "Rend compte à une entreprise de la configuration effective du compte, des services et des mandats associés.",
+  "isoElements": {
+    "Account": {
+      "definition": "Caractéristiques du compte."
+    },
+    "UnderlyingMasterAgreement": {
+      "definition": "Contrat de compte établi entre l'organisation ou le groupe auquel l'organisation appartient et le teneur de compte. Ce contrat doit être appliqué pour le nouveau compte à ouvrir et à maintenir."
+    },
+    "ContractDates": {
+      "definition": "Précise les dates cibles et effectives."
+    },
+    "Mandate": {
+      "definition": "Informations précisant le mandat du compte."
+    },
+    "Group": {
+      "definition": "Définition d'un groupe de parties."
+    },
+    "ReferenceAccount": {
+      "definition": "Identification unique et univoque du compte utilisé comme référence pour l'ouverture d'un autre compte."
+    },
+    "BalanceTransferAccount": {
+      "definition": "Identification unique et univoque du compte vers lequel transférer le solde."
+    },
+    "TransferAccountServicerIdentification": {
+      "definition": "Identification du teneur de compte de transfert."
+    }
+  },
+  "isoRules": {
+    "ContractDates1Rule": {
+      "definition": "ContractDates/TargetGoLiveDate et ContractDates/GoLiveDate ne devraient pas être utilisés dans le cadre d'un processus de clôture de compte."
+    },
+    "ContractDates2Rule": {
+      "definition": "ContractDates/ClosingDate ne devrait pas être utilisé dans le cadre d'un processus d'ouverture et de maintenance de compte."
+    }
+  }
+}

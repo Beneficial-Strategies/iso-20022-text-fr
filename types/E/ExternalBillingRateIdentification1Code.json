@@ -1,0 +1,82 @@
+{
+  "isoType": "ExternalBillingRateIdentification1Code",
+  "definition": "Précise le type de taux ou de facteur de facturation, tel que publié dans une liste de codes externe d'identification des taux de facturation.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "AEAR": {
+      "name": "Taux de bonification ajusté",
+      "definition": "Taux de rémunération annuel, ajusté des réserves, appliqué au solde investissable de la période d'analyse en cours pour le calcul du crédit de bonification. L'ECR, net de réserves, est calculé comme suit :    ECR, Net of Reserves  =  ECR, Not Net (00 01 22) * (1 – Reserve Rate)"
+    },
+    "ANXE": {
+      "name": "Taux de rendement ajusté du mois suivant",
+      "definition": "Taux de bonification anticipé, tel qu'ajusté, à utiliser le mois prochain dans le calcul de la bonification. Voir AEAR AdjustedEarningsAllowance Rate"
+    },
+    "CDRA": {
+      "name": "Taux CD",
+      "definition": "Taux CD (Certificate of Deposit) en vigueur tel que publié par la banque."
+    },
+    "DINR": {
+      "name": "Taux d'intérêt sur insuffisance",
+      "definition": "Taux annuel utilisé pour calculer le montant des intérêts de déficit à verser à la banque."
+    },
+    "DSCR": {
+      "name": "Taux de majoration sur insuffisance",
+      "definition": "Taux annuel utilisé pour calculer une majoration fondée sur le montant des intérêts de déficit à verser à la banque."
+    },
+    "EALR": {
+      "name": "Taux de bonification",
+      "definition": "Taux de rémunération annuel appliqué au solde investissable de la période de relevé en cours pour le calcul du crédit de bonification. Le crédit de bonification sert à compenser les frais des services compensables par le solde. Ce taux n'a PAS été ajusté des réserves. L'ECR, non net de réserves, est calculé comme suit :    ECR, Not Net  =  ECR, Net of Reserves (00 01 20)  /  (1 – Reserve Rate)"
+    },
+    "FDIC": {
+      "name": "Taux FDIC",
+      "definition": "Taux FDIC en vigueur aux US, utilisé pour calculer la prime d'assurance des dépôts fédérale versée par les banques à la FDIC."
+    },
+    "ICDR": {
+      "name": "Taux d'intérêt crédité",
+      "definition": "Taux d'intérêt annuel utilisé pour calculer le montant des intérêts crédités sur un compte désigné. Le montant des intérêts crédités, le cas échéant, est déclaré dans une section de compensation avec un identifiant de compensation TtlInterestCredited"
+    },
+    "MULT": {
+      "name": "Multiplicateur",
+      "definition": "Solde encaissé requis pour compenser 1,00 $ de frais de service compensables par le solde. Ce facteur peut servir à calculer l'équivalent en solde des frais de service compensables par le solde. Le multiplicateur est calculé de l'une de trois manières selon que le taux de bonification (ECR) est ajusté des réserves ou non (net de réserves ou non) et, lorsque l'ECR n'est pas ajusté des réserves, selon que le multiplicateur est ajusté des réserves ou non (1.00)."
+    },
+    "NCBO": {
+      "name": "Taux de découvert sur solde net encaissé",
+      "definition": "Taux d'intérêt annuel utilisé pour calculer la compensation de découvert sur un solde encaissé net moyen négatif (solde AFP 00 00 10). Un solde NET moyen est négatif lorsque la somme des soldes quotidiens de clôture POSITIFS et NÉGATIFS est négative (POSITIVE) (NEGATIVE)."
+    },
+    "NGCO": {
+      "name": "Taux de découvert sur solde encaissé négatif",
+      "definition": "Taux d'intérêt annuel appliqué aux soldes encaissés NÉGATIFS (solde AFP 00 00 13) pour le calcul de la compensation de découvert (NEGATIVE)."
+    },
+    "NGLO": {
+      "name": "Taux de découvert sur solde comptable négatif",
+      "definition": "Taux d'intérêt annuel appliqué aux soldes comptables NÉGATIFS (solde AFP 00 00 03) pour le calcul de la compensation de découvert (NEGATIVE)."
+    },
+    "NLBO": {
+      "name": "Taux de découvert sur solde comptable net",
+      "definition": "Taux d'intérêt annuel utilisé pour calculer la compensation de découvert sur un solde comptable net moyen négatif (solde AFP 00 00 00). Un solde NET moyen est négatif lorsque la somme des soldes quotidiens de clôture POSITIFS et NÉGATIFS est négative (POSITIVE) (NEGATIVE)."
+    },
+    "NXME": {
+      "name": "Taux de bonification du mois suivant",
+      "definition": "Taux de bonification anticipé à utiliser le mois prochain dans le calcul de la bonification. Voir EALR EarningsAllowance Rate"
+    },
+    "NXMU": {
+      "name": "Multiplicateur du mois suivant",
+      "definition": "Le multiplicateur anticipé à utiliser le mois prochain. Voir MULT Multiplier."
+    },
+    "PRIR": {
+      "name": "Taux préférentiel",
+      "definition": "Taux Prime annuel en vigueur tel que publié par la banque."
+    },
+    "RRQR": {
+      "name": "Taux de réserve obligatoire hors DDA",
+      "definition": "Taux de réserve annuel appliqué aux comptes de dépôt non à vue tels que les dépôts à terme ou les comptes CD."
+    },
+    "RSRV": {
+      "name": "Taux de réserve obligatoire",
+      "definition": "Taux d'intérêt annuel utilisé pour calculer la part du CollectedBal-AvgPositive que les banques américaines doivent maintenir en dépôt auprès de la US Federal Reserve."
+    },
+    "UFUR": {
+      "name": "Taux d'utilisation des fonds non encaissés",
+      "definition": "Taux d'intérêt annuel appliqué à la part du solde du compte correspondant à la différence entre le solde comptable négatif moyen et le solde encaissé négatif moyen (solde AFP 00 00 15). Ce taux sert à calculer la compensation sur la part du solde encaissé négatif qui représente l'utilisation de fonds non encaissés."
+    }
+  }
+}

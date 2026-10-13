@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionEventType120Choice",
+  "definition": "Choix entre des formats pour exprimer le type d'événement sur titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'événement exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type d'événement exprimé sous forme de code propriétaire."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "Si Code est présent, le code OTHR (Autre) ne doit être utilisé que si aucun autre code d'événement d'opération sur titres n'est approprié. ||Si Code est présent, le code CHAN (Modification) ne doit être utilisé que si aucun autre code d'événement d'opération sur titres n'est approprié et uniquement pour un événement relatif à une modification. ||Si Code est présent, le code REDM (Échéance finale) ne doit être utilisé que lorsque le remboursement est décidé par l'émetteur et non par les détenteurs de titres."
+    }
+  }
+}

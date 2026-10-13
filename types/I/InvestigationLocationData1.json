@@ -1,0 +1,15 @@
+{
+  "isoType": "InvestigationLocationData1",
+  "definition": "Fournit des détails complémentaires sur les données ou la documentation.",
+  "isoElements": {
+    "Method": {
+      "definition": "Méthode utilisée pour transmettre les données ou la documentation."
+    },
+    "ElectronicAddress": {
+      "definition": "Adresse électronique à laquelle un agent a envoyé les données ou la documentation."
+    },
+    "PostalAddress": {
+      "definition": "Adresse postale à laquelle un agent a envoyé les données ou la documentation."
+    }
+  }
+}

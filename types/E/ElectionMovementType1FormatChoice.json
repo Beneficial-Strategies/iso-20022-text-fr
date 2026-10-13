@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionMovementType1FormatChoice",
+  "definition": "Choix de formats pour exprimer l'effet sur les avoirs de l'élection d'une option d'opération sur titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard pour préciser l'effet sur les avoirs de l'élection d'une option d'opération sur titres."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire pour exprimer l'effet sur les avoirs de l'élection d'une option d'opération sur titres."
+    }
+  }
+}

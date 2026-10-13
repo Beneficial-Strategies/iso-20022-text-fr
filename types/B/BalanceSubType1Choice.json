@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceSubType1Choice",
+  "definition": "Précise le sous-type de solde.",
+  "isoElements": {
+    "Code": {
+      "definition": "Sous-type de solde, tel que publié dans une liste externe de codes de sous-type de solde."
+    },
+    "Proprietary": {
+      "definition": "Précise un code propriétaire pour le type de solde."
+    }
+  }
+}

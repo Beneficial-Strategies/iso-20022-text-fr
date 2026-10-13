@@ -1,0 +1,29 @@
+{
+  "isoType": "Status43Choice",
+  "definition": "Choix entre statuts.",
+  "isoElements": {
+    "Proprietary": {
+      "definition": "Statut propriétaire."
+    },
+    "MatchingStatus": {
+      "definition": "Fournit le statut d'appariement de l'instruction."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Fournit le statut d'appariement d'une instruction tel que connu du teneur de compte sur la base d'une allégation. À ce stade, aucun appariement n'a eu lieu sur le marché (au CSD/ICSD)."
+    },
+    "SettlementStatus": {
+      "definition": "Fournit le statut de règlement d'une opération."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Indique le statut d'une instruction."
+    }
+  },
+  "isoRules": {
+    "PendingToFailingRule": {
+      "definition": "Une opération en attente (PEND) devient une opération en défaut (PENF) à la date de règlement instruite dans le message, lors du reporting de fin de journée."
+    },
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Si le statut/motif de règlement est utilisé seul, cela signifie que l'opération est appariée (si un processus d'appariement existe sur le marché concerné ou auprès du teneur de compte concerné)."
+    }
+  }
+}

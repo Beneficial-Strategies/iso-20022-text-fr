@@ -1,0 +1,12 @@
+{
+  "isoType": "PurposeCode7Choice",
+  "definition": "Choix entre un code et un schéma de source de données pour déterminer le type de compte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Finalité du compte-titres sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Finalité du compte-titres sous la forme d'un code propriétaire."
+    }
+  }
+}

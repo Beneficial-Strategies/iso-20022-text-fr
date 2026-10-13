@@ -1,0 +1,30 @@
+{
+  "isoType": "PositionSearchCriteria4",
+  "definition": "Définit les critères de requête de position d'un compte-titres.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "FinancialInstrument": {
+      "definition": "Instrument financier représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "CountryOfIssue": {
+      "definition": "Pays où le titre est émis."
+    },
+    "SubBalanceType": {
+      "definition": "Définit des caractéristiques de restriction spécifiques pour une position sur titres."
+    },
+    "ReturnZeroPosition": {
+      "definition": "Option permettant de fournir une position à zéro dans les résultats."
+    },
+    "OtherBusinessParties": {
+      "definition": "Autres parties commerciales concernées par l'opération."
+    }
+  }
+}

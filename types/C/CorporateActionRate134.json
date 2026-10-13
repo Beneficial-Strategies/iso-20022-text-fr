@@ -1,0 +1,39 @@
+{
+  "isoType": "CorporateActionRate134",
+  "definition": "Précise les détails du taux d'un titre.",
+  "isoElements": {
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "definition": "Quantité de titres intermédiaires supplémentaires/nouvelles actions attribués pour une quantité donnée de titres issus d'une souscription."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "definition": "Quantité de titres supplémentaires pour une quantité donnée de titres sous-jacents lorsque les titres sous-jacents ne sont ni échangés ni débités, par exemple 1 pour 1 : 1 nouvelle action créditée pour chaque action sous-jacente = 2 actions résultantes."
+    },
+    "NewToOld": {
+      "definition": "Quantité de nouveaux titres pour une quantité donnée de titres sous-jacents, lorsque les titres sous-jacents seront échangés ou débités, par exemple 2 pour 1 : 2 nouvelles actions créditées pour chaque action sous-jacente débitée = 2 actions résultantes."
+    },
+    "TransformationRate": {
+      "definition": "Taux utilisé pour déterminer la répartition de la contrepartie en espèces entre les opérations de règlement de sortie résultant d'une transformation de l'opération parente."
+    },
+    "ChargesFees": {
+      "definition": "Taux utilisé pour calculer le montant des frais/commissions qui ne peuvent pas être catégorisés."
+    },
+    "FiscalStamp": {
+      "definition": "Pourcentage d'impôt fiscal à appliquer."
+    },
+    "ApplicableRate": {
+      "definition": "Taux applicable à l'événement annoncé, par exemple le taux de remboursement pour un événement de remboursement."
+    },
+    "TaxCreditRate": {
+      "definition": "Montant d'argent par action alloué à la suite d'un crédit d'impôt."
+    },
+    "FinancialTransactionTaxRate": {
+      "definition": "Taux de la taxe sur les opérations financières."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Pourcentage d'une distribution en espèces qui sera retenu par les autorités fiscales de la juridiction de l'émetteur, pour lequel un allègement à la source et/ou une demande de remboursement peut être possible."
+    },
+    "SecondLevelTax": {
+      "definition": "Taux auquel le revenu sera retenu par une juridiction autre que celle du pays de domiciliation fiscale de l'émetteur, pour lequel un allègement à la source et/ou une demande de remboursement peut être possible. Il est prélevé en complément ou en compensation du taux de retenue à la source (TAXR) prélevé par la juridiction du domicile fiscal de l'émetteur."
+    }
+  }
+}

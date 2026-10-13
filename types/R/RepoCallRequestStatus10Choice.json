@@ -1,0 +1,12 @@
+{
+  "isoType": "RepoCallRequestStatus10Choice",
+  "definition": "Choix de format pour l'accusé de réception de l'appel de pension livrée.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fournit le statut de la demande d'appel de pension livrée."
+    },
+    "Proprietary": {
+      "definition": "Fournit le statut de la demande d'appel de pension livrée."
+    }
+  }
+}

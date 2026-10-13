@@ -1,0 +1,27 @@
+{
+  "isoType": "TransactionDetails126",
+  "definition": "Identifie le détail de l'opération.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instruments financiers représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantité totale de titres à régler."
+    },
+    "SettlementAmount": {
+      "definition": "Montant total à payer ou à recevoir en échange des titres."
+    },
+    "TradeDate": {
+      "definition": "Précise la date/l'heure d'exécution de la transaction."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être livrés ou reçus."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifie la chaîne des parties livreuses au règlement."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifie la chaîne des parties réceptrices au règlement."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "UnderlyingStatementEntry3",
+  "definition": "Fournit des détails complémentaires sur l'écriture de relevé sous-jacente à laquelle le message d'enquête se rapporte.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Ensemble d'éléments utilisés pour fournir des informations sur le message d'origine."
+    },
+    "OriginalStatementIdentification": {
+      "definition": "Identification unique, attribuée par le teneur de compte, pour identifier sans ambiguïté le relevé d'origine."
+    },
+    "OriginalEntryIdentification": {
+      "definition": "Identification unique d'origine, attribuée par le teneur de compte, pour identifier sans ambiguïté l'écriture d'origine."
+    },
+    "OriginalUETR": {
+      "definition": "Identifiant universellement unique fournissant la référence de bout en bout d'origine d'une opération de paiement."
+    }
+  }
+}

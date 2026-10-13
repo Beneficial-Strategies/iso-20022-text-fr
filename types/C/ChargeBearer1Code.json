@@ -1,0 +1,18 @@
+{
+  "isoType": "ChargeBearer1Code",
+  "definition": "Précise quelle(s) partie(s) paiera/paieront les frais dus pour le traitement de l'opération de paiement.",
+  "isoCodes": {
+    "OUR": {
+      "name": "Supportés par le débiteur",
+      "definition": "Tous les frais d'opération sont à la charge du débiteur."
+    },
+    "BEN": {
+      "name": "Supportés par le créancier",
+      "definition": "Tous les frais d'opération sont à la charge du créancier."
+    },
+    "SHA": {
+      "name": "Partagés",
+      "definition": "Dans le scénario de virement, les frais d'opération côté émetteur sont à la charge du débiteur ; les frais d'opération côté destinataire sont à la charge du créancier."
+    }
+  }
+}

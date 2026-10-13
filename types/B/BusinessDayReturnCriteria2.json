@@ -1,0 +1,27 @@
+{
+  "isoType": "BusinessDayReturnCriteria2",
+  "definition": "Définit les critères utilisés pour communiquer des informations sur le jour ouvré.",
+  "isoElements": {
+    "SystemDateIndicator": {
+      "definition": "Indique si la date du système est demandée."
+    },
+    "SystemStatusIndicator": {
+      "definition": "Indique si le statut du système est demandé."
+    },
+    "SystemCurrencyIndicator": {
+      "definition": "Indique si la devise du système est demandée."
+    },
+    "ClosurePeriodIndicator": {
+      "definition": "Indique si les informations de fermeture sont demandées."
+    },
+    "EventIndicator": {
+      "definition": "Indique si les événements sont demandés."
+    },
+    "SessionPeriodIndicator": {
+      "definition": "Indique si la période de session est demandée."
+    },
+    "EventTypeIndicator": {
+      "definition": "Indique si le type d'événement système est demandé."
+    }
+  }
+}

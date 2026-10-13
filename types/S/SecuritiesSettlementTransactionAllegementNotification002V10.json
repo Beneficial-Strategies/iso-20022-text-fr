@@ -1,0 +1,35 @@
+{
+  "isoType": "SecuritiesSettlementTransactionAllegementNotification002V10",
+  "definition": "Portée|Un teneur de compte envoie un SecuritiesSettlementTransactionAllegementNotification à un titulaire de compte afin de l'informer qu'une contrepartie a allégué une instruction sur le compte du titulaire de compte auprès du teneur de compte et que le teneur de compte n'a pas pu trouver l'instruction correspondante du titulaire de compte.|La relation teneur de compte/titulaire peut être :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement agissant pour le compte de ses participants|- un agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou|- un conservateur agissant pour le compte d'un établissement de gestion d'investissements ou d'un courtier/négociateur.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments pertinents du Business Application Header.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la partie donneuse d'ordre."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération de contrepartie attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    }
+  },
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "Si l'instruction est contre paiement, SettlementAmount doit être présent."
+    },
+    "ReceivingParty1Rule": {
+      "definition": "Si l'instruction est une livraison, ReceivingParty1 doit être présent."
+    },
+    "DeliveringParty1Rule": {
+      "definition": "Si l'instruction est une réception, alors DeliveringParty1 doit être présent."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur l'utilisation de ce message.|Ces pratiques de marché sont disponibles sur www.smpg.info."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "Pour le règlement d'opérations en deux parties (financement sur titres), l'ouverture/initiation et la clôture/retour de l'opération sont confirmés en envoyant la combinaison suivante de codes TransactionIdentificationDetails/SecuritiesMovementType et de codes SettlementParameters/SecuritiesTransactionType :||Ouverture de repo|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Clôture de repo|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Ouverture de reverse repo|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Clôture de reverse repo|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||Ouverture de repo triparties|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|Clôture de repo triparties|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||Ouverture de reverse repo triparties|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|Clôture de reverse repo triparties|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Initiation de prêt de titres|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Retour de prêt de titres|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Initiation d'emprunt de titres|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Retour d'emprunt de titres|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "Pour le règlement des opérations en deux volets (vente avec rachat, achat avec revente, garantie entrante et sortante), l'ouverture/initiation et la clôture/restitution de l'opération sont alléguées par l'envoi de la combinaison suivante de codes SettlementTypeAndAdditionalParameters/SecuritiesMovementType et de codes SettlementParameters/SecuritiesTransactionType :||Vente avec rachat : vente|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Vente avec rachat : rachat|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Achat avec revente : achat|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Achat avec revente : revente|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Sortie de garantie (donneur) : initiation|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Sortie de garantie (donneur) : restitution|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Entrée de garantie (preneur) : initiation|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Entrée de garantie (preneur) : restitution|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "LimitAmount1",
+  "definition": "Caractéristiques de montant utilisées pour spécifier une limite.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant de la limite, exprimé dans une devise éligible."
+    },
+    "UtilisationAmount": {
+      "definition": "Montant utilisé de la limite, exprimé dans une devise éligible."
+    },
+    "AvailableAmount": {
+      "definition": "Montant restant de la limite, exprimé dans une devise éligible."
+    }
+  }
+}

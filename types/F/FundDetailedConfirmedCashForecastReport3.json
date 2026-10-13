@@ -1,0 +1,18 @@
+{
+  "isoType": "FundDetailedConfirmedCashForecastReport3",
+  "definition": "Informations relatives à un rapport de prévision de trésorerie.",
+  "isoElements": {
+    "FundOrSubFundDetails": {
+      "definition": "Informations sur le fonds ou compartiment lorsque le rapport précise le flux de trésorerie soit du fonds ou compartiment, soit d'une catégorie de parts du fonds ou compartiment."
+    },
+    "FundCashForecastDetails": {
+      "definition": "Informations relatives aux flux de trésorerie entrants et sortants pour une date de négociation donnée à la suite d'opérations sur des parts d'un fonds d'investissement, par exemple des souscriptions, des rachats ou des arbitrages. Les informations fournies sont classées selon des critères prédéfinis tels que le pays, l'établissement, la devise ou des critères définis par l'utilisateur."
+    },
+    "ConsolidatedNetCashForecast": {
+      "definition": "Trésorerie nette estimée résultant des flux de trésorerie entrants et sortants."
+    },
+    "Extension": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans tout autre bloc spécifique."
+    }
+  }
+}

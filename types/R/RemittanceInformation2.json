@@ -1,0 +1,9 @@
+{
+  "isoType": "RemittanceInformation2",
+  "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le virement est destiné à régler.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le virement est destiné à régler, par exemple des factures commerciales dans un système de comptes clients, sous forme non structurée."
+    }
+  }
+}

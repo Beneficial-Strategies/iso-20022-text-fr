@@ -1,0 +1,14 @@
+{
+  "isoType": "PositionEffect3Code",
+  "definition": "Indique l'ordre dans lequel les événements sont traités.",
+  "isoCodes": {
+    "FIFO": {
+      "name": "Premier entré, premier sorti",
+      "definition": "Premier entré, premier sorti. Donne une position obtenue après avoir vendu en priorité les titres achetés chronologiquement."
+    },
+    "LIFO": {
+      "name": "Dernier entré, premier sorti",
+      "definition": "Dernier entré, dernier sorti. Donne une position obtenue après avoir vendu en priorité les titres achetés chronologiquement."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "BonusWithdrawal2",
+  "definition": "Informations sur une prime versée ou un retrait.",
+  "isoElements": {
+    "TypeOfAmount": {
+      "definition": "Précise si le montant résulte d’une prime versée, d’un retrait ou d’un autre type de montant."
+    },
+    "Amount": {
+      "definition": "Montant de la prime versée ou montant réclamé. Par exemple, un montant réclamé pour un lifetime ISA (LISA) ou une prime publique versée."
+    },
+    "Reason": {
+      "definition": "Motif du montant de prime versé au produit d’investissement ou du montant retiré de celui-ci."
+    },
+    "UnclaimedAmount": {
+      "definition": "Montant d’une prime non réclamée ou d’un retrait non réclamé."
+    },
+    "Outstanding": {
+      "definition": "Indique s’il existe un montant de prime ou de retrait en suspens."
+    },
+    "Reference": {
+      "definition": "Identification du retrait ou de la prime."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur les fonds versés ou retirés."
+    }
+  }
+}

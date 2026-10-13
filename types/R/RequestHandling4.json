@@ -1,0 +1,20 @@
+{
+  "isoType": "RequestHandling4",
+  "definition": "Explique le statut de la demande concernée.",
+  "isoElements": {
+    "Status": {
+      "definition": "Indique le statut de la demande, par exemple le résultat de la validation du schéma ou un résultat/une erreur de traitement métier."
+    },
+    "StatusReason": {
+      "definition": "Fournit des informations détaillées sur le motif du statut."
+    },
+    "Description": {
+      "definition": "Description du statut, sous forme de texte libre."
+    }
+  },
+  "isoRules": {
+    "DescriptionRule": {
+      "definition": "Si Description est présent, Status/Code n'est pas autorisé."
+    }
+  }
+}

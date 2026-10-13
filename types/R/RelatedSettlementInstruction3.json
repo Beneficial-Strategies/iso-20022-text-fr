@@ -1,0 +1,44 @@
+{
+  "isoType": "RelatedSettlementInstruction3",
+  "definition": "Informations sur une instruction de règlement-livraison liée.",
+  "isoElements": {
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par le gestionnaire de l'instruction autre que le titulaire du compte, le teneur de compte ou l'infrastructure de marché."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Identifiant unique d'opération (UTI) tel que convenu avec l'autre contrepartie."
+    },
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Identification non ambiguë de l'instruction de règlement-livraison liée, attribuée par le titulaire du compte."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Précise si le mouvement sur un compte-titres résulte d'une instruction de livraison ou de réception."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    },
+    "TradeDate": {
+      "definition": "Précise la date/l'heure d'exécution de la transaction."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être livrés ou reçus."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantité totale de titres à régler."
+    },
+    "SettlementAmount": {
+      "definition": "Montant total à payer ou à recevoir en échange des titres."
+    },
+    "CounterpartyDepository": {
+      "definition": "Première partie réceptrice de la chaîne de règlement. Dans un règlement standard, il s'agit du dépositaire central de titres auprès duquel la partie réceptrice de l'opération demande à recevoir l'instrument financier."
+    }
+  },
+  "isoRules": {
+    "MarketInfrastructureOrProcessorTransactionIdentificationRule": {
+      "definition": "MarketInfrastructureTransactionIdentification ou ProcessorTransactionIdentification doit être présent ; les deux peuvent être présents."
+    }
+  }
+}

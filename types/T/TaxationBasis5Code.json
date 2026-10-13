@@ -1,0 +1,26 @@
+{
+  "isoType": "TaxationBasis5Code",
+  "definition": "Précise la base des impôts ou des frais.",
+  "isoCodes": {
+    "FLAT": {
+      "name": "Forfaitaire",
+      "definition": "La base des frais/impôts est un montant forfaitaire."
+    },
+    "GRAM": {
+      "name": "Montant brut",
+      "definition": "La base des frais/commissions/impôts est le montant brut."
+    },
+    "NEAM": {
+      "name": "Montant net",
+      "definition": "La base des frais/commissions/impôts est le montant net."
+    },
+    "NAVP": {
+      "name": "Prix de la valeur nette d'inventaire",
+      "definition": "La base des frais/impôts est le prix."
+    },
+    "PERU": {
+      "name": "Par part",
+      "definition": "La base des frais/impôts est par unité d'instrument financier."
+    }
+  }
+}

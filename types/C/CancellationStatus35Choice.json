@@ -1,0 +1,15 @@
+{
+  "isoType": "CancellationStatus35Choice",
+  "definition": "Statut s'appliquant à la demande d'annulation d'instruction reçue.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Statut relatif au traitement de la demande d'annulation d'instruction."
+    },
+    "Rejected": {
+      "definition": "Statut relatif au rejet de la demande d'annulation d'instruction et au motif du rejet."
+    },
+    "PendingCancellation": {
+      "definition": "Statut indiquant que la demande d'annulation d'instruction est en attente et précisant le motif de cette mise en attente."
+    }
+  }
+}

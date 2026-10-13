@@ -1,0 +1,17 @@
+{
+  "isoType": "ExternalGarnishmentType1Code",
+  "isoCodes": {
+    "GNCS": {
+      "name": "Saisie-arrêt pour pension alimentaire des enfants",
+      "definition": "Saisie-arrêt par un payeur tiers au titre de la pension alimentaire pour enfant"
+    },
+    "GNDP": {
+      "name": "Saisie-arrêt pour pension alimentaire des enfants auprès du payeur direct",
+      "definition": "Saisie-arrêt par un payeur direct au titre de la pension alimentaire pour enfant"
+    },
+    "GTPP": {
+      "name": "Saisie-arrêt au profit de l'administration fiscale",
+      "definition": "Saisie-arrêt par un payeur tiers au profit de l'administration fiscale"
+    }
+  }
+}

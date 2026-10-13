@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingStatus68Choice",
+  "definition": "Choix du format du statut de traitement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Indique le statut d'une instruction."
+    },
+    "Proprietary": {
+      "definition": "Précise un choix de statut pour le traitement d'un mouvement intra-solde."
+    }
+  }
+}

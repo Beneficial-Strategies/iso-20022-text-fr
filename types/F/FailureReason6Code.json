@@ -1,0 +1,22 @@
+{
+  "isoType": "FailureReason6Code",
+  "definition": "Motif pour lequel la clé a été arrêtée.",
+  "isoCodes": {
+    "CMPR": {
+      "name": "Compromis",
+      "definition": "La clé est compromise."
+    },
+    "EXPR": {
+      "name": "Expiré",
+      "definition": "La clé a expiré."
+    },
+    "KCVE": {
+      "name": "KCV non valide",
+      "definition": "La valeur de contrôle de la clé est incorrecte."
+    },
+    "KLOD": {
+      "name": "Erreur de chargement de clé",
+      "definition": "Erreur lors du téléchargement de la clé dans le dispositif de sécurité."
+    }
+  }
+}

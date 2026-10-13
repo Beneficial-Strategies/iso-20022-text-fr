@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalEnquiryRequestType1Code",
+  "definition": "Spécifie le code externe du type de demande pour la consultation d'une position, sous forme de chaîne de caractères de 4 caractères au maximum.|La liste des codes valides est un jeu de codes externe publié séparément.|Les jeux de codes externes peuvent être téléchargés à l'adresse www.iso20022.org.",
+  "isoCodes": {
+    "RT11": {
+      "name": "Demande de position bancaire",
+      "definition": "Le type est une demande de renseignements sur la position de la banque."
+    },
+    "RT12": {
+      "name": "Demande sur une opération spécifique",
+      "definition": "Le type est une demande de renseignements sur une opération donnée."
+    },
+    "RT13": {
+      "name": "Demande sur opération en file d'attente",
+      "definition": "Le type est une demande de renseignements sur une opération en file d'attente."
+    },
+    "RT14": {
+      "name": "Demande sur opération suspecte",
+      "definition": "Le type est une demande de renseignements sur une opération suspecte."
+    },
+    "RT16": {
+      "name": "Demande d'heure système",
+      "definition": "Le type est une demande de renseignements sur la date et/ou l'heure du système."
+    },
+    "RT15": {
+      "name": "Demande sur crédits entrants en attente",
+      "definition": "Le type est une demande de renseignements sur les crédits entrants en attente."
+    }
+  }
+}

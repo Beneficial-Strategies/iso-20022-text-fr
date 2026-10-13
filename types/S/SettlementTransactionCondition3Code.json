@@ -1,0 +1,58 @@
+{
+  "isoType": "SettlementTransactionCondition3Code",
+  "definition": "Indique les conditions dans lesquelles l'ordre/la transaction doit être réglé(e).",
+  "isoCodes": {
+    "ASGN": {
+      "name": "Affectation",
+      "definition": "Transfert de la propriété de l'actif à une autre partie lors de la clôture d'une option."
+    },
+    "CLEN": {
+      "name": "Net",
+      "definition": "Les instruments financiers exonérés d'impôt doivent être réglés."
+    },
+    "DIRT": {
+      "name": "Brut",
+      "definition": "Les instruments financiers imposables doivent être réglés."
+    },
+    "DLWM": {
+      "name": "Livraison sans appariement",
+      "definition": "Instruction de réception correspondante non requise (uniquement pour les dépositaires centraux de titres internationaux ou nationaux concernés)."
+    },
+    "DRAW": {
+      "name": "Tiré",
+      "definition": "Les opérations de règlement concernent des titres tirés au sort."
+    },
+    "EXER": {
+      "name": "Exercé",
+      "definition": "L'opération de règlement se rapporte à des options, contrats à terme ou produits dérivés exercés."
+    },
+    "FRCL": {
+      "name": "Règlement libre de paiement",
+      "definition": "La livraison sera effectuée franco de paiement, mais un ordre de paiement simple (clean) sera envoyé."
+    },
+    "KNOC": {
+      "name": "Désactivé",
+      "definition": "L'opération de règlement se rapporte à des options, contrats à terme ou produits dérivés expirés sans valeur."
+    },
+    "PHYS": {
+      "name": "Physique",
+      "definition": "Les titres doivent être réglés physiquement."
+    },
+    "RESI": {
+      "name": "Résiduel",
+      "definition": "Se rapporte à une opération sur un titre qui n'est pas éligible auprès du dépositaire central de titres (CSD) mais dont le paiement sera effectué par le dépositaire central de titres."
+    },
+    "SPDL": {
+      "name": "Livraison spéciale",
+      "definition": "Opérations de règlement à régler avec livraison spéciale."
+    },
+    "SPST": {
+      "name": "Règlement fractionné",
+      "definition": "L'argent et les instruments financiers sont réglés à des endroits différents."
+    },
+    "UNEX": {
+      "name": "Non exposé",
+      "definition": "La livraison ne peut être effectuée avant réception des fonds."
+    }
+  }
+}

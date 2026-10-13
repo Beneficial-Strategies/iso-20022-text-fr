@@ -1,0 +1,4 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactionsCancellationV02",
+  "definition": "Portée|Un teneur de compte, par exemple un agent de transfert, envoie le message StatementOfInvestmentFundTransactionsCancellation au titulaire du compte, par exemple un gestionnaire d'investissement ou son représentant autorisé, pour annuler un message StatementOfInvestmentFundTransactions précédemment envoyé.|Utilisation|Le message StatementOfInvestmentFundTransactionsCancellation est utilisé pour annuler un message StatementOfInvestmentFundTransactions précédemment envoyé. Ce message doit contenir la référence du message à annuler.|Ce message peut également contenir tous les détails du message à annuler, mais cela n'est pas recommandé."
+}

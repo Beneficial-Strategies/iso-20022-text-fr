@@ -1,0 +1,14 @@
+{
+  "isoType": "AdviceType1Code",
+  "definition": "Précise le type d'avis à fournir en retour dans le rapport.",
+  "isoCodes": {
+    "ADWD": {
+      "name": "Avis avec détails",
+      "definition": "Avis avec détail des opérations demandé."
+    },
+    "ADND": {
+      "name": "Avis sans détails",
+      "definition": "Avis sans détail des opérations demandé."
+    }
+  }
+}

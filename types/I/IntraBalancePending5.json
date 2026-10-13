@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraBalancePending5",
+  "definition": "Fournit les données des mouvements intra-solde en attente.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Statut et motif du statut de l'opération."
+    },
+    "Movement": {
+      "definition": "Précisions sur le mouvement intra-solde individuel."
+    }
+  },
+  "isoRules": {
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason doit être présent ou Movement(*)/StatusAndReason doit être présent, mais pas les deux."
+    }
+  }
+}

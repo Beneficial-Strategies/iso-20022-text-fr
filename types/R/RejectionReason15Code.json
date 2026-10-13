@@ -1,0 +1,10 @@
+{
+  "isoType": "RejectionReason15Code",
+  "definition": "Précise le motif du rejet d'un avis d'information.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "La validation de l'avis/de l'instruction/de la demande a échoué."
+    }
+  }
+}

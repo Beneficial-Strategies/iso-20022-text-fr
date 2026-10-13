@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstruction13",
+  "definition": "Instruction de payer un montant d'argent à un bénéficiaire final, pour le compte d'un donneur d'ordre. Cette instruction peut devoir être transmise plusieurs fois pour mener à bien la chaîne de règlement.|.",
+  "isoElements": {
+    "RequestedExecutionDateTime": {
+      "definition": "Date à laquelle la partie initiatrice demande que l'instruction de paiement soit traitée.|."
+    },
+    "PaymentType": {
+      "definition": "Type ou nature du paiement, par exemple un paiement express."
+    }
+  }
+}

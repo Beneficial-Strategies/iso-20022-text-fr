@@ -1,0 +1,9 @@
+{
+  "isoType": "ModifyMemberV04",
+  "definition": "Portée|Le message ModifyMember est envoyé par un membre à l'administrateur des transactions.|Il sert à demander des modifications des données statiques relatives au profil d'un membre que l'administrateur des transactions tient à jour.|Utilisation|L'administrateur des transactions est chargé de fournir aux membres des informations métier. Le terme informations métier couvre toutes les informations relatives à la gestion du système, c'est-à-dire non liées aux opérations saisies dans le système. Le type d'informations métier disponibles peut varier selon le système. Il peut notamment s'agir d'informations sur l'adhésion au système.|À tout moment pendant les heures d'ouverture du système, le membre peut demander à l'administrateur des transactions de modifier les informations que celui-ci tient à jour à son sujet.|Le membre soumet un message demandant des modifications portant sur un ou plusieurs des critères suivants :|- identification du membre|- coordonnées de l'organisation du membre : adresse postale, adresse e-mail, numéro de téléphone ou de télécopie|- identification des personnes à contacter pour le membre, leur rôle et/ou leurs coordonnées (adresse postale, adresse e-mail, numéro de téléphone ou de télécopie)|Sur la base des critères reçus dans le message Modify Member, l'administrateur des transactions exécute ou rejette les modifications demandées.|En principe, l'administrateur des transactions peut envoyer un message Receipt en réponse à la demande ModifyMember. Pour vérifier l'issue de la demande, le membre peut soumettre un message GetMember avec les critères de recherche appropriés.",
+  "isoRules": {
+    "MandatoryValueRule": {
+      "definition": "Le NewMemberValueSet se compose d'un MemberReturnAddress, d'un CommunicationAddress ou d'un ContactReference. Au moins l'un de ces éléments doit être présent."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionNarrative1",
+  "definition": "Fournit des informations supplémentaires, telles que les conditions fiscales.",
+  "isoElements": {
+    "InformationConditions": {
+      "definition": "Fournit des informations conditionnelles relatives à l'événement, par ex. une offre soumise à une acceptation de 50 %, l'offrant permettant au porteur de titres de fixer certaines conditions."
+    },
+    "InformationToComplyWith": {
+      "definition": "Fournit au titulaire du compte des informations sur les conditions à respecter, par ex. non ouvert aux résidents des US/du Canada, fourniture d'une attestation QIB ou SIL."
+    },
+    "TaxationConditions": {
+      "definition": "Fournit des conditions fiscales qui ne peuvent pas être incluses dans les champs structurés de ce message."
+    },
+    "NewCompanyName": {
+      "definition": "Fournit le nouveau nom d'une société à la suite d'un changement de nom."
+    },
+    "Offeror": {
+      "definition": "Fournit l'entité qui fait l'offre, laquelle est différente de la société émettrice."
+    },
+    "URLAddress": {
+      "definition": "Fournit l'adresse web publiée pour l'événement, c'est-à-dire l'adresse de l'Universal Resource Locator (URL), utilisée par exemple sur le service www (HTTP)."
+    },
+    "AdditionalText": {
+      "definition": "Fournit des informations supplémentaires ou précise plus en détail le contenu d'un|message."
+    }
+  }
+}

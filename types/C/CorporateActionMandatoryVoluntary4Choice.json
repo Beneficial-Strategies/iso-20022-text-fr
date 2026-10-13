@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionMandatoryVoluntary4Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour indiquer si un événement d'opération sur titres est obligatoire ou non.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant si l'événement est obligatoire, obligatoire avec options ou volontaire."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire d'un événement."
+    }
+  }
+}

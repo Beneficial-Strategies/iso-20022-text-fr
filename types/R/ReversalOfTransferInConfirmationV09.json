@@ -1,0 +1,12 @@
+{
+  "isoType": "ReversalOfTransferInConfirmationV09",
+  "definition": "Portée|Le message ReversalOfTransferInConfirmation est envoyé par une partie exécutante, par exemple un agent de transfert, à la partie donneuse d'ordre, par exemple un gestionnaire de placements ou son représentant autorisé, afin d'annuler une confirmation de transfert entrant envoyée précédemment.|Utilisation|Le message ReversalOfTransferInConfirmation est utilisé pour annuler une confirmation de transfert entrant envoyée précédemment.|Pour demander l'annulation d'une confirmation de transfert entrant, la référence de transfert de l'instruction de transfert entrant, telle que spécifiée dans le message TransferInInstruction d'origine, est indiquée dans l'élément de référence de transfert. La référence de la partie exécutante pour l'exécution du transfert peut également être indiquée dans l'élément TransferConfirmationReference.|L'identification du message TransferInConfirmation d'origine peut également être citée dans PreviousReference, mais cela n'est pas recommandé.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identifiant unique et non ambigu d'un groupe de transferts individuels, attribué par la partie donneuse d'ordre. Cet identifiant relie les transferts individuels entre eux."
+    },
+    "Function": {
+      "definition": "Fonction du transfert entrant, c'est-à-dire si le message est utilisé comme annulation d'une confirmation envoyée précédemment ou comme annulation d'un avis envoyé précédemment. L'absence de Function indique que le message est une annulation d'une confirmation envoyée précédemment."
+    }
+  }
+}

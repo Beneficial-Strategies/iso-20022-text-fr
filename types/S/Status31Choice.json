@@ -1,0 +1,18 @@
+{
+  "isoType": "Status31Choice",
+  "definition": "Choix de formats pour la spécification du statut.",
+  "isoElements": {
+    "Status": {
+      "definition": "Le statut de l'annulation du transfert est accepté ou envoyé à la partie suivante."
+    },
+    "Rejected": {
+      "definition": "Le statut de l'annulation du transfert est rejeté."
+    },
+    "Complete": {
+      "definition": "Le statut de l'annulation du transfert est complet. L'instruction d'annulation a été acceptée et traitée, l'annulation est achevée."
+    },
+    "Pending": {
+      "definition": "Le statut de l'annulation du transfert est en attente."
+    }
+  }
+}

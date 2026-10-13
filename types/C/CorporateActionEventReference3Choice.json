@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventReference3Choice",
+  "definition": "Choix entre une identification d'opération sur titres ou une identification officielle d'opération sur titres.",
+  "isoElements": {
+    "LinkedOfficialCorporateActionEventIdentification": {
+      "definition": "Référence officielle et unique attribuée par l'organisme ou l'entité centrale officielle de chaque marché au début d'un événement sur titres."
+    },
+    "LinkedCorporateActionIdentification": {
+      "definition": "Référence attribuée par le teneur de compte pour identifier sans ambiguïté un événement sur titres connexe."
+    }
+  }
+}

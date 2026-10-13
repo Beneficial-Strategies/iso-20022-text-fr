@@ -1,0 +1,12 @@
+{
+  "isoType": "FromToPercentageRange1",
+  "definition": "Plage de taux en pourcentage.",
+  "isoElements": {
+    "From": {
+      "definition": "Borne inférieure d'une plage de taux en pourcentage."
+    },
+    "To": {
+      "definition": "Borne supérieure d'une plage de taux en pourcentage."
+    }
+  }
+}

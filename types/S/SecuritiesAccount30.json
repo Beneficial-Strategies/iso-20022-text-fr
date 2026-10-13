@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesAccount30",
+  "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "Type": {
+      "definition": "Précise le type de compte-titres."
+    },
+    "Name": {
+      "definition": "Description du compte."
+    }
+  }
+}

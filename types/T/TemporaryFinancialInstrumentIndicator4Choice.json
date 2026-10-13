@@ -1,0 +1,12 @@
+{
+  "isoType": "TemporaryFinancialInstrumentIndicator4Choice",
+  "definition": "Choix entre un indicateur ou un code propriétaire pour préciser si le titre est un titre temporaire.",
+  "isoElements": {
+    "TemporaryIndicator": {
+      "definition": "Identification temporaire d'instrument financier utilisée pour des raisons de traitement."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire précisant si le titre est un titre temporaire."
+    }
+  }
+}

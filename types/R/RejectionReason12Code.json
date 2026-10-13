@@ -1,0 +1,70 @@
+{
+  "isoType": "RejectionReason12Code",
+  "definition": "Précise le motif du rejet d'une instruction de désactivation.",
+  "isoCodes": {
+    "DEAC": {
+      "name": "Événement déjà désactivé",
+      "definition": "Rejetée car la désactivation de l'événement est déjà terminée."
+    },
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "La validation de l'avis/de l'instruction/de la demande a échoué."
+    },
+    "SAME": {
+      "name": "Même identification CA",
+      "definition": "Une instruction de désactivation d'agent pour opération sur titres (Agent Corporate Action Deactivation Instruction) portant la même identification existe déjà."
+    },
+    "REFI": {
+      "name": "Identification CA non valide",
+      "definition": "Identification d'opération sur titres fournie non valide."
+    },
+    "AGIN": {
+      "name": "Agent non valide",
+      "definition": "Identification d'agent fournie invalide."
+    },
+    "MAIN": {
+      "name": "Pas l'agent principal",
+      "definition": "L'identification de l'agent indiquée ne correspond pas à l'agent principal de l'événement concerné."
+    },
+    "OPTI": {
+      "name": "Option invalide",
+      "definition": "Combinaison invalide du code d'option et du numéro d'option de l'opération sur titres (CA)."
+    },
+    "PEDA": {
+      "name": "Désactivation en attente",
+      "definition": "L'option d'opération sur titres indiquée fait déjà l'objet d'une instruction de désactivation en attente."
+    },
+    "NORO": {
+      "name": "Aucune option restante",
+      "definition": "L'opération sur titres indiquée n'a plus d'options à désactiver."
+    },
+    "INET": {
+      "name": "Type d'événement non valide",
+      "definition": "Le CA Event Type ne correspond pas à l'opération sur titres concernée."
+    },
+    "INUS": {
+      "name": "Titre sous-jacent invalide",
+      "definition": "L'Underlying Security Identification ne correspond pas à la Corporate Action Reference fournie."
+    },
+    "INPT": {
+      "name": "Type de traitement d'événement invalide",
+      "definition": "L'Event Processing Type ne correspond pas à l'opération sur titres concernée."
+    },
+    "INMV": {
+      "name": "Type d'événement obligatoire ou volontaire invalide",
+      "definition": "Le Mandatory/Voluntary Event Type ne correspond pas à l'opération sur titres concernée."
+    },
+    "SAID": {
+      "name": "Même identification",
+      "definition": "Plusieurs messages portent la même identification."
+    },
+    "MICA": {
+      "name": "Identification CA non concordante",
+      "definition": "L'Issuer CA Identification ne correspond pas à la Corporate Action Identification fournie."
+    },
+    "NOAP": {
+      "name": "Sans objet",
+      "definition": "Ce type d'instruction n'est pas applicable aux événements obligatoires."
+    }
+  }
+}

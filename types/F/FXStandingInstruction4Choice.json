@@ -1,0 +1,12 @@
+{
+  "isoType": "FXStandingInstruction4Choice",
+  "definition": "Choix du format des informations d'instruction permanente de change.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Précise si l'instruction permanente de change en place doit s'appliquer."
+    },
+    "Proprietary": {
+      "definition": "Informations d'instruction permanente de change exprimées sous forme de code propriétaire (FX)."
+    }
+  }
+}

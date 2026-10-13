@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason10",
+  "definition": "Précise le motif pour lequel l'instruction ou la demande est annulée.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le motif pour lequel l'instruction est annulée."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur le motif qui ne peuvent pas figurer dans un champ structuré."
+    }
+  }
+}

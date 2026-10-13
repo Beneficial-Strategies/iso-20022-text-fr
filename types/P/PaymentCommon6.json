@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentCommon6",
+  "definition": "Détails communs à toutes les instructions de paiement.",
+  "isoElements": {
+    "PaymentFrom": {
+      "definition": "Origine du paiement (membre, système ou les deux)."
+    },
+    "PaymentTo": {
+      "definition": "Destination du paiement (membre, système ou les deux)."
+    },
+    "CommonStatus": {
+      "definition": "Statut d'un transfert."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Date et heure auxquelles les fonds sont à la disposition du titulaire du compte crédité, ou cessent d'être à la disposition du titulaire du compte débité."
+    },
+    "EntryDate": {
+      "definition": "Date et heure auxquelles une écriture est comptabilisée sur un compte dans les livres de la banque gestionnaire du compte."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si l'instruction de paiement est un débit ou un crédit.|."
+    },
+    "PaymentMethod": {
+      "definition": "Indique le message ou l'événement à l'origine d'une instruction."
+    }
+  }
+}

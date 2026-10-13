@@ -1,0 +1,14 @@
+{
+  "isoType": "OperationalStatus1Code",
+  "definition": "Précise le statut opérationnel.",
+  "isoCodes": {
+    "ENAB": {
+      "name": "Activé",
+      "definition": "Activé."
+    },
+    "SPEC": {
+      "name": "Circonstances particulières",
+      "definition": "Circonstances particulières."
+    }
+  }
+}

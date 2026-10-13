@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalInvestigationActionReason1Code",
+  "definition": "Précise l'action demandée, telle que publiée dans une liste de codes externe d'actions d'enquête.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "IRSI": {
+      "name": "Demande d'enquête envoyée par erreur",
+      "definition": "La clôture est demandée car la demande d'enquête a été envoyée par erreur."
+    },
+    "IRRR": {
+      "name": "Demande d'enquête résolue",
+      "definition": "La clôture est demandée car la demande d'enquête a été résolue par le demandeur."
+    },
+    "IRCD": {
+      "name": "Réponse à l'enquête : compensation contestée",
+      "definition": "Une objection est formulée car le montant de la compensation indiqué dans la réponse à l'enquête semble incorrect."
+    },
+    "IRIC": {
+      "name": "Réponse à l'enquête incomplète",
+      "definition": "Une objection est formulée car les données fournies dans la réponse à l'enquête sont insuffisantes pour traiter la demande initiale."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Voir l'élément AdditionalInformation pour le motif de l'action."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "TR34Command1Code",
+  "definition": "Commande TR34 spécifique que l'ATM peut exécuter.",
+  "isoCodes": {
+    "BIND": {
+      "name": "Liaison",
+      "definition": "Opération TR34 bind."
+    },
+    "HILR": {
+      "name": "Reliaison de niveau supérieur",
+      "definition": "Opération TR34 Higher Level rebind."
+    },
+    "HILU": {
+      "name": "Déliaison de niveau supérieur",
+      "definition": "Opération TR34 Higher Level unbind."
+    },
+    "RBND": {
+      "name": "Reliaison",
+      "definition": "Opération TR34 rebind."
+    },
+    "UBND": {
+      "name": "Déliaison",
+      "definition": "Opération TR34 unbind."
+    }
+  }
+}

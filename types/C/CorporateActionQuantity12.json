@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionQuantity12",
+  "definition": "Précise les quantités d'une opération sur titres.",
+  "isoElements": {
+    "BaseDenomination": {
+      "definition": "Montant entier minimum de titres que chaque titulaire de compte doit conserver après l'application des montants rappelés."
+    },
+    "IncrementalDenomination": {
+      "definition": "Montant utilisé lorsque le montant rappelé n'est pas atteint en effectuant le tirage au sort avec la dénomination de base."
+    }
+  }
+}

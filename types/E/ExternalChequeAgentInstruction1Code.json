@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalChequeAgentInstruction1Code",
+  "definition": "Précise le code d'instruction externe, tel que fourni à un agent chargé des chèques pour le traitement, sous la forme d'une chaîne de caractères de 4 caractères au maximum.|La liste des codes valides est un jeu de codes externe publié séparément.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org."
+}

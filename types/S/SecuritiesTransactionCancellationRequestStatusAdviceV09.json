@@ -1,0 +1,14 @@
+{
+  "isoType": "SecuritiesTransactionCancellationRequestStatusAdviceV09",
+  "definition": "Portée|Un teneur de compte envoie un SecuritiesTransactionCancellationRequestStatusAdvice à un titulaire de compte afin de l'informer du statut d'une demande d'annulation de transaction sur titres précédemment envoyée par le titulaire de compte.|La relation teneur de compte/titulaire peut être :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement agissant pour le compte de ses participants|- un agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou|- un conservateur agissant pour le compte d'un établissement de gestion d'investissements ou d'un courtier/négociateur.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information|en utilisant les éléments pertinents du Business Application Header.",
+  "isoElements": {
+    "CancellationRequestReference": {
+      "definition": "Référence à l'identification non ambiguë de la demande d'annulation selon le titulaire de compte."
+    }
+  },
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur l'utilisation de ce message.|Ces pratiques de marché sont disponibles sur www.smpg.info."
+    }
+  }
+}

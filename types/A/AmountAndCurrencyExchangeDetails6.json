@@ -1,0 +1,15 @@
+{
+  "isoType": "AmountAndCurrencyExchangeDetails6",
+  "definition": "Ensemble d'éléments fournissant des informations sur le montant d'origine et le change.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type de montant."
+    },
+    "Amount": {
+      "definition": "Montant à échanger contre un autre montant dans la contre-devise."
+    },
+    "CurrencyExchange": {
+      "definition": "Ensemble d'éléments fournissant des détails sur le change."
+    }
+  }
+}

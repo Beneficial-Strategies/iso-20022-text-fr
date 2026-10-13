@@ -1,0 +1,18 @@
+{
+  "isoType": "GenericIdentification32",
+  "definition": "Identification d'une entité.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification de l'entité."
+    },
+    "Type": {
+      "definition": "Type d'entité identifiée."
+    },
+    "Issuer": {
+      "definition": "Entité attribuant l'identification (par exemple commerçant, accepteur, acquéreur ou autorité fiscale)."
+    },
+    "ShortName": {
+      "definition": "Nom de l'entité."
+    }
+  }
+}

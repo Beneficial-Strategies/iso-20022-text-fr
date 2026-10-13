@@ -1,0 +1,12 @@
+{
+  "isoType": "OrganisationIdentificationSchemeName1Choice",
+  "definition": "Ensembles d'éléments permettant d'identifier le nom du schéma d'identification de l'organisation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Nom du schéma d'identification, sous forme codée telle que publiée dans une liste externe."
+    },
+    "Proprietary": {
+      "definition": "Nom du schéma d'identification, sous forme de texte libre."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Party48Choice",
+  "definition": "Choix de formats pour la spécification de la partie.",
+  "isoElements": {
+    "Organisation": {
+      "definition": "Structure organisée constituée à une fin particulière, par exemple une entreprise, un organisme public, un service, une organisation caritative ou un établissement financier."
+    },
+    "IndividualPerson": {
+      "definition": "Entité humaine, par opposition à une entité d'entreprise (parfois appelée « personne morale »)."
+    }
+  }
+}

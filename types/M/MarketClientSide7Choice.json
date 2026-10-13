@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketClientSide7Choice",
+  "definition": "Choix de format pour les informations côté marché/côté client.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informations côté marché ou côté client exprimées sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Informations côté marché ou côté client exprimées sous la forme d'un code propriétaire."
+    }
+  }
+}

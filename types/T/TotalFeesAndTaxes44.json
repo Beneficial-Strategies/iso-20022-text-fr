@@ -1,0 +1,35 @@
+{
+  "isoType": "TotalFeesAndTaxes44",
+  "definition": "Montant d'argent associé à un service.",
+  "isoElements": {
+    "TotalOverheadApplied": {
+      "definition": "Montant total des frais généraux appliqués à la transaction qui ont une incidence sur le montant du règlement."
+    },
+    "TotalFees": {
+      "definition": "Montant total des frais (charges/commissions) appliqués à la transaction qui ont une incidence sur le montant du règlement."
+    },
+    "TotalTaxes": {
+      "definition": "Montant total des impôts appliqués à la transaction qui ont une incidence sur le montant du règlement."
+    },
+    "CommercialAgreementReference": {
+      "definition": "Référence à l'accord établi entre le fonds et une autre partie. Cet élément définit, entre autres, les conditions des commissions."
+    },
+    "IndividualFee": {
+      "definition": "Frais (charges/commissions) individuels."
+    },
+    "IndividualTax": {
+      "definition": "Impôt individuel."
+    },
+    "DigitalNetworkFee": {
+      "definition": "Frais de réseau numérique attribués à une transaction."
+    }
+  },
+  "isoRules": {
+    "NonStandardSLAReferenceRule": {
+      "definition": "Pour chaque valeur de IndividualFee/Type, NonStandardSLAReference ne peut être présent qu'une seule fois."
+    },
+    "TransactionOverheadElementRule": {
+      "definition": "L'un des éléments (TotalOverheadApplied, TotalFees, TotalTaxes, CommercialAgreementReference, IndividualFee, IndividualTax) doit être présent."
+    }
+  }
+}

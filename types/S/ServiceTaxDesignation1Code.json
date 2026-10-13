@@ -1,0 +1,18 @@
+{
+  "isoType": "ServiceTaxDesignation1Code",
+  "definition": "Définit le statut d'imposition du service.",
+  "isoCodes": {
+    "XMPT": {
+      "name": "Exempté",
+      "definition": "Aucune taxe n'est due."
+    },
+    "ZERO": {
+      "name": "Taux zéro",
+      "definition": "Une taxe est due mais à un taux de zéro pour cent et pour des frais nuls."
+    },
+    "TAXE": {
+      "name": "Imposable",
+      "definition": "Une ou plusieurs taxes sont dues sur ce service."
+    }
+  }
+}

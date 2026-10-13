@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalInvestigationAction1Code",
+  "definition": "Précise l'action demandée, telle que publiée dans une liste de codes externe d'actions d'enquête.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "RQCL": {
+      "name": "Demande de clôture de l'enquête",
+      "definition": "Il est demandé au répondant de clore l'enquête. Toutes les demandes d'enquête relatives à l'enquête peuvent être ignorées."
+    },
+    "RQST": {
+      "name": "Demande de statut de l'enquête",
+      "definition": "Il est demandé au répondant de fournir l'état de l'enquête."
+    },
+    "RQOB": {
+      "name": "Demande d'objection",
+      "definition": "Il est demandé au répondant de réexaminer une réponse antérieure, le demandeur s'y opposant."
+    },
+    "RQRO": {
+      "name": "Demande de réouverture de l'enquête",
+      "definition": "Il est demandé au répondant de rouvrir l'enquête."
+    }
+  }
+}

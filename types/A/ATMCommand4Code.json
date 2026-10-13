@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMCommand4Code",
+  "definition": "Type de commande à exécuter par un ATM.",
+  "isoCodes": {
+    "ABAL": {
+      "name": "Solde du DAB",
+      "definition": "Fournir les compteurs de l'ATM, en réinitialisant ceux qui sont applicables."
+    },
+    "ASTS": {
+      "name": "Mise à jour du statut du DAB",
+      "definition": "Statut de l'ATM requis par le gestionnaire de l'ATM."
+    },
+    "CFGT": {
+      "name": "Mise à jour de la configuration",
+      "definition": "Mettre à jour les paramètres de configuration de l'ATM."
+    },
+    "CCNT": {
+      "name": "Consultation des compteurs",
+      "definition": "Demander la valeur des compteurs de l'ATM."
+    },
+    "DISC": {
+      "name": "Déconnexion",
+      "definition": "Effectuer une déconnexion suivie d'une reconnexion."
+    },
+    "SNDM": {
+      "name": "Envoi de message",
+      "definition": "Envoyer un message spécifique pour initier un traitement."
+    },
+    "RPTC": {
+      "name": "Rapport des compteurs",
+      "definition": "Fournir la valeur des compteurs de l'ATM, sans réinitialisation des compteurs."
+    }
+  }
+}

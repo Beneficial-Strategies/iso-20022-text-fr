@@ -1,0 +1,26 @@
+{
+  "isoType": "FinancialInstrumentQuantity35Choice",
+  "definition": "Choix entre les formats de la quantité de titres.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Quantité exprimée sous forme de nombre, par exemple un nombre d'actions."
+    },
+    "FaceAmount": {
+      "definition": "Quantité exprimée sous forme de montant représentant la valeur nominale, c'est-à-dire le principal, d'un instrument de dette."
+    },
+    "AmortisedValue": {
+      "definition": "Quantité exprimée sous forme de montant représentant la valeur nominale amortie courante d'une obligation, par exemple une réduction ou augmentation périodique du principal d'une obligation."
+    },
+    "Code": {
+      "definition": "Quantité exprimée sous forme de code."
+    },
+    "DigitalTokenUnit": {
+      "definition": "Quantité de jetons numériques exprimée sous forme de nombre, par exemple un nombre de jetons de blockchain."
+    }
+  },
+  "isoRules": {
+    "DigitalTokenUnitUsageRule": {
+      "definition": "Le format DigitalTokenUnit ne peut être utilisé que pour les instruments identifiés par un identifiant de jeton numérique."
+    }
+  }
+}

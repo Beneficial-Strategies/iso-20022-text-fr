@@ -1,0 +1,17 @@
+{
+  "isoType": "PendingCancellationStatusReason16",
+  "definition": "Précise les motifs du statut d'annulation en attente.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Précise le motif pour lequel la demande d'annulation est en attente."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur l'instruction traitée."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "L'élément AdditionalReasonInformation ne doit pas contenir d'informations pouvant être fournies dans un champ structuré, sauf accord bilatéral."
+    }
+  }
+}

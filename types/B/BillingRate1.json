@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingRate1",
+  "definition": "Précise le taux de facturation.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Définit le type de taux ou de facteur."
+    },
+    "Value": {
+      "definition": "Valeur du taux ou du facteur identifié dans l'identification du taux."
+    },
+    "DaysInPeriod": {
+      "definition": "Nombre de jours de la période du relevé. ||Usage : utilisé avec DaysInYear pour la valeur d'un taux annuel dépendant de la durée."
+    },
+    "DaysInYear": {
+      "definition": "Nombre de jours de l'année.||Usage : utilisé avec DaysInPeriod pour la valeur d'un taux annuel dépendant de la durée."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMCommand16",
+  "definition": "Commande de maintenance ayant demandé le rapport du dispositif.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de commande à exécuter par l'ATM."
+    },
+    "CommandIdentification": {
+      "definition": "Identification de l'entité émettant la commande."
+    }
+  }
+}

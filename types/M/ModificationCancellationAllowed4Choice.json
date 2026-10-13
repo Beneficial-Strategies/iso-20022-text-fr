@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationCancellationAllowed4Choice",
+  "definition": "Choix du format des informations de modification et d'annulation.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Précise si un tiers est autorisé à modifier ou à annuler l'opération."
+    },
+    "Proprietary": {
+      "definition": "Informations d'autorisation de modification ou d'annulation exprimées sous forme de code propriétaire."
+    }
+  }
+}

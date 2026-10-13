@@ -1,0 +1,12 @@
+{
+  "isoType": "ReturnedReason1Choice",
+  "definition": "Choix entre un code standard et un code propriétaire pour préciser le motif pour lequel l'instruction ou la demande d'annulation a le statut retourné.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif de retour spécifié sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif de retour spécifié sous forme de code propriétaire."
+    }
+  }
+}

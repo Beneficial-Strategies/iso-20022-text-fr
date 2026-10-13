@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMEnvironment22",
+  "definition": "Environnement de l'opération.",
+  "isoElements": {
+    "Acquirer": {
+      "definition": "Acquéreur de l'opération de l'ATM, chargé du règlement des fonds avec l'émetteur."
+    },
+    "ATMManagerIdentification": {
+      "definition": "Identification du gestionnaire de l'ATM."
+    },
+    "HostingEntity": {
+      "definition": "Entité hébergeant le terminal de l'ATM."
+    },
+    "ATM": {
+      "definition": "Informations sur l'ATM."
+    },
+    "Card": {
+      "definition": "Carte effectuant l'opération."
+    }
+  }
+}

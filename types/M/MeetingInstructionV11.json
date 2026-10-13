@@ -1,0 +1,17 @@
+{
+  "isoType": "MeetingInstructionV11",
+  "definition": "Portée|Le message MeetingInstruction est envoyé par une partie détenant le droit de vote à un intermédiaire, à l'émetteur ou à son agent afin de demander à la partie destinataire d'agir sur une ou plusieurs instructions.|Utilisation|Le message MeetingInstruction est utilisé pour voter, pour demander à assister à une assemblée, pour demander l'enregistrement de titres et pour désigner un mandataire. Une ou plusieurs instructions peuvent être transportées dans le même message.|Une fois le message envoyé, il ne peut plus être modifié. Il doit être annulé par un MeetingInstructionCancellationRequest. Ce n'est qu'après réception d'un statut d'annulation confirmée par le|message MeetingInstructionStatus qu'un nouveau message MeetingInstruction peut être envoyé.|Cette définition de message est destinée à être utilisée avec le Business Application Header (BAH).",
+  "isoElements": {
+    "MeetingInstructionIdentification": {
+      "definition": "Identification unique du groupe de messages d'instruction d'assemblée lorsque l'instruction est répartie sur plusieurs messages (paginés)."
+    }
+  },
+  "isoRules": {
+    "PaginationRule": {
+      "definition": "Si la pagination est présente, alors MeetingInstructionIdentification doit être présent."
+    },
+    "EntitlementFixingDate1Rule": {
+      "definition": "Si Confirmation of Holding Required dans MeetingNotification est défini sur Y, alors Entitlement Fixing Date doit être fournie."
+    }
+  }
+}

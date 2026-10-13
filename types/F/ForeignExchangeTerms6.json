@@ -1,0 +1,21 @@
+{
+  "isoType": "ForeignExchangeTerms6",
+  "definition": "Informations nécessaires pour traiter un change ou une conversion de devise.",
+  "isoElements": {
+    "UnitCurrency": {
+      "definition": "Devise dans laquelle le taux de change est exprimé lors d'un change de devises. Dans l'exemple 1GBP = xxxCUR, la devise de référence est GBP."
+    },
+    "QuotedCurrency": {
+      "definition": "Devise en laquelle la devise de base est convertie, dans un change de devises."
+    },
+    "ExchangeRate": {
+      "definition": "Valeur d'une devise exprimée par rapport à une autre devise. ExchangeRate exprime le rapport entre UnitCurrency et QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "QuotationDate": {
+      "definition": "Date et heure auxquelles un taux de change est coté."
+    },
+    "QuotingInstitution": {
+      "definition": "Partie qui propose un taux de change."
+    }
+  }
+}

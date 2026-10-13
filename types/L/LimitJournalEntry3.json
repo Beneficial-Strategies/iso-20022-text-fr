@@ -1,0 +1,30 @@
+{
+  "isoType": "LimitJournalEntry3",
+  "definition": "Les écritures du journal suivent les variations de l'utilisation de la limite. Des écritures existent pour toute activité ayant un impact sur la limite.",
+  "isoElements": {
+    "JournalDate": {
+      "definition": "Date et heure auxquelles l'écriture du journal des limites s'applique."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si l'écriture est une écriture au crédit ou au débit."
+    },
+    "Amount": {
+      "definition": "Montant de l'écriture individuelle ayant un impact sur la limite."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "TransactionIdentification": {
+      "definition": "Référence unique attribuée par l'établissement titulaire du compte permettant d'identifier sans ambiguïté l'écriture."
+    },
+    "AccountServicerReference": {
+      "definition": "Référence unique attribuée par l'établissement teneur de compte permettant d'identifier sans ambiguïté l'écriture."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par le processeur."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Détails complémentaires de l'écriture."
+    }
+  }
+}

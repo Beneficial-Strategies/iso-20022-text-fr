@@ -1,0 +1,21 @@
+{
+  "isoType": "NotificationGeneralInformation4",
+  "definition": "Type et statut de la notification d'un événement.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "definition": "Identification unique du groupe de messages de notification d'assemblée lorsque la notification est répartie sur plusieurs messages (paginés)."
+    },
+    "NotificationType": {
+      "definition": "Type de notification."
+    },
+    "NotificationStatus": {
+      "definition": "Statut des détails de l'événement."
+    },
+    "ShareholderRightsDirectiveIndicator": {
+      "definition": "Indique si l'annonce a été initiée par le premier intermédiaire de la chaîne de conservation conformément à SRD II."
+    },
+    "ConfirmationOfHoldingRequired": {
+      "definition": "Indique si l'émetteur exige une confirmation spécifique de détention accompagnée d'une instruction de participation et/ou de vote (par exemple, comme l'exige la loi allemande sur les sociétés par actions, paragraphe 67c, section 3)."
+    }
+  }
+}

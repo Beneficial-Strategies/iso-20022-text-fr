@@ -1,0 +1,26 @@
+{
+  "isoType": "BillingSubServiceQualifier1Code",
+  "definition": "Qualifie le contenu du code de sous-service.",
+  "isoCodes": {
+    "LBOX": {
+      "name": "Boîte postale de recouvrement",
+      "definition": "Le code de sous-service contient un numéro de boîte postale de recouvrement (lockbox) identifiant la boîte utilisant le service."
+    },
+    "STOR": {
+      "name": "Magasin",
+      "definition": "Le code de sous-service contient un numéro de magasin identifiant le magasin utilisant le service."
+    },
+    "BILA": {
+      "name": "Convenu bilatéralement",
+      "definition": "La signification du code de sous-service est établie par les partenaires commerciaux."
+    },
+    "SEQN": {
+      "name": "Numéro de séquence",
+      "definition": "Le code de sous-service est un numéro de séquence arbitraire servant à identifier de manière unique ce service et à éviter les services en double dans ce relevé."
+    },
+    "MACT": {
+      "name": "Compte du membre",
+      "definition": "Le code de sous-service est le numéro de compte d'un membre d'une structure de relation. Cela permet à un relevé parent d'inclure le même service cumulé à partir des comptes de ses membres tout en évitant une identification de service en double dans le relevé."
+    }
+  }
+}

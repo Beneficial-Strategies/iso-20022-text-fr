@@ -1,0 +1,12 @@
+{
+  "isoType": "PurposeCode9Choice",
+  "definition": "Choix entre un code et un schéma de source de données pour déterminer le type de compte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise le type de compte-titres."
+    },
+    "Proprietary": {
+      "definition": "Indique la priorité d'exécution de l'instruction selon un schéma propriétaire."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SecurityPosition20",
+  "definition": "Identification d'un titre et de son solde.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identification du titre, attribuée selon un schéma d'identification formel ou propriétaire."
+    },
+    "Position": {
+      "definition": "Montant de titres éligibles au vote."
+    }
+  }
+}

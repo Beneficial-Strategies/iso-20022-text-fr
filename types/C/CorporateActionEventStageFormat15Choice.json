@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStageFormat15Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type d'étape de l'événement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant l'étape de l'événement de l'opération sur titres."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire de l'étape de l'événement de l'opération sur titres."
+    }
+  }
+}

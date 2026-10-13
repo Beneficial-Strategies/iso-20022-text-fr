@@ -1,0 +1,154 @@
+{
+  "isoType": "RejectionReason75Code",
+  "definition": "Précise le motif pour lequel l'instruction de règlement a le statut rejeté.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Rejet du compte de conservation",
+      "definition": "Compte de conservation de l'émetteur du message non reconnu ou invalide."
+    },
+    "DQUA": {
+      "name": "Rejet de la quantité",
+      "definition": "Quantité instruite non reconnue ou invalide."
+    },
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Opération ou instruction reçue après l'heure limite précisée par l'établissement teneur de compte."
+    },
+    "DSEC": {
+      "name": "Titre non valide",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "CASH": {
+      "name": "Compte espèces",
+      "definition": "Compte espèces non reconnu ou invalide."
+    },
+    "DDEA": {
+      "name": "Prix de la transaction",
+      "definition": "Prix de la transaction non reconnu ou invalide."
+    },
+    "DTRD": {
+      "name": "Date de négociation",
+      "definition": "Date de transaction, date de transaction demandée ou date de transaction future non reconnue ou invalide."
+    },
+    "PLCE": {
+      "name": "Lieu de négociation",
+      "definition": "Lieu de négociation non reconnu ou invalide."
+    },
+    "RTGS": {
+      "name": "Impossible d'utiliser le système RTGS indiqué",
+      "definition": "Impossible d'utiliser le système RTGS indiqué (NRTG ou YRTG)."
+    },
+    "NCRR": {
+      "name": "Rejet de la devise du montant de règlement",
+      "definition": "Devise du montant de règlement non reconnue ou invalide."
+    },
+    "PHYS": {
+      "name": "Règlement physique impossible",
+      "definition": "Le règlement physique est impossible pour l'instrument financier instruit."
+    },
+    "REFE": {
+      "name": "Rejet de référence",
+      "definition": "L'instruction porte une référence identique à celle d'une autre instruction reçue précédemment."
+    },
+    "DMON": {
+      "name": "Rejet du montant de règlement",
+      "definition": "Montant de règlement non reconnu ou invalide."
+    },
+    "MINO": {
+      "name": "Quantité de règlement minimale",
+      "definition": "La quantité instruite est inférieure à la quantité de règlement minimale existante pour l'instrument financier."
+    },
+    "BATC": {
+      "name": "Rejet du lot de traitement",
+      "definition": "Lot de traitement non reconnu ou invalide, c'est-à-dire en journée/temps réel alors que le règlement n'est possible que par lot de nuit."
+    },
+    "MUNO": {
+      "name": "Quantité de règlement multiple",
+      "definition": "La quantité instruite n'est pas un multiple d'un lot de règlement existant pour l'instrument financier."
+    },
+    "TXST": {
+      "name": "Rejet du statut fiscal",
+      "definition": "Statut fiscal des titres instruits non reconnu ou invalide."
+    },
+    "SETS": {
+      "name": "Rejet de la méthode du système de règlement",
+      "definition": "Système/mode de règlement instruit non reconnu ou invalide."
+    },
+    "IIND": {
+      "name": "Rejet de la référence commune",
+      "definition": "Référence commune non reconnue, invalide ou manquante."
+    },
+    "CAEV": {
+      "name": "Rejet d'opération sur titres",
+      "definition": "Opération sur titres en cours sur l'instrument financier faisant l'objet de l'instruction."
+    },
+    "CASY": {
+      "name": "Système de règlement en espèces impossible",
+      "definition": "Des dispositions permanentes impossibles prévalent sur l'instruction pour le système de règlement espèces."
+    },
+    "DDAT": {
+      "name": "Rejet de la date de règlement",
+      "definition": "Date de règlement non reconnue ou invalide."
+    },
+    "SETR": {
+      "name": "Rejet de l'opération de règlement",
+      "definition": "Type d'opération de règlement non reconnu ou invalide."
+    },
+    "SDUT": {
+      "name": "Absence de droit de timbre",
+      "definition": "Les informations requises sur le droit de timbre sont manquantes."
+    },
+    "INPS": {
+      "name": "Lieu de conservation",
+      "definition": "Lieu de conservation non reconnu, invalide ou manquant."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "ICUS": {
+      "name": "Partie réceptrice ou livreuse 2",
+      "definition": "Client de la partie 1 livreuse ou réceptrice non reconnu ou invalide."
+    },
+    "ICAG": {
+      "name": "Partie réceptrice ou livreuse 1",
+      "definition": "Participant du dépositaire livreur ou récepteur non reconnu ou invalide."
+    },
+    "DEPT": {
+      "name": "Dépositaire récepteur ou livreur",
+      "definition": "Dépositaire non reconnu ou invalide."
+    },
+    "IEXE": {
+      "name": "Partie réceptrice ou livreuse 3",
+      "definition": "Client de la partie 2 livreuse ou réceptrice non reconnu ou invalide."
+    },
+    "INVB": {
+      "name": "Solde non valide",
+      "definition": "L'instruction vise à utiliser un solde invalide."
+    },
+    "INVL": {
+      "name": "Lien non valide",
+      "definition": "Lien invalide ou non reconnu."
+    },
+    "INVN": {
+      "name": "Numéro de lot non valide",
+      "definition": "Numéro de lot invalide ou non reconnu."
+    },
+    "VALR": {
+      "name": "Règle non valide",
+      "definition": "Rejet par une règle de validation de la banque teneur de compte."
+    },
+    "INVE": {
+      "name": "Partie investisseur non valide",
+      "definition": "Partie investisseur non reconnue ou invalide. Peut être utilisé par une partie exécutante pour rejeter une instruction concernant un investisseur (ou un portefeuille) pour lequel elle n'est pas autorisée à agir."
+    },
+    "PLIS": {
+      "name": "Lieu de cotation",
+      "definition": "Lieu de cotation non reconnu ou invalide. Utilisé lorsque le titre identifié n'est pas coté sur le marché fourni."
+    }
+  }
+}

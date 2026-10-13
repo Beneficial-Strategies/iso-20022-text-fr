@@ -1,0 +1,21 @@
+{
+  "required": "Obligatoire",
+  "invalid_type": "Valeur non valide",
+  "invalid_format": "Format non valide",
+  "decimal_format": "Saisissez un nombre composé de chiffres et, éventuellement, d’un point décimal, par exemple 1500.25",
+  "too_short": "{min, plural, =1 {Doit comporter au moins # caractère} other {Doit comporter au moins # caractères}}",
+  "too_long": "{max, plural, =1 {Doit comporter au plus # caractère} other {Doit comporter au plus # caractères}}",
+  "too_few_items": "Au moins {min} requis",
+  "too_many_items": "Au plus {max} autorisés",
+  "not_allowed_value": "Valeur non autorisée",
+  "select_one": "Sélectionnez une option",
+  "not_allowed_here": "Non autorisé ici",
+  "fraction_digits": "{max, plural, =1 {Au plus # décimale} other {Au plus # décimales}}",
+  "total_digits": "{max, plural, =1 {Au plus # chiffre au total} other {Au plus # chiffres au total}}",
+  "min_inclusive": "Doit être au moins {min}",
+  "invalid": "Valeur non valide",
+  "rule_literal_not_code_value": "le littéral « {value} » n’est pas une valeur d’une liste de codes à {path}",
+  "rule_path_unknown": "{path} n’est pas un champ de ce type ; la règle ne peut donc pas être vérifiée",
+  "rule_code_list_unavailable": "la liste de codes {list} n’est pas disponible",
+  "rule_operator_unsupported": "l’opérateur {op} n’est pas pris en charge"
+}

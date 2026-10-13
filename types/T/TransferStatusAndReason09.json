@@ -1,0 +1,98 @@
+{
+  "isoType": "TransferStatusAndReason09",
+  "definition": "Informations sur le statut d’une instruction de transfert et son motif.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identifiant unique et non ambigu d'un groupe de transferts individuels, attribué par la partie donneuse d'ordre. Cet identifiant relie les transferts individuels entre eux."
+    },
+    "TransferReference": {
+      "definition": "Identification unique et non ambiguë du transfert, attribuée par la partie donneuse d'ordre."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert par l'investisseur. Cette référence peut généralement être utilisée dans un scénario de plateforme centrale (hub) pour fournir la référence du transfert telle qu'attribuée par le client sous-jacent."
+    },
+    "CancellationReference": {
+      "definition": "Identifiant unique et non ambigu d'une annulation de transfert, attribué par la partie donneuse d'ordre."
+    },
+    "TransferEventType": {
+      "definition": "Type d’événement pour lequel le message est envoyé."
+    },
+    "TransferStatus": {
+      "definition": "Statut de l’instruction de transfert."
+    },
+    "Instrument": {
+      "definition": "Identification de l'actif."
+    },
+    "InvestmentAccountDetails": {
+      "definition": "Informations sur le compte d’investissement du transfert pour lequel le statut ou les informations sont fournis."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identification d'une partie liée ou d'un intermédiaire."
+    },
+    "TradeDate": {
+      "definition": "Date à laquelle le transfert a été exécuté.|Dans certains scénarios, il s’agit de la date et de l’heure à utiliser comme date de négociation lorsque les titres sont réglés par l’intermédiaire d’un dépositaire central international de titres (ICSD) ou d’un dépositaire central de titres (CSD)."
+    },
+    "SettlementDate": {
+      "definition": "Date à laquelle les titres doivent être échangés ou ont été échangés auprès du dépositaire central international de titres (ICSD) ou du dépositaire central de titres (CSD)."
+    },
+    "SendOutDate": {
+      "definition": "Date à laquelle le document, par exemple le formulaire de demande, a été envoyé."
+    },
+    "CashSettlementDate": {
+      "definition": "Date à laquelle la trésorerie est disponible."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Nombre de parts à transférer."
+    },
+    "AveragePrice": {
+      "definition": "Prix moyen pondéré des parts du compte. Le prix moyen peut aussi être appelé prix d’acquisition moyen."
+    },
+    "UnitsDetails": {
+      "definition": "Ventilation des parts à transférer."
+    },
+    "Conversion": {
+      "definition": "Informations sur le titre source à la suite d’une conversion."
+    },
+    "TotalTransferValue": {
+      "definition": "Valeur totale du transfert."
+    },
+    "PaymentDetails": {
+      "definition": "Détails d’un paiement résultant de la liquidation d’un actif et du transfert d’espèces, ou du transfert d’espèces qui n’avaient pas été investies."
+    },
+    "BenefitCrystallisationEvent": {
+      "definition": "Informations sur la réalisation des prestations tirées d’une pension."
+    },
+    "DrawdownTranche": {
+      "definition": "Détails d’une tranche de retrait échelonné."
+    },
+    "OtherDrawdownInformation": {
+      "definition": "Informations sur le retrait échelonné non spécifiquement associées à une tranche de retrait échelonné."
+    },
+    "QueryResponse": {
+      "definition": "Informations sur la réponse."
+    },
+    "StatusInitiator": {
+      "definition": "Partie qui initie le statut."
+    },
+    "StatusIssuer": {
+      "definition": "Partie qui émet le message de statut ou d’information."
+    },
+    "StatusRecipient": {
+      "definition": "Partie qui reçoit le message de statut ou d’information."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  },
+  "isoRules": {
+    "TransferStatusEventType1Rule": {
+      "definition": "Si au moins une occurrence de TransferEventType est Information (INFO), TransferStatus/Status/Status doit être égal à Received (RECE)."
+    },
+    "TransferStatusEventType2Rule": {
+      "definition": "Si au moins une occurrence de TransferEventType est ConversionStatus (CONV), TransferStatus/Status/Status doit être égal à Received (RECE)."
+    },
+    "ConversionRule": {
+      "definition": "Si au moins une occurrence de TransferEventType est ConversionStatus (CONV), Conversion doit être présent."
+    }
+  }
+}

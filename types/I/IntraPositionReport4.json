@@ -1,0 +1,23 @@
+{
+  "isoType": "IntraPositionReport4",
+  "definition": "Caractéristiques du relevé.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identification du message d'interrogation envoyé pour demander ce relevé."
+    },
+    "ReportIdentification": {
+      "definition": "Référence commune à toutes les pages d'un relevé."
+    },
+    "QueryType": {
+      "definition": "Définit le type de requête."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique si le relevé signale une activité ou une mise à jour d'informations."
+    }
+  },
+  "isoRules": {
+    "ReportIdentificationRule": {
+      "definition": "Si le rapport comporte plusieurs pages, ReportIdentification doit rester identique sur toutes les pages. C'est un numéro unique pour le rapport.|Deux rapports du même type envoyés l'un après l'autre au même destinataire pour le même compte-titres doivent avoir des identifications de rapport différentes. Par exemple, un rapport quotidien envoyé le jour 1 aurait la ReportIdentification 001, le jour 2, 002, etc."
+    }
+  }
+}

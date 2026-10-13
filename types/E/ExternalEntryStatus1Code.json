@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalEntryStatus1Code",
+  "definition": "Précise le statut d'une écriture dans les livres du teneur de compte, tel que publié dans une liste de codes externe.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "BOOK": {
+      "name": "Comptabilisé",
+      "definition": "Comptabilisé signifie que le transfert de fonds entre le teneur de compte et le titulaire du compte est achevé.|Usage : le statut Comptabilisé n'implique pas nécessairement le caractère définitif des fonds, car celui-ci dépend d'autres facteurs tels que le système de paiement utilisé, l'achèvement de l'opération de bout en bout et les conditions convenues entre le teneur de compte et le titulaire.|Le statut Comptabilisé est le seul statut pouvant faire l'objet d'une annulation."
+    },
+    "FUTR": {
+      "name": "Futur",
+      "definition": "L'écriture figure dans les livres du teneur de compte et la valeur sera appliquée au titulaire du compte à une date et une heure ultérieures."
+    },
+    "INFO": {
+      "name": "Information",
+      "definition": "L'écriture est fournie à titre d'information uniquement, et aucune comptabilisation n'a été effectuée sur le compte du titulaire dans les livres du teneur de compte."
+    },
+    "PDNG": {
+      "name": "En attente",
+      "definition": "La comptabilisation sur le compte du titulaire dans les livres du teneur de compte n'est pas achevée.|Usage : peut être utilisé pour les éléments attendus, ou pour les éléments dont certaines conditions doivent encore être remplies avant de pouvoir être comptabilisés. Si la comptabilisation a lieu, l'écriture figurera avec le statut Comptabilisé dans un rapport ou relevé de compte ultérieur. Le statut En attente ne peut pas faire l'objet d'une annulation."
+    }
+  }
+}

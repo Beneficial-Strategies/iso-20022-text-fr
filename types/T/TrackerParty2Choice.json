@@ -1,0 +1,15 @@
+{
+  "isoType": "TrackerParty2Choice",
+  "definition": "Nature ou utilisation du compte.",
+  "isoElements": {
+    "OrganisationIdentification": {
+      "definition": "Moyen unique et non ambigu d'identifier une organisation."
+    },
+    "PrivateIdentification": {
+      "definition": "Identification unique et non ambiguë d'une personne, par exemple un passeport."
+    },
+    "FinancialInstitutionIdentification": {
+      "definition": "Identification unique et non ambiguë d'un établissement financier, attribuée selon un schéma d'identification internationalement reconnu ou propriétaire."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneralInvestmentAccountType2Choice",
+  "definition": "Choix de formats pour un type de compte d’investissement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de compte d’investissement exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de compte d’investissement exprimé sous forme de code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingStatus79Choice",
+  "definition": "Choix de format pour un statut de traitement.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "L'avis de rachat forcé (buy-in) est acquitté par le teneur de compte."
+    },
+    "Rejected": {
+      "definition": "L'avis de rachat forcé (buy-in) est rejeté pour tout traitement ultérieur."
+    }
+  }
+}

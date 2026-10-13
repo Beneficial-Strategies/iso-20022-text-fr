@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance2",
+  "definition": "Position agrégée détenue dans un compte-titres pour un instrument financier spécifié.",
+  "isoElements": {
+    "SettledBalance": {
+      "definition": "Solde des opérations réglées."
+    },
+    "TradedBalance": {
+      "definition": "Solde des opérations réglées et des opérations en attente de règlement."
+    },
+    "BalanceBreakdown": {
+      "definition": "Ventilation des soldes des avoirs en sous-soldes."
+    }
+  }
+}

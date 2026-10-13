@@ -1,0 +1,42 @@
+{
+  "isoType": "InvestmentFundRole2Code",
+  "definition": "Précise le rôle joué par un acteur dans une opération sur parts de fonds de placement.",
+  "isoCodes": {
+    "FMCO": {
+      "name": "Société de gestion de fonds",
+      "definition": "Partie qui constitue un fonds, décide de la stratégie d'investissement, nomme les agents, et est responsable de la promotion et de la commercialisation du fonds. Cette partie prend toutes les décisions stratégiques relatives à un fonds."
+    },
+    "REGI": {
+      "name": "Teneur de registre",
+      "definition": "Partie chargée de suivre les propriétaires de valeurs mobilières. Dans le secteur des fonds d'investissement, cette partie tient le registre des investisseurs du fonds, et administre les comptes d'investisseurs et les enregistrements connexes. Elle est désignée par la société de gestion du fonds."
+    },
+    "TRAG": {
+      "name": "Agent de transfert",
+      "definition": "Partie désignée par la société de gestion du fonds. Cette partie met à jour les enregistrements des comptes d'investisseurs pour refléter les achats, rachats, arbitrages, transferts et ré-enregistrements quotidiens des investisseurs. Elle assure le règlement en temps voulu des opérations et peut fournir des informations fiscales à l'investisseur et/ou à ses intermédiaires. Elle peut calculer, collecter et rétrocéder des commissions. Elle prépare et diffuse les confirmations reflétant les opérations, entraînant des mouvements de parts ou de compte espèces pour l'investisseur ou l'intermédiaire de l'investisseur. Elle répond aux demandes concernant le statut du compte et traite la distribution des revenus."
+    },
+    "INTR": {
+      "name": "Intermédiaire",
+      "definition": "Partie qui fournit des services aux investisseurs relatifs aux produits financiers. Ces services peuvent comprendre tout ou partie de la fourniture d'informations et de conseils sur les produits, du placement d'ordres d'investissement, de la transmission de paiements, de la conservation d'actifs, et de l'administration des droits et avantages. Dans le cadre spécifique du secteur des fonds d'investissement, un intermédiaire peut présenter des informations sur les fonds à des investisseurs potentiels et solliciter des ordres pour le fonds. Cet intermédiaire peut faciliter la transmission des ordres et des informations vers/depuis les investisseurs et/ou d'autres intermédiaires. L'intermédiaire perçoit une commission du fonds et/ou des frais de l'investisseur."
+    },
+    "DIST": {
+      "name": "Distributeur",
+      "definition": "Partie qui agit comme grossiste de fonds."
+    },
+    "CONC": {
+      "name": "Concentrateur",
+      "definition": "Partie qui agit comme agrégateur de fonds, également appelée plateforme de fonds."
+    },
+    "UCL1": {
+      "name": "Client sous-jacent 1",
+      "definition": "Client sous-jacent de l'intermédiaire."
+    },
+    "UCL2": {
+      "name": "Client sous-jacent 2",
+      "definition": "Client sous-jacent du client sous-jacent 1."
+    },
+    "TRAN": {
+      "name": "Agent émetteur",
+      "definition": "Partie qui transmet l'instruction, l'avis, la notification ou le rapport."
+    }
+  }
+}

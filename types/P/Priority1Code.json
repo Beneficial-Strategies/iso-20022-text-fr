@@ -1,0 +1,18 @@
+{
+  "isoType": "Priority1Code",
+  "definition": "Spécifie le niveau de priorité d'un événement.",
+  "isoCodes": {
+    "HIGH": {
+      "name": "Élevée",
+      "definition": "Le niveau de priorité est élevé."
+    },
+    "NORM": {
+      "name": "Normale",
+      "definition": "Le niveau de priorité est normal."
+    },
+    "LOWW": {
+      "name": "Basse",
+      "definition": "Le niveau de priorité est faible."
+    }
+  }
+}

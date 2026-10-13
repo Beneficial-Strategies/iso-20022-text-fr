@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingServicesAmount3",
+  "definition": "Conversions en devise d'accueil du montant des frais de service imposables.",
+  "isoElements": {
+    "SourceAmount": {
+      "definition": "Représente le total de tous les services imposables d'une région fiscale donnée pour une devise donnée. Par exemple, tous les services imposables d'une région fiscale en euros seraient totalisés ici en euros."
+    },
+    "HostAmount": {
+      "definition": "Représente le total de tous les services imposables d'une région fiscale donnée pour une devise donnée, en relation biunivoque avec le total des frais de services imposables, mais représenté dans la devise d'accueil après conversion."
+    }
+  }
+}

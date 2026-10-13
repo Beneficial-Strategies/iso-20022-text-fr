@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryCertificationType5Code",
+  "definition": "Indique le type de certification requis.",
+  "isoCodes": {
+    "ACCI": {
+      "name": "Investisseur accrédité",
+      "definition": "Le détenteur du titre doit certifier de manière irrévocable qu'il est un investisseur accrédité (Accredited Investor) au sens de la Regulation D de la Securities and Exchange Commission des US."
+    },
+    "NCOM": {
+      "name": "Non société",
+      "definition": "Le détenteur du titre doit certifier qu'il est une personne non liée à la société."
+    },
+    "QIBB": {
+      "name": "Certification QIB",
+      "definition": "Le détenteur du titre doit certifier de manière irrévocable qu'il est un acheteur institutionnel qualifié (Qualified Institutional Buyer) au sens de la Rule 144A de la Securities and Exchange Commission des US."
+    }
+  }
+}

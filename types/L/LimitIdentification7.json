@@ -1,0 +1,21 @@
+{
+  "isoType": "LimitIdentification7",
+  "definition": "Fonction de gestion de trésorerie limitant le risque maximal qu'une partie accepte de prendre à l'égard d'une contrepartie ou d'un ensemble de contreparties. Une limite de gestion des risques est soit bilatérale, c'est-à-dire pour une contrepartie, soit multilatérale, c'est-à-dire pour un ensemble de contreparties ou pour tous les autres membres d'un système. La limite peut également s'appliquer aux membres parrainés, c'est-à-dire aux membres indirects. En principe, une limite de gestion des risques est calculée sur la position nette entre deux membres et est exprimée sous forme de limite de crédit ou de débit, du point de vue de la partie qui fixe la limite.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique attribuée par la banque teneur de compte permettant d'identifier sans ambiguïté le compte."
+    },
+    "Type": {
+      "definition": "Nature de la limite de gestion des risques."
+    },
+    "LimitCurrency": {
+      "definition": "Unité monétaire utilisée pour spécifier le montant de la limite."
+    },
+    "AccountOwner": {
+      "definition": "Titulaire du compte faisant l'objet de la requête."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Identification du membre du système pour lequel la limite est établie."
+    }
+  }
+}

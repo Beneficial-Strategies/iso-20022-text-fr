@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountManagementType3Code",
+  "definition": "Précise l'instruction pour laquelle un statut est requis.",
+  "isoCodes": {
+    "ACCM": {
+      "name": "Modification de compte",
+      "definition": "Renvoie à un message d'instruction de modification de compte."
+    },
+    "ACCO": {
+      "name": "Ouverture de compte",
+      "definition": "Renvoie à un message d'instruction d'ouverture de compte."
+    },
+    "GACC": {
+      "name": "Obtention des détails du compte",
+      "definition": "Renvoie à un message de demande de détails de compte."
+    },
+    "ACST": {
+      "name": "Statut du compte",
+      "definition": "Renvoie au statut du compte."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingServicesTax3",
+  "definition": "Prévoit les taxes régionales sur le service.",
+  "isoElements": {
+    "Number": {
+      "definition": "Numéro d'identification de la taxe régionale spécifique utilisée pour calculer la taxe."
+    },
+    "Description": {
+      "definition": "Nom utilisé pour décrire la taxe (par exemple la taxe sur la valeur ajoutée nationale)."
+    },
+    "Rate": {
+      "definition": "Taux utilisé pour calculer la taxe."
+    },
+    "TotalTaxAmount": {
+      "definition": "Précise l'obligation fiscale pour les services imposables au sein d'une région fiscale pour un identifiant fiscal donné (par exemple, la taxe nationale sur la valeur ajoutée égale à 34,00), exprimée dans la devise d'accueil de la région fiscale."
+    }
+  }
+}

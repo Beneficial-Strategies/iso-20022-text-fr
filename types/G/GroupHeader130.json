@@ -1,0 +1,27 @@
+{
+  "isoType": "GroupHeader130",
+  "definition": "Ensemble de caractéristiques communes à tous les enregistrements de frais individuels inclus dans le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par la partie instructrice et envoyée à la partie suivante de la chaîne pour identifier sans ambiguïté le message.|Utilisation : la partie instructrice doit s'assurer que MessageIdentification est unique par partie instruite pendant une période convenue à l'avance."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "ChargesRequestor": {
+      "definition": "Agent qui demande les frais, s'il est différent de l'expéditeur."
+    },
+    "SettlementInstruction": {
+      "definition": "Précise les détails de la manière dont le règlement de la ou des opérations suivantes est effectué.||Utilisation : les données de cet agent et de cette partie doivent être reportées telles quelles dans le message résultant pour le paiement des frais."
+    },
+    "TotalCharges": {
+      "definition": "Total des frais réclamés par ce message."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Agent qui tient le compte de frais.||Utilisation : cet élément doit être utilisé lorsque les frais réclamés ne sont pas liés au traitement d'une opération de paiement, par exemple lorsqu'ils concernent une recherche ou un autre processus. Il identifie l'agent qui tient le compte sur lequel les frais doivent être réglés."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Compte de l'agent qui tient le compte de frais.||Utilisation : cet élément doit être utilisé lorsque les frais réclamés ne sont pas liés au traitement d'une opération de paiement, par exemple lorsqu'ils concernent une recherche ou un autre processus. Il identifie le compte sur lequel les frais doivent être réglés."
+    }
+  }
+}

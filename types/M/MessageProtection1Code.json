@@ -1,0 +1,22 @@
+{
+  "isoType": "MessageProtection1Code",
+  "definition": "Mécanisme utilisé pour protéger le message du protocole de l'ATM.",
+  "isoCodes": {
+    "EVLP": {
+      "name": "Message enveloppé",
+      "definition": "Les messages contiennent un corps chiffré et un MAC ou une signature numérique calculé sur le message complet (en-tête plus corps après chiffrement)."
+    },
+    "MACB": {
+      "name": "Corps du MAC",
+      "definition": "Les messages contiennent un MAC ou une signature numérique calculé sur le corps uniquement."
+    },
+    "MACM": {
+      "name": "Message MAC",
+      "definition": "Les messages contiennent un MAC ou une signature numérique calculé sur le message complet (en-tête plus corps)."
+    },
+    "UNPR": {
+      "name": "Aucune protection",
+      "definition": "Les messages ne sont pas protégés, ni chiffrement, ni MAC, ni signature numérique."
+    }
+  }
+}

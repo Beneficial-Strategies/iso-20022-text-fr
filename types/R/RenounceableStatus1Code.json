@@ -1,0 +1,14 @@
+{
+  "isoType": "RenounceableStatus1Code",
+  "definition": "Précise le statut de cessibilité.",
+  "isoCodes": {
+    "NREN": {
+      "name": "Non renonçable",
+      "definition": "Les titres intermédiaires ne peuvent pas être vendus."
+    },
+    "RENO": {
+      "name": "Renonçable",
+      "definition": "Les titres intermédiaires peuvent être vendus."
+    }
+  }
+}

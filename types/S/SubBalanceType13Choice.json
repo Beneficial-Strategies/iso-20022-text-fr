@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceType13Choice",
+  "definition": "Choix du format du sous-solde.",
+  "isoElements": {
+    "Code": {
+      "definition": "Raison pour laquelle un titre n'est pas disponible, ou informations complémentaires sur l'instrument financier pour lequel le solde est donné, par exemple non enregistré, enregistré au nom d'un prête-nom."
+    },
+    "Proprietary": {
+      "definition": "Raison pour laquelle un titre n'est pas disponible, ou informations complémentaires sur l'instrument financier pour lequel le solde est donné, par exemple non enregistré, enregistré au nom d'un prête-nom."
+    }
+  }
+}

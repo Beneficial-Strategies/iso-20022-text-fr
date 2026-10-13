@@ -1,0 +1,12 @@
+{
+  "isoType": "MoneyLaunderingCheck1Choice",
+  "definition": "Choix de formats pour la spécification de la vérification en matière de blanchiment d'argent.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut en matière de blanchiment d'argent exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Statut en matière de blanchiment d'argent exprimé sous forme de code propriétaire."
+    }
+  }
+}

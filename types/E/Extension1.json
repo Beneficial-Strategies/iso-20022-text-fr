@@ -1,0 +1,17 @@
+{
+  "isoType": "Extension1",
+  "definition": "Informations complémentaires ne pouvant pas être saisies dans les champs structurés et/ou dans tout autre bloc spécifique.",
+  "isoElements": {
+    "PlaceAndName": {
+      "definition": "Nom qualifiant les informations fournies dans le champ Text, et emplacement où ces informations doivent être insérées."
+    },
+    "Text": {
+      "definition": "Texte de l'extension."
+    }
+  },
+  "isoRules": {
+    "ExtensionRule": {
+      "definition": "Ce composant ne peut pas être utilisé sans l'approbation explicite de l'autorité d'enregistrement et sans règles d'utilisation strictes publiées par l'autorité d'enregistrement."
+    }
+  }
+}

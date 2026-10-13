@@ -1,0 +1,29 @@
+{
+  "isoType": "SecuritiesCancellation2",
+  "definition": "Fournit les opérations du relevé.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Partie titulaire du compte."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "ProcessingStatus": {
+      "definition": "Statut et motif du statut de l'opération."
+    },
+    "Cancellation": {
+      "definition": "Identifie l'opération individuelle."
+    }
+  },
+  "isoRules": {
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus doit être présent ou Cancellation(*)/ProcessingStatus doit être présent, mais pas les deux."
+    },
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount doit être présent ou Cancellation(*)/SafekeepingAccount doit être présent, mais pas les deux."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner doit être présent ou Cancellation(*)/AccountOwner doit être présent, mais pas les deux."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesSettlementTransactionStatusAdviceV14",
+  "definition": "Portée|Un teneur de compte envoie un SecuritiesSettlementTransactionStatusAdvice à un titulaire de compte pour l'informer du statut d'une instruction d'opération de règlement de titres précédemment envoyée par le titulaire du compte ou du statut d'une opération de règlement existant dans les livres du teneur de compte pour le compte du titulaire. Le statut peut être un statut de traitement, de traitement en attente, d'appariement interne, d'appariement et/ou de règlement.|L'avis de statut peut être envoyé en réponse à une demande du titulaire de compte ou non.|La relation teneur/titulaire de compte peut être :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement agissant pour le compte de ses participants|- un agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou|- un conservateur agissant pour le compte d'une société de gestion de placements ou d'un courtier/négociateur.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message précédemment envoyé,|- fournir à un tiers une copie d'un message à titre d'information,|- renvoyer à un tiers une copie d'un message à titre d'information en utilisant les éléments appropriés de l'en-tête applicatif métier (Business Application Header).",
+  "isoRules": {
+    "ProcessingStatusPresenceRule": {
+      "definition": "Si InferredMatchingStatus, MatchingStatus et SettlementStatus sont absents, ProcessingStatus doit être présent."
+    },
+    "MatchingStatusPresenceRule": {
+      "definition": "Si ProcessingStatus, InferredMatchingStatus et SettlementStatus sont absents, MatchingStatus doit être présent."
+    },
+    "SettlementStatusPresenceRule": {
+      "definition": "Si ProcessingStatus, InferredMatchingStatus et MatchingStatus sont absents, SettlementStatus doit être présent."
+    },
+    "InferredMatchingStatusStatusPresenceRule": {
+      "definition": "Si ProcessingStatus, MatchingStatus et SettlementStatus sont absents, InferredMatchingStatus doit être présent."
+    },
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Si le statut/motif de règlement est présent seul, cela signifie que l'opération est appariée (si un processus d'appariement existe sur le marché concerné ou auprès du teneur de compte concerné)."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur l'utilisation de ce message.|Ces pratiques de marché sont disponibles sur www.smpg.info."
+    }
+  }
+}

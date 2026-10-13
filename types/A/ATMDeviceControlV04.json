@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMDeviceControlV04",
+  "definition": "Le message ATMDeviceControl est envoyé par un hôte de maintenance à un ATM en réponse à un message ATMDeviceReport. Le message contient une séquence de commandes de maintenance que l'ATM doit exécuter."
+}

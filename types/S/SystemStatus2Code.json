@@ -1,0 +1,22 @@
+{
+  "isoType": "SystemStatus2Code",
+  "definition": "Précise le statut d'un système.",
+  "isoCodes": {
+    "SUSP": {
+      "name": "Suspendu",
+      "definition": "Le système est suspendu, c'est-à-dire non opérationnel."
+    },
+    "ACTV": {
+      "name": "Actif",
+      "definition": "Le système fonctionne normalement, c'est-à-dire qu'il est opérationnel."
+    },
+    "CLSD": {
+      "name": "Clôturé",
+      "definition": "Le système est fermé (par exemple, fermeture normale d'un RTGS)."
+    },
+    "CLSG": {
+      "name": "Clôture",
+      "definition": "Le système doit attendre la fin d'activités internes intermédiaires avant de passer au statut Fermé."
+    }
+  }
+}

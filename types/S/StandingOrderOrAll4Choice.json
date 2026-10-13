@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderOrAll4Choice",
+  "definition": "Caractéristiques d'un ou de tous les ordres permanents définis par le membre et gérés par l'administrateur des opérations.",
+  "isoElements": {
+    "StandingOrder": {
+      "definition": "Identification d'ordres permanents individuels définis avec des caractéristiques précises."
+    },
+    "AllStandingOrders": {
+      "definition": "Identification de tous les ordres permanents définis avec des caractéristiques précises."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationRejectionReason3",
+  "definition": "Fournit le motif du rejet d'un avis de notification.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Le motif du rejet."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

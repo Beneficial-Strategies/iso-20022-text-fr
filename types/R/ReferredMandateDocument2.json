@@ -1,0 +1,18 @@
+{
+  "isoType": "ReferredMandateDocument2",
+  "definition": "Identifie les documents visés dans les informations de remise.",
+  "isoElements": {
+    "Type": {
+      "definition": "Précise le type du document visé."
+    },
+    "Number": {
+      "definition": "Identification unique et non ambiguë du document visé."
+    },
+    "CreditorReference": {
+      "definition": "Identification unique et non ambiguë, attribuée par le créancier au document de référence partagé avec le débiteur, pour son propre usage."
+    },
+    "RelatedDate": {
+      "definition": "Date et type associés au document de référence."
+    }
+  }
+}

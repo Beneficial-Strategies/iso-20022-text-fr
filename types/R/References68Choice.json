@@ -1,0 +1,12 @@
+{
+  "isoType": "References68Choice",
+  "definition": "Choix entre des références utilisées pour référencer une opération précédente.",
+  "isoElements": {
+    "PreviousReference": {
+      "definition": "Référence à un message lié précédemment envoyé."
+    },
+    "OtherReference": {
+      "definition": "Référence à un message lié envoyé de manière propriétaire ou référence d'un système."
+    }
+  }
+}

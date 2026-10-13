@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxRateMarker1Code",
+  "definition": "Précise le taux de l'impôt prélevé.",
+  "isoCodes": {
+    "ALPR": {
+      "name": "Montant coté déduction faite de l'assurance vie",
+      "definition": "Précise le montant coté déduction faite du taux de prime d'assurance-vie de l'impôt sur le revenu."
+    },
+    "ALIT": {
+      "name": "Montant coté déduction faite du taux standard",
+      "definition": "Précise le montant coté déduction faite du taux normal de l'impôt sur le revenu."
+    },
+    "GRSS": {
+      "name": "Montant brut",
+      "definition": "Précise un montant avant déduction de l'impôt."
+    }
+  }
+}

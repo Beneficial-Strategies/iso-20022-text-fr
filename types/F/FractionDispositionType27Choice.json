@@ -1,0 +1,12 @@
+{
+  "isoType": "FractionDispositionType27Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type de traitement des fractions.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de traitement des fractions."
+    }
+  }
+}

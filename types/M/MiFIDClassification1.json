@@ -1,0 +1,12 @@
+{
+  "isoType": "MiFIDClassification1",
+  "definition": "Détails sur la classification MIFID du titulaire du compte.",
+  "isoElements": {
+    "Classification": {
+      "definition": "Classification MiFID du titulaire du compte."
+    },
+    "Narrative": {
+      "definition": "Informations complémentaires sur la source de la classification."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "ThresholdBasis1Code",
+  "definition": "Nature de la quantité utilisée comme base pour fixer un seuil de vote sur les résolutions des assemblées générales.",
+  "isoCodes": {
+    "ALSH": {
+      "name": "Toutes les actions émises",
+      "definition": "La base est le nombre total d'actions émises."
+    },
+    "ALSM": {
+      "name": "Toutes les actions représentées à l'assemblée",
+      "definition": "La base est le nombre total d'actions représentées à l'assemblée par les participants."
+    },
+    "ALVO": {
+      "name": "Tous les votes exprimés",
+      "definition": "La base est le nombre total de voix exprimées pour une résolution."
+    }
+  }
+}

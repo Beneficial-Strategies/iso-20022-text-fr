@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAll1",
+  "definition": "Indique si tous les actifs du portefeuille doivent être liquidés et transférés en espèces.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indique si tous les actifs du portefeuille doivent être liquidés et transférés en espèces."
+    },
+    "Currency": {
+      "definition": "Devise des espèces."
+    }
+  }
+}

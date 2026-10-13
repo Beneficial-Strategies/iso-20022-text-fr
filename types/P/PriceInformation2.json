@@ -1,0 +1,38 @@
+{
+  "isoType": "PriceInformation2",
+  "definition": "Montant pour lequel des biens ou des services sont offerts, vendus ou achetés.",
+  "isoElements": {
+    "Value": {
+      "definition": "Valeur du prix, p. ex. sous la forme d'une devise et d'une valeur."
+    },
+    "ValueType": {
+      "definition": "Type de valeur dans lequel le prix est exprimé."
+    },
+    "Type": {
+      "definition": "Type et informations relatifs à un prix."
+    },
+    "ExtendedType": {
+      "definition": "Type et informations relatifs à un prix."
+    },
+    "SourceOfPrice": {
+      "definition": "Lieu d'où le prix a été obtenu."
+    },
+    "QuotationDate": {
+      "definition": "Date à laquelle le prix est obtenu. Pour un fonds de placement, il s'agit de la date indiquée dans le prospectus."
+    },
+    "Yielded": {
+      "definition": "Indique si le prix est exprimé sous forme de rendement. L'absence de Yielded signifie que cela n'est pas applicable."
+    }
+  },
+  "isoRules": {
+    "ValueRule": {
+      "definition": "Si Type n'est pas MRKT, Value ne peut pas être exprimé avec UnknownIndicator."
+    },
+    "TypeOrExtendedTypeRule": {
+      "definition": "Type ou ExtendedType doit être présent, mais pas les deux."
+    },
+    "TypeOrExtendedTypeRuleNotBoth": {
+      "definition": "Type ou ExtendedType doit être présent, mais pas les deux."
+    }
+  }
+}

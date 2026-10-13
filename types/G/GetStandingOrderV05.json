@@ -1,0 +1,4 @@
+{
+  "isoType": "GetStandingOrderV05",
+  "definition": "Périmètre|Le message GetStandingOrder est envoyé par un membre à l'administrateur des opérations.|Il sert à demander des informations détaillées sur un ou plusieurs ordres permanents, selon des critères de demande précis, notamment pour interroger le montant global des liquidités disponibles. Il permet d'interroger à la fois les liquidités réservées et les liquidités disponibles pour les opérations normales.|Utilisation|Le membre peut demander des informations selon les éléments suivants : |- ordres permanents individuels (ordres permanents prédéfinis ou ordres permanents de transfert de liquidités)|- montant|- compte à créditer|- compte à débiter|- titulaire du compte (pour les scénarios au nom d'un tiers)|- fréquence de paiement|- traitement de jour ou de nuit|- dates de début et de fin de validité de l'ordre permanent|Ce message recevra pour réponse un message ReturnStandingOrder."
+}

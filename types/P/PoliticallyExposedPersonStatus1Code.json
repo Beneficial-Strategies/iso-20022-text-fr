@@ -1,0 +1,18 @@
+{
+  "isoType": "PoliticallyExposedPersonStatus1Code",
+  "definition": "Statut d'une personne politiquement exposée.",
+  "isoCodes": {
+    "PE03": {
+      "name": "Proche associé",
+      "definition": "Personne connue pour être un proche associé de la personne politiquement exposée. Une personne connue pour être un proche associé comprend : |(a) une personne physique connue pour détenir conjointement avec la personne politiquement exposée la propriété effective d'entités juridiques ou de constructions juridiques, ou pour entretenir avec elle toute autre relation d'affaires étroite,|(b) une personne physique qui est seule propriétaire effective d'une entité juridique ou d'une construction juridique connue pour avoir été établie au bénéfice de fait d'une personne politiquement exposée."
+    },
+    "PE01": {
+      "name": "Personne physique mandatée",
+      "definition": "Personne physique qui exerce ou a exercé d'importantes fonctions publiques."
+    },
+    "PE02": {
+      "name": "Membre de la famille",
+      "definition": "Membre de la famille de la personne politiquement exposée. Un membre de la famille comprend : |(a) le conjoint, ou une personne considérée comme équivalente à un conjoint, de la personne politiquement exposée,|(b) les enfants et leurs conjoints, ou les personnes considérées comme équivalentes à un conjoint, de la personne politiquement exposée,|(c) les parents de la personne politiquement exposée."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndIdentification26",
+  "definition": "Processus global couvrant les opérations de négociation et de règlement-livraison d'instruments financiers.",
+  "isoElements": {
+    "Payment": {
+      "definition": "Précise comment l'opération doit être réglée."
+    },
+    "TransactionIdentification": {
+      "definition": "Référence de l'opération."
+    },
+    "SettlementDate": {
+      "definition": "Identifie la date de règlement prévue."
+    }
+  }
+}

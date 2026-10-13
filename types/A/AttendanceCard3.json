@@ -1,0 +1,20 @@
+{
+  "isoType": "AttendanceCard3",
+  "definition": "Précise les détails relatifs à la carte d'admission.",
+  "isoElements": {
+    "AttendanceCardLabelling": {
+      "definition": "Informations à indiquer sur la carte d'admission."
+    },
+    "DeliveryMethod": {
+      "definition": "Précise où la carte d'admission doit être remise."
+    },
+    "OtherAddress": {
+      "definition": "Nom et adresse de la partie."
+    }
+  },
+  "isoRules": {
+    "OtherAddressCode1Rule": {
+      "definition": "Si DeliveryMethod est OtherAddress \"OADR\", alors OtherAddress doit être présent."
+    }
+  }
+}

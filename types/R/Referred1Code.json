@@ -1,0 +1,18 @@
+{
+  "isoType": "Referred1Code",
+  "definition": "Indique si l'investisseur a été recommandé.",
+  "isoCodes": {
+    "REFR": {
+      "name": "Référé",
+      "definition": "L'investisseur a été recommandé au fonds par un agent de placement."
+    },
+    "NRFR": {
+      "name": "Non référé",
+      "definition": "L'investisseur n'a pas été recommandé au fonds par un agent de placement."
+    },
+    "UKNW": {
+      "name": "Inconnu",
+      "definition": "Il n'est pas connu si l'investisseur a été recommandé au fonds par un agent de placement."
+    }
+  }
+}

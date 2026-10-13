@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionAdditionalInformation1",
+  "definition": "Fournit des informations complémentaires sur les détails de livraison, les détails du bénéficiaire effectif, etc.",
+  "isoElements": {
+    "BeneficialOwnerDetails": {
+      "definition": "Fournit des informations sur le bénéficiaire effectif des titres."
+    },
+    "RegistrationDetails": {
+      "definition": "Fournit les informations requises pour l'inscription."
+    },
+    "ReceiverIdentification": {
+      "definition": "Identification du destinataire des ressources livrées (espèces/titres) lorsque les ressources doivent être livrées en dehors du CSD."
+    },
+    "CertificationIndicator": {
+      "definition": "Indique si une certification est requise ou non de la part du titulaire du compte. |Y : certification requise |N : aucune certification requise."
+    },
+    "CertificationType": {
+      "definition": "Type de certification requise."
+    },
+    "DeliveryDetails": {
+      "definition": "Fournit des informations sur les détails de livraison du produit."
+    },
+    "AdditionalInstruction": {
+      "definition": "Fournit des détails complémentaires relatifs à l'instruction d'opération sur titres."
+    }
+  }
+}

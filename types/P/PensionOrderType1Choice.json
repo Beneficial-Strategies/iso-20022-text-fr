@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionOrderType1Choice",
+  "definition": "Choix de formats pour un type d’ordonnance de retraite.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d’ordonnance attachée à la police, au plan ou au régime de retraite exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type d’ordonnance attachée à la police, au plan ou au régime de retraite exprimé sous forme de code propriétaire."
+    }
+  }
+}

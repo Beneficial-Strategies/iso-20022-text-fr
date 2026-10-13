@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingCompensationType1Choice",
+  "definition": "Définit le type de compensation de facturation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Définit le type de compensation de facturation, tel que publié dans une liste de codes externe de types de compensation de facturation."
+    },
+    "Proprietary": {
+      "definition": "Définit le type de compensation de facturation, tel que défini dans un format propriétaire."
+    }
+  }
+}

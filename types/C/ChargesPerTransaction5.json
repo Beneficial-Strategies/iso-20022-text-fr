@@ -1,0 +1,32 @@
+{
+  "isoType": "ChargesPerTransaction5",
+  "definition": "Fournit des informations sur les frais liés à l'opération de paiement.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Identification unique et sans ambiguïté des informations de frais à des fins de rapprochement."
+    },
+    "TotalChargesPerTransaction": {
+      "definition": "Total des frais réclamés pour l'opération."
+    },
+    "ChargesAccount": {
+      "definition": "Identifie le compte qui a été débité ou crédité pour les frais, les intérêts ou d'autres|ajustements."
+    },
+    "ChargesAccountOwner": {
+      "definition": "Agent titulaire du compte de frais."
+    },
+    "Record": {
+      "definition": "Enregistrement détaillé des frais par opération."
+    },
+    "AdditionalInformation": {
+      "definition": "Précisions complémentaires sur le motif des frais."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountTransactionOrRecord2Rule": {
+      "definition": "Lorsque Record/ChargesAccount est présent ou que Record/ChargesAccountOwner est présent, ChargesAccount doit être absent et ChargesAccountOwner doit être absent."
+    },
+    "ChargesAccountTransactionOrRecord1Rule": {
+      "definition": "Lorsque ChargesAccount est présent ou que ChargesAccountOwner est présent, Record/ChargesAccount doit être absent et Record/ChargesAccountOwner doit être absent."
+    }
+  }
+}

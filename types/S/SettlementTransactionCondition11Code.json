@@ -1,0 +1,10 @@
+{
+  "isoType": "SettlementTransactionCondition11Code",
+  "definition": "Précise les conditions dans lesquelles un ordre/une transaction doit être réglé.",
+  "isoCodes": {
+    "NOMC": {
+      "name": "Pas de réclamation de marché automatique",
+      "definition": "Aucune réclamation de marché ne doit être générée automatiquement."
+    }
+  }
+}

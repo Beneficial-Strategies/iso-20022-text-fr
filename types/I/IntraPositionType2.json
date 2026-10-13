@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraPositionType2",
+  "definition": "Type intra-position utilisé pour préciser des paires de soldes de départ/d'arrivée.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Solde d'où les titres sont déplacés."
+    },
+    "BalanceTo": {
+      "definition": "Solde vers lequel les titres sont déplacés."
+    }
+  },
+  "isoRules": {
+    "BalanceFromToRule": {
+      "definition": "Le type de solde de trésorerie de BalanceFrom doit être différent du type de solde de trésorerie de BalanceTo."
+    }
+  }
+}

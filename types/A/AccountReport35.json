@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountReport35",
+  "definition": "Fournit soit les informations sur le compte, soit une erreur fonctionnelle.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "AccountOrError": {
+      "definition": "Informations demandées sur le compte ou erreur fonctionnelle lorsque les informations n'ont pas été trouvées."
+    }
+  }
+}

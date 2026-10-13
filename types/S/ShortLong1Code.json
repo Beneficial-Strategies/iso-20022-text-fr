@@ -1,0 +1,14 @@
+{
+  "isoType": "ShortLong1Code",
+  "definition": "Précise si la position sur titres est courte ou longue, c'est-à-dire si le solde est négatif ou positif.",
+  "isoCodes": {
+    "SHOR": {
+      "name": "Court",
+      "definition": "La position est courte, c'est-à-dire que le solde est négatif."
+    },
+    "LONG": {
+      "name": "Long",
+      "definition": "La position est longue, c'est-à-dire que le solde est positif."
+    }
+  }
+}

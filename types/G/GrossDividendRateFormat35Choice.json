@@ -1,0 +1,15 @@
+{
+  "isoType": "GrossDividendRateFormat35Choice",
+  "definition": "Choix de format pour exprimer un dividende brut.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Valeur exprimée sous forme de montant."
+    },
+    "AmountAndRateStatus": {
+      "definition": "Précise un montant et un statut de taux."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "Précise les différents formats du taux de dividende brut."
+    }
+  }
+}

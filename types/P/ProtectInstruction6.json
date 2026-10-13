@@ -1,0 +1,24 @@
+{
+  "isoType": "ProtectInstruction6",
+  "definition": "Fournit des informations détaillées sur les instructions de protection et de couverture de protection.",
+  "isoElements": {
+    "TransactionType": {
+      "definition": "Indique si l'instruction est une instruction de protection ou de couverture de protection."
+    },
+    "ProtectTransactionStatus": {
+      "definition": "Statut de l'opération de protection."
+    },
+    "TransactionIdentification": {
+      "definition": "Référence unique de l'opération de protection attribuée par le dépositaire et utilisée pour la validation de la couverture de protection."
+    },
+    "ProtectSafekeepingAccount": {
+      "definition": "Compte ayant soumis l'instruction de protection d'origine, utilisé pour les instructions de couverture de protection par lesquelles un compte-titres couvre pour le compte d'un autre compte-titres."
+    },
+    "ProtectDate": {
+      "definition": "Date à laquelle l'instruction de protection a été créée et utilisée pour la validation de la couverture de protection."
+    },
+    "UncoveredProtectQuantity": {
+      "definition": "Quantité restante de l'instruction de protection qui n'a pas été couverte."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "ExchangeRate1",
+  "definition": "Informations détaillées complémentaires sur le taux de change utilisé dans l'opération de paiement.",
+  "isoElements": {
+    "UnitCurrency": {
+      "definition": "Devise dans laquelle le taux de change est exprimé lors d'un change de devises. Dans l'exemple 1GBP = xxxCUR, la devise de référence est GBP."
+    },
+    "ExchangeRate": {
+      "definition": "Facteur utilisé pour convertir un montant d'une devise dans une autre. Il reflète le prix auquel une devise a été achetée avec une autre devise."
+    },
+    "RateType": {
+      "definition": "Précise le type utilisé pour réaliser le change de devises."
+    },
+    "ContractIdentification": {
+      "definition": "Référence unique et non ambiguë du contrat de change convenu entre la partie initiatrice/le créancier et la banque du débiteur."
+    }
+  }
+}

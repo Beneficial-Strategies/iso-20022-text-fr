@@ -1,0 +1,14 @@
+{
+  "isoType": "PensionOrderType1Code",
+  "definition": "Précise un type d’ordonnance attachée à une retraite.",
+  "isoCodes": {
+    "EARM": {
+      "name": "Affectation",
+      "definition": "La police, le plan ou le régime de retraite a été réservé (mis de côté)."
+    },
+    "SHAR": {
+      "name": "Partage",
+      "definition": "Une ordonnance de partage de la police, du plan ou du régime de retraite a été rendue par un tribunal."
+    }
+  }
+}

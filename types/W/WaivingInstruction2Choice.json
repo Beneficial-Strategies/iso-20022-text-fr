@@ -1,0 +1,12 @@
+{
+  "isoType": "WaivingInstruction2Choice",
+  "definition": "Choix de formats pour l'instruction de dispense.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de remise ou de dispense exprimé sous la forme d'un code."
+    },
+    "Proprietary": {
+      "definition": "Type de remise ou de dispense exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

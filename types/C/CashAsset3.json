@@ -1,0 +1,23 @@
+{
+  "isoType": "CashAsset3",
+  "definition": "Identification d'un actif de trésorerie.",
+  "isoElements": {
+    "CashAssetType": {
+      "definition": "Type d'actif de trésorerie."
+    },
+    "HoldingCurrency": {
+      "definition": "Devise de l'actif dans la position détenue."
+    },
+    "TransferCurrency": {
+      "definition": "Devise de l'actif dans une autre devise."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations supplémentaires sur l'actif de trésorerie."
+    }
+  },
+  "isoRules": {
+    "HoldingTransferCurrencyGuideline": {
+      "definition": "Lorsque des liquidités sont transférées dans une devise autre que celle des liquidités, la devise doit être indiquée dans TransferCurrency."
+    }
+  }
+}

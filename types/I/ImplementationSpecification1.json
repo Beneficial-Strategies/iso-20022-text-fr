@@ -1,0 +1,12 @@
+{
+  "isoType": "ImplementationSpecification1",
+  "definition": "Identifie la spécification d'implémentation à laquelle le message ISO 20022 est conforme.",
+  "isoElements": {
+    "Registry": {
+      "definition": "Nom du registre des spécifications d'implémentation dans lequel est tenue la spécification d'implémentation du message ISO 20022.|Par exemple, « MyStandards »."
+    },
+    "Identification": {
+      "definition": "Identifiant qui identifie sans ambiguïté, au sein du registre des spécifications d'implémentation, la spécification d'implémentation à laquelle le message ISO 20022 est conforme. Cela peut se faire au moyen d'une URN. Il peut aussi contenir un numéro de version ou une date.|Par exemple, « 2018-01-01 – Version 2 » ou « urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66 »."
+    }
+  }
+}

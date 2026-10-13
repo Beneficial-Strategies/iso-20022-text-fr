@@ -1,0 +1,15 @@
+{
+  "isoType": "Charges5Choice",
+  "definition": "Précise le choix entre les frais d'une opération unique, les frais consolidés par opération ou les frais consolidés par type de frais.",
+  "isoElements": {
+    "Single": {
+      "definition": "Frais liés à une seule opération de paiement."
+    },
+    "PerTransaction": {
+      "definition": "Frais ventilés par opération de paiement."
+    },
+    "PerType": {
+      "definition": "Frais ventilés par type de frais."
+    }
+  }
+}

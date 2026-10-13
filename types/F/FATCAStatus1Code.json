@@ -1,0 +1,50 @@
+{
+  "isoType": "FATCAStatus1Code",
+  "definition": "Indique le statut au regard du Foreign Account Tax Compliance Act (FATCA).",
+  "isoCodes": {
+    "F101": {
+      "name": "FATCA101",
+      "definition": "Le type de titulaire de compte est un établissement financier à propriétaire documenté avec un ou plusieurs propriétaires US désignés."
+    },
+    "F102": {
+      "name": "FATCA102",
+      "definition": "Le type de titulaire de compte est une entité non financière passive avec un ou plusieurs propriétaires US substantiels."
+    },
+    "F103": {
+      "name": "FATCA103",
+      "definition": "Le type de titulaire de compte est un établissement financier non participant."
+    },
+    "F104": {
+      "name": "FATCA104",
+      "definition": "Le type de titulaire de compte est une personne US désignée."
+    },
+    "F105": {
+      "name": "FATCA105",
+      "definition": "Le type de titulaire de compte est une entité étrangère non financière (NFFE) déclarant directement."
+    },
+    "F201": {
+      "name": "FATCA201",
+      "definition": "Le type de déclaration de pool de comptes est un titulaire de compte récalcitrant présentant des indices US."
+    },
+    "F202": {
+      "name": "FATCA202",
+      "definition": "Le type de déclaration de pool de comptes est un titulaire de compte récalcitrant sans indices US."
+    },
+    "F203": {
+      "name": "FATCA203",
+      "definition": "Le type de déclaration de pool de comptes est un compte dormant."
+    },
+    "F204": {
+      "name": "FATCA204",
+      "definition": "Le type de déclaration de pool de comptes est un établissement financier étranger non participant."
+    },
+    "F205": {
+      "name": "FATCA205",
+      "definition": "Le type de déclaration de pool de comptes est un titulaire de compte récalcitrant qui est une personne US."
+    },
+    "F206": {
+      "name": "FATCA206",
+      "definition": "Le type de déclaration de pool de comptes est un titulaire de compte récalcitrant qui est une entité étrangère non financière (NFFE) passive."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MemberReport6",
+  "definition": "Rapporte soit sur un membre, soit sur une erreur métier.",
+  "isoElements": {
+    "MemberIdentification": {
+      "definition": "Identification unique et non équivoque d'un membre au sein d'un système, attribuée selon le schéma d'identification des membres du système."
+    },
+    "MemberOrError": {
+      "definition": "Rapporte soit sur un membre, soit sur une erreur métier."
+    }
+  }
+}

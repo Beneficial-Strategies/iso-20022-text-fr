@@ -1,0 +1,12 @@
+{
+  "isoType": "PersonIdentification18",
+  "definition": "Moyen unique et sans ambiguïté d'identifier une personne.",
+  "isoElements": {
+    "DateAndPlaceOfBirth": {
+      "definition": "Date et lieu de naissance d'une personne."
+    },
+    "Other": {
+      "definition": "Identification unique d'une personne, attribuée par une institution, à l'aide d'un schéma d'identification."
+    }
+  }
+}

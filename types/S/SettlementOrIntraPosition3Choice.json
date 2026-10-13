@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementOrIntraPosition3Choice",
+  "definition": "Choix entre le mouvement intra-position ou l'opération de règlement.",
+  "isoElements": {
+    "IntraPositionMovement": {
+      "definition": "Précise les détails demandés du mouvement intra-position."
+    },
+    "SettlementTransaction": {
+      "definition": "Précise les détails demandés de l'opération de règlement."
+    }
+  }
+}

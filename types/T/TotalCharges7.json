@@ -1,0 +1,18 @@
+{
+  "isoType": "TotalCharges7",
+  "definition": "Précise le nombre total d'enregistrements et le total des frais inclus dans le bloc.",
+  "isoElements": {
+    "NumberOfChargesRecords": {
+      "definition": "Nombre d'enregistrements de frais individuels."
+    },
+    "ControlSum": {
+      "definition": "Total de tous les montants individuels inclus, quelles que soient les devises."
+    },
+    "TotalChargesAmount": {
+      "definition": "Montant total des frais réclamés."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le montant total des frais est un montant au crédit ou au débit. |Utilisation : un montant nul est considéré comme un crédit."
+    }
+  }
+}

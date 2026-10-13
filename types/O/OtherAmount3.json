@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherAmount3",
+  "definition": "Montant relatif à une transaction.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de montant."
+    },
+    "Amount": {
+      "definition": "Devise et montant."
+    }
+  }
+}

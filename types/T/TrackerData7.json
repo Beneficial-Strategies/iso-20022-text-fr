@@ -1,0 +1,15 @@
+{
+  "isoType": "TrackerData7",
+  "definition": "Précise les informations détaillées fournies par un système de suivi des paiements.",
+  "isoElements": {
+    "ConfirmedDate": {
+      "definition": "Instant auquel une mise à jour du système de suivi a été confirmée. ||Utilisation : |cette date peut être l'instant auquel une banque fournit une mise à jour de statut en attente au système de suivi ou celui où le créancier a été crédité et peut disposer des fonds (tel que confirmé au système de suivi par la banque du créancier)."
+    },
+    "ConfirmedAmount": {
+      "definition": "Montant confirmé au système de suivi par la banque."
+    },
+    "TrackerRecord": {
+      "definition": "Fournit les informations de suivi de l'opération pour une banque donnée impliquée dans la chaîne de l'opération."
+    }
+  }
+}

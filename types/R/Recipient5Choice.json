@@ -1,0 +1,12 @@
+{
+  "isoType": "Recipient5Choice",
+  "definition": "Identification d'une clé cryptographique asymétrique.",
+  "isoElements": {
+    "IssuerAndSerialNumber": {
+      "definition": "Nom de l'émetteur du certificat et numéro de série (voir ITU X.509)."
+    },
+    "KeyIdentifier": {
+      "definition": "Identifiant d'une clé cryptographique asymétrique, préalablement échangée entre l'initiateur et le destinataire."
+    }
+  }
+}

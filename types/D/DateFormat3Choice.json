@@ -1,0 +1,12 @@
+{
+  "isoType": "DateFormat3Choice",
+  "definition": "Choix entre les formats d'expression d'une date.",
+  "isoElements": {
+    "Date": {
+      "definition": "Date exprimée sous forme de date calendaire."
+    },
+    "DateCode": {
+      "definition": "Indique que la date est inconnue."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionSD26",
+  "definition": "Contient des détails sur les certificats rappelés.",
+  "isoElements": {
+    "CertificateNumber": {
+      "definition": "Identification unique ou numéro de série attribué et apposé par un émetteur ou un agent de transfert sur chaque certificat de titres."
+    },
+    "CertificatePrefix": {
+      "definition": "Préfixe d'un certificat pouvant différer selon le lieu d'émission des certificats."
+    },
+    "CertificateCalledAmount": {
+      "definition": "Montant principal (pour les émissions de créances) ou nombre d'actions (pour les émissions de titres de capital) qui a été rappelé pour remboursement pour un numéro de certificat donné."
+    }
+  }
+}

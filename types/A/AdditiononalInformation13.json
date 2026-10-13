@@ -1,0 +1,27 @@
+{
+  "isoType": "AdditiononalInformation13",
+  "definition": "Restrictions, remarques ou notes pouvant s'appliquer à un compte ou à un plan d'investissement.",
+  "isoElements": {
+    "Limitation": {
+      "definition": "Restrictions et/ou limitations applicables au compte ou à la partie."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires telles que remarques ou notes devant être communiquées au sujet de l'activité de gestion du compte ou de la partie."
+    },
+    "AccountValidation": {
+      "definition": "Informations ou instructions pour le contournement des validations dans le processus d'enregistrement du compte."
+    },
+    "Type": {
+      "definition": "Type ou identification de la remarque, de la note, de la limitation ou de la restriction."
+    },
+    "Regulator": {
+      "definition": "Régulateur pouvant devoir être informé de la remarque, de la note, de la limitation ou de la restriction."
+    },
+    "Status": {
+      "definition": "Statut de la remarque, de la note, de la limitation ou de la restriction."
+    },
+    "Period": {
+      "definition": "Période de la restriction."
+    }
+  }
+}

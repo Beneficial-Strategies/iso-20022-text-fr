@@ -1,0 +1,15 @@
+{
+  "isoType": "AmountPricePerAmount3",
+  "definition": "Précise un ratio : prix en montant par montant.|Exemple :|ISIN US629377AS17. Rachat de USD1087.17 en espèces pour chaque USD1000 de titres (NRG Energy Inc 8% Senior Notes 15/12/13).",
+  "isoElements": {
+    "AmountPriceType": {
+      "definition": "Type de prix en montant."
+    },
+    "PriceValue": {
+      "definition": "Valeur du prix."
+    },
+    "Amount": {
+      "definition": "Montant sur lequel le prix est fondé."
+    }
+  }
+}

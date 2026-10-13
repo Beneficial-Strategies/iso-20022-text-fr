@@ -1,0 +1,12 @@
+{
+  "isoType": "RateName2",
+  "definition": "Le nom du taux précise le taux de référence ou le taux de base sur lequel repose un taux variable (par ex. : EONIA, EURIBOR, LIBOR, FEFUND, EURREPO).",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Entité qui attribue l'identification."
+    },
+    "RateName": {
+      "definition": "Le nom du taux précise le taux de référence ou le taux de base sur lequel repose un taux variable (par ex. : EONIA, EURIBOR, LIBOR, FEFUND, EURREPO)."
+    }
+  }
+}

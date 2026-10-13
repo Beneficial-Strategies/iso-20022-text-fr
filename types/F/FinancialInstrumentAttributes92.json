@@ -1,0 +1,137 @@
+{
+  "isoType": "FinancialInstrumentAttributes92",
+  "definition": "Éléments caractérisant un instrument financier.",
+  "isoElements": {
+    "PlaceOfListing": {
+      "definition": "Marché(s) sur lequel (lesquels) le titre est coté."
+    },
+    "DayCountBasis": {
+      "definition": "Précise la méthode de calcul des intérêts (courus) du titre."
+    },
+    "RegistrationForm": {
+      "definition": "Précise la forme, c'est-à-dire la propriété, du titre."
+    },
+    "PaymentFrequency": {
+      "definition": "Précise la fréquence d'un paiement d'intérêts."
+    },
+    "PaymentStatus": {
+      "definition": "Statut de paiement d'un titre à un moment donné."
+    },
+    "VariableRateChangeFrequency": {
+      "definition": "Précise la fréquence de modification du taux variable d'un instrument portant intérêts."
+    },
+    "ClassificationType": {
+      "definition": "Type de classification de l'instrument financier, selon la codification de la classification des instruments financiers ISO (CFI), par exemple action ordinaire avec droit de vote, entièrement libérée ou nominative."
+    },
+    "OptionStyle": {
+      "definition": "Précise la manière dont une option peut être exercée (américaine, européenne, bermudienne)."
+    },
+    "OptionType": {
+      "definition": "Indique s'il s'agit d'une option d'achat (Call : droit d'acheter un actif sous-jacent déterminé) ou d'une option de vente (Put : droit de vendre un actif sous-jacent déterminé)."
+    },
+    "DenominationCurrency": {
+      "definition": "Devise dans laquelle un titre est émis ou redénominé."
+    },
+    "CouponDate": {
+      "definition": "Prochaine date de paiement d'un instrument financier portant intérêts."
+    },
+    "ExpiryDate": {
+      "definition": "Date à laquelle un privilège expire."
+    },
+    "FloatingRateFixingDate": {
+      "definition": "Date à laquelle le taux d'intérêt d'un titre portant intérêts sera calculé et révisé, conformément aux conditions de l'émission."
+    },
+    "MaturityDate": {
+      "definition": "Date prévue du remboursement final au moment de l'émission."
+    },
+    "IssueDate": {
+      "definition": "Date à laquelle le titre a été rendu disponible."
+    },
+    "NextCallableDate": {
+      "definition": "Prochaine date à laquelle l'émetteur a le droit de rembourser le titre avant l'échéance."
+    },
+    "PutableDate": {
+      "definition": "Date à laquelle le porteur a le droit de demander le remboursement du titre avant l'échéance finale."
+    },
+    "DatedDate": {
+      "definition": "Première date à partir de laquelle un titre commence à porter intérêts."
+    },
+    "FirstPaymentDate": {
+      "definition": "Date à laquelle le premier paiement d'intérêts est dû aux porteurs du titre."
+    },
+    "PreviousFactor": {
+      "definition": "Taux exprimé sous forme de décimal compris entre 0 et 1, qui était applicable avant le facteur actuel et définit le principal restant dû de l'instrument financier (pour les titres à facteur d'amortissement)."
+    },
+    "CurrentFactor": {
+      "definition": "Taux exprimé sous forme de décimal compris entre 0 et 1, définissant le principal restant dû de l'instrument financier (pour les titres à facteur d'amortissement)."
+    },
+    "NextFactor": {
+      "definition": "Taux exprimé sous forme de décimal compris entre 0 et 1, qui sera applicable à partir de la prochaine date de facteur et définit le principal restant dû de l'instrument financier (pour les titres à facteur d'amortissement)."
+    },
+    "InterestRate": {
+      "definition": "Rapport annuel entre les intérêts versés et le montant principal de l'instrument financier pour une période déterminée."
+    },
+    "YieldToMaturityRate": {
+      "definition": "Taux de rendement escompté d'une obligation détenue jusqu'à la date d'échéance."
+    },
+    "NextInterestRate": {
+      "definition": "Taux d'intérêt applicable à la prochaine période de paiement d'intérêts pour les instruments à taux variable."
+    },
+    "IndexRateBasis": {
+      "definition": "Précise le taux de référence des instruments à revenu fixe dont le |prix est indexé sur le prix d'un indice de référence sous-jacent."
+    },
+    "CouponAttachedNumber": {
+      "definition": "Numéro du coupon attaché au titre physique."
+    },
+    "PoolNumber": {
+      "definition": "Numéro identifiant un groupe d'actifs sous-jacents attribué par l'émetteur d'un titre à facteur d'amortissement."
+    },
+    "QuantityBreakdown": {
+      "definition": "Ventilation d'une quantité en lots, tels que lots fiscaux ou séries d'instruments."
+    },
+    "VariableRateIndicator": {
+      "definition": "Indique si le taux d'intérêt d'un instrument portant intérêts est révisé périodiquement."
+    },
+    "CallableIndicator": {
+      "definition": "Indique si l'émetteur a le droit de rembourser le titre avant l'échéance. Également appelé RetractableIndicator."
+    },
+    "PutableIndicator": {
+      "definition": "Indique si le porteur a le droit de demander le remboursement du titre avant l'échéance finale. Également appelé RedeemableIndicator."
+    },
+    "MarketOrIndicativePrice": {
+      "definition": "Valeur du prix, par exemple sous forme de devise et de valeur par unité ou sous forme de pourcentage."
+    },
+    "ExercisePrice": {
+      "definition": "Prix prédéterminé auquel le porteur d'un dérivé achètera ou vendra l'instrument sous-jacent."
+    },
+    "SubscriptionPrice": {
+      "definition": "Prix prédéterminé auquel le titulaire d'un droit est en droit d'acheter l'instrument sous-jacent."
+    },
+    "ConversionPrice": {
+      "definition": "Prix d'un titre cible dans la conversion."
+    },
+    "StrikePrice": {
+      "definition": "Prix prédéterminé auquel le porteur devra acheter ou vendre l'instrument sous-jacent."
+    },
+    "MinimumNominalQuantity": {
+      "definition": "Quantité nominale minimale d'instrument financier."
+    },
+    "ContractSize": {
+      "definition": "Ratio ou facteur multiplicateur utilisé pour convertir un contrat en une quantité."
+    },
+    "UnderlyingFinancialInstrumentIdentification": {
+      "definition": "Identification du titre sous-jacent."
+    },
+    "FinancialInstrumentAttributeAdditionalDetails": {
+      "definition": "Fournit des informations complémentaires sur l'instrument financier sous forme narrative."
+    }
+  },
+  "isoRules": {
+    "PlaceOfListingRule": {
+      "definition": "Si PlaceOfListing est utilisé et qu'un MIC ISO 10383 existe pour le marché à identifier, le Market Identifier Code (MIC) ISO 10383 doit être utilisé."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Sauf accord bilatéral entre l'expéditeur et le destinataire, si FinancialInstrumentAttributeAdditionalDetails est présent, il ne doit pas contenir d'informations pouvant être fournies dans un champ structuré."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "RemittanceAdviceV07",
+  "definition": "Le message RemittanceAdvice permet à l'initiateur de fournir des détails de remise pouvant être associés à un paiement."
+}

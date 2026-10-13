@@ -1,0 +1,15 @@
+{
+  "isoType": "Intermediary45",
+  "definition": "Partie qui fournit aux investisseurs des services relatifs aux produits financiers (fonds de placement).",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifiant unique et non ambigu de l'intermédiaire."
+    },
+    "Role": {
+      "definition": "Fonction exercée par l'intermédiaire (fonds de placement)."
+    },
+    "Account": {
+      "definition": "Relation commerciale entre deux entités ; l'une des entités est le titulaire du compte, l'autre est le teneur de compte."
+    }
+  }
+}

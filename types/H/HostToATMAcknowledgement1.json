@@ -1,0 +1,9 @@
+{
+  "isoType": "HostToATMAcknowledgement1",
+  "definition": "Informations relatives à l'accusé de réception d'un ATM pour contacter le gestionnaire d'ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Environnement de l'ATM."
+    }
+  }
+}

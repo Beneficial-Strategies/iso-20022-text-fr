@@ -1,0 +1,30 @@
+{
+  "isoType": "MoneyLaunderingCheck1Code",
+  "definition": "Indique le statut des procédures d'identification en matière de lutte contre le blanchiment d'argent.",
+  "isoCodes": {
+    "PASS": {
+      "name": "Réussi",
+      "definition": "Les procédures d'identification en matière de lutte contre le blanchiment d'argent ont été effectuées par l'intermédiaire."
+    },
+    "NOTC": {
+      "name": "Non vérifié",
+      "definition": "Les procédures d'identification en matière de lutte contre le blanchiment d'argent n'ont pas été effectuées."
+    },
+    "EXEM": {
+      "name": "Exempté sous le seuil",
+      "definition": "Les procédures d'identification en matière de lutte contre le blanchiment d'argent n'ont pas été effectuées parce que l'opération est inférieure à la limite prescrite."
+    },
+    "CLMO": {
+      "name": "Exemption de type fonds de clients",
+      "definition": "Les procédures d'identification en matière de lutte contre le blanchiment d'argent n'ont pas été effectuées en raison du type d'opération, par exemple un transfert entre fonds, ou parce que l'opération est financée à partir d'un compte d'investisseur existant détenu par l'intermédiaire."
+    },
+    "AUTH": {
+      "name": "Crédit autorisé",
+      "definition": "Les procédures d'identification en matière de lutte contre le blanchiment d'argent n'ont pas été effectuées parce que l'investisseur est un établissement de crédit ou un établissement financier agréé."
+    },
+    "POEP": {
+      "name": "Paiement postal ou électronique exempté",
+      "definition": "Des procédures d'identification limitées en matière de lutte contre le blanchiment d'argent ont été effectuées parce qu'il s'agit d'une opération unique et que le paiement est effectué par virement postal, téléphonique ou électronique à partir d'un compte existant auprès d'un établissement de crédit ou d'un établissement financier agréé."
+    }
+  }
+}

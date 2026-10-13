@@ -1,0 +1,12 @@
+{
+  "isoType": "DividendTypeFormat9Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type de dividende.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant la fréquence de l'événement d'opération sur titres."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire de la fréquence de l'événement d'opération sur titres."
+    }
+  }
+}

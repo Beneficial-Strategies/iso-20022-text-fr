@@ -1,0 +1,12 @@
+{
+  "isoType": "QuorumQuantity2Choice",
+  "definition": "Choix de la quantité de quorum.",
+  "isoElements": {
+    "QuorumQuantity": {
+      "definition": "Quantité minimale de titres requise pour tenir une assemblée."
+    },
+    "QuorumQuantityPercentage": {
+      "definition": "Quantité minimale de titres, exprimée en pourcentage, requise pour tenir une assemblée."
+    }
+  }
+}

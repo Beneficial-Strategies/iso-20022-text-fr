@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchInformationResponseV06",
+  "definition": "Le message AccountSwitchInformationResponse est envoyé par la banque qui tenait précédemment le compte à la nouvelle banque tenant le compte pour signaler si le compte du titulaire peut être changé et, si c'est le cas, pour transmettre les détails des accords de paiement à transférer à la nouvelle banque tenant le compte. La confirmation de la fenêtre de transfert de solde est permise à l'ancienne banque tenant le compte."
+}

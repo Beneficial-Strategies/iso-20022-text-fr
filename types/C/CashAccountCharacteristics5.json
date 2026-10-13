@@ -1,0 +1,45 @@
+{
+  "isoType": "CashAccountCharacteristics5",
+  "definition": "Précise les caractéristiques du compte de trésorerie.",
+  "isoElements": {
+    "AccountLevel": {
+      "definition": "Définit le niveau du compte dans une hiérarchie de comptes."
+    },
+    "CashAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de trésorerie est passée."
+    },
+    "AccountServicer": {
+      "definition": "Usage : le teneur de compte est l'agent de domiciliation qui gère le compte local."
+    },
+    "ParentAccount": {
+      "definition": "Définit un compte parent auquel le compte de trésorerie est rattaché."
+    },
+    "CompensationMethod": {
+      "definition": "Définit si et comment les frais et taxes dus sont payés à l'établissement financier."
+    },
+    "DebitAccount": {
+      "definition": "Définit le compte débité des frais et taxes dus sur le compte de trésorerie, s'il diffère du compte de trésorerie."
+    },
+    "DelayedDebitDate": {
+      "definition": "Date future à laquelle le compte sera automatiquement débité des frais et taxes dus."
+    },
+    "SettlementAdvice": {
+      "definition": "Message en texte libre informant le client du règlement des frais et taxes dus."
+    },
+    "AccountBalanceCurrencyCode": {
+      "definition": "Devise utilisée pour préciser la devise de solde du compte."
+    },
+    "SettlementCurrencyCode": {
+      "definition": "Devise utilisée pour préciser la devise de règlement du compte."
+    },
+    "HostCurrencyCode": {
+      "definition": "Devise utilisée pour préciser la devise d'accueil de taxation du compte."
+    },
+    "Tax": {
+      "definition": "Décrit les paramètres de taxation du compte."
+    },
+    "AccountServicerContact": {
+      "definition": "Personne à contacter, sur le site de l'établissement financier, pour les problèmes de nature commerciale."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Proxy5Choice",
+  "definition": "Choix d'autorisation du mandataire.",
+  "isoElements": {
+    "Proxy": {
+      "definition": "Informations sur la désignation et l'enregistrement du mandataire."
+    },
+    "ProxyNotAllowed": {
+      "definition": "Indique qu'aucun mandataire n'est autorisé pour une assemblée."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Balance6",
+  "definition": "Position nette d'une détention ségréguée, dans un seul titre, au sein de la position globale détenue sur un compte-titres. Un solde de titres est calculé à partir de la somme des réceptions de titres moins la somme des livraisons de titres.",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "definition": "Indication que la position est courte ou longue."
+    },
+    "Quantity": {
+      "definition": "Quantité totale d'instruments financiers du solde."
+    }
+  }
+}

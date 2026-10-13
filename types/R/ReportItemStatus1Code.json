@@ -1,0 +1,14 @@
+{
+  "isoType": "ReportItemStatus1Code",
+  "definition": "Indique le statut d'une entrée dans un rapport.",
+  "isoCodes": {
+    "ACPD": {
+      "name": "Accepté",
+      "definition": "L'entrée a été acceptée par le destinataire du rapport."
+    },
+    "REJT": {
+      "name": "Rejeté",
+      "definition": "L'entrée a été rejetée par le destinataire du rapport."
+    }
+  }
+}

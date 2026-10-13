@@ -1,0 +1,12 @@
+{
+  "isoType": "RiskLevel2Choice",
+  "definition": "Choix de formats pour la spécification du niveau de risque.",
+  "isoElements": {
+    "Code": {
+      "definition": "Niveau de risque exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Niveau de risque exprimé sous forme de code propriétaire."
+    }
+  }
+}

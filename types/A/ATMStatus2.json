@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMStatus2",
+  "definition": "Statut global de l'ATM.",
+  "isoElements": {
+    "CurrentStatus": {
+      "definition": "Statut réel de l'ATM."
+    },
+    "CurrentStatusReason": {
+      "definition": "Description de la cause du statut de l'ATM. Ce champ est généralement renseigné lorsque CurrentStatus est OutOfService (OUTS)."
+    },
+    "DemandedStatus": {
+      "definition": "Présent si le statut requis par le gestionnaire de l'ATM est différent du statut actuel."
+    }
+  }
+}

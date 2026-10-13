@@ -1,0 +1,25 @@
+{
+  "isoType": "ExternalRegulatoryReportingType1Code",
+  "isoCodes": {
+    "DECL": {
+      "name": "Déclaration",
+      "definition": "L'opération comprend une déclaration confirmant le respect des exigences réglementaires et de sanctions applicables (par exemple FEFTA, OFAC ou d'autres cadres pertinents). Ce code de type fait référence à l'information contenue dans tout élément sous la même occurrence de « RgltryRptg/Dtls »."
+    },
+    "CIST": {
+      "name": "Statut de citoyenneté",
+      "definition": "L'autorité de réglementation exige le statut de résidence d'une partie concernée, par exemple s'il s'agit d'un résident ou d'un non-résident. Ce code de type peut faire référence à l'information contenue dans tout élément sous la même occurrence de « RgltryRptg/Dtls »."
+    },
+    "CRST": {
+      "name": "Statut du créancier",
+      "definition": "L'autorité de réglementation exige le statut ou le type de créancier, par exemple s'il s'agit d'une société, d'un particulier ou de l'État. Ce code de type peut faire référence à l'information contenue dans tout élément sous la même occurrence de « RgltryRptg/Dtls »."
+    },
+    "TAXS": {
+      "name": "Statut fiscal",
+      "definition": "L'autorité de réglementation exige une information fiscale, par exemple une référence d'identification fiscale. Ce code de type peut faire référence à l'information contenue dans tout élément sous la même occurrence de « RgltryRptg/Dtls »."
+    },
+    "PURP": {
+      "name": "Nouveau code",
+      "definition": "L'autorité de réglementation exige ou recommande un code ou un texte narratif pour identifier le motif du paiement conformément aux exigences propres à cette autorité. Ce code de type peut faire référence à l'information contenue dans tout élément sous la même occurrence de « RgltryRptg/Dtls »."
+    }
+  }
+}

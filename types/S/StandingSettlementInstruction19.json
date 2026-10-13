@@ -1,0 +1,26 @@
+{
+  "isoType": "StandingSettlementInstruction19",
+  "definition": "Détails de l'instruction permanente de règlement à appliquer.",
+  "isoElements": {
+    "SettlementStandingInstructionDatabase": {
+      "definition": "Précise la base de données d'instructions permanentes de règlement à utiliser pour déterminer les parties au règlement impliquées dans l'opération."
+    },
+    "Counterparty": {
+      "definition": "Identification de l'acheteur ou du vendeur dans une instruction permanente de règlement permettant de déterminer l'instruction permanente de règlement."
+    },
+    "Vendor": {
+      "definition": "Fournisseur de la base de données d'instructions permanentes de règlement à consulter."
+    },
+    "OtherDeliveringSettlementParties": {
+      "definition": "Parties livreuses, autres que le vendeur, nécessaires pour déterminer l'instruction permanente de règlement (par exemple, le dépositaire) ou fournies à titre d'information (par exemple, la chaîne de règlement de la partie instructrice)."
+    },
+    "OtherReceivingSettlementParties": {
+      "definition": "Parties réceptrices, autres que l'acheteur, nécessaires pour déterminer l'instruction permanente de règlement (par exemple, le dépositaire) ou fournies à titre d'information (par exemple, la chaîne de règlement de la partie instructrice)."
+    }
+  },
+  "isoRules": {
+    "VendorPresenceRule": {
+      "definition": "Si la base de données d'instructions permanentes de règlement est une base de données de fournisseur, le fournisseur doit être identifié."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "RateFormat26Choice",
+  "definition": "Choix entre un taux ou un taux non spécifié.",
+  "isoElements": {
+    "Rate": {
+      "definition": "La valeur est exprimée sous forme de taux."
+    },
+    "Amount": {
+      "definition": "Montant en espèces."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valeur du taux non spécifiée."
+    }
+  }
+}

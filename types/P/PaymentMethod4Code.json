@@ -1,0 +1,22 @@
+{
+  "isoType": "PaymentMethod4Code",
+  "definition": "Précise le mode de transfert qui sera utilisé pour transférer un montant.",
+  "isoCodes": {
+    "CHK": {
+      "name": "Chèque",
+      "definition": "Ordre écrit donné à une banque de payer un certain montant d'une personne à une autre."
+    },
+    "TRF": {
+      "name": "Virement",
+      "definition": "Transfert d'un montant dans les livres du teneur de compte."
+    },
+    "DD": {
+      "name": "Prélèvement",
+      "definition": "Encaissement d'un montant sur le compte bancaire du débiteur par le créancier. Le montant et les dates d'encaissement peuvent varier."
+    },
+    "TRA": {
+      "name": "Avis de virement",
+      "definition": "Transfert d'un montant dans les livres du teneur de compte. Un avis doit être renvoyé au titulaire du compte."
+    }
+  }
+}

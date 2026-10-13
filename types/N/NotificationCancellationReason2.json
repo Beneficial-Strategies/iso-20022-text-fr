@@ -1,0 +1,15 @@
+{
+  "isoType": "NotificationCancellationReason2",
+  "definition": "Fournit des détails supplémentaires sur le motif de la demande d'annulation.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Partie qui émet la demande d'annulation."
+    },
+    "Reason": {
+      "definition": "Spécifie le motif de l'annulation."
+    },
+    "AdditionalInformation": {
+      "definition": "Détails supplémentaires sur le motif de la demande d'annulation."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ExchangeRateReportOrError4Choice",
+  "definition": "Rapporte soit sur des informations de change, soit sur une erreur métier.",
+  "isoElements": {
+    "BusinessError": {
+      "definition": "Raison pour laquelle les informations fonctionnelles demandées ne sont pas fournies."
+    },
+    "CurrencyExchange": {
+      "definition": "Informations métier demandées."
+    }
+  }
+}

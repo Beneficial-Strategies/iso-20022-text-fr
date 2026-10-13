@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters18",
+  "definition": "Informations d'identification de l'opération de financement de titres, type (mise en pension, prise en pension, prêt de titres ou emprunt de titres) et autres paramètres.",
+  "isoElements": {
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Précise le type d'opération de financement de titres, c'est-à-dire mise en pension, prise en pension, prêt de titres ou emprunt de titres."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    },
+    "CommonIdentification": {
+      "definition": "Référence unique convenue entre les deux contreparties de la transaction commerciale pour identifier celle-ci."
+    },
+    "ReconciliationIndicator": {
+      "definition": "L'opération de règlement a déjà été envoyée sur le marché. Elle est envoyée par un titulaire de compte à un teneur de compte à des fins de rapprochement."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionOption30Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type d'options de l'opération sur titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type d'options de l'opération sur titres."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type d'options de l'opération sur titres."
+    }
+  }
+}

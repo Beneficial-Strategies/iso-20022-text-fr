@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason8FormatChoice",
+  "definition": "Choix de formats pour exprimer le motif de rejet d'une demande de modification d'option choisie.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le motif de rejet d'une demande de modification d'option choisie."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire exprimant le motif de rejet d'une demande de modification d'option choisie."
+    }
+  }
+}

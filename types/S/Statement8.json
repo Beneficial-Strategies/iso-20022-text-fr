@@ -1,0 +1,27 @@
+{
+  "isoType": "Statement8",
+  "definition": "Caractéristiques générales d'un relevé qui rend compte d'informations pour une période définie.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Référence du relevé."
+    },
+    "StatementPeriod": {
+      "definition": "Période sur laquelle porte le relevé."
+    },
+    "CreationDateTime": {
+      "definition": "Date de création du relevé."
+    },
+    "Frequency": {
+      "definition": "Fréquence du relevé."
+    },
+    "UpdateType": {
+      "definition": "Indique si le relevé est complet ou ne contient que les modifications."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique si une activité est déclarée dans le relevé."
+    },
+    "ReportNumber": {
+      "definition": "Numéro séquentiel du relevé."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMReconciliationAcknowledgement3",
+  "definition": "Informations relatives à l'accusé de réception d'un rapprochement de ATM de la part du gestionnaire de ATM.",
+  "isoElements": {
+    "ATM": {
+      "definition": "Informations sur l'ATM."
+    },
+    "Transaction": {
+      "definition": "Informations sur la réponse de rapprochement."
+    }
+  }
+}

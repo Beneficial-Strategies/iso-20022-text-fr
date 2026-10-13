@@ -1,0 +1,1469 @@
+{
+  "isoType": "ExternalPurpose1Code",
+  "isoCodes": {
+    "BKDF": {
+      "name": "Financement de prêt bancaire à tirage différé",
+      "definition": "Financement à tirage différé. Certains émetteurs peuvent recourir à des prêts à tirage différé, par lesquels le prêteur s'engage à financer des liquidités dans un délai déterminé dès que l'émetteur en fait la demande. Le prêteur perçoit une commission en contrepartie de cet engagement."
+    },
+    "BKFE": {
+      "name": "Frais de prêt bancaire",
+      "definition": "Frais de prêt bancaire. Mouvements de trésorerie liés à des frais de prêt bancaire spécifiques, notamment (a) frais d'agent / de cession ; (b) frais d'avenant ; (c) commissions d'engagement ; (d) frais de consentement ; (e) frais de portage ; (f) frais de compensation de retard ; (g) frais de facilité ; (h) frais de fronting ; (i) frais de financement ; (j) frais de cession de lettre de crédit."
+    },
+    "BKFM": {
+      "name": "Mémo de financement de prêt bancaire",
+      "definition": "Mémo de financement de prêt bancaire. Mouvement net de trésorerie pour la notification finale du contrat de prêt, lorsqu'il est envoyé séparément de l'instruction de notification finale du contrat de prêt."
+    },
+    "BKIP": {
+      "name": "Paiement d'intérêts courus de prêt bancaire",
+      "definition": "Paiements d'intérêts courus. Spécifique aux prêts bancaires."
+    },
+    "BKPP": {
+      "name": "Remboursement du principal de prêt bancaire",
+      "definition": "Remboursements de principal. Spécifique aux prêts bancaires"
+    },
+    "CBLK": {
+      "name": "Compensation de cartes en masse",
+      "definition": "Service qui règle les fonds correspondant à un ensemble d'opérations par carte, en faisant référence à un fichier d'opérations spécifique ou à d'autres informations telles que l'identifiant du terminal, l'identifiant de l'accepteur de carte ou d'autres détails de l'opération (ID)."
+    },
+    "CDCB": {
+      "name": "Paiement par carte avec retrait d'espèces (cashback)",
+      "definition": "Achat de biens et services avec décaissement d'espèces supplémentaire au point d'interaction (Cashback) (POI)."
+    },
+    "CDCD": {
+      "name": "Décaissement d'espèces, règlement en espèces",
+      "definition": "Retrait d'espèces à un distributeur automatique en environnement non surveillé ou avance de fonds en environnement surveillé (point d'interaction ou guichet bancaire) (ATM) (POI)."
+    },
+    "CDCS": {
+      "name": "Décaissement d'espèces avec surtaxe",
+      "definition": "Retrait d'espèces à un distributeur automatique en environnement non surveillé ou avance de fonds en environnement surveillé (point d'interaction ou guichet bancaire) avec surtaxe (ATM) (POI)."
+    },
+    "CDDP": {
+      "name": "Paiement par carte différé",
+      "definition": "Service combiné permettant à l'accepteur de carte d'effectuer une autorisation pour un montant provisoire et une finalisation pour le montant définitif dans un délai limité. Le paiement différé n'est disponible qu'en environnement non surveillé. Ce service est largement utilisé, par exemple, dans les pompes à essence et les cabines téléphoniques sans surveillance."
+    },
+    "CDOC": {
+      "name": "Crédit initial",
+      "definition": "Service permettant à l'accepteur de carte de créditer le compte d'un porteur de carte. Contrairement à un remboursement commerçant, un crédit d'origine n'est pas précédé d'un paiement par carte. Ce service est utilisé, par exemple, pour créditer des gains de jeu."
+    },
+    "CDQC": {
+      "name": "Quasi-espèces",
+      "definition": "Achat de biens assimilables à des espèces, tels que des jetons dans les casinos."
+    },
+    "ETUP": {
+      "name": "Rechargement de porte-monnaie électronique",
+      "definition": "L'opération se rapporte à un service qui réserve d'abord des fonds sur un compte de carte, puis charge une application de porte-monnaie électronique de ce montant."
+    },
+    "FCOL": {
+      "name": "Perception de frais",
+      "definition": "Service qui règle les frais liés aux opérations par carte entre deux parties."
+    },
+    "MTUP": {
+      "name": "Rechargement mobile",
+      "definition": "Service qui réserve d'abord des fonds sur un compte de carte, puis recharge un forfait de téléphone mobile prépayé de ce montant."
+    },
+    "ACCT": {
+      "name": "Gestion de compte",
+      "definition": "L'opération transfère des fonds entre deux comptes du même titulaire dans la même banque (2)."
+    },
+    "CASH": {
+      "name": "Virement de gestion de trésorerie",
+      "definition": "L'opération est une instruction générale de gestion de trésorerie."
+    },
+    "COLL": {
+      "name": "Paiement d'encaissement",
+      "definition": "L'opération est un encaissement de fonds initié par virement ou par prélèvement."
+    },
+    "CSDB": {
+      "name": "Décaissement d'espèces, gestion de trésorerie",
+      "definition": "L'opération se rapporte à un décaissement d'espèces."
+    },
+    "DEPT": {
+      "name": "Dépôt",
+      "definition": "L'opération se rapporte à un paiement de dépôt."
+    },
+    "INTC": {
+      "name": "Paiement intra-entreprise",
+      "definition": "L'opération est un paiement intragroupe, c'est-à-dire un paiement entre deux sociétés appartenant au même groupe."
+    },
+    "INTP": {
+      "name": "Paiement intra-partie",
+      "definition": "L'opération est un paiement entre deux comptes appartenant à la même partie (paiement intra-partie), la partie étant une personne physique (identifiée par un identifiant privé, et non par un identifiant d'organisation) (ID)."
+    },
+    "LIMA": {
+      "name": "Gestion de la liquidité",
+      "definition": "Transfert de compte initié par la banque pour soutenir la gestion à solde cible nul, le pooling ou le balayage."
+    },
+    "NETT": {
+      "name": "Compensation par solde net",
+      "definition": "L'opération se rapporte à une opération de compensation (netting)."
+    },
+    "BFWD": {
+      "name": "Contrat à terme obligataire",
+      "definition": "Garantie en espèces liée à des titres négociés au-delà de 3 jours, notamment les bons du Trésor, les JGB et les Gilts."
+    },
+    "CCIR": {
+      "name": "Swap de taux d'intérêt multidevise",
+      "definition": "Garantie en espèces liée à un swap de taux d'intérêt multidevise, indiquant l'échange de paiements d'intérêts fixes dans une devise contre ceux d'une autre devise."
+    },
+    "CCPC": {
+      "name": "Marge initiale compensée par CCP",
+      "definition": "Garantie en espèces associée à un accord ISDA ou de compensation centrale couvrant les exigences de marge initiale pour les opérations de gré à gré (OTC) compensées par une CCP."
+    },
+    "CCPM": {
+      "name": "Marge de variation compensée par CCP",
+      "definition": "Garantie en espèces associée à un accord ISDA ou de compensation centrale couvrant les exigences de marge de variation pour les opérations de gré à gré (OTC) compensées par une CCP."
+    },
+    "CCSM": {
+      "name": "Marge initiale compensée par CCP, espèces ségrégées",
+      "definition": "Marge initiale ségréguée CCP : marge initiale sur dérivés de gré à gré (OTC) compensés par une CCP et nécessitant une ségrégation."
+    },
+    "CRDS": {
+      "name": "Swap sur défaut de crédit",
+      "definition": "Garantie en espèces liée à la négociation de swaps sur défaut de crédit."
+    },
+    "CRPR": {
+      "name": "Produit croisé",
+      "definition": "Garantie en espèces liée à une combinaison de divers types d'opérations."
+    },
+    "CRSP": {
+      "name": "Soutien de crédit",
+      "definition": "Garantie en espèces liée à un prêt/emprunt d'espèces ; lettre de crédit ; signature d'une convention-cadre."
+    },
+    "CRTL": {
+      "name": "Ligne de crédit",
+      "definition": "Garantie en espèces liée à l'ouverture d'une ligne de crédit avant la négociation."
+    },
+    "EQPT": {
+      "name": "Option sur actions",
+      "definition": "Garantie en espèces liée à la négociation d'options sur actions (également appelées stock options)."
+    },
+    "EQUS": {
+      "name": "Swap sur actions",
+      "definition": "Garantie en espèces liée à des opérations de swap sur actions dans lesquelles le rendement d'une action est échangé contre un taux d'intérêt fixe ou variable."
+    },
+    "EXPT": {
+      "name": "Option exotique",
+      "definition": "Garantie en espèces liée à la négociation d'une option exotique, par exemple une option non standard."
+    },
+    "EXTD": {
+      "name": "Dérivés négociés en bourse",
+      "definition": "Garantie en espèces liée à la négociation de produits dérivés négociés en bourse en général (par opposition au gré à gré (OTC))."
+    },
+    "FIXI": {
+      "name": "Titres à revenu fixe",
+      "definition": "Garantie en espèces liée à un instrument à revenu fixe"
+    },
+    "FWBC": {
+      "name": "Garantie en espèces à terme détenue par le courtier",
+      "definition": "Paiement de garantie en espèces au titre d'une Master Forward Agreement (MFA), les espèces étant détenues sur un compte ségrégué et n'étant pas disponibles pour le client. Comprend tout instrument à date de règlement différée tel que les TBA, les pensions livrées et les contrats à terme obligataires"
+    },
+    "FWCC": {
+      "name": "Garantie en espèces à terme détenue par le client",
+      "definition": "Paiement de garantie en espèces au titre d'une Master Forward Agreement (MFA), les espèces appartenant au client, qui peut les utiliser lorsqu'elles lui sont restituées. Comprend tout instrument à date de règlement différée tel que les TBA, les pensions livrées et les contrats à terme obligataires"
+    },
+    "FWSB": {
+      "name": "Garantie en espèces à terme détenue par le courtier, ségrégée",
+      "definition": "Tout paiement en espèces lié à la garantie d'un contrat à terme sous convention-cadre, qui est ségrégué et non disponible pour le client. Les contrats à terme sous convention-cadre comprennent, par exemple, les TBA, les pensions livrées (repo) et les contrats à terme obligataires."
+    },
+    "FWSC": {
+      "name": "Garantie en espèces à terme ségrégée détenue par le client",
+      "definition": "Tout paiement en espèces lié à la garantie d'un contrat à terme sous convention-cadre, qui appartient au client et dont il peut disposer lorsqu'il lui est restitué depuis le compte ségrégué. Les contrats à terme sous convention-cadre comprennent, par exemple, les TBA, les pensions livrées (repo) et les contrats à terme obligataires."
+    },
+    "MARG": {
+      "name": "Marge quotidienne sur dérivés cotés",
+      "definition": "Marge quotidienne sur dérivés cotés – non ségréguée en tant que garantie associée à un accord FCM. Exemples : marges sur contrats à terme et options cotés ; primes d'options cotées non couvertes par le message MT54X."
+    },
+    "MBSB": {
+      "name": "Garantie en espèces MBS détenue par le courtier",
+      "definition": "Garantie en espèces ségréguée MBS appartenant au courtier (40Act/Dodd Frank) - Tout paiement en espèces lié à la garantie d'un titre adossé à des créances hypothécaires, qui est ségrégué et non disponible pour le client."
+    },
+    "MBSC": {
+      "name": "Garantie en espèces MBS détenue par le client",
+      "definition": "Garantie en espèces ségréguée MBS appartenant au client (40Act/Dodd Frank) - Tout paiement en espèces lié à la garantie d'un titre adossé à des créances hypothécaires, qui appartient au client et dont il peut disposer lorsqu'il lui est restitué depuis le compte ségrégué"
+    },
+    "MGCC": {
+      "name": "Marge initiale sur contrats à terme",
+      "definition": "Marge initiale sur contrats à terme. Lorsque ce paiement appartient au client et que celui-ci peut en disposer à la restitution"
+    },
+    "MGSC": {
+      "name": "Marge initiale sur contrats à terme, garantie en espèces ségrégée détenue par le client",
+      "definition": "Garantie en espèces ségréguée de marge appartenant au client - Tout paiement en espèces lié à la garantie de la marge initiale sur contrats à terme, qui appartient au client et dont il peut disposer lorsqu'il lui est restitué depuis le compte ségrégué."
+    },
+    "OCCC": {
+      "name": "Garantie nantie OCC détenue par le client",
+      "definition": "Garantie appartenant au client identifiée comme éligible au nantissement OCC."
+    },
+    "OPBC": {
+      "name": "Garantie en espèces sur option OTC détenue par le courtier",
+      "definition": "Paiement de garantie en espèces pour des options de gré à gré (OTC) associées à un accord FCM. Lorsque ce paiement est ségrégué et non disponible pour le client"
+    },
+    "OPCC": {
+      "name": "Garantie en espèces sur option OTC détenue par le client",
+      "definition": "Paiement de garantie en espèces pour des options de gré à gré (OTC) associées à un accord FCM. Lorsque ce paiement n'est pas ségrégué et que le client peut en disposer à la restitution"
+    },
+    "OPSB": {
+      "name": "Garantie en espèces ségrégée sur option OTC détenue par le courtier",
+      "definition": "Garantie en espèces ségréguée d'option appartenant au courtier - Tout paiement en espèces lié à la garantie d'une option de gré à gré (OTC), qui est ségrégué et non disponible pour le client."
+    },
+    "OPSC": {
+      "name": "Garantie en espèces ségrégée sur option OTC détenue par le client",
+      "definition": "Garantie en espèces ségréguée d'option appartenant au client - Tout paiement en espèces lié à la garantie d'une option de gré à gré (OTC), qui appartient au client et dont il peut disposer lorsqu'il lui est restitué depuis le compte ségrégué"
+    },
+    "OPTN": {
+      "name": "Option de change",
+      "definition": "Garantie en espèces liée à la négociation d'options sur change."
+    },
+    "OTCD": {
+      "name": "Dérivés de gré à gré",
+      "definition": "Garantie en espèces liée aux dérivés de gré à gré (Over-the-counter, OTC) en général, par exemple des contrats négociés et conclus de manière privée."
+    },
+    "REPO": {
+      "name": "Mise en pension",
+      "definition": "Garantie en espèces liée à une opération de pension livrée."
+    },
+    "RPBC": {
+      "name": "Garantie de pension livrée bilatérale détenue par le courtier",
+      "definition": "Garantie bilatérale de repo appartenant au courtier, associée à une convention-cadre de repo – GMRA ou MRA Master Repo Agreements."
+    },
+    "RPCC": {
+      "name": "Garantie de pension livrée détenue par le client",
+      "definition": "Garantie de repo appartenant au client, associée à une convention-cadre de repo – GMRA ou MRA Master Repo Agreements"
+    },
+    "RPSB": {
+      "name": "Garantie en espèces ségrégée de pension livrée bilatérale détenue par le courtier",
+      "definition": "Garantie en espèces ségréguée bilatérale de repo appartenant au courtier, associée à une convention-cadre de repo."
+    },
+    "RPSC": {
+      "name": "Garantie en espèces ségrégée de pension livrée bilatérale détenue par le client",
+      "definition": "Garantie ségréguée de repo appartenant au client, associée à une convention-cadre de repo."
+    },
+    "RVPO": {
+      "name": "Prise en pension",
+      "definition": "Garantie en espèces liée à une opération de prise en pension."
+    },
+    "SBSC": {
+      "name": "Achat-vente et vente-achat de titres",
+      "definition": "Garantie en espèces liée à une opération Securities Buy Sell Sell Buy Back"
+    },
+    "SCIE": {
+      "name": "Swap de taux d'intérêt monodevise exotique",
+      "definition": "Garantie en espèces liée à un swap de taux d'intérêt exotique en une seule devise."
+    },
+    "SCIR": {
+      "name": "Swap de taux d'intérêt monodevise",
+      "definition": "Garantie en espèces liée à un swap de taux d'intérêt en une seule devise."
+    },
+    "SCRP": {
+      "name": "Produits croisés sur titres",
+      "definition": "Garantie en espèces liée à une combinaison de types d'expositions sur titres."
+    },
+    "SHBC": {
+      "name": "Garantie de vente à découvert détenue par le courtier",
+      "definition": "Garantie de vente à découvert appartenant au courtier, associée à une convention de prime brokerage."
+    },
+    "SHCC": {
+      "name": "Garantie de vente à découvert détenue par le client",
+      "definition": "Garantie de vente à découvert appartenant au client, associée à une convention de prime brokerage."
+    },
+    "SHSL": {
+      "name": "Vente à découvert",
+      "definition": "Garantie en espèces liée à une vente à découvert"
+    },
+    "SLEB": {
+      "name": "Prêt et emprunt de titres",
+      "definition": "Garantie en espèces liée au prêt et à l'emprunt de titres."
+    },
+    "SLOA": {
+      "name": "Prêt garanti",
+      "definition": "Garantie en espèces liée à un prêt garanti."
+    },
+    "SWBC": {
+      "name": "Garantie en espèces sur swap détenue par le courtier",
+      "definition": "Paiement de garantie en espèces pour des swaps associés à un accord ISDA. . Lorsque ce paiement est ségrégué et|non disponible pour le client. Comprend tout paiement de garantie en espèces effectué selon les termes d'un accord CSA|pour des instruments tels que les swaps et les contrats de change à terme (FX)."
+    },
+    "SWCC": {
+      "name": "Garantie en espèces sur swap détenue par le client",
+      "definition": "Paiement de garantie en espèces pour des swaps associés à un accord ISDA. Lorsque ce paiement n'est pas ségrégué et|que le client peut en disposer à la restitution. Comprend tout paiement de garantie en espèces effectué selon les termes d'un accord CSA|pour des instruments tels que les swaps et les contrats de change à terme (FX)."
+    },
+    "SWPT": {
+      "name": "Option sur swap",
+      "definition": "Garantie en espèces liée à une option sur swap de taux d'intérêt."
+    },
+    "SWSB": {
+      "name": "Garantie en espèces ségréguée de swaps détenue par le courtier",
+      "definition": "Garantie en espèces ségréguée de swaps appartenant au courtier - Tout paiement en espèces lié à la garantie de la marge de swap ,|qui est ségrégué et non disponible pour le client. Cela comprend toute garantie identifiée dans un accord CSA|telle que la garantie de swap ou de contrat de change à terme (FX)."
+    },
+    "SWSC": {
+      "name": "Garantie en espèces ségréguée de swaps détenue par le client",
+      "definition": "Garantie en espèces ségréguée de swaps appartenant au client - Tout paiement en espèces lié à la garantie de la marge de swap,|qui appartient au client et dont il peut disposer lorsqu'il lui est restitué depuis le compte ségrégué. Cela|comprend toute garantie identifiée dans un accord CSA telle que la garantie de swap ou de contrat de change à terme (FX)."
+    },
+    "TBAS": {
+      "name": "À annoncer",
+      "definition": "Garantie en espèces liée à un To Be Announced (TBA)"
+    },
+    "TBBC": {
+      "name": "Garantie en espèces TBA détenue par le courtier",
+      "definition": "Paiement de garantie en espèces (ségrégué) pour des titres TBA associés à une convention-cadre TBA. Lorsque ce paiement est ségrégué et non disponible pour le client."
+    },
+    "TBCC": {
+      "name": "Garantie en espèces TBA détenue par le client",
+      "definition": "Paiement de garantie en espèces (à l'usage du client) pour des titres TBA associés à une convention-cadre TBA. Lorsque ce paiement n'est pas ségrégué et que le client peut en disposer à la restitution."
+    },
+    "TRCP": {
+      "name": "Produit croisé de trésorerie",
+      "definition": "Garantie en espèces liée à une combinaison de types d'expositions de trésorerie."
+    },
+    "AGRT": {
+      "name": "Virement agricole",
+      "definition": "L'opération se rapporte au secteur agricole."
+    },
+    "AREN": {
+      "name": "Écriture de comptes clients",
+      "definition": "L'opération se rapporte à un paiement associé à une écriture de comptes clients (Account Receivable Entry)"
+    },
+    "BEXP": {
+      "name": "Frais professionnels",
+      "definition": "L'opération se rapporte à un paiement de frais professionnels."
+    },
+    "BOCE": {
+      "name": "Écriture de conversion back-office",
+      "definition": "L'opération se rapporte à un paiement associé à une écriture de conversion back-office (Back Office Conversion Entry)"
+    },
+    "COMC": {
+      "name": "Paiement commercial",
+      "definition": "L'opération se rapporte à un paiement de crédit ou de débit commercial (anciennement CommercialCredit)."
+    },
+    "CPYR": {
+      "name": "Droits d'auteur",
+      "definition": "L'opération est le paiement de droits d'auteur."
+    },
+    "GDDS": {
+      "name": "Achat/vente de biens",
+      "definition": "L'opération se rapporte à l'achat et à la vente de biens."
+    },
+    "GDSV": {
+      "name": "Achat/vente de biens et services",
+      "definition": "L'opération se rapporte à l'achat et à la vente de biens et de services."
+    },
+    "GSCB": {
+      "name": "Achat/vente de biens et services avec retrait d'espèces",
+      "definition": "L'opération se rapporte à l'achat et à la vente de biens et de services avec retrait d'espèces (cashback)."
+    },
+    "LICF": {
+      "name": "Redevance de licence",
+      "definition": "L'opération est le paiement de frais de licence."
+    },
+    "MP2B": {
+      "name": "Paiement mobile P2B",
+      "definition": "Service permettant à un utilisateur d'employer une application sur son mobile pour payer un commerçant ou un autre bénéficiaire professionnel en initiant un message de paiement. Dans ce contexte, les informations de compte ou un alias du bénéficiaire peuvent être acheminés vers l'application par différents canaux, par exemple code QR, NFC, Bluetooth ou d'autres réseaux."
+    },
+    "POPE": {
+      "name": "Écriture au point de vente",
+      "definition": "L'opération se rapporte à un paiement associé à une écriture de point d'achat (Point of Purchase Entry)."
+    },
+    "ROYA": {
+      "name": "Redevances",
+      "definition": "L'opération est le paiement de redevances."
+    },
+    "SCVE": {
+      "name": "Achat/vente de services",
+      "definition": "L'opération se rapporte à l'achat et à la vente de services."
+    },
+    "SERV": {
+      "name": "Frais de service",
+      "definition": "L'opération se rapporte à des frais de service facturés par un prestataire de services."
+    },
+    "SUBS": {
+      "name": "Souscription",
+      "definition": "L'opération se rapporte à un paiement de services d'information ou de divertissement, sous forme imprimée ou électronique."
+    },
+    "SUPP": {
+      "name": "Paiement fournisseur",
+      "definition": "L'opération se rapporte à un paiement à un fournisseur."
+    },
+    "TRAD": {
+      "name": "Commercial",
+      "definition": "L'opération se rapporte à une opération de services de financement du commerce."
+    },
+    "CHAR": {
+      "name": "Paiement caritatif",
+      "definition": "L'opération est un paiement à but caritatif."
+    },
+    "COMT": {
+      "name": "Paiement consolidé de tiers consommateur",
+      "definition": "L'opération est un paiement utilisé par un tiers pouvant collecter des fonds pour payer au nom de consommateurs, par exemple des sociétés de conseil en crédit ou de paiement de factures."
+    },
+    "MP2P": {
+      "name": "Paiement mobile P2P",
+      "definition": "Service permettant à un utilisateur d'employer une application sur son mobile pour initier un transfert de fonds de son compte bancaire vers le compte bancaire d'une autre personne, sans utiliser le numéro de compte mais une information d'alias telle qu'un MSISDN comme information d'adressage du compte dans son application."
+    },
+    "ECPG": {
+      "name": "Paiement électronique garanti",
+      "definition": "Paiement de commerce électronique avec garantie de paiement de la banque émettrice."
+    },
+    "ECPR": {
+      "name": "Retour de paiement électronique",
+      "definition": "Retour de paiement de commerce électronique."
+    },
+    "ECPU": {
+      "name": "Paiement électronique non garanti",
+      "definition": "Paiement de commerce électronique sans garantie de paiement de la banque émettrice."
+    },
+    "EPAY": {
+      "name": "Paiement électronique",
+      "definition": "L'opération se rapporte à un ePayment."
+    },
+    "CLPR": {
+      "name": "Remboursement du capital d'un prêt automobile",
+      "definition": "L'opération est un paiement de remboursement de principal d'un prêt automobile."
+    },
+    "COMP": {
+      "name": "Paiement d'indemnisation",
+      "definition": "L'opération se rapporte au paiement d'une indemnité relative à une perte d'intérêts/un ajustement de date de valeur, pouvant inclure des frais."
+    },
+    "DBTC": {
+      "name": "Paiement de recouvrement par débit",
+      "definition": "Encaissement de fonds initié par un prélèvement."
+    },
+    "GOVI": {
+      "name": "Assurance publique",
+      "definition": "L'opération se rapporte à un paiement d'assurance publique."
+    },
+    "HLRP": {
+      "name": "Remboursement de prêt immobilier",
+      "definition": "L'opération se rapporte à un paiement de prêt immobilier."
+    },
+    "HLST": {
+      "name": "Règlement de prêt immobilier",
+      "definition": "L'opération se rapporte au règlement d'un prêt immobilier."
+    },
+    "INPC": {
+      "name": "Prime d'assurance automobile",
+      "definition": "L'opération est un paiement de prime d'assurance automobile."
+    },
+    "INPR": {
+      "name": "Remboursement de prime d'assurance",
+      "definition": "L'opération se rapporte à un remboursement de prime d'assurance."
+    },
+    "INSC": {
+      "name": "Paiement d'une indemnité d'assurance",
+      "definition": "L'opération se rapporte au paiement d'une indemnité d'assurance."
+    },
+    "INSU": {
+      "name": "Prime d'assurance",
+      "definition": "L'opération est le paiement d'une prime d'assurance."
+    },
+    "INTE": {
+      "name": "Intérêts",
+      "definition": "L'opération est le paiement d'intérêts."
+    },
+    "LBRI": {
+      "name": "Assurance du travail",
+      "definition": "L'opération est un paiement d'assurance du travail."
+    },
+    "LIFI": {
+      "name": "Assurance vie",
+      "definition": "L'opération est un paiement d'assurance-vie."
+    },
+    "LOAN": {
+      "name": "Prêt",
+      "definition": "L'opération concerne le versement d'un prêt à l'emprunteur."
+    },
+    "LOAR": {
+      "name": "Remboursement de prêt",
+      "definition": "L'opération concerne le remboursement d'un prêt au prêteur."
+    },
+    "PENO": {
+      "name": "Paiement fondé sur un titre exécutoire",
+      "definition": "Paiement fondé sur des ordonnances d'exécution, à l'exception de celles découlant de décisions judiciaires en matière de pension alimentaire."
+    },
+    "PPTI": {
+      "name": "Assurance des biens",
+      "definition": "L'opération est un paiement d'assurance de biens."
+    },
+    "RELG": {
+      "name": "Location et bail (général)",
+      "definition": "L'opération concerne une location ou un bail en général."
+    },
+    "RINP": {
+      "name": "Paiement échelonné récurrent",
+      "definition": "L'opération concerne le paiement d'une échéance récurrente effectuée à intervalles réguliers."
+    },
+    "TRFD": {
+      "name": "Fonds fiduciaire",
+      "definition": "L'opération concerne le paiement d'un fonds fiduciaire."
+    },
+    "FORW": {
+      "name": "Change à terme",
+      "definition": "Opérations de change dont la date de valeur est future (FX)."
+    },
+    "FXNT": {
+      "name": "Compensation liée au change",
+      "definition": "Compensation de change lorsque les espèces sont transférées par un virement distinct plutôt que dans l'instruction de change de clôture (FX)"
+    },
+    "ADMG": {
+      "name": "Gestion administrative",
+      "definition": "L'opération concerne un paiement lié à la gestion administrative."
+    },
+    "ADVA": {
+      "name": "Paiement anticipé",
+      "definition": "L'opération est un paiement anticipé."
+    },
+    "BCDM": {
+      "name": "Chèque au porteur national",
+      "definition": "L'opération est le paiement d'un chèque au porteur national."
+    },
+    "BCFG": {
+      "name": "Chèque au porteur étranger",
+      "definition": "L'opération est le paiement d'un chèque au porteur étranger."
+    },
+    "BLDM": {
+      "name": "Entretien de bâtiment",
+      "definition": "L'opération concerne un paiement lié à l'entretien d'un bâtiment."
+    },
+    "BNET": {
+      "name": "Compensation de contrats à terme sur obligations",
+      "definition": "Mouvement net d'espèces résultant du dénouement par compensation d'un contrat à terme sur obligations."
+    },
+    "CBFF": {
+      "name": "Constitution de capital",
+      "definition": "L'opération concerne la constitution d'un capital au titre d'avantages accessoires, c'est-à-dire la constitution de capital en général."
+    },
+    "CBFR": {
+      "name": "Constitution de capital retraite",
+      "definition": "L'opération concerne la constitution d'un capital au titre d'avantages accessoires en vue de la retraite."
+    },
+    "CCRD": {
+      "name": "Paiement par carte de crédit",
+      "definition": "L'opération concerne le paiement d'un compte de carte de crédit."
+    },
+    "CDBL": {
+      "name": "Relevé de carte de crédit",
+      "definition": "L'opération concerne le paiement d'un relevé de carte de crédit."
+    },
+    "CFEE": {
+      "name": "Frais d'annulation",
+      "definition": "L'opération concerne le paiement de frais d'annulation."
+    },
+    "CGDD": {
+      "name": "Prélèvement généré par carte",
+      "definition": "L'opération concerne un prélèvement dont le mandat a été généré à partir des données d'une carte de paiement au point de vente."
+    },
+    "CORT": {
+      "name": "Paiement de règlement de transaction",
+      "definition": "L'opération concerne le règlement d'une transaction, par exemple une opération de change ou une opération sur titres."
+    },
+    "COST": {
+      "name": "Coûts",
+      "definition": "L'opération concerne le paiement de frais."
+    },
+    "CPKC": {
+      "name": "Frais de stationnement",
+      "definition": "L'opération concerne des frais de stationnement."
+    },
+    "DCRD": {
+      "name": "Paiement par carte de débit",
+      "definition": "L'opération concerne un paiement par carte de débit."
+    },
+    "DSMT": {
+      "name": "Décaissement sur ordre imprimé",
+      "definition": "L'opération est le paiement d'un décaissement dû à un type particulier d'ordre imprimé de paiement d'une somme déterminée, émis par une banque ou un bureau de poste (Zahlungsanweisung zur Verrechnung)"
+    },
+    "DVPM": {
+      "name": "Livraison contre paiement",
+      "definition": "Code utilisé pour préavertir le teneur de compte d'une prochaine instruction de livraison contre paiement."
+    },
+    "EDUC": {
+      "name": "Éducation",
+      "definition": "L'opération concerne le paiement de frais d'études ou de scolarité."
+    },
+    "FACT": {
+      "name": "Paiement lié à la mise à jour du facteur",
+      "definition": "Paiement lié à une mise à jour de facteur"
+    },
+    "FAND": {
+      "name": "Aide financière en cas de catastrophe naturelle",
+      "definition": "Aide financière des autorités de l'État pour remédier aux conséquences de catastrophes naturelles."
+    },
+    "FCPM": {
+      "name": "Paiement tardif de frais et de charges",
+      "definition": "L'opération est le paiement de frais et pénalités de retard, par exemple des frais de carte de crédit."
+    },
+    "FEES": {
+      "name": "Paiement de frais",
+      "definition": "Paiement de frais ou de commissions."
+    },
+    "GIFT": {
+      "name": "Donation",
+      "definition": "Paiement sans finalité commerciale ni légale."
+    },
+    "GOVT": {
+      "name": "Paiement public",
+      "definition": "L'opération est un paiement à destination ou en provenance d'une administration publique."
+    },
+    "ICCP": {
+      "name": "Paiement irrévocable par carte de crédit",
+      "definition": "L'opération est le remboursement d'un paiement par carte de crédit."
+    },
+    "IDCP": {
+      "name": "Paiement irrévocable par carte de débit",
+      "definition": "L'opération est le remboursement d'un paiement par carte de débit."
+    },
+    "IHRP": {
+      "name": "Contrat de location-vente à tempérament",
+      "definition": "L'opération est le paiement d'un contrat de vente à tempérament ou de location-vente."
+    },
+    "INSM": {
+      "name": "Versement échelonné",
+      "definition": "L'opération concerne le paiement d'une échéance."
+    },
+    "IVPT": {
+      "name": "Paiement de facture",
+      "definition": "L'opération est le paiement de factures."
+    },
+    "MCDM": {
+      "name": "Chèque multidevise national",
+      "definition": "L'opération est le paiement d'un chèque multidevise national"
+    },
+    "MCFG": {
+      "name": "Chèque multidevise étranger",
+      "definition": "L'opération est le paiement d'un chèque multidevise étranger"
+    },
+    "MSVC": {
+      "name": "Types de services multiples",
+      "definition": "L'opération concerne un paiement portant sur plusieurs types de services."
+    },
+    "NOWS": {
+      "name": "Non spécifié par ailleurs",
+      "definition": "L'opération concerne un paiement pour un type de services non spécifié par ailleurs."
+    },
+    "OCDM": {
+      "name": "Chèque à ordre national",
+      "definition": "L'opération est le paiement d'un chèque à ordre national"
+    },
+    "OCFG": {
+      "name": "Chèque à ordre étranger",
+      "definition": "L'opération est le paiement d'un chèque à ordre étranger"
+    },
+    "OFEE": {
+      "name": "Frais d'ouverture",
+      "definition": "L'opération concerne le paiement de frais d'ouverture."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre motif de paiement."
+    },
+    "PADD": {
+      "name": "Débit préautorisé",
+      "definition": "L'opération concerne l'initiation d'un prélèvement préautorisé"
+    },
+    "PTSP": {
+      "name": "Conditions de paiement",
+      "definition": "L'opération concerne la spécification de conditions de paiement"
+    },
+    "RCKE": {
+      "name": "Écriture de chèque représenté",
+      "definition": "L'opération concerne un paiement associé à une écriture de chèque présenté à nouveau"
+    },
+    "RCPT": {
+      "name": "Paiement sur reçu",
+      "definition": "L'opération concerne le paiement d'un reçu."
+    },
+    "REBT": {
+      "name": "Ristourne",
+      "definition": "L'opération est le paiement d'une remise."
+    },
+    "REFU": {
+      "name": "Remboursement",
+      "definition": "L'opération est le paiement d'un remboursement."
+    },
+    "RENT": {
+      "name": "Loyer",
+      "definition": "L'opération est le paiement d'un loyer."
+    },
+    "REOD": {
+      "name": "Remboursement de découvert de compte",
+      "definition": "L'opération concerne le remboursement d'un découvert de compte"
+    },
+    "RIMB": {
+      "name": "Remboursement d'une opération erronée antérieure",
+      "definition": "L'opération concerne le remboursement d'une opération antérieure erronée."
+    },
+    "RPNT": {
+      "name": "Compensation de pensions livrées bilatérales par Internet",
+      "definition": "Paiement net ou global des intérêts d'une opération de pension bilatérale lors du report, du dénouement par compensation ou d'autres scénarios de clôture, le cas échéant."
+    },
+    "RRBN": {
+      "name": "Tourniquet",
+      "definition": "Paiement en espèces résultant d'un Round Robin"
+    },
+    "RRCT": {
+      "name": "Virement de remboursement reçu",
+      "definition": "L'opération se rapporte à un remboursement, pour des raisons commerciales, d'un virement correctement reçu."
+    },
+    "RRTP": {
+      "name": "Demande de paiement associée",
+      "definition": "L'opération concerne une demande de paiement (Request to Pay)."
+    },
+    "RVPM": {
+      "name": "Réception contre paiement",
+      "definition": "Code utilisé pour préavertir le teneur de compte d'une prochaine instruction de réception contre paiement."
+    },
+    "SLPI": {
+      "name": "Instruction de bordereau de paiement",
+      "definition": "L'opération est le paiement d'un bordereau de paiement correctement formaté."
+    },
+    "SPLT": {
+      "name": "Paiements fractionnés",
+      "definition": "Paiements fractionnés. À utiliser lorsque les mouvements d'espèces et de titres relatifs au règlement d'une transaction sur titres sont instruits|séparément."
+    },
+    "STDY": {
+      "name": "Études",
+      "definition": "L'opération concerne le paiement de frais d'études ou de scolarité."
+    },
+    "TBAN": {
+      "name": "Compensation par appariement TBA",
+      "definition": "Mouvement net par virement d'espèces résultant du dénouement par compensation d'une opération TBA"
+    },
+    "TBIL": {
+      "name": "Facture de télécommunications",
+      "definition": "L'opération concerne le paiement d'une facture de télécommunications."
+    },
+    "TCSC": {
+      "name": "Frais de services municipaux",
+      "definition": "L'opération concerne un paiement lié à des redevances perçues par un conseil municipal."
+    },
+    "TELI": {
+      "name": "Opération initiée par téléphone",
+      "definition": "L'opération concerne un paiement initié par téléphone."
+    },
+    "TMPG": {
+      "name": "Paiement de réclamation TMPG",
+      "definition": "Paiement en espèces résultant d'une réclamation TMPG"
+    },
+    "TPRI": {
+      "name": "Intérêts de pension livrée tripartite",
+      "definition": "Intérêts liés à une opération de pension tripartite"
+    },
+    "TPRP": {
+      "name": "Compensation de pensions livrées tripartites",
+      "definition": "Mouvement d'espèces correspondant au gain ou à la perte net lié à une opération de pension tripartite"
+    },
+    "TRNC": {
+      "name": "Bordereau de paiement tronqué",
+      "definition": "L'opération est le paiement d'un bordereau de paiement prérempli par le bénéficiaire, dans lequel les informations du bénéficiaire à l'attention du payeur sont tronquées."
+    },
+    "TRVC": {
+      "name": "Chèque de voyage",
+      "definition": "L'opération est le paiement d'un chèque de voyage"
+    },
+    "WEBI": {
+      "name": "Opération initiée par Internet",
+      "definition": "L'opération concerne un paiement initié par internet."
+    },
+    "IPAY": {
+      "name": "Paiements instantanés",
+      "definition": "Opération dans laquelle le montant est immédiatement disponible pour le bénéficiaire."
+    },
+    "IPCA": {
+      "name": "Annulation de paiements instantanés",
+      "definition": "Opération dans laquelle le retour du montant est effectué en totalité."
+    },
+    "IPDO": {
+      "name": "Paiements instantanés pour dons",
+      "definition": "Opération dans laquelle le montant est immédiatement disponible pour le bénéficiaire, effectuée pour des dons, avec transmission des données d'adresse du payeur."
+    },
+    "IPEA": {
+      "name": "Paiements instantanés en commerce électronique sans données d'adresse",
+      "definition": "Opération dans laquelle le montant est immédiatement disponible pour le bénéficiaire, effectuée dans le cadre du commerce électronique, sans transmission des données d'adresse du payeur."
+    },
+    "IPEC": {
+      "name": "Paiements instantanés en commerce électronique avec données d'adresse",
+      "definition": "Opération dans laquelle le montant est immédiatement disponible pour le bénéficiaire, effectuée dans le cadre du commerce électronique, avec transmission des données d'adresse du payeur."
+    },
+    "IPEW": {
+      "name": "Paiements instantanés en commerce électronique",
+      "definition": "Opération dans laquelle le montant est immédiatement disponible pour le bénéficiaire, effectuée dans le cadre du commerce électronique."
+    },
+    "IPPS": {
+      "name": "Paiements instantanés au point de vente",
+      "definition": "Opération dans laquelle le montant est immédiatement disponible pour le bénéficiaire, effectuée au point de vente (POS)."
+    },
+    "IPRT": {
+      "name": "Retour de paiements instantanés",
+      "definition": "Opération dans laquelle le retour du montant est effectué en totalité ou en partie."
+    },
+    "IPU2": {
+      "name": "Paiements instantanés sur distributeur automatique sans surveillance avec 2FA",
+      "definition": "L'opération est effectuée via un distributeur automatique non surveillé avec une authentification à deux facteurs (2)."
+    },
+    "IPUW": {
+      "name": "Paiements instantanés sur distributeur automatique sans surveillance sans 2FA",
+      "definition": "L'opération est effectuée via un distributeur automatique non surveillé sans authentification à deux facteurs (2)."
+    },
+    "ANNI": {
+      "name": "Rente",
+      "definition": "L'opération règle une annuité liée à un crédit, une assurance, des placements ou autre."
+    },
+    "CAFI": {
+      "name": "Frais de gestion du conservateur (interne)",
+      "definition": "L'opération est le paiement des frais de gestion d'un compte conservateur lorsque la banque dépositaire et la banque teneuse du compte courant sont identiques."
+    },
+    "CFDI": {
+      "name": "Capital arrivant à échéance (interne)",
+      "definition": "L'opération est le paiement d'un capital arrivant à échéance lorsque la banque dépositaire et la banque teneuse du compte courant sont identiques."
+    },
+    "CMDT": {
+      "name": "Transfert de matières premières",
+      "definition": "L'opération est le paiement de matières premières."
+    },
+    "DERI": {
+      "name": "Produits dérivés",
+      "definition": "L'opération concerne une opération sur instruments dérivés."
+    },
+    "DIVD": {
+      "name": "Dividende",
+      "definition": "L'opération est le paiement de dividendes."
+    },
+    "FREX": {
+      "name": "Change",
+      "definition": "L'opération concerne une opération de change."
+    },
+    "HEDG": {
+      "name": "Couverture",
+      "definition": "L'opération concerne une opération de couverture."
+    },
+    "INVS": {
+      "name": "Investissements et titres",
+      "definition": "L'opération concerne le paiement de fonds communs de placement, de produits d'investissement et d'actions"
+    },
+    "PRME": {
+      "name": "Métal précieux",
+      "definition": "L'opération concerne une opération sur métaux précieux."
+    },
+    "SAVG": {
+      "name": "Épargne",
+      "definition": "Transfert vers ou depuis un compte d'épargne ou un compte de retraite."
+    },
+    "SECU": {
+      "name": "Titres",
+      "definition": "L'opération est le paiement de titres."
+    },
+    "SEPI": {
+      "name": "Achat de titres (interne)",
+      "definition": "L'opération est le paiement d'un achat de titres lorsque la banque dépositaire et la banque teneuse du compte courant sont identiques"
+    },
+    "TREA": {
+      "name": "Paiement de trésorerie",
+      "definition": "L'opération concerne des opérations de trésorerie."
+    },
+    "UNIT": {
+      "name": "Achat de parts de fonds commun de placement",
+      "definition": "L'opération est un achat de parts de fonds de placement (Unit Trust)"
+    },
+    "FNET": {
+      "name": "Paiement de compensation de contrats à terme",
+      "definition": "Espèces associées à une compensation de paiements sur contrats à terme. Se reporter au code CCPM pour la compensation des marges initiales et des marges de variation via une CCP"
+    },
+    "FUTR": {
+      "name": "Contrats à terme standardisés",
+      "definition": "Espèces liées à l'activité de négociation de contrats à terme."
+    },
+    "ANTS": {
+      "name": "Services d'anesthésie",
+      "definition": "L'opération est un paiement pour des services d'anesthésie."
+    },
+    "CVCF": {
+      "name": "Établissement de soins de convalescence",
+      "definition": "L'opération est un paiement pour des services d'un établissement de convalescence."
+    },
+    "DMEQ": {
+      "name": "Équipement médical durable",
+      "definition": "L'opération est un paiement pour l'utilisation de matériel médical durable."
+    },
+    "DNTS": {
+      "name": "Services dentaires",
+      "definition": "L'opération est un paiement pour des soins dentaires."
+    },
+    "HLTC": {
+      "name": "Soins de santé à domicile",
+      "definition": "L'opération est un paiement pour des services de soins à domicile."
+    },
+    "HLTI": {
+      "name": "Assurance maladie",
+      "definition": "L'opération est un paiement d'assurance maladie."
+    },
+    "HSPC": {
+      "name": "Soins hospitaliers",
+      "definition": "L'opération est un paiement pour des soins hospitaliers."
+    },
+    "ICRF": {
+      "name": "Établissement de soins intermédiaires",
+      "definition": "L'opération est un paiement pour des services d'un établissement de soins intermédiaires."
+    },
+    "LTCF": {
+      "name": "Établissement de soins de longue durée",
+      "definition": "L'opération est un paiement pour des services d'un établissement de soins de longue durée."
+    },
+    "MAFC": {
+      "name": "Cotisation à une caisse d'aide médicale",
+      "definition": "L'opération est une cotisation à une caisse d'aide médicale."
+    },
+    "MARF": {
+      "name": "Remboursement d'aide médicale",
+      "definition": "L'opération concerne un remboursement d'aide médicale."
+    },
+    "MDCS": {
+      "name": "Services médicaux",
+      "definition": "L'opération est un paiement pour des soins médicaux."
+    },
+    "VIEW": {
+      "name": "Soins de la vue",
+      "definition": "L'opération est un paiement pour des soins de la vue."
+    },
+    "CDEP": {
+      "name": "Paiement sur événement de défaut de crédit",
+      "definition": "Paiement lié à un événement de défaut de crédit."
+    },
+    "SWFP": {
+      "name": "Paiement final de contrat de swap",
+      "definition": "Paiements finaux d'un contrat d'échange (swap)"
+    },
+    "SWPP": {
+      "name": "Paiement partiel de contrat de swap",
+      "definition": "Paiement partiel d'un contrat d'échange (swap)"
+    },
+    "SWRS": {
+      "name": "Paiement de réinitialisation de contrat de swap",
+      "definition": "Paiement de réinitialisation d'un contrat d'échange (swap)"
+    },
+    "SWUF": {
+      "name": "Paiement initial de contrat de swap",
+      "definition": "Paiement initial d'un contrat d'échange (swap)"
+    },
+    "ADCS": {
+      "name": "Services de conseil, dons et droits d'auteur",
+      "definition": "Paiements pour dons, parrainage, conseil, services intellectuels et autres services relevant des droits d'auteur."
+    },
+    "AEMP": {
+      "name": "Politique active de l'emploi",
+      "definition": "Paiement relatif à la politique active de l'emploi."
+    },
+    "ALLW": {
+      "name": "Allocation",
+      "definition": "L'opération est le paiement d'allocations."
+    },
+    "ALMY": {
+      "name": "Paiement de pension alimentaire",
+      "definition": "L'opération est le paiement d'une pension alimentaire."
+    },
+    "BBSC": {
+      "name": "Prime de naissance",
+      "definition": "L'opération concerne un paiement effectué à titre d'incitation pour encourager les parents à avoir davantage d'enfants"
+    },
+    "BECH": {
+      "name": "Allocation pour enfant",
+      "definition": "L'opération concerne un paiement effectué pour aider le parent ou tuteur à subvenir aux besoins de l'enfant."
+    },
+    "BENE": {
+      "name": "Prestation de chômage et d'invalidité",
+      "definition": "L'opération concerne un paiement à une personne au chômage ou en situation de handicap."
+    },
+    "BONU": {
+      "name": "Paiement de prime",
+      "definition": "L'opération concerne le paiement d'une prime."
+    },
+    "CCHD": {
+      "name": "Indemnité en espèces pour dépendance et invalidité",
+      "definition": "Paiements effectués par un organisme public au titre d'indemnités en espèces, de situation de détresse ou d'invalidité. Ces paiements sont versés par l'institution publique en tant que prestation sociale, en complément du salaire ou de la pension versés régulièrement."
+    },
+    "COMM": {
+      "name": "Commission",
+      "definition": "L'opération est le paiement d'une commission."
+    },
+    "CSLP": {
+      "name": "Paiement à la banque d'un prêt social d'entreprise",
+      "definition": "L'opération est un paiement effectué par une entreprise à une banque pour le financement de prêts sociaux aux employés."
+    },
+    "GFRP": {
+      "name": "Paiement de droits du fonds de garantie",
+      "definition": "Indemnisation de personnes sans emploi pendant des procédures d'insolvabilité."
+    },
+    "GVEA": {
+      "name": "Fonctionnaires autrichiens, catégorie A",
+      "definition": "L'opération est un paiement aux agents de l'administration autrichienne de catégorie A."
+    },
+    "GVEB": {
+      "name": "Fonctionnaires autrichiens, catégorie B",
+      "definition": "L'opération est un paiement aux agents de l'administration autrichienne de catégorie B."
+    },
+    "GVEC": {
+      "name": "Fonctionnaires autrichiens, catégorie C",
+      "definition": "L'opération est un paiement aux agents de l'administration autrichienne de catégorie C."
+    },
+    "GVED": {
+      "name": "Fonctionnaires autrichiens, catégorie D",
+      "definition": "L'opération est un paiement aux agents de l'administration autrichienne de catégorie D."
+    },
+    "GWLT": {
+      "name": "Virement au titre de la législation gouvernementale sur la guerre",
+      "definition": "Paiement aux victimes de violences de guerre et aux soldats invalides."
+    },
+    "HREC": {
+      "name": "Contribution liée au logement",
+      "definition": "L'opération est une contribution d'un employeur aux dépenses de logement (achat, construction, rénovation) de ses employés dans le cadre d'un régime d'avantages accessoires exonérés d'impôt."
+    },
+    "PAYR": {
+      "name": "Paie",
+      "definition": "L'opération concerne le paiement des salaires."
+    },
+    "PEFC": {
+      "name": "Cotisation à une caisse de retraite",
+      "definition": "L'opération est une cotisation à un fonds de pension."
+    },
+    "PENS": {
+      "name": "Paiement de pension",
+      "definition": "L'opération est le paiement d'une pension."
+    },
+    "PRCP": {
+      "name": "Paiement de prix",
+      "definition": "L'opération concerne le paiement d'un prix."
+    },
+    "RHBS": {
+      "name": "Aide à la réadaptation",
+      "definition": "Prestation versée pendant la durée de la réadaptation professionnelle."
+    },
+    "SALA": {
+      "name": "Paiement de salaire",
+      "definition": "L'opération est le paiement de salaires."
+    },
+    "SPSP": {
+      "name": "Paiement forfaitaire de salaire ou de pension",
+      "definition": "Paiement de salaire ou de pension portant sur plusieurs mois en un seul montant, ou paiement différé de salaires ou de pensions."
+    },
+    "SSBE": {
+      "name": "Prestation de sécurité sociale",
+      "definition": "L'opération est une prestation de sécurité sociale, c'est-à-dire un paiement effectué par une administration publique pour soutenir des personnes."
+    },
+    "LBIN": {
+      "name": "Compensation de rachat forcé de prêt de titres",
+      "definition": "Paiement net lié à un rachat d'office (buy-in). Lorsqu'un gestionnaire d'investissement fait l'objet d'un rachat d'office sur une vente qui échoue en raison d'un rappel de prêt de titres non abouti, le gestionnaire peut saisir la garantie sous-jacente pour financer le rachat d'office. Toute différence entre la valeur de la garantie et le produit de la vente serait payée ou reçue sous ce code (IM)"
+    },
+    "LCOL": {
+      "name": "Mouvement libre de garantie en espèces de prêt de titres",
+      "definition": "Mouvement libre de garantie en espèces. La garantie en espèces versée par l'emprunteur est effectuée séparément de la livraison des titres à l'ouverture du prêt, ou la restitution de la garantie est effectuée séparément de la restitution du titre prêté. Remarque : fréquent lorsque la devise du titre diffère de celle de la garantie en espèces."
+    },
+    "LFEE": {
+      "name": "Frais de prêt de titres",
+      "definition": "Paiements de commissions, autres que les rétrocessions, pour le prêt de titres. Comprend (a) les commissions d'exclusivité ; (b) les commissions de transaction ; (c)|les frais de conservation ; (d) les commissions de solde minimum"
+    },
+    "LMEQ": {
+      "name": "Garantie en espèces valorisée au prix du marché pour prêt d'actions",
+      "definition": "Paiements de garantie en espèces résultant de la valorisation au prix du marché d'un portefeuille d'actions prêtées"
+    },
+    "LMFI": {
+      "name": "Garantie en espèces valorisée au prix du marché pour prêt de titres à revenu fixe",
+      "definition": "Paiements de garantie en espèces résultant de la valorisation au prix du marché d'un portefeuille de titres à revenu fixe prêtés"
+    },
+    "LMRK": {
+      "name": "Garantie en espèces valorisée au prix du marché de type non spécifié pour prêt de titres",
+      "definition": "Paiements de garantie en espèces résultant de la valorisation au prix du marché d'un portefeuille de titres prêtés dont les types d'instruments|ne sont pas précisés"
+    },
+    "LREB": {
+      "name": "Paiements de ristourne de prêt de titres",
+      "definition": "Paiements de rétrocession sur prêts de titres"
+    },
+    "LREV": {
+      "name": "Paiements de revenus de prêt de titres",
+      "definition": "Paiements de revenus effectués par l'agent prêteur au client"
+    },
+    "LSFL": {
+      "name": "Paiement de réclamation de prêt de titres",
+      "definition": "Paiements effectués par un emprunteur à un agent prêteur pour satisfaire les réclamations du gestionnaire d'investissement relatives à des défauts de livraison sur ventes dus à des livraisons tardives lors du rappel de prêts"
+    },
+    "ESTX": {
+      "name": "Droits de succession",
+      "definition": "L'opération concerne le paiement d'un droit de succession."
+    },
+    "FWLV": {
+      "name": "Taxe sur les travailleurs étrangers",
+      "definition": "L'opération concerne le paiement de la taxe sur les travailleurs étrangers (Foreign Worker Levy)"
+    },
+    "GSTX": {
+      "name": "Taxe sur les biens et services",
+      "definition": "L'opération est le paiement de la taxe sur les produits et services (Goods & Services Tax)"
+    },
+    "HSTX": {
+      "name": "Taxe d'habitation",
+      "definition": "L'opération concerne le paiement de la taxe d'habitation."
+    },
+    "INTX": {
+      "name": "Impôt sur le revenu",
+      "definition": "L'opération concerne le paiement de l'impôt sur le revenu."
+    },
+    "NITX": {
+      "name": "Impôt sur le revenu net",
+      "definition": "L'opération concerne le paiement de l'impôt sur le revenu net."
+    },
+    "PTXP": {
+      "name": "Taxe foncière",
+      "definition": "L'opération concerne le paiement de la taxe foncière."
+    },
+    "RDTX": {
+      "name": "Taxe routière",
+      "definition": "L'opération concerne le paiement de la taxe routière."
+    },
+    "TAXS": {
+      "name": "Paiement d'impôt",
+      "definition": "L'opération est le paiement d'impôts et taxes."
+    },
+    "VATX": {
+      "name": "Paiement de TVA",
+      "definition": "L'opération est le paiement de la taxe sur la valeur ajoutée."
+    },
+    "WHLD": {
+      "name": "Retenue à la source",
+      "definition": "L'opération concerne le paiement de la retenue à la source."
+    },
+    "TAXR": {
+      "name": "Remboursement d'impôt",
+      "definition": "L'opération est le remboursement d'un paiement ou d'une obligation fiscale."
+    },
+    "B112": {
+      "name": "Paiement de commission de suivi",
+      "definition": "Paiement de commission de suivi (12b-1) d'un fonds commun de placement US"
+    },
+    "BR12": {
+      "name": "Rétrocession de commission de suivi",
+      "definition": "Paiement de rétrocession de commission de suivi (12b-1) d'un fonds commun de placement US"
+    },
+    "TLRF": {
+      "name": "Paiement de commission de suivi de fonds commun de placement non-US",
+      "definition": "Tout paiement de commission de suivi (rétrocession) d'un fonds commun de placement non US (utiliser l'ISIN pour déterminer la désignation onshore ou offshore)"
+    },
+    "TLRR": {
+      "name": "Paiement de rétrocession de commission de suivi de fonds commun de placement non-US",
+      "definition": "Tout paiement de rétrocession de commission de suivi (rétrocession) d'un fonds commun de placement non US (utiliser l'ISIN pour déterminer la désignation onshore ou offshore)"
+    },
+    "AIRB": {
+      "name": "Aérien",
+      "definition": "L'opération est un paiement lié à une activité de transport aérien."
+    },
+    "BUSB": {
+      "name": "Autobus",
+      "definition": "L'opération est un paiement lié à une activité de transport par autocar."
+    },
+    "FERB": {
+      "name": "Traversier",
+      "definition": "L'opération est un paiement lié à une activité de transport par ferry."
+    },
+    "RLWY": {
+      "name": "Chemin de fer",
+      "definition": "L'opération est un paiement lié à une activité de transport ferroviaire."
+    },
+    "TRPT": {
+      "name": "Péage routier",
+      "definition": "L'opération concerne le paiement pour recharger une carte prépayée et le péage routier électronique à des fins de transport"
+    },
+    "CBTV": {
+      "name": "Facture de télévision par câble",
+      "definition": "L'opération concerne le paiement d'une facture de télévision par câble (TV)."
+    },
+    "ELEC": {
+      "name": "Facture d'électricité",
+      "definition": "L'opération concerne le paiement d'une facture d'électricité."
+    },
+    "ENRG": {
+      "name": "Énergies",
+      "definition": "L'opération concerne une opération de service public."
+    },
+    "GASB": {
+      "name": "Facture de gaz",
+      "definition": "L'opération concerne le paiement d'une facture de gaz."
+    },
+    "NWCH": {
+      "name": "Frais de réseau",
+      "definition": "L'opération concerne le paiement de frais de réseau."
+    },
+    "NWCM": {
+      "name": "Communication réseau",
+      "definition": "L'opération concerne le paiement de communications réseau."
+    },
+    "OTLC": {
+      "name": "Autre facture liée aux télécommunications",
+      "definition": "L'opération concerne le paiement d'une autre facture de télécommunications."
+    },
+    "PHON": {
+      "name": "Facture de téléphone",
+      "definition": "L'opération concerne le paiement d'une facture de téléphone."
+    },
+    "UBIL": {
+      "name": "Services publics",
+      "definition": "L'opération concerne le paiement à un fournisseur de services publics commun fournissant du gaz, de l'eau et/ou de l'électricité."
+    },
+    "WTER": {
+      "name": "Facture d'eau",
+      "definition": "L'opération concerne le paiement d'une facture d'eau."
+    },
+    "BOND": {
+      "name": "Obligations",
+      "definition": "Prêt de titres - Règlement d'opérations sur obligations."
+    },
+    "CABD": {
+      "name": "Opérations sur titres : obligations",
+      "definition": "Prêt de titres - Règlement d'opérations sur titres : opérations sur obligations."
+    },
+    "CAEQ": {
+      "name": "Opérations sur titres : actions",
+      "definition": "Prêt de titres - Règlement d'opérations sur titres : opérations sur actions."
+    },
+    "CBCR": {
+      "name": "Carte de crédit",
+      "definition": "Règlement de cartes - Règlement d'opérations par carte de crédit."
+    },
+    "DBCR": {
+      "name": "Carte de débit",
+      "definition": "Règlement de cartes - Règlement d'opérations par carte de débit."
+    },
+    "DICL": {
+      "name": "Diners",
+      "definition": "Règlement de cartes - Règlement d'opérations Diners."
+    },
+    "EQTS": {
+      "name": "Actions",
+      "definition": "Prêt de titres - Règlement d'opérations sur actions."
+    },
+    "FLCR": {
+      "name": "Carte flotte",
+      "definition": "Règlement de cartes - Règlement d'opérations de cartes flotte."
+    },
+    "EFTC": {
+      "name": "Crédit de faible valeur",
+      "definition": "Services publics - Règlement d'opérations de crédit de faible valeur."
+    },
+    "EFTD": {
+      "name": "Débit de faible valeur",
+      "definition": "Services publics - Règlement d'opérations de débit de faible valeur."
+    },
+    "MOMA": {
+      "name": "Marché monétaire",
+      "definition": "Prêt de titres - Règlement de PCH du marché monétaire."
+    },
+    "RAPI": {
+      "name": "Instruction de paiement rapide",
+      "definition": "Paiements instantanés - Règlement d'opérations d'instruction de paiement rapide (RPI)."
+    },
+    "GAMB": {
+      "name": "Paiement de jeu ou de pari",
+      "definition": "Général - Paiements relatifs à un achat ou gains reçus d'activités de jeux d'argent, de paris ou d'autres mises."
+    },
+    "LOTT": {
+      "name": "Paiement de loterie",
+      "definition": "Général - Paiement relatif à un achat ou gains reçus d'activités de loterie."
+    },
+    "AMEX": {
+      "name": "Amex",
+      "definition": "Règlement de cartes - Règlement d'opérations AMEX."
+    },
+    "SASW": {
+      "name": "ATM",
+      "definition": "Règlement de cartes - Règlement d'opérations ATM."
+    },
+    "AUCO": {
+      "name": "Encaissements authentifiés",
+      "definition": "Services publics - Règlement d'opérations de recouvrement authentifiées."
+    },
+    "PCOM": {
+      "name": "Paiement d'achèvement immobilier",
+      "definition": "Paiement final pour finaliser l'achat d'un bien immobilier."
+    },
+    "PDEP": {
+      "name": "Dépôt de garantie immobilier",
+      "definition": "Paiement de l'acompte requis pour l'achat d'un bien immobilier."
+    },
+    "PLDS": {
+      "name": "Décaissement de prêt immobilier",
+      "definition": "Versement de fonds par un prêteur dans le cadre de l'octroi d'un prêt immobilier."
+    },
+    "PLRF": {
+      "name": "Refinancement de prêt immobilier",
+      "definition": "Transfert ou extension d'un dispositif de financement immobilier vers une nouvelle opération ou un nouveau prêteur, sans changement de propriété du bien."
+    },
+    "GAFA": {
+      "name": "Allocation familiale publique",
+      "definition": "Salaires et prestations - Allocation de l'État destinée à soutenir la famille."
+    },
+    "GAHO": {
+      "name": "Allocation de logement publique",
+      "definition": "Salaires et prestations - Allocation de l'État aux particuliers pour soutenir le paiement du logement."
+    },
+    "CPEN": {
+      "name": "Pénalités en espèces",
+      "definition": "Pénalités en espèces liées aux opérations sur titres, y compris le régime de discipline de règlement du CSDR."
+    },
+    "DEPD": {
+      "name": "Paiement de soutien aux personnes à charge",
+      "definition": "L'opération concerne un paiement relatif à l'entretien d'une personne à charge, par exemple une pension pour enfant ou le soutien d'une personne financièrement dépendante pour l'essentiel de la personne qui verse ce soutien."
+    },
+    "RETL": {
+      "name": "Paiement de détail",
+      "definition": "Paiement de détail, y compris le commerce électronique et les achats en ligne."
+    },
+    "DEBT": {
+      "name": "Frais à la charge du débiteur",
+      "definition": "Le motif du paiement est le règlement des frais dus par le débiteur au titre d'un virement client sous-jacent."
+    },
+    "RMCO": {
+      "name": "Mandat enregistré",
+      "definition": "Services publics - Règlement d'opérations de recouvrement non authentifiées."
+    },
+    "INBC": {
+      "name": "Frais interbancaires",
+      "definition": "Règlement de frais en réponse à une demande de frais interbancaire préalable."
+    },
+    "LBXX": {
+      "name": "Transfert de long box",
+      "definition": "L'opération concerne un transfert d'espèces d'un fonds sous-jacent vers un compte de détention de garantie (c'est-à-dire Longbox) en vue d'une utilisation ultérieure éventuelle en tant que garantie, ou d'un retour au fonds si elle n'est plus requise."
+    },
+    "MFSR": {
+      "name": "Souscription et rachat de fonds communs de placement",
+      "definition": "Paiement lié au règlement de parts d'un ordre de souscription ou de rachat."
+    },
+    "CRYP": {
+      "name": "Crypto-actifs",
+      "definition": "L'opération se rapporte à l'achat ou à la vente de crypto-actifs."
+    },
+    "MDEP": {
+      "name": "Micro-dépôt",
+      "definition": "L'opération est un petit dépôt, par exemple à des fins de vérification de compte."
+    },
+    "BROK": {
+      "name": "Approvisionnement de compte de courtage",
+      "definition": "Transfert de compte alimentant un compte de courtage."
+    },
+    "ACTF": {
+      "name": "Approvisionnement de compte",
+      "definition": "Transfert de compte alimentant un compte bancaire (compte de dépôt à vue (DDA) et comptes d'épargne)."
+    },
+    "WALM": {
+      "name": "Approvisionnement de portefeuille à usage multiple",
+      "definition": "Transfert de compte alimentant un portefeuille électronique à usages multiples."
+    },
+    "WALS": {
+      "name": "Approvisionnement de portefeuille à usage unique",
+      "definition": "Transfert de compte alimentant un portefeuille électronique à usage unique."
+    },
+    "CHDF": {
+      "name": "Don caritatif DAF",
+      "definition": "Don caritatif traité pour le compte d'un fonds orienté par le donateur (Donor Advised Fund, DAF)."
+    },
+    "CHFN": {
+      "name": "Don caritatif à une fondation",
+      "definition": "Don caritatif traité pour le compte d'une fondation (entité à vocation spécifique)."
+    },
+    "CHCP": {
+      "name": "Don caritatif d'entreprise",
+      "definition": "Don caritatif traité pour le compte d'une entreprise."
+    },
+    "TNTP": {
+      "name": "Transfert de pension fiscalement neutre",
+      "definition": "L'opération est un transfert fiscalement neutre d'un solde de retraite existant."
+    },
+    "ALDS": {
+      "name": "Décaissement de prêt automobile",
+      "definition": "Décaissement de fonds pour l'achat de véhicules, y compris voitures, camions, motos, bateaux, camping-cars, ATV/UTV, motomarines, motoneiges, véhicules utilitaires et remorques."
+    },
+    "PSDS": {
+      "name": "Décaissement de prêt personnel",
+      "definition": "Décaissement d'un prêt personnel, par exemple pour le regroupement de dettes, des travaux d'amélioration de l'habitat ou des achats importants."
+    },
+    "BLDS": {
+      "name": "Décaissement de prêt professionnel",
+      "definition": "Décaissement d'un prêt aux entreprises, par exemple pour le développement de l'activité, l'achat d'équipement ou des dépenses d'exploitation."
+    },
+    "SLDS": {
+      "name": "Décaissement de prêt étudiant",
+      "definition": "Décaissement d'un prêt étudiant, par exemple le versement de frais de scolarité à des établissements d'enseignement ou directement aux étudiants."
+    },
+    "CLDS": {
+      "name": "Décaissement de prêt à la construction",
+      "definition": "Décaissement d'un prêt à la construction, par exemple des versements échelonnés pour des projets de construction selon les étapes d'avancement."
+    },
+    "PDLN": {
+      "name": "Prêt sur salaire",
+      "definition": "Prêt sur salaire (Pay Day Loan), par exemple un prêt à court terme et à taux d'intérêt élevé, généralement exigible à la prochaine date de paie de l'emprunteur."
+    },
+    "BNPL": {
+      "name": "Achetez maintenant, payez plus tard",
+      "definition": "Paiements « Achetez maintenant, payez plus tard » (Buy Now Pay Later), par exemple des options de financement au point de vente permettant un paiement échelonné des achats de détail."
+    },
+    "ESCR": {
+      "name": "Paiement sous séquestre",
+      "definition": "Services d'intermédiation financière via un compte séquestre, par exemple transactions immobilières, achats sur des places de marché en ligne, acquisitions d'entreprises, projets de construction, règlements judiciaires."
+    },
+    "ODPY": {
+      "name": "Paiement à la demande",
+      "definition": "Paiements à la demande ou en temps réel, par exemple accès au salaire le jour même, paiements de l'économie à la tâche."
+    },
+    "FUEL": {
+      "name": "Carburant",
+      "definition": "Carburant, par exemple achats en station-service pour le carburant des véhicules ou aux bornes de recharge pour véhicules électriques."
+    },
+    "TOLL": {
+      "name": "Péages",
+      "definition": "Péages, par exemple paiements de péages routiers, de ponts, de tunnels ou de systèmes de télépéage électronique."
+    },
+    "CARL": {
+      "name": "Location de voiture",
+      "definition": "Location de voitures, par exemple location de véhicules de courte durée."
+    },
+    "TRVL": {
+      "name": "Voyages et hôtellerie",
+      "definition": "Code générique pour les opérations liées aux voyages et à l'hôtellerie, par exemple réservations d'hôtel, locations de vacances, forfaits voyage ou réservations hôtelières directes."
+    },
+    "GYMM": {
+      "name": "Abonnement à une salle de sport",
+      "definition": "Abonnement à une salle de sport, par exemple cotisations mensuelles ou annuelles pour des centres de remise en forme ou des clubs de santé."
+    },
+    "HMMS": {
+      "name": "Services d'entretien de la maison",
+      "definition": "Entretien du domicile, par exemple services réguliers de ménage, d'entretien de pelouse, de lutte contre les nuisibles ou d'entretien de piscine."
+    },
+    "STRM": {
+      "name": "Services de diffusion en continu",
+      "definition": "Services de diffusion en continu, par exemple abonnements mensuels à des plateformes de contenu numérique."
+    },
+    "HRPS": {
+      "name": "Services de réparation à domicile",
+      "definition": "Réparations du domicile, par exemple réparations ponctuelles ou d'urgence de lave-linge ou sèche-linge, de sols endommagés, de problèmes de plomberie ou d'électricité."
+    },
+    "RHSV": {
+      "name": "Services de transport par application",
+      "definition": "Services de transport à la demande ou de livraison, par exemple paiements de courses commandées via une application."
+    },
+    "FGDL": {
+      "name": "Livraison de repas et d'épicerie",
+      "definition": "Livraison de repas ou de courses alimentaires, par exemple frais de livraison et paiements via des services de livraison alimentaire sur application."
+    },
+    "ERPM": {
+      "name": "Paiement d'aide d'urgence",
+      "definition": "Paiements d'aide d'urgence, par exemple réception d'une assistance après des catastrophes naturelles, aides liées à la COVID ou versements d'aide d'urgence."
+    },
+    "GOVG": {
+      "name": "Subventions publiques",
+      "definition": "Subventions publiques, par exemple réception de fonds pour la recherche universitaire, le développement de petites entreprises, des programmes éducatifs ou des initiatives communautaires."
+    },
+    "TIPS": {
+      "name": "Pourboires",
+      "definition": "Pourboire, par exemple paiements supplémentaires au personnel de service de restaurants, d'hôtels, de salons ou via des plateformes numériques de pourboires."
+    },
+    "SCAC": {
+      "name": "Activités scolaires",
+      "definition": "L'opération concerne le paiement d'activités scolaires et de programmes extrascolaires."
+    },
+    "WALT": {
+      "name": "Opérations de portefeuille",
+      "definition": "L'opération concerne l'alimentation ou le retrait de fonds d'un portefeuille numérique."
+    }
+  }
+}

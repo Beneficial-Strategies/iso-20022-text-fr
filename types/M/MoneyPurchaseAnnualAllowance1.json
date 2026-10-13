@@ -1,0 +1,12 @@
+{
+  "isoType": "MoneyPurchaseAnnualAllowance1",
+  "definition": "Informations sur une Money Purchase Annual Allowance (MPAA).",
+  "isoElements": {
+    "Triggered": {
+      "definition": "Indique si l’allocation annuelle a été déclenchée."
+    },
+    "TriggeredDate": {
+      "definition": "Date à laquelle l’allocation annuelle est prélevée."
+    }
+  }
+}

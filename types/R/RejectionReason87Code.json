@@ -1,0 +1,90 @@
+{
+  "isoType": "RejectionReason87Code",
+  "definition": "Précise le motif pour lequel la demande d'instruction a le statut rejeté.",
+  "isoCodes": {
+    "OPTY": {
+      "name": "Type d'option non valide",
+      "definition": "Type d'option invalide."
+    },
+    "ULNK": {
+      "name": "Référence non valide",
+      "definition": "La référence liée est inconnue."
+    },
+    "DSEC": {
+      "name": "Titre non valide",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "NMTY": {
+      "name": "Non-concordance",
+      "definition": "Non-concordance entre le numéro d'option et le type d'option."
+    },
+    "CANC": {
+      "name": "Option annulée",
+      "definition": "L'option n'est pas valide ; elle a été annulée par le marché ou le prestataire de services et ne peut plus recevoir de réponse. Toute réponse déjà traitée pour cette option est considérée comme nulle et de nouvelles réponses seront requises."
+    },
+    "INTV": {
+      "name": "Option inactive",
+      "definition": "L'option n'est pas active et ne peut plus recevoir de réponse. Toute réponse déjà traitée pour cette option reste valide, par exemple une option expirée."
+    },
+    "OPNM": {
+      "name": "Rejet du numéro d'option",
+      "definition": "Numéro d'option non reconnu."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "EVNM": {
+      "name": "Identification non reconnue",
+      "definition": "Numéro d'événement non reconnu."
+    },
+    "DQCC": {
+      "name": "Rejet de la devise",
+      "definition": "Devise instruite invalide."
+    },
+    "DUPL": {
+      "name": "Instruction en double",
+      "definition": "L'instruction est rejetée en raison d'un identifiant de message métier en double."
+    },
+    "DSET": {
+      "name": "Refusé car déjà réglé",
+      "definition": "La demande d'annulation a été refusée car l'instruction a déjà été réglée."
+    },
+    "DCAN": {
+      "name": "Rejeté car déjà annulé",
+      "definition": "La demande d'annulation a été rejetée car l'instruction a déjà été annulée."
+    },
+    "TRTY": {
+      "name": "Type d'opération incorrect",
+      "definition": "Le type d'opération est incorrect."
+    },
+    "BUMM": {
+      "name": "Non-concordance de la protection de l'acheteur",
+      "definition": "Désaccord de la contrepartie sur le résultat choisi de l'événement sur titres."
+    },
+    "ECMD": {
+      "name": "Échéance de marché du choix à la contrepartie dépassée",
+      "definition": "Reçue après l'échéance de marché du choix auprès de la contrepartie."
+    },
+    "ECRD": {
+      "name": "Échéance de réponse du choix à la contrepartie dépassée",
+      "definition": "Reçue après l'échéance de marché de la réponse de la contrepartie au choix."
+    },
+    "DUCK": {
+      "name": "Opération sous-jacente annulée",
+      "definition": "Instruction de protection de l'acheteur rejetée car l'opération de règlement sous-jacente a été annulée."
+    },
+    "DUST": {
+      "name": "Opération sous-jacente déjà réglée",
+      "definition": "L'instruction de protection de l'acheteur a été rejetée, car l'opération de règlement sous-jacente a déjà été réglée."
+    },
+    "DSNA": {
+      "name": "Protection de l'acheteur non autorisée",
+      "definition": "Le type/statut de l'opération sous-jacente ne permet pas de protection de l'acheteur."
+    }
+  }
+}

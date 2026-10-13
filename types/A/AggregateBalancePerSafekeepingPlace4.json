@@ -1,0 +1,47 @@
+{
+  "isoType": "AggregateBalancePerSafekeepingPlace4",
+  "definition": "Position nette d'un avoir ségrégué, dans un seul titre, au sein de la position globale détenue sur un compte-titres auprès d'un lieu de conservation déterminé.",
+  "isoElements": {
+    "AggregateBalance": {
+      "definition": "Quantité totale d'instruments financiers pour l'avoir référencé."
+    },
+    "DaysAccrued": {
+      "definition": "Précise le nombre de jours utilisé pour le calcul du montant des intérêts courus."
+    },
+    "HoldingValue": {
+      "definition": "Valeur totale d'un solde du compte-titres pour un instrument financier donné, exprimée dans une ou plusieurs devises."
+    },
+    "PreviousHoldingValue": {
+      "definition": "Valeur totale précédente d'un solde du compte-titres pour un instrument financier donné, exprimée dans une ou plusieurs devises."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Montant des intérêts courus entre les périodes de paiement des coupons."
+    },
+    "AccruedInterestAmountSign": {
+      "definition": "Indique si les intérêts courus constituent un montant positif ou négatif."
+    },
+    "BookValue": {
+      "definition": "Valeur d'un titre telle qu'elle est comptabilisée dans un compte. La valeur comptable est souvent différente de la valeur de marché actuelle du titre."
+    },
+    "SafekeepingPlace": {
+      "definition": "Lieu où les titres sont conservés, physiquement ou notionnellement. Ce lieu peut être, par exemple, un conservateur local, un dépositaire central de titres (CSD) ou un dépositaire international de titres (ICSD)."
+    },
+    "PriceDetails": {
+      "definition": "Prix de l'instrument financier dans une ou plusieurs devises."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Opération de change liée à un ordre sur titres."
+    },
+    "BalanceBreakdownDetails": {
+      "definition": "Position nette d'un avoir ségrégué d'un seul titre au sein de la position globale détenue sur un compte-titres, p. ex. le sous-solde par statut."
+    },
+    "AdditionalBalanceBreakdownDetails": {
+      "definition": "Position nette d'un avoir ségrégué, dans un seul titre, au sein de la position globale détenue sur un compte-titres."
+    }
+  },
+  "isoRules": {
+    "AccruedInterestAmountSignRule": {
+      "definition": "Si AccruedInterestAmount est présent, AccruedInterestAmountSign doit être présent. Si AccruedInterestAmount n'est pas présent, AccruedInterestAmountSign ne peut pas être présent."
+    }
+  }
+}

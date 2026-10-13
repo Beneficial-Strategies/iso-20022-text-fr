@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementDateTimeIndication1",
+  "definition": "Informations sur la ou les heures de règlement effectives de l'opération de paiement.",
+  "isoElements": {
+    "DebitDateTime": {
+      "definition": "Date et heure auxquelles un paiement a été débité auprès de l'administrateur de l'opération. Dans le cas de TARGET, date et heure auxquelles le paiement a été débité auprès de la banque centrale, exprimées en heure d'Europe centrale (CET)."
+    },
+    "CreditDateTime": {
+      "definition": "Date et heure auxquelles un paiement a été crédité auprès de l'administrateur de l'opération. Dans le cas de TARGET, date et heure auxquelles le paiement a été crédité auprès de la banque centrale destinataire, exprimées en heure d'Europe centrale (CET)."
+    }
+  }
+}

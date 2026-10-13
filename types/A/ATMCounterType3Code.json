@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMCounterType3Code",
+  "definition": "Type de compteurs de cassette d'ATM.",
+  "isoCodes": {
+    "INQU": {
+      "name": "Consultation des compteurs",
+      "definition": "Compteurs depuis la dernière consultation des compteurs."
+    },
+    "CTXN": {
+      "name": "Opération client",
+      "definition": "Compteurs pour une opération client."
+    },
+    "CTOF": {
+      "name": "Heure limite",
+      "definition": "Compteurs depuis la dernière clôture."
+    },
+    "BDAY": {
+      "name": "Jour ouvré",
+      "definition": "Compteurs depuis le début de la journée ouvrée."
+    },
+    "PRTN": {
+      "name": "Opération",
+      "definition": "Compteurs résultant d'une opération d'approvisionnement effectuée par un opérateur (par exemple l'ajout d'espèces dans une unité d'espèces)."
+    },
+    "OPER": {
+      "name": "Ajustement par l'opérateur",
+      "definition": "Compteurs depuis la dernière mise à jour par un opérateur sur l'ATM."
+    },
+    "SLRP": {
+      "name": "Depuis le dernier point de réapprovisionnement",
+      "definition": "Compteurs depuis le dernier point d'approvisionnement."
+    }
+  }
+}

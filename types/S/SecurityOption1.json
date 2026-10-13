@@ -1,0 +1,51 @@
+{
+  "isoType": "SecurityOption1",
+  "definition": "Fournit des informations sur l'option du titre de l'opération sur titres (CA).",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identification de l'instrument financier."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si la valeur est un débit ou un crédit."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Quantité d'instrument financier."
+    },
+    "MinimumExercisableSecuritiesQuantity": {
+      "definition": "Quantité minimale d'instrument financier ou lot de droits/bons de souscription qui doit être exercée."
+    },
+    "MinimumExercisableMultipleSecuritiesQuantity": {
+      "definition": "Quantité multiple minimale d'instrument financier ou lot de droits/bons de souscription qui doit être exercée."
+    },
+    "NewDenominationSecuritiesQuantity": {
+      "definition": "Nouvelle valeur unitaire de l'instrument financier à la suite, par exemple, d'une augmentation ou d'une diminution de la valeur nominale."
+    },
+    "NewBoardLotSecuritiesQuantity": {
+      "definition": "Quantité de titres constituant le nouveau lot de négociation."
+    },
+    "ShareRanking": {
+      "definition": "Précise si les actions donnent droit au dividende ou sont pari passu."
+    },
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "definition": "Quantité de titres intermédiaires supplémentaires/nouvelles actions attribués pour une quantité donnée de titres issus d'une souscription."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates liées à un mouvement de titres."
+    },
+    "PriceDetails": {
+      "definition": "Fournit des informations sur les prix liés à un mouvement de titres."
+    },
+    "TradingPeriod": {
+      "definition": "Période pendant laquelle les titres intermédiaires sont négociables sur un marché secondaire."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "definition": "Quantité de titres supplémentaires pour une quantité donnée de titres sous-jacents lorsque les titres sous-jacents ne sont pas échangés ou débités, par exemple 1 pour 1 : 1 nouvelle action créditée pour chaque action sous-jacente = 2 actions résultantes."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "definition": "Précise que le titre est un titre temporaire."
+    },
+    "FractionDisposition": {
+      "definition": "Précise comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMReconciliationAdvice3",
+  "definition": "Informations relatives au rapprochement d'un ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Environnement de l'ATM."
+    },
+    "CommandResult": {
+      "definition": "Résultat de la commande de réinitialisation des compteurs d'opérations."
+    },
+    "CommandContext": {
+      "definition": "Partie ayant demandé le rapprochement."
+    },
+    "Transaction": {
+      "definition": "Informations sur la demande de rapprochement."
+    }
+  }
+}

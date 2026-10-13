@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestStatus1Choice",
+  "definition": "Indique le statut d'une demande.",
+  "isoElements": {
+    "Code": {
+      "definition": "Statut de la demande, tel que publié dans un jeu de codes externe de statuts de demande."
+    },
+    "Proprietary": {
+      "definition": "Statut de la demande, sous forme propriétaire."
+    }
+  }
+}

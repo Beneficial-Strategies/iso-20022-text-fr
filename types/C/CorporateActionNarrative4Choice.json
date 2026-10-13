@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionNarrative4Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour indiquer le type de texte narratif de l'opération sur titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard indiquant le type de texte narratif du message."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de texte narratif du message."
+    }
+  }
+}

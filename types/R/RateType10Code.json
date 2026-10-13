@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType10Code",
+  "definition": "Précise le type de taux.",
+  "isoCodes": {
+    "ANYA": {
+      "name": "Tout et n'importe quoi",
+      "definition": "Tout taux est recherché."
+    },
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "Le taux est inconnu de l'expéditeur ou n'a pas été établi."
+    }
+  }
+}

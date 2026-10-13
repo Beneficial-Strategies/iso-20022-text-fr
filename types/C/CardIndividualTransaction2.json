@@ -1,0 +1,42 @@
+{
+  "isoType": "CardIndividualTransaction2",
+  "definition": "Détails d'une écriture d'opération de carte individuelle.",
+  "isoElements": {
+    "ICCRelatedData": {
+      "definition": "Données relatives à une application de carte à puce."
+    },
+    "PaymentContext": {
+      "definition": "Contexte de l'opération de paiement par carte."
+    },
+    "AdditionalService": {
+      "definition": "Service en plus du service principal."
+    },
+    "TransactionCategory": {
+      "definition": "Code de catégorie conforme à l'ISO 18245, relatif au type de services ou de biens fournis par le commerçant pour l'opération.|Cet élément est également connu sous le nom de MerchantCategoryCode."
+    },
+    "SaleReconciliationIdentification": {
+      "definition": "Identification unique de la période de rapprochement des ventes entre l'accepteur et l'acquéreur. Cette identification peut être liée à l'identification du règlement pour vérification ultérieure par le commerçant."
+    },
+    "SaleReferenceNumber": {
+      "definition": "Référence unique de la vente, fournie par le commerçant."
+    },
+    "RePresentmentReason": {
+      "definition": "Motif de re-présentation d'une opération de carte."
+    },
+    "SequenceNumber": {
+      "definition": "Numéro séquentiel de l'opération de carte, attribué par le POI (point d'interaction). |Utilisation : le numéro séquentiel est incrémenté pour chaque opération."
+    },
+    "TransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par le POI (point d'interaction)."
+    },
+    "Product": {
+      "definition": "Produit acheté lors de l'opération."
+    },
+    "ValidationDate": {
+      "definition": "Date à laquelle le dépôt a été validé par l'établissement financier qui a collecté les espèces."
+    },
+    "ValidationSequenceNumber": {
+      "definition": "Numéro séquentiel de la validation du dépôt d'espèces.|Utilisation : le numéro séquentiel est incrémenté pour chaque opération."
+    }
+  }
+}

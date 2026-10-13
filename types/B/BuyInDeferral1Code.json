@@ -1,0 +1,14 @@
+{
+  "isoType": "BuyInDeferral1Code",
+  "definition": "Précise si l'opération de rachat forcé (buy-in) a été différée ou non.",
+  "isoCodes": {
+    "DEFY": {
+      "name": "Rachat d'office différé",
+      "definition": "Le rachat forcé (buy-in) est différé."
+    },
+    "DEFN": {
+      "name": "Rachat d'office non différé",
+      "definition": "Le rachat forcé (buy-in) n'est pas différé."
+    }
+  }
+}

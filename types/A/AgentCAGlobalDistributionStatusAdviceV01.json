@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentCAGlobalDistributionStatusAdviceV01",
+  "definition": "Portée|Ce message est envoyé par un émetteur (ou son agent) au CSD pour autoriser/interdire au CSD de traiter les mouvements de droits.|Utilisation|Ce message est utilisé pour autoriser/interdire au CSD de traiter les mouvements demandés dans le message Global Distribution Authorisation Request.|Une fois la demande de modification acceptée par l'émetteur (ou son agent), le CSD traitera tout mouvement de ressources et enverra un message Agent Corporate Action Election Advice avec la fonction « changement d'option » pour confirmer que la modification a été comptabilisée au CSD.|L'émetteur (ou son agent) peut fournir le statut de 2 manières différentes :|- Fournir un statut global, auquel cas le bloc Global Movement Status doit être présent ; ou|- Fournir un statut par mouvement individuel, auquel cas le bloc Individual Movement Status doit être présent. Un mouvement individuel ne peut pas être rejeté.",
+  "isoRules": {
+    "GlobalMovementStatusOrIndividualMovementStatusRule": {
+      "definition": "GlobalMovementStatus ou IndividualMovementStatus doit être présent."
+    },
+    "GlobalMovementStatusOrIndividualMovementStatusRuleNotBoth": {
+      "definition": "GlobalMovementStatus ou IndividualMovementStatus doit être présent."
+    }
+  }
+}

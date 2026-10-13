@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstrument31Choice",
+  "definition": "Choix entre des types d’instrument de paiement.",
+  "isoElements": {
+    "CreditTransferDetails": {
+      "definition": "Instrument de paiement entre un débiteur et un créancier qui transite par un ou plusieurs établissements financiers ou systèmes."
+    },
+    "ChequeDetails": {
+      "definition": "Ordre écrit donnant instruction à un titulaire de compte (un établissement financier) de payer une somme déterminée à un destinataire désigné (le bénéficiaire)."
+    }
+  }
+}

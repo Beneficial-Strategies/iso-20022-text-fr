@@ -1,0 +1,30 @@
+{
+  "isoType": "Algorithm12Code",
+  "definition": "Algorithmes cryptographiques pour le MAC (code d'authentification de message).",
+  "isoCodes": {
+    "MACC": {
+      "name": "RetailCBCMAC",
+      "definition": "MAC (Message Authentication Code) Retail CBC (Chaining Block Cypher) (cf. ISO 9807, ANSI X9.19) - (identifiant d'objet ASN.1 : id-retail-cbc-mac)."
+    },
+    "MCCS": {
+      "name": "RetailSHA256MAC",
+      "definition": "Retail-CBC-MAC avec SHA-256 (Secure Hash standard) - (identifiant d'objet ASN.1 : id-retail-cbc-mac-sha-256)."
+    },
+    "CMA1": {
+      "name": "SHA256CMACwithAES128",
+      "definition": "CMAC (Cipher based Message Authentication Code) défini par le National Institute of Standards and Technology (NIST 800-38B - mai 2005), utilisant le chiffrement par blocs Advanced Encryption Standard avec une clé cryptographique de 128 bits, approuvé par les Federal Information Processing Standards (FIPS 197 - 6 novembre 2001 - Advanced Encryption Standard). L'algorithme CMAC est calculé sur le condensé SHA-256 du message."
+    },
+    "MCC1": {
+      "name": "RetailSHA1MAC",
+      "definition": "Retail-CBC-MAC DEPRECATED avec SHA-1 (Secure Hash standard) - (identifiant d'objet ASN.1 : id-retail-cbc-mac-sha-1)."
+    },
+    "CMA9": {
+      "name": "SHA384CMACwithAES192",
+      "definition": "CMAC (Cipher based Message Authentication Code) défini par le National Institute of Standards and Technology (NIST 800-38B - mai 2005), utilisant le chiffrement par blocs Advanced Encryption Standard avec une clé cryptographique de 192 bits, approuvé par les Federal Information Processing Standards (FIPS 197 - 6 novembre 2001 - Advanced Encryption Standard). L'algorithme CMAC est calculé sur le condensé SHA-384 du message."
+    },
+    "CMA5": {
+      "name": "SHA512CMACwithAES256",
+      "definition": "CMAC (Cipher based Message Authentication Code) défini par le National Institute of Standards and Technology (NIST 800-38B - mai 2005), utilisant le chiffrement par blocs Advanced Encryption Standard avec une clé cryptographique de 256 bits, approuvé par les Federal Information Processing Standards (FIPS 197 - 6 novembre 2001 - Advanced Encryption Standard). L'algorithme CMAC est calculé sur le condensé SHA-512 du message."
+    }
+  }
+}

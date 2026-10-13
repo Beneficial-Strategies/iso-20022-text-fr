@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalNotificationType1Code",
+  "definition": "Précise le type de notification, tel que publié dans une liste de codes externe de types de notification.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "CUHO": {
+      "name": "Jour férié de la devise",
+      "definition": "Notification d'un jour férié de la devise."
+    },
+    "ATAC": {
+      "name": "Conditions générales du compte",
+      "definition": "Notification de conditions générales nouvelles ou modifiées pour un compte."
+    },
+    "SUSP": {
+      "name": "Suspension",
+      "definition": "Notification de suspension d'un traitement en raison d'un incident."
+    },
+    "COUP": {
+      "name": "Mise à jour des coordonnées",
+      "definition": "Notification de coordonnées nouvelles ou modifiées."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre type de notification."
+    },
+    "INFO": {
+      "name": "Partage d'informations",
+      "definition": "Partage d'informations."
+    },
+    "ADDR": {
+      "name": "Changement d'adresse",
+      "definition": "Notification d'un changement d'adresse."
+    },
+    "TERM": {
+      "name": "Résiliation de service",
+      "definition": "Notification de la résiliation d'un service, par exemple la clôture d'un compte."
+    },
+    "SSIS": {
+      "name": "Mise à jour des instructions de règlement permanentes",
+      "definition": "Notification d'une modification des instructions de règlement permanentes (SSI)."
+    },
+    "MERG": {
+      "name": "Avis de fusion",
+      "definition": "Notification d'une fusion et des changements associés."
+    },
+    "SYST": {
+      "name": "Demande d'accès au système",
+      "definition": "Demande d'accès à un système."
+    },
+    "OPEN": {
+      "name": "Changement des heures d'ouverture d'une agence bancaire",
+      "definition": "Notification d'une modification des heures d'ouverture."
+    },
+    "INCH": {
+      "name": "Changements sectoriels",
+      "definition": "Notification de tout changement pertinent du secteur ou du marché."
+    }
+  }
+}

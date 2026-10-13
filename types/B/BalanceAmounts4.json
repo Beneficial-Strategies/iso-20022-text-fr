@@ -1,0 +1,26 @@
+{
+  "isoType": "BalanceAmounts4",
+  "definition": "Montants liés à un solde de titres, par exemple la valeur de la position.",
+  "isoElements": {
+    "HoldingValue": {
+      "definition": "Valeur d'une position individuelle en instrument financier au sein d'un compte de conservation."
+    },
+    "PreviousHoldingValue": {
+      "definition": "Valeur antérieure d'une position individuelle en instrument financier au sein d'un compte de conservation."
+    },
+    "BookValue": {
+      "definition": "Valeur d'un instrument financier, telle que comptabilisée/acquise sur un compte. Elle peut servir à établir l'assujettissement à l'impôt sur les plus-values."
+    },
+    "EligibleCollateralValue": {
+      "definition": "Valeur de la position éligible à des fins de garantie."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Montant des intérêts courus entre les périodes de paiement des coupons."
+    }
+  },
+  "isoRules": {
+    "EligibleCollateralValueRule": {
+      "definition": "EligibleCollateralValue ne doit être utilisé que dans la communication avec les participants du (I)CSD ou en cas d'accord bilatéral entre l'expéditeur et le destinataire."
+    }
+  }
+}

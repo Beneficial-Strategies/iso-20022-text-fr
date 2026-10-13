@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentQuantityChoice",
+  "definition": "Choix entre les formats de la quantité de titres.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Quantité exprimée sous forme de nombre, par exemple un nombre d'actions."
+    },
+    "FaceAmount": {
+      "definition": "Quantité exprimée sous la forme d'un montant représentant la valeur nominale, c'est-à-dire le principal, d'un instrument de dette."
+    },
+    "AmortisedValue": {
+      "definition": "Quantité exprimée sous la forme d'un montant représentant la valeur nominale amortie courante d'une obligation, p. ex. une réduction périodique du principal d'une obligation."
+    }
+  }
+}

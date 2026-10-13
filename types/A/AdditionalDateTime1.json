@@ -1,0 +1,20 @@
+{
+  "isoType": "AdditionalDateTime1",
+  "definition": "Série de dates supplémentaires relatives au paiement.",
+  "isoElements": {
+    "AcceptanceDateTime": {
+      "definition": "Moment où l'ordre de paiement de la partie initiatrice satisfait aux conditions de traitement de la banque teneuse de compte. Cela signifie que la banque teneuse de compte a reçu l'ordre de paiement et a appliqué des contrôles tels que l'autorisation et la disponibilité des fonds."
+    },
+    "PoolingAdjustmentDate": {
+      "definition": "Date utilisée pour la correction de la date de valeur d'un mouvement de cash pooling qui a été comptabilisé avec une date de valeur différente."
+    },
+    "ExpiryDateTime": {
+      "definition": "Date et heure auxquelles le paiement doit expirer s'il n'a pas été réglé."
+    }
+  },
+  "isoRules": {
+    "AdditionalDateTimePresenceRule": {
+      "definition": "AcceptanceDateTime ou PoolingAdjustmentDate ou ExpiryDateTime doit être présent. Tous peuvent être présents."
+    }
+  }
+}

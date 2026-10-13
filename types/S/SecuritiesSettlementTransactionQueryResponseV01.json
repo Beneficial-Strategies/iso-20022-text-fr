@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesSettlementTransactionQueryResponseV01",
+  "definition": "Le message SecuritiesSettlementResponse est envoyé par une infrastructure de règlement à un titulaire de compte/demandeur pour fournir le détail des instructions de règlement de titres, sélectionnées selon les critères de recherche définis dans la demande.",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Si ActivityIndicator est égal à Yes (true ou 1), alors Transactions doit être présent."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Si ActivityIndicator est égal à No (false ou 0), alors Transactions doit être absent."
+    },
+    "QueryTypeAndStatusReasonRule": {
+      "definition": "Si QueryType est égal à Status (STTS) ou StatusPeriod (STPD), alors Transactions(*)/StatusReaon doit être présent."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "CancelledStatusReason16Code",
+  "definition": "Indique le motif du statut d'annulation.",
+  "isoCodes": {
+    "SCEX": {
+      "name": "Titres n'étant plus éligibles",
+      "definition": "L'opération a été annulée ; le titre n'existe plus ou n'est plus éligible sur le marché instruit. Pour une annulation liée à une opération sur titres, CORP doit être utilisé."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "CXLR": {
+      "name": "Fin de vie",
+      "definition": "L'opération est rejetée par la partie d'exécution ; le rejet étant définitif, l'ordre est annulé dans le système."
+    },
+    "BYIY": {
+      "name": "Annulé en raison d'un rachat d'office",
+      "definition": "L'instruction a été annulée car un rachat forcé (buy-in) a été initié."
+    },
+    "CTHP": {
+      "name": "Annulé par un tiers",
+      "definition": "L'instruction est annulée par un tiers."
+    },
+    "CANZ": {
+      "name": "Annulé : règlement partiel scindé",
+      "definition": "L'opération d'origine a été annulée et remplacée afin de permettre un règlement partiel ou fractionné."
+    },
+    "CANT": {
+      "name": "Annulé en raison d'une transformation",
+      "definition": "L'opération d'origine a été annulée et remplacée en raison d'une opération sur titres."
+    },
+    "CSUB": {
+      "name": "Annulé par l'agent",
+      "definition": "L'instruction a été annulée par l'agent en raison d'une prolongation de l'échéance de l'événement."
+    },
+    "CANS": {
+      "name": "Annulé par le système",
+      "definition": "L'opération est annulée par le système."
+    },
+    "CANI": {
+      "name": "Annulé par vous-même",
+      "definition": "L'opération est annulée par vous-même."
+    },
+    "CORP": {
+      "name": "Annulé en raison d'une opération sur titres",
+      "definition": "L'opération a été annulée en raison d'une opération sur titres."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ReferredDocumentType4",
+  "definition": "Précise le type du document mentionné dans les informations de remise.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Fournit les détails du type du document référencé."
+    },
+    "Issuer": {
+      "definition": "Identification de l'émetteur du type de document de référence."
+    }
+  }
+}

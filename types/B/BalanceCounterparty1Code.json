@@ -1,0 +1,14 @@
+{
+  "isoType": "BalanceCounterparty1Code",
+  "definition": "Spécifie le type de contrepartie à prendre en compte pour le calcul du solde.",
+  "isoCodes": {
+    "BILA": {
+      "name": "Bilatéral",
+      "definition": "Solde calculé par rapport à un membre du système."
+    },
+    "MULT": {
+      "name": "Multilatéral",
+      "definition": "Solde calculé par rapport à tous les membres du système."
+    }
+  }
+}

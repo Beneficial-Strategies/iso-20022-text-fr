@@ -1,0 +1,48 @@
+{
+  "isoType": "PartyProfileInformation5",
+  "definition": "Informations à l'appui des processus « Know Your Customer » (KYC).",
+  "isoElements": {
+    "CertificationIndicator": {
+      "definition": "Indique si le type de certificat a été obtenu et vérifié."
+    },
+    "ValidatingParty": {
+      "definition": "Identification de la personne qui a validé le document."
+    },
+    "CheckingParty": {
+      "definition": "Identification de la personne qui a contrôlé le document."
+    },
+    "ResponsibleParty": {
+      "definition": "Identification de la personne responsable du document."
+    },
+    "CertificateType": {
+      "definition": "Type de certificat."
+    },
+    "CheckingDate": {
+      "definition": "Date à laquelle la vérification de la certification a été effectuée."
+    },
+    "CheckingFrequency": {
+      "definition": "Indique la fréquence à laquelle la vérification est effectuée."
+    },
+    "NextRevisionDate": {
+      "definition": "Indique la date à laquelle la prochaine vérification de la certification sera effectuée."
+    },
+    "SalaryRange": {
+      "definition": "Limites entre lesquelles le salaire d'une personne est estimé."
+    },
+    "SourceOfWealth": {
+      "definition": "Indique la principale source de revenus."
+    },
+    "CustomerConductClassification": {
+      "definition": "Indique une évaluation du comportement du client au moment de la demande d'ouverture de compte."
+    },
+    "RiskLevel": {
+      "definition": "Indique le risque de blanchiment d'argent du client."
+    },
+    "KnowYourCustomerCheckType": {
+      "definition": "Indique le type de vérifications de diligence raisonnable effectuées sur l'investisseur ou le titulaire du compte. Pour les définitions des vérifications « Know Your Customer » ordinaires, simplifiées et renforcées, il convient de consulter la réglementation locale du marché."
+    },
+    "KnowYourCustomerDatabaseCheck": {
+      "definition": "Indique si un client a été vérifié dans une base de données « Know Your Customer » (KYC)."
+    }
+  }
+}

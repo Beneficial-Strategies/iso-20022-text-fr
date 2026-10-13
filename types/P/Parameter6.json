@@ -1,0 +1,15 @@
+{
+  "isoType": "Parameter6",
+  "definition": "Paramètres associés à un algorithme de chiffrement cryptographique.",
+  "isoElements": {
+    "EncryptionFormat": {
+      "definition": "Format des données avant chiffrement, si le format n'est ni en clair ni implicite."
+    },
+    "InitialisationVector": {
+      "definition": "Vecteur d'initialisation d'un chiffrement en mode de chaînage de blocs (CBC)."
+    },
+    "BytePadding": {
+      "definition": "Bourrage d'octets pour un chiffrement en mode de chaînage de blocs, si le bourrage n'est pas implicite."
+    }
+  }
+}

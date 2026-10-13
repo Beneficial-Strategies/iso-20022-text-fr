@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneralBusinessOrError8Choice",
+  "definition": "Rapporte soit sur les informations métier, soit sur une erreur métier.",
+  "isoElements": {
+    "BusinessError": {
+      "definition": "Raison pour laquelle les informations fonctionnelles demandées ne sont pas fournies."
+    },
+    "GeneralBusiness": {
+      "definition": "Informations métier demandées."
+    }
+  }
+}

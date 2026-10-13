@@ -1,0 +1,21 @@
+{
+  "isoType": "CashOption1",
+  "definition": "Fournit des informations sur l'option en espèces.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indique s'il s'agit d'un débit ou d'un crédit."
+    },
+    "Currency": {
+      "definition": "Devise de l'option."
+    },
+    "DateDetails": {
+      "definition": "Fournit des informations sur les dates relatives à un mouvement d'espèces."
+    },
+    "AmountDetails": {
+      "definition": "Fournit des informations sur les montants relatifs à un mouvement d'espèces."
+    },
+    "ExchangeRate": {
+      "definition": "Fournit des informations sur un change."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "ExternalInvestigationType1Code",
+  "definition": "Précise le type d'enquête, tel que publié dans un ensemble externe de codes de types d'enquête.|Les ensembles de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "UTAP": {
+      "name": "Impossible à appliquer par le créancier",
+      "definition": "Une écriture comptabilisée ne peut pas être appliquée par le créancier."
+    },
+    "CCNR": {
+      "name": "Réclamation du créancier pour non-réception",
+      "definition": "Le créancier déclare ne pas avoir reçu le paiement."
+    },
+    "CONR": {
+      "name": "Réclamation de la banque du créancier pour non-réception de la couverture",
+      "definition": "La banque du créancier déclare ne pas avoir reçu la couverture ou le règlement."
+    },
+    "RQFI": {
+      "name": "Demande d'informations",
+      "definition": "Des informations complémentaires sont requises sur un paiement, une écriture, un message ou une instruction."
+    },
+    "PINC": {
+      "name": "Initiation de paiement non confirmée",
+      "definition": "L'initiation du paiement n'a pas été réglée ou confirmée."
+    },
+    "RQVA": {
+      "name": "Demande d'ajustement de la date de valeur",
+      "definition": "Une réévaluation d'une écriture est demandée."
+    },
+    "RQUF": {
+      "name": "Demande d'utilisation des fonds",
+      "definition": "L'utilisation des fonds d'une écriture est demandée."
+    },
+    "RQDA": {
+      "name": "Demande d'autorisation de débit",
+      "definition": "L'autorisation de débit d'une écriture est demandée."
+    },
+    "ACCT": {
+      "name": "Enquête relative au compte",
+      "definition": "Enquête relative à un compte."
+    },
+    "RQCH": {
+      "name": "Demande relative aux frais",
+      "definition": "Enquête relative à des frais prélevés ou demandés."
+    },
+    "RIMF": {
+      "name": "Demande du FMI",
+      "definition": "Demande émanant du Fonds monétaire international."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre type de demande."
+    }
+  }
+}

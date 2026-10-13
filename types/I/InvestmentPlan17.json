@@ -1,0 +1,65 @@
+{
+  "isoType": "InvestmentPlan17",
+  "definition": "Plan permettant aux investisseurs de programmer des investissements ou désinvestissements périodiques, selon des critères prédéfinis.",
+  "isoElements": {
+    "Frequency": {
+      "definition": "Fréquence de l'investissement ou du désinvestissement."
+    },
+    "StartDate": {
+      "definition": "Date de début du plan d'investissement."
+    },
+    "EndDate": {
+      "definition": "Date de fin du plan d'investissement."
+    },
+    "Quantity": {
+      "definition": "Montant des paiements périodiques."
+    },
+    "GrossAmountIndicator": {
+      "definition": "Indique si un montant ordonné est un montant brut (incluant les frais de l'opération). S'il ne s'agit pas d'un montant brut, le montant ordonné est un montant net (montant à investir ou à racheter du fonds auquel d'autres éléments seront ajoutés)."
+    },
+    "IncomePreference": {
+      "definition": "Option de dividende choisie par le propriétaire du compte parmi les options offertes dans le prospectus."
+    },
+    "InitialAmount": {
+      "definition": "Montant initial ou nombre d'échéances initiales."
+    },
+    "TotalNumberOfInstalments": {
+      "definition": "Nombre total de fois où le montant doit être investi à la fréquence prédéfinie à compter de la date de début du plan d'investissement."
+    },
+    "RoundingDirection": {
+      "definition": "Indique le sens d'arrondi lorsqu'un montant doit être réparti entre plusieurs fonds."
+    },
+    "SecurityDetails": {
+      "definition": "Titre dans lequel un plan d'investissement investit, ou duquel il désinvestit."
+    },
+    "CashSettlement": {
+      "definition": "Instruction permanente de règlement en espèces associée au plan d'investissement."
+    },
+    "ContractReference": {
+      "definition": "Référence du contrat d'investissement sous-jacent. Sur certains marchés, tels que l'Italie, cela peut être requis pour séparer les avoirs entre un même compte d'investissement."
+    },
+    "RelatedContractReference": {
+      "definition": "Référence du contrat précédent auquel ce plan d'épargne ou de retrait est lié."
+    },
+    "ProductIdentification": {
+      "definition": "Identification du produit telle que désignée par le gestionnaire du fonds. Sur certains marchés, tels que l'Italie, le produit ou service financier lié à un plan d'épargne ou de retrait est identifié par une identification ou un numéro de produit."
+    },
+    "SLAChargeAndCommissionReference": {
+      "definition": "Référence de l'accord de niveau de service (SLA) sous-jacent régissant les frais."
+    },
+    "InsuranceCover": {
+      "definition": "Précise le type de contrat d'assurance auquel le plan d'investissement d'épargne est lié."
+    },
+    "PlanStatus": {
+      "definition": "Statut du plan d'investissement d'épargne ou de retrait."
+    },
+    "InstalmentManagerRole": {
+      "definition": "Rôle ou fonction du gestionnaire des échéances."
+    }
+  },
+  "isoRules": {
+    "AmountRule": {
+      "definition": "Si Quantity/Amount n'est pas présent, GrossAmountIndicator n'est pas autorisé."
+    }
+  }
+}

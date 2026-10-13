@@ -1,0 +1,22 @@
+{
+  "isoType": "PensionTransferScope1Code",
+  "definition": "Indique la portée d’un transfert de retraite.",
+  "isoCodes": {
+    "CRYS": {
+      "name": "Partie cristallisée",
+      "definition": "Le transfert porte sur la part cristallisée."
+    },
+    "SDDT": {
+      "name": "Tranche de retrait",
+      "definition": "Le transfert porte sur une tranche de retrait échelonné spécifique."
+    },
+    "FULP": {
+      "name": "Retraite complète",
+      "definition": "Le transfert porte sur la totalité de la retraite."
+    },
+    "UCRY": {
+      "name": "Partie non cristallisée",
+      "definition": "Le transfert porte sur la part non cristallisée."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountingStatementOfHoldingsCancellationV02",
+  "definition": "Portée|Un teneur de compte, par exemple un agent de transfert, envoie le message AccountingStatementofHoldingsCancellation au titulaire du compte, par exemple un gestionnaire de fonds ou l'agent désigné du titulaire du compte, pour notifier l'annulation d'un message AccountingStatementOfHoldings précédemment envoyé.|Utilisation|Le message AccountingStatementOfHoldingsCancellation est utilisé pour annuler un message AccountingStatementOfHoldings précédemment envoyé. Ce message doit contenir la référence du message à annuler.|Ce message peut également contenir tous les détails du message à annuler, mais cela n'est pas recommandé."
+}

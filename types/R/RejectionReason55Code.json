@@ -1,0 +1,38 @@
+{
+  "isoType": "RejectionReason55Code",
+  "definition": "Précise le motif pour lequel l'instruction ou la demande d'annulation a le statut rejeté.",
+  "isoCodes": {
+    "BENO": {
+      "name": "Désaccord sur la propriété effective",
+      "definition": "Désaccord sur la propriété effective."
+    },
+    "CAEV": {
+      "name": "Rejet d'opération sur titres",
+      "definition": "Opération sur titres en cours sur l'instrument financier faisant l'objet de l'instruction."
+    },
+    "DQUA": {
+      "name": "Rejet de la quantité",
+      "definition": "Quantité instruite non reconnue ou invalide."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "PODU": {
+      "name": "Doublon possible",
+      "definition": "L'instruction n'a pas été appariée. Il s'agit d'un doublon possible d'instruction."
+    },
+    "SAFE": {
+      "name": "Rejet du compte de conservation",
+      "definition": "Compte de conservation de l'émetteur du message non reconnu ou invalide."
+    },
+    "SSID": {
+      "name": "Rejet d'instruction de règlement permanente",
+      "definition": "L'instruction de règlement permanente est inconnue ou invalide."
+    },
+    "DSEC": {
+      "name": "Titre non valide",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "AccountLevel1Code",
+  "definition": "Définit le niveau d'un compte dans la hiérarchie des comptes.",
+  "isoCodes": {
+    "INTM": {
+      "name": "Intermédiaire",
+      "definition": "Niveau intermédiaire dans une hiérarchie de comptes."
+    },
+    "SMRY": {
+      "name": "Récapitulatif",
+      "definition": "Niveau le plus élevé dans une hiérarchie de comptes."
+    }
+  }
+}

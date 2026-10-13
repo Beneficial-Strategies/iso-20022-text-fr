@@ -1,0 +1,26 @@
+{
+  "isoType": "CorporateActionPrice95",
+  "definition": "Précise les prix liés à une option d'opération sur titres.",
+  "isoElements": {
+    "IndicativeOrMarketPrice": {
+      "definition": "Indique si le prix est un prix indicatif ou un prix de marché."
+    },
+    "CashInLieuOfSharePrice": {
+      "definition": "Versement en espèces en lieu et place d'actions ; généralement en lieu et place d'une quantité fractionnaire."
+    },
+    "CashValueForTax": {
+      "definition": "Valeur en espèces du produit en titres résultant pour le calcul de l'impôt et/ou la déclaration fiscale."
+    },
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Prix générique en espèces payé par produit par le porteur du titre sous-jacent, sous forme de pourcentage, de montant ou de nombre de points au-dessus d'un indice, par exemple, prix de réinvestissement, prix d'exercice (strike) et prix de levée."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Prix générique en espèces reçu par produit par le porteur du titre sous-jacent, sous forme de pourcentage ou de montant, par exemple, prix de remboursement."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct et GenericCashPricePaidPerProduct sont des prix reçus ou payés au cours d'un événement. La signification précise (prix de remboursement, prix de souscription, prix de réinvestissement, etc.) découle du type d'événement."
+    }
+  }
+}

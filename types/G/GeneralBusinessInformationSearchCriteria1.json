@@ -1,0 +1,15 @@
+{
+  "isoType": "GeneralBusinessInformationSearchCriteria1",
+  "definition": "Définit les critères utilisés pour rechercher des informations commerciales.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Référence unique et non ambiguë attribuée à un système d'informations commerciales générales."
+    },
+    "Subject": {
+      "definition": "Objet d'une information commerciale générale, résumant le sujet et le destinataire prévu de l'information."
+    },
+    "Qualifier": {
+      "definition": "Informations complémentaires sur le caractère critique ou l'importance d'un système d'informations commerciales générales."
+    }
+  }
+}

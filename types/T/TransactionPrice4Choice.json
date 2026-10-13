@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionPrice4Choice",
+  "definition": "Précise les informations de prix relatives à l'opération sous-jacente.",
+  "isoElements": {
+    "DealPrice": {
+      "definition": "Précise le prix de l'instrument financier négocié.|Il s'agit du prix de la transaction individuelle.|S'il n'y a qu'une seule transaction pour l'exécution de l'opération boursière, le prix de la transaction peut être égal au prix d'exécution (sauf si, par exemple, le prix inclut des commissions ou des arrondis, ou si un autre facteur a été appliqué au prix de la transaction, au prix d'exécution, ou aux deux)."
+    },
+    "Proprietary": {
+      "definition": "Spécification de prix propriétaire relative à l'opération sous-jacente."
+    }
+  }
+}

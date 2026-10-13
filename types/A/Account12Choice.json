@@ -1,0 +1,15 @@
+{
+  "isoType": "Account12Choice",
+  "definition": "Choix entre un compte d'espèces, un compte de frais ou un compte d'impôts.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Compte dans lequel les espèces sont tenues."
+    },
+    "ChargesAccount": {
+      "definition": "Compte à utiliser pour les frais s'il est différent du compte de paiement."
+    },
+    "TaxAccount": {
+      "definition": "Compte à utiliser pour les impôts s'il est différent du compte de paiement."
+    }
+  }
+}

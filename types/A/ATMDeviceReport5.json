@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMDeviceReport5",
+  "definition": "Informations relatives au rapport d'un dispositif de l'ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Environnement de l'opération."
+    },
+    "ATMGlobalStatus": {
+      "definition": "Statut global de l'ATM."
+    },
+    "CommandResult": {
+      "definition": "Résultat d'une commande de maintenance exécutée par l'ATM."
+    },
+    "CommandContext": {
+      "definition": "Commande de maintenance ayant demandé le rapport du dispositif."
+    },
+    "ATMSecurityContext": {
+      "definition": "Informations relatives aux commandes de sécurité."
+    }
+  }
+}

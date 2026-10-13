@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementBasis7Choice",
+  "definition": "Choix du format de la base du relevé.",
+  "isoElements": {
+    "Code": {
+      "definition": "Base du relevé exprimée sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Base du relevé exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

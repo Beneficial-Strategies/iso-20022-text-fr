@@ -1,0 +1,14 @@
+{
+  "isoType": "Instruction4Code",
+  "definition": "Précise des instructions complémentaires concernant le traitement d'une instruction de paiement, fournies par l'agent de compensation émetteur au(x) agent(s) suivant(s).",
+  "isoCodes": {
+    "PHOA": {
+      "name": "Téléphoner à la banque suivante",
+      "definition": "Prière d'aviser/contacter l'agent suivant par téléphone."
+    },
+    "TELA": {
+      "name": "Télécommunication avec la banque suivante",
+      "definition": "Prière d'aviser/contacter l'agent suivant par le moyen de télécommunication le plus efficace."
+    }
+  }
+}

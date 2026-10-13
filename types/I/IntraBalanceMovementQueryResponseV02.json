@@ -1,0 +1,18 @@
+{
+  "isoType": "IntraBalanceMovementQueryResponseV02",
+  "definition": "Le message IntraBalanceMovementQueryResponse est envoyé par une infrastructure de règlement à un titulaire de compte/demandeur pour fournir toutes les instructions de mouvement intra-solde répondant aux critères de sélection définis dans l'interrogation, en renvoyant les attributs actuels et le dernier statut.|Le message peut également servir à : |- renvoyer un message envoyé par le titulaire du compte à la banque tenant le compte (la sous-fonction du message est « Duplicate ») |- fournir à un tiers une copie d'un message envoyé par le titulaire du compte, à titre d'information (la sous-fonction du message est « Copy ») |- renvoyer à un tiers une copie d'un message envoyé par le titulaire du compte, à titre d'information (la sous-fonction du message est « Copy Duplicate »).",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator est égal à Yes (true ou 1), ReportOrError doit être présent."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Si ReportGeneralDetails/ActivityIndicator est égal à No (false ou 0), ReportOrError doit être absent."
+    },
+    "QueryTypeFullRule": {
+      "definition": "Si ReportGeneralDetails/QueryType est égal à Full, ReportOrError/Movements(*)/Movement/MovementDetails doit être présent."
+    },
+    "QueryTypeStatusRule": {
+      "definition": "Si ReportGeneralDetails/QueryType est égal à Status, ReportOrError/Movements(*)/Movement/MovementDetails doit être absent."
+    }
+  }
+}

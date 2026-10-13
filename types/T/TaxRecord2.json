@@ -1,0 +1,33 @@
+{
+  "isoType": "TaxRecord2",
+  "definition": "Ensemble d'éléments servant à définir l'enregistrement fiscal.",
+  "isoElements": {
+    "Type": {
+      "definition": "Code de haut niveau identifiant le type de détails fiscaux."
+    },
+    "Category": {
+      "definition": "Précise le code de taxe tel que publié par l'administration fiscale."
+    },
+    "CategoryDetails": {
+      "definition": "Fournit des détails complémentaires sur le code de taxe de la catégorie."
+    },
+    "DebtorStatus": {
+      "definition": "Code fourni par l'autorité locale pour identifier le statut de la partie qui a établi le document de règlement."
+    },
+    "CertificateIdentification": {
+      "definition": "Numéro d'identification de la déclaration fiscale attribué par l'administration fiscale."
+    },
+    "FormsCode": {
+      "definition": "Identifie, sous forme codée, le modèle selon lequel la déclaration fiscale doit être fournie."
+    },
+    "Period": {
+      "definition": "Ensemble d'éléments servant à fournir des détails sur la période relative au paiement de la taxe."
+    },
+    "TaxAmount": {
+      "definition": "Ensemble d'éléments servant à fournir des informations sur le montant de l'enregistrement fiscal."
+    },
+    "AdditionalInformation": {
+      "definition": "Détails complémentaires de l'enregistrement fiscal."
+    }
+  }
+}

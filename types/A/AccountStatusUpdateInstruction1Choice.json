@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountStatusUpdateInstruction1Choice",
+  "definition": "Choix de formats pour une instruction de mise à jour du statut du compte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de modification du statut du compte exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de modification du statut du compte exprimé sous forme de code propriétaire."
+    }
+  }
+}

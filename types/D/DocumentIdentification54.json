@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification54",
+  "definition": "Identification du numéro de message et de l’identification de la requête.",
+  "isoElements": {
+    "MessageNumber": {
+      "definition": "Numéro du type de message/identifiant du message référencé dans la séquence de liaison."
+    },
+    "Reference": {
+      "definition": "Référence à l’identification de la requête."
+    }
+  }
+}

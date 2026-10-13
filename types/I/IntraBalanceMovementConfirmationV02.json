@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementConfirmationV02",
+  "definition": "Le message IntraBalanceMovementConfirmation est envoyé par une infrastructure de règlement à un titulaire de compte/donneur d'ordre pour confirmer le déplacement d'un montant d'un sous-solde à un autre au sein de ses avoirs. ||Utilisation : |Le message peut être utilisé pour : |- renvoyer un message précédemment envoyé (la sous-fonction du message est « Duplicate »)|- fournir à un tiers une copie d'un message à titre d'information (la sous-fonction du message est « Copy »)|- renvoyer à un tiers une copie d'un message à titre d'information (la sous-fonction du message est « CopyDuplicate »)."
+}

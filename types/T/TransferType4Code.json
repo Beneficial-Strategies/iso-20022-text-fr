@@ -1,0 +1,22 @@
+{
+  "isoType": "TransferType4Code",
+  "definition": "Indique si un instrument financier est transféré en tant qu’actif ou en espèces.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Espèces",
+      "definition": "Transfert en espèces."
+    },
+    "CONV": {
+      "name": "Conversion",
+      "definition": "L’ISIN est converti en un autre ISIN puis transféré."
+    },
+    "EXCL": {
+      "name": "Exclu",
+      "definition": "Actif exclu du transfert."
+    },
+    "SECU": {
+      "name": "En nature",
+      "definition": "Transfert du titre en tant qu’actif in specie, c’est-à-dire « sous sa forme réelle »."
+    }
+  }
+}

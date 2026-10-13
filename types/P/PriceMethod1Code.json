@@ -1,0 +1,14 @@
+{
+  "isoType": "PriceMethod1Code",
+  "definition": "Indique le type de méthode de calcul du prix.",
+  "isoCodes": {
+    "FORW": {
+      "name": "Prix à terme",
+      "definition": "Le prix sera calculé après la clôture de la période de négociation. Un investisseur ne connaît donc pas le prix exact d'achat ou de vente."
+    },
+    "HIST": {
+      "name": "Prix historique",
+      "definition": "Le prix est calculé à un point d'évaluation antérieur précédant la période de négociation. Un investisseur connaît donc le prix exact d'achat ou de vente."
+    }
+  }
+}

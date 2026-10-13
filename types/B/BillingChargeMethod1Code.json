@@ -1,0 +1,86 @@
+{
+  "isoType": "BillingChargeMethod1Code",
+  "definition": "Définit comment les frais de facturation sont calculés.",
+  "isoCodes": {
+    "UPRC": {
+      "name": "Prix unitaire",
+      "definition": "Les frais sont calculés comme le produit du volume par le prix unitaire. Il s'agit de la valeur par défaut."
+    },
+    "STAM": {
+      "name": "Droit de timbre",
+      "definition": "Le service est expressément identifié comme un droit de timbre à des fins comptables. Les frais sont calculés comme le produit du volume par le prix unitaire."
+    },
+    "BCHG": {
+      "name": "Frais de base",
+      "definition": "Frais perçus en plus du produit du volume par le prix unitaire lorsqu'une ou plusieurs unités du service sont fournies."
+    },
+    "DPRC": {
+      "name": "Prix remisé",
+      "definition": "Les frais sont calculés selon un prix inférieur au prix bancaire coté."
+    },
+    "FCHG": {
+      "name": "Frais forfaitaires",
+      "definition": "Frais fixes, non liés au volume ni au prix unitaire. Les frais forfaitaires ne nécessitent ni volume ni prix unitaire."
+    },
+    "LPRC": {
+      "name": "Prix catalogue",
+      "definition": "Service unique pour lequel le volume, les frais d'origine et le solde requis sont les totaux de deux paliers de tarification ou plus."
+    },
+    "MCHG": {
+      "name": "Frais minimums",
+      "definition": "Frais minimaux possibles pour le service."
+    },
+    "MXRD": {
+      "name": "Réduction maximale",
+      "definition": "Frais maximaux possibles pour le service, même si le produit du volume par le prix unitaire dépasse la valeur de réduction maximale."
+    },
+    "TIR1": {
+      "name": "Palier 1",
+      "definition": "La ligne représente des frais du palier 1 dans une structure de facturation multi-paliers avec remise sur volume. Désigne le palier 1 utilisé pour facturer le volume relevant de ce palier."
+    },
+    "TIR2": {
+      "name": "Palier 2",
+      "definition": "La ligne représente des frais du palier 2 dans une structure de facturation multi-paliers avec remise sur volume. Désigne le palier 2 utilisé pour facturer le volume relevant de ce palier."
+    },
+    "TIR3": {
+      "name": "Palier 3",
+      "definition": "La ligne représente des frais du palier 3 dans une structure de facturation multi-paliers avec remise sur volume. Désigne le palier 3 utilisé pour facturer le volume relevant de ce palier."
+    },
+    "TIR4": {
+      "name": "Palier 4",
+      "definition": "La ligne représente des frais du palier 4 dans une structure de facturation multi-paliers avec remise sur volume. Désigne le palier 4 utilisé pour facturer le volume relevant de ce palier."
+    },
+    "TIR5": {
+      "name": "Palier 5",
+      "definition": "La ligne représente des frais du palier 5 dans une structure de facturation multi-paliers avec remise sur volume. Désigne le palier 5 utilisé pour facturer le volume relevant de ce palier."
+    },
+    "TIR6": {
+      "name": "Palier 6",
+      "definition": "La ligne représente des frais du palier 6 dans une structure de facturation multi-paliers avec remise sur volume. Désigne le palier 6 utilisé pour facturer le volume relevant de ce palier."
+    },
+    "TIR7": {
+      "name": "Palier 7",
+      "definition": "La ligne représente des frais du palier 7 dans une structure de facturation multi-paliers avec remise sur volume. Désigne le palier 7 utilisé pour facturer le volume relevant de ce palier."
+    },
+    "TIR8": {
+      "name": "Palier 8",
+      "definition": "La ligne représente des frais du palier 8 dans une structure de facturation multi-paliers avec remise sur volume. Désigne le palier 8 utilisé pour facturer le volume relevant de ce palier."
+    },
+    "TIR9": {
+      "name": "Palier 9",
+      "definition": "La ligne représente des frais du palier 9 dans une structure de facturation multi-paliers avec remise sur volume. Désigne le palier 9 utilisé pour facturer le volume relevant de ce palier."
+    },
+    "TPRC": {
+      "name": "Prix à seuil",
+      "definition": "Le prix unitaire est déterminé par le volume total."
+    },
+    "ZPRC": {
+      "name": "Prix par zone",
+      "definition": "Indique des prix différents pour un même service. Généralement utilisé dans un relevé récapitulatif de relation où le même service a un prix différent selon les comptes de la relation."
+    },
+    "BBSE": {
+      "name": "Basé sur le solde",
+      "definition": "Les frais sont calculés comme un solde multiplié par un taux annuel, multiplié par un facteur temps."
+    }
+  }
+}

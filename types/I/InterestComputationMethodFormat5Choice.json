@@ -1,0 +1,12 @@
+{
+  "isoType": "InterestComputationMethodFormat5Choice",
+  "definition": "Choix entre un code standard et un code propriétaire pour préciser le type de méthode de calcul des intérêts.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant la méthode utilisée pour calculer les intérêts courus d'un instrument financier."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du format de la méthode de calcul des intérêts."
+    }
+  }
+}

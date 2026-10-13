@@ -1,0 +1,12 @@
+{
+  "isoType": "RenounceableEntitlementStatusTypeFormat4Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type de statut de droit cessible.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le statut de cessibilité."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du statut de cessibilité."
+    }
+  }
+}

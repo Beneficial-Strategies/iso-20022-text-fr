@@ -1,0 +1,12 @@
+{
+  "isoType": "SafekeepingPlaceTypeAndIdentification1",
+  "definition": "Identification du type de lieu de conservation exprimée sous la forme d'un code et d'un BIC.",
+  "isoElements": {
+    "SafekeepingPlaceType": {
+      "definition": "Lieu de conservation sous forme de code."
+    },
+    "Identification": {
+      "definition": "Lieu de conservation."
+    }
+  }
+}

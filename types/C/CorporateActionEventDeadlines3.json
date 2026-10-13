@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionEventDeadlines3",
+  "definition": "Précise les dates limites de l'événement d'opération sur titres.",
+  "isoElements": {
+    "EarlyResponseDeadline": {
+      "definition": "Date et heure fixées par le teneur de compte comme date limite pour répondre, avec des instructions, à un événement en cours, donnant au titulaire droit à des avantages incitatifs. Cette heure dépend du fuseau horaire de référence du teneur de compte, tel que précisé dans un accord de niveau de service (SLA)."
+    },
+    "ResponseDeadline": {
+      "definition": "Date et heure fixées par le teneur de compte comme date limite pour répondre, avec des instructions, à un événement en cours. Cette heure dépend du fuseau horaire de référence du teneur de compte, tel que précisé dans un accord de niveau de service (SLA)."
+    },
+    "MarketDeadline": {
+      "definition": "Échéance de l'émetteur ou de son agent pour répondre par une instruction à une offre ou un privilège en cours."
+    },
+    "ProtectDeadline": {
+      "definition": "Date limite des instructions de protection."
+    },
+    "CoverProtectDeadline": {
+      "definition": "Date limite de couverture d'une instruction de protection."
+    }
+  }
+}

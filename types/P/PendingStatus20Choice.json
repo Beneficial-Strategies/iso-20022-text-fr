@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus20Choice",
+  "definition": "Choix du format pour le statut d'appariement.",
+  "isoElements": {
+    "Forwarded": {
+      "definition": "La déclaration de contrepartie (allegement) est transmise."
+    },
+    "UnderInvestigation": {
+      "definition": "La déclaration de contrepartie (allegement) est en cours d'examen."
+    }
+  }
+}

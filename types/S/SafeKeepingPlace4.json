@@ -1,0 +1,17 @@
+{
+  "isoType": "SafeKeepingPlace4",
+  "definition": "Lieu où les titres sont conservés, physiquement ou de manière notionnelle. Ce lieu peut être, par exemple, un dépositaire local, un dépositaire central de titres (CSD) ou un dépositaire central de titres international (ICSD).",
+  "isoElements": {
+    "SafekeepingPlaceFormat": {
+      "definition": "Identification unique de la partie."
+    },
+    "LEI": {
+      "definition": "Identification de l'entité juridique comme identification alternative d'un lieu de conservation."
+    }
+  },
+  "isoRules": {
+    "SafekeepingPlaceFormatOrLEIRule": {
+      "definition": "SafekeepingPlaceFormat doit être présent ou LEI doit être présent."
+    }
+  }
+}

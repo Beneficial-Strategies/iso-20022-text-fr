@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStatus1",
+  "definition": "Processus consistant à notifier une opération sur titres à venir. Il fournit les détails de l'opération sur titres, y compris les différentes options.",
+  "isoElements": {
+    "EventCompletenessStatus": {
+      "definition": "Indique si les détails fournis sur un événement sont complets ou incomplets."
+    },
+    "EventConfirmationStatus": {
+      "definition": "Indique le statut de la survenance d'un événement."
+    }
+  }
+}

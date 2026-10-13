@@ -1,0 +1,27 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters20",
+  "definition": "Précise les conditions dans lesquelles l'ordre/la transaction commerciale doit être réglé(e).",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification non ambiguë de l'opération (unique par élément de garantie) telle que connue du titulaire de compte (ou de la partie instructrice gérant le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification non ambiguë de l'opération (unique par élément de garantie) telle que connue du teneur de compte."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Précise le type d'opération de financement de titres, c'est-à-dire mise en pension, prise en pension, prêt de titres ou emprunt de titres."
+    },
+    "Payment": {
+      "definition": "Précise la manière dont l'opération doit être réglée, par exemple contre paiement."
+    },
+    "ModificationType": {
+      "definition": "Identifie le type de modification de financement sur titres demandé."
+    },
+    "CommonIdentification": {
+      "definition": "Référence unique convenue entre les deux contreparties de la transaction commerciale pour identifier celle-ci."
+    },
+    "PoolIdentification": {
+      "definition": "Référence collective identifiant un ensemble de messages."
+    }
+  }
+}

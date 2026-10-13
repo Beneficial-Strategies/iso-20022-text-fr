@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingServicesAmount1",
+  "definition": "Conversions en devise d'accueil du montant des frais de service imposables.",
+  "isoElements": {
+    "HostAmount": {
+      "definition": "Somme de toutes les taxes individuelles sur le service, exprimée dans la devise d'accueil."
+    },
+    "PricingAmount": {
+      "definition": "Montant de l'obligation fiscale exprimé dans la devise de tarification de la région fiscale.|Usage : il s'agit du même montant que celui porté dans le montant en devise d'accueil, mais l'émetteur peut facultativement exprimer la valeur dans la devise de tarification."
+    }
+  }
+}

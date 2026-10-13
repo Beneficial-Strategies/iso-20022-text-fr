@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesFinancingTransactionType2Code",
+  "definition": "Précise le type d'opération de financement de titres.",
+  "isoCodes": {
+    "REPU": {
+      "name": "Pension livrée",
+      "definition": "Se rapporte à une opération de mise en pension."
+    },
+    "RVPO": {
+      "name": "Prise en pension",
+      "definition": "Se rapporte à une opération de prise en pension."
+    },
+    "SECB": {
+      "name": "Emprunt de titres",
+      "definition": "Se rapporte à une opération d'emprunt de titres."
+    },
+    "SECL": {
+      "name": "Prêt de titres",
+      "definition": "Se rapporte à une opération de prêt de titres."
+    },
+    "BSBK": {
+      "name": "Achat-vente",
+      "definition": "Se rapporte à une opération de buy sell back."
+    },
+    "SBBK": {
+      "name": "Vente-rachat",
+      "definition": "Se rapporte à une opération de sell buy back."
+    }
+  }
+}

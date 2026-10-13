@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason61Code",
+  "definition": "Précise le motif pour lequel la demande d'annulation de réclamation de marché est rejetée.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Opération ou instruction reçue après l'heure limite précisée par l'établissement teneur de compte."
+    },
+    "ULNK": {
+      "name": "Référence non valide",
+      "definition": "La référence liée est inconnue."
+    },
+    "LATE": {
+      "name": "Échéance du marché dépassée",
+      "definition": "Reçue après l'heure limite du marché."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir Narrative."
+    },
+    "DCAN": {
+      "name": "Rejeté car déjà annulé",
+      "definition": "La demande d'annulation a été rejetée car l'instruction a déjà été annulée."
+    },
+    "DSET": {
+      "name": "Refusé car déjà réglé",
+      "definition": "La demande d'annulation a été refusée car l'instruction a déjà été réglée."
+    },
+    "DPRG": {
+      "name": "Rejeté car en cours",
+      "definition": "La demande d'annulation a été rejetée car le traitement de l'instruction est en cours ou a été effectué."
+    }
+  }
+}

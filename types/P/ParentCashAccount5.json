@@ -1,0 +1,15 @@
+{
+  "isoType": "ParentCashAccount5",
+  "definition": "Précise les éléments de compte de trésorerie d'un compte de trésorerie parent.",
+  "isoElements": {
+    "Level": {
+      "definition": "Définit le niveau du compte parent dans une hiérarchie."
+    },
+    "Identification": {
+      "definition": "Identification unique et non ambiguë du compte parent entre le titulaire du compte parent et le teneur du compte parent."
+    },
+    "Servicer": {
+      "definition": "Établissement financier dans lequel le compte parent est tenu."
+    }
+  }
+}

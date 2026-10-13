@@ -1,0 +1,50 @@
+{
+  "isoType": "CardPaymentServiceType2Code",
+  "definition": "Service fourni par l'opération de paiement par carte, en plus du service principal.",
+  "isoCodes": {
+    "AGGR": {
+      "name": "Agrégation",
+      "definition": "Agrégation de paiements de faible montant."
+    },
+    "DCCV": {
+      "name": "DCC",
+      "definition": "Conversion dynamique de devise (DCC)."
+    },
+    "GRTT": {
+      "name": "Pourboire",
+      "definition": "Paiement par carte avec pourboire."
+    },
+    "INSP": {
+      "name": "Paiement échelonné",
+      "definition": "Paiement échelonné."
+    },
+    "LOYT": {
+      "name": "Fidélité",
+      "definition": "Services de fidélité."
+    },
+    "NRES": {
+      "name": "Absence sans annulation",
+      "definition": "Absence après réservation."
+    },
+    "PUCO": {
+      "name": "Achat entreprise",
+      "definition": "Achat et données d'entreprise."
+    },
+    "RECP": {
+      "name": "Paiement récurrent",
+      "definition": "Paiement récurrent."
+    },
+    "SOAF": {
+      "name": "Fonds disponibles sollicités",
+      "definition": "Fonds disponibles sollicités."
+    },
+    "UNAF": {
+      "name": "Fonds disponibles non sollicités",
+      "definition": "Fonds disponibles non sollicités."
+    },
+    "VCAU": {
+      "name": "Autorisation vocale",
+      "definition": "Autorisation vocale."
+    }
+  }
+}

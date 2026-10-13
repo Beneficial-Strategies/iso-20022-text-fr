@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateSuspensionRequestV04",
+  "definition": "Portée|Le message MandateSuspensionRequest est envoyé par l'initiateur de la demande à sa banque. L'initiateur peut être soit le débiteur, la banque du débiteur, le créancier ou la banque du créancier.|Un message MandateSuspensionRequest sert à demander la suspension d'un mandat existant jusqu'à la levée de la suspension. |Utilisation|Le message MandateSuspensionRequest peut contenir une ou plusieurs demandes de suspension.|Les messages peuvent être échangés entre le créancier et la banque du créancier, ou entre le débiteur et la banque du débiteur, ainsi qu'entre la banque du créancier et la banque du débiteur.|Le message MandateSuspensionRequest peut être utilisé dans des scénarios nationaux et transfrontaliers.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    }
+  }
+}

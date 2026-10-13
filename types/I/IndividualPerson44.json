@@ -1,0 +1,57 @@
+{
+  "isoType": "IndividualPerson44",
+  "definition": "Entité humaine, par opposition à une entité juridique (parfois qualifiée de « personne morale »).",
+  "isoElements": {
+    "CurrentName": {
+      "definition": "Nom actuellement utilisé."
+    },
+    "PreviousName": {
+      "definition": "Nom utilisé précédemment."
+    },
+    "Gender": {
+      "definition": "Précise le sexe de la personne."
+    },
+    "Language": {
+      "definition": "Langue dans laquelle une personne communique."
+    },
+    "BirthDate": {
+      "definition": "Date de naissance d'une personne."
+    },
+    "CountryOfBirth": {
+      "definition": "Pays de naissance d'une personne."
+    },
+    "ProvinceOfBirth": {
+      "definition": "Province de naissance d'une personne."
+    },
+    "CityOfBirth": {
+      "definition": "Ville de naissance d'une personne."
+    },
+    "TaxationCountry": {
+      "definition": "Pays d'imposition d'une personne physique."
+    },
+    "CountryAndResidentialStatus": {
+      "definition": "Pays et statut de résidence d'une personne physique, par exemple résident non permanent."
+    },
+    "SocialSecurityNumber": {
+      "definition": "Identification gouvernementale destinée à ses citoyens."
+    },
+    "PostalAddress": {
+      "definition": "Informations permettant de localiser et d'identifier une adresse précise, telles que définies par les services postaux."
+    },
+    "CitizenshipInformation": {
+      "definition": "Informations sur un citoyen."
+    },
+    "PrimaryCommunicationAddress": {
+      "definition": "Adresse du contact principal."
+    },
+    "SecondaryCommunicationAddress": {
+      "definition": "Numéro de dispositif de communication ou adresse électronique utilisé pour la communication vers une adresse alternative."
+    },
+    "OtherIdentification": {
+      "definition": "Autre type d'identification."
+    },
+    "OtherDetails": {
+      "definition": "Informations supplémentaires nécessaires au changement de compte."
+    }
+  }
+}

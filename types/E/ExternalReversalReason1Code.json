@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalReversalReason1Code",
+  "definition": "Précise le motif d'annulation, tel que publié dans une liste externe de codes de motifs d'annulation.|Les jeux de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "AC03": {
+      "name": "Numéro de compte du créancier non valide",
+      "definition": "IBAN erroné dans SCT"
+    },
+    "AC04": {
+      "name": "Numéro de compte clôturé",
+      "definition": "Le numéro de compte indiqué a été clos dans les livres du destinataire"
+    },
+    "AG02": {
+      "name": "Code d'opération bancaire non valide",
+      "definition": "Le code d'opération bancaire indiqué dans le message n'est pas valide pour le destinataire"
+    },
+    "AM05": {
+      "name": "Doublon",
+      "definition": "Doublon"
+    },
+    "AM09": {
+      "name": "Montant erroné",
+      "definition": "Montant erroné dans SCT"
+    },
+    "MD01": {
+      "name": "Aucun mandat",
+      "definition": "Aucun mandat"
+    },
+    "MD05": {
+      "name": "Recouvrement non échu",
+      "definition": "Le créancier ou la banque du créancier n'aurait pas dû encaisser le prélèvement"
+    },
+    "MS02": {
+      "name": "Motif non spécifié, généré par le client",
+      "definition": "Le motif n'a pas été précisé par le client final"
+    },
+    "MS03": {
+      "name": "Motif non précisé, généré par la banque",
+      "definition": "Le motif n'a pas été précisé par la banque."
+    },
+    "RC07": {
+      "name": "Identifiant BIC du créancier non valide",
+      "definition": "BIC erroné dans SCT"
+    },
+    "TM01": {
+      "name": "Heure limite",
+      "definition": "Le message associé a été reçu après l'heure limite de traitement convenue."
+    }
+  }
+}

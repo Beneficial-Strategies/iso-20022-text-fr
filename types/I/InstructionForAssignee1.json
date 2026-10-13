@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForAssignee1",
+  "definition": "Informations complémentaires relatives au traitement de l'enquête, auxquelles le destinataire de l'affaire peut devoir donner suite.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informations codées relatives au traitement de l'instruction d'enquête, fournies par l'émetteur de l'affaire et destinées à son destinataire."
+    },
+    "InstructionInformation": {
+      "definition": "Informations complémentaires complétant l'instruction codée ou l'instruction destinée au destinataire de l'affaire."
+    }
+  }
+}

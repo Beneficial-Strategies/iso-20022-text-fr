@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalTaxAmountType1Code",
+  "definition": "Précise la nature ou l'utilisation du montant, sous forme de chaîne de caractères d'une longueur maximale de 4 caractères.|La liste des codes valides est une liste de codes externe publiée séparément.|Les ensembles de codes externes peuvent être téléchargés sur www.iso20022.org.",
+  "isoCodes": {
+    "CITY": {
+      "name": "Taxe municipale",
+      "definition": "Taxe prélevée par les juridictions municipales d'un pays."
+    },
+    "CNTY": {
+      "name": "Taxe de comté",
+      "definition": "Taxe prélevée par les juridictions de comté d'un pays."
+    },
+    "LOCL": {
+      "name": "Impôt local",
+      "definition": "Taxe prélevée par les juridictions locales d'un pays."
+    },
+    "PROV": {
+      "name": "Taxe provinciale",
+      "definition": "Taxe prélevée par les juridictions provinciales d'un pays."
+    },
+    "STAT": {
+      "name": "Impôt d'État",
+      "definition": "Taxe prélevée par les juridictions d'État d'un pays."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "SettlementTransactionStatusType2",
+  "definition": "Choix du type de statut de l'instruction de règlement de titres.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Fournit des précisions sur le statut de traitement de l'opération."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Fournit le statut d'appariement d'une instruction tel que connu du teneur de compte sur la base d'une allégation. À ce stade, aucun appariement n'a eu lieu sur le marché (au CSD/ICSD)."
+    },
+    "MatchingStatus": {
+      "definition": "Fournit le statut d'appariement de l'instruction."
+    },
+    "SettlementStatus": {
+      "definition": "Indique le statut de règlement d'une opération."
+    },
+    "Settled": {
+      "definition": "Définit que l'opération a été réglée."
+    }
+  }
+}

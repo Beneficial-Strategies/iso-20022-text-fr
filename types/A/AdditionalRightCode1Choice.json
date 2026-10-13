@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalRightCode1Choice",
+  "definition": "Choix du code de droit supplémentaire.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identifie le code de droit supplémentaire."
+    },
+    "Proprietary": {
+      "definition": "Ce code peut être utilisé lorsqu'un autre motif est requis."
+    }
+  }
+}

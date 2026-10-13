@@ -1,0 +1,21 @@
+{
+  "isoType": "MandateSuspension4",
+  "definition": "Identifie le mandat qui est suspendu.",
+  "isoElements": {
+    "SuspensionRequestIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice, permettant d'identifier sans ambiguïté la demande de suspension."
+    },
+    "OriginalMessageInformation": {
+      "definition": "Fournit des informations sur le message d'origine."
+    },
+    "SuspensionReason": {
+      "definition": "Fournit des informations détaillées sur le motif de la suspension."
+    },
+    "OriginalMandate": {
+      "definition": "Fournit les données du mandat d'origine."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  }
+}

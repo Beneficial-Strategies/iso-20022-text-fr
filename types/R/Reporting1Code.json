@@ -1,0 +1,14 @@
+{
+  "isoType": "Reporting1Code",
+  "definition": "Identifie l'établissement auquel la déclaration doit être faite.",
+  "isoCodes": {
+    "STEX": {
+      "name": "Bourse",
+      "definition": "Les détails de l’opération doivent être déclarés à une bourse."
+    },
+    "REGU": {
+      "name": "Organisme de réglementation",
+      "definition": "Les détails de l’opération doivent être déclarés à un organisme de réglementation."
+    }
+  }
+}

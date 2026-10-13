@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderIdentification9",
+  "definition": "Définit les éléments servant à identifier de manière unique un ordre permanent.",
+  "isoElements": {
+    "Account": {
+      "definition": "Relation commerciale entre deux entités ; l'une des entités est le titulaire du compte, l'autre est le teneur de compte."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    }
+  }
+}

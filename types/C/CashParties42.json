@@ -1,0 +1,18 @@
+{
+  "isoType": "CashParties42",
+  "definition": "Processus de paiement requis pour transférer des espèces du débiteur au créancier.",
+  "isoElements": {
+    "Debtor": {
+      "definition": "Partie qui doit un montant au créancier (final)."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "RepoCallAcknowledgementReason2Code",
+  "definition": "Précise des informations supplémentaires sur l'instruction d'appel de pension livrée traitée.",
+  "isoCodes": {
+    "CALD": {
+      "name": "En cours de traitement",
+      "definition": "L'appel de pension livrée est en cours de traitement."
+    },
+    "CALP": {
+      "name": "Traité",
+      "definition": "L'appel de pension livrée est traité."
+    },
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Reçue après l'heure limite de l'établissement teneur de compte. Traitée au mieux."
+    }
+  }
+}

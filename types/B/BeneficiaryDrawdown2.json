@@ -1,0 +1,21 @@
+{
+  "isoType": "BeneficiaryDrawdown2",
+  "definition": "Informations sur le bénéficiaire d’un retrait échelonné.",
+  "isoElements": {
+    "BeneficiaryType": {
+      "definition": "Type de bénéficiaire."
+    },
+    "DeathUnderLimit": {
+      "definition": "Indique si le titulaire initial de la pension était en dessous de la limite d’âge à son décès. En règle générale, au Royaume-Uni (UK), cette limite est de soixante-quinze ans."
+    },
+    "DateOfDeath": {
+      "definition": "Date de décès du titulaire initial de la pension."
+    },
+    "DateDesignatedToBeneficiary": {
+      "definition": "Date à laquelle le nouveau bénéficiaire a été désigné."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le destinataire du retrait échelonné."
+    }
+  }
+}

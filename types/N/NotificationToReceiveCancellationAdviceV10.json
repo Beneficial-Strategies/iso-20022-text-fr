@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationToReceiveCancellationAdviceV10",
+  "definition": "Champ d'application|Le message NotificationToReceiveCancellationAdvice est envoyé par un titulaire de compte, ou par une partie agissant pour son compte, à l'un des établissements teneurs de ses comptes. Il est utilisé pour aviser l'établissement teneur de compte de l'annulation d'une ou plusieurs notifications d'un message NotificationToReceive précédent.|Utilisation|Le message NotificationToReceiveCancellationAdvice est utilisé pour aviser l'établissement teneur de compte que les fonds ne sont plus attendus. Le message peut être utilisé dans un scénario direct ou dans un scénario avec relais."
+}

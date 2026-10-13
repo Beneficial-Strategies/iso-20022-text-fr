@@ -1,0 +1,27 @@
+{
+  "isoType": "BuyerProtectionSelectionCriteria1",
+  "definition": "Critères de sélection pour la requête de protection de l'acheteur.",
+  "isoElements": {
+    "FinancialInstitutionIdentification": {
+      "definition": "Identification unique et non ambiguë d'un établissement financier, attribuée selon un schéma d'identification internationalement reconnu ou propriétaire."
+    },
+    "AccountIdentification": {
+      "definition": "Liste des comptes-titres sélectionnés auxquels l'événement d'opération sur titres s'applique."
+    },
+    "ISIN": {
+      "definition": "Numéro international d'identification des valeurs mobilières (ISIN). Système de numérotation conçu par l'Organisation internationale de normalisation (ISO) des Nations Unies. L'ISIN est composé d'un préfixe de 2 caractères représentant le pays d'émission, suivi du numéro national du titre (s'il existe) et d'un chiffre de contrôle. Chaque pays dispose d'un organisme national de numérotation qui attribue les numéros ISIN aux titres de ce pays."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Référence attribuée par le teneur de compte pour identifier sans ambiguïté un événement sur titres."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par l'entité de traitement de l'instruction autre que le titulaire du compte, le teneur de compte et l'infrastructure de marché."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Identifiant unique d'opération (UTI) tel que convenu avec l'autre contrepartie."
+    }
+  }
+}

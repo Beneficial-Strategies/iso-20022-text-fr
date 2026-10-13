@@ -1,0 +1,14 @@
+{
+  "isoType": "PledgeeType1Code",
+  "definition": "Précise le type de bénéficiaire du nantissement.",
+  "isoCodes": {
+    "CPTY": {
+      "name": "Contrepartie",
+      "definition": "Les instruments financiers sont donnés en nantissement à une contrepartie."
+    },
+    "REGB": {
+      "name": "Organisme de réglementation",
+      "definition": "Les instruments financiers sont donnés en nantissement à un organisme de régulation."
+    }
+  }
+}

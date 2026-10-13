@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType14Code",
+  "definition": "Précise le type de taux.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "Le taux est inconnu de l'expéditeur ou n'a pas été établi."
+    },
+    "JLID": {
+      "name": "À la discrétion de l'émetteur",
+      "definition": "Indique qu'il n'y aura pas de taux de répartition au prorata uniforme applicable à toutes les instructions ou à tous les comptes."
+    }
+  }
+}

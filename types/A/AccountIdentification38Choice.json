@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification38Choice",
+  "definition": "Identification unique du compte-titres ou du compte espèces détenu par le client.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "definition": "Identification unique du compte-titres, attribuée par l'établissement teneur de compte."
+    },
+    "CashAccountIdentification": {
+      "definition": "Identification unique du compte espèces, attribuée par l'établissement teneur de compte."
+    }
+  }
+}

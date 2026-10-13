@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionChangeTypeFormat6Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser un type de modification.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type de modifications."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de modifications."
+    }
+  }
+}

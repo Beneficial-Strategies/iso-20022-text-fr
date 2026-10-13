@@ -1,0 +1,26 @@
+{
+  "isoType": "ChequeType2Code",
+  "definition": "Précise le type de chèque.",
+  "isoCodes": {
+    "CCHQ": {
+      "name": "Chèque client",
+      "definition": "Chèque tiré sur le compte du débiteur et débité du compte du débiteur lors de l'encaissement du chèque. Synonyme : « chèque d'entreprise »."
+    },
+    "CCCH": {
+      "name": "Chèque client certifié",
+      "definition": "Chèque tiré sur le compte du débiteur et débité du compte du débiteur lors de l'encaissement du chèque. L'établissement financier imprime et certifie le chèque, garantissant le paiement."
+    },
+    "BCHQ": {
+      "name": "Chèque de banque",
+      "definition": "Chèque tiré sur le compte de l'établissement financier du débiteur, débité du compte du débiteur lors de l'émission du chèque. Ces chèques sont imprimés par l'établissement financier du débiteur et le paiement est garanti par l'établissement financier. Synonyme : « chèque de banque »."
+    },
+    "DRFT": {
+      "name": "Traite",
+      "definition": "Chèque de banque garanti à date de valeur future (ne pas payer avant), qui, en termes commerciaux, constitue un « effet négociable » : le bénéficiaire peut recevoir un paiement anticipé de n'importe quelle banque moyennant déduction d'un escompte. Le compte du donneur d'ordre est débité à la date de valeur."
+    },
+    "ELDR": {
+      "name": "Traite électronique",
+      "definition": "Instrument à date de valeur future (ne pas payer avant), qui, en termes commerciaux, constitue un « effet négociable » : le bénéficiaire peut recevoir un paiement anticipé de n'importe quelle banque moyennant déduction d'un escompte. Le compte du donneur d'ordre est débité à la date de valeur."
+    }
+  }
+}

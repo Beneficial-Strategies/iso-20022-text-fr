@@ -1,0 +1,82 @@
+{
+  "isoType": "ExternalUnableToApplyMissingData1Code",
+  "definition": "Précise le motif d'une impossibilité d'imputation due à des données manquantes, tel que publié dans une liste de codes externe des données manquantes pour l'impossibilité d'imputation.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "MS01": {
+      "name": "Informations de remise manquantes",
+      "definition": "RemittanceInformation est manquant."
+    },
+    "MS02": {
+      "name": "Instruction pour la banque suivante manquante",
+      "definition": "L'instruction pour la banque suivante est manquante (ancien MissingSenderToReceiverInformation scindé en informations pour le débiteur, le crédit et la banque suivante)."
+    },
+    "MS03": {
+      "name": "Débiteur manquant",
+      "definition": "Le débiteur est manquant."
+    },
+    "MS04": {
+      "name": "Compte du débiteur manquant",
+      "definition": "DebtorAccount est manquant."
+    },
+    "MS05": {
+      "name": "Banque du débiteur manquante",
+      "definition": "DebtorAgent est manquant (ancien MissingFirstAgent pour les virements)."
+    },
+    "MS06": {
+      "name": "Montant manquant",
+      "definition": "Le montant est manquant."
+    },
+    "MS07": {
+      "name": "Compte de règlement manquant",
+      "definition": "SettlementAccount est manquant. (ancien MissingNostroVostroAccount)."
+    },
+    "MS08": {
+      "name": "Intermédiaire manquant",
+      "definition": "L'intermédiaire est manquant."
+    },
+    "MS09": {
+      "name": "Banque de remboursement donneuse d'ordre manquante",
+      "definition": "InstructingReimbursementAgent est manquant (ancien MissingReimbursementAgent1)."
+    },
+    "MS10": {
+      "name": "Banque de remboursement destinataire de l'instruction manquante",
+      "definition": "InstructedReimbursementAgent est manquant (ancien MissingReimbursementAgent2)."
+    },
+    "MS11": {
+      "name": "Troisième banque de remboursement manquante",
+      "definition": "Le troisième agent de remboursement est manquant (ancien MissingReimbursementAgent)."
+    },
+    "MS12": {
+      "name": "Créancier manquant",
+      "definition": "Le créancier est manquant."
+    },
+    "MS13": {
+      "name": "Compte du créancier manquant",
+      "definition": "CreditorAccount est manquant."
+    },
+    "MS14": {
+      "name": "Instruction manquante",
+      "definition": "L'instruction de paiement est manquante."
+    },
+    "MS15": {
+      "name": "Banque du créancier manquante",
+      "definition": "La banque du créancier est manquante (ancien MissingFirstAgent pour les prélèvements)."
+    },
+    "MS16": {
+      "name": "Instruction pour la banque du créancier manquante",
+      "definition": "L'instruction pour la banque du créancier est manquante (ancien MissingSenderToReceiverInformation scindé en informations pour le débiteur, le crédit et la banque suivante)."
+    },
+    "MS17": {
+      "name": "Instruction pour la banque du débiteur manquante",
+      "definition": "L'instruction pour la banque du débiteur est manquante (ancien MissingSenderToReceiverInformation scindé en informations pour le débiteur, le crédit et la banque suivante)."
+    },
+    "MS18": {
+      "name": "Informations de remise associées manquantes",
+      "definition": "RelatedRemittanceInformation est manquant."
+    },
+    "NARR": {
+      "name": "Texte libre",
+      "definition": "Voir le champ narratif pour des informations complémentaires."
+    }
+  }
+}

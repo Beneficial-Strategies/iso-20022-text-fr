@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesOption88",
+  "definition": "Précise les quantités de titres pour l'instruction sur événement sur titres.",
+  "isoElements": {
+    "ConditionalQuantity": {
+      "definition": "Quantité minimale de titres à accepter (utilisée dans le cadre d'un privilège conditionnel lors du choix). En cas de répartition proportionnelle, si cette quantité minimale n'est pas atteinte, l'instruction est nulle."
+    },
+    "InstructedQuantity": {
+      "definition": "Quantité de titres à laquelle s'applique cette instruction."
+    },
+    "AdditionalRoundUpQuantity": {
+      "definition": "Quantité d'actions supplémentaires demandée en raison de la différence de pratique d'« arrondi supérieur contre paiement » entre le teneur de compte et le titulaire du compte (par exemple pour l'option de dividende française)."
+    }
+  }
+}

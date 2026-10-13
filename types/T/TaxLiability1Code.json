@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxLiability1Code",
+  "definition": "Indique le rôle fiscal de la partie donneuse d'ordre.",
+  "isoCodes": {
+    "PRIN": {
+      "name": "Donneur d'ordre fiscal",
+      "definition": "La partie au règlement agit en tant que commettant au regard de la responsabilité fiscale."
+    },
+    "AGEN": {
+      "name": "Agent fiscal",
+      "definition": "La partie au règlement agit en tant qu'agent au regard de la responsabilité fiscale."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "isoType": "FinancialInstrumentAttributes139",
+  "definition": "Description de l'instrument financier.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identifie l'instrument financier."
+    },
+    "Quantity": {
+      "definition": "Quantité de titres intermédiaires dus sur la base du solde des titres sous-jacents."
+    },
+    "RenounceableEntitlementStatusType": {
+      "definition": "Précise si les conditions de l'événement autorisent la revente des droits."
+    },
+    "FractionDisposition": {
+      "definition": "Précise comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni."
+    },
+    "IntermediateSecuritiesToUnderlyingRatio": {
+      "definition": "Quantité de titres intermédiaires attribuée pour une quantité donnée de titres sous-jacents."
+    },
+    "MarketPrice": {
+      "definition": "Dernier prix communiqué/connu d'un instrument financier sur un marché."
+    },
+    "ExpiryDate": {
+      "definition": "Date à laquelle un ordre expire ou à laquelle un privilège ou une offre prend fin."
+    },
+    "PostingDate": {
+      "definition": "Date de l'écriture (crédit ou débit) sur le compte."
+    },
+    "TradingPeriod": {
+      "definition": "Période pendant laquelle les titres intermédiaires ou de sortie sont négociables sur un marché secondaire."
+    },
+    "UninstructedBalance": {
+      "definition": "Solde de la position non instruite."
+    },
+    "InstructedBalance": {
+      "definition": "Solde de la position instruite."
+    }
+  }
+}

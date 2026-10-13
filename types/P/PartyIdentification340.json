@@ -1,0 +1,30 @@
+{
+  "isoType": "PartyIdentification340",
+  "definition": "Fournit des informations sur le bénéficiaire effectif des titres.",
+  "isoElements": {
+    "OwnerIdentification": {
+      "definition": "Partie qui est le bénéficiaire effectif de la quantité de titres spécifiée."
+    },
+    "AlternateIdentification": {
+      "definition": "Identification alternative d'une partie."
+    },
+    "DomicileCountry": {
+      "definition": "Pays dans lequel une personne est domiciliée de façon permanente (lieu de la résidence permanente d'une personne)."
+    },
+    "NonDomicileCountry": {
+      "definition": "Le détenteur du titre certifie, conformément aux conditions de l'événement sur titres, qu'il n'est pas domicilié dans le pays indiqué."
+    },
+    "OwnedSecuritiesQuantity": {
+      "definition": "Quantité de titres appartenant au bénéficiaire effectif spécifié."
+    },
+    "CertificationType": {
+      "definition": "Type de certification requise."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Pourcentage demandé d'une distribution en espèces qui sera retenu par les autorités fiscales de la juridiction de l'émetteur, pour lequel un allègement à la source et/ou un remboursement peut être possible."
+    },
+    "CertificationBreakdown": {
+      "definition": "Fournit des informations supplémentaires sur le type de certification/ventilation requis."
+    }
+  }
+}

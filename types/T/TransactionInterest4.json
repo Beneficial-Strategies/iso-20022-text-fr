@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionInterest4",
+  "definition": "Fournit des détails supplémentaires sur les informations d'intérêt propres à l'opération qui s'appliquent à l'opération sous-jacente.",
+  "isoElements": {
+    "TotalInterestAndTaxAmount": {
+      "definition": "Montant total des intérêts et des taxes inclus dans le montant de l'écriture."
+    },
+    "Record": {
+      "definition": "Enregistrement d'intérêt individuel."
+    }
+  }
+}

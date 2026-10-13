@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionTransferScope1Choice",
+  "definition": "Choix de formats pour la portée d’un transfert de retraite.",
+  "isoElements": {
+    "Code": {
+      "definition": "Portée du transfert de la police, du plan ou du régime de retraite exprimée sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Portée du transfert de la police, du plan ou du régime de retraite exprimée sous forme de code propriétaire."
+    }
+  }
+}

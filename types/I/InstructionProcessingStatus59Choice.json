@@ -1,0 +1,18 @@
+{
+  "isoType": "InstructionProcessingStatus59Choice",
+  "definition": "Choix entre différents statuts de traitement de l'instruction.",
+  "isoElements": {
+    "AcceptedAndConfirmed": {
+      "definition": "Fournit des informations de statut relatives à une demande d'instruction de l'acheteur qui est acceptée et confirmée (appariée par la contrepartie)."
+    },
+    "Rejected": {
+      "definition": "Fournit des informations de statut relatives à une demande d'instruction rejetée pour traitement ultérieur pour des raisons liées au système."
+    },
+    "Pending": {
+      "definition": "Fournit des informations de statut relatives à une instruction en attente."
+    },
+    "ProprietaryStatus": {
+      "definition": "Statut propriétaire lié à une instruction."
+    }
+  }
+}

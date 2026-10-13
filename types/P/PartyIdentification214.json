@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification214",
+  "definition": "Identification d'une partie.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification de la partie à laquelle la réponse de divulgation doit être envoyée."
+    },
+    "RecipientName": {
+      "definition": "Nom de la partie à laquelle la réponse de divulgation doit être envoyée."
+    },
+    "ResponseRecipientAddress": {
+      "definition": "Adresse de la partie à laquelle la réponse de divulgation doit être envoyée."
+    }
+  }
+}

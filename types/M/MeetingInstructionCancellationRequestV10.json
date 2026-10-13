@@ -1,0 +1,14 @@
+{
+  "isoType": "MeetingInstructionCancellationRequestV10",
+  "definition": "Portée|Le message MeetingInstructionCancellationRequest est envoyé par la même partie que celle qui a envoyé le|message MeetingInstruction. Il est envoyé pour demander l'annulation d'une, de plusieurs ou de la totalité des instructions incluses dans le message MeetingInstruction initial.|Utilisation|Il doit être répondu à ce message par un message MeetingInstructionStatus. |Cette définition de message est destinée à être utilisée avec le Business Application Header (BAH).",
+  "isoElements": {
+    "MeetingInstructionIdentification": {
+      "definition": "Identification du message d'instruction d'assemblée initial dont l'annulation est demandée ou du message d'instruction d'assemblée initial contenant la ou les instructions individuelles à annuler."
+    }
+  },
+  "isoRules": {
+    "Cancellation3Guideline": {
+      "definition": "Il est recommandé de demander l'annulation d'une instruction d'assemblée en utilisant uniquement MeetingInstructionIdentification et d'éviter les éléments facultatifs, sauf disposition contraire des règles de pratique de marché et/ou de la législation. Si des éléments facultatifs sont inclus, ils doivent être identiques aux informations du message d'instruction d'assemblée en cours d'annulation."
+    }
+  }
+}

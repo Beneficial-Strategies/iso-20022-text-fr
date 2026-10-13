@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateAction82",
+  "definition": "Événement décidé par le conseil d'administration d'une société, qui modifie la structure du capital existant ou la situation financière.",
+  "isoElements": {
+    "EventType": {
+      "definition": "Type d'événement sur titres."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Référence attribuée par le teneur de compte pour identifier sans ambiguïté un événement sur titres."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Référence officielle et unique attribuée par l'organisme ou l'entité central officiel de chaque marché au début d'un événement sur titres."
+    }
+  }
+}

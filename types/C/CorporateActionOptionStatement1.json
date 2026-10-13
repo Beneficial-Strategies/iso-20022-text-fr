@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionOptionStatement1",
+  "definition": "Informations relatives aux options d'instructions de protection de l'acheteur sélectionnées.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "BuyerProtectionInstructionDetails": {
+      "definition": "Informations sur l'instruction de protection de l'acheteur."
+    }
+  }
+}

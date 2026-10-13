@@ -1,0 +1,22 @@
+{
+  "isoType": "ProfileType1Code",
+  "definition": "Indique le type de profil.",
+  "isoCodes": {
+    "HEDG": {
+      "name": "Couverture",
+      "definition": "Actions d'investisseur recourant à des opérations de couverture (hedging), évitant ainsi le risque de fortes fluctuations."
+    },
+    "HFTR": {
+      "name": "Opérateur à haute fréquence",
+      "definition": "Investisseurs opérant au moyen d'algorithmes et envoyant des ordres automatiquement selon les stratégies définies par leurs gestionnaires. Grâce à ce modèle d'accès, les serveurs des participants sont hébergés principalement dans les locaux du marché brésilien et réduisent sensiblement le délai de soumission des offres aux systèmes de négociation."
+    },
+    "MAKE": {
+      "name": "Teneur de marché",
+      "definition": "Agent de liquidité, facilitateur de liquidité, promoteur d'affaires, spécialiste, teneur de marché et fournisseur de liquidité sont quelques-unes des désignations données à ceux qui se proposent de fournir de la liquidité et un prix de référence minimal pour des actifs préalablement accrédités, facteurs mis en évidence dans l'analyse de l'efficience des marchés de capitaux."
+    },
+    "TREA": {
+      "name": "Trésorerie",
+      "definition": "Système de négociation de titres fédéraux sur le marché de détail directement auprès de l'investisseur. L'opération peut être effectuée directement sur Internet."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingFeeRecord1",
+  "definition": "Fournit des précisions sur les frais et commissions.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type des frais ou commissions."
+    },
+    "Description": {
+      "definition": "Précisions complémentaires sur les frais ou commissions"
+    },
+    "Rate": {
+      "definition": "Taux utilisé pour calculer les frais ou commissions."
+    },
+    "Amount": {
+      "definition": "Montant demandé ou payé au titre des frais ou commissions."
+    }
+  }
+}

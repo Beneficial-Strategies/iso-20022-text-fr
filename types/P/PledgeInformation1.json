@@ -1,0 +1,18 @@
+{
+  "isoType": "PledgeInformation1",
+  "definition": "Informations sur le nantissement et le constituant du nantissement.",
+  "isoElements": {
+    "Pledger": {
+      "definition": "Entité qui fournit des actifs à une contrepartie en garantie."
+    },
+    "ThirdParty": {
+      "definition": "Tiers, généralement une banque, intervenant dans le nantissement."
+    },
+    "PledgeType": {
+      "definition": "Identifie le type de nantissement."
+    },
+    "ReturnSecuritiesIndicator": {
+      "definition": "Indique si le constituant du nantissement a droit de vote, à défaut de quoi le droit de vote appartient au titulaire du droit."
+    }
+  }
+}

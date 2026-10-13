@@ -1,0 +1,12 @@
+{
+  "isoType": "PledgeeTypeAndAnyBICIdentifier2",
+  "definition": "Identification de l'entité au profit de laquelle les instruments financiers sont nantis, exprimée sous la forme d'un code et d'un BIC.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification de l'entité au profit de laquelle les instruments financiers sont nantis, exprimée sous la forme d'un BIC."
+    },
+    "PledgeeType": {
+      "definition": "Entité au profit de laquelle les instruments financiers sont nantis, exprimée sous la forme d'un code."
+    }
+  }
+}

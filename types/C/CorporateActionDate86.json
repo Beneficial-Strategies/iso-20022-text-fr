@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDate86",
+  "definition": "Précise les dates d'une opération sur titres.",
+  "isoElements": {
+    "RecordDate": {
+      "definition": "Date/heure à laquelle les positions sont arrêtées en fin de journée afin de déterminer quelles parties recevront le montant de droits correspondant, à distribuer à la date de paiement."
+    },
+    "ExDividendDate": {
+      "definition": "Date/heure à partir de laquelle la négociation (y compris la négociation en bourse et OTC) du titre sous-jacent a lieu sans l'avantage."
+    }
+  }
+}

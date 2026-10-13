@@ -1,0 +1,38 @@
+{
+  "isoType": "LongPaymentIdentification4",
+  "definition": "Identifie une instruction de paiement par un ensemble de caractéristiques qui permet de l'identifier de manière non ambiguë.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identification unique, attribuée par la première banque donneuse d'ordre, permettant d'identifier de manière non ambiguë l'opération qui est transmise, sans modification, tout au long de la chaîne interbancaire.|Utilisation : l'identification de l'opération peut servir au rapprochement, au suivi ou à la liaison de tâches relatives à l'opération au niveau interbancaire. La banque donneuse d'ordre doit s'assurer que l'identification de l'opération est unique pendant une période convenue au préalable.|Utilisation : il s'agit de l'ancien élément PaymentInstructionReference."
+    },
+    "UETR": {
+      "definition": "Identifiant unique universel fournissant une référence de bout en bout d'une opération de paiement."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montant d'argent transféré entre la banque donneuse d'ordre et la banque destinataire de l'instruction."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour la banque qui le doit et à laquelle il devient disponible pour la banque à laquelle il est dû."
+    },
+    "PaymentMethod": {
+      "definition": "Type de message avec lequel l'instruction a été initiée."
+    },
+    "InstructingAgent": {
+      "definition": "Banque qui donne instruction à la partie suivante de la chaîne d'exécuter la ou les instructions."
+    },
+    "InstructedAgent": {
+      "definition": "Banque qui reçoit instruction de la partie précédente de la chaîne d'exécuter la ou les instructions."
+    },
+    "EntryType": {
+      "definition": "Qualificatif facultatif fournissant des informations supplémentaires, propres au système, sur l'écriture."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice, permettant d'identifier l'opération de manière non ambiguë. Cette identification est transmise, sans modification, tout au long de la chaîne de bout en bout.|Utilisation : l'identification de bout en bout peut servir au rapprochement ou à la liaison de tâches relatives à l'opération.|Elle peut figurer dans plusieurs messages relatifs à l'opération.|Utilisation : il s'agit de l'ancien élément RelatedReference."
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresenceRule": {
+      "definition": "TransactionIdentification ou UETR doit être présent. Les deux peuvent être présents."
+    }
+  }
+}

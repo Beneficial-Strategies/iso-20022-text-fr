@@ -1,0 +1,27 @@
+{
+  "isoType": "InterestRecord2",
+  "definition": "Fournit les informations d'intérêt propres à l'opération qui s'appliquent à l'opération sous-jacente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant des intérêts inclus dans le montant de l'écriture."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le montant d'intérêts inclus dans l'écriture est un montant de crédit ou de débit.|Utilisation : un montant nul est considéré comme un crédit."
+    },
+    "Type": {
+      "definition": "Précise le type d'intérêt."
+    },
+    "Rate": {
+      "definition": "Ensemble d'éléments utilisés pour qualifier le taux d'intérêt."
+    },
+    "FromToDate": {
+      "definition": "Période comprise entre une date de début et une date de fin pour le calcul des intérêts."
+    },
+    "Reason": {
+      "definition": "Précise le motif des intérêts."
+    },
+    "Tax": {
+      "definition": "Fournit des détails sur la taxe appliquée aux frais."
+    }
+  }
+}

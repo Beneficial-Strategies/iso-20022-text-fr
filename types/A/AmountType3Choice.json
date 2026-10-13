@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountType3Choice",
+  "definition": "Précise le montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise ordonnée par la partie initiatrice.",
+  "isoElements": {
+    "InstructedAmount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise demandée par la partie initiatrice."
+    },
+    "EquivalentAmount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, exprimé dans la devise du compte du débiteur et dans la devise dans laquelle le montant doit être transféré."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AggregateHoldingBalance3",
+  "definition": "Position globale d'avoir, dans un seul instrument financier, détenue dans un compte-titres auprès d'un lieu de conservation spécifié.",
+  "isoElements": {
+    "BalanceForAccount": {
+      "definition": "Relevé de la position nette d'un instrument financier sur le sous-compte, à une date donnée."
+    },
+    "Agent": {
+      "definition": "Agent de l'instrument financier, par exemple un intermédiaire de négociation."
+    }
+  }
+}

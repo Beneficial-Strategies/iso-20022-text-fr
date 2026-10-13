@@ -1,0 +1,12 @@
+{
+  "isoType": "EnabledStatusReason1Choice",
+  "definition": "Choix de formats pour un motif de statut activé.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Aucun motif n'est disponible ou à signaler pour le statut activé du compte."
+    },
+    "Reason": {
+      "definition": "Motif du statut activé du compte."
+    }
+  }
+}

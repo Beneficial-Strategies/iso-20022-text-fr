@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalQueryParameters14",
+  "definition": "Critères de requête spécifiques supplémentaires.",
+  "isoElements": {
+    "Status": {
+      "definition": "Demande d'obtention d'un rapport des opérations sur titres en attente pour les opérations ayant le statut spécifié."
+    },
+    "Reason": {
+      "definition": "Demande d'obtention d'un rapport des opérations sur titres en attente pour les opérations ayant le motif de statut spécifié."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instruments financiers représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    }
+  }
+}

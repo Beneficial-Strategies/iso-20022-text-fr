@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxableIncomePerShareCalculatedFormat4Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser si le revenu imposable par action ou par dividende est calculé.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant si le fonds calcule le revenu imposable par dividende/revenu imposable par action (TID/TIS)."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire précisant si le fonds calcule le revenu imposable par dividende/revenu imposable par action (TID/TIS)."
+    }
+  }
+}

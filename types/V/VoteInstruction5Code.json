@@ -1,0 +1,50 @@
+{
+  "isoType": "VoteInstruction5Code",
+  "definition": "Précise un type d'instruction de vote pouvant faire partie d'une recommandation de vote.",
+  "isoCodes": {
+    "ABST": {
+      "name": "Abstention",
+      "definition": "Vote actif exprimé comme une abstention (sans opinion)."
+    },
+    "CAGS": {
+      "name": "Contre",
+      "definition": "Vote contre une résolution de l'assemblée."
+    },
+    "CHRM": {
+      "name": "Président",
+      "definition": "Le détenteur de droits donne au président le pouvoir de voter en son nom."
+    },
+    "CFOR": {
+      "name": "Pour",
+      "definition": "Vote en faveur d'une résolution de l'assemblée."
+    },
+    "NOAC": {
+      "name": "Aucune action",
+      "definition": "Ne pas voter."
+    },
+    "WTHH": {
+      "name": "Retenir",
+      "definition": "Un participant à une assemblée retient son vote sur une résolution de l'assemblée. Cette action est généralement entreprise pour indiquer un fort désaccord avec une résolution (marché US)."
+    },
+    "ONEY": {
+      "name": "Un an",
+      "definition": "Vote en faveur pour un an pour une résolution de type « say on pay »."
+    },
+    "THRY": {
+      "name": "Trois ans",
+      "definition": "Vote en faveur pour trois ans pour une résolution de type « say on pay »."
+    },
+    "TWOY": {
+      "name": "Deux ans",
+      "definition": "Vote en faveur pour deux ans pour une résolution de type « say on pay »."
+    },
+    "BLNK": {
+      "name": "Blanc",
+      "definition": "Le vote est exprimé comme vide, mais il est comptabilisé."
+    },
+    "NREC": {
+      "name": "Aucune recommandation",
+      "definition": "Aucune recommandation fournie pour le type d'instruction de vote."
+    }
+  }
+}

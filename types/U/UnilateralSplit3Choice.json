@@ -1,0 +1,12 @@
+{
+  "isoType": "UnilateralSplit3Choice",
+  "definition": "Précise la modification demandée du traitement d'appariement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fractionnement unilatéral exprimé sous forme de code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Fractionnement unilatéral exprimé sous forme de code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DateOrDateTimePeriod1Choice",
+  "definition": "Choix entre un format de date ou un format de date et heure pour une période.",
+  "isoElements": {
+    "Date": {
+      "definition": "Période exprimée en dates."
+    },
+    "DateTime": {
+      "definition": "Période exprimée en dates et heures."
+    }
+  }
+}

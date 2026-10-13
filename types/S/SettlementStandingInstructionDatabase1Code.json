@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementStandingInstructionDatabase1Code",
+  "definition": "Indique la base de données d'instructions permanentes de règlement à utiliser pour déterminer les parties au règlement impliquées dans l'opération.",
+  "isoCodes": {
+    "INTE": {
+      "name": "Base de données interne",
+      "definition": "La base de données d'instructions permanentes de règlement à utiliser est la base de données interne du destinataire."
+    },
+    "BRKR": {
+      "name": "Base de données du courtier",
+      "definition": "La base de données d'instructions permanentes de règlement à utiliser est la base de données du courtier."
+    },
+    "VEND": {
+      "name": "Base de données du fournisseur",
+      "definition": "La base de données d'instructions permanentes de règlement à utiliser est la base de données du fournisseur."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "CashEntitlement1",
+  "definition": "Fournit des informations sur les droits en espèces.",
+  "isoElements": {
+    "CashAmount": {
+      "definition": "Montant en espèces dû."
+    }
+  }
+}

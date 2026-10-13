@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationCompleteReason1Choice",
+  "definition": "Choix de formats pour le motif d'annulation complète.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif d'annulation complète exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif d'annulation complète exprimé sous forme de code propriétaire."
+    }
+  }
+}

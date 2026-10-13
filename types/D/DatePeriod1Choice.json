@@ -1,0 +1,15 @@
+{
+  "isoType": "DatePeriod1Choice",
+  "definition": "Période, sous forme de date, de mois ou de intervalle de dates et heures, pour laquelle le relevé est fourni.",
+  "isoElements": {
+    "Date": {
+      "definition": "Intervalle de temps défini par une date précise."
+    },
+    "DateMonth": {
+      "definition": "Intervalle de temps défini par un mois et une année."
+    },
+    "FromDateToDate": {
+      "definition": "Période définie par une date de début et une date de fin."
+    }
+  }
+}

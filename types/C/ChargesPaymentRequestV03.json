@@ -1,0 +1,27 @@
+{
+  "isoType": "ChargesPaymentRequestV03",
+  "definition": "Le message ChargesPaymentRequest est envoyé par un établissement financier à un autre établissement financier pour demander le paiement de frais, d'intérêts et/ou d'autres dépenses précédemment inconnus du destinataire.",
+  "isoRules": {
+    "ChargesAccountAgentHeaderOrSingle1Rule": {
+      "definition": "Lorsque GroupHeader/ChargesAccountAgent est présent ou que GroupHeader/ChargesAccountAgentAccount est présent, Charges/Single/ChargesAccountAgent doit être absent et Charges/Single/ChargesAccountAgentAccount doit être absent."
+    },
+    "ChargesAccountAgentHeaderOrSingle2Rule": {
+      "definition": "Lorsque Charges/Single/ChargesAccountAgent est présent ou que Charges/Single/ChargesAccountAgentAccount est présent, GroupHeader/ChargesAccountAgent doit être absent et GroupHeader/ChargesAccountAgentAccount doit être absent."
+    },
+    "ChargesAccountAgentHeaderOrTransaction1Rule": {
+      "definition": "Lorsque GroupHeader/ChargesAccountAgent est présent ou que GroupHeader/ChargesAccountAgentAccount est présent, Charges/PerTransaction/ChargesAccountAgent doit être absent, Charges/PerTransaction/ChargesAccountAgentAccount doit être absent, Charges/PerTransaction/Record/ChargesAccountAgent doit être absent et Charges/PerTransaction/Record/ChargesAccountAgentAccount doit être absent."
+    },
+    "ChargesAccountAgentHeaderOrTransaction2Rule": {
+      "definition": "Lorsque Charges/PerTransaction/ChargesAccount est présent ou que Charges/PerTransaction/ChargesAccountOwner est présent ou que Charges/PerTransaction/Record/ChargesAccount est présent ou que Charges/PerTransaction/Record/ChargesAccountOwner est présent, GroupHeader/ChargesAccountAgent doit être absent et GroupHeader/ChargesAccountAgentAccount doit être absent."
+    },
+    "ChargesAccountAgentHeaderOrType1Rule": {
+      "definition": "Lorsque GroupHeader/ChargesAccountAgent est présent ou que GroupHeader/ChargesAccountAgentAccount est présent, Charges/PerType/ChargesAccountAgent doit être absent, Charges/PerType/ChargesAccountAgentAccount doit être absent, Charges/PerType/Record/ChargesAccountAgent doit être absent et Charges/PerType/Record/ChargesAccountAgentAccount doit être absent."
+    },
+    "ChargesAccountAgentHeaderOrType2Rule": {
+      "definition": "Lorsque Charges/PerType/ChargesAccountAgent est présent ou que Charges/PerType/ChargesAccountAgentAccount est présent ou que Charges/PerType/Record/ChargesAccountAgent est présent ou que Charges/PerType/Record/ChargesAccountAgentAccount est présent, GroupHeader/ChargesAccountAgent doit être absent et GroupHeader/ChargesAccountAgentAccount doit être absent."
+    },
+    "ChargesRequestorGroupHeaderRule": {
+      "definition": "Lorsque GroupHeader/ChargesRequestor est présent, Charges/Single/ChargesRequestor doit être absent, Charges/PerTransaction/Record[*]/ChargesRequestor doit être absent et Charges/PerType[*]/Record[*]/ChargesRequestor doit être absent.||Tous peuvent être absents."
+    }
+  }
+}

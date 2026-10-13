@@ -1,0 +1,59 @@
+{
+  "isoType": "AdditionalInformation28",
+  "definition": "Critères de modification spécifiques supplémentaires.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification de l'opération telle que connue du titulaire de compte. Sera utilisée dans un fractionnement unilatéral pour fournir à la partie exécutante l'identification, par le titulaire de compte, de chaque opération fractionnée."
+    },
+    "ClassificationType": {
+      "definition": "Type d'instrument concerné par les opérations auxquelles la demande de modification doit s'appliquer."
+    },
+    "SafekeepingAccount": {
+      "definition": "Compte sur lequel ou à partir duquel une écriture de titres est passée."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Adresse blockchain ou portefeuille dans lequel sont conservés les actifs numériques. Il s'agit de l'équivalent du compte de conservation pour les actifs numériques."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identification de l'instrument financier auquel la demande de modification s'applique."
+    },
+    "Quantity": {
+      "definition": "Quantité d'instruments financiers concernée par la demande de modification des conditions de règlement."
+    },
+    "EffectiveDate": {
+      "definition": "Date/heure à laquelle la demande doit prendre effet."
+    },
+    "ExpiryDate": {
+      "definition": "Date/heure à laquelle la demande doit cesser d'être en vigueur."
+    },
+    "CutOffDate": {
+      "definition": "Date/heure de la libération."
+    },
+    "Investor": {
+      "definition": "Partie, personne physique ou organisation, dont les actifs sont investis."
+    },
+    "DeliveringParty1": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec le dépositaire."
+    },
+    "ReceivingParty1": {
+      "definition": "Partie qui, dans une chaîne de règlement, interagit avec le dépositaire."
+    },
+    "TransactionSubjectToBuyIn": {
+      "definition": "L'opération se rapporte à un rachat forcé (buy-in) par le marché à la suite d'un défaut de livraison."
+    }
+  },
+  "isoRules": {
+    "QuantityRule": {
+      "definition": "Si cela a été convenu au préalable entre le teneur de compte et le titulaire de compte, Quantity sera utilisé pour instruire la quantité de titres qui doit être traitée partiellement, par exemple autorisée partiellement."
+    },
+    "PartyRule": {
+      "definition": "Investor, DeliveringParty1 et ReceivingParty1 ne peuvent pas faire l'objet d'une demande de modification au moyen du SecuritiesSettlementConditionModificationRequest. Ces champs sont mis à disposition dans le SecuritiesSettlementConditionModificationRequest afin de permettre le traitement de la demande vis-à-vis de l'opération dont la modification est demandée."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    }
+  }
+}

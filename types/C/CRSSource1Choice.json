@@ -1,0 +1,12 @@
+{
+  "isoType": "CRSSource1Choice",
+  "definition": "Choix de formats pour la source de la norme commune de déclaration (CRS).",
+  "isoElements": {
+    "Code": {
+      "definition": "Source du statut au regard de la norme commune de déclaration (CRS) exprimée sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Source du statut au regard de la norme commune de déclaration (CRS) exprimée sous forme de code propriétaire."
+    }
+  }
+}

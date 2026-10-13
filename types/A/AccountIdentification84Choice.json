@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification84Choice",
+  "definition": "Choix entre le nom et l'identification d'un compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification de compte de divulgation supplémentaire."
+    },
+    "Name": {
+      "definition": "Nom de compte de divulgation supplémentaire."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "HoldingsPlanType1Code",
+  "definition": "Précise le plan de détention des actifs à transférer.",
+  "isoCodes": {
+    "INVP": {
+      "name": "Plan d'investissement",
+      "definition": "La position à transférer relève d'un plan d'investissement."
+    },
+    "SWIP": {
+      "name": "Plan de basculement",
+      "definition": "La position à transférer relève d'un plan d'arbitrage."
+    },
+    "PLAR": {
+      "name": "Plan de retrait",
+      "definition": "La position à transférer relève d'un plan de retrait."
+    }
+  }
+}

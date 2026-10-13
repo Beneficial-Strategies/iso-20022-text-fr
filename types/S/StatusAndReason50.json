@@ -1,0 +1,23 @@
+{
+  "isoType": "StatusAndReason50",
+  "definition": "Statut et motif d'une opération.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Indique le statut d'une instruction."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Fournit le statut d'appariement d'une instruction tel que connu du teneur de compte sur la base d'une allégation. À ce stade, aucun appariement n'a eu lieu sur le marché (au CSD/ICSD)."
+    },
+    "MatchingStatus": {
+      "definition": "Fournit le statut d'appariement de l'instruction."
+    },
+    "SettlementStatus": {
+      "definition": "Fournit le statut de règlement d'une opération."
+    }
+  },
+  "isoRules": {
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Si le statut/motif de règlement est utilisé seul, cela signifie que l'opération est appariée (si un processus d'appariement existe sur le marché concerné ou auprès du teneur de compte concerné)."
+    }
+  }
+}

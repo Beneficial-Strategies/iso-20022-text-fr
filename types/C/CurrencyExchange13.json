@@ -1,0 +1,18 @@
+{
+  "isoType": "CurrencyExchange13",
+  "definition": "Décrit les détails du change de devises.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Devise à partir de laquelle un montant doit être converti lors d'une conversion de devises."
+    },
+    "TargetCurrency": {
+      "definition": "Devise dans laquelle un montant doit être converti lors d'une conversion de devises."
+    },
+    "ExchangeRate": {
+      "definition": "Facteur utilisé pour convertir un montant d'une devise dans une autre. Il reflète le prix auquel une devise a été achetée avec une autre devise."
+    },
+    "UnitCurrency": {
+      "definition": "Devise dans laquelle le taux de change est exprimé lors d'un change de devises. Dans l'exemple 1GBP = xxxCUR, la devise de référence est GBP."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "isoType": "PaymentTransaction169",
+  "definition": "Fournit des précisions supplémentaires sur les opérations d'origine auxquelles se rapporte le message de rapport de statut.",
+  "isoElements": {
+    "StatusIdentification": {
+      "definition": "Identification unique, attribuée par une partie donneuse d'ordre à une partie destinataire de l'ordre, permettant d'identifier sans ambiguïté le statut rapporté.|Utilisation : la partie donneuse d'ordre est la partie qui envoie le message de statut, et non celle qui a envoyé l'instruction d'origine sur laquelle porte le rapport."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identification unique, attribuée par la partie donneuse d'ordre d'origine à la partie destinataire de l'ordre d'origine, permettant d'identifier sans ambiguïté l'instruction d'origine."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice d'origine, permettant d'identifier sans ambiguïté l'opération d'origine."
+    },
+    "OriginalUETR": {
+      "definition": "Identifiant universellement unique fournissant la référence de bout en bout d'origine d'une opération de paiement."
+    },
+    "TransactionStatus": {
+      "definition": "Précise le statut d'une opération, tel que publié dans une liste externe de codes de statut d'opération de paiement."
+    },
+    "StatusReasonInformation": {
+      "definition": "Fournit des informations détaillées sur le motif du statut."
+    },
+    "PaymentConditionStatus": {
+      "definition": "Statut relatif aux conditions demandées pour l'exécution du paiement."
+    },
+    "ChargesInformation": {
+      "definition": "Fournit des informations sur les frais liés au traitement du rejet de l'instruction.|Utilisation : ces informations sont transmises à titre informatif uniquement. Le règlement des frais sera effectué séparément."
+    },
+    "DebtorDecisionDateTime": {
+      "definition": "Date et heure auxquelles le débiteur a accepté ou rejeté la demande."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Moment où l'ordre de paiement de la partie initiatrice satisfait aux conditions de traitement de la banque teneuse de compte. Cela signifie que la banque teneuse de compte a reçu l'ordre de paiement et a appliqué des contrôles tels que l'autorisation et la disponibilité des fonds."
+    },
+    "AccountServicerReference": {
+      "definition": "Référence unique, attribuée par l'établissement teneur de compte, permettant d'identifier sans ambiguïté l'instruction."
+    },
+    "ClearingSystemReference": {
+      "definition": "Référence unique, attribuée par un système de compensation, permettant d'identifier sans ambiguïté l'instruction."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Éléments clés servant à identifier l'opération d'origine à laquelle il est fait référence."
+    },
+    "EnclosedFile": {
+      "definition": "Document ou modèle joint à la notification.||Utilisation : l'utilisation de l'élément EnclosedFile doit faire l'objet d'un accord bilatéral."
+    },
+    "SupplementaryData": {
+      "definition": "Informations supplémentaires qui ne peuvent pas être saisies dans les éléments structurés et/ou dans un autre bloc spécifique."
+    }
+  }
+}

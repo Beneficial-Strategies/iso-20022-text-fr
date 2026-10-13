@@ -1,0 +1,32 @@
+{
+  "isoType": "StatusAndReason52",
+  "definition": "Choix de statut.",
+  "isoElements": {
+    "InferredMatchingStatus": {
+      "definition": "Fournit le statut d'appariement d'une instruction tel que connu du teneur de compte sur la base d'une allégation. À ce stade, aucun appariement n'a eu lieu sur le marché (au CSD/ICSD)."
+    },
+    "MatchingStatus": {
+      "definition": "Fournit le statut d'appariement de l'instruction."
+    },
+    "SettlementStatus": {
+      "definition": "Fournit le statut de règlement d'une opération."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Indique le statut d'une instruction."
+    },
+    "Settled": {
+      "definition": "Précise l'état ou la condition."
+    },
+    "Proprietary": {
+      "definition": "Statut propriétaire."
+    }
+  },
+  "isoRules": {
+    "PendingToFailingRule": {
+      "definition": "Une opération en attente (PEND) devient une opération en défaut (PENF) à la date de règlement instruite dans le message, lors du reporting de fin de journée."
+    },
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Si SettlementStatus/Reason est utilisé seul, cela signifie que l'opération est appariée (si un processus d'appariement existe sur le marché concerné ou auprès du teneur de compte concerné)."
+    }
+  }
+}

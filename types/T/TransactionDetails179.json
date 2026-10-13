@@ -1,0 +1,33 @@
+{
+  "isoType": "TransactionDetails179",
+  "definition": "Identifie le détail de l'opération.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instruments financiers représentant un ensemble de droits de l'investisseur vis-à-vis de l'émetteur."
+    },
+    "TradeDate": {
+      "definition": "Précise la date/l'heure d'exécution de la transaction."
+    },
+    "SettlementDate": {
+      "definition": "Date et heure auxquelles les titres doivent être livrés ou reçus."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantité totale de titres à régler."
+    },
+    "SettlementAmount": {
+      "definition": "Montant total à payer ou à recevoir en échange des titres."
+    },
+    "DigitalPaymentSettlement": {
+      "definition": "Montant d'actif numérique à comptabiliser (ou comptabilisé) sur le compte comme moyen de paiement."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifie la chaîne des parties livreuses au règlement."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifie la chaîne des parties réceptrices au règlement."
+    },
+    "Investor": {
+      "definition": "Partie, personne physique ou organisation, dont les actifs sont investis."
+    }
+  }
+}

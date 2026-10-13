@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceQuantity13Choice",
+  "definition": "Choix entre des formats de quantité pour les informations de solde.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantité totale d'instruments financiers du solde."
+    },
+    "Proprietary": {
+      "definition": "Quantité totale d'instruments financiers du solde."
+    }
+  }
+}

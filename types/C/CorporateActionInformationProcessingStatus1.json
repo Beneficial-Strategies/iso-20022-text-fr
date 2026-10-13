@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInformationProcessingStatus1",
+  "definition": "Fournit les informations sur le statut de traitement d'un avis d'information.",
+  "isoElements": {
+    "Status": {
+      "definition": "Le statut de traitement."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

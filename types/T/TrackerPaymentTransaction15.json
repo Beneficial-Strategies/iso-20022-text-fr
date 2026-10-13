@@ -1,0 +1,204 @@
+{
+  "isoType": "TrackerPaymentTransaction15",
+  "definition": "Éléments clés utilisés pour identifier la ou les opérations initiales auxquelles il est fait référence.",
+  "isoElements": {
+    "TrackedMessageIdentification": {
+      "definition": "Fournit des informations sur le message suivi initial qui contenait l'opération."
+    },
+    "TrackerInformingParty": {
+      "definition": "Partie qui fournit des informations sur le statut et les détails associés d'une opération."
+    },
+    "TrackerInformedParty": {
+      "definition": "Partie qui est informée du statut et des détails associés d'une opération."
+    },
+    "TechnicalSender": {
+      "definition": "La partie indiquée comme expéditeur dans l'en-tête technique d'un message de paiement ISO."
+    },
+    "TechnicalReceiver": {
+      "definition": "La partie indiquée comme destinataire dans l'en-tête technique d'un message de paiement ISO."
+    },
+    "PaymentIdentification": {
+      "definition": "Ensemble d'éléments servant à référencer une instruction de paiement."
+    },
+    "RelatedPaymentIdentification": {
+      "definition": "Ensemble d'éléments identifiant les opérations associées à l'instruction de paiement."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identification unique, attribuée par la partie donneuse d'ordre d'origine à la partie destinataire de l'ordre d'origine, permettant d'identifier sans ambiguïté l'instruction d'origine."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice d'origine, permettant d'identifier sans ambiguïté l'opération d'origine."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments servant à préciser davantage le type d'opération."
+    },
+    "PaymentScenario": {
+      "definition": "Précise les scénarios commerciaux dans lesquels le paiement est exécuté, tels que le virement client ou le paiement de couverture."
+    },
+    "SettlementInformation": {
+      "definition": "Précise les détails de la manière dont le règlement de la ou des opérations entre la banque donneuse d'ordre et la banque destinataire de l'ordre est effectué."
+    },
+    "InstructingAgent": {
+      "definition": "Agent qui charge la partie suivante de la chaîne d'exécuter la ou les instructions."
+    },
+    "InstructedAgent": {
+      "definition": "Agent chargé par la partie précédente de la chaîne d'exécuter la ou les instructions."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montant transféré entre la banque donneuse d'ordre et la banque destinataire de l'ordre."
+    },
+    "ReturnedInterbankSettlementAmount": {
+      "definition": "Montant d'argent à transférer entre l'agent instructeur et l'agent instruit dans l'instruction retournée."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour la banque qui le doit et devient disponible pour la banque à laquelle il est dû."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Date à laquelle la partie initiatrice demande à la banque de compensation de traiter le paiement. |Utilisation : il s'agit de la date à laquelle le compte du débiteur doit être débité. En cas de paiement par chèque, il s'agit de la date à laquelle le chèque doit être émis par la banque."
+    },
+    "SettlementPriority": {
+      "definition": "Indicateur de l'urgence ou de l'ordre d'importance que la partie donneuse d'ordre souhaite voir appliqué par la partie destinataire de l'ordre au traitement de l'instruction de règlement."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Fournit des informations sur le ou les horaires de règlement effectifs de l'opération de paiement."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Fournit des informations sur le ou les horaires de règlement demandés pour l'instruction de paiement."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Moment où l'ordre de paiement de la partie initiatrice satisfait aux conditions de traitement de la banque teneuse de compte. Cela signifie que la banque teneuse de compte a reçu l'ordre de paiement et a appliqué des contrôles tels que l'autorisation et la disponibilité des fonds."
+    },
+    "PoolingAdjustmentDate": {
+      "definition": "Date utilisée pour la correction de la date de valeur d'un mouvement de cash pooling qui a été comptabilisé avec une date de valeur différente."
+    },
+    "InstructedAmount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise demandée par la partie initiatrice.|Utilisation : ce montant doit être transporté sans modification tout au long de la chaîne d'opérations."
+    },
+    "EquivalentAmount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, exprimé dans la devise du compte du débiteur et dans la devise dans laquelle le montant doit être transféré."
+    },
+    "ReturnedInstructedAmount": {
+      "definition": "Montant d'argent à transférer entre le débiteur et le créancier, avant déduction des frais, dans l'opération retournée.|Utilisation : ce montant doit être transmis sans modification tout au long de la chaîne d'opérations."
+    },
+    "ExchangeRateData": {
+      "definition": "Fournit des détails sur le taux et les devises utilisés dans l'opération de change."
+    },
+    "ForeignExchangeAgent": {
+      "definition": "Banque qui a effectué l'opération de change."
+    },
+    "ChargeBearer": {
+      "definition": "Précise quelle(s) partie(s) supportera(ont) les frais associés au traitement de l'opération de paiement."
+    },
+    "ChargesInformation": {
+      "definition": "Fournit des informations sur les frais à payer par la ou les parties supportant les frais relatifs à l'opération de paiement."
+    },
+    "TrackerRecord": {
+      "definition": "Fournit les informations de suivi de l'opération pour une banque donnée impliquée dans la chaîne de l'opération."
+    },
+    "TrackerData": {
+      "definition": "Fournit des informations sur le suivi de l'opération interbancaire liée au paiement."
+    },
+    "DebitConfirmationURLAddress": {
+      "definition": "Adresse du localisateur uniforme de ressources (URL), par exemple une adresse utilisée sur le service www (HTTP) qui confirme qu'un paiement a débité un compte."
+    },
+    "PreviousInstructingAgent1": {
+      "definition": "Banque immédiatement antérieure à la banque donneuse d'ordre."
+    },
+    "PreviousInstructingAgent1Account": {
+      "definition": "Identification sans ambiguïté du compte de l'agent instructeur précédent auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "PreviousInstructingAgent2": {
+      "definition": "Banque immédiatement antérieure à la banque donneuse d'ordre."
+    },
+    "PreviousInstructingAgent2Account": {
+      "definition": "Identification sans ambiguïté du compte de l'agent instructeur précédent auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "PreviousInstructingAgent3": {
+      "definition": "Banque immédiatement antérieure à la banque donneuse d'ordre."
+    },
+    "PreviousInstructingAgent3Account": {
+      "definition": "Identification sans ambiguïté du compte de l'agent instructeur précédent auprès de son agent gestionnaire dans la chaîne de paiement."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si plusieurs banques intermédiaires sont présentes, IntermediaryAgent1 identifie l'agent situé entre DebtorAgent et IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 1 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si plus de deux banques intermédiaires sont présentes, IntermediaryAgent2 identifie l'agent situé entre IntermediaryAgent1 et IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 2 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Agent situé entre la banque du débiteur et la banque du créancier.||Utilisation : si IntermediaryAgent3 est présent, il identifie l'agent situé entre IntermediaryAgent 2 et CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Identification non ambiguë du compte de la banque intermédiaire 3 auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit un montant au créancier (final)."
+    },
+    "InitiatingParty": {
+      "definition": "Partie qui initie le paiement.|Utilisation : il peut s'agir du débiteur ou d'une partie qui initie le virement pour le compte du débiteur."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit un montant au créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture au débit sera passée à la suite de l'opération."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du débiteur auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du créancier auprès de son agent teneur de compte, sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant est dû."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement, fournies par la partie initiatrice et destinées à la banque du créancier."
+    },
+    "InstructionForNextAgent": {
+      "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement, auxquelles l'agent suivant peut devoir donner suite. ||Utilisation : l'agent suivant n'est pas nécessairement la banque du créancier.|L'instruction peut porter sur un niveau de service, peut être une instruction que l'agent doit exécuter, ou peut être une information requise par l'agent suivant."
+    },
+    "Purpose": {
+      "definition": "Motif sous-jacent de l'opération de paiement.|Utilisation : le motif est utilisé par les clients finaux, c'est-à-dire la partie initiatrice, le débiteur (final) et le créancier (final), pour fournir des informations concernant la nature du paiement. Le motif est un élément de contenu qui n'est utilisé pour le traitement par aucun des agents intervenant dans la chaîne de paiement."
+    },
+    "RegulatoryReporting": {
+      "definition": "Informations requises en raison d'exigences réglementaires et légales."
+    },
+    "Tax": {
+      "definition": "Fournit des informations sur la taxe."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fournit des informations relatives au traitement des informations de remise par l'un des agents de la chaîne de traitement de l'opération."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le virement est destiné à régler, tels que des factures commerciales dans un système de comptes clients."
+    },
+    "RejectReturnReason": {
+      "definition": "Fournit des informations détaillées sur le motif du retour."
+    },
+    "ReturnChain": {
+      "definition": "Fournit toutes les parties (agents et non-agents) impliquées dans une opération de retour."
+    },
+    "UnderlyingCustomerCreditTransfer": {
+      "definition": "Fournit des informations sur le virement de client sous-jacent pour lequel la couverture est fournie."
+    }
+  }
+}

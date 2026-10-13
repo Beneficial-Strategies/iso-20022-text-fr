@@ -1,0 +1,15 @@
+{
+  "isoType": "RatioFormat23Choice",
+  "definition": "Choix du format pour exprimer un ratio.",
+  "isoElements": {
+    "QuantityToQuantity": {
+      "definition": "Rapport exprimé sous forme de quotient de quantités."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valeur du ratio non précisée."
+    },
+    "AmountToAmount": {
+      "definition": "Ratio exprimé sous forme de quotient de montants."
+    }
+  }
+}

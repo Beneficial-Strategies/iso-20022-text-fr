@@ -1,0 +1,110 @@
+{
+  "isoType": "FinancialInstrument108",
+  "definition": "Identification d’un titre ou d’un autre actif.",
+  "isoElements": {
+    "LineIdentification": {
+      "definition": "Identification de la ligne de position du portefeuille."
+    },
+    "Instrument": {
+      "definition": "Identification de l'actif."
+    },
+    "Quantity": {
+      "definition": "Quantité d’actifs à transférer."
+    },
+    "PartialInstructedQuantity": {
+      "definition": "Indique que la quantité d’actifs à transférer est une quantité partiellement instruite."
+    },
+    "TransferType": {
+      "definition": "Précise la manière dont l’instrument financier est transféré."
+    },
+    "AdditionalAsset": {
+      "definition": "Indique que l’actif est un nouvel actif, non identifié précédemment par le cédant (partie cédante) lors du processus de découverte des avoirs du compte."
+    },
+    "NotAvailable": {
+      "definition": "Indique que l’actif n’est plus disponible auprès de la partie cédante."
+    },
+    "Conversion": {
+      "definition": "Le titre doit être converti en un autre titre avant le transfert."
+    },
+    "UnitsDetails": {
+      "definition": "Ventilation des parts."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë du transfert par l'investisseur. Cette référence peut généralement être utilisée dans un scénario de plateforme centrale (hub) pour fournir la référence du transfert telle qu'attribuée par le client sous-jacent."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë du transfert attribuée par la contrepartie."
+    },
+    "BusinessFlowType": {
+      "definition": "Processus métier dans lequel les acteurs sont impliqués. Cela permettra de déclencher le processus métier approprié, selon le modèle économique du marché, qui peut exiger un rapprochement des instructions (processus à double volet) ou non (processus à volet unique)."
+    },
+    "AverageAcquisitionPrice": {
+      "definition": "Coût moyen par action du titre, frais compris."
+    },
+    "TransferCurrency": {
+      "definition": "Devise à utiliser pour transférer les positions. Certains agents de transfert enregistrent les positions regroupées par devise en plus d'utiliser l'ISIN pour les parts de fonds multidevises."
+    },
+    "TotalBookValue": {
+      "definition": "Actif net au bilan, soit la valeur totale du portefeuille diminuée ou augmentée du gain ou de la perte latent(e)."
+    },
+    "TransfereeAccount": {
+      "definition": "Compte détenu au nom de la partie qui n’est pas le nom du propriétaire effectif des actions.|(Partie et compte sur lesquels le cessionnaire reçoit l’instrument financier du cédant.)"
+    },
+    "Transferor": {
+      "definition": "Partie et compte à partir desquels le cédant livre l’instrument financier au cessionnaire."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identification d'une partie liée ou d'un intermédiaire."
+    },
+    "RequestedTransferDate": {
+      "definition": "Date pour laquelle la partie instructrice demande le transfert."
+    },
+    "RequestedTradeDate": {
+      "definition": "Date à utiliser comme date de négociation lorsque les titres sont réglés par l'intermédiaire d'un dépositaire central international de titres (ICSD) ou d'un dépositaire central de titres (CSD)."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Date à laquelle les titres doivent être échangés auprès du dépositaire central international de titres (ICSD) ou du dépositaire central de titres (CSD)."
+    },
+    "PaymentDetails": {
+      "definition": "Processus de paiement pour le transfert d’espèces du débiteur au créancier."
+    },
+    "CrystallisationDetails": {
+      "definition": "Nombre de parts qui ont été reçues (cristallisées) ou non encore reçues (non cristallisées) du fonds. Cela concerne généralement un fonds de pension."
+    },
+    "TaxValuationPoint": {
+      "definition": "Date ou trimestre fiscal utilisé pour le calcul de l’impôt sur l’actif."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Chaîne de parties impliquées dans le règlement d'une transaction."
+    },
+    "AssetsHeldInOwnName": {
+      "definition": "Indique si les actifs sont détenus au nom propre d’une personne physique."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "definition": "Indique si le transfert entraîne un changement de bénéficiaire effectif."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur l'instrument financier."
+    }
+  },
+  "isoRules": {
+    "AssetQuantity1Guideline": {
+      "definition": "Si Instrument/Security est présent et Quantity est présent, alors Quantity/Unit ou Quantity/PercentageRate ou Quantity/FaceAmount ou Quantity/AmortisedValue doit être présent."
+    },
+    "AssetQuantity2Guideline": {
+      "definition": "Si Instrument/CashAsset est présent et Quantity est présent, alors Quantity/CashAmount ou Quantity/Percentage doit être présent."
+    },
+    "Conversion1Rule": {
+      "definition": "Si TransferType/Code/CONV (Conversion) est présent, alors Conversion doit être présent."
+    },
+    "Conversion2Rule": {
+      "definition": "Si TransferType/Code/CONV (Conversion) n’est pas présent, alors Conversion n’est pas autorisé."
+    },
+    "AssetLiquidatedCurrencyGuideline": {
+      "definition": "Lorsqu’un titre doit être liquidé et transféré sous forme d’espèces (TransferType est CASH), la devise des espèces obtenues est indiquée dans TransferCurrency."
+    },
+    "PartialInstructedQuantityRule": {
+      "definition": "Si la valeur de PartialInstructedQuantity est 'true' ou '1' (Oui), alors Quantity doit être présent.|Si la valeur de PartialInstructedQuantity est 'false' ou '0' (Non), alors Quantity peut être présent."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "LinkedMessage5Choice",
+  "definition": "Référence à un message.",
+  "isoElements": {
+    "PreviousReference": {
+      "definition": "Référence à un message lié précédemment envoyé."
+    },
+    "OtherReference": {
+      "definition": "Référence à un message lié envoyé de manière propriétaire ou référence d'un système."
+    }
+  },
+  "isoRules": {
+    "PreviousReferenceGuideline": {
+      "definition": "Si PreviousReference/MessageName est présent, il doit commencer par acmt.001 ou acmt.003 et PreviousReference/Reference doit contenir la référence métier d'un message."
+    },
+    "OtherReferenceGuideline": {
+      "definition": "OtherReference devrait être utilisé pour une instruction d'ouverture ou de modification de compte envoyée de manière propriétaire ou pour des références système. |Si OtherReference est présent, OtherReference/MessageName doit contenir, par exemple, 'fax' ou 'phone' ou 'email'."
+    }
+  }
+}

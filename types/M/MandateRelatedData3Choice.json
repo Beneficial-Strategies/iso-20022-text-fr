@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateRelatedData3Choice",
+  "definition": "Choix d'informations relatives au mandat.",
+  "isoElements": {
+    "DirectDebitMandate": {
+      "definition": "Données propres au mandat de prélèvement."
+    },
+    "CreditTransferMandate": {
+      "definition": "Données propres au mandat de virement."
+    }
+  }
+}

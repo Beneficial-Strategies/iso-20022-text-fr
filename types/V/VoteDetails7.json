@@ -1,0 +1,15 @@
+{
+  "isoType": "VoteDetails7",
+  "definition": "Instruction de vote pour une résolution de l'ordre du jour ou de l'assemblée.",
+  "isoElements": {
+    "VoteInstructionForAgendaResolution": {
+      "definition": "Instructions de vote pour les résolutions annoncées à l'avance dans l'ordre du jour de l'assemblée."
+    },
+    "VoteInstructionForMeetingResolution": {
+      "definition": "Instructions de vote pour les résolutions pouvant survenir ou être modifiées lors de l'assemblée mais qui n'étaient pas prévues dans l'ordre du jour."
+    },
+    "InvestorTypeIdentification": {
+      "definition": "Types d'investisseurs pouvant ou non participer à l'événement."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxAuthorisation1",
+  "definition": "Détails sur la partie autorisée à acquitter l'impôt.",
+  "isoElements": {
+    "Title": {
+      "definition": "Titre ou fonction du débiteur ou de son représentant autorisé."
+    },
+    "Name": {
+      "definition": "Nom du débiteur ou de son représentant autorisé."
+    }
+  }
+}

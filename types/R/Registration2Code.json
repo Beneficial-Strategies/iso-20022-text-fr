@@ -1,0 +1,22 @@
+{
+  "isoType": "Registration2Code",
+  "definition": "Indique si l'inscription doit avoir lieu à la réception.",
+  "isoCodes": {
+    "PTYH": {
+      "name": "Blocage par la partie",
+      "definition": "Vous ou votre partie avez placé l'instruction en mode suspendu/gelé/préavis."
+    },
+    "CSDH": {
+      "name": "Blocage CSD",
+      "definition": "Le dépositaire central de titres place l'instruction en mode suspendu/gelé/préavis."
+    },
+    "CDEL": {
+      "name": "Livraison conditionnelle",
+      "definition": "L'instruction est en mode suspendu/gelé/préavis car elle remplit des règles prédéfinies de livraison conditionnelle de la plateforme de l'infrastructure de marché pour la livraison conditionnelle."
+    },
+    "CVAL": {
+      "name": "Validation CSD",
+      "definition": "L'instruction est en mode suspendu/gelé/préavis car elle remplit des conditions prédéfinies d'un type de traitement de restriction de la plateforme de l'infrastructure de marché."
+    }
+  }
+}

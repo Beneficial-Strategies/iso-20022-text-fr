@@ -1,0 +1,27 @@
+{
+  "isoType": "ModificationProcessingStatus12Choice",
+  "definition": "Choix du format du statut de traitement.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "L'instruction a été acquittée par la banque teneur de compte."
+    },
+    "PendingProcessing": {
+      "definition": "La modification est en attente de traitement."
+    },
+    "Denied": {
+      "definition": "La demande de modification ne sera pas exécutée."
+    },
+    "Rejected": {
+      "definition": "La demande de modification a été rejetée pour la suite du traitement."
+    },
+    "Repaired": {
+      "definition": "La demande de modification est acceptée mais en réparation."
+    },
+    "Modified": {
+      "definition": "L'instruction a été modifiée."
+    },
+    "Proprietary": {
+      "definition": "Statut propriétaire."
+    }
+  }
+}

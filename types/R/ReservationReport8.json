@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationReport8",
+  "definition": "Fournit un rapport soit sur la réservation, soit sur une erreur métier.",
+  "isoElements": {
+    "ReservationIdentification": {
+      "definition": "Identification de la réservation sur laquelle des informations sont demandées."
+    },
+    "ReservationOrError": {
+      "definition": "Informations demandées sur la limite."
+    }
+  }
+}

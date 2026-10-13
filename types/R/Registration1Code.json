@@ -1,0 +1,14 @@
+{
+  "isoType": "Registration1Code",
+  "definition": "Indique si l'inscription doit avoir lieu à la réception.",
+  "isoCodes": {
+    "NREG": {
+      "name": "Nom de rue",
+      "definition": "Conserver les titres au nom du courtier (street name). Si une instruction permanente d'inscription à la réception est en place, cette instruction permanente doit être ignorée."
+    },
+    "YREG": {
+      "name": "Nominatif",
+      "definition": "Inscrire à la réception. Si une instruction permanente de conservation des titres au nom du courtier (street name) est en place, cette instruction permanente doit être ignorée."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "RemittanceLocationData2",
+  "definition": "Fournit des détails supplémentaires sur l'avis de remise.",
+  "isoElements": {
+    "Method": {
+      "definition": "Mode utilisé pour transmettre les informations de l'avis de remise."
+    },
+    "ElectronicAddress": {
+      "definition": "Adresse électronique à laquelle une banque doit envoyer les informations de remise."
+    },
+    "PostalAddress": {
+      "definition": "Adresse postale à laquelle une banque doit envoyer les informations de remise."
+    }
+  }
+}

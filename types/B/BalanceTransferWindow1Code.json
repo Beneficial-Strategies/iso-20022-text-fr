@@ -1,0 +1,14 @@
+{
+  "isoType": "BalanceTransferWindow1Code",
+  "definition": "Précise la fenêtre de traitement dans laquelle le transfert de solde sera traité à la date de changement.",
+  "isoCodes": {
+    "DAYH": {
+      "name": "Pendant les heures d'ouverture",
+      "definition": "Indique un traitement pendant les heures ouvrables."
+    },
+    "EARL": {
+      "name": "Hors des heures d'ouverture",
+      "definition": "Indique un traitement en dehors des heures ouvrables."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CashSettlementSystem3Code",
+  "definition": "Indique le système de règlement en numéraire utilisé.",
+  "isoCodes": {
+    "DCSS": {
+      "name": "Système de règlement en espèces numériques",
+      "definition": "Système de règlement en numéraire numérique utilisé pour le paiement."
+    },
+    "GROS": {
+      "name": "Système de règlement brut",
+      "definition": "Régler les fonds par l'intermédiaire d'un système de règlement brut."
+    },
+    "NETS": {
+      "name": "Système de règlement net",
+      "definition": "Régler les fonds par l'intermédiaire d'un système de règlement net."
+    }
+  }
+}

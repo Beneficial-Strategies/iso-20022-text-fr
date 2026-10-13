@@ -1,0 +1,22 @@
+{
+  "isoType": "NonEligibleProceedsIndicator2Code",
+  "definition": "Précise les informations relatives à la non-éligibilité des ressources résultantes.",
+  "isoCodes": {
+    "NELC": {
+      "name": "Devise non éligible",
+      "definition": "Devise non éligible au règlement dans le Central Securities Depository (CSD)."
+    },
+    "ACLI": {
+      "name": "Limitation du compte",
+      "definition": "Limitation du compte du participant."
+    },
+    "ONEL": {
+      "name": "Autre non-éligibilité",
+      "definition": "Autre source de non-éligibilité."
+    },
+    "NELS": {
+      "name": "Titre non éligible",
+      "definition": "Titre non éligible dans le Central Securities Depository (CSD)."
+    }
+  }
+}

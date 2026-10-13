@@ -1,0 +1,15 @@
+{
+  "isoType": "InstructionStatus14Choice",
+  "definition": "Statut s'appliquant globalement à l'instruction reçue.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Statut informant du traitement de l'instruction."
+    },
+    "Rejected": {
+      "definition": "Statut informant du rejet de l'instruction et du motif du rejet."
+    },
+    "Pending": {
+      "definition": "Statut informant que l'instruction est en attente et du motif de cette mise en attente."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestorCapacity5Choice",
+  "definition": "Choix du format de la qualité d'investisseur.",
+  "isoElements": {
+    "Code": {
+      "definition": "Qualité d'investisseur exprimée sous forme de code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Qualité d'investisseur exprimée sous forme de code propriétaire."
+    }
+  }
+}

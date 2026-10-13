@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionAmounts80",
+  "definition": "Précise les montants dans le cadre d'un événement d'opération sur titres.",
+  "isoElements": {
+    "RefundedAmount": {
+      "definition": "Pour les événements de préfinancement partiel, montant que l'émetteur rembourse à une date d'échéance antérieure, qui est garanti et déposé sous séquestre."
+    },
+    "NonRefundedAmount": {
+      "definition": "Pour les événements de préfinancement partiel, montant restant qui conservera la même date d'échéance."
+    },
+    "DepositoryCalledAmount": {
+      "definition": "Indique la part du montant du rappel qui est détenue auprès du dépositaire. Cela peut inclure la position détenue sous forme de certificats auprès du dépositaire, plus le solde détenu auprès de l'agent de remboursement. Pour les émissions nominatives, cela n'inclut que la part des certificats détenus auprès du dépositaire sous forme nominative ou au porteur."
+    }
+  }
+}

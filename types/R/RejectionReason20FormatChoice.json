@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason20FormatChoice",
+  "definition": "Choix de formats pour exprimer le motif du rejet de la demande d'instruction permanente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le motif du rejet de la demande d'instruction permanente."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire exprimant le motif du rejet de la demande d'instruction permanente."
+    }
+  }
+}

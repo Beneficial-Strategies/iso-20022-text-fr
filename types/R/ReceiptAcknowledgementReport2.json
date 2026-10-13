@@ -1,0 +1,12 @@
+{
+  "isoType": "ReceiptAcknowledgementReport2",
+  "definition": "Fournit des détails sur la demande initiale. Identifie le message accusé et son statut.",
+  "isoElements": {
+    "RelatedReference": {
+      "definition": "Référence de la demande."
+    },
+    "RequestHandling": {
+      "definition": "Indique le statut de la demande."
+    }
+  }
+}

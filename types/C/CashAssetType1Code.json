@@ -1,0 +1,14 @@
+{
+  "isoType": "CashAssetType1Code",
+  "definition": "Indique l'origine de l'actif de trésorerie.",
+  "isoCodes": {
+    "CSH2": {
+      "name": "Espèces détenues",
+      "definition": "Les liquidités sont des espèces détenues dans la position, non encore investies."
+    },
+    "CSH1": {
+      "name": "Placement en espèces",
+      "definition": "Les liquidités sont attribuées à un placement de trésorerie."
+    }
+  }
+}

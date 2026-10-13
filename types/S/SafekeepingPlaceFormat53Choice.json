@@ -1,0 +1,21 @@
+{
+  "isoType": "SafekeepingPlaceFormat53Choice",
+  "definition": "Choix entre des formats pour le lieu de conservation.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Lieu de conservation exprimé sous la forme d'un code et d'une description narrative."
+    },
+    "Country": {
+      "definition": "Lieu de conservation exprimé au moyen d'un code pays."
+    },
+    "DigitalLedgerIdentification": {
+      "definition": "Lieu de règlement exprimé au moyen d'un identifiant de registre numérique (Digital Ledger Identifier). Il identifie un registre numérique ou un système de registre distribué (par exemple, une blockchain ou des plateformes similaires)."
+    },
+    "TypeAndIdentification": {
+      "definition": "Lieu de conservation exprimé au moyen d'un type et d'une identification."
+    },
+    "Proprietary": {
+      "definition": "Lieu de conservation exprimé au moyen d'un schéma d'identification propriétaire."
+    }
+  }
+}

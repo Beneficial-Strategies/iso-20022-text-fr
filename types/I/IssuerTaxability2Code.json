@@ -1,0 +1,10 @@
+{
+  "isoType": "IssuerTaxability2Code",
+  "definition": "Précise si le produit de l'opération sur titres est imposable au niveau de l'émetteur.",
+  "isoCodes": {
+    "TXBL": {
+      "name": "Imposable",
+      "definition": "Le produit concerné est imposable."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Channel2Choice",
+  "definition": "Précise un type de canal.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise un canal au moyen d'un code."
+    },
+    "Proprietary": {
+      "definition": "Précise un canal au moyen d'un texte."
+    }
+  }
+}

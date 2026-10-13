@@ -1,0 +1,21 @@
+{
+  "isoType": "CurrencyExchange20",
+  "definition": "Informations nécessaires pour traiter un change ou une conversion de devise.",
+  "isoElements": {
+    "ExchangeRate": {
+      "definition": "Valeur d'une devise exprimée par rapport à une autre devise. ExchangeRate exprime le rapport entre UnitCurrency et QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "QuotedCurrency": {
+      "definition": "Devise dans laquelle la devise de base est convertie, dans un change."
+    },
+    "QuotationDate": {
+      "definition": "Date et heure auxquelles un taux de change est coté."
+    },
+    "LowLimit": {
+      "definition": "Limite inférieure définie pour le taux de change.||Utilisation : l'autorité monétaire publie le taux de change sur la base du prix formé sur le marché des changes, en le laissant flotter à la hausse comme à la baisse dans la fourchette de fluctuation prescrite. Il s'agit du taux de change le plus bas admis dans les opérations sur le marché des changes."
+    },
+    "HighLimit": {
+      "definition": "Limite supérieure définie pour le taux de change.||Utilisation : l'autorité monétaire publie le taux de change sur la base du prix formé sur le marché des changes, en le laissant flotter à la hausse comme à la baisse dans la fourchette de fluctuation prescrite. Il s'agit du taux de change le plus élevé admis dans les opérations sur le marché des changes."
+    }
+  }
+}

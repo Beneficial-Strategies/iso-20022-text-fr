@@ -1,0 +1,26 @@
+{
+  "isoType": "OtherParties34",
+  "definition": "Identification d'autres parties.",
+  "isoElements": {
+    "Investor": {
+      "definition": "Partie, personne physique ou organisation, dont les actifs sont investis."
+    },
+    "QualifiedForeignIntermediary": {
+      "definition": "Établissement financier étranger autorisé par les autorités locales à agir en tant qu'établissement de gestion de comptes dans le pays."
+    },
+    "StockExchange": {
+      "definition": "Identification de la bourse auprès de laquelle la déclaration des opérations sera effectuée."
+    },
+    "TradeRegulator": {
+      "definition": "Établissement auprès duquel une transaction doit être déclarée."
+    },
+    "TripartyAgent": {
+      "definition": "Partie responsable de l'administration d'une opération de garantie tripartite, y compris l'allocation des garanties, la valorisation au prix du marché et la substitution des garanties."
+    }
+  },
+  "isoRules": {
+    "InvestorCountryCodeRule": {
+      "definition": "Si Investor est utilisé avec un code pays, le code pays précise la nationalité de l'investisseur, par exemple pour le règlement de certains titres (c'est-à-dire compagnies aériennes, fabricants d'armement) en vertu de la législation de l'EU."
+    }
+  }
+}

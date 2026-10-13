@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionSubStatus1Code",
+  "definition": "Précise le sous-statut d'une résolution.",
+  "isoCodes": {
+    "AMDR": {
+      "name": "Résolution modifiée",
+      "definition": "La résolution votée lors de la réunion a été modifiée."
+    },
+    "NEWR": {
+      "name": "Nouvelle résolution",
+      "definition": "La résolution votée lors de la réunion est nouvelle."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "UserInterface5Code",
+  "definition": "Destination du message.",
+  "isoCodes": {
+    "CDSP": {
+      "name": "Affichage porteur de carte",
+      "definition": "Affichage ou interface du titulaire de la carte."
+    },
+    "CRCP": {
+      "name": "Reçu du porteur de carte",
+      "definition": "Reçu du titulaire de la carte."
+    },
+    "CRDO": {
+      "name": "Autre interface du porteur de carte",
+      "definition": "Autre interface du titulaire de la carte, par exemple un e-mail ou un message sur smartphone."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "PaymentReturnReason8",
+  "definition": "Fournit des détails supplémentaires sur le motif du retour de l'opération.",
+  "isoElements": {
+    "OriginalBankTransactionCode": {
+      "definition": "Code d'opération bancaire figurant dans l'écriture d'origine de l'opération."
+    },
+    "Originator": {
+      "definition": "Partie qui émet le retour."
+    },
+    "Reason": {
+      "definition": "Précise le motif du retour."
+    },
+    "AdditionalInformation": {
+      "definition": "Détails supplémentaires sur le motif du retour."
+    }
+  },
+  "isoRules": {
+    "ReturnReasonRule": {
+      "definition": "Si Reason/Code est égal à NARR, alors AdditionalInformation doit être présent."
+    }
+  }
+}

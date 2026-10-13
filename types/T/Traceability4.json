@@ -1,0 +1,18 @@
+{
+  "isoType": "Traceability4",
+  "definition": "Identification des partenaires impliqués dans l'échange entre l'ATM et l'émetteur, avec l'horodatage relatif de leurs échanges.",
+  "isoElements": {
+    "RelayIdentification": {
+      "definition": "Identification d'un partenaire d'un échange de messages."
+    },
+    "SequenceNumber": {
+      "definition": "Identification du nœud relais dans le chemin, afin de permettre l'identification de plusieurs hôtes en parallèle."
+    },
+    "TraceDateTimeIn": {
+      "definition": "Date et heure de l'échange de données entrant pour retransmission ou traitement."
+    },
+    "TraceDateTimeOut": {
+      "definition": "Date et heure de l'échange sortant pour retransmission ou traitement."
+    }
+  }
+}

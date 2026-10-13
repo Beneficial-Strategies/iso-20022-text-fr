@@ -1,0 +1,32 @@
+{
+  "isoType": "CorporateActionGeneralInformation194",
+  "definition": "Informations générales sur l'événement d'opération sur titres.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Référence attribuée par le teneur de compte pour identifier sans ambiguïté un événement sur titres."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Référence officielle et unique attribuée par l'organisme ou l'entité central officiel de chaque marché au début d'un événement sur titres."
+    },
+    "ClassActionNumber": {
+      "definition": "Référence attribuée par un tribunal à une action collective."
+    },
+    "EventProcessingType": {
+      "definition": "Type de traitement impliqué par une opération sur titres."
+    },
+    "EventType": {
+      "definition": "Type d'événement sur titres."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Précise si l'événement est obligatoire, obligatoire avec options ou volontaire."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Titre concerné par l'opération sur titres."
+    }
+  },
+  "isoRules": {
+    "OfficialCorporateActionEventReference": {
+      "definition": "Le Securities Market Practice Group (SMPG) a publié des recommandations de pratique de marché sur la structure et l'utilisation de la référence officielle de l'événement sur titres (COAF). Ces recommandations sont|disponibles dans le document SMPG Global Market Practices Part 1 sur www.smpg.info."
+    }
+  }
+}

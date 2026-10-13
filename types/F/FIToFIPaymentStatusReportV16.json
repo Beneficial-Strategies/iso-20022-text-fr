@@ -1,0 +1,30 @@
+{
+  "isoType": "FIToFIPaymentStatusReportV16",
+  "definition": "Domaine d'application|Le message FIToFIPaymentStatusReport est envoyé par une banque destinataire de l'ordre à la partie précédente de la chaîne de paiement. Il sert à informer cette partie du statut positif ou négatif d'une instruction (unitaire ou fichier). Il sert également à rendre compte d'une instruction en attente.|Utilisation|Le message FIToFIPaymentStatusReport est échangé entre agents pour fournir des informations de statut sur des instructions précédemment envoyées. Son utilisation peut être régie par un accord bilatéral ou multilatéral entre les agents.|Le message FIToFIPaymentStatusReport peut être utilisé pour fournir des informations sur le statut (p. ex. rejet, acceptation) d'une instruction de virement ou d'une instruction de prélèvement, ainsi que d'autres instructions entre agents (par exemple FIToFIPaymentCancellationRequest).|Le message FIToFIPaymentStatusReport fait référence à la ou aux instructions d'origine au moyen de références uniquement ou au moyen de références et d'un ensemble d'éléments de l'instruction d'origine.|Le message FIToFIPaymentStatusReport peut être utilisé dans des scénarios nationaux et transfrontaliers.|Le message FIToFIPaymentStatusReport peut également être envoyé au destinataire du paiement dans un scénario de paiement en temps réel, car les deux parties à l'opération doivent être informées de son statut (par exemple, soit le bénéficiaire est crédité, soit l'opération est rejetée).",
+  "isoRules": {
+    "GroupStatusAcceptedRule": {
+      "definition": "Si OriginalGroupInformationAndStatus/GroupStatus est présent et égal à ACTC (AcceptedTechnicalValidation), ACCP (AcceptedCustomerProfile), ACSP (AcceptedSettlementInProcess), ACSC (AcceptedSettlementCompleted) ou ACWC (AcceptedWithChange), alors TransactionInformationAndStatus/TransactionStatus doit être différent de RJCT (Rejected)."
+    },
+    "GroupStatusPendingRule": {
+      "definition": "Si OriginalGroupInformationAndStatus/GroupStatus est présent et égal à PDNG (Pending), alors TransactionInformationAndStatus/TransactionStatus doit être différent de RJCT (Rejected)."
+    },
+    "GroupStatusRejectedRule": {
+      "definition": "Si OriginalGroupInformationAndStatus/GroupStatus est présent et égal à RJCT (Rejected), alors TransactionInformationAndStatus/TransactionStatus, s'il est présent, doit être égal à RJCT (Rejected)."
+    },
+    "GroupStatusReceivedRule": {
+      "definition": "Si OriginalGroupInformationAndStatus/GroupStatus est présent et égal à RCVD (Received), alors TransactionInformationAndStatus/TransactionStatus n'est pas autorisé."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    },
+    "OriginalGroupInformationAbsenceRule": {
+      "definition": "Si OriginalGroupInformationAndStatus est absent, alors TransactionInformationAndStatus[*]/OriginalGroupInformation doit être présent."
+    },
+    "OriginalGroupInformationSinglePresenceRule": {
+      "definition": "Si OriginalGroupInformationAndStatus est présent une seule fois, alors TransactionInformationAndStatus[*]/OriginalGroupInformation doit être absent."
+    },
+    "OriginalGroupInformationMultiplePresenceRule": {
+      "definition": "Si OriginalGroupInformationAndStatus est présent plusieurs fois (occurrence > 1), alors TransactionInformationAndStatus[*]/OriginalGroupInformation doit être présent."
+    }
+  }
+}

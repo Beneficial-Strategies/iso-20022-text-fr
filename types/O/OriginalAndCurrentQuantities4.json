@@ -1,0 +1,12 @@
+{
+  "isoType": "OriginalAndCurrentQuantities4",
+  "definition": "Valeur initiale et valeur courante d'un instrument adossé à des actifs.",
+  "isoElements": {
+    "FaceAmount": {
+      "definition": "Quantité exprimée sous forme de montant représentant la valeur nominale, c'est-à-dire le principal, d'un titre de créance."
+    },
+    "AmortisedValue": {
+      "definition": "Quantité exprimée sous forme de montant représentant la valeur nominale amortie courante d'une obligation, par exemple une réduction ou augmentation périodique du principal d'une obligation."
+    }
+  }
+}

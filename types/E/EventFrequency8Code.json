@@ -1,0 +1,66 @@
+{
+  "isoType": "EventFrequency8Code",
+  "definition": "Précise la régularité d'un événement.",
+  "isoCodes": {
+    "ADHO": {
+      "name": "Ponctuel",
+      "definition": "L'événement a lieu selon les besoins."
+    },
+    "YEAR": {
+      "name": "Annuel",
+      "definition": "L'événement a lieu chaque année ou une fois par an."
+    },
+    "DAIL": {
+      "name": "Quotidien",
+      "definition": "L'événement a lieu chaque jour."
+    },
+    "FOMN": {
+      "name": "Tous les quatre mois",
+      "definition": "L'événement a lieu tous les quatre mois ou trois fois par an."
+    },
+    "TOMN": {
+      "name": "Tous les deux mois",
+      "definition": "L'événement a lieu tous les deux mois."
+    },
+    "TOWK": {
+      "name": "Toutes les deux semaines",
+      "definition": "L'événement a lieu toutes les deux semaines."
+    },
+    "TYEA": {
+      "name": "Tous les deux ans",
+      "definition": "L'événement a lieu tous les deux ans."
+    },
+    "INDA": {
+      "name": "Intrajournalier",
+      "definition": "L'événement a lieu plusieurs fois par jour."
+    },
+    "MNTH": {
+      "name": "Mensuel",
+      "definition": "L'événement a lieu chaque mois ou une fois par mois."
+    },
+    "ONDE": {
+      "name": "À la demande",
+      "definition": "L'événement a lieu sur demande."
+    },
+    "OVNG": {
+      "name": "Nuitée",
+      "definition": "L'événement a lieu pendant la nuit."
+    },
+    "QUTR": {
+      "name": "Trimestriel",
+      "definition": "L'événement a lieu tous les trois mois ou quatre fois par an."
+    },
+    "SEMI": {
+      "name": "Semestriel",
+      "definition": "L'événement a lieu tous les six mois ou deux fois par an."
+    },
+    "TWMN": {
+      "name": "Deux fois par mois",
+      "definition": "L'événement a lieu deux fois par mois."
+    },
+    "WEEK": {
+      "name": "Hebdomadaire",
+      "definition": "L'événement a lieu une fois par semaine."
+    }
+  }
+}

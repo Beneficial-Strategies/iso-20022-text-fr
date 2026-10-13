@@ -1,0 +1,4 @@
+{
+  "isoType": "RequestForTransferStatusReportV09",
+  "definition": "Portée|Le message RequestForTransferStatusReport est envoyé par une partie donneuse d'ordre, par exemple un gestionnaire de placements ou son représentant autorisé, à la partie exécutante, par exemple un agent de transfert, afin de demander le statut d'un transfert instruit précédemment.|Le message RequestForTransferStatusReport peut également être envoyé par toute partie à l'opération de transfert à une autre partie de la chaîne de l'opération de transfert afin de demander des informations utiles au règlement d'une opération de transfert.|Utilisation|Le message RequestForTransferStatusReport est utilisé pour demander soit :|- le statut d'une ou de plusieurs demandes d'informations ou instructions de transfert, ou,|- le statut d'une ou de plusieurs instructions d'annulation de transfert, ou|- des informations utiles à une ou plusieurs instructions de transfert."
+}

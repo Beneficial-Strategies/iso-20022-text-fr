@@ -1,0 +1,39 @@
+{
+  "isoType": "CorporateActionDate4",
+  "definition": "Précise les dates d'une opération sur titres.",
+  "isoElements": {
+    "CouponClippingDate": {
+      "definition": "Date et heure à laquelle les coupons doivent être ou ont été présentés au paiement des intérêts."
+    },
+    "ConsentExpirationDate": {
+      "definition": "Dernière date et heure à laquelle un porteur peut consentir aux modifications demandées par la société."
+    },
+    "ConsentRecordDate": {
+      "definition": "Date et heure utilisée par l'offrant pour déterminer le bénéficiaire habilité à participer à un consentement sur la base du propriétaire inscrit des titres, par exemple le propriétaire effectif à la date d'enregistrement du consentement. Le qualificatif de date d'enregistrement du consentement indique qu'une date d'enregistrement ne s'applique qu'à une partie de l'offre et non à l'offre entière."
+    },
+    "PaymentDate": {
+      "definition": "Date et heure à laquelle la distribution doit avoir lieu (numéraire et/ou titres)."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Date et heure à laquelle un paiement peut être effectué, par exemple si la date de paiement est un jour non ouvrable ou pour indiquer la date du premier paiement d'une offre."
+    },
+    "MarketDeadline": {
+      "definition": "Date limite de l'émetteur ou de son agent pour répondre, par une instruction, à une offre ou un privilège en cours."
+    },
+    "ResponseDeadline": {
+      "definition": "Date et heure fixée par le teneur de compte comme date limite pour répondre, par des instructions, à un événement en cours. Cette heure dépend du fuseau horaire de référence du teneur de compte tel que précisé dans un SLA."
+    },
+    "DeadlineToSplit": {
+      "definition": "Date limite à laquelle les instructions doivent être reçues pour fractionner des titres, par exemple des certificats physiques."
+    },
+    "ExpiryDate": {
+      "definition": "Date/heure à laquelle un ordre expire ou à laquelle un privilège ou une offre prend fin."
+    },
+    "QuotationSettingDate": {
+      "definition": "Date/heure à laquelle le prix d'un titre est déterminé."
+    },
+    "SubscriptionCostDebitDate": {
+      "definition": "Date/heure avant laquelle les espèces doivent être en place pour participer à l'événement."
+    }
+  }
+}

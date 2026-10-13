@@ -1,0 +1,38 @@
+{
+  "isoType": "OfferType5Code",
+  "definition": "Précise les conditions applicables à l'offre.",
+  "isoCodes": {
+    "DISS": {
+      "name": "Droits des actionnaires dissidents",
+      "definition": "Le détenteur de titres a le droit de s'opposer à un événement obligatoire. Ce droit n'est pas inhérent à toutes les offres et ne doit donc être mentionné dans les annonces que lorsqu'il est applicable."
+    },
+    "NDIS": {
+      "name": "Droits des actionnaires dissidents non applicables",
+      "definition": "Les droits de dissidence ne sont pas applicables à cette option de l'offre."
+    },
+    "FINL": {
+      "name": "Offre finale",
+      "definition": "Offre finale ou dernière offre aux détenteurs sous réserve que les conditions de l'offre soient atteintes, par exemple, 50 pour cent d'acceptation lors d'une offre publique."
+    },
+    "FCFS": {
+      "name": "Premier arrivé, premier servi",
+      "definition": "Les titres seront acceptés dans l'ordre où ils ont été soumis jusqu'à ce que la quantité cible recherchée soit atteinte."
+    },
+    "PART": {
+      "name": "Offre partielle",
+      "definition": "Offre faite par l'offrant pour une partie des actions en circulation qu'il ne détient pas déjà."
+    },
+    "ERUN": {
+      "name": "Échange de restriction",
+      "definition": "Échange de titres soumis à restrictions contre des titres sans restrictions (ou inversement)."
+    },
+    "SQUE": {
+      "name": "Offre de retrait obligatoire",
+      "definition": "Offre lancée par une société, en possession d'un grand nombre des actions (90 % - 95 %) d'une société (généralement à la suite d'une offre publique d'achat), afin d'acquérir les actions restantes de cette société."
+    },
+    "ACPR": {
+      "name": "Priorité d'acceptation",
+      "definition": "L'événement sera payé selon un ordre de priorité particulier indiqué dans la documentation de l'offre. Les tranches supérieures de titres seront payées avant les tranches inférieures."
+    }
+  }
+}

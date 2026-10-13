@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalMandateSuspensionReason1Code",
+  "definition": "Précise le code externe de motif de suspension du mandat, sous forme de chaîne de caractères d'une longueur maximale de 4 caractères.|La liste des codes valides est une liste de codes externe publiée séparément.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org.",
+  "isoCodes": {
+    "CTAM": {
+      "name": "Contrat modifié",
+      "definition": "Mandat suspendu en raison de la modification du contrat."
+    },
+    "CTCA": {
+      "name": "Résiliation du contrat initiée par le débiteur",
+      "definition": "Mandat suspendu en raison de l'annulation du contrat, demandée par le débiteur."
+    },
+    "CTEX": {
+      "name": "Contrat expiré",
+      "definition": "Mandat suspendu car le contrat a expiré."
+    },
+    "MCFC": {
+      "name": "Mandat suspendu, dernier encaissement",
+      "definition": "Mandat suspendu car le recouvrement final a eu lieu."
+    },
+    "MCOC": {
+      "name": "Mandat suspendu, encaissement ponctuel",
+      "definition": "Mandat suspendu car le recouvrement unique a eu lieu."
+    },
+    "MSUC": {
+      "name": "Mandat suspendu après 7 encaissements infructueux consécutifs",
+      "definition": "Mandat suspendu après 7 recouvrements infructueux consécutifs."
+    }
+  }
+}

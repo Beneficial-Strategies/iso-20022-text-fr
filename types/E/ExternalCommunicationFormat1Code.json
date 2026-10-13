@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalCommunicationFormat1Code",
+  "definition": "Précise le format de communication des relevés sous la forme d'une chaîne de caractères d'une longueur maximale de 4 caractères.|La liste des codes valides est une liste de codes externe publiée séparément.|Les listes de codes externes peuvent être téléchargées sur www.iso20022.org."
+}

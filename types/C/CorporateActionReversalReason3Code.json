@@ -1,0 +1,42 @@
+{
+  "isoType": "CorporateActionReversalReason3Code",
+  "definition": "Indique la raison pour laquelle une annulation de paiement a lieu dans le traitement d'une opération sur titres.",
+  "isoCodes": {
+    "DCBD": {
+      "name": "Différence de base de calcul des jours",
+      "definition": "Différence de base de calcul des jours."
+    },
+    "FNRC": {
+      "name": "Fonds non reçus",
+      "definition": "Les fonds n'ont pas été reçus."
+    },
+    "IRED": {
+      "name": "Date de droit incorrecte",
+      "definition": "La date de droit est incorrecte."
+    },
+    "IETR": {
+      "name": "Taux d'imposition incorrect au niveau de l'événement",
+      "definition": "Le taux d'imposition au niveau de l'événement est incorrect."
+    },
+    "IPCU": {
+      "name": "Devise de paiement incorrecte",
+      "definition": "La devise de paiement est incorrecte."
+    },
+    "IPRI": {
+      "name": "Prix incorrect",
+      "definition": "Le prix est incorrect."
+    },
+    "IVAD": {
+      "name": "Date de valeur incorrecte",
+      "definition": "La date de valeur est incorrecte."
+    },
+    "UPAY": {
+      "name": "Paiement indu",
+      "definition": "Le paiement n'est pas dû."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre"
+    }
+  }
+}

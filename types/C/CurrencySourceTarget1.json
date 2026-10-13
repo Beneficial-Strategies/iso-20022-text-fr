@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencySourceTarget1",
+  "definition": "Informations nécessaires pour traiter un change ou une conversion de devise.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Devise du montant à convertir dans une conversion de devise."
+    },
+    "TargetCurrency": {
+      "definition": "Devise dans laquelle un montant doit être converti dans une conversion de devise."
+    }
+  }
+}

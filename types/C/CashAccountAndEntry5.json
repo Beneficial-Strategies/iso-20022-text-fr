@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAccountAndEntry5",
+  "definition": "Imputation d'un élément sur un compte de trésorerie, dans le contexte d'une opération de trésorerie, entraînant une augmentation ou une diminution du solde du compte.",
+  "isoElements": {
+    "Account": {
+      "definition": "Compte au débit ou au crédit duquel une écriture de trésorerie est passée."
+    },
+    "Entry": {
+      "definition": "Imputation d'un élément sur un compte de trésorerie, dans le contexte d'une opération de trésorerie, entraînant une augmentation ou une diminution du solde du compte."
+    }
+  }
+}

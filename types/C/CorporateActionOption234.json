@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionOption234",
+  "definition": "Fournit des informations sur l'option de l'événement sur titres.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement de titres lié à une option d'opération sur titres."
+    },
+    "CashMovementDetails": {
+      "definition": "Fournit des informations sur le mouvement d'espèces lié à l'option de l'événement sur titres."
+    }
+  },
+  "isoRules": {
+    "MovementDetailsRule": {
+      "definition": "Au moins une occurrence de SecuritiesMovementDetails ou de CashMovementDetails doit être présente."
+    }
+  }
+}

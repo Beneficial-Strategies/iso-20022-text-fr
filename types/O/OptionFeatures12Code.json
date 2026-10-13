@@ -1,0 +1,10 @@
+{
+  "isoType": "OptionFeatures12Code",
+  "definition": "Précise les caractéristiques pouvant s'appliquer à une option d'opération sur titres.",
+  "isoCodes": {
+    "OPLF": {
+      "name": "Préférence pour les rompus",
+      "definition": "Apport ou échange avec préférence pour les rompus."
+    }
+  }
+}

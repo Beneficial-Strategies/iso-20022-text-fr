@@ -1,0 +1,24 @@
+{
+  "isoType": "Fee7",
+  "definition": "Montant d'argent associé à un service.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de frais."
+    },
+    "Basis": {
+      "definition": "Méthode utilisée pour calculer les frais."
+    },
+    "Amount": {
+      "definition": "Montant des frais."
+    },
+    "DiscountDetails": {
+      "definition": "Remise ou dispense appliquée aux frais."
+    },
+    "ChargeBearer": {
+      "definition": "Partie qui supporte les frais."
+    },
+    "RecipientIdentification": {
+      "definition": "Partie ayant droit au montant résultant des frais."
+    }
+  }
+}

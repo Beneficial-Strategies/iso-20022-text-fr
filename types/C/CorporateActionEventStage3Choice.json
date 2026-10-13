@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStage3Choice",
+  "definition": "Choix d'étape d'un événement sur titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Étape de l'événement sur titres exprimée sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Étape de l'événement sur titres exprimée sous la forme d'un code propriétaire."
+    }
+  }
+}

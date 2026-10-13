@@ -1,0 +1,302 @@
+{
+  "isoType": "HoldingRejectionReason41Code",
+  "definition": "Indique le motif du rejet de l'élément du rapport.",
+  "isoCodes": {
+    "INPR": {
+      "name": "Prix non valide",
+      "definition": "Le prix n'est pas conforme aux caractéristiques de l'instrument financier."
+    },
+    "INID": {
+      "name": "Identification non valide",
+      "definition": "L'instruction contient un identifiant de message invalide ; l'identification est inconnue."
+    },
+    "AGIN": {
+      "name": "Agent non valide",
+      "definition": "Identification d'agent fournie invalide."
+    },
+    "INTE": {
+      "name": "Intermédiaire",
+      "definition": "L'intermédiaire n'est pas reconnu ou est invalide."
+    },
+    "CERT": {
+      "name": "Certification incorrecte",
+      "definition": "L'instruction est rejetée car la certification fournie est incorrecte ou incomplète."
+    },
+    "BPAR": {
+      "name": "Rejet du numéro de partenaire commercial",
+      "definition": "Numéro de partenaire commercial non reconnu ou invalide."
+    },
+    "BREF": {
+      "name": "Rejet du numéro de référence bancaire",
+      "definition": "Numéro de référence bancaire non reconnu ou invalide."
+    },
+    "DADR": {
+      "name": "Rejet des détails de l'adresse",
+      "definition": "Les détails de l'adresse sont incorrects ou ne peuvent pas être reconnus."
+    },
+    "DCUS": {
+      "name": "Conservateur livreur",
+      "definition": "Conservateur livreur non reconnu ou invalide."
+    },
+    "IACT": {
+      "name": "Type d'activité incorrect",
+      "definition": "Type d'activité spécifié incorrect, par exemple conversion avant émission."
+    },
+    "INVA": {
+      "name": "Non valide pour les autorités fiscales",
+      "definition": "Pour une réclamation fiscale, la réclamation n'est pas valide pour les autorités fiscales."
+    },
+    "INDT": {
+      "name": "Détails invalides",
+      "definition": "Les détails du message spécifiés dans l'instruction/la demande sont incohérents avec ceux spécifiés dans le message d'origine associé."
+    },
+    "OPTI": {
+      "name": "Option invalide",
+      "definition": "Combinaison invalide du code d'option de l'opération sur titres et du numéro d'option de l'opération sur titres."
+    },
+    "OPTY": {
+      "name": "Type d'option non valide",
+      "definition": "Type d'option invalide."
+    },
+    "INMO": {
+      "name": "Informations de mouvement invalides",
+      "definition": "Les détails spécifiés dans le bloc d'informations générales du mouvement sont incohérents avec ceux spécifiés dans le message d'origine associé."
+    },
+    "INVM": {
+      "name": "Demande de modification non valide",
+      "definition": "Demande de modification invalide ou non reconnue."
+    },
+    "INUS": {
+      "name": "Titre sous-jacent invalide",
+      "definition": "L'identification du titre sous-jacent ne correspond pas à la référence de l'opération sur titres fournie."
+    },
+    "DSEC": {
+      "name": "Titre non valide",
+      "definition": "Identification de l'instrument financier non reconnue ou invalide."
+    },
+    "ENDP": {
+      "name": "Date de fin de période manquante",
+      "definition": "La date ou le code de fin de période est manquant."
+    },
+    "STAR": {
+      "name": "Date de début de période manquante",
+      "definition": "La date ou le code de début de période est manquant."
+    },
+    "SECO": {
+      "name": "Option manquante",
+      "definition": "La deuxième option est obligatoire."
+    },
+    "NOHO": {
+      "name": "Aucune position",
+      "definition": "Aucun avoir pour le titre sous-jacent spécifié."
+    },
+    "NINS": {
+      "name": "Aucun marché d'instrument",
+      "definition": "L'instrument référencé n'existe pas en combinaison avec le marché mentionné."
+    },
+    "NOAP": {
+      "name": "Sans objet",
+      "definition": "Le type d'instruction n'est pas applicable aux événements obligatoires."
+    },
+    "NAUT": {
+      "name": "Non autorisé",
+      "definition": "L'autorisation de traitement n'est pas accordée."
+    },
+    "AGID": {
+      "name": "Agent non défini",
+      "definition": "La partie n'est pas définie comme un agent."
+    },
+    "DISP": {
+      "name": "Titre non éligible à la dispersion",
+      "definition": "Le titre à disperser n'est pas éligible auprès du prestataire de services propriétaire (ICSD)."
+    },
+    "CORR": {
+      "name": "Banque correspondante non identifiée",
+      "definition": "Impossible d'identifier la banque correspondante."
+    },
+    "INPS": {
+      "name": "Lieu de conservation",
+      "definition": "Lieu de conservation non reconnu, invalide ou manquant."
+    },
+    "PLCE": {
+      "name": "Lieu de négociation",
+      "definition": "Lieu de négociation non reconnu ou invalide."
+    },
+    "PRIC": {
+      "name": "Prix dépassé",
+      "definition": "Le prix dans l'exécution dépasse le prix de l'ordre."
+    },
+    "IVAG": {
+      "name": "Agent récepteur",
+      "definition": "L'agent récepteur n'est pas reconnu ou est invalide."
+    },
+    "QUNP": {
+      "name": "Type d'unité de quantité",
+      "definition": "Le type d'unité de quantité n'est pas fourni."
+    },
+    "DQUA": {
+      "name": "Rejet de la quantité",
+      "definition": "Quantité instruite non reconnue ou invalide."
+    },
+    "EQTY": {
+      "name": "Quantité dépassée",
+      "definition": "La quantité dans l'exécution dépasse la quantité ordonnée."
+    },
+    "DEPT": {
+      "name": "Dépositaire récepteur ou livreur",
+      "definition": "Dépositaire non reconnu ou invalide."
+    },
+    "RCUS": {
+      "name": "Conservateur récepteur",
+      "definition": "Agent récepteur non reconnu ou invalide."
+    },
+    "SAFE": {
+      "name": "Rejet du compte de conservation",
+      "definition": "Compte de conservation de l'émetteur du message non reconnu ou invalide."
+    },
+    "DMON": {
+      "name": "Rejet du montant de règlement",
+      "definition": "Montant de règlement non reconnu ou invalide."
+    },
+    "NCRR": {
+      "name": "Rejet de la devise du montant de règlement",
+      "definition": "Devise du montant de règlement non reconnue ou invalide."
+    },
+    "TQNP": {
+      "name": "Quantité de titres négociés",
+      "definition": "La quantité de titres négociés n'est pas fournie."
+    },
+    "SETR": {
+      "name": "Rejet de l'opération de règlement",
+      "definition": "Type d'opération de règlement non reconnu ou invalide."
+    },
+    "UKWN": {
+      "name": "Symbole inconnu",
+      "definition": "Le symbole de l'instrument financier n'a pas été reconnu."
+    },
+    "DDEA": {
+      "name": "Prix de la transaction",
+      "definition": "Prix de la transaction non reconnu ou invalide."
+    },
+    "TERM": {
+      "name": "Rejet de la date et heure de clôture",
+      "definition": "Date/heure de clôture non reconnue ou invalide."
+    },
+    "ULNK": {
+      "name": "Référence non valide",
+      "definition": "La référence liée est inconnue."
+    },
+    "NARR": {
+      "name": "Motif narratif",
+      "definition": "Voir le champ narratif pour le motif."
+    },
+    "NRGN": {
+      "name": "Rejet pour élément introuvable",
+      "definition": "L'instruction est introuvable."
+    },
+    "INVB": {
+      "name": "Solde non valide",
+      "definition": "L'instruction vise à utiliser un solde invalide."
+    },
+    "ADEA": {
+      "name": "Échéance du teneur de compte dépassée",
+      "definition": "Opération ou instruction reçue après l'heure limite précisée par l'établissement teneur de compte."
+    },
+    "CASH": {
+      "name": "Compte espèces",
+      "definition": "Compte espèces non reconnu ou invalide."
+    },
+    "COMC": {
+      "name": "Rejet du contrat de commercialisation",
+      "definition": "Contrat de commercialisation non reconnu ou invalide."
+    },
+    "CONL": {
+      "name": "Limite de concentration dépassée",
+      "definition": "La limite de concentration a été dépassée."
+    },
+    "INHO": {
+      "name": "Solde insuffisant",
+      "definition": "Solde insuffisant."
+    },
+    "ICOL": {
+      "name": "Garantie insuffisante",
+      "definition": "Garantie proposée insuffisante."
+    },
+    "INVE": {
+      "name": "Partie investisseur non valide",
+      "definition": "Partie investisseur non reconnue ou invalide. Peut être utilisé par une partie exécutante pour rejeter une instruction concernant un investisseur (ou un portefeuille) pour lequel elle n'est pas autorisée à agir."
+    },
+    "INVN": {
+      "name": "Numéro de lot non valide",
+      "definition": "Numéro de lot invalide ou non reconnu."
+    },
+    "INVL": {
+      "name": "Lien non valide",
+      "definition": "Lien invalide ou non reconnu."
+    },
+    "VALR": {
+      "name": "Règle non valide",
+      "definition": "Rejet par une règle de validation de la banque teneur de compte."
+    },
+    "INUK": {
+      "name": "Nom et adresse de l'investisseur inconnus",
+      "definition": "Le nom et l'adresse de l'investisseur ne sont pas reconnus."
+    },
+    "LATT": {
+      "name": "En retard",
+      "definition": "L'instruction/la demande arrive trop tard."
+    },
+    "MINO": {
+      "name": "Quantité de règlement minimale",
+      "definition": "La quantité instruite est inférieure à la quantité de règlement minimale existante pour l'instrument financier."
+    },
+    "BOIS": {
+      "name": "Détails du bénéficiaire propriétaire manquants",
+      "definition": "Rejeté en raison de l'absence des détails du bénéficiaire effectif."
+    },
+    "MCER": {
+      "name": "Certification manquante",
+      "definition": "La certification n'a pas été remplie."
+    },
+    "IPOA": {
+      "name": "Procuration manquante ou invalide",
+      "definition": "Procuration manquante ou invalide."
+    },
+    "MUNO": {
+      "name": "Quantité de règlement multiple",
+      "definition": "La quantité instruite n'est pas un multiple d'un lot de règlement existant pour l'instrument financier."
+    },
+    "INNA": {
+      "name": "Rejet des informations en texte libre",
+      "definition": "Information narrative préconvenue de l'accord de niveau de service non reconnue ou invalide."
+    },
+    "NINV": {
+      "name": "Aucun stock",
+      "definition": "L'instrument financier demandé n'est pas disponible."
+    },
+    "ELIG": {
+      "name": "Titre non éligible",
+      "definition": "Le titre n'est pas éligible."
+    },
+    "PERI": {
+      "name": "Date de fin de période antérieure à la date de début",
+      "definition": "La date de fin de période est antérieure à la date de début de période."
+    },
+    "REFE": {
+      "name": "Rejet de référence",
+      "definition": "L'instruction porte une référence identique à celle d'une autre instruction reçue précédemment."
+    },
+    "SAID": {
+      "name": "Même identification",
+      "definition": "Plusieurs messages portent la même identification."
+    },
+    "OWNT": {
+      "name": "Rejet du type de propriété",
+      "definition": "Le type de propriété indiqué n'est pas correct."
+    },
+    "NTAV": {
+      "name": "Non disponible",
+      "definition": "Le motif n'est pas disponible ou est inconnu."
+    }
+  }
+}

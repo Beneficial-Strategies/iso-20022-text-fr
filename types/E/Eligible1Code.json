@@ -1,0 +1,14 @@
+{
+  "isoType": "Eligible1Code",
+  "definition": "Précise si l'élément est éligible ou non éligible.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Éligible",
+      "definition": "L'élément est éligible."
+    },
+    "NELI": {
+      "name": "Non éligible",
+      "definition": "L'élément n'est pas éligible."
+    }
+  }
+}

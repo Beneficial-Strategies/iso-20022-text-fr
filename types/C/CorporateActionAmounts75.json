@@ -1,0 +1,144 @@
+{
+  "isoType": "CorporateActionAmounts75",
+  "definition": "Précise les montants dans le cadre d'un événement d'opération sur titres.",
+  "isoElements": {
+    "GrossAmount": {
+      "definition": "Montant d'argent avant toute déduction fiscale."
+    },
+    "NetAmount": {
+      "definition": "Montant d'argent après déduction des impôts."
+    },
+    "SolicitationFees": {
+      "definition": "Prime en espèces mise à disposition si le détenteur de titres consent à un événement ou y participe, par exemple des frais de consentement ou des frais de sollicitation."
+    },
+    "CashInLieuOfShare": {
+      "definition": "Versement en espèces tenant lieu d'une quantité fractionnaire de, par exemple, titres de capital."
+    },
+    "CapitalGain": {
+      "definition": "Montant d'argent distribué à la suite d'une plus-value."
+    },
+    "InterestAmount": {
+      "definition": "Montant d'argent représentant le paiement d'un coupon."
+    },
+    "MarketClaimAmount": {
+      "definition": "Montant d'argent résultant d'une réclamation de marché."
+    },
+    "IndemnityAmount": {
+      "definition": "(Spécifique à la France) Montant dû à un acheteur de titres négociés avant la date ex, qui peut être soumis à un taux d'imposition différent."
+    },
+    "ManufacturedDividendPaymentAmount": {
+      "definition": "Montant que l'emprunteur verse au prêteur à titre de compensation. Il ne donne pas au prêteur le droit de récupérer un crédit d'impôt et est parfois traité différemment par les autorités fiscales locales du prêteur. Couvre également la compensation/indemnité pour dividende manqué en cas de règlement anticipé ou tardif, si applicable à un marché."
+    },
+    "ReinvestmentAmount": {
+      "definition": "Montant d'argent réinvesti dans des titres supplémentaires."
+    },
+    "FullyFrankedAmount": {
+      "definition": "Montant résultant d'un dividende entièrement imputé versé par une société ; le montant comprend un crédit d'impôt pour les sociétés qui ont effectué des paiements d'impôt suffisants au cours de la période fiscale."
+    },
+    "UnfrankedAmount": {
+      "definition": "Montant résultant d'un dividende non imputé versé par une société ; le montant ne comprend pas de crédit d'impôt et est soumis à la retenue à la source."
+    },
+    "SundryOrOtherAmount": {
+      "definition": "Montant d'argent lié à un revenu imposable qui ne peut pas être catégorisé."
+    },
+    "TaxFreeAmount": {
+      "definition": "Montant d'argent qui n'a pas été soumis à l'impôt."
+    },
+    "TaxDeferredAmount": {
+      "definition": "Montant de revenu éligible à une imposition différée."
+    },
+    "ValueAddedTaxAmount": {
+      "definition": "Montant de la taxe sur la valeur ajoutée."
+    },
+    "StampDutyAmount": {
+      "definition": "Montant du droit de timbre."
+    },
+    "TaxReclaimAmount": {
+      "definition": "Montant qui a été payé en excédent de l'obligation fiscale réelle et qui a été récupéré."
+    },
+    "TaxCreditAmount": {
+      "definition": "Montant des impôts déjà payés en lien avec le fait générateur de l'impôt."
+    },
+    "AdditionalTaxAmount": {
+      "definition": "Montant des impôts supplémentaires qui ne peuvent pas être catégorisés."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Montant d'une distribution en espèces qui sera retenu par les autorités fiscales de la juridiction de l'émetteur, et pour lequel un allègement à la source et/ou une demande de remboursement peut être possible."
+    },
+    "SecondLevelTaxAmount": {
+      "definition": "Montant d'argent retenu par une juridiction autre que celle du pays de constitution fiscale de l'émetteur, et pour lequel un allègement à la source et/ou une demande de remboursement peut être possible. Il est prélevé en complément ou en compensation du taux de retenue à la source prélevé par la juridiction du domicile fiscal de l'émetteur."
+    },
+    "FiscalStampAmount": {
+      "definition": "Montant de l'impôt fiscal à appliquer."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Montant versé à un courtier d'exécution à titre de commission."
+    },
+    "PayingAgentCommissionAmount": {
+      "definition": "Montant de la commission de l'agent payeur ou de l'agent sous-payeur."
+    },
+    "LocalBrokerCommissionAmount": {
+      "definition": "Commission du courtier local."
+    },
+    "RegulatoryFeesAmount": {
+      "definition": "Montant d'argent facturé par une autorité de réglementation, par exemple les frais de bourse et de valeurs mobilières."
+    },
+    "ShippingFeesAmount": {
+      "definition": "Tous les coûts liés à la livraison physique de documents tels que timbres, affranchissement, frais de transporteur, assurances ou services de messagerie."
+    },
+    "ChargesAmount": {
+      "definition": "Montant payé pour la prestation de services financiers qui ne peut être classé sous un autre qualificatif."
+    },
+    "EntitledAmount": {
+      "definition": "Montant en espèces fondé sur les conditions de l'événement d'opération sur titres et sur le solde des titres sous-jacents, dû au titulaire du compte ou par celui-ci (pouvant être positif ou négatif)."
+    },
+    "OriginalAmount": {
+      "definition": "Montant de comptabilisation/règlement dans sa devise d'origine lorsqu'une conversion depuis/vers une autre devise a eu lieu."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Montant des intérêts courus entre les périodes de paiement des coupons."
+    },
+    "IncomePortion": {
+      "definition": "Montant relatif au titre sous-jacent pour lequel un revenu est distribué."
+    },
+    "EqualisationAmount": {
+      "definition": "Part du montant de distribution du fonds qui représente le revenu couru moyen inclus dans le prix d'achat des parts achetées pendant la période comptable."
+    },
+    "FATCATaxAmount": {
+      "definition": "Montant d'impôt lié à FATCA (Foreign Account Tax Compliance Act)."
+    },
+    "NRATaxAmount": {
+      "definition": "Montant du revenu fiscal soumis à NRA (Non Resident Alien)."
+    },
+    "BackUpWithholdingTaxAmount": {
+      "definition": "Montant d'impôt lié à la retenue à la source de secours."
+    },
+    "TaxOnIncomeAmount": {
+      "definition": "Montant global de l'impôt retenu à la source par les gestionnaires de fonds avant la prise en compte de l'obligation fiscale de chaque porteur de parts."
+    },
+    "TransactionTax": {
+      "definition": "Montant de la taxe sur les transactions."
+    },
+    "DeemedAmount": {
+      "definition": "Montant du produit qui n'est pas effectivement versé au détenteur de titres mais sur lequel la retenue à la source s'applique."
+    },
+    "ForeignIncomeAmount": {
+      "definition": "Montant relatif à un revenu étranger, tel qu'un revenu étranger transitant par une entité relais."
+    },
+    "DeemedDividendAmount": {
+      "definition": "Montant présumé résultant de la différence entre le taux du produit de dividendes attribué au détenteur de titres pour l'exercice imposable et le taux du produit de dividendes précédemment notifié au détenteur de titres au titre des distributions en espèces de l'exercice."
+    },
+    "DeemedFundAmount": {
+      "definition": "Montant présumé résultant de la différence entre le taux des composantes du produit constituant un paiement de fonds attribué au détenteur de titres pour l'exercice imposable et le taux du produit du fonds précédemment notifié au détenteur de titres au titre des distributions en espèces de l'exercice."
+    },
+    "DeemedInterestAmount": {
+      "definition": "Montant présumé résultant de la différence entre le taux du produit d'intérêts attribué au détenteur de titres pour l'exercice imposable et le taux du produit d'intérêts précédemment notifié au détenteur de titres au titre des distributions en espèces de l'exercice."
+    },
+    "DeemedRoyaltiesAmount": {
+      "definition": "Montant présumé résultant de la différence entre le taux du produit de redevances attribué au détenteur de titres pour l'exercice imposable et le taux du produit de redevances précédemment notifié au détenteur de titres au titre des distributions en espèces de l'exercice."
+    },
+    "BuyUpAmount": {
+      "definition": "Montant d'espèces débité dans le cadre d'une option de rachat complémentaire."
+    }
+  }
+}

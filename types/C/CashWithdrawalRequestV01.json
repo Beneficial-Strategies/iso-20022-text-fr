@@ -1,0 +1,4 @@
+{
+  "isoType": "CashWithdrawalRequestV01",
+  "definition": "Le message CashWithdrawalRequest est envoyé par un destinataire d'espèces à un expéditeur d'espèces pour demander que des espèces soient retirées d'un compte."
+}

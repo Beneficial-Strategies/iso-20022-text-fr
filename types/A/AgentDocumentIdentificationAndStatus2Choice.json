@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentDocumentIdentificationAndStatus2Choice",
+  "definition": "Choix entre l'identification et le statut de l'avis de notification d'opération sur titres ou de la demande d'annulation de notification envoyée par l'agent.",
+  "isoElements": {
+    "AgentCANotificationAdviceIdentificationAndStatus": {
+      "definition": "Identification de l'avis de notification d'opération sur titres de l'agent lié pour lequel un statut est fourni (CA)."
+    },
+    "AgentCANotificationCancellationRequestIdentificationAndStatus": {
+      "definition": "Identification de la demande d'annulation de notification d'opération sur titres de l'agent liée pour laquelle un statut est fourni (CA)."
+    }
+  }
+}

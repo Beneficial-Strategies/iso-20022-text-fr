@@ -1,0 +1,94 @@
+{
+  "isoType": "TradeTransactionCondition4Code",
+  "definition": "Précise les conditions dans lesquelles l'ordre/la transaction doit être ou a été exécuté(e).",
+  "isoCodes": {
+    "CBNS": {
+      "name": "Avec droit d'attribution gratuite",
+      "definition": "Indique si l'opération est exécutée coupon d'attribution gratuite attaché (cum bonus)."
+    },
+    "XBNS": {
+      "name": "Hors droit d'attribution gratuite",
+      "definition": "Indique si l'opération est exécutée coupon d'attribution gratuite détaché (ex bonus)."
+    },
+    "CCPN": {
+      "name": "Coupon attaché",
+      "definition": "Indique si l'opération est exécutée coupon attaché (cum coupon)."
+    },
+    "XCPN": {
+      "name": "Coupon détaché",
+      "definition": "Indique si l'opération est exécutée coupon détaché (ex coupon)."
+    },
+    "CDIV": {
+      "name": "Dividende attaché",
+      "definition": "Indique si l'opération est exécutée dividende attaché (cum dividende)."
+    },
+    "XDIV": {
+      "name": "Dividende détaché",
+      "definition": "Indique si l'opération est exécutée dividende détaché (ex dividende)."
+    },
+    "CRTS": {
+      "name": "Droits attachés",
+      "definition": "Indique si l'opération est exécutée droits attachés (cum rights)."
+    },
+    "XRTS": {
+      "name": "Droits détachés",
+      "definition": "Indique si l'opération est exécutée droits détachés (ex rights)."
+    },
+    "CWAR": {
+      "name": "Bon de souscription attaché",
+      "definition": "Indique si l'opération est exécutée bon de souscription attaché (cum warrant)."
+    },
+    "XWAR": {
+      "name": "Bon de souscription détaché",
+      "definition": "Indique si l'opération est exécutée bon de souscription détaché (ex warrant)."
+    },
+    "SPCU": {
+      "name": "Dividende attaché spécial",
+      "definition": "Indique si l'opération est exécutée avec un dividende attaché spécial |(special cum dividend), c'est-à-dire achat après la date ex et obtention du dividende."
+    },
+    "SPEX": {
+      "name": "Dividende détaché spécial",
+      "definition": "Indique si l'opération est exécutée avec un dividende détaché spécial |(special ex dividend), c'est-à-dire vente avant la date ex sans le coupon."
+    },
+    "GTDL": {
+      "name": "Livraison garantie",
+      "definition": "Indique si la livraison de l'instrument financier à la date de règlement |est garantie."
+    },
+    "BCRO": {
+      "name": "Résultat de l'option",
+      "definition": "Résultat de l'option lorsque positionné. (spécifique au UK)."
+    },
+    "BCRP": {
+      "name": "Résultat du repo",
+      "definition": "Résultat du repo lorsque positionné (spécifique au UK)."
+    },
+    "BCFD": {
+      "name": "Forme de livraison",
+      "definition": "Forme de livraison, pas pour une inscription étrangère lorsque non positionné (spécifique au UK)."
+    },
+    "BCBL": {
+      "name": "Lot standard",
+      "definition": "Lots normaux, non positionné pour les lots irréguliers (spécifique au UK)."
+    },
+    "BCBN": {
+      "name": "Nom incorrect",
+      "definition": "Mauvais noms, non positionné pour les bons noms (spécifique au UK)."
+    },
+    "MAPR": {
+      "name": "Prix de marché",
+      "definition": "L'opération a été exécutée au prix du marché."
+    },
+    "NEGO": {
+      "name": "Opération négociée",
+      "definition": "Opération dont le prix n'est pas celui coté mais un prix amélioré, c'est-à-dire le prix négocié."
+    },
+    "NMPR": {
+      "name": "Prix hors marché",
+      "definition": "L'opération a été exécutée en dehors des conditions normales de marché, par exemple dans le cas d'un ordre iceberg."
+    },
+    "BCPD": {
+      "name": "Livraison du pays de constitution",
+      "definition": "Lieu de livraison, dans le pays de constitution lorsque non positionné (spécifique au UK)."
+    }
+  }
+}

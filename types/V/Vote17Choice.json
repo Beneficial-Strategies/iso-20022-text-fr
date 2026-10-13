@@ -1,0 +1,12 @@
+{
+  "isoType": "Vote17Choice",
+  "definition": "Choix entre un vote par résolution de l'ordre du jour et un vote pour toutes les résolutions de l'ordre du jour.",
+  "isoElements": {
+    "VotePerAgendaResolution": {
+      "definition": "L'instruction de vote est fournie individuellement pour chaque résolution de l'ordre du jour."
+    },
+    "VoteForAllAgendaResolutions": {
+      "definition": "Une seule instruction de vote est fournie pour couvrir toutes les résolutions de l'ordre du jour."
+    }
+  }
+}

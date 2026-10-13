@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationSource1Choice",
+  "definition": "Choix d'un schéma d'identification propriétaire ou national qui identifie de manière unique un titre.",
+  "isoElements": {
+    "Domestic": {
+      "definition": "Pays du schéma d'identification propriétaire."
+    },
+    "Proprietary": {
+      "definition": "Entité qui émet l'identification propriétaire."
+    }
+  }
+}

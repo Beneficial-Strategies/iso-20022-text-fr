@@ -1,0 +1,21 @@
+{
+  "isoType": "ResolutionOfInvestigationV14",
+  "definition": "Portée|Le message ResolutionOfInvestigation est envoyé par un destinataire d'affectation de dossier à un créateur ou à un affectant de dossier.|Ce message sert à informer de la résolution d'un dossier et, éventuellement, à fournir des précisions sur :|- l'action corrective entreprise par le destinataire de l'affectation ;|- les informations sur le retour, le cas échéant.|Utilisation|Le message ResolutionOfInvestigation est utilisé par le destinataire de l'affectation pour informer un créateur ou un affectant de dossier de la résolution d'un :|- dossier de demande d'annulation de paiement ;|Le message ResolutionOfInvestigation ne couvre qu'un seul dossier à la fois. Si le destinataire de l'affectation doit communiquer au sujet de plusieurs dossiers, plusieurs messages Resolution Of Investigation doivent être envoyés.|Le message ResolutionOfInvestigation fournit :|- l'issue finale du dossier, qu'elle soit positive ou négative ;|- éventuellement, les détails de l'action corrective entreprise par le destinataire de l'affectation et les informations sur le retour.|Chaque fois que la modification ou l'annulation d'un paiement entraîne un retour ou une annulation de fonds, une banque chargée de l'enquête peut fournir les détails dans le composant d'enquête relatif à la résolution, afin d'identifier l'opération de retour ou d'annulation. Ces détails facilitent les rapprochements de comptes auprès de la banque initiatrice et des intermédiaires. Il convient de souligner que le retour ou l'annulation de fonds est hors du périmètre de ce service d'exceptions et d'enquêtes. Les fonctionnalités décrites ici visent uniquement à transmettre les informations de retour ou d'annulation lorsqu'elles sont disponibles dans le cadre de la résolution du dossier.|Le message ResolutionOfInvestigation doit :|- être transmis par tous les destinataires d'affectation successifs jusqu'à ce qu'il parvienne au créateur du dossier ;|Le message ResolutionOfInvestigation doit être le seul message de réponse à une demande d'annulation. Les détails des opérations sous-jacentes et des statuts associés pour lesquels la demande d'annulation a été émise peuvent être fournis dans le composant CancellationDetails.",
+  "isoRules": {
+    "PartialOrRejectedCancellationRule": {
+      "definition": "Si Status/Confirmation est présent et égal à PECR ou RJCR, CancellationDetails doit être présent."
+    },
+    "MessageOrGroupResolvedCaseRule": {
+      "definition": "ResolvedCase peut être présent au niveau de ResolvedCase, de OriginalGroupInformationAndStatus, de OriginalPaymentInformationAndStatus ou de TransactionInformationAndStatus."
+    },
+    "MessageOrPaymentInformationResolvedCaseRule": {
+      "definition": "ResolvedCase peut être présent au niveau de ResolvedCase, de OriginalGroupInformationAndStatus, de OriginalPaymentInformationAndStatus ou de TransactionInformationAndStatus."
+    },
+    "MessageOrInitiationTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase peut être présent au niveau de ResolvedCase, de OriginalGroupInformationAndStatus, de OriginalPaymentInformationAndStatus ou de TransactionInformationAndStatus."
+    },
+    "MessageOrInterbankTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase peut être présent au niveau de ResolvedCase, de OriginalGroupInformationAndStatus, de OriginalPaymentInformationAndStatus ou de TransactionInformationAndStatus."
+    }
+  }
+}

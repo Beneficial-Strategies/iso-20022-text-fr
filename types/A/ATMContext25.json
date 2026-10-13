@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMContext25",
+  "definition": "Contexte de l'exception.",
+  "isoElements": {
+    "SessionReference": {
+      "definition": "Identification unique de la session client au cours de laquelle l'exception s'est produite."
+    },
+    "Service": {
+      "definition": "Service fourni par le ATM au cours de la session."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "EntitlementAdvice1",
+  "definition": "Fournit des informations sur le droit lié à l'opération sur titres (CA).",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Précise les options d'événement sur titres offertes au titulaire du compte."
+    },
+    "OptionNumber": {
+      "definition": "Numéro identifiant les options d'événement sur titres disponibles."
+    },
+    "RecordDate": {
+      "definition": "Date à laquelle les détenteurs de titres sont/seront enregistrés pour le revenu versé ou pour le droit aux droits ou à l'offre/au privilège."
+    },
+    "PaymentDate": {
+      "definition": "Date à laquelle les titres/espèces seront payés."
+    },
+    "AccountAndDistributionDetails": {
+      "definition": "Fournit des informations sur le droit et le compte bénéficiaire."
+    }
+  }
+}

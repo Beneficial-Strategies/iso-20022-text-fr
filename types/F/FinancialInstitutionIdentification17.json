@@ -1,0 +1,12 @@
+{
+  "isoType": "FinancialInstitutionIdentification17",
+  "definition": "Identification d'un établissement financier.",
+  "isoElements": {
+    "Party": {
+      "definition": "Identification unique de l’établissement financier."
+    },
+    "LEI": {
+      "definition": "Identification de l'entité juridique comme identification alternative de la partie."
+    }
+  }
+}

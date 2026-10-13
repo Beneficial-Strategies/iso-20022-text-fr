@@ -1,0 +1,21 @@
+{
+  "isoType": "AdditionalRights4",
+  "definition": "Informations sur les droits supplémentaires pouvant être accordés pour une assemblée.",
+  "isoElements": {
+    "AdditionalRight": {
+      "definition": "Droits spécifiques accordés aux actionnaires, pouvant être exercés lors des assemblées d'actionnaires, par exemple le droit de poser des questions, d'ajouter des points à l'ordre du jour ou de déposer des projets de résolution."
+    },
+    "AdditionalRightInformationURLAddress": {
+      "definition": "Adresse à utiliser sur le service www (HTTP) où l'on peut trouver des informations supplémentaires sur les droits spécifiques accordés aux actionnaires."
+    },
+    "AdditionalRightDeadline": {
+      "definition": "Droit supplémentaire accordé pour déterminer la date et l'heure avant lesquelles les porteurs de titres peuvent proposer des amendements ou de nouvelles résolutions. Cette date limite est fixée par un intermédiaire."
+    },
+    "AdditionalRightMarketDeadline": {
+      "definition": "Droit supplémentaire accordé pour déterminer la date et l'heure avant lesquelles les porteurs de titres peuvent proposer des amendements ou de nouvelles résolutions. Cette date limite est fixée par l'émetteur."
+    },
+    "AdditionalRightThreshold": {
+      "definition": "Droit supplémentaire accordé pour préciser la participation minimale au capital social, ou la valeur en numéraire, ou le nombre de porteurs de titres requis pour déposer des résolutions."
+    }
+  }
+}

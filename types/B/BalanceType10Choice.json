@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceType10Choice",
+  "definition": "Précise le type de solde.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de solde, sous forme codée."
+    },
+    "Proprietary": {
+      "definition": "Type de solde, sous forme propriétaire."
+    }
+  }
+}

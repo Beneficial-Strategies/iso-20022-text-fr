@@ -1,0 +1,18 @@
+{
+  "isoType": "AdditionalRight1Code",
+  "definition": "Définit des droits spécifiques dont dispose l'actionnaire (par exemple, le droit de poser des questions, d'ajouter des points à l'ordre du jour ou de déposer des projets de résolution).",
+  "isoCodes": {
+    "WQPS": {
+      "name": "Proposition de question écrite",
+      "definition": "Définit une proposition de question écrite."
+    },
+    "RSPS": {
+      "name": "Proposition de résolution",
+      "definition": "Définit une proposition de résolution."
+    },
+    "AIPS": {
+      "name": "Proposition de point à l'ordre du jour",
+      "definition": "Définit une proposition de résolution."
+    }
+  }
+}

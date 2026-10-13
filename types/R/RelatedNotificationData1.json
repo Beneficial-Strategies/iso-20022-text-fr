@@ -1,0 +1,12 @@
+{
+  "isoType": "RelatedNotificationData1",
+  "definition": "Fournit des informations sur les données associées à la notification qui sont envoyées séparément du message.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "definition": "Identification unique permettant d'identifier sans ambiguïté les données ou la documentation envoyées séparément de la notification, telles que les conditions générales du compte."
+    },
+    "Location": {
+      "definition": "Fournit des informations sur l'emplacement ou la remise des données ou de la documentation associées à la notification."
+    }
+  }
+}

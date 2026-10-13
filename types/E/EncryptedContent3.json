@@ -1,0 +1,15 @@
+{
+  "isoType": "EncryptedContent3",
+  "definition": "Données chiffrées avec une clé de chiffrement.",
+  "isoElements": {
+    "ContentType": {
+      "definition": "Type de données qui ont été chiffrées."
+    },
+    "ContentEncryptionAlgorithm": {
+      "definition": "Algorithme utilisé pour chiffrer les données."
+    },
+    "EncryptedData": {
+      "definition": "Données chiffrées, résultat du chiffrement du contenu."
+    }
+  }
+}

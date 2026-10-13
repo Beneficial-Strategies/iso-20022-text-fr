@@ -1,0 +1,14 @@
+{
+  "isoType": "SecuritiesStatementType1Code",
+  "definition": "Précise si le relevé est un relevé comptable ou un relevé de conservation.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Conservation",
+      "definition": "Le relevé est un relevé de conservation."
+    },
+    "ACCT": {
+      "name": "Comptabilité",
+      "definition": "Le relevé est un relevé comptable."
+    }
+  }
+}

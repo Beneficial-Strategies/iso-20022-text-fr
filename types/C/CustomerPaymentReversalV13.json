@@ -1,0 +1,21 @@
+{
+  "isoType": "CustomerPaymentReversalV13",
+  "definition": "Portée|Le message CustomerPaymentReversal est envoyé par la partie initiatrice à la partie suivante de la chaîne de paiement. Il sert à annuler un paiement exécuté précédemment.|Utilisation|Le message CustomerPaymentReversal est échangé entre un client non financier et une banque pour annuler un message CustomerDirectDebitInitiation qui a été réglé. Le résultat sera un crédit sur le compte du débiteur.|Le message CustomerPaymentReversal se réfère au message CustomerDirectDebitInitiation d'origine au moyen de références seules ou au moyen de références et d'un ensemble d'éléments de l'instruction d'origine.|Le message CustomerPaymentReversal peut être utilisé dans des scénarios nationaux et transfrontaliers.",
+  "isoRules": {
+    "GroupReversalAndPaymentInformationNotPresentRule": {
+      "definition": "Si GroupHeader/GroupReversal est vrai, alors OriginalPaymentInformationAndReversal n'est pas autorisé."
+    },
+    "GroupReversalAndReasonRule": {
+      "definition": "Si GroupHeader/GroupReversal est vrai, OriginalGroupInformation/ReversalReasonInformation/Reason doit être présent."
+    },
+    "GroupReversalAndNumberOfTransactionsGuideline": {
+      "definition": "Si GroupHeader/GroupReversal est faux et si OriginalPaymentInformationAndReversal[*]/PaymentInformationReversal est faux, alors NumberOfTransactions doit être égal au nombre d'occurrences de OriginalPaymentInformationAndReversal[*]/TransactionInformation."
+    },
+    "GroupReversalAndPaymentInformationPresentRule": {
+      "definition": "Si GroupHeader/GroupReversal est faux, alors au moins une occurrence de OriginalPaymentInformationAndReversal doit être présente."
+    },
+    "SupplementaryDataRule": {
+      "definition": "Le bloc SupplementaryData au niveau du message ne doit pas être utilisé pour fournir des informations supplémentaires sur une opération. L'élément SupplementaryData au niveau de l'opération doit être utilisé à cette fin."
+    }
+  }
+}

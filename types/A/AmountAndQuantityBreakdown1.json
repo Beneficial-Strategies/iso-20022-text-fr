@@ -1,0 +1,18 @@
+{
+  "isoType": "AmountAndQuantityBreakdown1",
+  "definition": "Détail de la ventilation d'un montant ou d'une quantité.",
+  "isoElements": {
+    "LotNumber": {
+      "definition": "Identification, à des fins fiscales, d'un lot de titres identiques achetés à une certaine date et à un certain prix."
+    },
+    "LotAmount": {
+      "definition": "Montant faisant partie du lot décrit."
+    },
+    "LotQuantity": {
+      "definition": "Quantité d'instruments financiers faisant partie du lot décrit."
+    },
+    "CashSubBalanceType": {
+      "definition": "Indique le type de sous-solde de titres (par exemple, type de restriction pour une infrastructure de marché)."
+    }
+  }
+}

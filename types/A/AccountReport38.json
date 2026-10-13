@@ -1,0 +1,54 @@
+{
+  "isoType": "AccountReport38",
+  "definition": "Fournit des détails supplémentaires sur le relevé de compte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identification unique, attribuée par le teneur de compte, permettant d'identifier sans ambiguïté le relevé de compte."
+    },
+    "ReportPagination": {
+      "definition": "Fournit des détails sur le numéro de page du relevé.||Utilisation : la pagination du relevé n'est autorisée que si les parties en sont convenues."
+    },
+    "ElectronicSequenceNumber": {
+      "definition": "Numéro séquentiel du relevé, attribué par le teneur de compte. |Utilisation : le numéro séquentiel est incrémenté pour chaque relevé envoyé par voie électronique."
+    },
+    "ReportingSequence": {
+      "definition": "Précise la plage de numéros de séquence d'identification, telle que fournie dans la demande."
+    },
+    "LegalSequenceNumber": {
+      "definition": "Numéro séquentiel légal du relevé, attribué par le teneur de compte. Il est incrémenté pour chaque relevé envoyé."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure de création du relevé."
+    },
+    "FromToDate": {
+      "definition": "Période comprise entre une date de début et une date de fin pour laquelle le relevé de compte est établi."
+    },
+    "CopyDuplicateIndicator": {
+      "definition": "Indique si le document est une copie, un duplicata ou un duplicata d'une copie."
+    },
+    "ReportingSource": {
+      "definition": "Précise l'application utilisée pour générer le reporting."
+    },
+    "Account": {
+      "definition": "Identification non équivoque du compte sur lequel les écritures de crédit et de débit sont passées."
+    },
+    "RelatedAccount": {
+      "definition": "Identifie le compte parent du compte pour lequel le relevé a été établi."
+    },
+    "Interest": {
+      "definition": "Fournit des informations générales sur les intérêts qui s'appliquent au compte à un moment donné."
+    },
+    "Balance": {
+      "definition": "Ensemble d'éléments utilisés pour définir le solde comme représentation numérique des augmentations et diminutions nettes d'un compte à un moment précis."
+    },
+    "TransactionsSummary": {
+      "definition": "Fournit des informations récapitulatives sur les écritures."
+    },
+    "Entry": {
+      "definition": "Précise une écriture du relevé.|Utilisation : au moins une référence doit être fournie pour identifier l'écriture et la ou les opérations sous-jacentes.||Règle d'utilisation : dans le cas d'une opération de rejet de paiement (R-transaction), le créancier/débiteur référencé dans les messages d'initiation de paiement d'origine est également utilisé pour le reporting de l'opération de rejet. Le débiteur/créancier d'origine n'est pas inversé dans le reporting des opérations de rejet. |Les éléments suivants, tous définis dans TransactionDetails sous RelatedParties ou RelatedAgents, sont concernés par cette règle d'utilisation :|Creditor, UltimateCreditor, CreditorAccount, CreditorAgent, Debtor, UltimateDebtor, DebtorAccount et DebtorAgent."
+    },
+    "AdditionalReportInformation": {
+      "definition": "Détails supplémentaires du relevé de compte."
+    }
+  }
+}

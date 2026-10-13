@@ -1,0 +1,14 @@
+{
+  "isoType": "RejectedStatusReason6Code",
+  "definition": "Précise le motif d'un statut rejeté.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Compte d'investissement",
+      "definition": "L'identification du compte d'investissement n'est pas reconnue ou n'est pas valide."
+    },
+    "NSLA": {
+      "name": "Non conforme au SLA",
+      "definition": "L'instruction n'est pas conforme à l'accord de niveau de service."
+    }
+  }
+}

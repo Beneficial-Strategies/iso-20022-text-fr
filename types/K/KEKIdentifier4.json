@@ -1,0 +1,15 @@
+{
+  "isoType": "KEKIdentifier4",
+  "definition": "Clé cryptographique impliquée dans la commande de sécurité.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom ou libellé de la clé."
+    },
+    "KeyIdentification": {
+      "definition": "Identification de la clé cryptographique."
+    },
+    "KeyVersion": {
+      "definition": "Version de la clé cryptographique."
+    }
+  }
+}

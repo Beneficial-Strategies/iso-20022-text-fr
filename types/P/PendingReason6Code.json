@@ -1,0 +1,30 @@
+{
+  "isoType": "PendingReason6Code",
+  "definition": "Précise le motif pour lequel une demande d'annulation envoyée pour l'instruction liée est en attente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Échéance du teneur de compte manquée",
+      "definition": "L'instruction a été reçue après l'heure limite de la banque teneur de compte. Traitée au mieux."
+    },
+    "CONF": {
+      "name": "En attente de confirmation",
+      "definition": "En attente de confirmation de la contrepartie."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre. Voir le champ Narrative."
+    },
+    "CDRG": {
+      "name": "Teneur de registre conditionnel",
+      "definition": "L'exécution est subordonnée à l'exécution d'un processus auprès du teneur de registre."
+    },
+    "CDCY": {
+      "name": "Devise conditionnelle",
+      "definition": "L'exécution est subordonnée à l'exécution d'un processus lié à la devise de l'opération."
+    },
+    "CDRE": {
+      "name": "Réalignement conditionnel",
+      "definition": "L'exécution est subordonnée à l'exécution d'un processus de réalignement auprès du CSD émetteur."
+    }
+  }
+}

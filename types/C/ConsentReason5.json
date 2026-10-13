@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsentReason5",
+  "definition": "Précise le motif sous-jacent du statut d'un objet.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif fourni pour le statut."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fournit des informations complémentaires sur le motif qui ne peuvent pas figurer dans un champ structuré."
+    }
+  }
+}

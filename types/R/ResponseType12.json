@@ -1,0 +1,15 @@
+{
+  "isoType": "ResponseType12",
+  "definition": "Réponse à un service demandé.",
+  "isoElements": {
+    "Response": {
+      "definition": "Résultat de l'opération demandée."
+    },
+    "ResponseReason": {
+      "definition": "Détail de la réponse."
+    },
+    "AdditionalResponseInformation": {
+      "definition": "Informations supplémentaires à consigner pour examen ultérieur."
+    }
+  }
+}

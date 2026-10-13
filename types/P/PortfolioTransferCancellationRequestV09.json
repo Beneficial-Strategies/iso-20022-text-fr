@@ -1,0 +1,9 @@
+{
+  "isoType": "PortfolioTransferCancellationRequestV09",
+  "definition": "Périmètre|Le message PortfolioTransferCancellationRequest est envoyé par, par exemple, un gestionnaire d’investissement ou son représentant autorisé, à la partie exécutante, par exemple un agent de transfert, afin de demander l’annulation d’un message PortfolioTransferInstruction envoyé précédemment.|Utilisation|Le message PortfolioTransferCancellationRequest est utilisé pour demander l’annulation d’une instruction de transfert de portefeuille.|Il n’y a pas de modification, mais une politique d’annulation et de nouvelle instruction.|Pour demander l’annulation d’une instruction de transfert de portefeuille, la référence de transfert du transfert de portefeuille, telle qu’indiquée dans le message PortfolioTransferInstruction d’origine, est précisée dans l’élément de référence de transfert.|L’identification du message PortfolioTransferInstruction d’origine peut également être citée dans PreviousReference, mais cela n’est pas recommandé.|Le délai et l’acceptation d’une demande d’annulation sont soumis à un accord de niveau de service (SLA). Ce message d’annulation est une demande d’annulation. Il n’y a pas d’acceptation automatique de l’annulation.|Le rejet ou l’acceptation d’un PortfolioTransferCancellationRequest se fait au moyen d’un message TransferCancellationStatusReport.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identifiant unique et non ambigu d'un groupe de transferts individuels, attribué par la partie donneuse d'ordre. Cet identifiant relie les transferts individuels entre eux."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMConfigurationReportComponent1",
+  "definition": "Informations relatives à un rapport de configuration d'un ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Environnement de l'opération."
+    },
+    "ActiveVersion": {
+      "definition": "Version de la configuration active sur le terminal."
+    },
+    "NonActiveVersion": {
+      "definition": "Versions de configuration qui ne sont pas actives sur le terminal."
+    }
+  }
+}

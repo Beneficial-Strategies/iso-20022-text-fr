@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyAndAuthorisation6",
+  "definition": "Partie et autorisation associée.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Précise le type de modification."
+    },
+    "PartyOrGroup": {
+      "definition": "Précise une partie ou un groupe de parties."
+    },
+    "SignatureOrder": {
+      "definition": "Ordre dans lequel le titulaire du mandat doit signer."
+    },
+    "Authorisation": {
+      "definition": "Autorisation accordée à un titulaire de mandat."
+    }
+  }
+}

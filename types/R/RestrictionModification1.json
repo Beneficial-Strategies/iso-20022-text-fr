@@ -1,0 +1,12 @@
+{
+  "isoType": "RestrictionModification1",
+  "definition": "Précise le type de modification d'une restriction.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Précise le type de modification."
+    },
+    "Restriction": {
+      "definition": "Restriction."
+    }
+  }
+}

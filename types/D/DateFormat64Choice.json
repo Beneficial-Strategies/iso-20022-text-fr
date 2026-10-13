@@ -1,0 +1,12 @@
+{
+  "isoType": "DateFormat64Choice",
+  "definition": "Fournit la date.",
+  "isoElements": {
+    "Date": {
+      "definition": "Date exprimée sous forme de date calendaire."
+    },
+    "DateCode": {
+      "definition": "La date est exprimée à l'aide d'un code."
+    }
+  }
+}

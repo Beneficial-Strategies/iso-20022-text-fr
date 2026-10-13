@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForNextAgent1",
+  "definition": "Informations complémentaires relatives au traitement de l'instruction de paiement, auxquelles un autre agent peut devoir donner suite. L'instruction peut porter sur un niveau de service, peut être une instruction que la banque du créancier doit exécuter, ou peut être une information requise par l'autre agent.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informations codées relatives au traitement de l'instruction de paiement, fournies par la partie initiatrice et destinées à l'agent suivant dans la chaîne de paiement."
+    },
+    "InstructionInformation": {
+      "definition": "Informations complémentaires au code d'instruction ou à l'instruction destinée à l'agent suivant, convenues bilatéralement ou propres à une communauté d'utilisateurs."
+    }
+  }
+}

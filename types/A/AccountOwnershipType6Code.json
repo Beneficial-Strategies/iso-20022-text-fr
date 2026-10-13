@@ -1,0 +1,90 @@
+{
+  "isoType": "AccountOwnershipType6Code",
+  "definition": "Précise le type de propriété du compte.",
+  "isoCodes": {
+    "BOWN": {
+      "name": "Nu-propriétaire",
+      "definition": "Une personne détient la nue-propriété de l'actif."
+    },
+    "CORP": {
+      "name": "Société de capitaux",
+      "definition": "Le titulaire du compte est une entreprise."
+    },
+    "CUST": {
+      "name": "Compte de garde",
+      "definition": "Compte d'un mineur, enregistré au nom du mineur. Le mineur ne pouvant légalement détenir de biens, le gardien du compte en conserve le contrôle."
+    },
+    "ENTR": {
+      "name": "Entrepreneurial",
+      "definition": "Compte d'entrepreneur."
+    },
+    "EURE": {
+      "name": "Entité résiduelle de l'UE",
+      "definition": "Le titulaire du compte est une entité située dans l'Union européenne qui ne peut être considérée ni comme une personne morale (par exemple une société, une entreprise), ni comme une personne physique, ni comme un fonds UCITS (Organisme de placement collectif en valeurs mobilières)."
+    },
+    "PART": {
+      "name": "Société de personnes formelle",
+      "definition": "Le titulaire du compte est une organisation commerciale contractuelle dans laquelle au moins deux personnes conviennent de mettre en commun leurs fonds pour gérer et exploiter une entreprise."
+    },
+    "TRUS": {
+      "name": "Fiducie formelle",
+      "definition": "Le titulaire du compte est une organisation agissant en qualité de fiduciaire pour des particuliers ou des entreprises dans l'administration de services tels que le transfert de titres, l'enregistrement ou les fonds fiduciaires."
+    },
+    "GOVO": {
+      "name": "Organisme public",
+      "definition": "Le titulaire du compte est une organisation publique."
+    },
+    "JOIT": {
+      "name": "Compte joint",
+      "definition": "Deux personnes majeures ou plus détiennent des parts du même compte."
+    },
+    "COMO": {
+      "name": "Compte joint en indivision",
+      "definition": "Deux personnes majeures ou plus détiennent des parts du même compte. Au décès de l'un des titulaires, le pourcentage de propriété correspondant est transféré à la succession du défunt."
+    },
+    "JOIN": {
+      "name": "Compte joint avec droit de survie",
+      "definition": "Deux personnes ou plus détiennent des parts du même compte. Au décès de l'un des titulaires, la totalité de la propriété du compte revient aux titulaires survivants."
+    },
+    "LLCO": {
+      "name": "Société à responsabilité limitée",
+      "definition": "Le compte est celui d'une société à responsabilité limitée."
+    },
+    "LIPA": {
+      "name": "Société en commandite",
+      "definition": "Le titulaire du compte est une société en commandite ou une entreprise individuelle."
+    },
+    "NOMI": {
+      "name": "Prête-nom",
+      "definition": "Le titulaire du compte est une personne ou une société au nom de laquelle des titres ou d'autres biens sont transférés afin de faciliter les opérations, le client demeurant le véritable propriétaire."
+    },
+    "NFPO": {
+      "name": "Organisme à but non lucratif",
+      "definition": "Le titulaire du compte est une association bénéficiant d'un statut d'exonération fiscale en raison de la nature de ses activités, par exemple une organisation caritative."
+    },
+    "ONIS": {
+      "name": "Autre entité non individuelle",
+      "definition": "Le titulaire du compte est un autre type d'organisation autre qu'une personne physique."
+    },
+    "OWNR": {
+      "name": "Propriétaire",
+      "definition": "Une personne détient la pleine propriété de l'actif."
+    },
+    "RGIC": {
+      "name": "Société d'investissement enregistrée",
+      "definition": "Le compte est celui d'une société d'investissement enregistrée."
+    },
+    "SIGL": {
+      "name": "Compte à titulaire unique",
+      "definition": "Le compte n'a qu'un seul titulaire individuel."
+    },
+    "UNCO": {
+      "name": "Sans personnalité morale",
+      "definition": "Le titulaire du compte est une société de personnes non constituée en personne morale ou une entreprise individuelle."
+    },
+    "USUF": {
+      "name": "Usufruitier",
+      "definition": "Personne disposant du droit temporaire d'utiliser un bien appartenant à autrui et d'en tirer un revenu ou un avantage."
+    }
+  }
+}

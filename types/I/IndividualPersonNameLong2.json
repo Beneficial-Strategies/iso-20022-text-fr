@@ -1,0 +1,33 @@
+{
+  "isoType": "IndividualPersonNameLong2",
+  "definition": "Prénom d'une personne.",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Préfixe, sous forme de titre précédant le nom d'une personne."
+    },
+    "Surname": {
+      "definition": "Le nom de famille est un nom ajouté à un prénom et fait partie d'un nom de personne. Dans de nombreux cas, un nom de famille est un patronyme."
+    },
+    "GivenName": {
+      "definition": "Nom donné à la naissance."
+    },
+    "MiddleName": {
+      "definition": "Deuxième prénom d'une personne."
+    },
+    "Initials": {
+      "definition": "Préfixe initial du nom."
+    },
+    "NameSuffix": {
+      "definition": "Suffixe du nom."
+    },
+    "Name": {
+      "definition": "Nom légal complet."
+    },
+    "StartDate": {
+      "definition": "Date à laquelle le nom a été attribué."
+    },
+    "EndDate": {
+      "definition": "Date à laquelle le nom a changé."
+    }
+  }
+}

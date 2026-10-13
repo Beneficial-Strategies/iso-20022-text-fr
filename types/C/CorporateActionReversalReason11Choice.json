@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionReversalReason11Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour indiquer la raison de l'annulation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard indiquant la raison de l'annulation."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire de la raison de l'annulation."
+    }
+  }
+}

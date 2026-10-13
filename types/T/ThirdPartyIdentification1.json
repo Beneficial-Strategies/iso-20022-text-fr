@@ -1,0 +1,12 @@
+{
+  "isoType": "ThirdPartyIdentification1",
+  "definition": "Identification du tiers.",
+  "isoElements": {
+    "Role": {
+      "definition": "Rôle joué par le tiers."
+    },
+    "LegalPersonIdentification": {
+      "definition": "Identification de la personne morale tierce."
+    }
+  }
+}

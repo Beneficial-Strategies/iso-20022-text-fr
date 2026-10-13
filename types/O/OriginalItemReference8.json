@@ -1,0 +1,36 @@
+{
+  "isoType": "OriginalItemReference8",
+  "definition": "Fournit des moyens supplémentaires de référencer une opération de paiement.",
+  "isoElements": {
+    "Account": {
+      "definition": "Identifie le compte à créditer du montant entrant."
+    },
+    "AccountOwner": {
+      "definition": "Partie qui est juridiquement propriétaire du compte."
+    },
+    "AccountServicer": {
+      "definition": "Partie qui gère le compte pour le compte du titulaire, c'est-à-dire qui gère l'enregistrement et la comptabilisation des écritures sur le compte, calcule les soldes du compte et fournit des informations sur le compte."
+    },
+    "RelatedAccount": {
+      "definition": "Identifie le compte parent du compte à créditer du montant entrant."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit un montant au créancier (final)."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "IntermediaryAgent": {
+      "definition": "Processus de paiement requis pour transférer des espèces du débiteur au créancier."
+    },
+    "Purpose": {
+      "definition": "Raison sous-jacente de l'opération de paiement."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fournit des informations relatives au traitement des informations de remise par l'une des banques de la chaîne de traitement de l'opération."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations structurées permettant la mise en correspondance, c'est-à-dire le rapprochement, d'un paiement avec les éléments que le paiement est destiné à régler, tels que des factures commerciales dans un système de comptes clients."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingOpeningStatusReason1",
+  "definition": "Motif d'un statut d'ouverture de compte en attente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut d'ouverture de compte en attente."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le motif du statut d'ouverture de compte en attente."
+    }
+  }
+}

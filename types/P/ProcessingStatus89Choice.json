@@ -1,0 +1,15 @@
+{
+  "isoType": "ProcessingStatus89Choice",
+  "definition": "Choix du format du statut de traitement.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "L'instruction a été acquittée par la banque teneur de compte."
+    },
+    "Rejected": {
+      "definition": "L'instruction/demande a été rejetée pour tout traitement ultérieur."
+    },
+    "Proprietary": {
+      "definition": "Statut qui ne peut pas être rapporté à l'aide de l'un des statuts standard disponibles."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "DateType10Code",
+  "definition": "La date est précisée sous forme de valeur de code fixe.",
+  "isoCodes": {
+    "MEET": {
+      "name": "Blocage jusqu'à la date de l'assemblée",
+      "definition": "Le blocage a lieu jusqu'à la date de l'assemblée incluse."
+    },
+    "UKWN": {
+      "name": "Inconnu",
+      "definition": "La date est inconnue de l'expéditeur ou n'a pas été établie."
+    },
+    "NARR": {
+      "name": "Date de déblocage en texte libre",
+      "definition": "Se reporter à l'élément d'information supplémentaire pour la date jusqu'à laquelle les titres sont bloqués."
+    },
+    "RDTE": {
+      "name": "Blocage jusqu'à la date d'arrêté",
+      "definition": "Le blocage a lieu jusqu'à la date d'arrêté de l'événement incluse."
+    },
+    "PPYD": {
+      "name": "Blocage jusqu'à la date de paiement de la prime",
+      "definition": "Le déblocage aura lieu à la date de paiement de la prime."
+    }
+  }
+}

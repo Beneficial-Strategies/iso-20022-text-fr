@@ -1,0 +1,12 @@
+{
+  "isoType": "Group6",
+  "definition": "Groupe de parties avec leur certificat de sécurité associé.",
+  "isoElements": {
+    "GroupIdentification": {
+      "definition": "Précise l'identification du groupe."
+    },
+    "Party": {
+      "definition": "Précise une partie et le certificat associé."
+    }
+  }
+}

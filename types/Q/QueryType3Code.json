@@ -1,0 +1,18 @@
+{
+  "isoType": "QueryType3Code",
+  "definition": "Précise la nature de la demande, c'est-à-dire si toutes les informations doivent être renvoyées ou seulement celles qui ont changé depuis le renvoi de la dernière demande similaire.",
+  "isoCodes": {
+    "ALLL": {
+      "name": "Tous",
+      "definition": "Spécifie que la requête demande que tous les éléments correspondants soient renvoyés."
+    },
+    "CHNG": {
+      "name": "Modifié",
+      "definition": "Spécifie que la requête demande que seuls les nouveaux éléments correspondants depuis la dernière requête similaire soient renvoyés."
+    },
+    "MODF": {
+      "name": "Modifié",
+      "definition": "Spécifie que la requête demande que seuls les éléments modifiés depuis la dernière requête soient renvoyés."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "CommunicationMethod3Code",
+  "definition": "Méthode de communication utilisée pour la transmission de documents.",
+  "isoCodes": {
+    "EMAL": {
+      "name": "Courriel",
+      "definition": "Transmission par courrier électronique."
+    },
+    "FAXI": {
+      "name": "Télécopie",
+      "definition": "Transmission par télécopie."
+    },
+    "POST": {
+      "name": "Service postal",
+      "definition": "Transmission par voie postale."
+    },
+    "PHON": {
+      "name": "Téléphone",
+      "definition": "Transmission par téléphone."
+    },
+    "FILE": {
+      "name": "Fichier",
+      "definition": "Transmission par transfert de fichier."
+    },
+    "ONLI": {
+      "name": "En ligne",
+      "definition": "Transmission en ligne, par exemple dans un portail web."
+    }
+  }
+}

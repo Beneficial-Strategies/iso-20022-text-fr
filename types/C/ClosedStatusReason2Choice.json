@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosedStatusReason2Choice",
+  "definition": "Choix de formats pour un code de motif de statut clos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut clos du compte exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif du statut clos du compte exprimé sous forme de code propriétaire."
+    }
+  }
+}

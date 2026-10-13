@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrentOrDefaultReservation4Choice",
+  "definition": "Réservation courante ou par défaut définie par le membre et gérée par l'administrateur des transactions.",
+  "isoElements": {
+    "Current": {
+      "definition": "Identification de la réservation courante."
+    },
+    "Default": {
+      "definition": "Identification de la réservation par défaut."
+    }
+  }
+}

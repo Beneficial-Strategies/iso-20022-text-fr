@@ -1,0 +1,17 @@
+{
+  "isoType": "RejectedStatusReason63",
+  "definition": "Motif d'un statut d'instruction rejetée.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Motif du statut rejeté."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informations complémentaires sur le statut de rejet."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "L'élément AdditionalReasonInformation ne doit pas contenir d'informations pouvant être fournies dans un champ structuré, sauf accord bilatéral."
+    }
+  }
+}

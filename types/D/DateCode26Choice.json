@@ -1,0 +1,12 @@
+{
+  "isoType": "DateCode26Choice",
+  "definition": "Choix entre un code ou un code propriétaire pour un code de date.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code normalisé pour préciser le type de date."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de date."
+    }
+  }
+}

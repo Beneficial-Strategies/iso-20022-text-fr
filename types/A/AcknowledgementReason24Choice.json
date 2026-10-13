@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason24Choice",
+  "definition": "Choix de format pour un motif d'accusé de réception.",
+  "isoElements": {
+    "Code": {
+      "definition": "Précise des informations complémentaires sur l'instruction traitée, exprimées sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Précise des informations complémentaires sur l'instruction traitée, exprimées sous forme de code propriétaire."
+    }
+  }
+}

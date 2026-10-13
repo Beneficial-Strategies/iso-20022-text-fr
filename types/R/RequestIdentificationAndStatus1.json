@@ -1,0 +1,21 @@
+{
+  "isoType": "RequestIdentificationAndStatus1",
+  "definition": "Détail et statut de la demande d'origine.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Fournit des informations sur le message d'origine."
+    },
+    "OriginalRequestIdentification": {
+      "definition": "Identification de la CashDepositRequest, de la CashWithdrawalRequest ou de la CashDepositOrWithdrawalCancellationRequest d'origine."
+    },
+    "RequestHandling": {
+      "definition": "Fournit le statut de la demande."
+    },
+    "CashDepositValidation": {
+      "definition": "Confirmation de la manière dont le destinataire des espèces a validé le dépôt d'espèces."
+    },
+    "CashWithdrawalConfirmation": {
+      "definition": "Confirmation des valeurs faciales de billets et de pièces utilisées par l'expéditeur des espèces pour le retrait d'espèces."
+    }
+  }
+}

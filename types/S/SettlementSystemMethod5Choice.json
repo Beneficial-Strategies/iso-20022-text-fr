@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementSystemMethod5Choice",
+  "definition": "Choix de format pour le système/la méthode de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Système de règlement exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Système de règlement exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationType1Choice",
+  "definition": "Précise le type de notification.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de notification, tel que publié dans une liste de codes externe de types de notification."
+    },
+    "Proprietary": {
+      "definition": "Type de notification, sous forme propriétaire."
+    }
+  }
+}

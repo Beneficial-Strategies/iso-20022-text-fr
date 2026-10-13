@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingStatementStatus1Code",
+  "definition": "Définit le statut du relevé de facturation.",
+  "isoCodes": {
+    "ORGN": {
+      "name": "Original",
+      "definition": "Le relevé est le relevé original."
+    },
+    "RPLC": {
+      "name": "Remplacement",
+      "definition": "Le relevé remplace le relevé original."
+    },
+    "TEST": {
+      "name": "Test",
+      "definition": "Le relevé est un relevé de test."
+    }
+  }
+}

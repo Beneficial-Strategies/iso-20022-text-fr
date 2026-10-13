@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus59Choice",
+  "definition": "Choix entre un motif et l'absence de motif pour le statut de rejet du traitement de l'instruction d'assemblée générale.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motif non précisé."
+    },
+    "Reason": {
+      "definition": "Motif pour lequel le message d'instruction d'assemblée ou l'instruction d'assemblée individuelle est rejeté."
+    }
+  }
+}

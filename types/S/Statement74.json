@@ -1,0 +1,47 @@
+{
+  "isoType": "Statement74",
+  "definition": "Caractéristiques du relevé.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Numéro séquentiel du relevé."
+    },
+    "QueryReference": {
+      "definition": "Identification du message SecuritiesStatementQuery envoyé pour demander ce relevé."
+    },
+    "StatementIdentification": {
+      "definition": "Référence commune à toutes les pages d'un relevé."
+    },
+    "StatementDateTime": {
+      "definition": "Date et heure du relevé."
+    },
+    "Frequency": {
+      "definition": "Fréquence du relevé."
+    },
+    "UpdateType": {
+      "definition": "Indique si le relevé est complet ou ne contient que des modifications."
+    },
+    "StatementBasis": {
+      "definition": "Type de solde sur lequel le relevé est établi."
+    },
+    "ActivityIndicator": {
+      "definition": "Indique si le relevé signale une activité ou une mise à jour d'informations."
+    },
+    "AuditedIndicator": {
+      "definition": "Indique si le relevé est audité ou non."
+    },
+    "SubAccountIndicator": {
+      "definition": "Indique si le relevé déclare les avoirs au niveau du compte de sous-conservation."
+    },
+    "TaxLotIndicator": {
+      "definition": "Indique si le relevé contient le détail des lots fiscaux."
+    },
+    "SecurityInterestOrSetOff": {
+      "definition": "Indique si les avoirs du compte sont grevés d'une sûreté, d'un privilège ou d'un droit de compensation."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "Si un nombre long (Exact5NumericTest) est utilisé, le relevé doit être un relevé différentiel (UpdateType : DELT).|Si le relevé comporte plusieurs pages, le ReportNumber doit rester identique sur toutes les pages. Il s'agit d'un numéro unique pour le relevé.|Deux relevés de même type envoyés l'un après l'autre au même destinataire pour le même compte-titres doivent avoir des ReportNumbers différents. Par exemple, un relevé quotidien envoyé le jour 1 aurait le ReportNumber 001, le jour 2, 002, etc."
+    }
+  }
+}

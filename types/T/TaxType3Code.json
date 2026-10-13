@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxType3Code",
+  "definition": "Type d'impôt.",
+  "isoCodes": {
+    "LIDT": {
+      "name": "Impôt local allemand 2",
+      "definition": "Impôt local (ZAS pflichtige Zinsen) - intérêts soumis à l'impôt sur acomptes d'intérêts (proportion des intérêts bruts par part/bénéfices intermédiaires qui n'est pas couverte par le crédit dans le pool d'intérêts)."
+    },
+    "WITF": {
+      "name": "Retenue d'impôt étranger",
+      "definition": "Taux auquel le revenu sera retenu par la juridiction dans laquelle le revenu a été initialement versé, pour lequel un allègement à la source et/ou une réclamation peut être possible."
+    },
+    "WITL": {
+      "name": "Retenue d'impôt local",
+      "definition": "Taux auquel le revenu sera retenu par la juridiction dans laquelle le titulaire du compte est situé, pour lequel un allègement à la source et/ou une réclamation peut être possible."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "BillingReport6",
+  "definition": "Relevé de données de facturation précises.",
+  "isoElements": {
+    "RegulatoryData": {
+      "definition": "Informations sur les données juridiques et réglementaires échangées entre la partie qui facture et la partie qui paie."
+    },
+    "Service": {
+      "definition": "Identification du service ou du système pour lequel les informations de facturation sont fournies."
+    },
+    "InvoiceDate": {
+      "definition": "Date de création du relevé de facturation."
+    },
+    "BillingIdentification": {
+      "definition": "Identification unique du relevé de facturation."
+    },
+    "BillingPeriod": {
+      "definition": "Période de dates pour laquelle les données du relevé sont valides."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Identification unique de la partie responsable de la partie référencée (c'est-à-dire celle qui assume une responsabilité contractuelle à l'égard du client facturé)."
+    },
+    "PartyIdentification": {
+      "definition": "Identification unique permettant d'identifier sans ambiguïté la partie facturée."
+    },
+    "AccountInvoiceTotals": {
+      "definition": "Précise les totaux relatifs à la facture par compte."
+    },
+    "InvoiceTotals": {
+      "definition": "Précise les totaux relatifs à la facture."
+    },
+    "ServiceCategoryTotals": {
+      "definition": "Précise les totaux relatifs à la catégorie de service."
+    }
+  }
+}

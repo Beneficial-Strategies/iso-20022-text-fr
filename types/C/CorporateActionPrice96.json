@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionPrice96",
+  "definition": "Précise divers prix d'une opération sur titres.",
+  "isoElements": {
+    "MaximumPrice": {
+      "definition": "Prix maximum ou plafond auquel un détenteur peut soumissionner, par exemple, lors d'une offre aux enchères hollandaises."
+    },
+    "MinimumPrice": {
+      "definition": "Prix minimum ou plancher auquel un détenteur peut soumissionner, par exemple, lors d'une offre aux enchères hollandaises."
+    },
+    "FirstBidIncrementPrice": {
+      "definition": "Premier prix acceptable après le prix minimum auquel un détenteur peut soumissionner, par exemple lors d'une offre aux enchères hollandaises."
+    },
+    "LastBidIncrementPrice": {
+      "definition": "Dernier prix acceptable avant le prix maximum auquel un détenteur peut soumissionner, par exemple lors d'une offre aux enchères hollandaises."
+    }
+  }
+}

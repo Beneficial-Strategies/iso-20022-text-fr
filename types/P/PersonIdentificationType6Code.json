@@ -1,0 +1,66 @@
+{
+  "isoType": "PersonIdentificationType6Code",
+  "definition": "Précise une autre identification d'une personne physique, par exemple numéro d'enregistrement national, numéro de passeport.",
+  "isoCodes": {
+    "AREG": {
+      "name": "Numéro d'enregistrement d'étranger",
+      "definition": "Numéro attribué par un organisme public pour identifier les ressortissants étrangers."
+    },
+    "CPFA": {
+      "name": "Numéro de compte CPF",
+      "definition": "Compte émis par le Central Provident Fund Board (Singapour)."
+    },
+    "DRLC": {
+      "name": "Numéro de permis de conduire",
+      "definition": "Numéro attribué par une autorité de délivrance à un permis de conduire."
+    },
+    "EMID": {
+      "name": "Numéro d'identification de l'employeur",
+      "definition": "Numéro attribué à un employeur par une autorité d'enregistrement."
+    },
+    "IDCD": {
+      "name": "Numéro de carte d'identité",
+      "definition": "Numéro attribué par une autorité nationale à une carte d'identité."
+    },
+    "NRIN": {
+      "name": "Numéro d'immatriculation national",
+      "definition": "Numéro national d'identification. À Singapour, il est connu sous le nom de NRIC."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre type d'identification."
+    },
+    "PASS": {
+      "name": "Numéro de passeport",
+      "definition": "Numéro attribué par une autorité de délivrance à un passeport."
+    },
+    "POCD": {
+      "name": "Numéro de carte postale",
+      "definition": "Numéro de carte de la poste tel qu'attribué par une poste nationale."
+    },
+    "SOCS": {
+      "name": "Numéro de sécurité sociale",
+      "definition": "Numéro attribué par un organisme de sécurité sociale."
+    },
+    "SRSA": {
+      "name": "Numéro de compte SRS",
+      "definition": "Numéro de compte du régime de retraite complémentaire."
+    },
+    "GUNL": {
+      "name": "Numéro de permis d'armes",
+      "definition": "Numéro de permis de port d'arme tel qu'attribué par une autorité de délivrance des permis d'armes."
+    },
+    "ATIN": {
+      "name": "Numéro d'identification fiscale d'adoption",
+      "definition": "Numéro de traitement fiscal temporaire (utilisé lors de l'adoption nationale d'un enfant)."
+    },
+    "GTIN": {
+      "name": "Numéro d'identification fiscale générique",
+      "definition": "Numéro d'identification fiscale générique."
+    },
+    "ITIN": {
+      "name": "Numéro d'identification fiscale individuel",
+      "definition": "Numéro de traitement fiscal."
+    }
+  }
+}

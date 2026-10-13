@@ -1,0 +1,23 @@
+{
+  "isoType": "Linkages70",
+  "definition": "Informations relatives à une opération liée.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Moment où l'opération doit être exécutée par rapport à une opération liée."
+    },
+    "MessageNumber": {
+      "definition": "Numéro du type de message/identifiant du message référencé dans la séquence de liaison."
+    },
+    "Reference": {
+      "definition": "Référence à l'opération liée."
+    },
+    "LinkedQuantity": {
+      "definition": "Quantité d’instruments financiers de l’opération liée à compenser ou à retourner."
+    }
+  },
+  "isoRules": {
+    "LinkedQuantityRule": {
+      "definition": "Si la quantité liée pour une compensation partielle et la quantité retournée pour des retournements partiels sont utilisées, leur utilisation doit être convenue au préalable entre le titulaire du compte du message et le teneur de compte."
+    }
+  }
+}

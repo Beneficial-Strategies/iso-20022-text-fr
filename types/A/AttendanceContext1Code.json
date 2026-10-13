@@ -1,0 +1,18 @@
+{
+  "isoType": "AttendanceContext1Code",
+  "definition": "Présence d'un opérateur à l'emplacement du POI pendant l'opération.",
+  "isoCodes": {
+    "ATTD": {
+      "name": "Avec opérateur",
+      "definition": "Paiement assisté, avec un opérateur."
+    },
+    "SATT": {
+      "name": "Semi-assisté",
+      "definition": "Semi-assisté, y compris libre-service en caisse. Un opérateur supervise plusieurs paiements et peut être appelé pour aider le porteur de la carte."
+    },
+    "UATT": {
+      "name": "Sans opérateur",
+      "definition": "Paiement non assisté, sans opérateur présent."
+    }
+  }
+}

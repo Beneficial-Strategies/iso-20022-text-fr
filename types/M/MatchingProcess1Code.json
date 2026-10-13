@@ -1,0 +1,14 @@
+{
+  "isoType": "MatchingProcess1Code",
+  "definition": "Précise l'action à effectuer sur le processus d'appariement.",
+  "isoCodes": {
+    "UNMT": {
+      "name": "Annuler le rapprochement",
+      "definition": "Il est demandé que l'opération référencée soit désappariée."
+    },
+    "MTRE": {
+      "name": "Reprendre le rapprochement",
+      "definition": "Le processus d'appariement doit être repris pour l'opération référencée."
+    }
+  }
+}

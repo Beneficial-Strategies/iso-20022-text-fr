@@ -1,0 +1,12 @@
+{
+  "isoType": "DisabledStatusReason1",
+  "definition": "Motif d'un statut désactivé.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif du statut désactivé du compte."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le motif du statut désactivé du compte."
+    }
+  }
+}

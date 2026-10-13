@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementInstructionReason1Choice",
+  "definition": "Choix de formats pour le motif de l'instruction de règlement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif de l'instruction de règlement exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif de l'instruction de règlement exprimé sous forme de code propriétaire."
+    }
+  }
+}

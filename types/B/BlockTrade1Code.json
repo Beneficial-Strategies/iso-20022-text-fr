@@ -1,0 +1,14 @@
+{
+  "isoType": "BlockTrade1Code",
+  "definition": "Indique si l'instruction est le parent ou un enfant d'une opération de bloc.",
+  "isoCodes": {
+    "BLPA": {
+      "name": "Parent",
+      "definition": "L'opération est le parent d'une opération de bloc."
+    },
+    "BLCH": {
+      "name": "Enfant",
+      "definition": "L'opération est un enfant d'une opération de bloc."
+    }
+  }
+}

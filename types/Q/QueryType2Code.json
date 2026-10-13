@@ -1,0 +1,22 @@
+{
+  "isoType": "QueryType2Code",
+  "definition": "Spécifie la nature de la requête, c'est-à-dire si la requête demande que tous les éléments correspondants soient renvoyés ou uniquement les nouveaux éléments correspondants depuis la dernière requête similaire.",
+  "isoCodes": {
+    "ALLL": {
+      "name": "Tous",
+      "definition": "Spécifie que la requête demande que tous les éléments correspondants soient renvoyés."
+    },
+    "CHNG": {
+      "name": "Modifié",
+      "definition": "Spécifie que la requête demande que seuls les nouveaux éléments correspondants depuis la dernière requête similaire soient renvoyés."
+    },
+    "MODF": {
+      "name": "Modifié",
+      "definition": "Spécifie que la requête demande que seuls les éléments modifiés depuis la dernière requête soient renvoyés."
+    },
+    "DELD": {
+      "name": "Supprimé",
+      "definition": "Spécifie que la requête demande que les éléments supprimés depuis la dernière requête soient renvoyés."
+    }
+  }
+}

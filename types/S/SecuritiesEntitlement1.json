@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesEntitlement1",
+  "definition": "Fournit des informations sur les droits.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identification de l'instrument financier."
+    },
+    "EntitledSecuritiesQuantity": {
+      "definition": "Quantité de titres fondée sur les conditions de l'événement sur titres et sur le solde de titres sous-jacents auquel le titulaire du compte a droit. (Cette quantité peut être positive ou négative)."
+    }
+  }
+}

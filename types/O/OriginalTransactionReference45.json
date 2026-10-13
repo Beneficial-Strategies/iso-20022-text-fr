@@ -1,0 +1,86 @@
+{
+  "isoType": "OriginalTransactionReference45",
+  "definition": "Précise les éléments clés tels que définis dans l'opération d'origine.",
+  "isoElements": {
+    "InterbankSettlementAmount": {
+      "definition": "Montant transféré entre la banque donneuse d'ordre et la banque destinataire de l'ordre."
+    },
+    "Amount": {
+      "definition": "Montant à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise demandée par la partie initiatrice."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Date à laquelle le montant cesse d'être disponible pour la banque qui le doit et devient disponible pour la banque à laquelle il est dû."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Date et heure auxquelles le créancier demande que le montant soit prélevé sur le débiteur."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Date à laquelle la partie initiatrice demande à la banque de compensation de traiter le paiement. |Utilisation : il s'agit de la date à laquelle le compte du débiteur doit être débité. En cas de paiement par chèque, il s'agit de la date à laquelle le chèque doit être émis par la banque."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Partie créditrice qui signe le mandat."
+    },
+    "SettlementInformation": {
+      "definition": "Précise les détails de la manière dont le règlement de la ou des opérations d'origine entre la banque donneuse d'ordre et la banque destinataire de l'ordre a été effectué."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Ensemble d'éléments servant à préciser davantage le type d'opération."
+    },
+    "PaymentMethod": {
+      "definition": "Précise le moyen de paiement qui sera utilisé pour transférer le montant."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Fournit des précisions supplémentaires sur le mandat signé entre le créancier et le débiteur."
+    },
+    "RemittanceInformation": {
+      "definition": "Informations fournies pour permettre le rapprochement d'une écriture avec les éléments que le virement est destiné à régler, tels que des factures commerciales dans un système de comptes clients."
+    },
+    "UltimateDebtor": {
+      "definition": "Partie finale qui doit un montant au créancier (final)."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit un montant au créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identification non ambiguë du compte du débiteur sur lequel une écriture au débit sera passée à la suite de l'opération."
+    },
+    "DebtorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le débiteur."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du débiteur auprès de son agent teneur de compte dans la chaîne de paiement."
+    },
+    "CreditorAgent": {
+      "definition": "Établissement financier qui tient un compte pour le créancier."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque du créancier auprès de son agent teneur de compte, sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAccount": {
+      "definition": "Identification non ambiguë du compte du créancier sur lequel une écriture au crédit sera passée à la suite de l'opération de paiement."
+    },
+    "UltimateCreditor": {
+      "definition": "Partie finale à laquelle un montant est dû."
+    },
+    "Purpose": {
+      "definition": "Motif sous-jacent de l'opération de paiement.||Utilisation : |Le motif est utilisé par les clients finaux, c'est-à-dire la partie initiatrice, le débiteur (final) et le créancier (final), pour fournir des informations concernant la nature du paiement. Le motif est un élément de contenu qui n'est utilisé pour le traitement par aucun des agents intervenant dans la chaîne de paiement."
+    },
+    "UnderlyingCustomerCreditTransfer": {
+      "definition": "Fournit des informations sur le virement de client sous-jacent pour lequel la couverture est fournie."
+    },
+    "UnderlyingFinancialInstitutionCreditTransfer": {
+      "definition": "Fournit des informations sur le virement entre établissements financiers sous-jacent pour lequel la couverture est fournie."
+    }
+  },
+  "isoRules": {
+    "UnderlyingCustomerCreditTransferRule": {
+      "definition": "L'élément UnderlyingCustomerCreditTransfer ne peut être présent que s'il est présent dans l'opération d'origine faisant l'objet du retour."
+    },
+    "UnderlyingFinancialInstitutionCreditTransferRule": {
+      "definition": "L'élément UnderlyingFinancialInstitutionCreditTransfer ne peut être présent que s'il est présent dans l'opération d'origine faisant l'objet du retour."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingServiceIdentification2",
+  "definition": "Identification du service à facturer.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Code d'identification de service propre à l'établissement financier, interne et différent du code commun.|Usage : le code propre à l'établissement financier sert à identifier le service de manière unique au sein de l'établissement financier."
+    },
+    "SubService": {
+      "definition": "Définit l'identification du sous-service de l'établissement financier si le code d'identification de service de l'établissement financier est utilisé pour plus d'un service."
+    },
+    "Description": {
+      "definition": "Précise des détails complémentaires pour décrire le service de l'établissement financier, qui ne correspondent pas à la description standard associée au code commun."
+    }
+  }
+}

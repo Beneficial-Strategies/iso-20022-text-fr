@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMSecurityConfiguration2",
+  "definition": "Configuration des clés cryptographiques.",
+  "isoElements": {
+    "MaximumSymmetricKey": {
+      "definition": "Nombre maximal de clés symétriques que le module de sécurité est capable de gérer."
+    },
+    "MaximumAsymmetricKey": {
+      "definition": "Nombre maximal de clés asymétriques que le module de sécurité est capable de gérer."
+    },
+    "MaximumRSAKeyLength": {
+      "definition": "Longueur maximale de clé RSA (en nombre d'octets) que le module de sécurité est capable de gérer."
+    },
+    "MaximumRootKeyLength": {
+      "definition": "Longueur maximale de clé racine RSA (en nombre d'octets) que le module de sécurité est capable de gérer, si elle diffère de la longueur maximale de clé RSA."
+    }
+  }
+}

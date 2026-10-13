@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesOption76",
+  "definition": "Fournit des informations sur l'option sur titres de l'événement sur titres.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identification de l'instrument financier."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si la valeur est un débit ou un crédit."
+    },
+    "EntitledQuantity": {
+      "definition": "Quantité de titres fondée sur les conditions de l'événement sur titres et sur le solde de titres sous-jacents auquel le titulaire du compte a droit. (Cette quantité peut être positive ou négative)."
+    },
+    "PaymentDate": {
+      "definition": "Date/heure à laquelle le mouvement doit avoir lieu (espèces et/ou titres)."
+    }
+  }
+}

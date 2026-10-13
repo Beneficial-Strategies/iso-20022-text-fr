@@ -1,0 +1,27 @@
+{
+  "isoType": "InstructedBalance21",
+  "definition": "Fournit des informations sur le solde total instruit.",
+  "isoElements": {
+    "TotalInstructedBalance": {
+      "definition": "Fournit des informations sur le solde total instruit."
+    },
+    "TotalAcceptedInstructionBalance": {
+      "definition": "Total quotidien de toutes les instructions acceptées pour le jour donné.  Les instructions de couverture de protection sont incluses dans ce solde total."
+    },
+    "TotalCancelledInstructionBalance": {
+      "definition": "Total quotidien des instructions annulées pour un jour donné."
+    },
+    "TotalPendingInstructionBalance": {
+      "definition": "Total quotidien des instructions en attente.  Il comprend les instructions d'annulation en attente."
+    },
+    "TotalRejectedInstructionBalance": {
+      "definition": "Total quotidien des instructions rejetées."
+    },
+    "TotalProtectInstructionBalance": {
+      "definition": "Total quotidien de toutes les instructions de protection envoyées un jour donné."
+    },
+    "OptionDetails": {
+      "definition": "Fournit la ventilation du solde instruit par option."
+    }
+  }
+}

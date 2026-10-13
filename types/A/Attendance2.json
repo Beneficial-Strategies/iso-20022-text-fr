@@ -1,0 +1,18 @@
+{
+  "isoType": "Attendance2",
+  "definition": "Informations et conditions fournies pour la présence physique à l'assemblée.",
+  "isoElements": {
+    "AdmissionConditions": {
+      "definition": "Conditions d'admission physique à l'assemblée générale."
+    },
+    "ConfirmationInformation": {
+      "definition": "Précise comment commander la carte de présence ou donner notification de la présence."
+    },
+    "ConfirmationDeadline": {
+      "definition": "Date et heure avant lesquelles le bénéficiaire effectif ou l'agent doit notifier son intention de participer à l'assemblée. Cette date limite est fixée par un intermédiaire."
+    },
+    "ConfirmationMarketDeadline": {
+      "definition": "Date et heure avant lesquelles la présence à l'assemblée doit être confirmée. Cette date limite est fixée par l'émetteur."
+    }
+  }
+}

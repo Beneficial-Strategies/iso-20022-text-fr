@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyExchangeReport4",
+  "definition": "Rapporte soit sur des informations de change, soit sur une erreur métier.",
+  "isoElements": {
+    "CurrencyReference": {
+      "definition": "Devises source et cible pour lesquelles des informations sont demandées."
+    },
+    "CurrencyExchangeOrError": {
+      "definition": "Rapporte soit sur des informations de change, soit sur une erreur métier."
+    }
+  }
+}

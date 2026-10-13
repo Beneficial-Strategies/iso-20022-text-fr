@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportItemStatus1",
+  "definition": "Informations de statut de l'élément du rapport.",
+  "isoElements": {
+    "Exception": {
+      "definition": "Motif du statut d'exception."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informations complémentaires sur le motif du statut qui ne peuvent pas être fournies dans un champ structuré."
+    },
+    "ReportItem": {
+      "definition": "Détails de l'élément du rapport."
+    }
+  }
+}

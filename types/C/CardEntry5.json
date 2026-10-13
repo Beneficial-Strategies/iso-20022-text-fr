@@ -1,0 +1,18 @@
+{
+  "isoType": "CardEntry5",
+  "definition": "Écriture d'opération par carte.",
+  "isoElements": {
+    "Card": {
+      "definition": "Produit de monnaie électronique qui fournit au porteur de la carte un dispositif informatique portable et spécialisé, contenant généralement un microprocesseur."
+    },
+    "POI": {
+      "definition": "Terminal de paiement par carte physique ou logique contenant des composants logiciels et matériels."
+    },
+    "AggregatedEntry": {
+      "definition": "Détails de l'écriture de carte, fondés sur les données agrégées d'opérations par carte traitées par le teneur de compte."
+    },
+    "PrePaidAccount": {
+      "definition": "Compte prépayé pour le transfert ou le chargement d'un montant."
+    }
+  }
+}

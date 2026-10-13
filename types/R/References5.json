@@ -1,0 +1,24 @@
+{
+  "isoType": "References5",
+  "definition": "Ensemble d'éléments permettant l'identification du message et des références associées.",
+  "isoElements": {
+    "RequestType": {
+      "definition": "Identifie le type de demande acquittée."
+    },
+    "MessageIdentification": {
+      "definition": "Identifie un message par un identifiant unique ainsi que la date et l'heure auxquelles le message a été créé par l'expéditeur."
+    },
+    "ProcessIdentification": {
+      "definition": "Identifie un processus par un identifiant unique ainsi que la date et l'heure auxquelles le premier message appartenant au processus a été créé par l'expéditeur. L'identification du processus reste la même dans tous les messages appartenant au même processus, du message de demande initial jusqu'au relevé de compte final clôturant le processus."
+    },
+    "AcknowledgedMessageIdentification": {
+      "definition": "Référence du message qui est acquitté."
+    },
+    "Status": {
+      "definition": "Statut de la demande."
+    },
+    "AttachedDocumentName": {
+      "definition": "Nom de fichier d'un document logiquement lié à la demande."
+    }
+  }
+}

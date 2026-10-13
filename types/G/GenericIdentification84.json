@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification84",
+  "definition": "Identification à l'aide d'un schéma propriétaire.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Informations propriétaires, souvent un code, émises par l'émetteur du schéma de la source de données."
+    },
+    "Issuer": {
+      "definition": "Entité qui attribue l'identification."
+    },
+    "SchemeName": {
+      "definition": "Brève description textuelle du schéma."
+    }
+  }
+}

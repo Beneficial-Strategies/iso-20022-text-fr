@@ -1,0 +1,21 @@
+{
+  "isoType": "RejectionReason2",
+  "definition": "Informations générales sur le motif du rejet.",
+  "isoElements": {
+    "RejectingPartyReason": {
+      "definition": "Motif du rejet communiqué par la partie rejetante."
+    },
+    "RejectionDateTime": {
+      "definition": "Date et heure auxquelles le rejet a été généré."
+    },
+    "ErrorLocation": {
+      "definition": "Description de l'emplacement précis de l'erreur potentielle dans un message."
+    },
+    "ReasonDescription": {
+      "definition": "Description détaillée du motif du rejet."
+    },
+    "AdditionalData": {
+      "definition": "Informations complémentaires relatives au rejet, destinées à permettre l'identification précise de son motif. Elles peuvent inclure une copie totale ou partielle du message rejeté."
+    }
+  }
+}

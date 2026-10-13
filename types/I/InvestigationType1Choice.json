@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationType1Choice",
+  "definition": "Précise le type d'une enquête.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type d'enquête, tel que publié dans un ensemble externe de codes de types d'enquête."
+    },
+    "Proprietary": {
+      "definition": "Type d'enquête, sous une forme propriétaire."
+    }
+  }
+}

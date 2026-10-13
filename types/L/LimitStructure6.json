@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitStructure6",
+  "definition": "Détails d'une limite particulière fixée par le membre et gérée par l'administrateur des opérations.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identification de la limite par défaut."
+    },
+    "StartDateTime": {
+      "definition": "Date et heure à laquelle la limite prend effet."
+    },
+    "Amount": {
+      "definition": "Montant de la limite, exprimé dans une devise admissible."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si une limite est une limite de débit ou de crédit."
+    }
+  }
+}

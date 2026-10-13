@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingCancellationReason13Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le motif pour lequel une demande d'annulation envoyée pour l'instruction associée est en attente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le motif pour lequel une demande d'annulation envoyée pour l'instruction concernée est en attente."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du motif pour lequel une demande d'annulation envoyée pour l'instruction concernée est en attente."
+    }
+  }
+}

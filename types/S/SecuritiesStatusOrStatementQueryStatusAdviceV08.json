@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesStatusOrStatementQueryStatusAdviceV08",
+  "definition": "Périmètre|Un teneur de compte envoie un SecuritiesStatusOrStatementQueryStatusAdvice à un titulaire de compte afin de l’informer du statut d’une requête de statut ou de relevé précédemment envoyée par le titulaire du compte.|La relation teneur/titulaire de compte peut être :|- un dépositaire central de titres ou une autre infrastructure de marché de règlement agissant pour le compte de ses participants|- un agent (sous-conservateur) agissant pour le compte de son client conservateur global, ou|- un conservateur agissant pour le compte d’une société de gestion d’investissement ou d’un courtier/teneur de marché.||Utilisation|Le message peut également être utilisé pour :|- renvoyer un message envoyé précédemment,|- fournir à un tiers une copie d’un message à titre d’information,|- renvoyer à un tiers une copie d’un message à titre d’information en utilisant les éléments pertinents du Business Application Header.",
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Si SafekeepingAccount est présent, BlockChainAddressOrWallet doit être absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Si BlockChainAddressOrWallet est présent, SafekeepingAccount doit être absent."
+    }
+  }
+}

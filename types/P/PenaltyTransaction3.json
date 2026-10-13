@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyTransaction3",
+  "definition": "Précise la transaction à laquelle les pénalités s'appliquent.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Référence de la transaction pour laquelle des pénalités sont fournies."
+    },
+    "ReferenceOwner": {
+      "definition": "Partie qui génère la référence."
+    },
+    "TransactionDetails": {
+      "definition": "Précisions supplémentaires sur la transaction à laquelle les pénalités s'appliquent."
+    },
+    "NetMovementDetails": {
+      "definition": "Détails du mouvement de règlement net auquel les pénalités s'appliquent."
+    }
+  }
+}

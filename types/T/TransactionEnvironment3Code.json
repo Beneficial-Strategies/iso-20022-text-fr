@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionEnvironment3Code",
+  "definition": "Indique l'entité hébergeant le terminal qui effectue l'opération.",
+  "isoCodes": {
+    "BRCH": {
+      "name": "Agence",
+      "definition": "Environnement bancaire."
+    },
+    "MERC": {
+      "name": "Commerçant",
+      "definition": "Environnement commerçant."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autres environnements, par exemple un centre commercial ou un aéroport."
+    }
+  }
+}

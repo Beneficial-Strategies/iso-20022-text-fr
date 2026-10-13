@@ -1,0 +1,15 @@
+{
+  "isoType": "AcceptanceResult6",
+  "definition": "Ensemble d'éléments servant à fournir des informations détaillées sur le résultat de l'acceptation.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "Indique si la demande de mandat a été acceptée ou rejetée."
+    },
+    "RejectReason": {
+      "definition": "Précise le motif du rejet d'une demande de mandat."
+    },
+    "AdditionalRejectReasonInformation": {
+      "definition": "Précisions supplémentaires sur le motif du rejet."
+    }
+  }
+}

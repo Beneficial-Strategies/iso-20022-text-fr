@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInstructionRejectionStatus1",
+  "definition": "Fournit le motif de rejet d'un avis d'option choisie.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Le motif du rejet."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le statut."
+    }
+  }
+}

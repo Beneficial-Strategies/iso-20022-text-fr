@@ -1,0 +1,12 @@
+{
+  "isoType": "SafekeepingPlaceTypeAndText9",
+  "definition": "Identification du lieu de conservation exprimée sous la forme d'un code et d'une description narrative.",
+  "isoElements": {
+    "SafekeepingPlaceType": {
+      "definition": "Lieu de conservation sous forme de code."
+    },
+    "Identification": {
+      "definition": "Informations complémentaires sur le lieu de conservation."
+    }
+  }
+}

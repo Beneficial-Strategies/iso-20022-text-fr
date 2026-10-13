@@ -1,0 +1,12 @@
+{
+  "isoType": "ExemptionReason1Choice",
+  "definition": "Choix de formats pour le motif d'exonération.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif d'exonération exprimé sous la forme d'un code."
+    },
+    "Proprietary": {
+      "definition": "Motif d'exonération exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "TaxReporting3",
+  "definition": "Informations pour la déclaration fiscale.",
+  "isoElements": {
+    "TaxationCountry": {
+      "definition": "Pays d'imposition de l'organisation ou de la personne physique."
+    },
+    "TaxRate": {
+      "definition": "Taux d'imposition à appliquer."
+    },
+    "TaxPayer": {
+      "definition": "Partie qui paie l'impôt."
+    },
+    "TaxRecipient": {
+      "definition": "Partie qui reçoit l'impôt."
+    },
+    "CashAccountDetails": {
+      "definition": "Informations sur le compte espèces pour le paiement de l'impôt."
+    },
+    "Description": {
+      "definition": "Informations supplémentaires pour la déclaration fiscale."
+    }
+  }
+}

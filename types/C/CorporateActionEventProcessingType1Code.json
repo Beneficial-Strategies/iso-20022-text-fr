@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventProcessingType1Code",
+  "definition": "Précise le type de traitement de l'événement.",
+  "isoCodes": {
+    "GENL": {
+      "name": "Général",
+      "definition": "Aucun débit ni crédit de ressources."
+    },
+    "DISN": {
+      "name": "Distribution",
+      "definition": "Le détenteur du titre concerné à une date donnée, par exemple la date d'enregistrement, recevra un avantage sans renoncer au titre sous-jacent."
+    },
+    "REOR": {
+      "name": "Réorganisation",
+      "definition": "Le titre sous-jacent sera débité et pourra être remplacé par une ou plusieurs autres ressources."
+    }
+  }
+}

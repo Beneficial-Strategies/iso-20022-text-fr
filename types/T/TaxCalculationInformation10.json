@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxCalculationInformation10",
+  "definition": "Informations utilisées pour calculer l'impôt.",
+  "isoElements": {
+    "Basis": {
+      "definition": "Forme de la remise, par exemple en numéraire."
+    },
+    "TaxableAmount": {
+      "definition": "Montant d'argent sur lequel l'impôt est prélevé."
+    }
+  }
+}

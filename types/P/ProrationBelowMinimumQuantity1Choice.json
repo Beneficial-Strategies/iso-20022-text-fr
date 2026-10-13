@@ -1,0 +1,12 @@
+{
+  "isoType": "ProrationBelowMinimumQuantity1Choice",
+  "definition": "Choix entre un code standard ou un code propriétaire pour préciser le type de répartition au prorata en deçà de la quantité minimale.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant le type de répartition au prorata en deçà de la quantité minimale."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du type de répartition au prorata en deçà de la quantité minimale."
+    }
+  }
+}

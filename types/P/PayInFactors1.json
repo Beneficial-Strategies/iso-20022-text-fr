@@ -1,0 +1,12 @@
+{
+  "isoType": "PayInFactors1",
+  "definition": "Facteurs utilisés dans le calcul de l'échéancier de versement.",
+  "isoElements": {
+    "AggregateShortPositionLimit": {
+      "definition": "Somme maximale autorisée des positions vendeur dans toutes les devises, converties dans la devise de base, pendant le règlement."
+    },
+    "CurrencyFactors": {
+      "definition": "Facteurs de versement propres à chaque devise."
+    }
+  }
+}

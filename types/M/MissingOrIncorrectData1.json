@@ -1,0 +1,15 @@
+{
+  "isoType": "MissingOrIncorrectData1",
+  "definition": "Fournit des informations complémentaires sur le motif de l'enquête pour impossibilité d'imputation.",
+  "isoElements": {
+    "AntiMoneyLaunderingRequest": {
+      "definition": "Indique si la demande se rapporte ou non à une enquête AML (Anti Money Laundering, lutte contre le blanchiment de capitaux)."
+    },
+    "MissingInformation": {
+      "definition": "Indique les informations manquantes."
+    },
+    "IncorrectInformation": {
+      "definition": "Indique, sous forme codée, les informations incorrectes."
+    }
+  }
+}

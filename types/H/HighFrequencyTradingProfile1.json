@@ -1,0 +1,15 @@
+{
+  "isoType": "HighFrequencyTradingProfile1",
+  "definition": "Informations sur un profil de négociation à haute fréquence.",
+  "isoElements": {
+    "Date": {
+      "definition": "Date à laquelle l'investisseur commence la négociation à haute fréquence."
+    },
+    "SettlementFrequency": {
+      "definition": "Fréquence de règlement."
+    },
+    "ConsolidationType": {
+      "definition": "Indique si la consolidation est effectuée de manière générale ou au niveau du compte ségrégué."
+    }
+  }
+}

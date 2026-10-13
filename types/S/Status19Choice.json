@@ -1,0 +1,53 @@
+{
+  "isoType": "Status19Choice",
+  "definition": "Choix de statut.",
+  "isoElements": {
+    "AffirmationStatus": {
+      "definition": "Statut d'affirmation d'une transaction."
+    },
+    "AllocationStatus": {
+      "definition": "Fournit le statut d'allocation de la garantie couvrant l'instruction."
+    },
+    "RepoCallRequestStatus": {
+      "definition": "Fournit le statut de la demande d'appel de pension livrée."
+    },
+    "CorporateActionEventProcessingStatus": {
+      "definition": "Fournit le statut d'une opération sur titres ou le statut d'un paiement."
+    },
+    "CorporateActionEventStage": {
+      "definition": "Étape du cycle de vie de l'événement d'opération sur titres."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Fournit le statut d'appariement d'une instruction tel que connu du teneur de compte sur la base d'une allégation. À ce stade, aucun appariement n'a eu lieu sur le marché (au CSD/ICSD)."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Indique le statut d'une instruction."
+    },
+    "MatchingStatus": {
+      "definition": "Fournit le statut d'appariement de l'instruction."
+    },
+    "RegistrationProcessingStatus": {
+      "definition": "Fournit le statut du traitement de l'enregistrement."
+    },
+    "ResponseStatus": {
+      "definition": "Fournit le statut du message de garantie reçu (demande de garantie, proposition de garantie ou proposition/demande de substitution de garantie) du point de vue de la gestion des garanties."
+    },
+    "ReplacementProcessingStatus": {
+      "definition": "Fournit le statut de traitement de la demande de remplacement."
+    },
+    "CancellationProcessingStatus": {
+      "definition": "Fournit le statut d'une demande d'annulation."
+    },
+    "SettlementStatus": {
+      "definition": "Fournit le statut de règlement d'une opération."
+    },
+    "SettlementConditionModificationStatus": {
+      "definition": "Fournit le statut d'une demande de modification de condition de règlement-livraison de titres."
+    }
+  },
+  "isoRules": {
+    "StatusRule": {
+      "definition": "Si un statut spécifique est demandé, il doit correspondre aux statuts disponibles pour le type de message demandé."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "SettlementTransactionCondition5Code",
+  "definition": "Précise les conditions dans lesquelles l'ordre/la transaction commerciale doit être réglé(e).",
+  "isoCodes": {
+    "PART": {
+      "name": "Partiel autorisé",
+      "definition": "Le règlement partiel est autorisé."
+    },
+    "NPAR": {
+      "name": "Partiel non autorisé",
+      "definition": "Le règlement partiel n'est pas autorisé."
+    },
+    "PARC": {
+      "name": "Règlement partiel autorisé selon un seuil en espèces",
+      "definition": "Le règlement partiel est autorisé mais doit respecter une valeur minimale en numéraire (valeur définie dans les données statiques)."
+    },
+    "PARQ": {
+      "name": "Règlement partiel autorisé selon un seuil de quantité",
+      "definition": "Le règlement partiel est autorisé mais doit respecter une quantité minimale de titres (quantité définie dans les données statiques)."
+    }
+  }
+}

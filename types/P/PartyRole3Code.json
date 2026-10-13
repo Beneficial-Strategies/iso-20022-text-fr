@@ -1,0 +1,10 @@
+{
+  "isoType": "PartyRole3Code",
+  "definition": "Indique le rôle de la partie dans l'opération.",
+  "isoCodes": {
+    "GATR": {
+      "name": "Garant",
+      "definition": "Personne morale, autre que l'émetteur, qui donne une garantie. Le garant devient responsable en cas de défaillance."
+    }
+  }
+}

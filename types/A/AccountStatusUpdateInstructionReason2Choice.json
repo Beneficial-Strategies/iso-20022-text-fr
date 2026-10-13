@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountStatusUpdateInstructionReason2Choice",
+  "definition": "Choix de formats pour un motif d'instruction de modification du statut d'un compte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif de l'instruction de modification du statut du compte exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif de l'instruction de modification du statut du compte exprimé sous forme de code propriétaire."
+    }
+  }
+}

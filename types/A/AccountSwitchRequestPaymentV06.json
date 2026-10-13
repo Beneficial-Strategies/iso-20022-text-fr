@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchRequestPaymentV06",
+  "definition": "Le message AccountSwitchRequestPayment est envoyé par l'ancienne banque tenant le compte à la nouvelle banque tenant le compte après l'achèvement du changement de compte pour demander le transfert de fonds correspondant à un paiement que l'ancienne banque tenant le compte a dû effectuer depuis l'ancien compte (par exemple : le règlement d'une opération par carte autorisée hors ligne)."
+}

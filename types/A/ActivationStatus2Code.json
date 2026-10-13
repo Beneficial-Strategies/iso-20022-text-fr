@@ -1,0 +1,14 @@
+{
+  "isoType": "ActivationStatus2Code",
+  "definition": "Statut d'une configuration.",
+  "isoCodes": {
+    "WACT": {
+      "name": "En attente d'activation",
+      "definition": "Le téléchargement de la configuration a réussi et la configuration attend désormais une future date d'activation."
+    },
+    "FAIL": {
+      "name": "Échec",
+      "definition": "La mise à jour de la configuration a échoué."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceRestrictionType1",
+  "definition": "Type fournissant des informations complémentaires sur les restrictions de solde.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de la restriction, par exemple restriction de vente, restriction d'achat, restriction de placement."
+    },
+    "Description": {
+      "definition": "Description de la restriction."
+    },
+    "ProcessingType": {
+      "definition": "Classification du type de restriction de traitement que le système doit appliquer pour la restriction."
+    }
+  }
+}

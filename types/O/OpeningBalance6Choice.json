@@ -1,0 +1,12 @@
+{
+  "isoType": "OpeningBalance6Choice",
+  "definition": "Choix du solde d'ouverture.",
+  "isoElements": {
+    "First": {
+      "definition": "Solde d'ouverture de la période du relevé. Il est toujours égal au solde de clôture du relevé précédent."
+    },
+    "Intermediary": {
+      "definition": "Solde d'ouverture de cette page uniquement. Ce solde doit être le solde de clôture intermédiaire de la page précédente du même relevé."
+    }
+  }
+}

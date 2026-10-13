@@ -1,0 +1,26 @@
+{
+  "isoType": "SequenceType3Code",
+  "definition": "Précise le type de l'opération en cours appartenant à une séquence d'opérations.",
+  "isoCodes": {
+    "FRST": {
+      "name": "Premier",
+      "definition": "Premier prélèvement d'une série d'instructions de prélèvement."
+    },
+    "RCUR": {
+      "name": "Récurrent",
+      "definition": "Instruction de prélèvement dans laquelle l'autorisation du débiteur sert à des opérations de prélèvement récurrentes initiées par le créancier."
+    },
+    "FNAL": {
+      "name": "Final",
+      "definition": "Dernier prélèvement d'une série d'instructions de prélèvement."
+    },
+    "OOFF": {
+      "name": "Ponctuel",
+      "definition": "Instruction de prélèvement dans laquelle l'autorisation du débiteur sert à initier une seule opération de prélèvement."
+    },
+    "RPRE": {
+      "name": "Représenté",
+      "definition": "Prélèvement utilisé pour représenter des opérations de prélèvement précédemment annulées ou retournées."
+    }
+  }
+}

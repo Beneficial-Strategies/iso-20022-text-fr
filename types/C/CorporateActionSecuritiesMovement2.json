@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionSecuritiesMovement2",
+  "definition": "Fournit des informations sur le mouvement de titres résultant de l'instruction d'élection.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identification de l'instrument financier."
+    },
+    "PostingDateTime": {
+      "definition": "Date et heure de la comptabilisation du mouvement."
+    },
+    "PostingIdentification": {
+      "definition": "Identification de comptabilisation du mouvement de titres."
+    },
+    "PostingQuantity": {
+      "definition": "Quantité de titres comptabilisée à la suite du mouvement de titres."
+    },
+    "AccountDetails": {
+      "definition": "Fournit des informations sur le compte débité/crédité à la suite du mouvement."
+    }
+  }
+}

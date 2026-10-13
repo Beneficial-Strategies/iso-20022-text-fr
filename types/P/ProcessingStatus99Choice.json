@@ -1,0 +1,21 @@
+{
+  "isoType": "ProcessingStatus99Choice",
+  "definition": "Choix du format du statut de traitement.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "L'instruction a été acquittée par la banque teneur de compte."
+    },
+    "Rejected": {
+      "definition": "L'instruction ou la demande a été rejetée pour la suite du traitement."
+    },
+    "Repair": {
+      "definition": "L'instruction ou la demande est acceptée mais en réparation."
+    },
+    "Cancelled": {
+      "definition": "L'instruction a été annulée. Le statut du traitement d'une demande d'annulation doit être fourni à l'aide d'un message de rapport de demande d'annulation."
+    },
+    "Proprietary": {
+      "definition": "Précise un choix de statut pour le traitement d'un mouvement intra-solde."
+    }
+  }
+}

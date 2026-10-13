@@ -1,0 +1,12 @@
+{
+  "isoType": "WithdrawalReason1Choice",
+  "definition": "Choix de formats pour un motif de retrait.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif de retrait exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif de retrait exprimé sous forme de code propriétaire."
+    }
+  }
+}

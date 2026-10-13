@@ -1,0 +1,54 @@
+{
+  "isoType": "OtherAmounts33",
+  "definition": "Identifie d'autres montants relatifs à l'opération.",
+  "isoElements": {
+    "AccruedInterestAmount": {
+      "definition": "Montant des intérêts courus entre les périodes de paiement des coupons."
+    },
+    "ChargesFees": {
+      "definition": "Montant payé pour la prestation de services financiers qui ne peut être classé sous un autre qualificatif."
+    },
+    "CountryNationalFederalTax": {
+      "definition": "Montant de l'impôt national, fédéral ou du pays prélevé par la juridiction dans laquelle se trouve l'agent teneur de compte."
+    },
+    "PaymentLevyTax": {
+      "definition": "Montant de la taxe de prélèvement sur paiement."
+    },
+    "LocalTax": {
+      "definition": "Taxe prélevée par la juridiction dans laquelle l'instrument financier est réglé."
+    },
+    "Other": {
+      "definition": "Montant qui n'est pas indiqué par une dénomination commerciale connue."
+    },
+    "RegulatoryAmount": {
+      "definition": "Montant prélevé par une autorité de réglementation, par exemple les frais de la Securities and Exchange."
+    },
+    "ShippingAmount": {
+      "definition": "Tous les coûts liés à la livraison physique de documents tels que timbres, affranchissement, frais de transporteur, assurances ou services de messagerie."
+    },
+    "StampDuty": {
+      "definition": "Montant du droit de timbre."
+    },
+    "StockExchangeTax": {
+      "definition": "Montant de la taxe de bourse."
+    },
+    "TransferTax": {
+      "definition": "Montant de la taxe prélevée sur un transfert de propriété d'un instrument financier."
+    },
+    "TransactionTax": {
+      "definition": "Montant de la taxe sur les transactions."
+    },
+    "ValueAddedTax": {
+      "definition": "Montant de la taxe sur la valeur ajoutée."
+    },
+    "WithholdingTax": {
+      "definition": "Montant qui sera retenu par une autorité fiscale."
+    },
+    "ConsumptionTax": {
+      "definition": "Montant de la taxe à la consommation."
+    },
+    "AccruedCapitalisationAmount": {
+      "definition": "Montant des intérêts impayés (sur des obligations ayant fait défaut puis ayant été |restructurées), qui est capitalisé et ajouté au montant principal initial de l'obligation."
+    }
+  }
+}

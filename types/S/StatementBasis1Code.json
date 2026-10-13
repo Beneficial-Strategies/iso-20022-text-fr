@@ -1,0 +1,18 @@
+{
+  "isoType": "StatementBasis1Code",
+  "definition": "Précise le type de soldes sur lesquels le relevé est établi.",
+  "isoCodes": {
+    "CONT": {
+      "name": "Contractuel",
+      "definition": "Le relevé est basé sur la date de règlement contractuelle, indépendamment des positions de données réglées."
+    },
+    "SETT": {
+      "name": "Réglé",
+      "definition": "Le relevé est basé sur les positions à la date de règlement, selon la connaissance de l'expéditeur au moment de l'établissement du relevé."
+    },
+    "TRAD": {
+      "name": "Négocié",
+      "definition": "Le relevé est basé sur les positions à la date de négociation."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "ConductClassification1Code",
+  "definition": "Indique la classification du comportement.",
+  "isoCodes": {
+    "NSTA": {
+      "name": "Non standard",
+      "definition": "Non standard ou inhabituel."
+    },
+    "RCLT": {
+      "name": "Réticent",
+      "definition": "Réticent."
+    },
+    "STAN": {
+      "name": "Standard",
+      "definition": "Standard."
+    }
+  }
+}

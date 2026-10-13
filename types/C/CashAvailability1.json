@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAvailability1",
+  "definition": "Indique quand le montant sera disponible, c'est-à-dire pourra être utilisé et commencer à produire des intérêts.",
+  "isoElements": {
+    "Date": {
+      "definition": "Indique quand le montant sera disponible."
+    },
+    "Amount": {
+      "definition": "Identifie le montant disponible."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indique si le solde de disponibilité est un solde créditeur ou débiteur.|Utilisation : un solde nul est considéré comme un solde créditeur."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchNotifyAccountSwitchCompleteV02",
+  "definition": "Le message AccountSwitchNotifyAccountSwitchComplete est envoyé par la nouvelle banque tenant le compte à un prestataire central de changement de compte pour signaler qu'elle a achevé le changement de compte."
+}

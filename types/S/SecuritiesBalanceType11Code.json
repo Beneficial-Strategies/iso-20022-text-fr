@@ -1,0 +1,118 @@
+{
+  "isoType": "SecuritiesBalanceType11Code",
+  "definition": "Précise la nature du solde de titres ou de parts de fonds de placement.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqué",
+      "definition": "Solde d'instruments financiers bloqués."
+    },
+    "AWAS": {
+      "name": "Disponible sans statut supplémentaire",
+      "definition": "Solde d'instruments financiers librement disponibles, sans statut supplémentaire spécifique."
+    },
+    "AVAI": {
+      "name": "Disponible",
+      "definition": "Solde d'instruments financiers qui sont disponibles."
+    },
+    "BLCA": {
+      "name": "Bloqué pour opération sur titres",
+      "definition": "Solde d'instruments financiers bloqués à la suite d'un événement sur titres, y compris les activités de vote par procuration."
+    },
+    "BLOT": {
+      "name": "Bloqué pour négociation",
+      "definition": "Solde d'instruments financiers bloqués pour la négociation."
+    },
+    "BLOV": {
+      "name": "Bloqué pour authenticité",
+      "definition": "Solde d'instruments financiers bloqués pour vérification de l'authenticité."
+    },
+    "BORR": {
+      "name": "Emprunté",
+      "definition": "Solde d'instruments financiers empruntés auprès d'une autre partie."
+    },
+    "COLI": {
+      "name": "Garantie reçue",
+      "definition": "Solde de titres appartenant à un tiers et détenus à des fins de garantie."
+    },
+    "COLO": {
+      "name": "Garantie remise",
+      "definition": "Solde de titres appartenant au compte-titres indiqué dans ce message et déposés auprès d'un tiers à des fins de garantie."
+    },
+    "COLA": {
+      "name": "Éligible à titre de garantie",
+      "definition": "Solde de titres éligibles à une utilisation à des fins de garantie."
+    },
+    "LOAN": {
+      "name": "En prêt",
+      "definition": "Prêt de consommation."
+    },
+    "MARG": {
+      "name": "Marge sur dérivés",
+      "definition": "Le compte est utilisé lorsque le financement est assuré par le courtier/teneur de marché."
+    },
+    "PECA": {
+      "name": "Réception d'opération sur titres en attente",
+      "definition": "Solde d'instrument financier en attente de réception à la suite d'un événement sur titres."
+    },
+    "PEDA": {
+      "name": "Livraison d'opération sur titres en attente",
+      "definition": "Solde d'instrument financier en attente de livraison à la suite d'un événement sur titres."
+    },
+    "PLED": {
+      "name": "Nanti",
+      "definition": "Solde de titres appartenant au compte de conservation indiqué dans ce message et conservés sur celui-ci, qui sont nantis."
+    },
+    "REGO": {
+      "name": "En cours d'enregistrement",
+      "definition": "Solde d'instruments financiers en cours de traitement par l'établissement chargé d'enregistrer le nouveau titulaire effectif (ou prête-nom)."
+    },
+    "RSTR": {
+      "name": "Restreint",
+      "definition": "Solde d'instruments financiers qui ne peuvent être vendus que sous certaines conditions ou qui nécessitent des documents juridiques."
+    },
+    "OTHR": {
+      "name": "Non classé",
+      "definition": "Autre. Voir Narrative."
+    },
+    "TRAN": {
+      "name": "En transbordement",
+      "definition": "L'opération a été générée à la suite d'une transformation consécutive à un événement sur titres."
+    },
+    "DRAW": {
+      "name": "Tiré",
+      "definition": "Les opérations de règlement concernent des titres tirés au sort."
+    },
+    "CLEN": {
+      "name": "Exonéré d'impôt",
+      "definition": "Les instruments financiers exonérés d'impôt doivent être réglés."
+    },
+    "DIRT": {
+      "name": "Non exonéré d'impôt",
+      "definition": "Les instruments financiers imposables doivent être réglés."
+    },
+    "NOMI": {
+      "name": "Nominatif",
+      "definition": "Solde d'instruments financiers enregistrés (au nom d'un prête-nom ou au nom du bénéficiaire effectif)."
+    },
+    "SPOS": {
+      "name": "Position en circulation",
+      "definition": "Solde d'instruments financiers qui restent enregistrés au nom du titulaire effectif précédent."
+    },
+    "UNRG": {
+      "name": "Non enregistré",
+      "definition": "Solde de titres n'ayant pu être enregistrés en raison d'une limitation de la détention par des étrangers."
+    },
+    "ISSU": {
+      "name": "Émis",
+      "definition": "Dans la communication entre l'agent émetteur et le dépositaire, solde d'instruments financiers émis pour lesquels la documentation juridique a été reçue."
+    },
+    "QUAS": {
+      "name": "Quasi émis",
+      "definition": "Dans la communication entre l'agent émetteur et le dépositaire, solde d'instruments financiers émis pour lesquels la documentation juridique n'a pas encore été reçue."
+    },
+    "LODE": {
+      "name": "Livraison de prêt en attente",
+      "definition": "Solde d'instruments financiers en attente de livraison dans le cadre d'une opération de prêt."
+    }
+  }
+}

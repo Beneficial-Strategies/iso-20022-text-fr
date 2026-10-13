@@ -1,0 +1,4 @@
+{
+  "isoType": "DeleteReservationV07",
+  "definition": "Portée|Le message DeleteReservation sert à demander la suppression d'une réservation donnée par le membre et gérée par l'administrateur des opérations.|Utilisation|La suppression d'une réservation dans le système ne ramène pas seulement les liquidités réservées à zéro, mais supprime également la réservation elle-même du système : seule la réservation par défaut pour le jour ouvrable en cours demeure dans le système."
+}

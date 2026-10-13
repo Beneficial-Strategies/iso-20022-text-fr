@@ -1,0 +1,18 @@
+{
+  "isoType": "PendingSettlementStatus3Choice",
+  "definition": "Motif du statut de règlement en attente.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motif du statut de règlement en attente."
+    },
+    "ExtendedReason": {
+      "definition": "Motif du statut de règlement en attente."
+    },
+    "DataSourceScheme": {
+      "definition": "Identification propriétaire du motif du statut de règlement en attente."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Indique qu'aucun motif n'est disponible ou à rapporter."
+    }
+  }
+}

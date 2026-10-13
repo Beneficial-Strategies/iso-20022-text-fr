@@ -1,0 +1,12 @@
+{
+  "isoType": "Frequency20Choice",
+  "definition": "Choix de formats pour la fréquence.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fréquence exprimée sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Fréquence exprimée sous forme de code propriétaire."
+    }
+  }
+}

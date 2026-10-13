@@ -1,0 +1,12 @@
+{
+  "isoType": "NetDividendRate2",
+  "definition": "Montant du dividende en espèces par action après que des déductions ou abattements ont été appliqués.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Type de titres sous-jacents auxquels le taux se rapporte, par exemple le titre sous-jacent pour lequel un intérêt est versé."
+    },
+    "Amount": {
+      "definition": "Valeur exprimée sous forme de montant."
+    }
+  }
+}

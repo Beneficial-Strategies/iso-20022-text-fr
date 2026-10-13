@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementType6Choice",
+  "definition": "Choix de format pour le type de relevé.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de relevé exprimé sous la forme d'un code ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Type de relevé exprimé sous la forme d'un code propriétaire."
+    }
+  }
+}

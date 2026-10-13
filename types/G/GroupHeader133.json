@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader133",
+  "definition": "Ensemble de caractéristiques communes à toutes les notifications individuelles incluses dans le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence point à point, attribuée par l'expéditeur et envoyée au destinataire pour identifier le message de façon non ambiguë.|Utilisation : l'expéditeur doit s'assurer que MessageIdentification est unique pour chaque destinataire pendant une période convenue au préalable."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "CashReceiver": {
+      "definition": "Partie qui demande le retrait d'espèces."
+    },
+    "CashSender": {
+      "definition": "Partie qui répond à la demande de retrait d'espèces."
+    },
+    "NumberOfRequests": {
+      "definition": "Nombre de demandes individuelles contenues dans le message."
+    },
+    "ControlSum": {
+      "definition": "Total de tous les montants individuels inclus dans le message, quelles que soient les devises."
+    }
+  }
+}

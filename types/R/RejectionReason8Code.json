@@ -1,0 +1,22 @@
+{
+  "isoType": "RejectionReason8Code",
+  "definition": "Précise le motif de rejet d'une demande de modification d'option choisie.",
+  "isoCodes": {
+    "NAMD": {
+      "name": "Modification non autorisée",
+      "definition": "La modification n'est pas autorisée."
+    },
+    "LATT": {
+      "name": "En retard",
+      "definition": "L'instruction/la demande arrive trop tard."
+    },
+    "ELEC": {
+      "name": "Choix déjà annulé",
+      "definition": "L'avis d'option choisie est déjà annulé."
+    },
+    "FAIL": {
+      "name": "Échec de la validation",
+      "definition": "La validation de l'avis/de l'instruction/de la demande a échoué."
+    }
+  }
+}

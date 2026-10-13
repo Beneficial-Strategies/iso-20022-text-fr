@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForInstructedAgent1",
+  "definition": "Informations complémentaires relatives au traitement de l'instruction de frais, auxquelles l'agent instruit peut devoir donner suite. L'instruction peut porter sur une instruction que l'agent instruit doit exécuter, ou constituer une information requise par l'agent instruit.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informations codées relatives au traitement de l'instruction de paiement, fournies par la partie initiatrice et destinées à l'agent instruit."
+    },
+    "InstructionInformation": {
+      "definition": "Informations complémentaires au code d'instruction ou à l'instruction destinée à l'agent instruit, convenues bilatéralement ou propres à une communauté d'utilisateurs."
+    }
+  }
+}

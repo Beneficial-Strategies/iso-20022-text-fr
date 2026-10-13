@@ -1,0 +1,42 @@
+{
+  "isoType": "AuthenticationMethod7Code",
+  "definition": "Méthode d'authentification du client ou de sa carte.",
+  "isoCodes": {
+    "TOKA": {
+      "name": "Jeton d'authentification",
+      "definition": "Un jeton est utilisé pour vérifier une authentification déjà effectuée."
+    },
+    "BIOM": {
+      "name": "Biométrie",
+      "definition": "Authentification biométrique du titulaire de la carte."
+    },
+    "MOBL": {
+      "name": "Mobile",
+      "definition": "Appareil mobile du client."
+    },
+    "OTHR": {
+      "name": "Autre",
+      "definition": "Autre authentification du client."
+    },
+    "FPIN": {
+      "name": "PIN hors ligne",
+      "definition": "Authentification par code PIN hors ligne (numéro d'identification personnel)."
+    },
+    "NPIN": {
+      "name": "PIN en ligne",
+      "definition": "Authentification par code PIN en ligne (numéro d'identification personnel)."
+    },
+    "PSWD": {
+      "name": "Mot de passe",
+      "definition": "Authentification par mot de passe."
+    },
+    "SCRT": {
+      "name": "Certificat sécurisé",
+      "definition": "Opération de commerce électronique sécurisée par le certificat X.509 d'un client."
+    },
+    "SCNL": {
+      "name": "Canal sécurisé",
+      "definition": "Opération chiffrée au niveau du canal."
+    }
+  }
+}

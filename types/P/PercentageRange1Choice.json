@@ -1,0 +1,21 @@
+{
+  "isoType": "PercentageRange1Choice",
+  "definition": "Choix entre des plages de taux dans lesquelles un taux en pourcentage est considéré comme valide ou un taux en pourcentage spécifié qui doit correspondre ou ne pas correspondre pour être valide.",
+  "isoElements": {
+    "From": {
+      "definition": "Borne inférieure d'une plage de taux en pourcentage."
+    },
+    "To": {
+      "definition": "Borne supérieure d'une plage de taux en pourcentage."
+    },
+    "FromTo": {
+      "definition": "Plage de taux en pourcentage valides."
+    },
+    "Equal": {
+      "definition": "Le taux en pourcentage exact doit correspondre pour être considéré comme valide."
+    },
+    "NotEqual": {
+      "definition": "Valeur à laquelle le taux en pourcentage ne doit pas correspondre pour être considéré comme valide."
+    }
+  }
+}

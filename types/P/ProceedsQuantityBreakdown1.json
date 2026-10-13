@@ -1,0 +1,12 @@
+{
+  "isoType": "ProceedsQuantityBreakdown1",
+  "definition": "Fournit des informations sur la ventilation des quantités.",
+  "isoElements": {
+    "TransferOfReceivedProceedsQuantity": {
+      "definition": "Quantité de titres issus du produit transférée à la suite de la réclamation de marché."
+    },
+    "CashCompensationQuantity": {
+      "definition": "Quantité de titres issus du produit compensée en espèces à la suite de la réclamation de marché."
+    }
+  }
+}

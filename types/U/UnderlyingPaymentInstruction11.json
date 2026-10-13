@@ -1,0 +1,44 @@
+{
+  "isoType": "UnderlyingPaymentInstruction11",
+  "definition": "Fournit des détails complémentaires sur l'initiation de paiement d'origine à laquelle se rapporte le message d'enquête.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Ensemble d'éléments utilisés pour fournir des informations sur le message d'origine."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Identification unique, attribuée par la partie émettrice d'origine, permettant d'identifier sans ambiguïté le groupe d'informations de paiement d'origine."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identification unique, attribuée par la partie instructrice d'origine à la partie instruite d'origine, permettant d'identifier sans ambiguïté l'instruction d'origine."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice d'origine, permettant d'identifier sans ambiguïté l'opération d'origine."
+    },
+    "OriginalUETR": {
+      "definition": "Identifiant unique universel fournissant la référence de bout en bout d'origine d'une opération de paiement."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Montant d'argent, tel que fourni dans l'opération d'origine, à transférer entre le débiteur et le créancier, avant déduction des frais, exprimé dans la devise demandée par la partie initiatrice d'origine."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Date à laquelle la partie initiatrice demande à la banque de compensation de traiter le paiement. |Utilisation : il s'agit de la date à laquelle le compte du débiteur doit être débité. Pour un paiement par chèque, il s'agit de la date à laquelle le chèque doit être émis par la banque."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Date à laquelle le créancier demande que le montant soit encaissé auprès du débiteur."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Éléments clés utilisés pour identifier l'opération d'origine à laquelle il est fait référence."
+    },
+    "OriginalServiceLevel": {
+      "definition": "Accord ou règles selon lesquels l'opération doit être traitée."
+    }
+  },
+  "isoRules": {
+    "OriginalIdentificationRule": {
+      "definition": "OriginalInstructionIdentification, OriginalEndToEndIdentification ou OriginalUETR doit être présent."
+    },
+    "OriginalRequestedDateRule": {
+      "definition": "RequestedExecutionDate ou RequestedCollectionDate doit être présent."
+    }
+  }
+}

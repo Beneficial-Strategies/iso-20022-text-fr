@@ -1,0 +1,14 @@
+{
+  "isoType": "PenaltyType1Code",
+  "definition": "Indique le type de pénalité.",
+  "isoCodes": {
+    "LMFP": {
+      "name": "Pénalité pour appariement tardif échoué",
+      "definition": "S'applique de la date de règlement prévue jusqu'à la date d'appariement.|La pénalité est imputée au participant qui a été le dernier à saisir ou à modifier l'instruction de règlement concernée (par exemple, l'« horodatage d'acceptation » est postérieur à celui de l'instruction de la contrepartie) pour les périodes comprises entre la date de règlement prévue et le jour d'appariement de l'instruction."
+    },
+    "SEFP": {
+      "name": "Pénalité pour échec de règlement",
+      "definition": "Les pénalités s'appliquent aux instructions qui ne sont pas réglées à la date de règlement prévue. Une instruction de règlement qui « n'est pas réglée ce jour ouvrable » s'entend d'une instruction de règlement qui n'est pas annulée et qui reste à régler, en totalité ou en partie, à la fin du|traitement de l'heure limite concernée."
+    }
+  }
+}

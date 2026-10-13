@@ -1,0 +1,12 @@
+{
+  "isoType": "ParticipationMethod3Choice",
+  "definition": "Choix entre une valeur de code prédéfinie ou une valeur de code propriétaire pour une méthode de participation au vote d'une assemblée générale.",
+  "isoElements": {
+    "Code": {
+      "definition": "Méthode de participation au vote de l'assemblée générale exprimée sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Méthode de participation au vote de l'assemblée générale exprimée sous forme de code propriétaire."
+    }
+  }
+}

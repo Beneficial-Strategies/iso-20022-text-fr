@@ -1,0 +1,12 @@
+{
+  "isoType": "AddressModification3",
+  "definition": "Précise le type de modification de l'adresse.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Précise le type de modification."
+    },
+    "Address": {
+      "definition": "Adresse postale."
+    }
+  }
+}

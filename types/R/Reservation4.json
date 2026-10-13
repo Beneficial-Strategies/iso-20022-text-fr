@@ -1,0 +1,12 @@
+{
+  "isoType": "Reservation4",
+  "definition": "Liquidités mises de côté par le titulaire du compte à des fins spécifiques.",
+  "isoElements": {
+    "StartDateTime": {
+      "definition": "Date et heure à laquelle la réservation prend effet."
+    },
+    "Amount": {
+      "definition": "Montant de la limite, exprimé dans une devise admissible."
+    }
+  }
+}

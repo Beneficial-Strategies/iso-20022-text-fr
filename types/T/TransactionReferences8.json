@@ -1,0 +1,27 @@
+{
+  "isoType": "TransactionReferences8",
+  "definition": "Identifie l'opération sous-jacente.",
+  "isoElements": {
+    "PaymentInformationIdentification": {
+      "definition": "Identification unique, attribuée par une partie émettrice, permettant d'identifier sans ambiguïté le groupe d'informations de paiement au sein du message."
+    },
+    "InstructionIdentification": {
+      "definition": "Identification unique, attribuée par une partie donneuse d'ordre à une partie destinataire de l'ordre, permettant d'identifier sans ambiguïté l'instruction.||Utilisation : l'identification de l'instruction est une référence de bout en bout entre la partie donneuse d'ordre et la partie destinataire de l'ordre, qui permet de désigner l'instruction individuelle. Elle peut figurer dans plusieurs messages relatifs à l'instruction."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identification unique, attribuée par la partie initiatrice, permettant d'identifier sans ambiguïté l'opération. Cette identification est transmise sans modification tout au long de la chaîne de bout en bout.||Utilisation : l'identification de bout en bout peut servir au rapprochement ou à relier des tâches relatives à l'opération. Elle peut figurer dans plusieurs messages relatifs à l'opération.||Utilisation : en cas de limitations techniques empêchant de transmettre plusieurs références, l'identification de bout en bout doit être transmise tout au long de la chaîne de bout en bout."
+    },
+    "TransactionIdentification": {
+      "definition": "Identification unique, attribuée par la première banque donneuse d'ordre, permettant d'identifier sans ambiguïté l'opération, transmise sans modification tout au long de la chaîne interbancaire. |Utilisation : l'identification de l'opération peut servir au rapprochement, au suivi ou à relier des tâches relatives à l'opération au niveau interbancaire. |Utilisation : la banque donneuse d'ordre doit s'assurer que l'identification de l'opération est unique pendant une période convenue au préalable."
+    },
+    "UETR": {
+      "definition": "Identifiant universellement unique fournissant une référence de bout en bout d'une opération de paiement."
+    },
+    "MandateIdentification": {
+      "definition": "Identification unique, attribuée par le créancier, permettant d'identifier sans ambiguïté le mandat."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Partie créditrice qui signe le mandat."
+    }
+  }
+}

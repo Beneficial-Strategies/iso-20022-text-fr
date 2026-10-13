@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionNarrative2",
+  "definition": "Fournit des informations supplémentaires sur l'événement CA.",
+  "isoElements": {
+    "InformationConditions": {
+      "definition": "Fournit des informations conditionnelles relatives à l'événement, par ex. une offre soumise à une acceptation de 50 %, l'offrant permettant au porteur de titres de fixer certaines conditions."
+    },
+    "InformationToComplyWith": {
+      "definition": "Fournit au titulaire du compte des informations sur les conditions à respecter, par ex. non ouvert aux résidents des US/du Canada, fourniture d'une attestation QIB ou SIL."
+    },
+    "TaxationConditions": {
+      "definition": "Fournit des conditions fiscales qui ne peuvent pas être incluses dans les champs structurés de ce message et qui n'ont pas été mentionnées dans le SLA."
+    },
+    "DeclarationDetails": {
+      "definition": "Fournit des détails narratifs de déclaration relatifs à l'instrument financier, par ex. la propriété effective."
+    },
+    "RegistrationDetails": {
+      "definition": "Fournit les informations requises pour l'inscription."
+    },
+    "AdditionalText": {
+      "definition": "Fournit des informations supplémentaires ou précise plus en détail le contenu d'un message."
+    }
+  }
+}

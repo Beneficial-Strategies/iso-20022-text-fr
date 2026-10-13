@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsolidationType1Choice",
+  "definition": "Choix de formats pour le type de consolidation.",
+  "isoElements": {
+    "Code": {
+      "definition": "Type de consolidation exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Type de consolidation exprimé sous forme de code propriétaire."
+    }
+  }
+}

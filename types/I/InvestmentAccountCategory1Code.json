@@ -1,0 +1,14 @@
+{
+  "isoType": "InvestmentAccountCategory1Code",
+  "definition": "Indique la catégorie du compte d'investissement.",
+  "isoCodes": {
+    "MAND": {
+      "name": "Compte sous mandat",
+      "definition": "Le compte est entièrement géré par l'établissement financier, c'est-à-dire qu'un investisseur donne à l'établissement financier un « mandat » d'exécuter en son nom une stratégie d'investissement convenue d'un commun accord."
+    },
+    "RETA": {
+      "name": "Compte de détail",
+      "definition": "Le compte est un compte standard géré par l'investisseur. L'investisseur donne ses instructions relatives au compte à l'établissement financier."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionCancellation3",
+  "definition": "Statut et raison de l'annulation de l'événement d'opération sur titres.",
+  "isoElements": {
+    "CancellationReasonCode": {
+      "definition": "Indique les raisons de l'annulation d'un événement d'opération sur titres."
+    },
+    "CancellationReason": {
+      "definition": "Informations supplémentaires sur l'annulation d'un événement d'opération sur titres."
+    },
+    "ProcessingStatus": {
+      "definition": "Indique le statut des détails de l'événement."
+    }
+  }
+}

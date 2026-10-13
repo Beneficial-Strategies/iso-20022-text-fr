@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionIdentification6",
+  "definition": "Fournit le type d'opération et des informations d'identification.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue du titulaire du compte (ou de la partie donneuse d'ordre gérant le compte)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identification sans ambiguïté de l'opération telle que connue de la banque teneur de compte."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identification d'une opération attribuée par une infrastructure de marché autre qu'un dépositaire central de titres, par exemple Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identification de l'opération attribuée par l'entité de traitement de l'instruction autre que le titulaire du compte, le teneur de compte et l'infrastructure de marché."
+    }
+  }
+}

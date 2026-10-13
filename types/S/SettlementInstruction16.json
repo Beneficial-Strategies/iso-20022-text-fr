@@ -1,0 +1,26 @@
+{
+  "isoType": "SettlementInstruction16",
+  "definition": "Fournit des détails complémentaires sur le règlement de l'instruction.",
+  "isoElements": {
+    "InstructingReimbursementAgent": {
+      "definition": "Agent par l'intermédiaire duquel l'agent instructeur remboursera l'agent instruit.|Utilisation : si InstructingAgent et InstructedAgent ont la même banque de remboursement, seul InstructingReimbursementAgent doit être utilisé."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque de remboursement de l'agent instructeur auprès de son teneur de compte dans la chaîne de paiement."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Agent auprès duquel l'agent instruit sera remboursé.|Utilisation : si InstructedReimbursementAgent contient une succursale de InstructedAgent, la partie indiquée dans InstructedAgent réclamera le remboursement à cette succursale ou sera payée par celle-ci.|Utilisation : si InstructingAgent et InstructedAgent ont la même banque de remboursement, seul InstructingReimbursementAgent doit être utilisé."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "definition": "Identification non ambiguë du compte de la banque de remboursement de l'agent instruit auprès de son teneur de compte dans la chaîne de paiement."
+    }
+  },
+  "isoRules": {
+    "InstructingReimbursementAgentAccountRule": {
+      "definition": "Si InstructingReimbursementAgentAcount est présent, InstructingReimbursementAgent doit être présent."
+    },
+    "InstructedReimbursementAgentAccountRule": {
+      "definition": "Si InstructedReimbursementAgentAccount est présent, InstructedReimbursementAgent doit être présent."
+    }
+  }
+}

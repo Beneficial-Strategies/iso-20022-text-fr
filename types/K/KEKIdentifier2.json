@@ -1,0 +1,18 @@
+{
+  "isoType": "KEKIdentifier2",
+  "definition": "Identification d'une clé de chiffrement de clé (KEK), utilisant une clé symétrique préalablement distribuée.",
+  "isoElements": {
+    "KeyIdentification": {
+      "definition": "Identification de la clé cryptographique."
+    },
+    "KeyVersion": {
+      "definition": "Version de la clé cryptographique."
+    },
+    "SequenceNumber": {
+      "definition": "Nombre d'utilisations de la clé cryptographique."
+    },
+    "DerivationIdentification": {
+      "definition": "Identification utilisée pour la dérivation d'une clé unique à partir d'une clé maîtresse fournie pour la protection des données."
+    }
+  }
+}

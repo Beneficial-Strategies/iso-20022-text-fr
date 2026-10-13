@@ -1,0 +1,15 @@
+{
+  "isoType": "Receipt7",
+  "definition": "Fournit des précisions sur la demande.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Identification du message de demande d'origine."
+    },
+    "OriginalPaymentIdentification": {
+      "definition": "Identification de l'opération d'origine, lorsque la demande pour laquelle l'accusé de réception est généré est une opération de paiement."
+    },
+    "RequestHandling": {
+      "definition": "Indique le statut de la demande."
+    }
+  }
+}

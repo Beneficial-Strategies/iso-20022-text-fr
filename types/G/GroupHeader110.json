@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader110",
+  "definition": "Ensemble de caractéristiques communes à toutes les opérations individuelles incluses dans le message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Référence de point à point, attribuée par la partie donneuse d'ordre et envoyée à la partie destinataire de l'instruction, permettant d'identifier sans ambiguïté le message.|Utilisation : la partie donneuse d'ordre doit s'assurer que MessageIdentification est unique par partie destinataire de l'instruction pendant une période convenue au préalable."
+    },
+    "CreationDateTime": {
+      "definition": "Date et heure auxquelles le message a été créé."
+    },
+    "Authorisation": {
+      "definition": "Identification de l'utilisateur ou toute clé d'utilisateur à utiliser pour vérifier l'habilitation de la partie initiatrice.||Utilisation : le contenu n'est pas de nature technique mais reflète l'organisation de la partie initiatrice. L'élément d'autorisation peut typiquement être utilisé dans des scénarios avec relais, des initiations de paiement, des retours de paiement ou des annulations de paiement initiés pour le compte d'une partie différente de la partie initiatrice."
+    },
+    "InitiatingParty": {
+      "definition": "Partie qui initie le message de mandat."
+    },
+    "InstructingAgent": {
+      "definition": "Banque qui charge la partie suivante de la chaîne d'exécuter une instruction.||Règle d'utilisation : |dans le cas des messages de demande de modification et d'annulation, la banque donneuse d'ordre est la partie qui envoie le message de demande de modification et d'annulation et non celle qui a envoyé le message de demande d'initiation de mandat d'origine.|Dans le cas du message de rapport d'acceptation, la banque donneuse d'ordre est la partie qui envoie le message de rapport d'acceptation et non celle qui a envoyé le message de demande de mandat d'origine."
+    },
+    "InstructedAgent": {
+      "definition": "Banque chargée par la partie précédente de la chaîne d'exécuter une instruction.||Règle d'utilisation : |dans le cas des messages de demande de modification et d'annulation, la banque destinataire de l'instruction est la partie qui reçoit le message de demande de modification et d'annulation et non celle qui a reçu le message de demande d'initiation de mandat d'origine.|Dans le cas du message de rapport d'acceptation, la banque destinataire de l'instruction est la partie qui reçoit le message de rapport d'acceptation et non celle qui a reçu le message de demande de mandat d'origine."
+    }
+  }
+}

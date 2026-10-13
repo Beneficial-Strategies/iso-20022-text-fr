@@ -1,0 +1,12 @@
+{
+  "isoType": "Charge26",
+  "definition": "Choix de formats pour le type de frais.",
+  "isoElements": {
+    "Type": {
+      "definition": "Type de frais."
+    },
+    "ChargeApplied": {
+      "definition": "Montant ou taux des frais appliqué."
+    }
+  }
+}

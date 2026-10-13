@@ -1,0 +1,41 @@
+{
+  "isoType": "CashAccountData1",
+  "definition": "Compte au débit ou au crédit duquel une écriture de trésorerie est passée.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nom du compte. Il constitue un moyen supplémentaire d'identification et est désigné par le teneur de compte en accord avec le titulaire du compte."
+    },
+    "Type": {
+      "definition": "Précise la nature, ou l'usage, du compte de trésorerie."
+    },
+    "Currency": {
+      "definition": "Précise la devise du compte de trésorerie."
+    },
+    "Proxy": {
+      "definition": "Précise un autre nom présumé servant à l'identification du compte."
+    },
+    "CurrentMultilateralLimit": {
+      "definition": "Montant maximal appliqué à ou par un participant vis-à-vis d'un ensemble de contreparties. Le système multilatéral est pris en compte par l'administrateur des opérations afin de contenir le risque dans le système.|Au moyen de la limite multilatérale, le participant direct restreint l'utilisation de liquidités lors de la compensation de paiements avec tous les autres participants directs pour lesquels aucune limite bilatérale n'a été fixée."
+    },
+    "Owner": {
+      "definition": "Titulaire du compte faisant l'objet de la requête."
+    },
+    "Servicer": {
+      "definition": "Teneur du compte faisant l'objet de la requête."
+    },
+    "MultilateralBalance": {
+      "definition": "Le solde est calculé à l'égard de plusieurs membres du système."
+    },
+    "CurrentBilateralLimit": {
+      "definition": "Limite fixée par une partie A à l'égard d'une contrepartie B déterminée et correspondant au montant maximal de flux que la partie A peut envoyer à la partie B. La limite bilatérale peut être exprimée sous forme de limite de débit ou de limite de crédit. |Au moyen d'une limite bilatérale, le participant direct restreint l'utilisation de liquidités lors de la compensation de paiements avec un autre participant direct."
+    },
+    "StandingOrder": {
+      "definition": "Instruction donnée par une partie ayant explicitement le pouvoir d'instruire un débit sur le compte, c'est-à-dire le débiteur ou la partie à l'origine, à la banque du débiteur, afin de traiter des transferts de liquidités à intervalles déterminés pendant une période implicite ou explicite. Un ordre permanent est donné une seule fois et est valable pour une période ouverte ou fermée."
+    }
+  },
+  "isoRules": {
+    "BilateralBalanceRule": {
+      "definition": "Si MultilateralBalance n'est pas présent, au moins une occurrence de CurrentBilateralLimit/BilateralBalance doit être présente.|Si MultilateralBalance est présent, toute occurrence de CurrentBilateralLimit/BilateralBalance est facultative."
+    }
+  }
+}

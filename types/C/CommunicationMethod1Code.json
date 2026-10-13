@@ -1,0 +1,26 @@
+{
+  "isoType": "CommunicationMethod1Code",
+  "definition": "Méthode de communication utilisée pour la transmission de documents.",
+  "isoCodes": {
+    "SWMT": {
+      "name": "SWIFT MT",
+      "definition": "Transmission par Swift (FIN)."
+    },
+    "SWMX": {
+      "name": "SWIFT MX",
+      "definition": "Transmission par SWIFTNET."
+    },
+    "FAXI": {
+      "name": "Télécopie",
+      "definition": "Transmission par télécopie."
+    },
+    "EMAL": {
+      "name": "Courriel",
+      "definition": "Transmission par courrier électronique."
+    },
+    "PROP": {
+      "name": "Propriétaire",
+      "definition": "Transmission par méthode propriétaire."
+    }
+  }
+}

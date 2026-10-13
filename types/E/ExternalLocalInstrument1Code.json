@@ -1,0 +1,461 @@
+{
+  "isoType": "ExternalLocalInstrument1Code",
+  "isoCodes": {
+    "19": {
+      "name": "Prélèvement entreprise vers client",
+      "definition": "L'opération se rapporte à un prélèvement entreprise-client (CSB19)."
+    },
+    "58": {
+      "name": "Prélèvement interentreprises",
+      "definition": "L'opération se rapporte à un prélèvement interentreprises (CSB58)."
+    },
+    "60": {
+      "name": "Lettre de change ou billet à ordre recouvré",
+      "definition": "LCR - Lettre de Change Relevé (effet de commerce relevé) et BOR - Billet à Ordre Relevé (billet à ordre)"
+    },
+    "82": {
+      "name": "Prélèvement non préautorisé (AT)",
+      "definition": "L'opération se rapporte à un prélèvement non préautorisé (Einzugsermächtigung)."
+    },
+    "83": {
+      "name": "Prélèvement préautorisé (AT)",
+      "definition": "L'opération se rapporte à un prélèvement préautorisé (Abbuchungsauftrag)."
+    },
+    "85": {
+      "name": "Prélèvement préautorisé, Accéléré (compensation accélérée à 2 jours), Ordinaire (compensation normale à 4 jours)",
+      "definition": "L'opération se rapporte à un prélèvement urgent préautorisé (Avis de Prélèvement accéléré)."
+    },
+    "89": {
+      "name": "Prélèvement préautorisé, Vérifié (compensation vérifiée)",
+      "definition": "L'opération se rapporte à un prélèvement urgent préautorisé (Avis de Prélèvement vérifié)."
+    },
+    "0090": {
+      "name": "Paiement de masse, frais à la charge du bénéficiaire",
+      "definition": "L'opération est liée à un bénéficiaire de paiement de masse."
+    },
+    "0091": {
+      "name": "Paiement de masse, frais à notre charge",
+      "definition": "L'opération est liée à un paiement de masse à frais ours."
+    },
+    "0092": {
+      "name": "Paiement de masse, frais partagés",
+      "definition": "L'opération est liée à un paiement de masse à frais partagés."
+    },
+    "0002": {
+      "name": "Ordre permanent",
+      "definition": "L'opération est liée à un ordre permanent."
+    },
+    "0221": {
+      "name": "Autorisation ponctuelle",
+      "definition": "L'opération est liée à une autorisation ponctuelle."
+    },
+    "0224": {
+      "name": "Autorisation ponctuelle (organisations caritatives)",
+      "definition": "L'opération est liée à une autorisation ponctuelle pour des organismes caritatifs."
+    },
+    "0226": {
+      "name": "Autorisation ponctuelle (secteur de la construction)",
+      "definition": "L'opération est liée à une autorisation ponctuelle pour le secteur de la construction."
+    },
+    "0225": {
+      "name": "Autorisation ponctuelle (frais de scolarité)",
+      "definition": "L'opération est liée à une autorisation ponctuelle pour des frais de scolarité."
+    },
+    "0222": {
+      "name": "Autorisation permanente (entreprises)",
+      "definition": "L'opération est liée à une autorisation permanente pour des entreprises."
+    },
+    "0227": {
+      "name": "Autorisation permanente (entreprises, sans droit de révocation du débiteur)",
+      "definition": "L'opération est liée à une autorisation permanente pour des entreprises sans droit de révocation du débiteur."
+    },
+    "0220": {
+      "name": "Autorisation permanente (générale)",
+      "definition": "L'opération est liée à une autorisation permanente générale."
+    },
+    "0223": {
+      "name": "Autorisation permanente (loteries)",
+      "definition": "L'opération est liée à une autorisation permanente pour des loteries."
+    },
+    "0001": {
+      "name": "Paiement bancaire converti",
+      "definition": "L'opération est liée à un paiement (bancaire) converti.|Conversion d'un instrument physique en forme électronique pour transmission à la banque payeuse, le document papier original ne poursuivant pas le circuit de compensation. Les règles applicables à l'instrument changent lors de la conversion."
+    },
+    "0000": {
+      "name": "Paiement commercial",
+      "definition": "L'opération est liée à un paiement commercial"
+    },
+    "BTR": {
+      "name": "Virement bancaire",
+      "definition": "L'opération est liée à un virement bancaire."
+    },
+    "CKS": {
+      "name": "Chèque, virement avec règlement le jour même",
+      "definition": "L'opération est liée à un virement télégraphique de règlement le jour même d'un chèque."
+    },
+    "CTR": {
+      "name": "Virement client",
+      "definition": "L'opération est liée à un virement client."
+    },
+    "CTP": {
+      "name": "Virement client Plus",
+      "definition": "L'opération est liée à un virement client, pouvant comporter des informations relatives à un paiement de couverture ou des informations de remise étendues."
+    },
+    "DEP": {
+      "name": "Dépôt sur le compte de l'émetteur",
+      "definition": "L'opération est liée à un dépôt sur le compte de l'expéditeur."
+    },
+    "FFR": {
+      "name": "Fed Funds rendus",
+      "definition": "L'opération est liée à des fonds Fed restitués."
+    },
+    "FFS": {
+      "name": "Fed Funds vendus",
+      "definition": "L'opération est liée à des fonds Fed vendus."
+    },
+    "SVC": {
+      "name": "Message de service sans valeur",
+      "definition": "L'opération est liée à un message de service sans valeur."
+    },
+    "DRW": {
+      "name": "Réponse à une demande de tirage avec valeur pour honorer la demande",
+      "definition": "L'opération est liée à une réponse à une demande de prélèvement (avec valeur) pour honorer une demande de prélèvement."
+    },
+    "DRB": {
+      "name": "Demande ou réponse de tirage interbancaire sans valeur",
+      "definition": "L'opération est liée à une demande ou une réponse de prélèvement interbancaire (sans valeur)"
+    },
+    "DRC": {
+      "name": "Demande ou réponse de tirage client ou entreprise sans valeur",
+      "definition": "L'opération est liée à une demande ou une réponse de prélèvement client ou entreprise (sans valeur)."
+    },
+    "DDMC": {
+      "name": "Prélèvement, mandat électronique confirmé",
+      "definition": "L'opération est liée à une instruction de prélèvement autorisée dans le cadre d'un mandat électronique confirmé."
+    },
+    "DDMP": {
+      "name": "Prélèvement, mandat papier avec autorisation papier",
+      "definition": "L'opération est liée à une instruction de prélèvement autorisée dans le cadre d'un mandat papier, étayé par une autorisation papier signée par le débiteur."
+    },
+    "DDMU": {
+      "name": "Prélèvement, mandat électronique non confirmé",
+      "definition": "L'opération est liée à une instruction de prélèvement autorisée dans le cadre d'un mandat électronique non confirmé nécessitant une confirmation par le débiteur."
+    },
+    "BPA": {
+      "name": "Paiements par lots (Aruba)",
+      "definition": "L'opération est liée à un virement instantané selon les règles de la Centrale Bank van Aruba, fondé sur le schéma EPC SCT Inst, avec un délai d'expiration spécifique pour les lots."
+    },
+    "IPA": {
+      "name": "Paiements instantanés (Aruba)",
+      "definition": "L'opération est liée à un virement instantané selon les règles de la Centrale Bank van Aruba, fondé sur le schéma EPC SCT Inst."
+    },
+    "TRF": {
+      "name": "Virements",
+      "definition": "L'opération est liée à des virements"
+    },
+    "CPP": {
+      "name": "Espèces par courrier",
+      "definition": "L'opération se rapporte à un envoi d'espèces par voie postale.|Opération à destination d'un bénéficiaire final ne disposant pas de compte bancaire. Le bénéficiaire principal est un prestataire de services postaux. Les fonds sont versés en espèces. Les informations complémentaires nécessaires concernant l'adresse et les modalités de livraison doivent être jointes."
+    },
+    "RTR": {
+      "name": "Virements retournés",
+      "definition": "L'opération se rapporte à des virements retournés."
+    },
+    "GST": {
+      "name": "Virements tronqués",
+      "definition": "L'opération se rapporte à des virements tronqués.|Conversion d'un instrument physique en format électronique en vue de sa transmission à la banque payeuse, le document papier d'origine ne poursuivant pas son parcours dans le circuit de compensation..Les règles de l'instrument d'origine sont maintenues pendant toute la durée de vie de l'instrument.|Opération déclenchée par un bordereau papier spécifiquement marqué et renseigné.|La référence de rapprochement est sécurisée par des chiffres de contrôle permettant une reconnaissance optique fiable. Toutes les autres informations de remise sont tronquées avant la transmission."
+    },
+    "DDT": {
+      "name": "Prélèvements",
+      "definition": "L'opération se rapporte à des prélèvements."
+    },
+    "RDD": {
+      "name": "Prélèvements retournés",
+      "definition": "L'opération se rapporte à des prélèvements retournés."
+    },
+    "CHN": {
+      "name": "Chèques tronqués",
+      "definition": "L'opération se rapporte à des chèques tronqués.|Conversion d'un instrument physique en format électronique en vue de sa transmission à la banque payeuse, le document papier d'origine ne poursuivant pas son parcours dans le circuit de compensation..Les règles de l'instrument d'origine sont maintenues pendant toute la durée de vie de l'instrument."
+    },
+    "STR": {
+      "name": "Virements révoqués",
+      "definition": "L'opération se rapporte à des virements révoqués"
+    },
+    "SDD": {
+      "name": "Prélèvements révoqués",
+      "definition": "L'opération se rapporte à des prélèvements révoqués."
+    },
+    "SRT": {
+      "name": "Virements retournés révoqués",
+      "definition": "L'opération se rapporte à des virements retournés révoqués"
+    },
+    "SRD": {
+      "name": "Prélèvements retournés révoqués",
+      "definition": "L'opération se rapporte à des prélèvements retournés révoqués."
+    },
+    "SCN": {
+      "name": "Chèques tronqués révoqués",
+      "definition": "L'opération se rapporte à des chèques tronqués révoqués."
+    },
+    "SGT": {
+      "name": "Virements tronqués révoqués",
+      "definition": "L'opération se rapporte à des virements tronqués révoqués."
+    },
+    "CARD": {
+      "name": "Compensation de cartes",
+      "definition": "L'opération se rapporte à une compensation de cartes."
+    },
+    "05": {
+      "name": "Prélèvement non préautorisé (DE)",
+      "definition": "L'opération se rapporte à un prélèvement non préautorisé (Einzugsermächtigung)."
+    },
+    "04": {
+      "name": "Prélèvement préautorisé (DE)",
+      "definition": "L'opération se rapporte à un prélèvement préautorisé (Abbuchungsauftrag)."
+    },
+    "ISE": {
+      "name": "Encaissement de chèques par image",
+      "definition": "L'opération se rapporte à la procédure allemande d'encaissement de chèques sur image « Imagegestützter Scheckeinzug - ISE »"
+    },
+    "BSE": {
+      "name": "Encaissement de chèques dématérialisé",
+      "definition": "L'opération se rapporte à la procédure allemande d'encaissement dématérialisé de chèques « Belegloser Scheckeinzug - BSE »"
+    },
+    "ASTI": {
+      "name": "Initiation de virement de système auxiliaire",
+      "definition": "Indique que le paiement est envoyé par un tiers autorisé pour le compte du participant."
+    },
+    "BACP": {
+      "name": "Paiement de secours",
+      "definition": "Indique que le paiement a été initié manuellement au moyen d'une GUI (Graphical User Interface, interface utilisateur graphique)."
+    },
+    "MANP": {
+      "name": "Paiement mandaté",
+      "definition": "Indique que le paiement est envoyé par la banque centrale responsable pour le compte du participant en cas de contingence."
+    },
+    "SBTI": {
+      "name": "Initiation de virement de banque de règlement",
+      "definition": "Indique que le paiement est soumis pour transférer des liquidités vers le compte technique dédié au règlement en temps réel dans un système externe (par exemple un système auxiliaire). Le paiement est traité dans une file d'attente de paiements distincte, en dehors du traitement normal."
+    },
+    "08": {
+      "name": "Prélèvement préautorisé, Ordinaire (compensation normale à 4 jours)",
+      "definition": "L'opération se rapporte à un prélèvement préautorisé (Avis de Prélèvement)."
+    },
+    "RIBA": {
+      "name": "Prélèvement non préautorisé (RIBA)",
+      "definition": "L'opération se rapporte à un encaissement non préautorisé (RIBA)."
+    },
+    "RIDO": {
+      "name": "Prélèvement préautorisé révocable",
+      "definition": "L'opération se rapporte à un prélèvement préautorisé et révocable (RID Ordinario)."
+    },
+    "RIDV": {
+      "name": "Prélèvement préautorisé révocable urgent",
+      "definition": "L'opération se rapporte à un prélèvement urgent préautorisé et révocable (RID Veloce)."
+    },
+    "IDEAL": {
+      "name": "Paiements par Internet détenus par Currence",
+      "definition": "L'opération se rapporte à des paiements par internet relevant de Currence."
+    },
+    "INSTNT01": {
+      "name": "Virement instantané non critique en délai",
+      "definition": "L'opération se rapporte à un virement ordinaire qui sera traité instantanément dans le cadre du AOS néerlandais, en complément du schéma EPC SCT."
+    },
+    "INSTTC01": {
+      "name": "Virement instantané critique en délai",
+      "definition": "L'opération se rapporte à un virement instantané conforme aux règles du AOS néerlandais, en complément du schéma EPC SCT Inst."
+    },
+    "INSTIDEAL": {
+      "name": "Paiements par Internet détenus par Currence via virement instantané",
+      "definition": "L'opération se rapporte à des paiements par internet relevant de Currence, utilisant un virement instantané."
+    },
+    "INSTNT01IDEAL": {
+      "name": "Paiements par Internet détenus par Currence via virement instantané non critique en délai",
+      "definition": "L'opération se rapporte à des paiements par internet relevant de Currence, utilisant un virement ordinaire qui sera traité instantanément dans le cadre du AOS néerlandais, en complément du schéma EPC SCT."
+    },
+    "INSTTC01IDEAL": {
+      "name": "Paiements par Internet détenus par Currence via virement instantané critique en délai",
+      "definition": "L'opération se rapporte à des paiements par internet relevant de Currence, utilisant un virement instantané conforme aux règles du AOS néerlandais, en complément du schéma EPC SCT Inst."
+    },
+    "NLDO": {
+      "name": "Paiement de masse national néerlandais",
+      "definition": "L'opération se rapporte à un paiement national initié par PAIN.001"
+    },
+    "NLUP": {
+      "name": "Paiement urgent néerlandais",
+      "definition": "L'opération se rapporte à un paiement national initié par PAIN.001"
+    },
+    "SDN": {
+      "name": "Paiements via Standaard Digitale Nota",
+      "definition": "L'opération se rapporte à des paiements par le biais d'un paiement InvoiceAcceptgiro « Standaard Digitale Nota »."
+    },
+    "ACCEPT": {
+      "name": "Paiement via Acceptgiro détenu par Currence",
+      "definition": "L'opération se rapporte à des paiements par Acceptgiro relevant de Currence."
+    },
+    "ICMC": {
+      "name": "Correction de gestion d'incident",
+      "definition": "L'opération se rapporte à une procédure de correction de gestion des incidents fondée sur l'infrastructure de prélèvement (DD)."
+    },
+    "NLGOV": {
+      "name": "Prélèvement initié par l'administration avec conditions spéciales",
+      "definition": "L'opération se rapporte à un schéma de prélèvement relevant de la NVB."
+    },
+    "IN": {
+      "name": "Virement client transfrontalier",
+      "definition": "L'opération se rapporte à un virement client transfrontalier."
+    },
+    "ONCL": {
+      "name": "Nuitée",
+      "definition": "L'opération se rapporte à une compensation de nuit."
+    },
+    "PERI": {
+      "name": "Paiement avec ERI",
+      "definition": "Le virement contient des informations de remise étendues (ERI) telles que définies dans le schéma applicable."
+    },
+    "SDCL": {
+      "name": "Paiements compensés le jour même",
+      "definition": "L'opération se rapporte à des paiements en compensation le jour même du système néo-zélandais de compensation des paiements de montant élevé (HVCS)."
+    },
+    "DDNR": {
+      "name": "Core sans remboursement",
+      "definition": "Prélèvement SEPA Core avec option « sans remboursement »"
+    },
+    "DDFA": {
+      "name": "Prélèvement à montant fixe",
+      "definition": "Prélèvement SEPA à montant fixe"
+    },
+    "CORE": {
+      "name": "Prélèvement SEPA Core",
+      "definition": "L'opération se rapporte à un prélèvement SEPA Core."
+    },
+    "B2BAMIPM": {
+      "name": "Prélèvement SEPA B2B AMI",
+      "definition": "Prélèvement SEPA B2B AMI fondé sur un mandat papier"
+    },
+    "B2B": {
+      "name": "Prélèvement SEPA interentreprises",
+      "definition": "L'opération se rapporte à un prélèvement SEPA interentreprises."
+    },
+    "CR1AMIPM": {
+      "name": "Prélèvement SEPA Core D-1 AMI",
+      "definition": "Cycle de traitement raccourci facultatif (J-1) pour un prélèvement SEPA Core AMI fondé sur un mandat papier"
+    },
+    "CORAMIPM": {
+      "name": "Prélèvement SEPA Core AMI",
+      "definition": "Prélèvement SEPA Core AMI fondé sur un mandat papier"
+    },
+    "COR1": {
+      "name": "Prélèvement SEPA avec règlement à 1 jour",
+      "definition": "Cycle de traitement raccourci facultatif (J-1) pour un prélèvement SEPA Core"
+    },
+    "FADAMIPM": {
+      "name": "Prélèvement SEPA FA AMI",
+      "definition": "Prélèvement SEPA à montant fixe AMI fondé sur un mandat papier"
+    },
+    "CLSCCPERX": {
+      "name": "FX compensé par CLS pour Eurex",
+      "definition": "L'opération se rapporte au service CLSClearedFX pour Eurex.  |Utilisation : le code est obligatoire pour tous les paiements pacs.009 destinés à ce service."
+    },
+    "CLSCCPLCH": {
+      "name": "FX compensé par CLS pour LCH",
+      "definition": "L'opération se rapporte au service CLSClearedFX pour London Exchange Clearing House. |Utilisation : le code est obligatoire pour tous les paiements pacs.009 destinés à ce service."
+    },
+    "INST": {
+      "name": "Virement instantané",
+      "definition": "L'opération se rapporte à un virement instantané.|Exemple de cas d'utilisation : virement instantané SEPA (SCT Inst)"
+    },
+    "ADD": {
+      "name": "Prélèvement authentifié",
+      "definition": "L'opération est un prélèvement authentifié à usage national."
+    },
+    "UDD": {
+      "name": "Prélèvement non authentifié",
+      "definition": "L'opération est un prélèvement non authentifié à usage national."
+    },
+    "CCI": {
+      "name": "Centralisation de trésorerie intragroupe",
+      "definition": "L'opération se rapporte à un paiement de gestion de trésorerie intragroupe initié par la banque."
+    },
+    "IAT": {
+      "name": "ACH international",
+      "definition": "L'opération se rapporte à l'ACH international."
+    },
+    "CCD": {
+      "name": "Centralisation ou décaissement de trésorerie, contrepartie entreprise",
+      "definition": "L'opération se rapporte à une concentration ou un décaissement de trésorerie avec une contrepartie entreprise."
+    },
+    "CTX": {
+      "name": "Échange commercial entre entreprises",
+      "definition": "L'opération se rapporte à un échange commercial entre entreprises (corporate trade exchange)."
+    },
+    "PPD": {
+      "name": "Paiement ou dépôt préconvenu, contrepartie consommateur",
+      "definition": "L'opération se rapporte à un paiement ou un dépôt préconvenu avec une contrepartie consommateur."
+    },
+    "CIE": {
+      "name": "Écriture initiée par le client",
+      "definition": "Une écriture de crédit initiée par ou pour le compte du titulaire d'un compte de consommateur"
+    },
+    "RCK": {
+      "name": "Écriture de chèque représenté",
+      "definition": "L'opération se rapporte à une écriture de chèque représenté."
+    },
+    "ARC": {
+      "name": "Chèque de comptes clients",
+      "definition": "L'opération se rapporte à un chèque relatif à des comptes clients."
+    },
+    "WEB": {
+      "name": "Écriture initiée par Internet",
+      "definition": "L'opération se rapporte à une écriture initiée par internet."
+    },
+    "POP": {
+      "name": "Point d'achat",
+      "definition": "L'opération se rapporte à un point d'achat."
+    },
+    "POS": {
+      "name": "Point de vente",
+      "definition": "L'opération se rapporte à un point de vente."
+    },
+    "TEL": {
+      "name": "Écriture initiée par téléphone",
+      "definition": "L'opération se rapporte à une écriture initiée par téléphone."
+    },
+    "ITP": {
+      "name": "Virement instantané préféré",
+      "definition": "Paiement par virement instantané, mais un virement ordinaire est également possible."
+    },
+    "MDP": {
+      "name": "Paiement sur plusieurs jours",
+      "definition": "Type de paiement de la New Payments Architecture (NPA). Les paiements sont traités sur un cycle de trois jours et mis à la disposition des clients tôt le matin du jour 3."
+    },
+    "IMD": {
+      "name": "Paiement immédiat",
+      "definition": "Type de paiement utilisé dans la New Payments Architecture (UK). Les paiements immédiats sont utilisés pour les paiements initiés par les clients via des canaux tels que la banque en ligne, mobile ou téléphonique, lorsque le client souhaite que le paiement soit effectué immédiatement."
+    },
+    "SOP": {
+      "name": "Paiement par ordre permanent",
+      "definition": "Les ordres permanents sont des paiements réguliers d'un montant fixe versés au même bénéficiaire à une date déterminée, par exemple pour payer un loyer."
+    },
+    "FDP": {
+      "name": "Paiement à date future",
+      "definition": "Type de paiement utilisé dans la New Payments Architecture (UK). Les paiements à date future sont des paiements ponctuels envoyés et reçus à une date convenue à l'avance, programmés au préalable par le client, par exemple pour régler une facture."
+    },
+    "NACH": {
+      "name": "Compensation NACH",
+      "definition": "Paiement via la compensation indienne NACH (règlement net)."
+    },
+    "NEFT": {
+      "name": "Compensation NEFT",
+      "definition": "Paiement via la compensation indienne NEFT (règlement net)."
+    },
+    "IMPS": {
+      "name": "Compensation IMPS",
+      "definition": "Paiement instantané via le système de compensation indien IMPS."
+    },
+    "IUPI": {
+      "name": "Compensation UPI",
+      "definition": "Paiement instantané via le système de compensation indien UPI."
+    }
+  }
+}

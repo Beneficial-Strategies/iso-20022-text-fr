@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedReason16Choice",
+  "definition": "Choix de formats pour la spécification du motif de rejet.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif de rejet exprimé sous forme de code."
+    },
+    "Proprietary": {
+      "definition": "Motif de rejet exprimé sous forme de code propriétaire."
+    }
+  }
+}

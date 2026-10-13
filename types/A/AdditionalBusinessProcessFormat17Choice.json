@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalBusinessProcessFormat17Choice",
+  "definition": "Choix entre un code standard et un code propriétaire pour préciser le type du processus métier supplémentaire.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard pour préciser le processus métier supplémentaire lié à un événement d'opération sur titres."
+    },
+    "Proprietary": {
+      "definition": "Identification propriétaire du processus métier supplémentaire lié à un événement d'opération sur titres."
+    }
+  }
+}

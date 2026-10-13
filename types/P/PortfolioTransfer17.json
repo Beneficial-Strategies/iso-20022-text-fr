@@ -1,0 +1,21 @@
+{
+  "isoType": "PortfolioTransfer17",
+  "definition": "Type de produit et d’actifs à transférer.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identifiant unique et non ambigu d'un groupe de transferts individuels, attribué par la partie donneuse d'ordre. Cet identifiant relie les transferts individuels entre eux."
+    },
+    "TransferIdentification": {
+      "definition": "Identification attribuée au transfert d’actifs."
+    },
+    "Portfolio": {
+      "definition": "Choix d’un produit fiscalement avantageux, d’un investissement général ou d’une retraite."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "definition": "Actif à transférer."
+    },
+    "AdditionalInformation": {
+      "definition": "Informations complémentaires sur le transfert de produit."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification2Choice",
+  "definition": "Choix entre l'identification d'un compte espèces ou d'un compte titres.",
+  "isoElements": {
+    "CashAccountIdentification": {
+      "definition": "Identification d'un compte espèces."
+    },
+    "SecuritiesAccountIdentification": {
+      "definition": "Identification d'un compte titres."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Proxy11",
+  "definition": "Identification d'un mandataire désigné pour représenter une partie autorisée à voter à une assemblée d'actionnaires.",
+  "isoElements": {
+    "ProxyType": {
+      "definition": "Type de mandataire."
+    },
+    "PersonDetails": {
+      "definition": "Personne, autre que le président de l'assemblée, désignée par le porteur de titres comme mandataire."
+    }
+  }
+}

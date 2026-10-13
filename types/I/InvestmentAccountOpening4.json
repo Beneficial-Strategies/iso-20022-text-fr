@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestmentAccountOpening4",
+  "definition": "Informations sur le type d'instruction d'ouverture et l'identification de la demande de souscription.",
+  "isoElements": {
+    "OpeningType": {
+      "definition": "Précise si l'instruction d'ouverture de compte concerne un compte nouvellement créé ou un compte complémentaire."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Identifiant unique et non ambigu de la demande d'ouverture de compte au niveau applicatif."
+    },
+    "ClientReference": {
+      "definition": "Identification unique et non ambiguë d'une opération, par exemple un transfert, telle qu'attribuée par l'investisseur ou le titulaire du compte."
+    },
+    "CounterpartyReference": {
+      "definition": "Identification non ambiguë de l'opération, par exemple un transfert, telle qu'attribuée par la contrepartie."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Compte auquel se rapporte l'ouverture de compte."
+    }
+  }
+}

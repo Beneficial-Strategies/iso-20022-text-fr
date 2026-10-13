@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason6Format2Choice",
+  "definition": "Choix de formats pour exprimer le motif d'un rejet de l'avis de notification.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard permettant de préciser le motif d'un rejet de l'avis de notification."
+    },
+    "Proprietary": {
+      "definition": "Code propriétaire permettant d'exprimer le motif d'un rejet de l'avis de notification."
+    }
+  }
+}

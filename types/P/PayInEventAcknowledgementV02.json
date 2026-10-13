@@ -1,0 +1,12 @@
+{
+  "isoType": "PayInEventAcknowledgementV02",
+  "definition": "Le message PayInEventAcknowledgement est envoyé par un participant d'un système central au système central pour confirmer qu'un PayInSchedule ou un PayInCall a été reçu.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identifiant unique et non ambigu du message, attribué par l'expéditeur."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Indique la session de règlement CLS demandée à laquelle appartient la transaction concernée."
+    }
+  }
+}

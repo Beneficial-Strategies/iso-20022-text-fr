@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAccountIdentification14Choice",
+  "definition": "Identifiant unique d'un compte, tel qu'attribué par le teneur de compte.",
+  "isoElements": {
+    "IBAN": {
+      "definition": "Numéro de compte bancaire international (IBAN) - identifiant utilisé internationalement par les établissements financiers pour identifier de manière unique le compte d'un client. Des spécifications supplémentaires sur le format et le contenu de l'IBAN figurent dans la norme ISO 13616 « Services bancaires et services financiers connexes - Numéro de compte bancaire international (IBAN) » version du 1997-10-01, ou révisions ultérieures."
+    },
+    "BlockChainCashWallet": {
+      "definition": "Portefeuille blockchain (wallet) dans lequel sont conservées les monnaies numériques. Il est l'équivalent d'un compte espèces pour les monnaies numériques."
+    },
+    "Proprietary": {
+      "definition": "Identifiant unique d'un compte. Il est attribué par le teneur de compte selon un schéma d'identification propriétaire."
+    }
+  }
+}

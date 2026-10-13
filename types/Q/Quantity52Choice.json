@@ -1,0 +1,15 @@
+{
+  "isoType": "Quantity52Choice",
+  "definition": "Choix entre différents formats de quantité de titres.",
+  "isoElements": {
+    "Code": {
+      "definition": "Code standard précisant la quantité d'un instrument financier."
+    },
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Valeur nominale et valeur amortie du titre."
+    },
+    "Quantity": {
+      "definition": "Quantité d'instrument financier en unités, en montant nominal d'origine ou en montant nominal actuel."
+    }
+  }
+}

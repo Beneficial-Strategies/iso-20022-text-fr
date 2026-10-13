@@ -1,0 +1,66 @@
+{
+  "isoType": "StandingOrder11",
+  "definition": "Définit les attributs détaillés d'un ordre permanent.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montant et devise à transférer lorsqu'une instruction de paiement est créée à la suite d'un ordre permanent."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Précise si le compte est débité ou crédité par l'ordre permanent."
+    },
+    "Currency": {
+      "definition": "Identification unique et non équivoque d'un ordre permanent, attribuée par le teneur de compte ou le titulaire du compte."
+    },
+    "Type": {
+      "definition": "Type de l'ordre permanent."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Compte d'origine ou de destination du transfert de liquidités au sein du groupe de comptes gérés par le demandeur."
+    },
+    "Reference": {
+      "definition": "Identification unique et non équivoque d'un ordre permanent, attribuée par le teneur de compte ou le titulaire du compte."
+    },
+    "Frequency": {
+      "definition": "Régularité avec laquelle les instructions de paiement doivent être créées et traitées à la suite de l'ordre permanent, par exemple quotidienne, hebdomadaire ou mensuelle."
+    },
+    "ValidityPeriod": {
+      "definition": "Dates pendant lesquelles l'ordre permanent est en vigueur."
+    },
+    "SystemMember": {
+      "definition": "Précise si le compte est débité ou crédité par l'ordre permanent."
+    },
+    "ResponsibleParty": {
+      "definition": "Identification unique et non équivoque du compte entre le titulaire du compte et le teneur de compte."
+    },
+    "LinkSetIdentification": {
+      "definition": "Identification unique permettant d'identifier de manière non équivoque l'ensemble lié dans lequel l'ordre permanent est défini. L'ensemble lié est un regroupement d'ordres permanents définis selon une séquence précise."
+    },
+    "LinkSetOrderIdentification": {
+      "definition": "Identification unique permettant d'identifier de manière non équivoque l'ordre permanent de transfert de liquidités au sein de l'ensemble lié."
+    },
+    "LinkSetOrderSequence": {
+      "definition": "Précise la séquence dans laquelle le système exécutera les ordres permanents de transfert de liquidités au sein de l'ensemble lié lorsque des liquidités supplémentaires sont requises."
+    },
+    "ExecutionType": {
+      "definition": "Définit si l'ordre permanent est exécuté par un déclencheur temporel ou par un déclencheur événementiel."
+    },
+    "Creditor": {
+      "definition": "Partie à laquelle un montant est dû."
+    },
+    "CreditorAccount": {
+      "definition": "Compte de trésorerie crédité à partir d'un mécanisme d'ordre permanent."
+    },
+    "Debtor": {
+      "definition": "Partie qui doit un montant au créancier (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Compte de trésorerie débité à partir d'un mécanisme d'ordre permanent."
+    },
+    "TotalsPerStandingOrder": {
+      "definition": "Montant global des ordres de transfert de liquidités prédéfinis « non encore exécutés » ou « définis » par un participant au système dans son périmètre de responsabilité au sein du système."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Indique si l'ordre permanent de transfert de liquidités est défini comme un ordre de remise à zéro. Si la valeur est vraie, l'ordre permanent de transfert de liquidités transférera la totalité des fonds hors du compte, de sorte que le solde résultant soit nul."
+    }
+  }
+}

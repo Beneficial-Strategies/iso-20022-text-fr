@@ -1,0 +1,12 @@
+{
+  "isoType": "Purpose2Choice",
+  "definition": "Précise le motif sous-jacent de l'opération de paiement.|Utilisation : le motif est utilisé par les clients finaux, c'est-à-dire la partie initiatrice, le débiteur (final) et le créancier (final), pour fournir des informations concernant la nature du paiement. Le motif est un élément de contenu qui n'est utilisé pour le traitement par aucun des agents intervenant dans la chaîne de paiement.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motif sous-jacent de l'opération de paiement, tel que publié dans une liste externe de codes de motif."
+    },
+    "Proprietary": {
+      "definition": "Motif, sous forme propriétaire."
+    }
+  }
+}

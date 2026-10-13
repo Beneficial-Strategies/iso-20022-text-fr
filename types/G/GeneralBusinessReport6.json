@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneralBusinessReport6",
+  "definition": "Rapporte soit sur les informations métier, soit sur une erreur métier.",
+  "isoElements": {
+    "BusinessInformationReference": {
+      "definition": "Identification unique et non ambiguë d'un système d'informations métier générales, attribuée par l'administrateur des transactions du système."
+    },
+    "GeneralBusinessOrError": {
+      "definition": "Informations métier demandées."
+    }
+  }
+}

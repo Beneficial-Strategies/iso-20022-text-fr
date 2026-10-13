@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingPrice1",
+  "definition": "Précise le prix de facturation d'un service.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Code de la devise dans laquelle le prix unitaire et le prix des frais d'origine sont exprimés."
+    },
+    "UnitPrice": {
+      "definition": "Prix par élément ou unité utilisé pour calculer les frais, exprimé dans la devise de tarification."
+    },
+    "Method": {
+      "definition": "Identifie comment les frais ont été calculés. ||Usage : en l'absence de ce code, les frais sont supposés calculés comme le produit (volume x prix unitaire)."
+    },
+    "Rule": {
+      "definition": "Indique que le calcul des frais repose sur une règle particulière. Le nom de la règle est porté ici et est défini par les partenaires commerciaux."
+    }
+  }
+}

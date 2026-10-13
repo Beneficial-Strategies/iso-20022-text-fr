@@ -1,0 +1,20 @@
+{
+  "isoType": "TotalNumber2",
+  "definition": "Informations de numérotation de l'opération de règlement.",
+  "isoElements": {
+    "CurrentInstructionNumber": {
+      "definition": "Numéro séquentiel de l'instruction dans une série d'instructions de règlement liées."
+    },
+    "TotalOfLinkedInstructions": {
+      "definition": "Nombre total d'instructions de règlement liées entre elles."
+    }
+  },
+  "isoRules": {
+    "CurrentInstructionNumberRule": {
+      "definition": "Si l'expéditeur souhaite indiquer que cette instruction est liée à une ou plusieurs instructions de règlement, CurrentInstructionNumber doit être renseigné."
+    },
+    "BlockTradeGuideline": {
+      "definition": "Dans une instruction d’opération en bloc, le nombre total d’enfants doit être fourni au moyen de TotalOfLinkedInstructions.|Le CurrentInstructionNumber du parent doit être 000000. Les enfants doivent avoir un CurrentInstructionNumber incrémental de 1 à 999999.|Pour plus de détails, consulter le document de pratique de marché pertinent sur www.smpg.info."
+    }
+  }
+}

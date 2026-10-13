@@ -1,0 +1,38 @@
+{
+  "isoType": "AdditionalBusinessProcess10Code",
+  "definition": "Précise le processus métier supplémentaire lié à un événement d'opération sur titres.",
+  "isoCodes": {
+    "CLAI": {
+      "name": "Réclamation ou compensation",
+      "definition": "Se rapporte à une réclamation sur l'événement d'opération sur titres associé."
+    },
+    "REVR": {
+      "name": "Notification d'annulation",
+      "definition": "Indique un préavis d'annulation de mouvement."
+    },
+    "TAXR": {
+      "name": "Remboursement d'impôt",
+      "definition": "Se rapporte à un remboursement d'impôt par les autorités sur l'événement d'opération sur titres associé."
+    },
+    "PPUT": {
+      "name": "Remboursement partiel sur exercice obligatoire de l'option de vente",
+      "definition": "Échange obligatoire partiel d'une partie des obligations, dont les titres échangés sont habituellement recommercialisés. L'émetteur peut offrir aux détenteurs le droit de conserver leurs titres au lieu de les échanger. Un tirage au sort sera utilisé pour déterminer l'éligibilité à l'événement."
+    },
+    "PPRE": {
+      "name": "Préfinancement partiel",
+      "definition": "Préfinancement partiel d'un instrument de dette avant l'échéance, désigné par tirage au sort. Un nouveau titre est émis avec une date d'échéance antérieure pour la partie refinancée (partie rappelée) et l'autre nouveau titre est émis avec la date d'échéance d'origine pour la partie non refinancée (partie restante). Applicable uniquement dans le cadre d'un événement d'opération sur titres de défaisance partielle."
+    },
+    "FPRE": {
+      "name": "Préfinancement intégral",
+      "definition": "Préfinancement intégral d'un instrument de dette par l'émetteur avant l'échéance initiale, lorsque l'émetteur dépose des actifs en fiducie. Applicable uniquement dans le cadre d'un événement sur titres de défaisance partielle."
+    },
+    "REAC": {
+      "name": "Action requise",
+      "definition": "Le produit ou les droits de l'événement obligatoire ne peuvent être payés que si l'action spécifiée est entreprise par le titulaire du compte."
+    },
+    "INCP": {
+      "name": "Paiement de prime incitative",
+      "definition": "L'événement est un paiement d'une prime d'incitation liée aux conditions de vote prescrites lors d'une assemblée générale."
+    }
+  }
+}

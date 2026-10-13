@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferReason1Code",
+  "definition": "Précise le motif du transfert d'actifs.",
+  "isoCodes": {
+    "TRAU": {
+      "name": "Possession indivise",
+      "definition": "Le transfert porte sur un bien en indivision."
+    },
+    "TRAC": {
+      "name": "Transfert entre conjoints",
+      "definition": "Le transfert a lieu entre conjoints."
+    },
+    "TRAT": {
+      "name": "Transaction",
+      "definition": "Le transfert est une transaction commerciale."
+    },
+    "TRAO": {
+      "name": "Transfert ordinaire",
+      "definition": "Le transfert est ordinaire."
+    },
+    "TRAI": {
+      "name": "Héritage",
+      "definition": "Le transfert est un héritage."
+    },
+    "TRAG": {
+      "name": "Donation",
+      "definition": "Le transfert est une donation."
+    },
+    "TPLD": {
+      "name": "Transfert de compte nanti",
+      "definition": "Transfert vers un compte nanti (dans certaines circonstances, les distributeurs doivent geler et transférer tout ou partie de la position vers un compte global distinct, par exemple en cas d'enquête exigée par l'administration fiscale ou la police)."
+    },
+    "TTDT": {
+      "name": "Transfert dans le cadre TDT",
+      "definition": "Instruction de transfert exécutée dans le cadre TDT (le cadre TDT est le modèle opérationnel promu par l'Association bancaire italienne pour les transferts ; la plupart des transferts, mais pas tous, seront exécutés conformément à ce processus)."
+    },
+    "TRPE": {
+      "name": "Transfert entre bénéficiaires différents",
+      "definition": "Transfert entre bénéficiaires différents avec application de la fiscalité (comptes ayant des titulaires différents)."
+    },
+    "TRAF": {
+      "name": "Scission",
+      "definition": "Le transfert résulte d'une scission ou d'une division."
+    },
+    "TRAN": {
+      "name": "Entre comptes propres",
+      "definition": "Le transfert a lieu entre comptes propres."
+    }
+  }
+}

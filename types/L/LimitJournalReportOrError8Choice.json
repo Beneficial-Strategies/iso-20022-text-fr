@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitJournalReportOrError8Choice",
+  "definition": "Définit le rapport commercial sur les limites comme étant soit un rapport sur les limites, soit une erreur fonctionnelle.",
+  "isoElements": {
+    "LimitJournal": {
+      "definition": "Informations demandées sur la limite."
+    },
+    "BusinessError": {
+      "definition": "Raison pour laquelle les informations fonctionnelles demandées ne sont pas fournies."
+    }
+  }
+}

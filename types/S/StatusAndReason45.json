@@ -1,0 +1,12 @@
+{
+  "isoType": "StatusAndReason45",
+  "definition": "Statut et motif d'un ordre instruit.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Statut et motif de l'opération."
+    },
+    "Transaction": {
+      "definition": "Détails des opérations déclarées."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "ServiceCategoryTotals8",
+  "definition": "Précise les totaux relatifs à la facture.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identification unique d'un compte-titres ou d'un compte espèces appartenant au client facturé."
+    },
+    "ParentAccountIdentification": {
+      "definition": "Identification unique d'un compte-titres parent ou d'un compte espèces parent appartenant au client facturé, lors du relevé de sous-comptes."
+    },
+    "BilledCustomerIdentification": {
+      "definition": "Identification du client facturé."
+    },
+    "Tax": {
+      "definition": "Informations détaillées sur la taxe appliquée."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Montant total de la facture, égal à la somme des montants totaux des lignes de facture, du montant total des ajustements de la facture (remises, déductions et frais) et des montants totaux de taxes."
+    },
+    "ServiceCategory": {
+      "definition": "Accord ou règles selon lesquels l'opération doit être traitée."
+    },
+    "ServiceItemTotals": {
+      "definition": "Totaux relatifs à la facture."
+    },
+    "ServiceItemCorrection": {
+      "definition": "Correction appliquée à la facture."
+    }
+  }
+}

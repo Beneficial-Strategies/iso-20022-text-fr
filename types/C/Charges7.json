@@ -1,0 +1,12 @@
+{
+  "isoType": "Charges7",
+  "definition": "Fournit des informations sur les frais liés à l'opération de paiement.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Frais d'opération à payer par le débiteur des frais."
+    },
+    "Agent": {
+      "definition": "Agent qui perçoit les frais d'opération ou auquel les frais d'opération sont dus."
+    }
+  }
+}

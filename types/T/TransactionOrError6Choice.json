@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionOrError6Choice",
+  "definition": "Choix entre les détails de l'opération ou une erreur métier lorsque les données demandées ne peuvent pas être récupérées.",
+  "isoElements": {
+    "Transaction": {
+      "definition": "Informations demandées sur l'opération de paiement."
+    },
+    "BusinessError": {
+      "definition": "Motif pour lequel les informations métier demandées ne sont pas fournies."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "Report6",
+  "definition": "Caractéristiques générales d'un relevé qui déclare des informations pour une date précise.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Numéro séquentiel du relevé."
+    },
+    "QueryReference": {
+      "definition": "Donne le nom et la référence de la requête."
+    },
+    "ReportIdentification": {
+      "definition": "Référence du rapport."
+    },
+    "ReportDateTime": {
+      "definition": "Date du relevé."
+    },
+    "Frequency": {
+      "definition": "Précise la régularité d'un événement."
+    },
+    "UpdateType": {
+      "definition": "Indique si le relevé est complet ou ne contient que les modifications."
+    },
+    "NoticeType": {
+      "definition": "Notifie le type de rapport transmis."
+    }
+  }
+}

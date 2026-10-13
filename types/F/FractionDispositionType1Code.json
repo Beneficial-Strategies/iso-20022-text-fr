@@ -1,0 +1,30 @@
+{
+  "isoType": "FractionDispositionType1Code",
+  "definition": "Précise comment les fractions résultant de titres dérivés seront traitées ou comment les décisions réparties au prorata seront arrondies, si un taux de répartition au prorata est fourni.",
+  "isoCodes": {
+    "BUYU": {
+      "name": "Rachat complémentaire",
+      "definition": "Acheter des titres jusqu'au nombre entier supérieur."
+    },
+    "CINL": {
+      "name": "Espèces en remplacement des fractions",
+      "definition": "Partie fractionnaire en espèces. Percevoir des espèces en lieu et place des fractions."
+    },
+    "DIST": {
+      "name": "Émission de fraction",
+      "definition": "Recevoir la distribution des fractions sous forme de titres."
+    },
+    "RDDN": {
+      "name": "Arrondi inférieur",
+      "definition": "Arrondi à l'entier inférieur le plus proche."
+    },
+    "RDUP": {
+      "name": "Arrondi supérieur",
+      "definition": "Arrondi à l'entier supérieur le plus proche."
+    },
+    "STAN": {
+      "name": "Arrondi au plus proche",
+      "definition": "Si la fraction est supérieure ou égale à 0,5 du titre résultant, arrondir à l'unité supérieure, sinon arrondir à l'unité inférieure (0.5)."
+    }
+  }
+}

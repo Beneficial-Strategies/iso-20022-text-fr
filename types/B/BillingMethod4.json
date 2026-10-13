@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingMethod4",
+  "definition": "Fournit les détails de la méthode C de calcul de la taxe.",
+  "isoElements": {
+    "ServiceDetail": {
+      "definition": "Précise les détails des services imposables selon la méthode C de calcul de la taxe."
+    },
+    "TaxCalculation": {
+      "definition": "Montant total des frais de service à taxer dans la devise d'accueil de la région fiscale, avec les calculs de taxe justificatifs. ||Usage : utilisé uniquement pour la méthode C de calcul de la taxe, et une seule occurrence par région fiscale peut être indiquée."
+    }
+  }
+}
